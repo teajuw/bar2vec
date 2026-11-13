@@ -1,34 +1,40 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 464" font-family="system-ui, -apple-system, 'Segoe UI', sans-serif">
-<title>Held-out macro-F1 for every round of the naming climb</title>
-<rect width="400" height="464" rx="10" fill="#fafaf8"/>
-<text x="20" y="28" font-size="14" font-weight="600" fill="#1c1c1a">Naming: macro-F1 on 154 held-out songs</text>
-<rect x="20" y="42" width="12" height="10" rx="2" fill="#3f6fc4"/><text x="38" y="51" font-size="12" fill="#55554f">kept</text>
-<rect x="78" y="42" width="12" height="10" rx="2" fill="#b5b5ae"/><text x="96" y="51" font-size="12" fill="#55554f">reverted or not adopted</text>
-<text x="20" y="80" font-size="13" fill="#1c1c1a">0 · Match each section to a text prompt</text>
-<rect x="20" y="86" width="39" height="12" rx="3" fill="#b9c6dc"/>
-<text x="67" y="97" font-size="13" fill="#55554f">9.0</text>
-<text x="20" y="122" font-size="13" fill="#1c1c1a">1 · First is intro, last is outro</text>
-<rect x="20" y="128" width="100" height="12" rx="3" fill="#3f6fc4"/>
-<text x="128" y="139" font-size="13" fill="#55554f">23.3</text>
-<text x="20" y="164" font-size="13" fill="#1c1c1a">2 · Most repeated group is the chorus</text>
-<rect x="20" y="170" width="149" height="12" rx="3" fill="#3f6fc4"/>
-<text x="177" y="181" font-size="13" fill="#55554f">34.6</text>
-<text x="20" y="206" font-size="13" fill="#1c1c1a">3 · One-off late section is the bridge</text>
-<rect x="20" y="212" width="182" height="12" rx="3" fill="#3f6fc4"/>
-<text x="210" y="223" font-size="13" fill="#55554f">42.4</text>
-<text x="20" y="248" font-size="13" fill="#1c1c1a">4 · Short repeats beside the chorus: pre/post</text>
-<rect x="20" y="254" width="228" height="12" rx="3" fill="#3f6fc4"/>
-<text x="256" y="265" font-size="13" fill="#55554f">53.0</text>
-<text x="20" y="290" font-size="13" fill="#1c1c1a">5 · Far less singing: instrumental</text>
-<rect x="20" y="296" width="241" height="12" rx="3" fill="#3f6fc4"/>
-<text x="269" y="307" font-size="13" fill="#55554f">56.0</text>
-<text x="20" y="332" font-size="13" fill="#6b6b65">6 · Loudness picks the chorus (reverted)</text>
-<rect x="20" y="338" width="240" height="12" rx="3" fill="#b5b5ae"/>
-<text x="268" y="349" font-size="13" fill="#55554f">55.7</text>
-<text x="20" y="374" font-size="13" fill="#1c1c1a">7 · Trained classifier (supervised)</text>
-<rect x="20" y="380" width="287" height="12" rx="3" fill="#3f6fc4"/>
-<text x="315" y="391" font-size="13" fill="#55554f">66.7</text>
-<text x="20" y="416" font-size="13" fill="#6b6b65">8 · Classifier with twice the labels (not adopted)</text>
-<rect x="20" y="422" width="288" height="12" rx="3" fill="#b5b5ae"/>
-<text x="316" y="433" font-size="13" fill="#55554f">67.0</text>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 350" font-family="system-ui, -apple-system, 'Segoe UI', sans-serif" font-size="12">
+<title>Step graph of held-out macro-F1 over the eight rounds of the naming climb</title>
+<rect width="400" height="350" rx="10" fill="#fafaf8"/>
+<text x="16" y="24" font-size="14" font-weight="600" fill="#1c1c1a">Naming: macro-F1 on 154 held-out songs</text>
+<circle cx="21" cy="40" r="4" fill="#3f6fc4"/><text x="30" y="44" fill="#55554f">kept</text>
+<circle cx="73" cy="40" r="4" fill="#fafaf8" stroke="#8a8a83" stroke-width="1.5"/><text x="82" y="44" fill="#55554f">tried, not kept</text>
+<rect x="181" y="36" width="8" height="8" fill="#d85a30" transform="rotate(45 185 40)"/><text x="195" y="44" fill="#55554f">supervised</text>
+<line x1="40" y1="300.0" x2="384" y2="300.0" stroke="#e1e0d9"/><text x="32" y="304.0" text-anchor="end" fill="#55554f">0</text>
+<line x1="40" y1="232.0" x2="384" y2="232.0" stroke="#e1e0d9"/><text x="32" y="236.0" text-anchor="end" fill="#55554f">20</text>
+<line x1="40" y1="164.0" x2="384" y2="164.0" stroke="#e1e0d9"/><text x="32" y="168.0" text-anchor="end" fill="#55554f">40</text>
+<line x1="40" y1="96.0" x2="384" y2="96.0" stroke="#e1e0d9"/><text x="32" y="100.0" text-anchor="end" fill="#55554f">60</text>
+<text x="40" y="318" text-anchor="middle" fill="#55554f">0</text>
+<text x="82" y="318" text-anchor="middle" fill="#55554f">1</text>
+<text x="124" y="318" text-anchor="middle" fill="#55554f">2</text>
+<text x="166" y="318" text-anchor="middle" fill="#55554f">3</text>
+<text x="208" y="318" text-anchor="middle" fill="#55554f">4</text>
+<text x="250" y="318" text-anchor="middle" fill="#55554f">5</text>
+<text x="292" y="318" text-anchor="middle" fill="#55554f">6</text>
+<text x="334" y="318" text-anchor="middle" fill="#55554f">7</text>
+<text x="376" y="318" text-anchor="middle" fill="#55554f">8</text>
+<text x="212" y="338" text-anchor="middle" fill="#55554f">round</text>
+<path d="M40,269.4 H82 V220.8 H124 V182.4 H166 V155.8 H208 V119.8 H250 V109.6 H376" fill="none" stroke="#3f6fc4" stroke-width="2" stroke-linejoin="round"/>
+<circle cx="292" cy="110.6" r="4" fill="#fafaf8" stroke="#8a8a83" stroke-width="1.5"/>
+<circle cx="376" cy="72.2" r="4" fill="#fafaf8" stroke="#8a8a83" stroke-width="1.5"/>
+<circle cx="40" cy="269.4" r="4" fill="#3f6fc4" stroke="#fafaf8" stroke-width="1.5"/>
+<circle cx="82" cy="220.8" r="4" fill="#3f6fc4" stroke="#fafaf8" stroke-width="1.5"/>
+<circle cx="124" cy="182.4" r="4" fill="#3f6fc4" stroke="#fafaf8" stroke-width="1.5"/>
+<circle cx="166" cy="155.8" r="4" fill="#3f6fc4" stroke="#fafaf8" stroke-width="1.5"/>
+<circle cx="208" cy="119.8" r="4" fill="#3f6fc4" stroke="#fafaf8" stroke-width="1.5"/>
+<circle cx="250" cy="109.6" r="4" fill="#3f6fc4" stroke="#fafaf8" stroke-width="1.5"/>
+<rect x="330" y="69.2" width="8" height="8" fill="#d85a30" transform="rotate(45 334 73.2)"/>
+<text x="48" y="286" text-anchor="start" fill="#1c1c1a">9.0</text>
+<text x="86" y="211" text-anchor="end" fill="#1c1c1a">23.3</text>
+<text x="128" y="173" text-anchor="end" fill="#1c1c1a">34.6</text>
+<text x="170" y="146" text-anchor="end" fill="#1c1c1a">42.4</text>
+<text x="212" y="110" text-anchor="end" fill="#1c1c1a">53.0</text>
+<text x="254" y="100" text-anchor="end" fill="#1c1c1a">56.0</text>
+<text x="338" y="62" text-anchor="end" fill="#1c1c1a">66.7</text>
+<text x="382" y="60" text-anchor="end" fill="#1c1c1a">67.0</text>
 </svg>

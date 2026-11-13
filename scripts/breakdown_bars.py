@@ -63,11 +63,19 @@ def main() -> None:
         names = [chr(ord("A") + min(order[int(k)], 25)) for k in N.repeat_groups(mat, ncfg["structure"]["repeat_tau"])]
         result[t["id"]] = [{"start": round(float(a), 2), "end": round(float(b), 2), "letter": n, "says": s, "name": role}
                            for a, b, n, s, role in zip(bounds[:-1], bounds[1:], names, says, roles)]
+        # "verse" is the leftover name. Two neighbours that sound unlike each other (different groups) and are both
+        # "verse" are flagged: on the Harmonix tuning songs such a section is a verse 47% of the time, against 73% otherwise.
+        segs = result[t["id"]]
+        for i, sg in enumerate(segs):
+            if sg["name"] == "verse" and any(0 <= j < len(segs) and segs[j]["name"] == "verse" and segs[j]["letter"] != sg["letter"]
+                                             for j in (i - 1, i + 1)):
+                sg["unsure"] = True
     (ROOT / "data" / "breakdown_bar2vec.json").write_text(json.dumps(result, indent=1, ensure_ascii=False))
     n = [len(v) for v in result.values()]
     repeats = np.mean([len(v) - len({s["letter"] for s in v}) > 0 for v in result.values()])
     kinds = np.median([len({s["letter"] for s in v}) for v in result.values()])
     from collections import Counter
+    print("unsure verses:", sum(bool(s.get("unsure")) for v in result.values() for s in v))
     print("names:", dict(Counter(s["name"] for v in result.values() for s in v).most_common()))
     print(f"bar2vec: {len(result)} songs, sections per song median {np.median(n):.0f} (min {min(n)}, max {max(n)}), "
           f"distinct letters median {kinds:.0f}, {repeats:.0%} of songs have a repeated section")

@@ -52,7 +52,7 @@ The beat tracker was trained on Harmonix, which would leak. Each song was theref
 
 Twelve rounds were run, one change each. A change was kept only if both the tuning songs and the held-out songs improved by more than the noise between songs. The score is the three-second boundary score on the 154 held-out songs.
 
-![Bar chart of the held-out boundary score for all twelve rounds of the cutter climb. Kept rounds rise from 34.5 to 42.6, 50.8, 67.9, 70.0 and 72.2, with the supervised filter at 75.4. Reverted rounds and checks sit level with the round before them, and round 11 drops to 68.9.](./climb.svg)
+![Step graph of the held-out boundary score over the twelve rounds of the cutter climb. The kept rounds climb from 34.5 to 42.6 at round 1 and 50.8 at round 3, jump to 67.9 at round 7 with one vector per bar, then reach 70.0 and 72.2. Six rounds that were tried and not kept sit on or below the line. The supervised filter at round 12 is marked separately at 75.4.](./climb.svg)
 
 | Round | Change | Held-out | Decision |
 |---|---|---|---|
@@ -90,7 +90,7 @@ Asking a text-audio model which section sounds like "the chorus of a song" score
 
 Each rule was one round, and each cleared noise on the held-out songs.
 
-![Bar chart of held-out macro-F1 for the naming climb. The text-prompt starting point scores 9.0. The five rules raise it to 23.3, 34.6, 42.4, 53.0 and 56.0. A loudness rule at 55.7 is reverted, a trained classifier reaches 66.7, and the same classifier with twice the labels scores 67.0 and is not adopted.](./names.svg)
+![Step graph of held-out macro-F1 over the eight rounds of the naming climb. From 9.0 for text prompts, the five rules step up to 23.3, 34.6, 42.4, 53.0 and 56.0. The loudness round at 55.7 sits on the line and was not kept. The trained classifier is marked separately at 66.7, and the same classifier with twice the labels at 67.0 was not kept.](./names.svg)
 
 | Round | Change | Held-out macro-F1 | Decision |
 |---|---|---|---|

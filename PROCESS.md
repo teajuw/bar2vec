@@ -150,6 +150,14 @@ Prompted by the user's questions about attention and where to find more labels. 
 - **Result:** in cross-validation the extra songs helped everything (transformer +5.4 ±2.9, boosted trees +3.9 ±2.9). On the held-out songs the boosted trees with the extra songs scored 67.0 against 66.7 without, +0.3 ±2.4: no gain. The transformer stayed 10.7 behind the trees and was not scored on held-out.
 - **Reading:** doubling same-dataset labels did not move held-out naming, so label count alone is not what limits the trained row at this size. Two failed outer steps in a row closed the naming climb.
 
+### 10c. Neighbour similarity as a naming signal (2026-11-13)
+
+From the user's listening on the playlist page: neighbouring sections with the same name sounded different, and the fault seemed to be the name, not the cut. The idea was to use block-to-block similarity as a stand-in for attention and park the learned version.
+
+- **The flag is real.** On the playlist, 123 neighbouring pairs share a name (89 verse-verse) and only 34 of them are in the same similarity group. On the 153 tuning songs, when two neighbours in different groups are both called "verse" (127 pairs), the annotators give them the same label 9% of the time.
+- **The fix was not found.** Most of these come from picking the wrong group as the chorus. Three rule families that use neighbour similarity or neighbour order were swept on the tuning songs; the best gained +0.5 ±0.6. No held-out round was spent and the rules are unchanged.
+- **What it leaves:** the disagreement can mark a name as uncertain on the page even though the rules cannot say what the section is instead. The trained namer already uses its neighbours' names.
+
 ### 11. Duplicate songs in Harmonix (found 2026-11-13)
 
 Harmonix contains repeats and remixes of the same song. Among the 487 songs used there are 17 title-and-artist groups (36 songs); 9 groups span splits, two pairs across train and held-out, and seven final songs have a sibling among the climb songs. This applies to the cutter results as well. For rule-based methods it can leak little, since nothing is memorised; it matters more for the trained rows (the cutter's merge model was fitted without excluding these; the trained namer excluded the three affected train songs).

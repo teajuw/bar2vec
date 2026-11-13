@@ -1,46 +1,49 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 632" font-family="system-ui, -apple-system, 'Segoe UI', sans-serif">
-<title>Held-out boundary score for every round of the cutter climb</title>
-<rect width="400" height="632" rx="10" fill="#fafaf8"/>
-<text x="20" y="28" font-size="14" font-weight="600" fill="#1c1c1a">Cutter: score on 154 held-out songs</text>
-<rect x="20" y="42" width="12" height="10" rx="2" fill="#3f6fc4"/><text x="38" y="51" font-size="12" fill="#55554f">kept</text>
-<rect x="78" y="42" width="12" height="10" rx="2" fill="#b5b5ae"/><text x="96" y="51" font-size="12" fill="#55554f">reverted, or a check that could not be adopted</text>
-<text x="20" y="80" font-size="13" fill="#1c1c1a">0 · CLAP, 10 s windows every 5 s</text>
-<rect x="20" y="86" width="148" height="12" rx="3" fill="#b9c6dc"/>
-<text x="176" y="97" font-size="13" fill="#55554f">34.5</text>
-<text x="20" y="122" font-size="13" fill="#1c1c1a">1 · Report each cut 2.5 s later</text>
-<rect x="20" y="128" width="183" height="12" rx="3" fill="#3f6fc4"/>
-<text x="211" y="139" font-size="13" fill="#55554f">42.6</text>
-<text x="20" y="164" font-size="13" fill="#6b6b65">2 · Lower the cut threshold (reverted)</text>
-<rect x="20" y="170" width="187" height="12" rx="3" fill="#b5b5ae"/>
-<text x="215" y="181" font-size="13" fill="#55554f">43.4</text>
-<text x="20" y="206" font-size="13" fill="#1c1c1a">3 · Place cuts between grid points</text>
-<rect x="20" y="212" width="218" height="12" rx="3" fill="#3f6fc4"/>
-<text x="246" y="223" font-size="13" fill="#55554f">50.8</text>
-<text x="20" y="248" font-size="13" fill="#6b6b65">4 · Window every 2 s (reverted)</text>
-<rect x="20" y="254" width="218" height="12" rx="3" fill="#b5b5ae"/>
-<text x="246" y="265" font-size="13" fill="#55554f">50.6</text>
-<text x="20" y="290" font-size="13" fill="#6b6b65">5 · One embedding per bar, human bars (check)</text>
-<rect x="20" y="296" width="291" height="12" rx="3" fill="#b5b5ae"/>
-<text x="319" y="307" font-size="13" fill="#55554f">67.7</text>
-<text x="20" y="332" font-size="13" fill="#6b6b65">6 · Bars from a tracker that saw the songs (check)</text>
-<rect x="20" y="338" width="293" height="12" rx="3" fill="#b5b5ae"/>
-<text x="321" y="349" font-size="13" fill="#55554f">68.2</text>
-<text x="20" y="374" font-size="13" fill="#1c1c1a">7 · Bars from a tracker that never saw the song</text>
-<rect x="20" y="380" width="292" height="12" rx="3" fill="#3f6fc4"/>
-<text x="320" y="391" font-size="13" fill="#55554f">67.9</text>
-<text x="20" y="416" font-size="13" fill="#6b6b65">8 · Block matching alone (reverted)</text>
-<rect x="20" y="422" width="292" height="12" rx="3" fill="#b5b5ae"/>
-<text x="320" y="433" font-size="13" fill="#55554f">67.8</text>
-<text x="20" y="458" font-size="13" fill="#1c1c1a">9 · Block matching proposes, change score vetoes</text>
-<rect x="20" y="464" width="301" height="12" rx="3" fill="#3f6fc4"/>
-<text x="329" y="475" font-size="13" fill="#55554f">70.0</text>
-<text x="20" y="500" font-size="13" fill="#1c1c1a">10 · MATPAC++ encoder in place of CLAP</text>
-<rect x="20" y="506" width="310" height="12" rx="3" fill="#3f6fc4"/>
-<text x="338" y="517" font-size="13" fill="#55554f">72.2</text>
-<text x="20" y="542" font-size="13" fill="#6b6b65">11 · Three bars of context per vector (reverted)</text>
-<rect x="20" y="548" width="296" height="12" rx="3" fill="#b5b5ae"/>
-<text x="324" y="559" font-size="13" fill="#55554f">68.9</text>
-<text x="20" y="584" font-size="13" fill="#1c1c1a">12 · Learned filter on the cuts (supervised)</text>
-<rect x="20" y="590" width="324" height="12" rx="3" fill="#3f6fc4"/>
-<text x="352" y="601" font-size="13" fill="#55554f">75.4</text>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 350" font-family="system-ui, -apple-system, 'Segoe UI', sans-serif" font-size="12">
+<title>Step graph of the held-out boundary score over the twelve rounds of the cutter climb</title>
+<rect width="400" height="350" rx="10" fill="#fafaf8"/>
+<text x="16" y="24" font-size="14" font-weight="600" fill="#1c1c1a">Cutter: score on 154 held-out songs</text>
+<circle cx="21" cy="40" r="4" fill="#3f6fc4"/><text x="30" y="44" fill="#55554f">kept</text>
+<circle cx="73" cy="40" r="4" fill="#fafaf8" stroke="#8a8a83" stroke-width="1.5"/><text x="82" y="44" fill="#55554f">tried, not kept</text>
+<rect x="181" y="36" width="8" height="8" fill="#d85a30" transform="rotate(45 185 40)"/><text x="195" y="44" fill="#55554f">supervised</text>
+<line x1="40" y1="300.0" x2="384" y2="300.0" stroke="#e1e0d9"/><text x="32" y="304.0" text-anchor="end" fill="#55554f">30</text>
+<line x1="40" y1="248.0" x2="384" y2="248.0" stroke="#e1e0d9"/><text x="32" y="252.0" text-anchor="end" fill="#55554f">40</text>
+<line x1="40" y1="196.0" x2="384" y2="196.0" stroke="#e1e0d9"/><text x="32" y="200.0" text-anchor="end" fill="#55554f">50</text>
+<line x1="40" y1="144.0" x2="384" y2="144.0" stroke="#e1e0d9"/><text x="32" y="148.0" text-anchor="end" fill="#55554f">60</text>
+<line x1="40" y1="92.0" x2="384" y2="92.0" stroke="#e1e0d9"/><text x="32" y="96.0" text-anchor="end" fill="#55554f">70</text>
+<text x="40" y="318" text-anchor="middle" fill="#55554f">0</text>
+<text x="68" y="318" text-anchor="middle" fill="#55554f">1</text>
+<text x="96" y="318" text-anchor="middle" fill="#55554f">2</text>
+<text x="124" y="318" text-anchor="middle" fill="#55554f">3</text>
+<text x="152" y="318" text-anchor="middle" fill="#55554f">4</text>
+<text x="180" y="318" text-anchor="middle" fill="#55554f">5</text>
+<text x="208" y="318" text-anchor="middle" fill="#55554f">6</text>
+<text x="236" y="318" text-anchor="middle" fill="#55554f">7</text>
+<text x="264" y="318" text-anchor="middle" fill="#55554f">8</text>
+<text x="292" y="318" text-anchor="middle" fill="#55554f">9</text>
+<text x="320" y="318" text-anchor="middle" fill="#55554f">10</text>
+<text x="348" y="318" text-anchor="middle" fill="#55554f">11</text>
+<text x="376" y="318" text-anchor="middle" fill="#55554f">12</text>
+<text x="212" y="338" text-anchor="middle" fill="#55554f">round</text>
+<path d="M40,276.6 H68 V234.5 H124 V191.8 H236 V102.9 H292 V92.0 H320 V80.6 H376" fill="none" stroke="#3f6fc4" stroke-width="2" stroke-linejoin="round"/>
+<circle cx="96" cy="230.3" r="4" fill="#fafaf8" stroke="#8a8a83" stroke-width="1.5"/>
+<circle cx="152" cy="192.9" r="4" fill="#fafaf8" stroke="#8a8a83" stroke-width="1.5"/>
+<circle cx="180" cy="104.0" r="4" fill="#fafaf8" stroke="#8a8a83" stroke-width="1.5"/>
+<circle cx="208" cy="101.4" r="4" fill="#fafaf8" stroke="#8a8a83" stroke-width="1.5"/>
+<circle cx="264" cy="103.4" r="4" fill="#fafaf8" stroke="#8a8a83" stroke-width="1.5"/>
+<circle cx="348" cy="97.7" r="4" fill="#fafaf8" stroke="#8a8a83" stroke-width="1.5"/>
+<circle cx="40" cy="276.6" r="4" fill="#3f6fc4" stroke="#fafaf8" stroke-width="1.5"/>
+<circle cx="68" cy="234.5" r="4" fill="#3f6fc4" stroke="#fafaf8" stroke-width="1.5"/>
+<circle cx="124" cy="191.8" r="4" fill="#3f6fc4" stroke="#fafaf8" stroke-width="1.5"/>
+<circle cx="236" cy="102.9" r="4" fill="#3f6fc4" stroke="#fafaf8" stroke-width="1.5"/>
+<circle cx="292" cy="92.0" r="4" fill="#3f6fc4" stroke="#fafaf8" stroke-width="1.5"/>
+<circle cx="320" cy="80.6" r="4" fill="#3f6fc4" stroke="#fafaf8" stroke-width="1.5"/>
+<rect x="372" y="59.9" width="8" height="8" fill="#d85a30" transform="rotate(45 376 63.9)"/>
+<text x="48" y="293" text-anchor="start" fill="#1c1c1a">34.5</text>
+<text x="72" y="225" text-anchor="end" fill="#1c1c1a">42.6</text>
+<text x="128" y="182" text-anchor="end" fill="#1c1c1a">50.8</text>
+<text x="238" y="124" text-anchor="middle" fill="#1c1c1a">67.9</text>
+<text x="228" y="152" text-anchor="end" fill="#1c1c1a" font-weight="600">one vector per bar</text>
+<text x="292" y="112" text-anchor="middle" fill="#1c1c1a">70.0</text>
+<text x="322" y="71" text-anchor="end" fill="#1c1c1a">72.2</text>
+<text x="380" y="53" text-anchor="end" fill="#1c1c1a">75.4</text>
 </svg>
