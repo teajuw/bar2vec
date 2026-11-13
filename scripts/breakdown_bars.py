@@ -6,8 +6,12 @@ Cuts come from scripts/cuts.py with the settings in cuts.json, the cutter tuned 
 block matching proposes cuts on bar starts and the change score vetoes weak ones. Letters are the
 namer's own repeat groups (names.py), in order of first appearance, so sections that share a letter
 are the ones the namer treated as the same material. Descriptions come from the CLAP window readout, averaged over the windows centred in the section.
-Names (intro, verse, chorus, ...) come from the training-free rules in names.py with the settings in
-names.json: position, repetition and neighbours, plus a sung-or-not score from the CLAP windows.
+Names (intro, verse, chorus, ...) come from the trained namer (name_model.py, fitted on 150 annotated
+Harmonix songs), which needs scripts/playlist_bars_extra.py to have run. On bar2vec's own cuts it scores
+53.1 macro-F1 by time on held-out songs against 44.2 for the rules (PROCESS.md 10d). A name the classifier
+gives less than 0.8 probability is marked unsure: on held-out songs such names are right about half the
+time, against 87% for the rest. --namer rules gives the training-free rules in names.py instead
+(position, repetition and neighbours, plus a sung-or-not score from the CLAP windows).
 Writes data/breakdown_bar2vec.json in the same format as breakdown.py.
 """
 import argparse
@@ -28,14 +32,20 @@ ROOT = Path(__file__).resolve().parent.parent
 def main() -> None:
     ap = argparse.ArgumentParser()
     ap.add_argument("--show", help="print the breakdown of one song")
+    ap.add_argument("--namer", default="trained", choices=["trained", "rules"])
     args = ap.parse_args()
     cfg = json.loads((ROOT / "cuts.json").read_text())
     assert cfg["models"] == ["matpacbar_fold"], "this script feeds MATPAC++ bar embeddings only"
     z = np.load(ROOT / "data" / "pl_matpacbar.npz")
     r = Readout("clap_w10_h5")
     ncfg = json.loads((ROOT / "names.json").read_text())
-    assert not ncfg.get("trained"), "the playlist page uses the training-free namer"
     text = nm_run.text_vectors(ncfg["encoder"], ncfg["extra_prompts"])
+    if args.namer == "trained":
+        import name_model
+
+        model = name_model.load(True)
+        extra = {"clapbar_fold": np.load(ROOT / "data" / "pl_clapbar.npz"), "loudbar_fold": np.load(ROOT / "data" / "pl_loudbar.npz")}
+        assert all(np.array_equal(v["track"], z["track"]) for v in extra.values()), "run scripts/playlist_bars_extra.py"
     result = {}
     for t in r.ix.tracks:
         own = z["track"] == t["id"]
@@ -57,17 +67,26 @@ def main() -> None:
         vocal = (d - np.median(d)) / (d.std() + 1e-9)
         mat = N.section_vectors(bounds, starts, emb)
         roles = N.by_structure(bounds, mat, ncfg["structure"], vocal)
+        sure = None
+        if args.namer == "trained":
+            by_model = {"matpacbar_fold": emb, **{m: v["emb"][own] for m, v in extra.items()}}
+            proba = model["clf"].predict_proba(name_model.design(*name_model.raw_features(bounds, starts, by_model, text), model))
+            roles = [N.LABELS[int(model["clf"].classes_[i])] for i in proba.argmax(1)]
+            sure = proba.max(1)
         order: dict[int, int] = {}
         for k in N.repeat_groups(mat, ncfg["structure"]["repeat_tau"]):  # same grouping the namer uses
             order.setdefault(int(k), len(order))
         names = [chr(ord("A") + min(order[int(k)], 25)) for k in N.repeat_groups(mat, ncfg["structure"]["repeat_tau"])]
         result[t["id"]] = [{"start": round(float(a), 2), "end": round(float(b), 2), "letter": n, "says": s, "name": role}
                            for a, b, n, s, role in zip(bounds[:-1], bounds[1:], names, says, roles)]
-        # "verse" is the leftover name. Two neighbours that sound unlike each other (different groups) and are both
+        # Trained namer: unsure below 0.8 probability. Rules: "verse" is the leftover name. Two neighbours that sound unlike each other (different groups) and are both
         # "verse" are flagged: on the Harmonix tuning songs such a section is a verse 47% of the time, against 73% otherwise.
         segs = result[t["id"]]
         for i, sg in enumerate(segs):
-            if sg["name"] == "verse" and any(0 <= j < len(segs) and segs[j]["name"] == "verse" and segs[j]["letter"] != sg["letter"]
+            if sure is not None:
+                if sure[i] < 0.8:
+                    sg["unsure"] = True
+            elif sg["name"] == "verse" and any(0 <= j < len(segs) and segs[j]["name"] == "verse" and segs[j]["letter"] != sg["letter"]
                                              for j in (i - 1, i + 1)):
                 sg["unsure"] = True
     (ROOT / "data" / "breakdown_bar2vec.json").write_text(json.dumps(result, indent=1, ensure_ascii=False))
@@ -75,7 +94,7 @@ def main() -> None:
     repeats = np.mean([len(v) - len({s["letter"] for s in v}) > 0 for v in result.values()])
     kinds = np.median([len({s["letter"] for s in v}) for v in result.values()])
     from collections import Counter
-    print("unsure verses:", sum(bool(s.get("unsure")) for v in result.values() for s in v))
+    print("unsure names:", sum(bool(s.get("unsure")) for v in result.values() for s in v))
     print("names:", dict(Counter(s["name"] for v in result.values() for s in v).most_common()))
     print(f"bar2vec: {len(result)} songs, sections per song median {np.median(n):.0f} (min {min(n)}, max {max(n)}), "
           f"distinct letters median {kinds:.0f}, {repeats:.0%} of songs have a repeated section")

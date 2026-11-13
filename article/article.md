@@ -26,6 +26,18 @@ Naming, on the same 180 songs, given the annotated boundaries. The score is macr
 
 The scores on the locked songs match the held-out scores from tuning to within a point and a half, so the rounds of tuning did not inflate them.
 
+End to end, on the 154 held-out songs: bar2vec cuts the song and then names its own sections. Its sections do not line up one to one with the annotated ones, so the score is by time: each second of an annotated section is compared with the name bar2vec gives that second.
+
+| Names from | On | Macro-F1 by time | Seconds named right |
+|---|---|---|---|
+| The annotation (best possible) | bar2vec's cuts | 89.5 ±1.6 | 91.0% |
+| Structural rules | annotated boundaries | 54.9 ±4.3 | 65.7% |
+| Structural rules | bar2vec's cuts | 44.2 ±3.4 | 54.9% |
+| Trained classifier | annotated boundaries | 66.4 ±4.2 | 79.0% |
+| Trained classifier | bar2vec's cuts | 53.1 ±2.9 | 67.9% |
+
+The cuts cost the rules 10.7 points. Misplaced boundaries alone account for 4.6 of them; the rest is the rules choosing different names when given the cuts. Naming is the weaker half: perfect names on the same cuts would score 89.5.
+
 ## How it started
 
 The project began as moment search: cut every song in a playlist into overlapping 10-second windows, embed each window with a text-audio model, and let a text query return timestamps instead of whole songs. A side product was a song breakdown that cut each song where neighbouring windows changed the most.
@@ -116,7 +128,8 @@ The largest remaining loss for the rules is picking the wrong group as the choru
 ## Limits
 
 - Only Harmonix has been measured. The naming rules encode Western pop song form.
-- Names were scored on human-annotated boundaries. Names on bar2vec's own cuts are on the playlist page but have not been scored.
+- The end-to-end scores are on the 154 held-out songs. The 180 locked songs were scored with annotated boundaries only.
+- The trained classifier was fitted on annotated boundaries and loses 13 points on bar2vec's cuts.
 - The scores are not comparable with the paper's: the song subsets and audio differ.
 - 487 of Harmonix's 912 songs could be matched to audio and aligned. The ones that aligned may differ from the ones that did not.
 - Harmonix contains repeats and remixes. Nine groups of duplicates span the splits, which matters most for the two trained rows.
@@ -125,7 +138,7 @@ The largest remaining loss for the rules is picking the wrong group as the choru
 
 ## Next
 
-- Score the names end to end, on bar2vec's own cuts.
+- Fit the trained classifier on bar2vec's own cuts instead of annotated boundaries.
 - Compare songs section by section instead of averaging a whole song into one vector.
 - Re-cut inside a long section at a finer scale.
 - Test on music outside Harmonix.

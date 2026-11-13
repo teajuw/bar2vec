@@ -1,0 +1,163 @@
+{
+ "split": "train",
+ "songs": 153,
+ "metric": "by time: macro-F1 / share of seconds right, x100, \u00b195% bootstrap over songs",
+ "sections_per_song": {
+  "annotated": 10.3,
+  "cuts": 10.5
+ },
+ "rows": {
+  "oracle@annotated": {
+   "f1": 100.0,
+   "f1_ci": 0.0,
+   "acc": 100.0,
+   "acc_ci": 0.0
+  },
+  "ceiling@cuts": {
+   "f1": 89.9,
+   "f1_ci": 1.6,
+   "acc": 91.6,
+   "acc_ci": 1.3
+  },
+  "rules@annotated": {
+   "f1": 55.1,
+   "f1_ci": 3.9,
+   "acc": 68.3,
+   "acc_ci": 4.3
+  },
+  "rules@cuts": {
+   "f1": 44.7,
+   "f1_ci": 3.6,
+   "acc": 60.5,
+   "acc_ci": 3.8
+  },
+  "trained@annotated": {
+   "f1": 99.4,
+   "f1_ci": 0.8,
+   "acc": 99.5,
+   "acc_ci": 0.6
+  },
+  "trained@cuts": {
+   "f1": 65.8,
+   "f1_ci": 4.0,
+   "acc": 76.6,
+   "acc_ci": 2.8
+  },
+  "rules@moved": {
+   "f1": 51.0,
+   "f1_ci": 3.6,
+   "acc": 64.8,
+   "acc_ci": 4.1
+  }
+ },
+ "paired": {
+  "rules@cuts - rules@annotated": {
+   "d_f1": -10.3,
+   "d_f1_ci": 3.6,
+   "d_acc": -7.8,
+   "d_acc_ci": 3.3
+  },
+  "trained@cuts - trained@annotated": {
+   "d_f1": -33.6,
+   "d_f1_ci": 3.9,
+   "d_acc": -22.9,
+   "d_acc_ci": 2.8
+  },
+  "trained@cuts - rules@cuts": {
+   "d_f1": 21.0,
+   "d_f1_ci": 3.9,
+   "d_acc": 16.1,
+   "d_acc_ci": 3.1
+  },
+  "rules@cuts - ceiling@cuts": {
+   "d_f1": -45.1,
+   "d_f1_ci": 3.7,
+   "d_acc": -31.1,
+   "d_acc_ci": 3.7
+  },
+  "rules@moved - rules@annotated": {
+   "d_f1": -4.0,
+   "d_f1_ci": 1.3,
+   "d_acc": -3.5,
+   "d_acc_ci": 0.9
+  },
+  "rules@cuts - rules@moved": {
+   "d_f1": -6.3,
+   "d_f1_ci": 3.1,
+   "d_acc": -4.3,
+   "d_acc_ci": 3.0
+  }
+ },
+ "f1_per_label": {
+  "oracle@annotated": {
+   "intro": 100.0,
+   "verse": 100.0,
+   "prechorus": 100.0,
+   "chorus": 100.0,
+   "postchorus": 100.0,
+   "bridge": 100.0,
+   "outro": 100.0,
+   "instrumental": 100.0
+  },
+  "ceiling@cuts": {
+   "intro": 93.3,
+   "verse": 92.1,
+   "prechorus": 81.9,
+   "chorus": 92.7,
+   "postchorus": 82.3,
+   "bridge": 93.8,
+   "outro": 94.7,
+   "instrumental": 88.3
+  },
+  "rules@annotated": {
+   "intro": 79.0,
+   "verse": 73.2,
+   "prechorus": 53.2,
+   "chorus": 77.0,
+   "postchorus": 8.7,
+   "bridge": 56.1,
+   "outro": 66.6,
+   "instrumental": 26.7
+  },
+  "rules@cuts": {
+   "intro": 67.6,
+   "verse": 65.0,
+   "prechorus": 33.1,
+   "chorus": 72.4,
+   "postchorus": 4.7,
+   "bridge": 43.8,
+   "outro": 54.6,
+   "instrumental": 16.7
+  },
+  "trained@annotated": {
+   "intro": 98.8,
+   "verse": 99.7,
+   "prechorus": 99.6,
+   "chorus": 99.5,
+   "postchorus": 97.7,
+   "bridge": 100.0,
+   "outro": 100.0,
+   "instrumental": 100.0
+  },
+  "trained@cuts": {
+   "intro": 78.7,
+   "verse": 82.7,
+   "prechorus": 51.6,
+   "chorus": 83.5,
+   "postchorus": 38.5,
+   "bridge": 62.8,
+   "outro": 69.7,
+   "instrumental": 58.7
+  },
+  "rules@moved": {
+   "intro": 73.4,
+   "verse": 70.1,
+   "prechorus": 42.2,
+   "chorus": 73.4,
+   "postchorus": 5.2,
+   "bridge": 55.2,
+   "outro": 64.2,
+   "instrumental": 24.7
+  }
+ }
+}

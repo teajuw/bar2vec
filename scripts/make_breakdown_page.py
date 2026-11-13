@@ -85,7 +85,7 @@ def main() -> None:
             segs = data[name][str(t["id"])]
             buttons = "".join(
                 f'<button style="flex:{s["end"] - s["start"]:.1f} 1 0;background:{colour(s["letter"])}" '
-                f'title="{fmt(s["start"])}–{fmt(s["end"])}: {e((s["name"] + (" (unsure: sounds unlike the verse next to it)" if s.get("unsure") else "") + " — ") if "name" in s else "")}{e("; ".join(s["says"]))}" '
+                f'title="{fmt(s["start"])}–{fmt(s["end"])}: {e((s["name"] + (" (unsure)" if s.get("unsure") else "") + " — ") if "name" in s else "")}{e("; ".join(s["says"]))}" '
                 f'aria-label="Play section {s["letter"]} of {e(t["title"])} from {fmt(s["start"])}" '
                 f'data-start="{s["start"]:.2f}" data-end="{s["end"]:.2f}">{SHORT.get(s.get("name"), s["letter"])}{"?" if s.get("unsure") else ""}</button>'
                 for s in segs
@@ -110,9 +110,9 @@ def main() -> None:
         "<h1>Song breakdowns</h1>"
         f'<p class="sub">{len(tracks)} songs · each bar is the song from start to end, cut where the sound changes · '
         "sections with the same letter sound alike within that bar · letters are not comparable between bars · "
-        "on the third bar each section also has a name (intro, verse, pre, chorus, post, bridge, outro, inst) from rules about song shape; "
-        "a name ending in ? is a verse that sounds unlike the verse next to it, so one of the two is probably something else; "
-        "colour shows the groups of like-sounding sections those rules worked from · click or drag anywhere on the bars of a song to jump there and keep playing; "
+        "on the third bar each section also has a name (intro, verse, pre, chorus, post, bridge, outro, inst) from a classifier trained on 150 annotated songs; "
+        "a name ending in ? is one the classifier is unsure of (about half of those are wrong); "
+        "colour shows the groups of like-sounding sections the namer worked from · click or drag anywhere on the bars of a song to jump there and keep playing; "
         "the line shows where you are and the section under it is highlighted in each bar · space pauses, left and right arrows skip 5 seconds</p>"
         f'{"".join(parts)}</main><script>{JS}</script></body></html>'
     )

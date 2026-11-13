@@ -158,6 +158,25 @@ From the user's listening on the playlist page: neighbouring sections with the s
 - **The fix was not found.** Most of these come from picking the wrong group as the chorus. Three rule families that use neighbour similarity or neighbour order were swept on the tuning songs; the best gained +0.5 ±0.6. No held-out round was spent and the rules are unchanged.
 - **What it leaves:** the disagreement can mark a name as uncertain on the page even though the rules cannot say what the section is instead. The trained namer already uses its neighbours' names.
 
+### 10d. Names end to end, on bar2vec's own cuts (2026-11-13)
+
+A measurement, not a round: nothing was tuned, and the 180 final songs were not touched. `scripts/nm_e2e.py` runs the cutter (v10), names its sections, and scores by time: each second of an annotated section against the name bar2vec gives that second. Macro-F1 over the eight labels, 154 held-out songs (results in `.claude/hillclimb/section-names-e2e/`).
+
+| Row | Macro-F1 by time | Seconds named right |
+|---|---|---|
+| Best possible names on bar2vec's cuts | 89.5 ±1.6 | 91.0% |
+| Rules on annotated edges | 54.9 ±4.3 | 65.7% |
+| Rules on bar2vec's cuts | 44.2 ±3.4 | 54.9% |
+| Trained namer on annotated edges | 66.4 ±4.2 | 79.0% |
+| Trained namer on bar2vec's cuts | 53.1 ±2.9 | 67.9% |
+
+- **The cuts cost the rules 10.7 ±3.7 points.** 4.6 ±1.3 is misplaced edges alone (the rules' names from annotated edges carried onto the cut sections). The other 6.1 ±3.3 is the rules naming differently when given the cuts.
+- **The namer is still the larger loss.** Perfect names on the same cuts would score 89.5; the rules are 45 points below that.
+- **The trained namer keeps its lead on the cuts:** +8.9 ±2.9 over the rules. It was fitted on annotated edges and loses 13.3 on cuts.
+- The tuning songs give the same picture for the rules (55.1 on annotated edges, 44.7 on cuts).
+
+Acted on the same day: the playlist page now uses the trained namer (`scripts/playlist_bars_extra.py` adds per-bar CLAP and loudness for the playlist; `scripts/breakdown_bars.py --namer rules` gives the old names). 250 of 760 section names changed, and unlike neighbours both called "verse" fell from 77 to 51. A name is marked "?" when the classifier gives it less than 0.8 probability (252 of 760). On held-out songs with annotated edges, names below 0.8 are right 46% of the time and the rest 87%; the 0.8 line was picked after seeing those held-out bins, so treat the two rates as a description, not a test. The new names have not been listened to.
+
 ### 11. Duplicate songs in Harmonix (found 2026-11-13)
 
 Harmonix contains repeats and remixes of the same song. Among the 487 songs used there are 17 title-and-artist groups (36 songs); 9 groups span splits, two pairs across train and held-out, and seven final songs have a sibling among the climb songs. This applies to the cutter results as well. For rule-based methods it can leak little, since nothing is memorised; it matters more for the trained rows (the cutter's merge model was fitted without excluding these; the trained namer excluded the three affected train songs).
