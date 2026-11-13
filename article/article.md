@@ -8,6 +8,15 @@ Nobody tells bar2vec where the chorus is: an audio model that has never seen a l
 
 Each cell above is one bar, coloured by nothing except what the audio model returned for it. The song's structure is already visible before any cut or name is drawn: the first two verses share one colour, the first two choruses another, and the last chorus is a near match. bar2vec's job is to read that pattern off.
 
+How a bar becomes a colour:
+
+1. Each bar's embedding is 3,840 numbers. Nobody can look at that.
+2. Subtract the song's average embedding from every bar, so what is left is how each bar differs from the song as a whole.
+3. PCA finds the three directions along which the bars differ most. Each bar is now three numbers instead of 3,840.
+4. A colour on a screen is also three numbers: red, green and blue. So the first direction becomes red, the second green and the third blue, each stretched to fill the range from dark to bright.
+
+Two bars with similar embeddings get similar colours, and that is all the colours mean. Which hue a section lands on is arbitrary: teal does not mean chorus. The three directions keep about 35% of the variation between bars. The cutter works on all 3,840 numbers, which is how it separates sections that look close in the strip.
+
 ## Terms
 
 This article uses the following definitions:
