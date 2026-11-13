@@ -1,0 +1,15 @@
+[
+ {
+  "role": "user",
+  "content": "Name each section of this song: Wheels \u2014 Jamie Cullum (Pop, 9 sections)\nsection edges (s): [0.2, 13.9, 41.4, 68.8, 82.5, 109.9, 137.4, 144.2, 178.5, 212.8]\nsettings: {\"encoder\": \"clapbar_fold\", \"prompts\": {\"intro\": [\"the intro of a song\"], \"verse\": [\"the verse of a song\"], \"prechorus\": [\"the pre-chorus of a song\"], \"chorus\": [\"the chorus of a song\"], \"postchorus\": [\"the post-chorus of a song\"], \"bridge\": [\"the bridge of a song\"], \"outro\": [\"the outro of a song\"], \"instrumental\": [\"an instrumental section of a song\"]}, \"extra_models\": [\"matpacbar_fold\"], \"structure\": {\"model\": \"matpacbar_fold\", \"position\": true, \"repeat_tau\": 0.4, \"bridge\": true, \"prepost\": false, \"short_s\": 20}}"
+ },
+ {
+  "role": "assistant",
+  "content": "{\"names\": [\"intro\", \"verse\", \"chorus\", \"verse\", \"verse\", \"chorus\", \"bridge\", \"bridge\", \"outro\"], \"top3_scores\": [[[\"outro\", 0.18], [\"chorus\", 0.165], [\"bridge\", 0.163]], [[\"bridge\", 0.224], [\"verse\", 0.176], [\"outro\", 0.169]], [[\"bridge\", 0.257], [\"outro\", 0.218], [\"chorus\", 0.207]], [[\"bridge\", 0.245], [\"verse\", 0.217], [\"outro\", 0.183]], [[\"bridge\", 0.284], [\"verse\", 0.227], [\"outro\", 0.22]], [[\"bridge\", 0.244], [\"outro\", 0.218], [\"verse\", 0.191]], [[\"bridge\", 0.192], [\"verse\", 0.185], [\"outro\", 0.149]], [[\"bridge\", 0.254], [\"outro\", 0.233], [\"verse\", 0.191]], [[\"bridge\", 0.243], [\"verse\", 0.195], [\"outro\", 0.191]]]}"
+ },
+ {
+  "role": "tool_result",
+  "name": "grader",
+  "content": "{\"sections\": [{\"start\": 0.2, \"end\": 13.9, \"annotated\": \"intro\", \"scored_as\": \"intro\", \"named\": \"intro\", \"right\": true}, {\"start\": 13.9, \"end\": 41.4, \"annotated\": \"verse\", \"scored_as\": \"verse\", \"named\": \"verse\", \"right\": true}, {\"start\": 41.4, \"end\": 68.8, \"annotated\": \"chorus\", \"scored_as\": \"chorus\", \"named\": \"chorus\", \"right\": true}, {\"start\": 68.8, \"end\": 82.5, \"annotated\": \"transition\", \"scored_as\": \"instrumental\", \"named\": \"verse\", \"right\": false}, {\"start\": 82.5, \"end\": 109.9, \"annotated\": \"verse\", \"scored_as\": \"verse\", \"named\": \"verse\", \"right\": true}, {\"start\": 109.9, \"end\": 137.4, \"annotated\": \"chorus\", \"scored_as\": \"chorus\", \"named\": \"chorus\", \"right\": true}, {\"start\": 137.4, \"end\": 144.2, \"annotated\": \"transition\", \"scored_as\": \"instrumental\", \"named\": \"bridge\", \"right\": false}, {\"start\": 144.2, \"end\": 178.5, \"annotated\": \"bridge\", \"scored_as\": \"bridge\", \"named\": \"bridge\", \"right\": true}, {\"start\": 178.5, \"end\": 212.8, \"annotated\": \"chorus\", \"scored_as\": \"chorus\", \"named\": \"outro\", \"right\": false}], \"grade\": {\"acc\": 0.6667}}"
+ }
+]

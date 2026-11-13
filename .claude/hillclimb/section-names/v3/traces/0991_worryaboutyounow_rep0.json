@@ -1,0 +1,15 @@
+[
+ {
+  "role": "user",
+  "content": "Name each section of this song: Worry About You \u2014 2AM Club (Pop, 10 sections)\nsection edges (s): [0.1, 2.9, 25.4, 50.7, 77.5, 100.0, 121.1, 133.8, 145.1, 167.6, 190.2]\nsettings: {\"encoder\": \"clapbar_fold\", \"prompts\": {\"intro\": [\"the intro of a song\"], \"verse\": [\"the verse of a song\"], \"prechorus\": [\"the pre-chorus of a song\"], \"chorus\": [\"the chorus of a song\"], \"postchorus\": [\"the post-chorus of a song\"], \"bridge\": [\"the bridge of a song\"], \"outro\": [\"the outro of a song\"], \"instrumental\": [\"an instrumental section of a song\"]}, \"extra_models\": [\"matpacbar_fold\"], \"structure\": {\"model\": \"matpacbar_fold\", \"position\": true, \"repeat_tau\": 0.4, \"bridge\": true, \"prepost\": false, \"short_s\": 20}}"
+ },
+ {
+  "role": "assistant",
+  "content": "{\"names\": [\"intro\", \"verse\", \"chorus\", \"verse\", \"chorus\", \"verse\", \"verse\", \"bridge\", \"bridge\", \"chorus\"], \"top3_scores\": [[[\"bridge\", 0.183], [\"verse\", 0.174], [\"outro\", 0.146]], [[\"verse\", 0.259], [\"bridge\", 0.223], [\"outro\", 0.209]], [[\"bridge\", 0.134], [\"verse\", 0.113], [\"outro\", 0.113]], [[\"bridge\", 0.209], [\"verse\", 0.208], [\"outro\", 0.186]], [[\"bridge\", 0.136], [\"verse\", 0.12], [\"outro\", 0.103]], [[\"verse\", 0.225], [\"outro\", 0.195], [\"bridge\", 0.183]], [[\"outro\", 0.148], [\"verse\", 0.118], [\"intro\", 0.096]], [[\"verse\", 0.168], [\"bridge\", 0.167], [\"outro\", 0.151]], [[\"verse\", 0.178], [\"outro\", 0.175], [\"bridge\", 0.147]], [[\"bridge\", 0.182], [\"verse\", 0.172], [\"outro\", 0.156]]]}"
+ },
+ {
+  "role": "tool_result",
+  "name": "grader",
+  "content": "{\"sections\": [{\"start\": 0.1, \"end\": 2.9, \"annotated\": \"intro\", \"scored_as\": \"intro\", \"named\": \"intro\", \"right\": true}, {\"start\": 2.9, \"end\": 25.4, \"annotated\": \"verse1\", \"scored_as\": \"verse\", \"named\": \"verse\", \"right\": true}, {\"start\": 25.4, \"end\": 50.7, \"annotated\": \"chorus\", \"scored_as\": \"chorus\", \"named\": \"chorus\", \"right\": true}, {\"start\": 50.7, \"end\": 77.5, \"annotated\": \"verse2\", \"scored_as\": \"verse\", \"named\": \"verse\", \"right\": true}, {\"start\": 77.5, \"end\": 100.0, \"annotated\": \"chorus\", \"scored_as\": \"chorus\", \"named\": \"chorus\", \"right\": true}, {\"start\": 100.0, \"end\": 121.1, \"annotated\": \"bridge\", \"scored_as\": \"bridge\", \"named\": \"verse\", \"right\": false}, {\"start\": 121.1, \"end\": 133.8, \"annotated\": \"bridge2\", \"scored_as\": \"bridge\", \"named\": \"verse\", \"right\": false}, {\"start\": 133.8, \"end\": 145.1, \"annotated\": \"transition\", \"scored_as\": \"instrumental\", \"named\": \"bridge\", \"right\": false}, {\"start\": 145.1, \"end\": 167.6, \"annotated\": \"chorus2\", \"scored_as\": \"chorus\", \"named\": \"bridge\", \"right\": false}, {\"start\": 167.6, \"end\": 190.2, \"annotated\": \"chorus\", \"scored_as\": \"chorus\", \"named\": \"chorus\", \"right\": true}], \"grade\": {\"acc\": 0.6}}"
+ }
+]

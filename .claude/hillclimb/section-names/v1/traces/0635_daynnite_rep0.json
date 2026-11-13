@@ -1,0 +1,15 @@
+[
+ {
+  "role": "user",
+  "content": "Name each section of this song: Day N Nite (Nightmare) \u2014 Kid Cudi (Hip-Hop, 8 sections)\nsection edges (s): [0.0, 14.0, 41.8, 69.6, 97.5, 125.3, 153.1, 180.9, 216.2]\nsettings: {\"encoder\": \"clapbar_fold\", \"prompts\": {\"intro\": [\"the intro of a song\"], \"verse\": [\"the verse of a song\"], \"prechorus\": [\"the pre-chorus of a song\"], \"chorus\": [\"the chorus of a song\"], \"postchorus\": [\"the post-chorus of a song\"], \"bridge\": [\"the bridge of a song\"], \"outro\": [\"the outro of a song\"], \"instrumental\": [\"an instrumental section of a song\"]}, \"extra_models\": [\"matpacbar_fold\"], \"structure\": {\"model\": \"matpacbar_fold\", \"position\": true, \"repeat_tau\": null, \"bridge\": false, \"prepost\": false, \"short_s\": 20}}"
+ },
+ {
+  "role": "assistant",
+  "content": "{\"names\": [\"intro\", \"verse\", \"verse\", \"verse\", \"verse\", \"verse\", \"verse\", \"outro\"], \"top3_scores\": [[[\"outro\", 0.349], [\"intro\", 0.336], [\"verse\", 0.334]], [[\"verse\", 0.373], [\"bridge\", 0.313], [\"outro\", 0.307]], [[\"verse\", 0.367], [\"bridge\", 0.334], [\"outro\", 0.29]], [[\"verse\", 0.36], [\"bridge\", 0.306], [\"outro\", 0.297]], [[\"verse\", 0.372], [\"bridge\", 0.35], [\"outro\", 0.308]], [[\"verse\", 0.395], [\"bridge\", 0.342], [\"outro\", 0.317]], [[\"verse\", 0.379], [\"bridge\", 0.369], [\"outro\", 0.333]], [[\"outro\", 0.348], [\"verse\", 0.341], [\"bridge\", 0.335]]]}"
+ },
+ {
+  "role": "tool_result",
+  "name": "grader",
+  "content": "{\"sections\": [{\"start\": 0.0, \"end\": 14.0, \"annotated\": \"intro\", \"scored_as\": \"intro\", \"named\": \"intro\", \"right\": true}, {\"start\": 14.0, \"end\": 41.8, \"annotated\": \"verse\", \"scored_as\": \"verse\", \"named\": \"verse\", \"right\": true}, {\"start\": 41.8, \"end\": 69.6, \"annotated\": \"chorus\", \"scored_as\": \"chorus\", \"named\": \"verse\", \"right\": false}, {\"start\": 69.6, \"end\": 97.5, \"annotated\": \"verse\", \"scored_as\": \"verse\", \"named\": \"verse\", \"right\": true}, {\"start\": 97.5, \"end\": 125.3, \"annotated\": \"chorus\", \"scored_as\": \"chorus\", \"named\": \"verse\", \"right\": false}, {\"start\": 125.3, \"end\": 153.1, \"annotated\": \"verse\", \"scored_as\": \"verse\", \"named\": \"verse\", \"right\": true}, {\"start\": 153.1, \"end\": 180.9, \"annotated\": \"chorus\", \"scored_as\": \"chorus\", \"named\": \"verse\", \"right\": false}, {\"start\": 180.9, \"end\": 216.2, \"annotated\": \"outro\", \"scored_as\": \"outro\", \"named\": \"outro\", \"right\": true}], \"grade\": {\"acc\": 0.625}}"
+ }
+]

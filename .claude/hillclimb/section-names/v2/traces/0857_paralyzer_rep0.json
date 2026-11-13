@@ -1,0 +1,15 @@
+[
+ {
+  "role": "user",
+  "content": "Name each section of this song: Paralyzer \u2014 Finger Eleven (Alternative, 9 sections)\nsection edges (s): [0.1, 22.7, 58.4, 77.0, 112.7, 131.4, 148.9, 167.6, 185.7, 203.8]\nsettings: {\"encoder\": \"clapbar_fold\", \"prompts\": {\"intro\": [\"the intro of a song\"], \"verse\": [\"the verse of a song\"], \"prechorus\": [\"the pre-chorus of a song\"], \"chorus\": [\"the chorus of a song\"], \"postchorus\": [\"the post-chorus of a song\"], \"bridge\": [\"the bridge of a song\"], \"outro\": [\"the outro of a song\"], \"instrumental\": [\"an instrumental section of a song\"]}, \"extra_models\": [\"matpacbar_fold\"], \"structure\": {\"model\": \"matpacbar_fold\", \"position\": true, \"repeat_tau\": 0.4, \"bridge\": false, \"prepost\": false, \"short_s\": 20}}"
+ },
+ {
+  "role": "assistant",
+  "content": "{\"names\": [\"intro\", \"verse\", \"chorus\", \"verse\", \"chorus\", \"verse\", \"verse\", \"chorus\", \"outro\"], \"top3_scores\": [[[\"instrumental\", 0.216], [\"outro\", 0.216], [\"intro\", 0.201]], [[\"bridge\", 0.177], [\"outro\", 0.173], [\"verse\", 0.152]], [[\"outro\", 0.163], [\"bridge\", 0.155], [\"intro\", 0.147]], [[\"bridge\", 0.164], [\"outro\", 0.155], [\"verse\", 0.142]], [[\"outro\", 0.177], [\"bridge\", 0.168], [\"intro\", 0.163]], [[\"instrumental\", 0.24], [\"outro\", 0.235], [\"postchorus\", 0.211]], [[\"outro\", 0.215], [\"intro\", 0.21], [\"verse\", 0.196]], [[\"outro\", 0.18], [\"bridge\", 0.16], [\"intro\", 0.159]], [[\"outro\", 0.165], [\"intro\", 0.145], [\"bridge\", 0.124]]]}"
+ },
+ {
+  "role": "tool_result",
+  "name": "grader",
+  "content": "{\"sections\": [{\"start\": 0.1, \"end\": 22.7, \"annotated\": \"intro\", \"scored_as\": \"intro\", \"named\": \"intro\", \"right\": true}, {\"start\": 22.7, \"end\": 58.4, \"annotated\": \"verse\", \"scored_as\": \"verse\", \"named\": \"verse\", \"right\": true}, {\"start\": 58.4, \"end\": 77.0, \"annotated\": \"chorus\", \"scored_as\": \"chorus\", \"named\": \"chorus\", \"right\": true}, {\"start\": 77.0, \"end\": 112.7, \"annotated\": \"verse\", \"scored_as\": \"verse\", \"named\": \"verse\", \"right\": true}, {\"start\": 112.7, \"end\": 131.4, \"annotated\": \"chorus\", \"scored_as\": \"chorus\", \"named\": \"chorus\", \"right\": true}, {\"start\": 131.4, \"end\": 148.9, \"annotated\": \"bridge\", \"scored_as\": \"bridge\", \"named\": \"verse\", \"right\": false}, {\"start\": 148.9, \"end\": 167.6, \"annotated\": \"chorus\", \"scored_as\": \"chorus\", \"named\": \"verse\", \"right\": false}, {\"start\": 167.6, \"end\": 185.7, \"annotated\": \"chorus\", \"scored_as\": \"chorus\", \"named\": \"chorus\", \"right\": true}, {\"start\": 185.7, \"end\": 203.8, \"annotated\": \"outro\", \"scored_as\": \"outro\", \"named\": \"outro\", \"right\": true}], \"grade\": {\"acc\": 0.7778}}"
+ }
+]

@@ -1,0 +1,15 @@
+[
+ {
+  "role": "user",
+  "content": "Name each section of this song: Right Here \u2014 Justin Bieber feat. Drake (R&B, 8 sections)\nsection edges (s): [0.0, 13.1, 44.4, 75.7, 107.0, 138.3, 159.2, 190.5, 200.9]\nsettings: {\"encoder\": \"clapbar_fold\", \"prompts\": {\"intro\": [\"the intro of a song\"], \"verse\": [\"the verse of a song\"], \"prechorus\": [\"the pre-chorus of a song\"], \"chorus\": [\"the chorus of a song\"], \"postchorus\": [\"the post-chorus of a song\"], \"bridge\": [\"the bridge of a song\"], \"outro\": [\"the outro of a song\"], \"instrumental\": [\"an instrumental section of a song\"]}, \"extra_models\": [\"matpacbar_fold\"], \"structure\": {\"model\": \"matpacbar_fold\", \"position\": true, \"repeat_tau\": 0.4, \"bridge\": false, \"prepost\": false, \"short_s\": 20}}"
+ },
+ {
+  "role": "assistant",
+  "content": "{\"names\": [\"intro\", \"verse\", \"chorus\", \"verse\", \"chorus\", \"verse\", \"chorus\", \"outro\"], \"top3_scores\": [[[\"verse\", 0.391], [\"bridge\", 0.347], [\"outro\", 0.287]], [[\"verse\", 0.436], [\"bridge\", 0.388], [\"outro\", 0.265]], [[\"verse\", 0.353], [\"bridge\", 0.312], [\"outro\", 0.207]], [[\"verse\", 0.424], [\"bridge\", 0.379], [\"outro\", 0.271]], [[\"verse\", 0.372], [\"bridge\", 0.322], [\"outro\", 0.22]], [[\"verse\", 0.388], [\"bridge\", 0.344], [\"outro\", 0.246]], [[\"verse\", 0.365], [\"bridge\", 0.319], [\"outro\", 0.219]], [[\"verse\", 0.35], [\"bridge\", 0.306], [\"outro\", 0.202]]]}"
+ },
+ {
+  "role": "tool_result",
+  "name": "grader",
+  "content": "{\"sections\": [{\"start\": 0.0, \"end\": 13.1, \"annotated\": \"intro\", \"scored_as\": \"intro\", \"named\": \"intro\", \"right\": true}, {\"start\": 13.1, \"end\": 44.4, \"annotated\": \"verse\", \"scored_as\": \"verse\", \"named\": \"verse\", \"right\": true}, {\"start\": 44.4, \"end\": 75.7, \"annotated\": \"chorus\", \"scored_as\": \"chorus\", \"named\": \"chorus\", \"right\": true}, {\"start\": 75.7, \"end\": 107.0, \"annotated\": \"verse\", \"scored_as\": \"verse\", \"named\": \"verse\", \"right\": true}, {\"start\": 107.0, \"end\": 138.3, \"annotated\": \"chorus\", \"scored_as\": \"chorus\", \"named\": \"chorus\", \"right\": true}, {\"start\": 138.3, \"end\": 159.2, \"annotated\": \"verse\", \"scored_as\": \"verse\", \"named\": \"verse\", \"right\": true}, {\"start\": 159.2, \"end\": 190.5, \"annotated\": \"chorus\", \"scored_as\": \"chorus\", \"named\": \"chorus\", \"right\": true}, {\"start\": 190.5, \"end\": 200.9, \"annotated\": \"outro\", \"scored_as\": \"outro\", \"named\": \"outro\", \"right\": true}], \"grade\": {\"acc\": 1.0}}"
+ }
+]

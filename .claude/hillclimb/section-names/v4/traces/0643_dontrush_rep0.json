@@ -1,0 +1,15 @@
+[
+ {
+  "role": "user",
+  "content": "Name each section of this song: Don't Rush \u2014 Tegan and Sara (Pop, 7 sections)\nsection edges (s): [0.3, 6.0, 21.0, 39.7, 54.7, 84.7, 120.3, 152.7]\nsettings: {\"encoder\": \"clapbar_fold\", \"prompts\": {\"intro\": [\"the intro of a song\"], \"verse\": [\"the verse of a song\"], \"prechorus\": [\"the pre-chorus of a song\"], \"chorus\": [\"the chorus of a song\"], \"postchorus\": [\"the post-chorus of a song\"], \"bridge\": [\"the bridge of a song\"], \"outro\": [\"the outro of a song\"], \"instrumental\": [\"an instrumental section of a song\"]}, \"extra_models\": [\"matpacbar_fold\"], \"structure\": {\"model\": \"matpacbar_fold\", \"position\": true, \"repeat_tau\": 0.4, \"bridge\": true, \"prepost\": true, \"short_s\": 20}}"
+ },
+ {
+  "role": "assistant",
+  "content": "{\"names\": [\"intro\", \"prechorus\", \"chorus\", \"prechorus\", \"chorus\", \"bridge\", \"chorus\"], \"top3_scores\": [[[\"chorus\", 0.285], [\"outro\", 0.269], [\"bridge\", 0.252]], [[\"bridge\", 0.228], [\"outro\", 0.209], [\"chorus\", 0.206]], [[\"outro\", 0.263], [\"bridge\", 0.236], [\"chorus\", 0.228]], [[\"bridge\", 0.219], [\"outro\", 0.198], [\"chorus\", 0.197]], [[\"outro\", 0.251], [\"bridge\", 0.22], [\"chorus\", 0.215]], [[\"bridge\", 0.203], [\"outro\", 0.181], [\"chorus\", 0.176]], [[\"outro\", 0.271], [\"intro\", 0.225], [\"chorus\", 0.222]]]}"
+ },
+ {
+  "role": "tool_result",
+  "name": "grader",
+  "content": "{\"sections\": [{\"start\": 0.3, \"end\": 6.0, \"annotated\": \"intro\", \"scored_as\": \"intro\", \"named\": \"intro\", \"right\": true}, {\"start\": 6.0, \"end\": 21.0, \"annotated\": \"verse\", \"scored_as\": \"verse\", \"named\": \"prechorus\", \"right\": false}, {\"start\": 21.0, \"end\": 39.7, \"annotated\": \"chorus\", \"scored_as\": \"chorus\", \"named\": \"chorus\", \"right\": true}, {\"start\": 39.7, \"end\": 54.7, \"annotated\": \"verse\", \"scored_as\": \"verse\", \"named\": \"prechorus\", \"right\": false}, {\"start\": 54.7, \"end\": 84.7, \"annotated\": \"chorus\", \"scored_as\": \"chorus\", \"named\": \"chorus\", \"right\": true}, {\"start\": 84.7, \"end\": 120.3, \"annotated\": \"bridge\", \"scored_as\": \"bridge\", \"named\": \"bridge\", \"right\": true}, {\"start\": 120.3, \"end\": 152.7, \"annotated\": \"chorus\", \"scored_as\": \"chorus\", \"named\": \"chorus\", \"right\": true}], \"grade\": {\"acc\": 0.7143}}"
+ }
+]

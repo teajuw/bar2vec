@@ -1,0 +1,15 @@
+[
+ {
+  "role": "user",
+  "content": "Name each section of this song: Sparks Fly \u2014 Taylor Swift (Pop, 8 sections)\nsection edges (s): [0.3, 17.0, 48.8, 92.1, 123.9, 167.2, 199.1, 234.0, 250.7]\nsettings: {\"encoder\": \"clapbar_fold\", \"prompts\": {\"intro\": [\"the intro of a song\"], \"verse\": [\"the verse of a song\"], \"prechorus\": [\"the pre-chorus of a song\"], \"chorus\": [\"the chorus of a song\"], \"postchorus\": [\"the post-chorus of a song\"], \"bridge\": [\"the bridge of a song\"], \"outro\": [\"the outro of a song\"], \"instrumental\": [\"an instrumental section of a song\"]}}"
+ },
+ {
+  "role": "assistant",
+  "content": "{\"names\": [\"bridge\", \"bridge\", \"bridge\", \"bridge\", \"bridge\", \"bridge\", \"bridge\", \"bridge\"], \"top3_scores\": [[[\"bridge\", 0.206], [\"outro\", 0.171], [\"postchorus\", 0.16]], [[\"bridge\", 0.271], [\"verse\", 0.235], [\"chorus\", 0.173]], [[\"bridge\", 0.261], [\"verse\", 0.22], [\"outro\", 0.198]], [[\"bridge\", 0.232], [\"verse\", 0.217], [\"outro\", 0.156]], [[\"bridge\", 0.273], [\"verse\", 0.232], [\"outro\", 0.202]], [[\"bridge\", 0.254], [\"verse\", 0.242], [\"outro\", 0.187]], [[\"bridge\", 0.281], [\"verse\", 0.249], [\"outro\", 0.212]], [[\"bridge\", 0.221], [\"outro\", 0.176], [\"verse\", 0.173]]]}"
+ },
+ {
+  "role": "tool_result",
+  "name": "grader",
+  "content": "{\"sections\": [{\"start\": 0.3, \"end\": 17.0, \"annotated\": \"intro\", \"scored_as\": \"intro\", \"named\": \"bridge\", \"right\": false}, {\"start\": 17.0, \"end\": 48.8, \"annotated\": \"verse\", \"scored_as\": \"verse\", \"named\": \"bridge\", \"right\": false}, {\"start\": 48.8, \"end\": 92.1, \"annotated\": \"chorus\", \"scored_as\": \"chorus\", \"named\": \"bridge\", \"right\": false}, {\"start\": 92.1, \"end\": 123.9, \"annotated\": \"verse\", \"scored_as\": \"verse\", \"named\": \"bridge\", \"right\": false}, {\"start\": 123.9, \"end\": 167.2, \"annotated\": \"chorus\", \"scored_as\": \"chorus\", \"named\": \"bridge\", \"right\": false}, {\"start\": 167.2, \"end\": 199.1, \"annotated\": \"bridge\", \"scored_as\": \"bridge\", \"named\": \"bridge\", \"right\": true}, {\"start\": 199.1, \"end\": 234.0, \"annotated\": \"chorus\", \"scored_as\": \"chorus\", \"named\": \"bridge\", \"right\": false}, {\"start\": 234.0, \"end\": 250.7, \"annotated\": \"outro\", \"scored_as\": \"outro\", \"named\": \"bridge\", \"right\": false}], \"grade\": {\"acc\": 0.125}}"
+ }
+]

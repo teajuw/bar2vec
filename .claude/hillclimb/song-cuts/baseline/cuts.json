@@ -1,0 +1,11 @@
+{
+  "models": [
+    "clap"
+  ],
+  "window": 10,
+  "hop": 5,
+  "side_s": 15,
+  "min_gap_s": 15,
+  "k": 0.0,
+  "offset_s": 0.0
+}

@@ -1,0 +1,15 @@
+[
+ {
+  "role": "user",
+  "content": "Name each section of this song: Yeah! \u2014 Lil Jon & The East Side Boyz (R&B, 8 sections)\nsection edges (s): [1.1, 11.4, 29.7, 47.4, 66.3, 75.4, 93.7, 112.0, 130.3]\nsettings: {\"encoder\": \"clapbar_fold\", \"prompts\": {\"intro\": [\"the intro of a song\"], \"verse\": [\"the verse of a song\"], \"prechorus\": [\"the pre-chorus of a song\"], \"chorus\": [\"the chorus of a song\"], \"postchorus\": [\"the post-chorus of a song\"], \"bridge\": [\"the bridge of a song\"], \"outro\": [\"the outro of a song\"], \"instrumental\": [\"an instrumental section of a song\"]}, \"extra_models\": [\"matpacbar_fold\", \"loudbar_fold\"], \"structure\": {\"model\": \"matpacbar_fold\", \"position\": true, \"repeat_tau\": 0.4, \"bridge\": true, \"prepost\": true, \"short_s\": 20, \"vocal_below\": -1.0}, \"extra_prompts\": {\"vocals\": [\"singing vocals\", \"a person singing or rapping\"], \"no_vocals\": [\"instrumental music with no vocals\", \"an instrumental solo\"]}, \"trained\": true}"
+ },
+ {
+  "role": "assistant",
+  "content": "{\"names\": [\"intro\", \"verse\", \"prechorus\", \"chorus\", \"intro\", \"verse\", \"prechorus\", \"chorus\"], \"top3_scores\": [[[\"verse\", 0.288], [\"outro\", 0.272], [\"bridge\", 0.248]], [[\"verse\", 0.339], [\"bridge\", 0.287], [\"outro\", 0.278]], [[\"verse\", 0.347], [\"outro\", 0.299], [\"bridge\", 0.275]], [[\"verse\", 0.301], [\"outro\", 0.278], [\"bridge\", 0.253]], [[\"outro\", 0.27], [\"verse\", 0.253], [\"intro\", 0.22]], [[\"verse\", 0.342], [\"outro\", 0.301], [\"bridge\", 0.287]], [[\"verse\", 0.347], [\"outro\", 0.282], [\"bridge\", 0.277]], [[\"verse\", 0.298], [\"outro\", 0.262], [\"bridge\", 0.249]]]}"
+ },
+ {
+  "role": "tool_result",
+  "name": "grader",
+  "content": "{\"sections\": [{\"start\": 1.1, \"end\": 11.4, \"annotated\": \"intro\", \"scored_as\": \"intro\", \"named\": \"intro\", \"right\": true}, {\"start\": 11.4, \"end\": 29.7, \"annotated\": \"verse\", \"scored_as\": \"verse\", \"named\": \"verse\", \"right\": true}, {\"start\": 29.7, \"end\": 47.4, \"annotated\": \"prechorus\", \"scored_as\": \"prechorus\", \"named\": \"prechorus\", \"right\": true}, {\"start\": 47.4, \"end\": 66.3, \"annotated\": \"chorus\", \"scored_as\": \"chorus\", \"named\": \"chorus\", \"right\": true}, {\"start\": 66.3, \"end\": 75.4, \"annotated\": \"postchorus\", \"scored_as\": \"postchorus\", \"named\": \"intro\", \"right\": false}, {\"start\": 75.4, \"end\": 93.7, \"annotated\": \"verse\", \"scored_as\": \"verse\", \"named\": \"verse\", \"right\": true}, {\"start\": 93.7, \"end\": 112.0, \"annotated\": \"chorus\", \"scored_as\": \"chorus\", \"named\": \"prechorus\", \"right\": false}, {\"start\": 112.0, \"end\": 130.3, \"annotated\": \"postchorus\", \"scored_as\": \"postchorus\", \"named\": \"chorus\", \"right\": false}], \"grade\": {\"acc\": 0.625}}"
+ }
+]

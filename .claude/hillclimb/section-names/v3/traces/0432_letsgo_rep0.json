@@ -1,0 +1,15 @@
+[
+ {
+  "role": "user",
+  "content": "Name each section of this song: Let's Go \u2014 Calvin Harris feat. Ne-Yo (Dance/Electronic, 10 sections)\nsection edges (s): [0.0, 6.6, 22.5, 52.5, 82.6, 97.1, 126.6, 157.6, 186.6, 201.6, 217.6]\nsettings: {\"encoder\": \"clapbar_fold\", \"prompts\": {\"intro\": [\"the intro of a song\"], \"verse\": [\"the verse of a song\"], \"prechorus\": [\"the pre-chorus of a song\"], \"chorus\": [\"the chorus of a song\"], \"postchorus\": [\"the post-chorus of a song\"], \"bridge\": [\"the bridge of a song\"], \"outro\": [\"the outro of a song\"], \"instrumental\": [\"an instrumental section of a song\"]}, \"extra_models\": [\"matpacbar_fold\"], \"structure\": {\"model\": \"matpacbar_fold\", \"position\": true, \"repeat_tau\": 0.4, \"bridge\": true, \"prepost\": false, \"short_s\": 20}}"
+ },
+ {
+  "role": "assistant",
+  "content": "{\"names\": [\"intro\", \"verse\", \"verse\", \"chorus\", \"verse\", \"verse\", \"chorus\", \"bridge\", \"chorus\", \"chorus\"], \"top3_scores\": [[[\"bridge\", 0.31], [\"verse\", 0.308], [\"outro\", 0.29]], [[\"verse\", 0.336], [\"bridge\", 0.297], [\"outro\", 0.269]], [[\"outro\", 0.356], [\"intro\", 0.315], [\"verse\", 0.314]], [[\"outro\", 0.276], [\"bridge\", 0.257], [\"verse\", 0.235]], [[\"verse\", 0.271], [\"bridge\", 0.258], [\"outro\", 0.237]], [[\"outro\", 0.369], [\"intro\", 0.332], [\"bridge\", 0.331]], [[\"outro\", 0.281], [\"bridge\", 0.261], [\"verse\", 0.235]], [[\"outro\", 0.322], [\"verse\", 0.304], [\"bridge\", 0.297]], [[\"outro\", 0.261], [\"bridge\", 0.243], [\"verse\", 0.219]], [[\"outro\", 0.251], [\"bridge\", 0.225], [\"verse\", 0.214]]]}"
+ },
+ {
+  "role": "tool_result",
+  "name": "grader",
+  "content": "{\"sections\": [{\"start\": 0.0, \"end\": 6.6, \"annotated\": \"intro\", \"scored_as\": \"intro\", \"named\": \"intro\", \"right\": true}, {\"start\": 6.6, \"end\": 22.5, \"annotated\": \"verse\", \"scored_as\": \"verse\", \"named\": \"verse\", \"right\": true}, {\"start\": 22.5, \"end\": 52.5, \"annotated\": \"prechorus\", \"scored_as\": \"prechorus\", \"named\": \"verse\", \"right\": false}, {\"start\": 52.5, \"end\": 82.6, \"annotated\": \"chorus\", \"scored_as\": \"chorus\", \"named\": \"chorus\", \"right\": true}, {\"start\": 82.6, \"end\": 97.1, \"annotated\": \"verse\", \"scored_as\": \"verse\", \"named\": \"verse\", \"right\": true}, {\"start\": 97.1, \"end\": 126.6, \"annotated\": \"prechorus\", \"scored_as\": \"prechorus\", \"named\": \"verse\", \"right\": false}, {\"start\": 126.6, \"end\": 157.6, \"annotated\": \"chorus\", \"scored_as\": \"chorus\", \"named\": \"chorus\", \"right\": true}, {\"start\": 157.6, \"end\": 186.6, \"annotated\": \"bridge\", \"scored_as\": \"bridge\", \"named\": \"bridge\", \"right\": true}, {\"start\": 186.6, \"end\": 201.6, \"annotated\": \"chorus\", \"scored_as\": \"chorus\", \"named\": \"chorus\", \"right\": true}, {\"start\": 201.6, \"end\": 217.6, \"annotated\": \"chorus\", \"scored_as\": \"chorus\", \"named\": \"chorus\", \"right\": true}], \"grade\": {\"acc\": 0.8}}"
+ }
+]

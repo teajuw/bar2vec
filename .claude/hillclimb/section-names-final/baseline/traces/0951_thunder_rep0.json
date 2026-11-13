@@ -1,0 +1,15 @@
+[
+ {
+  "role": "user",
+  "content": "Name each section of this song: Thunder \u2014 Boys Like Girls (Pop, 8 sections)\nsection edges (s): [0.4, 35.6, 70.8, 109.2, 141.2, 157.2, 170.0, 195.6, 221.2]\nsettings: {\"encoder\": \"clapbar_fold\", \"prompts\": {\"intro\": [\"the intro of a song\"], \"verse\": [\"the verse of a song\"], \"prechorus\": [\"the pre-chorus of a song\"], \"chorus\": [\"the chorus of a song\"], \"postchorus\": [\"the post-chorus of a song\"], \"bridge\": [\"the bridge of a song\"], \"outro\": [\"the outro of a song\"], \"instrumental\": [\"an instrumental section of a song\"]}}"
+ },
+ {
+  "role": "assistant",
+  "content": "{\"names\": [\"bridge\", \"bridge\", \"bridge\", \"bridge\", \"bridge\", \"bridge\", \"bridge\", \"bridge\"], \"top3_scores\": [[[\"bridge\", 0.278], [\"verse\", 0.231], [\"outro\", 0.201]], [[\"bridge\", 0.247], [\"verse\", 0.207], [\"outro\", 0.169]], [[\"bridge\", 0.222], [\"verse\", 0.18], [\"outro\", 0.139]], [[\"bridge\", 0.192], [\"verse\", 0.148], [\"postchorus\", 0.112]], [[\"bridge\", 0.204], [\"outro\", 0.174], [\"verse\", 0.17]], [[\"bridge\", 0.261], [\"verse\", 0.213], [\"outro\", 0.182]], [[\"bridge\", 0.197], [\"verse\", 0.16], [\"postchorus\", 0.115]], [[\"bridge\", 0.215], [\"verse\", 0.178], [\"outro\", 0.133]]]}"
+ },
+ {
+  "role": "tool_result",
+  "name": "grader",
+  "content": "{\"sections\": [{\"start\": 0.4, \"end\": 35.6, \"annotated\": \"verse\", \"scored_as\": \"verse\", \"named\": \"bridge\", \"right\": false}, {\"start\": 35.6, \"end\": 70.8, \"annotated\": \"chorus\", \"scored_as\": \"chorus\", \"named\": \"bridge\", \"right\": false}, {\"start\": 70.8, \"end\": 109.2, \"annotated\": \"verse\", \"scored_as\": \"verse\", \"named\": \"bridge\", \"right\": false}, {\"start\": 109.2, \"end\": 141.2, \"annotated\": \"chorus\", \"scored_as\": \"chorus\", \"named\": \"bridge\", \"right\": false}, {\"start\": 141.2, \"end\": 157.2, \"annotated\": \"bridge\", \"scored_as\": \"bridge\", \"named\": \"bridge\", \"right\": true}, {\"start\": 157.2, \"end\": 170.0, \"annotated\": \"verse\", \"scored_as\": \"verse\", \"named\": \"bridge\", \"right\": false}, {\"start\": 170.0, \"end\": 195.6, \"annotated\": \"chorus\", \"scored_as\": \"chorus\", \"named\": \"bridge\", \"right\": false}, {\"start\": 195.6, \"end\": 221.2, \"annotated\": \"outro\", \"scored_as\": \"outro\", \"named\": \"bridge\", \"right\": false}], \"grade\": {\"acc\": 0.125}}"
+ }
+]

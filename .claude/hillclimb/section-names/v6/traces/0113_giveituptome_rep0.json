@@ -1,0 +1,15 @@
+[
+ {
+  "role": "user",
+  "content": "Name each section of this song: (When You Gonna) Give It Up to Me \u2014 Sean Paul (Reggaeton, 8 sections)\nsection edges (s): [0.0, 10.0, 30.0, 50.0, 70.0, 90.0, 110.0, 130.0, 150.0]\nsettings: {\"encoder\": \"clapbar_fold\", \"prompts\": {\"intro\": [\"the intro of a song\"], \"verse\": [\"the verse of a song\"], \"prechorus\": [\"the pre-chorus of a song\"], \"chorus\": [\"the chorus of a song\"], \"postchorus\": [\"the post-chorus of a song\"], \"bridge\": [\"the bridge of a song\"], \"outro\": [\"the outro of a song\"], \"instrumental\": [\"an instrumental section of a song\"]}, \"extra_models\": [\"matpacbar_fold\", \"loudbar_fold\"], \"structure\": {\"model\": \"matpacbar_fold\", \"position\": true, \"repeat_tau\": 0.4, \"bridge\": true, \"prepost\": true, \"short_s\": 20, \"vocal_below\": -1.0, \"loud_model\": \"loudbar_fold\", \"loud_w\": 2.0}, \"extra_prompts\": {\"vocals\": [\"singing vocals\", \"a person singing or rapping\"], \"no_vocals\": [\"instrumental music with no vocals\", \"an instrumental solo\"]}}"
+ },
+ {
+  "role": "assistant",
+  "content": "{\"names\": [\"intro\", \"chorus\", \"verse\", \"chorus\", \"verse\", \"instrumental\", \"chorus\", \"outro\"], \"top3_scores\": [[[\"verse\", 0.35], [\"outro\", 0.318], [\"intro\", 0.309]], [[\"verse\", 0.295], [\"outro\", 0.282], [\"intro\", 0.254]], [[\"verse\", 0.314], [\"outro\", 0.301], [\"intro\", 0.289]], [[\"verse\", 0.253], [\"outro\", 0.249], [\"intro\", 0.22]], [[\"verse\", 0.362], [\"outro\", 0.339], [\"intro\", 0.323]], [[\"verse\", 0.244], [\"bridge\", 0.202], [\"outro\", 0.181]], [[\"verse\", 0.279], [\"outro\", 0.266], [\"intro\", 0.23]], [[\"outro\", 0.339], [\"verse\", 0.323], [\"intro\", 0.313]]]}"
+ },
+ {
+  "role": "tool_result",
+  "name": "grader",
+  "content": "{\"sections\": [{\"start\": 0.0, \"end\": 10.0, \"annotated\": \"intro\", \"scored_as\": \"intro\", \"named\": \"intro\", \"right\": true}, {\"start\": 10.0, \"end\": 30.0, \"annotated\": \"chorus\", \"scored_as\": \"chorus\", \"named\": \"chorus\", \"right\": true}, {\"start\": 30.0, \"end\": 50.0, \"annotated\": \"verse\", \"scored_as\": \"verse\", \"named\": \"verse\", \"right\": true}, {\"start\": 50.0, \"end\": 70.0, \"annotated\": \"chorus\", \"scored_as\": \"chorus\", \"named\": \"chorus\", \"right\": true}, {\"start\": 70.0, \"end\": 90.0, \"annotated\": \"verse\", \"scored_as\": \"verse\", \"named\": \"verse\", \"right\": true}, {\"start\": 90.0, \"end\": 110.0, \"annotated\": \"bridge\", \"scored_as\": \"bridge\", \"named\": \"instrumental\", \"right\": false}, {\"start\": 110.0, \"end\": 130.0, \"annotated\": \"chorus\", \"scored_as\": \"chorus\", \"named\": \"chorus\", \"right\": true}, {\"start\": 130.0, \"end\": 150.0, \"annotated\": \"outro\", \"scored_as\": \"outro\", \"named\": \"outro\", \"right\": true}], \"grade\": {\"acc\": 0.875}}"
+ }
+]

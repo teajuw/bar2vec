@@ -1,0 +1,1387 @@
+[
+ {
+  "id": "edm-drop",
+  "query": "big EDM drop with soaring synths and a four-on-the-floor kick",
+  "expect": [
+   "Clarity",
+   "A Sky Full of Stars"
+  ],
+  "note": "the drop sections, not the verses",
+  "missing": [],
+  "rank": {
+   "moment": 1,
+   "mean": 1,
+   "one_crop_median": 1.0
+  },
+  "moments": [
+   {
+    "track": 74,
+    "start": 65.0,
+    "end": 125.0,
+    "peak": 85.0,
+    "score": 0.52850341796875,
+    "title": "Clarity",
+    "artist": "Zedd, Foxes",
+    "file": "audio/76_zedd_clarity.m4a",
+    "expected": true
+   },
+   {
+    "track": 74,
+    "start": 200.0,
+    "end": 271.69671630859375,
+    "peak": 205.0,
+    "score": 0.4624331593513489,
+    "title": "Clarity",
+    "artist": "Zedd, Foxes",
+    "file": "audio/76_zedd_clarity.m4a",
+    "expected": true
+   },
+   {
+    "track": 43,
+    "start": 160.0,
+    "end": 170.0,
+    "peak": 160.0,
+    "score": 0.38067853450775146,
+    "title": "A Sky Full of Stars",
+    "artist": "Coldplay",
+    "file": "audio/44_coldplay_a-sky-full-of-stars.m4a",
+    "expected": true
+   },
+   {
+    "track": 43,
+    "start": 70.0,
+    "end": 95.0,
+    "peak": 85.0,
+    "score": 0.3766915798187256,
+    "title": "A Sky Full of Stars",
+    "artist": "Coldplay",
+    "file": "audio/44_coldplay_a-sky-full-of-stars.m4a",
+    "expected": true
+   },
+   {
+    "track": 11,
+    "start": 185.0,
+    "end": 195.0,
+    "peak": 185.0,
+    "score": 0.3553420901298523,
+    "title": "supercuts",
+    "artist": "Jeremy Zucker",
+    "file": "audio/12_jeremy-zucker_supercuts.m4a",
+    "expected": false
+   }
+  ],
+  "mean_top": [
+   "Clarity",
+   "A Sky Full of Stars",
+   "happiness",
+   "Glorious (feat. Skylar Grey)",
+   "Rocketeer"
+  ]
+ },
+ {
+  "id": "future-bass",
+  "query": "future bass drop with chopped vocal samples",
+  "expect": [
+   "It's Strange"
+  ],
+  "note": "",
+  "missing": [],
+  "rank": {
+   "moment": 1,
+   "mean": 3,
+   "one_crop_median": 30.5
+  },
+  "moments": [
+   {
+    "track": 41,
+    "start": 170.0,
+    "end": 185.0,
+    "peak": 175.0,
+    "score": 0.581508994102478,
+    "title": "It's Strange",
+    "artist": "Louis The Child, K.Flay",
+    "file": "audio/42_louis-the-child_it-s-strange.m4a",
+    "expected": true
+   },
+   {
+    "track": 41,
+    "start": 190.0,
+    "end": 230.0,
+    "peak": 215.0,
+    "score": 0.5728788375854492,
+    "title": "It's Strange",
+    "artist": "Louis The Child, K.Flay",
+    "file": "audio/42_louis-the-child_it-s-strange.m4a",
+    "expected": true
+   },
+   {
+    "track": 56,
+    "start": 55.0,
+    "end": 80.0,
+    "peak": 55.0,
+    "score": 0.5379613041877747,
+    "title": "HELL/HEAVEN",
+    "artist": "keshi",
+    "file": "audio/58_keshi_hell-heaven.m4a",
+    "expected": false
+   },
+   {
+    "track": 5,
+    "start": 40.0,
+    "end": 65.0,
+    "peak": 50.0,
+    "score": 0.519242525100708,
+    "title": "War With Heaven",
+    "artist": "keshi",
+    "file": "audio/06_keshi_war-with-heaven.m4a",
+    "expected": false
+   },
+   {
+    "track": 53,
+    "start": 205.0,
+    "end": 216.06166076660156,
+    "peak": 205.0,
+    "score": 0.5133640170097351,
+    "title": "Painkiller",
+    "artist": "Ruel",
+    "file": "audio/55_ruel_painkiller.m4a",
+    "expected": false
+   }
+  ],
+  "mean_top": [
+   "War With Heaven",
+   "Crash",
+   "It's Strange",
+   "HELL/HEAVEN",
+   "Joe"
+  ]
+ },
+ {
+  "id": "piano-ballad",
+  "query": "slow solo piano ballad with a soft male voice",
+  "expect": [
+   "Glimpse of Us",
+   "Too Good At Goodbyes"
+  ],
+  "note": "",
+  "missing": [],
+  "rank": {
+   "moment": 1,
+   "mean": 1,
+   "one_crop_median": 1.0
+  },
+  "moments": [
+   {
+    "track": 21,
+    "start": 10.0,
+    "end": 165.0,
+    "peak": 25.0,
+    "score": 0.7020734548568726,
+    "title": "Glimpse of Us",
+    "artist": "Joji",
+    "file": "audio/22_joji_glimpse-of-us.m4a",
+    "expected": true
+   },
+   {
+    "track": 44,
+    "start": 0.0,
+    "end": 20.0,
+    "peak": 0.0,
+    "score": 0.6824289560317993,
+    "title": "Too Good At Goodbyes",
+    "artist": "Sam Smith",
+    "file": "audio/45_sam-smith_too-good-at-goodbyes.m4a",
+    "expected": true
+   },
+   {
+    "track": 21,
+    "start": 180.0,
+    "end": 215.0,
+    "peak": 200.0,
+    "score": 0.6665528416633606,
+    "title": "Glimpse of Us",
+    "artist": "Joji",
+    "file": "audio/22_joji_glimpse-of-us.m4a",
+    "expected": true
+   },
+   {
+    "track": 44,
+    "start": 190.0,
+    "end": 204.0105438232422,
+    "peak": 194.0105438232422,
+    "score": 0.6564061641693115,
+    "title": "Too Good At Goodbyes",
+    "artist": "Sam Smith",
+    "file": "audio/45_sam-smith_too-good-at-goodbyes.m4a",
+    "expected": true
+   }
+  ],
+  "mean_top": [
+   "Glimpse of Us",
+   "Too Good At Goodbyes",
+   "Snowman",
+   "Turning Out",
+   "Suzume (feat. Toaka)"
+  ]
+ },
+ {
+  "id": "quiet-piano-intro",
+  "query": "quiet piano introduction with no drums",
+  "expect": [
+   "A Sky Full of Stars",
+   "Grand Escape (Movie Edit) [feat. Toko Miura]",
+   "Glimpse of Us",
+   "Homecoming"
+  ],
+  "note": "should land at or near 0:00",
+  "missing": [],
+  "rank": {
+   "moment": 9,
+   "mean": 4,
+   "one_crop_median": 5.0
+  },
+  "moments": [
+   {
+    "track": 45,
+    "start": 154.97779846191406,
+    "end": 164.97779846191406,
+    "peak": 154.97779846191406,
+    "score": 0.5201034545898438,
+    "title": "Snowman",
+    "artist": "Sia",
+    "file": "audio/46_sia_snowman.m4a",
+    "expected": false
+   },
+   {
+    "track": 34,
+    "start": 0.0,
+    "end": 10.0,
+    "peak": 0.0,
+    "score": 0.510403037071228,
+    "title": "YEAH RIGHT",
+    "artist": "Joji",
+    "file": "audio/35_joji_yeah-right.m4a",
+    "expected": false
+   },
+   {
+    "track": 33,
+    "start": 30.0,
+    "end": 45.0,
+    "peak": 35.0,
+    "score": 0.49921277165412903,
+    "title": "YUKON (INTERLUDE)",
+    "artist": "Joji",
+    "file": "audio/34_joji_yukon-interlude.m4a",
+    "expected": false
+   },
+   {
+    "track": 60,
+    "start": 0.0,
+    "end": 45.0,
+    "peak": 5.0,
+    "score": 0.4866635203361511,
+    "title": "always, i'll care",
+    "artist": "Jeremy Zucker",
+    "file": "audio/62_jeremy-zucker_always-i-ll-care.m4a",
+    "expected": false
+   },
+   {
+    "track": 60,
+    "start": 65.0,
+    "end": 90.0,
+    "peak": 70.0,
+    "score": 0.47910428047180176,
+    "title": "always, i'll care",
+    "artist": "Jeremy Zucker",
+    "file": "audio/62_jeremy-zucker_always-i-ll-care.m4a",
+    "expected": false
+   }
+  ],
+  "mean_top": [
+   "always, i'll care",
+   "good days",
+   "YUKON (INTERLUDE)",
+   "Glimpse of Us",
+   "YEAH RIGHT"
+  ]
+ },
+ {
+  "id": "acoustic-folk",
+  "query": "acoustic guitar strumming folk song with male vocals",
+  "expect": [
+   "Stick Season",
+   "I'm Yours",
+   "Say You Won't Let Go"
+  ],
+  "note": "",
+  "missing": [],
+  "rank": {
+   "moment": 1,
+   "mean": 1,
+   "one_crop_median": 1.0
+  },
+  "moments": [
+   {
+    "track": 80,
+    "start": 0.0,
+    "end": 125.0,
+    "peak": 95.0,
+    "score": 0.7384968996047974,
+    "title": "Stick Season",
+    "artist": "Noah Kahan",
+    "file": "audio/82_noah-kahan_stick-season.m4a",
+    "expected": true
+   },
+   {
+    "track": 20,
+    "start": 75.0,
+    "end": 115.0,
+    "peak": 90.0,
+    "score": 0.6822788715362549,
+    "title": "bandaids",
+    "artist": "keshi",
+    "file": "audio/21_keshi_bandaids.m4a",
+    "expected": false
+   },
+   {
+    "track": 20,
+    "start": 0.0,
+    "end": 40.0,
+    "peak": 30.0,
+    "score": 0.6777230501174927,
+    "title": "bandaids",
+    "artist": "keshi",
+    "file": "audio/21_keshi_bandaids.m4a",
+    "expected": false
+   },
+   {
+    "track": 80,
+    "start": 145.0,
+    "end": 165.0,
+    "peak": 155.0,
+    "score": 0.661186695098877,
+    "title": "Stick Season",
+    "artist": "Noah Kahan",
+    "file": "audio/82_noah-kahan_stick-season.m4a",
+    "expected": true
+   },
+   {
+    "track": 61,
+    "start": 10.0,
+    "end": 25.0,
+    "peak": 10.0,
+    "score": 0.661138653755188,
+    "title": "Say You Won't Let Go",
+    "artist": "James Arthur",
+    "file": "audio/63_james-arthur_say-you-won-t-let-go.m4a",
+    "expected": true
+   }
+  ],
+  "mean_top": [
+   "Stick Season",
+   "bandaids",
+   "Say You Won't Let Go",
+   "Chasin' You",
+   "2 soon"
+  ]
+ },
+ {
+  "id": "dreamy-outro",
+  "query": "slow dreamy psychedelic section with washed out synths",
+  "expect": [
+   "Self Care"
+  ],
+  "note": "the second half after the beat switch",
+  "missing": [],
+  "rank": {
+   "moment": 14,
+   "mean": 20,
+   "one_crop_median": 7.0
+  },
+  "moments": [
+   {
+    "track": 55,
+    "start": 115.0,
+    "end": 200.0,
+    "peak": 190.0,
+    "score": 0.48391932249069214,
+    "title": "Die For You",
+    "artist": "Joji",
+    "file": "audio/57_joji_die-for-you.m4a",
+    "expected": false
+   },
+   {
+    "track": 36,
+    "start": 195.0,
+    "end": 210.0,
+    "peak": 195.0,
+    "score": 0.40630340576171875,
+    "title": "LIMBO",
+    "artist": "keshi",
+    "file": "audio/37_keshi_limbo.m4a",
+    "expected": false
+   },
+   {
+    "track": 55,
+    "start": 15.0,
+    "end": 105.0,
+    "peak": 85.0,
+    "score": 0.40224963426589966,
+    "title": "Die For You",
+    "artist": "Joji",
+    "file": "audio/57_joji_die-for-you.m4a",
+    "expected": false
+   },
+   {
+    "track": 64,
+    "start": 5.0,
+    "end": 15.0,
+    "peak": 5.0,
+    "score": 0.37471848726272583,
+    "title": "Why",
+    "artist": "Dominic Fike",
+    "file": "audio/66_dominic-fike_why.m4a",
+    "expected": false
+   },
+   {
+    "track": 2,
+    "start": 195.0,
+    "end": 206.45333862304688,
+    "peak": 196.45333862304688,
+    "score": 0.3400508165359497,
+    "title": "Rich & Sad",
+    "artist": "Post Malone",
+    "file": "audio/03_post-malone_rich-sad.m4a",
+    "expected": false
+   }
+  ],
+  "mean_top": [
+   "Die For You",
+   "Sunflower - Spider-Man: Into the Spider-Verse",
+   "Superstar Sh*t",
+   "Glimpse of Us",
+   "Why"
+  ]
+ },
+ {
+  "id": "jrock",
+  "query": "fast energetic Japanese rock with driving electric guitars and drums",
+  "expect": [
+   "Zenzenzense - movie ver.",
+   "FLY HIGH!!",
+   "Kaikai Kitan"
+  ],
+  "note": "",
+  "missing": [],
+  "rank": {
+   "moment": 1,
+   "mean": 1,
+   "one_crop_median": 1.0
+  },
+  "moments": [
+   {
+    "track": 9,
+    "start": 140.0,
+    "end": 165.0,
+    "peak": 145.0,
+    "score": 0.4025288224220276,
+    "title": "FLY HIGH!!",
+    "artist": "BURNOUT SYNDROMES",
+    "file": "audio/10_burnout-syndromes_fly-high.m4a",
+    "expected": true
+   },
+   {
+    "track": 6,
+    "start": 0.0,
+    "end": 55.0,
+    "peak": 5.0,
+    "score": 0.39672666788101196,
+    "title": "Zenzenzense - movie ver.",
+    "artist": "RADWIMPS",
+    "file": "audio/07_radwimps_zenzenzense-movie-ver.m4a",
+    "expected": true
+   },
+   {
+    "track": 6,
+    "start": 260.0,
+    "end": 275.0,
+    "peak": 260.0,
+    "score": 0.39267390966415405,
+    "title": "Zenzenzense - movie ver.",
+    "artist": "RADWIMPS",
+    "file": "audio/07_radwimps_zenzenzense-movie-ver.m4a",
+    "expected": true
+   },
+   {
+    "track": 58,
+    "start": 135.0,
+    "end": 155.1092987060547,
+    "peak": 140.0,
+    "score": 0.37118059396743774,
+    "title": "Celebration (Movie Edit) [feat. Toko Miura]",
+    "artist": "RADWIMPS, Toko Miura",
+    "file": "audio/60_radwimps_celebration-movie-edit-feat-toko-miura.m4a",
+    "expected": false
+   },
+   {
+    "track": 9,
+    "start": 105.0,
+    "end": 120.0,
+    "peak": 110.0,
+    "score": 0.3629947900772095,
+    "title": "FLY HIGH!!",
+    "artist": "BURNOUT SYNDROMES",
+    "file": "audio/10_burnout-syndromes_fly-high.m4a",
+    "expected": true
+   }
+  ],
+  "mean_top": [
+   "Zenzenzense - movie ver.",
+   "FLY HIGH!!",
+   "Mimi's Delivery Service",
+   "Kaikai Kitan",
+   "Celebration (Movie Edit) [feat. Toko Miura]"
+  ]
+ },
+ {
+  "id": "skit",
+  "query": "people talking, spoken comedy skit without music",
+  "expect": [
+   "Crash"
+  ],
+  "note": "negative-example track",
+  "missing": [],
+  "rank": {
+   "moment": 49,
+   "mean": 33,
+   "one_crop_median": 37.0
+  },
+  "moments": [
+   {
+    "track": 36,
+    "start": 200.0,
+    "end": 212.90379333496094,
+    "peak": 202.90379333496094,
+    "score": 0.5032379627227783,
+    "title": "LIMBO",
+    "artist": "keshi",
+    "file": "audio/37_keshi_limbo.m4a",
+    "expected": false
+   },
+   {
+    "track": 49,
+    "start": 0.0,
+    "end": 20.0,
+    "peak": 0.0,
+    "score": 0.5024060606956482,
+    "title": "iSpy (feat. Lil Yachty)",
+    "artist": "KYLE, Lil Yachty",
+    "file": "audio/50_kyle_ispy-feat-lil-yachty.m4a",
+    "expected": false
+   },
+   {
+    "track": 10,
+    "start": 15.0,
+    "end": 55.0,
+    "peak": 20.0,
+    "score": 0.44334617257118225,
+    "title": "Magic In The Hamptons (feat. Lil Yachty)",
+    "artist": "Social House, Lil Yachty",
+    "file": "audio/11_social-house_magic-in-the-hamptons-feat-lil-yachty.m4a",
+    "expected": false
+   },
+   {
+    "track": 41,
+    "start": 10.0,
+    "end": 25.0,
+    "peak": 10.0,
+    "score": 0.42530664801597595,
+    "title": "It's Strange",
+    "artist": "Louis The Child, K.Flay",
+    "file": "audio/42_louis-the-child_it-s-strange.m4a",
+    "expected": false
+   },
+   {
+    "track": 64,
+    "start": 130.0,
+    "end": 140.03953552246094,
+    "peak": 130.0,
+    "score": 0.4241184592247009,
+    "title": "Why",
+    "artist": "Dominic Fike",
+    "file": "audio/66_dominic-fike_why.m4a",
+    "expected": false
+   }
+  ],
+  "mean_top": [
+   "Magic In The Hamptons (feat. Lil Yachty)",
+   "Homecoming",
+   "Snowman",
+   "Groundhog Day",
+   "Suzume (feat. Toaka)"
+  ]
+ },
+ {
+  "id": "christmas",
+  "query": "Christmas pop song with sleigh bells",
+  "expect": [
+   "Santa Tell Me",
+   "Snowman"
+  ],
+  "note": "",
+  "missing": [],
+  "rank": {
+   "moment": 1,
+   "mean": 1,
+   "one_crop_median": 1.0
+  },
+  "moments": [
+   {
+    "track": 46,
+    "start": 5.0,
+    "end": 204.08021545410156,
+    "peak": 5.0,
+    "score": 0.6150076389312744,
+    "title": "Santa Tell Me",
+    "artist": "Ariana Grande",
+    "file": "audio/47_ariana-grande_santa-tell-me.m4a",
+    "expected": true
+   },
+   {
+    "track": 71,
+    "start": 165.0,
+    "end": 185.0,
+    "peak": 165.0,
+    "score": 0.4132901728153229,
+    "title": "Dancing in the Moonlight",
+    "artist": "Toploader",
+    "file": "audio/73_toploader_dancing-in-the-moonlight.m4a",
+    "expected": false
+   }
+  ],
+  "mean_top": [
+   "Santa Tell Me",
+   "Magic In The Hamptons (feat. Lil Yachty)",
+   "Joe",
+   "two steps behind",
+   "Dancing in the Moonlight"
+  ]
+ },
+ {
+  "id": "brass",
+  "query": "triumphant brass horns pop anthem",
+  "expect": [
+   "High Hopes"
+  ],
+  "note": "",
+  "missing": [],
+  "rank": {
+   "moment": 1,
+   "mean": 1,
+   "one_crop_median": 3.0
+  },
+  "moments": [
+   {
+    "track": 48,
+    "start": 0.0,
+    "end": 45.0,
+    "peak": 0.0,
+    "score": 0.5401254296302795,
+    "title": "High Hopes",
+    "artist": "Panic! At The Disco",
+    "file": "audio/49_panic-at-the-disco_high-hopes.m4a",
+    "expected": true
+   },
+   {
+    "track": 46,
+    "start": 140.0,
+    "end": 175.0,
+    "peak": 155.0,
+    "score": 0.3578692078590393,
+    "title": "Santa Tell Me",
+    "artist": "Ariana Grande",
+    "file": "audio/47_ariana-grande_santa-tell-me.m4a",
+    "expected": false
+   },
+   {
+    "track": 46,
+    "start": 35.0,
+    "end": 65.0,
+    "peak": 50.0,
+    "score": 0.35631322860717773,
+    "title": "Santa Tell Me",
+    "artist": "Ariana Grande",
+    "file": "audio/47_ariana-grande_santa-tell-me.m4a",
+    "expected": false
+   },
+   {
+    "track": 48,
+    "start": 95.0,
+    "end": 105.0,
+    "peak": 95.0,
+    "score": 0.34504234790802,
+    "title": "High Hopes",
+    "artist": "Panic! At The Disco",
+    "file": "audio/49_panic-at-the-disco_high-hopes.m4a",
+    "expected": true
+   },
+   {
+    "track": 44,
+    "start": 135.0,
+    "end": 180.0,
+    "peak": 160.0,
+    "score": 0.32770752906799316,
+    "title": "Too Good At Goodbyes",
+    "artist": "Sam Smith",
+    "file": "audio/45_sam-smith_too-good-at-goodbyes.m4a",
+    "expected": false
+   }
+  ],
+  "mean_top": [
+   "High Hopes",
+   "Santa Tell Me",
+   "Nice For What",
+   "Kingdom Come",
+   "Kaikai Kitan"
+  ]
+ },
+ {
+  "id": "trap",
+  "query": "trap beat with heavy 808 bass and rapping",
+  "expect": [
+   "After Party",
+   "iSpy (feat. Lil Yachty)",
+   "BABY I'M BACK",
+   "Nice For What"
+  ],
+  "note": "",
+  "missing": [],
+  "rank": {
+   "moment": 3,
+   "mean": 2,
+   "one_crop_median": 2.5
+  },
+  "moments": [
+   {
+    "track": 31,
+    "start": 195.0,
+    "end": 240.0,
+    "peak": 195.0,
+    "score": 0.4386718273162842,
+    "title": "Self Care",
+    "artist": "Mac Miller",
+    "file": "audio/32_mac-miller_self-care.m4a",
+    "expected": false
+   },
+   {
+    "track": 31,
+    "start": 55.0,
+    "end": 70.0,
+    "peak": 60.0,
+    "score": 0.43152356147766113,
+    "title": "Self Care",
+    "artist": "Mac Miller",
+    "file": "audio/32_mac-miller_self-care.m4a",
+    "expected": false
+   },
+   {
+    "track": 24,
+    "start": 25.0,
+    "end": 35.0,
+    "peak": 25.0,
+    "score": 0.4245334565639496,
+    "title": "My Play",
+    "artist": "AJR",
+    "file": "audio/25_ajr_my-play.m4a",
+    "expected": false
+   },
+   {
+    "track": 47,
+    "start": 120.0,
+    "end": 150.0,
+    "peak": 120.0,
+    "score": 0.4020046591758728,
+    "title": "After Party",
+    "artist": "Don Toliver",
+    "file": "audio/48_don-toliver_after-party.m4a",
+    "expected": true
+   },
+   {
+    "track": 47,
+    "start": 20.0,
+    "end": 35.0,
+    "peak": 25.0,
+    "score": 0.3993610143661499,
+    "title": "After Party",
+    "artist": "Don Toliver",
+    "file": "audio/48_don-toliver_after-party.m4a",
+    "expected": true
+   }
+  ],
+  "mean_top": [
+   "Self Care",
+   "After Party",
+   "Rich & Sad",
+   "Paranoid",
+   "Nice For What"
+  ]
+ },
+ {
+  "id": "cinematic",
+  "query": "swelling orchestral strings and piano, cinematic film score",
+  "expect": [
+   "Grand Escape (Movie Edit) [feat. Toko Miura]",
+   "Suzume (feat. Toaka)",
+   "Celebration (Movie Edit) [feat. Toko Miura]"
+  ],
+  "note": "",
+  "missing": [],
+  "rank": {
+   "moment": 2,
+   "mean": 8,
+   "one_crop_median": 6.0
+  },
+  "moments": [
+   {
+    "track": 18,
+    "start": 205.0,
+    "end": 222.00599670410156,
+    "peak": 212.00599670410156,
+    "score": 0.34100407361984253,
+    "title": "Paranoid",
+    "artist": "Post Malone",
+    "file": "audio/19_post-malone_paranoid.m4a",
+    "expected": false
+   },
+   {
+    "track": 13,
+    "start": 0.0,
+    "end": 30.0,
+    "peak": 5.0,
+    "score": 0.2973048686981201,
+    "title": "Grand Escape (Movie Edit) [feat. Toko Miura]",
+    "artist": "RADWIMPS, Toko Miura",
+    "file": "audio/14_radwimps_grand-escape-movie-edit-feat-toko-miura.m4a",
+    "expected": true
+   },
+   {
+    "track": 20,
+    "start": 185.0,
+    "end": 216.99049377441406,
+    "peak": 195.0,
+    "score": 0.2644472122192383,
+    "title": "bandaids",
+    "artist": "keshi",
+    "file": "audio/21_keshi_bandaids.m4a",
+    "expected": false
+   },
+   {
+    "track": 36,
+    "start": 150.0,
+    "end": 165.0,
+    "peak": 150.0,
+    "score": 0.2486923635005951,
+    "title": "LIMBO",
+    "artist": "keshi",
+    "file": "audio/37_keshi_limbo.m4a",
+    "expected": false
+   },
+   {
+    "track": 46,
+    "start": 0.0,
+    "end": 10.0,
+    "peak": 0.0,
+    "score": 0.23180192708969116,
+    "title": "Santa Tell Me",
+    "artist": "Ariana Grande",
+    "file": "audio/47_ariana-grande_santa-tell-me.m4a",
+    "expected": false
+   }
+  ],
+  "mean_top": [
+   "Turning Out",
+   "Glimpse of Us",
+   "Too Good At Goodbyes",
+   "Chasin' You",
+   "Rocketeer"
+  ]
+ },
+ {
+  "id": "piano-hiphop",
+  "query": "bright piano riff over hip hop drums",
+  "expect": [
+   "Homecoming"
+  ],
+  "note": "",
+  "missing": [],
+  "rank": {
+   "moment": 12,
+   "mean": 22,
+   "one_crop_median": 24.5
+  },
+  "moments": [
+   {
+    "track": 15,
+    "start": 35.0,
+    "end": 65.0,
+    "peak": 45.0,
+    "score": 0.5269331336021423,
+    "title": "Rocketeer",
+    "artist": "Far East Movement, Ryan Tedder",
+    "file": "audio/16_far-east-movement_rocketeer.m4a",
+    "expected": false
+   },
+   {
+    "track": 15,
+    "start": 95.0,
+    "end": 125.0,
+    "peak": 105.0,
+    "score": 0.5172951817512512,
+    "title": "Rocketeer",
+    "artist": "Far East Movement, Ryan Tedder",
+    "file": "audio/16_far-east-movement_rocketeer.m4a",
+    "expected": false
+   },
+   {
+    "track": 49,
+    "start": 210.0,
+    "end": 225.0,
+    "peak": 215.0,
+    "score": 0.4780009984970093,
+    "title": "iSpy (feat. Lil Yachty)",
+    "artist": "KYLE, Lil Yachty",
+    "file": "audio/50_kyle_ispy-feat-lil-yachty.m4a",
+    "expected": false
+   },
+   {
+    "track": 59,
+    "start": 5.0,
+    "end": 30.0,
+    "peak": 5.0,
+    "score": 0.4743577837944031,
+    "title": "Groundhog Day",
+    "artist": "Em Beihold",
+    "file": "audio/61_em-beihold_groundhog-day.m4a",
+    "expected": false
+   },
+   {
+    "track": 34,
+    "start": 5.0,
+    "end": 25.0,
+    "peak": 15.0,
+    "score": 0.47380468249320984,
+    "title": "YEAH RIGHT",
+    "artist": "Joji",
+    "file": "audio/35_joji_yeah-right.m4a",
+    "expected": false
+   }
+  ],
+  "mean_top": [
+   "YEAH RIGHT",
+   "Rocketeer",
+   "Groundhog Day",
+   "Magic In The Hamptons (feat. Lil Yachty)",
+   "ROXANNE"
+  ]
+ },
+ {
+  "id": "country",
+  "query": "country song with twangy guitar",
+  "expect": [
+   "Chasin' You"
+  ],
+  "note": "",
+  "missing": [],
+  "rank": {
+   "moment": 6,
+   "mean": 2,
+   "one_crop_median": 2.0
+  },
+  "moments": [
+   {
+    "track": 75,
+    "start": 0.0,
+    "end": 10.0,
+    "peak": 0.0,
+    "score": 0.4825417399406433,
+    "title": "I'm Yours",
+    "artist": "Jason Mraz",
+    "file": "audio/77_jason-mraz_i-m-yours.m4a",
+    "expected": false
+   },
+   {
+    "track": 80,
+    "start": 0.0,
+    "end": 120.0,
+    "peak": 50.0,
+    "score": 0.43719857931137085,
+    "title": "Stick Season",
+    "artist": "Noah Kahan",
+    "file": "audio/82_noah-kahan_stick-season.m4a",
+    "expected": false
+   },
+   {
+    "track": 37,
+    "start": 150.0,
+    "end": 171.01974487304688,
+    "peak": 161.01974487304688,
+    "score": 0.3960782289505005,
+    "title": "ANGOSTURA",
+    "artist": "keshi",
+    "file": "audio/38_keshi_angostura.m4a",
+    "expected": false
+   },
+   {
+    "track": 26,
+    "start": 110.0,
+    "end": 125.0,
+    "peak": 115.0,
+    "score": 0.39337044954299927,
+    "title": "Words Bubble Up Like Soda Pop (never young beach)",
+    "artist": "never young beach",
+    "file": "audio/27_never-young-beach_words-bubble-up-like-soda-pop-never-young-beach.m4a",
+    "expected": false
+   },
+   {
+    "track": 26,
+    "start": 196.8000030517578,
+    "end": 206.8000030517578,
+    "peak": 196.8000030517578,
+    "score": 0.36024582386016846,
+    "title": "Words Bubble Up Like Soda Pop (never young beach)",
+    "artist": "never young beach",
+    "file": "audio/27_never-young-beach_words-bubble-up-like-soda-pop-never-young-beach.m4a",
+    "expected": false
+   }
+  ],
+  "mean_top": [
+   "Stick Season",
+   "Chasin' You",
+   "comethru",
+   "IT'S YOU (feat. keshi)",
+   "Words Bubble Up Like Soda Pop (never young beach)"
+  ]
+ },
+ {
+  "id": "lofi-rnb",
+  "query": "mellow lo-fi R&B with clean electric guitar and falsetto vocals",
+  "expect": [
+   "2 soon",
+   "WESTSIDE",
+   "bandaids",
+   "alright",
+   "beside you",
+   "LIMBO",
+   "skeletons",
+   "good days"
+  ],
+  "note": "keshi tracks; any of them counts",
+  "missing": [],
+  "rank": {
+   "moment": 2,
+   "mean": 4,
+   "one_crop_median": 3.5
+  },
+  "moments": [
+   {
+    "track": 32,
+    "start": 130.0,
+    "end": 160.0,
+    "peak": 135.0,
+    "score": 0.5892462134361267,
+    "title": "IT'S YOU (feat. keshi)",
+    "artist": "MAX, keshi",
+    "file": "audio/33_max_it-s-you-feat-keshi.m4a",
+    "expected": false
+   },
+   {
+    "track": 19,
+    "start": 145.0,
+    "end": 160.0,
+    "peak": 145.0,
+    "score": 0.5891311168670654,
+    "title": "WESTSIDE",
+    "artist": "keshi",
+    "file": "audio/20_keshi_westside.m4a",
+    "expected": true
+   },
+   {
+    "track": 69,
+    "start": 5.0,
+    "end": 60.0,
+    "peak": 35.0,
+    "score": 0.5775972604751587,
+    "title": "Superstar Sh*t",
+    "artist": "Dominic Fike",
+    "file": "audio/71_dominic-fike_superstar-sh-t.m4a",
+    "expected": false
+   },
+   {
+    "track": 32,
+    "start": 5.0,
+    "end": 15.0,
+    "peak": 5.0,
+    "score": 0.5669225454330444,
+    "title": "IT'S YOU (feat. keshi)",
+    "artist": "MAX, keshi",
+    "file": "audio/33_max_it-s-you-feat-keshi.m4a",
+    "expected": false
+   },
+   {
+    "track": 35,
+    "start": 135.0,
+    "end": 150.0,
+    "peak": 140.0,
+    "score": 0.5500752925872803,
+    "title": "good days",
+    "artist": "keshi",
+    "file": "audio/36_keshi_good-days.m4a",
+    "expected": true
+   }
+  ],
+  "mean_top": [
+   "Superstar Sh*t",
+   "IT'S YOU (feat. keshi)",
+   "HELL/HEAVEN",
+   "good days",
+   "comethru"
+  ]
+ },
+ {
+  "id": "wordless-vocal",
+  "query": "wordless female vocal chant, ethereal and sparse",
+  "expect": [
+   "Suzume (feat. Toaka)"
+  ],
+  "note": "opening section",
+  "missing": [],
+  "rank": {
+   "moment": 1,
+   "mean": 1,
+   "one_crop_median": 2.0
+  },
+  "moments": [
+   {
+    "track": 70,
+    "start": 0.0,
+    "end": 25.0,
+    "peak": 0.0,
+    "score": 0.662586510181427,
+    "title": "Suzume (feat. Toaka)",
+    "artist": "RADWIMPS, Toaka",
+    "file": "audio/72_radwimps_suzume-feat-toaka.m4a",
+    "expected": true
+   },
+   {
+    "track": 64,
+    "start": 120.0,
+    "end": 130.0,
+    "peak": 120.0,
+    "score": 0.6588838696479797,
+    "title": "Why",
+    "artist": "Dominic Fike",
+    "file": "audio/66_dominic-fike_why.m4a",
+    "expected": false
+   },
+   {
+    "track": 21,
+    "start": 205.0,
+    "end": 220.0,
+    "peak": 210.0,
+    "score": 0.6126258373260498,
+    "title": "Glimpse of Us",
+    "artist": "Joji",
+    "file": "audio/22_joji_glimpse-of-us.m4a",
+    "expected": false
+   },
+   {
+    "track": 21,
+    "start": 15.0,
+    "end": 60.0,
+    "peak": 45.0,
+    "score": 0.5781719088554382,
+    "title": "Glimpse of Us",
+    "artist": "Joji",
+    "file": "audio/22_joji_glimpse-of-us.m4a",
+    "expected": false
+   },
+   {
+    "track": 24,
+    "start": 0.0,
+    "end": 15.0,
+    "peak": 0.0,
+    "score": 0.5768138766288757,
+    "title": "My Play",
+    "artist": "AJR",
+    "file": "audio/25_ajr_my-play.m4a",
+    "expected": false
+   }
+  ],
+  "mean_top": [
+   "Suzume (feat. Toaka)",
+   "Glimpse of Us",
+   "Die For You",
+   "Too Good At Goodbyes",
+   "Snowman"
+  ]
+ },
+ {
+  "id": "indie-rock-chorus",
+  "query": "anthemic indie rock chorus with shouted group vocals",
+  "expect": [
+   "Anna Sun",
+   "Tokyo Rose",
+   "Roses"
+  ],
+  "note": "",
+  "missing": [],
+  "rank": {
+   "moment": 1,
+   "mean": 1,
+   "one_crop_median": 1.0
+  },
+  "moments": [
+   {
+    "track": 63,
+    "start": 10.0,
+    "end": 45.0,
+    "peak": 30.0,
+    "score": 0.7207209467887878,
+    "title": "Tokyo Rose",
+    "artist": "Blame My Youth",
+    "file": "audio/65_blame-my-youth_tokyo-rose.m4a",
+    "expected": true
+   },
+   {
+    "track": 6,
+    "start": 190.0,
+    "end": 205.0,
+    "peak": 190.0,
+    "score": 0.711637020111084,
+    "title": "Zenzenzense - movie ver.",
+    "artist": "RADWIMPS",
+    "file": "audio/07_radwimps_zenzenzense-movie-ver.m4a",
+    "expected": false
+   },
+   {
+    "track": 39,
+    "start": 185.0,
+    "end": 230.0,
+    "peak": 220.0,
+    "score": 0.706697940826416,
+    "title": "Anna Sun",
+    "artist": "WALK THE MOON",
+    "file": "audio/40_walk-the-moon_anna-sun.m4a",
+    "expected": true
+   },
+   {
+    "track": 39,
+    "start": 20.0,
+    "end": 80.0,
+    "peak": 55.0,
+    "score": 0.7049437761306763,
+    "title": "Anna Sun",
+    "artist": "WALK THE MOON",
+    "file": "audio/40_walk-the-moon_anna-sun.m4a",
+    "expected": true
+   },
+   {
+    "track": 6,
+    "start": 175.0,
+    "end": 185.0,
+    "peak": 175.0,
+    "score": 0.6628434658050537,
+    "title": "Zenzenzense - movie ver.",
+    "artist": "RADWIMPS",
+    "file": "audio/07_radwimps_zenzenzense-movie-ver.m4a",
+    "expected": false
+   }
+  ],
+  "mean_top": [
+   "Anna Sun",
+   "Tokyo Rose",
+   "Why",
+   "Yellow",
+   "Celebration (Movie Edit) [feat. Toko Miura]"
+  ]
+ },
+ {
+  "id": "pop-punk",
+  "query": "upbeat guitar-driven indie pop rock with fast drums",
+  "expect": [
+   "Mimi's Delivery Service",
+   "Tokyo Rose"
+  ],
+  "note": "",
+  "missing": [],
+  "rank": {
+   "moment": 2,
+   "mean": 3,
+   "one_crop_median": 2.0
+  },
+  "moments": [
+   {
+    "track": 58,
+    "start": 125.0,
+    "end": 155.1092987060547,
+    "peak": 135.0,
+    "score": 0.5391788482666016,
+    "title": "Celebration (Movie Edit) [feat. Toko Miura]",
+    "artist": "RADWIMPS, Toko Miura",
+    "file": "audio/60_radwimps_celebration-movie-edit-feat-toko-miura.m4a",
+    "expected": false
+   },
+   {
+    "track": 66,
+    "start": 5.0,
+    "end": 15.0,
+    "peak": 5.0,
+    "score": 0.4923323690891266,
+    "title": "Mimi's Delivery Service",
+    "artist": "Good Kid",
+    "file": "audio/68_good-kid_mimi-s-delivery-service.m4a",
+    "expected": true
+   },
+   {
+    "track": 58,
+    "start": 0.0,
+    "end": 20.0,
+    "peak": 5.0,
+    "score": 0.49037376046180725,
+    "title": "Celebration (Movie Edit) [feat. Toko Miura]",
+    "artist": "RADWIMPS, Toko Miura",
+    "file": "audio/60_radwimps_celebration-movie-edit-feat-toko-miura.m4a",
+    "expected": false
+   },
+   {
+    "track": 39,
+    "start": 155.0,
+    "end": 165.0,
+    "peak": 155.0,
+    "score": 0.47598809003829956,
+    "title": "Anna Sun",
+    "artist": "WALK THE MOON",
+    "file": "audio/40_walk-the-moon_anna-sun.m4a",
+    "expected": false
+   },
+   {
+    "track": 39,
+    "start": 285.0,
+    "end": 320.0,
+    "peak": 305.0,
+    "score": 0.4727975130081177,
+    "title": "Anna Sun",
+    "artist": "WALK THE MOON",
+    "file": "audio/40_walk-the-moon_anna-sun.m4a",
+    "expected": false
+   }
+  ],
+  "mean_top": [
+   "Celebration (Movie Edit) [feat. Toko Miura]",
+   "Anna Sun",
+   "Mimi's Delivery Service",
+   "Zenzenzense - movie ver.",
+   "FLY HIGH!!"
+  ]
+ }
+]

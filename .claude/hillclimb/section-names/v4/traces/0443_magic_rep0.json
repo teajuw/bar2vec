@@ -1,0 +1,15 @@
+[
+ {
+  "role": "user",
+  "content": "Name each section of this song: Magic \u2014 B.o.B feat. Rivers Cuomo (Pop, 7 sections)\nsection edges (s): [0.0, 4.6, 40.6, 74.4, 110.4, 144.3, 180.3, 191.9]\nsettings: {\"encoder\": \"clapbar_fold\", \"prompts\": {\"intro\": [\"the intro of a song\"], \"verse\": [\"the verse of a song\"], \"prechorus\": [\"the pre-chorus of a song\"], \"chorus\": [\"the chorus of a song\"], \"postchorus\": [\"the post-chorus of a song\"], \"bridge\": [\"the bridge of a song\"], \"outro\": [\"the outro of a song\"], \"instrumental\": [\"an instrumental section of a song\"]}, \"extra_models\": [\"matpacbar_fold\"], \"structure\": {\"model\": \"matpacbar_fold\", \"position\": true, \"repeat_tau\": 0.4, \"bridge\": true, \"prepost\": true, \"short_s\": 20}}"
+ },
+ {
+  "role": "assistant",
+  "content": "{\"names\": [\"intro\", \"chorus\", \"verse\", \"chorus\", \"verse\", \"chorus\", \"outro\"], \"top3_scores\": [[[\"bridge\", 0.257], [\"postchorus\", 0.239], [\"verse\", 0.238]], [[\"verse\", 0.302], [\"outro\", 0.295], [\"bridge\", 0.295]], [[\"verse\", 0.293], [\"outro\", 0.285], [\"bridge\", 0.255]], [[\"verse\", 0.27], [\"outro\", 0.262], [\"bridge\", 0.257]], [[\"verse\", 0.316], [\"bridge\", 0.277], [\"outro\", 0.275]], [[\"verse\", 0.273], [\"outro\", 0.263], [\"bridge\", 0.26]], [[\"verse\", 0.238], [\"outro\", 0.217], [\"bridge\", 0.211]]]}"
+ },
+ {
+  "role": "tool_result",
+  "name": "grader",
+  "content": "{\"sections\": [{\"start\": 0.0, \"end\": 4.6, \"annotated\": \"intro\", \"scored_as\": \"intro\", \"named\": \"intro\", \"right\": true}, {\"start\": 4.6, \"end\": 40.6, \"annotated\": \"chorus\", \"scored_as\": \"chorus\", \"named\": \"chorus\", \"right\": true}, {\"start\": 40.6, \"end\": 74.4, \"annotated\": \"verse\", \"scored_as\": \"verse\", \"named\": \"verse\", \"right\": true}, {\"start\": 74.4, \"end\": 110.4, \"annotated\": \"chorus\", \"scored_as\": \"chorus\", \"named\": \"chorus\", \"right\": true}, {\"start\": 110.4, \"end\": 144.3, \"annotated\": \"verse\", \"scored_as\": \"verse\", \"named\": \"verse\", \"right\": true}, {\"start\": 144.3, \"end\": 180.3, \"annotated\": \"chorus\", \"scored_as\": \"chorus\", \"named\": \"chorus\", \"right\": true}, {\"start\": 180.3, \"end\": 191.9, \"annotated\": \"outro\", \"scored_as\": \"outro\", \"named\": \"outro\", \"right\": true}], \"grade\": {\"acc\": 1.0}}"
+ }
+]

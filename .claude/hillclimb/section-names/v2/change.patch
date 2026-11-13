@@ -1,0 +1,15 @@
+--- .claude/hillclimb/section-names/v1/names.json	2026-11-13 02:14:15
++++ names.json	2026-11-13 02:14:39
+@@ -32,9 +32,9 @@
+   "structure": {
+     "model": "matpacbar_fold",
+     "position": true,
+-    "repeat_tau": null,
++    "repeat_tau": 0.4,
+     "bridge": false,
+     "prepost": false,
+     "short_s": 20
+   }
+-}
++}
+\ No newline at end of file

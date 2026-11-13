@@ -1,0 +1,15 @@
+[
+ {
+  "role": "user",
+  "content": "Name each section of this song: Venus \u2014 Bananarama (Pop, 9 sections)\nsection edges (s): [0.4, 34.8, 57.7, 73.0, 95.9, 115.0, 137.9, 153.2, 176.1, 210.5]\nsettings: {\"encoder\": \"clapbar_fold\", \"prompts\": {\"intro\": [\"the intro of a song\"], \"verse\": [\"the verse of a song\"], \"prechorus\": [\"the pre-chorus of a song\"], \"chorus\": [\"the chorus of a song\"], \"postchorus\": [\"the post-chorus of a song\"], \"bridge\": [\"the bridge of a song\"], \"outro\": [\"the outro of a song\"], \"instrumental\": [\"an instrumental section of a song\"]}, \"extra_models\": [\"matpacbar_fold\"], \"structure\": {\"model\": \"matpacbar_fold\", \"position\": true, \"repeat_tau\": 0.4, \"bridge\": false, \"prepost\": false, \"short_s\": 20}}"
+ },
+ {
+  "role": "assistant",
+  "content": "{\"names\": [\"intro\", \"chorus\", \"verse\", \"chorus\", \"verse\", \"chorus\", \"verse\", \"chorus\", \"outro\"], \"top3_scores\": [[[\"outro\", 0.302], [\"intro\", 0.294], [\"instrumental\", 0.268]], [[\"outro\", 0.238], [\"intro\", 0.209], [\"bridge\", 0.198]], [[\"outro\", 0.215], [\"intro\", 0.193], [\"bridge\", 0.146]], [[\"outro\", 0.238], [\"intro\", 0.211], [\"bridge\", 0.207]], [[\"outro\", 0.31], [\"intro\", 0.3], [\"instrumental\", 0.296]], [[\"outro\", 0.249], [\"bridge\", 0.226], [\"intro\", 0.217]], [[\"outro\", 0.266], [\"bridge\", 0.238], [\"verse\", 0.237]], [[\"outro\", 0.259], [\"intro\", 0.237], [\"bridge\", 0.232]], [[\"outro\", 0.285], [\"intro\", 0.247], [\"instrumental\", 0.23]]]}"
+ },
+ {
+  "role": "tool_result",
+  "name": "grader",
+  "content": "{\"sections\": [{\"start\": 0.4, \"end\": 34.8, \"annotated\": \"intro\", \"scored_as\": \"intro\", \"named\": \"intro\", \"right\": true}, {\"start\": 34.8, \"end\": 57.7, \"annotated\": \"chorus\", \"scored_as\": \"chorus\", \"named\": \"chorus\", \"right\": true}, {\"start\": 57.7, \"end\": 73.0, \"annotated\": \"verse\", \"scored_as\": \"verse\", \"named\": \"verse\", \"right\": true}, {\"start\": 73.0, \"end\": 95.9, \"annotated\": \"chorus\", \"scored_as\": \"chorus\", \"named\": \"chorus\", \"right\": true}, {\"start\": 95.9, \"end\": 115.0, \"annotated\": \"bridge\", \"scored_as\": \"bridge\", \"named\": \"verse\", \"right\": false}, {\"start\": 115.0, \"end\": 137.9, \"annotated\": \"chorus\", \"scored_as\": \"chorus\", \"named\": \"chorus\", \"right\": true}, {\"start\": 137.9, \"end\": 153.2, \"annotated\": \"verse\", \"scored_as\": \"verse\", \"named\": \"verse\", \"right\": true}, {\"start\": 153.2, \"end\": 176.1, \"annotated\": \"chorus\", \"scored_as\": \"chorus\", \"named\": \"chorus\", \"right\": true}, {\"start\": 176.1, \"end\": 210.5, \"annotated\": \"inst\", \"scored_as\": \"instrumental\", \"named\": \"outro\", \"right\": false}], \"grade\": {\"acc\": 0.7778}}"
+ }
+]

@@ -1,0 +1,15 @@
+[
+ {
+  "role": "user",
+  "content": "Name each section of this song: All Around the World \u2014 Justin Bieber feat. Ludacris (Pop, 10 sections)\nsection edges (s): [0.6, 15.6, 44.7, 75.6, 90.6, 119.7, 150.6, 165.6, 194.7, 224.7, 240.6]\nsettings: {\"encoder\": \"clapbar_fold\", \"prompts\": {\"intro\": [\"the intro of a song\"], \"verse\": [\"the verse of a song\"], \"prechorus\": [\"the pre-chorus of a song\"], \"chorus\": [\"the chorus of a song\"], \"postchorus\": [\"the post-chorus of a song\"], \"bridge\": [\"the bridge of a song\"], \"outro\": [\"the outro of a song\"], \"instrumental\": [\"an instrumental section of a song\"]}}"
+ },
+ {
+  "role": "assistant",
+  "content": "{\"names\": [\"verse\", \"bridge\", \"verse\", \"outro\", \"bridge\", \"verse\", \"outro\", \"verse\", \"outro\", \"outro\"], \"top3_scores\": [[[\"verse\", 0.296], [\"bridge\", 0.284], [\"outro\", 0.271]], [[\"bridge\", 0.363], [\"verse\", 0.353], [\"outro\", 0.348]], [[\"verse\", 0.366], [\"bridge\", 0.357], [\"outro\", 0.341]], [[\"outro\", 0.363], [\"intro\", 0.359], [\"bridge\", 0.326]], [[\"bridge\", 0.359], [\"verse\", 0.352], [\"outro\", 0.343]], [[\"verse\", 0.34], [\"bridge\", 0.33], [\"outro\", 0.326]], [[\"outro\", 0.376], [\"intro\", 0.372], [\"bridge\", 0.318]], [[\"verse\", 0.334], [\"outro\", 0.333], [\"intro\", 0.279]], [[\"outro\", 0.262], [\"bridge\", 0.257], [\"verse\", 0.249]], [[\"outro\", 0.269], [\"bridge\", 0.263], [\"verse\", 0.247]]]}"
+ },
+ {
+  "role": "tool_result",
+  "name": "grader",
+  "content": "{\"sections\": [{\"start\": 0.6, \"end\": 15.6, \"annotated\": \"intro\", \"scored_as\": \"intro\", \"named\": \"verse\", \"right\": false}, {\"start\": 15.6, \"end\": 44.7, \"annotated\": \"verse\", \"scored_as\": \"verse\", \"named\": \"bridge\", \"right\": false}, {\"start\": 44.7, \"end\": 75.6, \"annotated\": \"chorus\", \"scored_as\": \"chorus\", \"named\": \"verse\", \"right\": false}, {\"start\": 75.6, \"end\": 90.6, \"annotated\": \"inst\", \"scored_as\": \"instrumental\", \"named\": \"outro\", \"right\": false}, {\"start\": 90.6, \"end\": 119.7, \"annotated\": \"verse\", \"scored_as\": \"verse\", \"named\": \"bridge\", \"right\": false}, {\"start\": 119.7, \"end\": 150.6, \"annotated\": \"chorus\", \"scored_as\": \"chorus\", \"named\": \"verse\", \"right\": false}, {\"start\": 150.6, \"end\": 165.6, \"annotated\": \"inst\", \"scored_as\": \"instrumental\", \"named\": \"outro\", \"right\": false}, {\"start\": 165.6, \"end\": 194.7, \"annotated\": \"bridge\", \"scored_as\": \"bridge\", \"named\": \"verse\", \"right\": false}, {\"start\": 194.7, \"end\": 224.7, \"annotated\": \"chorus\", \"scored_as\": \"chorus\", \"named\": \"outro\", \"right\": false}, {\"start\": 224.7, \"end\": 240.6, \"annotated\": \"chorus\", \"scored_as\": \"chorus\", \"named\": \"outro\", \"right\": false}], \"grade\": {\"acc\": 0.0}}"
+ }
+]

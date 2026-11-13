@@ -1,0 +1,15 @@
+[
+ {
+  "role": "user",
+  "content": "Name each section of this song: Let Me Be Real \u2014 Fedde Le Grand ft. Mitch Crown (Pop, 10 sections)\nsection edges (s): [0.1, 15.2, 31.4, 60.9, 76.1, 91.4, 106.6, 121.8, 137.1, 152.3, 182.3]\nsettings: {\"encoder\": \"clapbar_fold\", \"prompts\": {\"intro\": [\"the intro of a song\"], \"verse\": [\"the verse of a song\"], \"prechorus\": [\"the pre-chorus of a song\"], \"chorus\": [\"the chorus of a song\"], \"postchorus\": [\"the post-chorus of a song\"], \"bridge\": [\"the bridge of a song\"], \"outro\": [\"the outro of a song\"], \"instrumental\": [\"an instrumental section of a song\"]}, \"extra_models\": [\"matpacbar_fold\"], \"structure\": {\"model\": \"matpacbar_fold\", \"position\": true, \"repeat_tau\": 0.4, \"bridge\": false, \"prepost\": false, \"short_s\": 20}}"
+ },
+ {
+  "role": "assistant",
+  "content": "{\"names\": [\"intro\", \"chorus\", \"verse\", \"verse\", \"verse\", \"verse\", \"chorus\", \"verse\", \"verse\", \"chorus\"], \"top3_scores\": [[[\"verse\", 0.35], [\"outro\", 0.346], [\"bridge\", 0.333]], [[\"bridge\", 0.309], [\"outro\", 0.308], [\"verse\", 0.284]], [[\"outro\", 0.258], [\"verse\", 0.257], [\"bridge\", 0.254]], [[\"bridge\", 0.305], [\"verse\", 0.286], [\"outro\", 0.284]], [[\"bridge\", 0.271], [\"verse\", 0.248], [\"outro\", 0.246]], [[\"bridge\", 0.322], [\"verse\", 0.31], [\"outro\", 0.308]], [[\"outro\", 0.297], [\"bridge\", 0.293], [\"verse\", 0.266]], [[\"bridge\", 0.288], [\"verse\", 0.273], [\"outro\", 0.27]], [[\"bridge\", 0.318], [\"outro\", 0.314], [\"verse\", 0.31]], [[\"outro\", 0.3], [\"bridge\", 0.298], [\"verse\", 0.275]]]}"
+ },
+ {
+  "role": "tool_result",
+  "name": "grader",
+  "content": "{\"sections\": [{\"start\": 0.1, \"end\": 15.2, \"annotated\": \"intro\", \"scored_as\": \"intro\", \"named\": \"intro\", \"right\": true}, {\"start\": 15.2, \"end\": 31.4, \"annotated\": \"inst\", \"scored_as\": \"instrumental\", \"named\": \"chorus\", \"right\": false}, {\"start\": 31.4, \"end\": 60.9, \"annotated\": \"verse\", \"scored_as\": \"verse\", \"named\": \"verse\", \"right\": true}, {\"start\": 60.9, \"end\": 76.1, \"annotated\": \"prechorus\", \"scored_as\": \"prechorus\", \"named\": \"verse\", \"right\": false}, {\"start\": 76.1, \"end\": 91.4, \"annotated\": \"chorus\", \"scored_as\": \"chorus\", \"named\": \"verse\", \"right\": false}, {\"start\": 91.4, \"end\": 106.6, \"annotated\": \"chorus\", \"scored_as\": \"chorus\", \"named\": \"verse\", \"right\": false}, {\"start\": 106.6, \"end\": 121.8, \"annotated\": \"inst\", \"scored_as\": \"instrumental\", \"named\": \"chorus\", \"right\": false}, {\"start\": 121.8, \"end\": 137.1, \"annotated\": \"chorus\", \"scored_as\": \"chorus\", \"named\": \"verse\", \"right\": false}, {\"start\": 137.1, \"end\": 152.3, \"annotated\": \"chorus\", \"scored_as\": \"chorus\", \"named\": \"verse\", \"right\": false}, {\"start\": 152.3, \"end\": 182.3, \"annotated\": \"inst\", \"scored_as\": \"instrumental\", \"named\": \"chorus\", \"right\": false}], \"grade\": {\"acc\": 0.2}}"
+ }
+]

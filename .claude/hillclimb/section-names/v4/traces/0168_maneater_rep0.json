@@ -1,0 +1,15 @@
+[
+ {
+  "role": "user",
+  "content": "Name each section of this song: Maneater \u2014 Nelly Furtado (Pop, 6 sections)\nsection edges (s): [0.5, 9.0, 38.0, 66.9, 81.3, 110.3, 124.7]\nsettings: {\"encoder\": \"clapbar_fold\", \"prompts\": {\"intro\": [\"the intro of a song\"], \"verse\": [\"the verse of a song\"], \"prechorus\": [\"the pre-chorus of a song\"], \"chorus\": [\"the chorus of a song\"], \"postchorus\": [\"the post-chorus of a song\"], \"bridge\": [\"the bridge of a song\"], \"outro\": [\"the outro of a song\"], \"instrumental\": [\"an instrumental section of a song\"]}, \"extra_models\": [\"matpacbar_fold\"], \"structure\": {\"model\": \"matpacbar_fold\", \"position\": true, \"repeat_tau\": 0.4, \"bridge\": true, \"prepost\": true, \"short_s\": 20}}"
+ },
+ {
+  "role": "assistant",
+  "content": "{\"names\": [\"intro\", \"chorus\", \"verse\", \"verse\", \"chorus\", \"outro\"], \"top3_scores\": [[[\"outro\", 0.251], [\"verse\", 0.236], [\"bridge\", 0.215]], [[\"verse\", 0.232], [\"outro\", 0.21], [\"bridge\", 0.192]], [[\"verse\", 0.269], [\"outro\", 0.242], [\"bridge\", 0.24]], [[\"verse\", 0.265], [\"outro\", 0.265], [\"bridge\", 0.247]], [[\"verse\", 0.22], [\"bridge\", 0.184], [\"outro\", 0.158]], [[\"outro\", 0.22], [\"verse\", 0.217], [\"bridge\", 0.192]]]}"
+ },
+ {
+  "role": "tool_result",
+  "name": "grader",
+  "content": "{\"sections\": [{\"start\": 0.5, \"end\": 9.0, \"annotated\": \"intro\", \"scored_as\": \"intro\", \"named\": \"intro\", \"right\": true}, {\"start\": 9.0, \"end\": 38.0, \"annotated\": \"verse\", \"scored_as\": \"verse\", \"named\": \"chorus\", \"right\": false}, {\"start\": 38.0, \"end\": 66.9, \"annotated\": \"chorus\", \"scored_as\": \"chorus\", \"named\": \"verse\", \"right\": false}, {\"start\": 66.9, \"end\": 81.3, \"annotated\": \"postchorus\", \"scored_as\": \"postchorus\", \"named\": \"verse\", \"right\": false}, {\"start\": 81.3, \"end\": 110.3, \"annotated\": \"chorus\", \"scored_as\": \"chorus\", \"named\": \"chorus\", \"right\": true}, {\"start\": 110.3, \"end\": 124.7, \"annotated\": \"outro\", \"scored_as\": \"outro\", \"named\": \"outro\", \"right\": true}], \"grade\": {\"acc\": 0.5}}"
+ }
+]

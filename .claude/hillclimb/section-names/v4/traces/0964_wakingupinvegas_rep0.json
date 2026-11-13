@@ -1,0 +1,15 @@
+[
+ {
+  "role": "user",
+  "content": "Name each section of this song: Waking Up in Vegas \u2014 Katy Perry (Pop, 10 sections)\nsection edges (s): [0.0, 5.4, 47.5, 62.2, 89.7, 104.4, 128.2, 142.8, 157.5, 179.6, 194.1]\nsettings: {\"encoder\": \"clapbar_fold\", \"prompts\": {\"intro\": [\"the intro of a song\"], \"verse\": [\"the verse of a song\"], \"prechorus\": [\"the pre-chorus of a song\"], \"chorus\": [\"the chorus of a song\"], \"postchorus\": [\"the post-chorus of a song\"], \"bridge\": [\"the bridge of a song\"], \"outro\": [\"the outro of a song\"], \"instrumental\": [\"an instrumental section of a song\"]}, \"extra_models\": [\"matpacbar_fold\"], \"structure\": {\"model\": \"matpacbar_fold\", \"position\": true, \"repeat_tau\": 0.4, \"bridge\": true, \"prepost\": true, \"short_s\": 20}}"
+ },
+ {
+  "role": "assistant",
+  "content": "{\"names\": [\"intro\", \"verse\", \"chorus\", \"verse\", \"chorus\", \"verse\", \"bridge\", \"chorus\", \"bridge\", \"outro\"], \"top3_scores\": [[[\"outro\", 0.395], [\"intro\", 0.326], [\"postchorus\", 0.315]], [[\"verse\", 0.317], [\"bridge\", 0.315], [\"outro\", 0.293]], [[\"bridge\", 0.189], [\"verse\", 0.171], [\"outro\", 0.156]], [[\"bridge\", 0.284], [\"verse\", 0.243], [\"outro\", 0.218]], [[\"bridge\", 0.209], [\"verse\", 0.188], [\"outro\", 0.173]], [[\"bridge\", 0.186], [\"verse\", 0.158], [\"outro\", 0.151]], [[\"bridge\", 0.225], [\"verse\", 0.191], [\"outro\", 0.176]], [[\"bridge\", 0.212], [\"verse\", 0.183], [\"outro\", 0.17]], [[\"bridge\", 0.255], [\"outro\", 0.212], [\"verse\", 0.204]], [[\"bridge\", 0.215], [\"outro\", 0.187], [\"postchorus\", 0.163]]]}"
+ },
+ {
+  "role": "tool_result",
+  "name": "grader",
+  "content": "{\"sections\": [{\"start\": 0.0, \"end\": 5.4, \"annotated\": \"silence\", \"scored_as\": null, \"named\": \"intro\", \"right\": null}, {\"start\": 5.4, \"end\": 47.5, \"annotated\": \"verse\", \"scored_as\": \"verse\", \"named\": \"verse\", \"right\": true}, {\"start\": 47.5, \"end\": 62.2, \"annotated\": \"chorus\", \"scored_as\": \"chorus\", \"named\": \"chorus\", \"right\": true}, {\"start\": 62.2, \"end\": 89.7, \"annotated\": \"verse\", \"scored_as\": \"verse\", \"named\": \"verse\", \"right\": true}, {\"start\": 89.7, \"end\": 104.4, \"annotated\": \"chorus\", \"scored_as\": \"chorus\", \"named\": \"chorus\", \"right\": true}, {\"start\": 104.4, \"end\": 128.2, \"annotated\": \"bridge\", \"scored_as\": \"bridge\", \"named\": \"verse\", \"right\": false}, {\"start\": 128.2, \"end\": 142.8, \"annotated\": \"break\", \"scored_as\": \"instrumental\", \"named\": \"bridge\", \"right\": false}, {\"start\": 142.8, \"end\": 157.5, \"annotated\": \"chorus\", \"scored_as\": \"chorus\", \"named\": \"chorus\", \"right\": true}, {\"start\": 157.5, \"end\": 179.6, \"annotated\": \"outro1\", \"scored_as\": \"outro\", \"named\": \"bridge\", \"right\": false}, {\"start\": 179.6, \"end\": 194.1, \"annotated\": \"outro\", \"scored_as\": \"outro\", \"named\": \"outro\", \"right\": true}], \"grade\": {\"acc\": 0.6667}}"
+ }
+]

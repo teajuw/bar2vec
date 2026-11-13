@@ -1,0 +1,15 @@
+[
+ {
+  "role": "user",
+  "content": "Name each section of this song: Letting Go (Dutty Love) \u2014 Sean Kingston feat. Nicki Minaj (Pop, 10 sections)\nsection edges (s): [0.0, 2.6, 23.5, 44.3, 65.2, 86.1, 107.0, 127.8, 148.7, 195.7, 227.0]\nsettings: {\"encoder\": \"clapbar_fold\", \"prompts\": {\"intro\": [\"the intro of a song\"], \"verse\": [\"the verse of a song\"], \"prechorus\": [\"the pre-chorus of a song\"], \"chorus\": [\"the chorus of a song\"], \"postchorus\": [\"the post-chorus of a song\"], \"bridge\": [\"the bridge of a song\"], \"outro\": [\"the outro of a song\"], \"instrumental\": [\"an instrumental section of a song\"]}}"
+ },
+ {
+  "role": "assistant",
+  "content": "{\"names\": [\"verse\", \"outro\", \"verse\", \"verse\", \"verse\", \"verse\", \"verse\", \"verse\", \"verse\", \"verse\"], \"top3_scores\": [[[\"verse\", 0.277], [\"bridge\", 0.201], [\"outro\", 0.201]], [[\"outro\", 0.332], [\"intro\", 0.31], [\"verse\", 0.309]], [[\"verse\", 0.355], [\"outro\", 0.305], [\"bridge\", 0.299]], [[\"verse\", 0.318], [\"outro\", 0.291], [\"bridge\", 0.288]], [[\"verse\", 0.333], [\"bridge\", 0.31], [\"outro\", 0.259]], [[\"verse\", 0.353], [\"outro\", 0.302], [\"bridge\", 0.293]], [[\"verse\", 0.324], [\"bridge\", 0.303], [\"outro\", 0.3]], [[\"verse\", 0.339], [\"bridge\", 0.316], [\"outro\", 0.277]], [[\"verse\", 0.366], [\"bridge\", 0.286], [\"outro\", 0.283]], [[\"verse\", 0.341], [\"bridge\", 0.315], [\"outro\", 0.281]]]}"
+ },
+ {
+  "role": "tool_result",
+  "name": "grader",
+  "content": "{\"sections\": [{\"start\": 0.0, \"end\": 2.6, \"annotated\": \"intro\", \"scored_as\": \"intro\", \"named\": \"verse\", \"right\": false}, {\"start\": 2.6, \"end\": 23.5, \"annotated\": \"chorus\", \"scored_as\": \"chorus\", \"named\": \"outro\", \"right\": false}, {\"start\": 23.5, \"end\": 44.3, \"annotated\": \"verse\", \"scored_as\": \"verse\", \"named\": \"verse\", \"right\": true}, {\"start\": 44.3, \"end\": 65.2, \"annotated\": \"chorus\", \"scored_as\": \"chorus\", \"named\": \"verse\", \"right\": false}, {\"start\": 65.2, \"end\": 86.1, \"annotated\": \"postchorus\", \"scored_as\": \"postchorus\", \"named\": \"verse\", \"right\": false}, {\"start\": 86.1, \"end\": 107.0, \"annotated\": \"verse\", \"scored_as\": \"verse\", \"named\": \"verse\", \"right\": true}, {\"start\": 107.0, \"end\": 127.8, \"annotated\": \"chorus\", \"scored_as\": \"chorus\", \"named\": \"verse\", \"right\": false}, {\"start\": 127.8, \"end\": 148.7, \"annotated\": \"postchorus\", \"scored_as\": \"postchorus\", \"named\": \"verse\", \"right\": false}, {\"start\": 148.7, \"end\": 195.7, \"annotated\": \"verse\", \"scored_as\": \"verse\", \"named\": \"verse\", \"right\": true}, {\"start\": 195.7, \"end\": 227.0, \"annotated\": \"postchorus\", \"scored_as\": \"postchorus\", \"named\": \"verse\", \"right\": false}], \"grade\": {\"acc\": 0.3}}"
+ }
+]

@@ -1,0 +1,15 @@
+[
+ {
+  "role": "user",
+  "content": "Name each section of this song: My Oh My \u2014 Tristan Prettyman (Pop, 8 sections)\nsection edges (s): [0.0, 2.2, 7.2, 36.0, 67.2, 96.0, 127.2, 166.0, 207.2]\nsettings: {\"encoder\": \"clapbar_fold\", \"prompts\": {\"intro\": [\"the intro of a song\"], \"verse\": [\"the verse of a song\"], \"prechorus\": [\"the pre-chorus of a song\"], \"chorus\": [\"the chorus of a song\"], \"postchorus\": [\"the post-chorus of a song\"], \"bridge\": [\"the bridge of a song\"], \"outro\": [\"the outro of a song\"], \"instrumental\": [\"an instrumental section of a song\"]}, \"extra_models\": [\"matpacbar_fold\"], \"structure\": {\"model\": \"matpacbar_fold\", \"position\": true, \"repeat_tau\": 0.4, \"bridge\": true, \"prepost\": true, \"short_s\": 20, \"vocal_below\": -1.0}, \"extra_prompts\": {\"vocals\": [\"singing vocals\", \"a person singing or rapping\"], \"no_vocals\": [\"instrumental music with no vocals\", \"an instrumental solo\"]}}"
+ },
+ {
+  "role": "assistant",
+  "content": "{\"names\": [\"intro\", \"instrumental\", \"verse\", \"chorus\", \"verse\", \"chorus\", \"bridge\", \"outro\"], \"top3_scores\": [[[\"chorus\", 0.218], [\"instrumental\", 0.216], [\"postchorus\", 0.206]], [[\"chorus\", 0.221], [\"postchorus\", 0.217], [\"instrumental\", 0.213]], [[\"bridge\", 0.26], [\"verse\", 0.241], [\"outro\", 0.234]], [[\"bridge\", 0.201], [\"verse\", 0.145], [\"instrumental\", 0.145]], [[\"bridge\", 0.261], [\"verse\", 0.236], [\"outro\", 0.198]], [[\"bridge\", 0.211], [\"verse\", 0.161], [\"instrumental\", 0.161]], [[\"bridge\", 0.249], [\"verse\", 0.238], [\"outro\", 0.206]], [[\"outro\", 0.244], [\"bridge\", 0.222], [\"postchorus\", 0.204]]]}"
+ },
+ {
+  "role": "tool_result",
+  "name": "grader",
+  "content": "{\"sections\": [{\"start\": 0.0, \"end\": 2.2, \"annotated\": \"silence\", \"scored_as\": null, \"named\": \"intro\", \"right\": null}, {\"start\": 2.2, \"end\": 7.2, \"annotated\": \"intro\", \"scored_as\": \"intro\", \"named\": \"instrumental\", \"right\": false}, {\"start\": 7.2, \"end\": 36.0, \"annotated\": \"verse\", \"scored_as\": \"verse\", \"named\": \"verse\", \"right\": true}, {\"start\": 36.0, \"end\": 67.2, \"annotated\": \"chorus\", \"scored_as\": \"chorus\", \"named\": \"chorus\", \"right\": true}, {\"start\": 67.2, \"end\": 96.0, \"annotated\": \"verse\", \"scored_as\": \"verse\", \"named\": \"verse\", \"right\": true}, {\"start\": 96.0, \"end\": 127.2, \"annotated\": \"chorus\", \"scored_as\": \"chorus\", \"named\": \"chorus\", \"right\": true}, {\"start\": 127.2, \"end\": 166.0, \"annotated\": \"bridge\", \"scored_as\": \"bridge\", \"named\": \"bridge\", \"right\": true}, {\"start\": 166.0, \"end\": 207.2, \"annotated\": \"chorus\", \"scored_as\": \"chorus\", \"named\": \"outro\", \"right\": false}], \"grade\": {\"acc\": 0.7143}}"
+ }
+]

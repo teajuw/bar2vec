@@ -1,0 +1,15 @@
+[
+ {
+  "role": "user",
+  "content": "Name each section of this song: Back in Time \u2014 Pitbull (Hip-Hop, 8 sections)\nsection edges (s): [0.1, 22.8, 45.4, 75.7, 97.9, 128.6, 151.3, 166.4, 204.2]\nsettings: {\"encoder\": \"clapbar_fold\", \"prompts\": {\"intro\": [\"the intro of a song\"], \"verse\": [\"the verse of a song\"], \"prechorus\": [\"the pre-chorus of a song\"], \"chorus\": [\"the chorus of a song\"], \"postchorus\": [\"the post-chorus of a song\"], \"bridge\": [\"the bridge of a song\"], \"outro\": [\"the outro of a song\"], \"instrumental\": [\"an instrumental section of a song\"]}, \"extra_models\": [\"matpacbar_fold\"], \"structure\": {\"model\": \"matpacbar_fold\", \"position\": true, \"repeat_tau\": 0.4, \"bridge\": true, \"prepost\": false, \"short_s\": 20}}"
+ },
+ {
+  "role": "assistant",
+  "content": "{\"names\": [\"intro\", \"chorus\", \"verse\", \"chorus\", \"verse\", \"chorus\", \"verse\", \"outro\"], \"top3_scores\": [[[\"outro\", 0.341], [\"intro\", 0.289], [\"verse\", 0.262]], [[\"outro\", 0.337], [\"intro\", 0.308], [\"verse\", 0.281]], [[\"outro\", 0.278], [\"verse\", 0.261], [\"intro\", 0.246]], [[\"outro\", 0.291], [\"intro\", 0.256], [\"bridge\", 0.236]], [[\"outro\", 0.279], [\"verse\", 0.262], [\"intro\", 0.247]], [[\"outro\", 0.302], [\"intro\", 0.28], [\"bridge\", 0.254]], [[\"outro\", 0.316], [\"intro\", 0.259], [\"postchorus\", 0.24]], [[\"outro\", 0.351], [\"intro\", 0.328], [\"bridge\", 0.275]]]}"
+ },
+ {
+  "role": "tool_result",
+  "name": "grader",
+  "content": "{\"sections\": [{\"start\": 0.1, \"end\": 22.8, \"annotated\": \"intro\", \"scored_as\": \"intro\", \"named\": \"intro\", \"right\": true}, {\"start\": 22.8, \"end\": 45.4, \"annotated\": \"chorus\", \"scored_as\": \"chorus\", \"named\": \"chorus\", \"right\": true}, {\"start\": 45.4, \"end\": 75.7, \"annotated\": \"verse\", \"scored_as\": \"verse\", \"named\": \"verse\", \"right\": true}, {\"start\": 75.7, \"end\": 97.9, \"annotated\": \"chorus\", \"scored_as\": \"chorus\", \"named\": \"chorus\", \"right\": true}, {\"start\": 97.9, \"end\": 128.6, \"annotated\": \"verse\", \"scored_as\": \"verse\", \"named\": \"verse\", \"right\": true}, {\"start\": 128.6, \"end\": 151.3, \"annotated\": \"chorus\", \"scored_as\": \"chorus\", \"named\": \"chorus\", \"right\": true}, {\"start\": 151.3, \"end\": 166.4, \"annotated\": \"intro\", \"scored_as\": \"intro\", \"named\": \"verse\", \"right\": false}, {\"start\": 166.4, \"end\": 204.2, \"annotated\": \"chorus\", \"scored_as\": \"chorus\", \"named\": \"outro\", \"right\": false}], \"grade\": {\"acc\": 0.75}}"
+ }
+]

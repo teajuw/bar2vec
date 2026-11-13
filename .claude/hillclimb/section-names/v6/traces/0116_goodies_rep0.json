@@ -1,0 +1,15 @@
+[
+ {
+  "role": "user",
+  "content": "Name each section of this song: Goodies \u2014 Ciara (R&B, 9 sections)\nsection edges (s): [0.0, 2.4, 7.1, 35.3, 54.1, 72.9, 91.8, 101.2, 120.0, 129.4]\nsettings: {\"encoder\": \"clapbar_fold\", \"prompts\": {\"intro\": [\"the intro of a song\"], \"verse\": [\"the verse of a song\"], \"prechorus\": [\"the pre-chorus of a song\"], \"chorus\": [\"the chorus of a song\"], \"postchorus\": [\"the post-chorus of a song\"], \"bridge\": [\"the bridge of a song\"], \"outro\": [\"the outro of a song\"], \"instrumental\": [\"an instrumental section of a song\"]}, \"extra_models\": [\"matpacbar_fold\", \"loudbar_fold\"], \"structure\": {\"model\": \"matpacbar_fold\", \"position\": true, \"repeat_tau\": 0.4, \"bridge\": true, \"prepost\": true, \"short_s\": 20, \"vocal_below\": -1.0, \"loud_model\": \"loudbar_fold\", \"loud_w\": 2.0}, \"extra_prompts\": {\"vocals\": [\"singing vocals\", \"a person singing or rapping\"], \"no_vocals\": [\"instrumental music with no vocals\", \"an instrumental solo\"]}}"
+ },
+ {
+  "role": "assistant",
+  "content": "{\"names\": [\"intro\", \"verse\", \"verse\", \"verse\", \"chorus\", \"verse\", \"verse\", \"chorus\", \"outro\"], \"top3_scores\": [[[\"verse\", 0.221], [\"postchorus\", 0.212], [\"outro\", 0.17]], [[\"verse\", 0.32], [\"outro\", 0.266], [\"bridge\", 0.239]], [[\"verse\", 0.338], [\"outro\", 0.287], [\"bridge\", 0.26]], [[\"verse\", 0.285], [\"bridge\", 0.227], [\"outro\", 0.199]], [[\"verse\", 0.269], [\"bridge\", 0.211], [\"outro\", 0.196]], [[\"verse\", 0.331], [\"bridge\", 0.262], [\"outro\", 0.236]], [[\"verse\", 0.272], [\"bridge\", 0.209], [\"outro\", 0.204]], [[\"verse\", 0.29], [\"bridge\", 0.231], [\"outro\", 0.222]], [[\"verse\", 0.326], [\"outro\", 0.325], [\"bridge\", 0.298]]]}"
+ },
+ {
+  "role": "tool_result",
+  "name": "grader",
+  "content": "{\"sections\": [{\"start\": 0.0, \"end\": 2.4, \"annotated\": \"silence\", \"scored_as\": null, \"named\": \"intro\", \"right\": null}, {\"start\": 2.4, \"end\": 7.1, \"annotated\": \"intro\", \"scored_as\": \"intro\", \"named\": \"verse\", \"right\": false}, {\"start\": 7.1, \"end\": 35.3, \"annotated\": \"verse\", \"scored_as\": \"verse\", \"named\": \"verse\", \"right\": true}, {\"start\": 35.3, \"end\": 54.1, \"annotated\": \"prechorus\", \"scored_as\": \"prechorus\", \"named\": \"verse\", \"right\": false}, {\"start\": 54.1, \"end\": 72.9, \"annotated\": \"chorus\", \"scored_as\": \"chorus\", \"named\": \"chorus\", \"right\": true}, {\"start\": 72.9, \"end\": 91.8, \"annotated\": \"prechorus\", \"scored_as\": \"prechorus\", \"named\": \"verse\", \"right\": false}, {\"start\": 91.8, \"end\": 101.2, \"annotated\": \"bridge\", \"scored_as\": \"bridge\", \"named\": \"verse\", \"right\": false}, {\"start\": 101.2, \"end\": 120.0, \"annotated\": \"chorus\", \"scored_as\": \"chorus\", \"named\": \"chorus\", \"right\": true}, {\"start\": 120.0, \"end\": 129.4, \"annotated\": \"outro\", \"scored_as\": \"outro\", \"named\": \"outro\", \"right\": true}], \"grade\": {\"acc\": 0.5}}"
+ }
+]

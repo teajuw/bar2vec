@@ -1,0 +1,15 @@
+[
+ {
+  "role": "user",
+  "content": "Name each section of this song: Love Drunk \u2014 Boys Like Girls (Pop, 10 sections)\nsection edges (s): [0.1, 22.5, 47.3, 73.7, 80.1, 104.9, 131.3, 146.5, 156.1, 182.5, 208.1]\nsettings: {\"encoder\": \"clapbar_fold\", \"prompts\": {\"intro\": [\"the intro of a song\"], \"verse\": [\"the verse of a song\"], \"prechorus\": [\"the pre-chorus of a song\"], \"chorus\": [\"the chorus of a song\"], \"postchorus\": [\"the post-chorus of a song\"], \"bridge\": [\"the bridge of a song\"], \"outro\": [\"the outro of a song\"], \"instrumental\": [\"an instrumental section of a song\"]}, \"extra_models\": [\"matpacbar_fold\"], \"structure\": {\"model\": \"matpacbar_fold\", \"position\": true, \"repeat_tau\": 0.4, \"bridge\": true, \"prepost\": false, \"short_s\": 20}}"
+ },
+ {
+  "role": "assistant",
+  "content": "{\"names\": [\"intro\", \"verse\", \"chorus\", \"verse\", \"verse\", \"chorus\", \"bridge\", \"bridge\", \"chorus\", \"outro\"], \"top3_scores\": [[[\"outro\", 0.312], [\"postchorus\", 0.274], [\"bridge\", 0.26]], [[\"bridge\", 0.231], [\"outro\", 0.23], [\"verse\", 0.204]], [[\"bridge\", 0.198], [\"outro\", 0.189], [\"verse\", 0.168]], [[\"outro\", 0.191], [\"bridge\", 0.176], [\"chorus\", 0.175]], [[\"outro\", 0.268], [\"bridge\", 0.264], [\"verse\", 0.235]], [[\"outro\", 0.213], [\"bridge\", 0.21], [\"verse\", 0.18]], [[\"bridge\", 0.202], [\"outro\", 0.202], [\"verse\", 0.192]], [[\"outro\", 0.323], [\"verse\", 0.275], [\"bridge\", 0.27]], [[\"bridge\", 0.201], [\"outro\", 0.183], [\"verse\", 0.173]], [[\"postchorus\", 0.188], [\"outro\", 0.181], [\"bridge\", 0.165]]]}"
+ },
+ {
+  "role": "tool_result",
+  "name": "grader",
+  "content": "{\"sections\": [{\"start\": 0.1, \"end\": 22.5, \"annotated\": \"intro\", \"scored_as\": \"intro\", \"named\": \"intro\", \"right\": true}, {\"start\": 22.5, \"end\": 47.3, \"annotated\": \"verse\", \"scored_as\": \"verse\", \"named\": \"verse\", \"right\": true}, {\"start\": 47.3, \"end\": 73.7, \"annotated\": \"chorus\", \"scored_as\": \"chorus\", \"named\": \"chorus\", \"right\": true}, {\"start\": 73.7, \"end\": 80.1, \"annotated\": \"inst\", \"scored_as\": \"instrumental\", \"named\": \"verse\", \"right\": false}, {\"start\": 80.1, \"end\": 104.9, \"annotated\": \"verse\", \"scored_as\": \"verse\", \"named\": \"verse\", \"right\": true}, {\"start\": 104.9, \"end\": 131.3, \"annotated\": \"chorus\", \"scored_as\": \"chorus\", \"named\": \"chorus\", \"right\": true}, {\"start\": 131.3, \"end\": 146.5, \"annotated\": \"bridge\", \"scored_as\": \"bridge\", \"named\": \"bridge\", \"right\": true}, {\"start\": 146.5, \"end\": 156.1, \"annotated\": \"chorus\", \"scored_as\": \"chorus\", \"named\": \"bridge\", \"right\": false}, {\"start\": 156.1, \"end\": 182.5, \"annotated\": \"chorus\", \"scored_as\": \"chorus\", \"named\": \"chorus\", \"right\": true}, {\"start\": 182.5, \"end\": 208.1, \"annotated\": \"outro\", \"scored_as\": \"outro\", \"named\": \"outro\", \"right\": true}], \"grade\": {\"acc\": 0.8}}"
+ }
+]

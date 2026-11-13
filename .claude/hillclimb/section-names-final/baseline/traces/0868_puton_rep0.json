@@ -1,0 +1,15 @@
+[
+ {
+  "role": "user",
+  "content": "Name each section of this song: Put On \u2014 Young Jeezy feat. Kanye West (Hip-Hop, 11 sections)\nsection edges (s): [0.1, 17.6, 31.0, 72.9, 86.8, 101.2, 142.6, 156.6, 170.5, 198.5, 240.3, 254.3]\nsettings: {\"encoder\": \"clapbar_fold\", \"prompts\": {\"intro\": [\"the intro of a song\"], \"verse\": [\"the verse of a song\"], \"prechorus\": [\"the pre-chorus of a song\"], \"chorus\": [\"the chorus of a song\"], \"postchorus\": [\"the post-chorus of a song\"], \"bridge\": [\"the bridge of a song\"], \"outro\": [\"the outro of a song\"], \"instrumental\": [\"an instrumental section of a song\"]}}"
+ },
+ {
+  "role": "assistant",
+  "content": "{\"names\": [\"outro\", \"verse\", \"outro\", \"bridge\", \"outro\", \"verse\", \"bridge\", \"outro\", \"verse\", \"verse\", \"outro\"], \"top3_scores\": [[[\"outro\", 0.377], [\"verse\", 0.309], [\"intro\", 0.277]], [[\"verse\", 0.365], [\"outro\", 0.359], [\"bridge\", 0.34]], [[\"outro\", 0.258], [\"verse\", 0.252], [\"bridge\", 0.23]], [[\"bridge\", 0.27], [\"outro\", 0.267], [\"verse\", 0.262]], [[\"outro\", 0.272], [\"verse\", 0.268], [\"bridge\", 0.267]], [[\"verse\", 0.286], [\"outro\", 0.281], [\"bridge\", 0.27]], [[\"bridge\", 0.265], [\"outro\", 0.263], [\"verse\", 0.26]], [[\"outro\", 0.275], [\"verse\", 0.271], [\"bridge\", 0.268]], [[\"verse\", 0.339], [\"bridge\", 0.313], [\"outro\", 0.311]], [[\"verse\", 0.378], [\"bridge\", 0.36], [\"outro\", 0.353]], [[\"outro\", 0.282], [\"bridge\", 0.277], [\"verse\", 0.271]]]}"
+ },
+ {
+  "role": "tool_result",
+  "name": "grader",
+  "content": "{\"sections\": [{\"start\": 0.1, \"end\": 17.6, \"annotated\": \"intro\", \"scored_as\": \"intro\", \"named\": \"outro\", \"right\": false}, {\"start\": 17.6, \"end\": 31.0, \"annotated\": \"chorus\", \"scored_as\": \"chorus\", \"named\": \"verse\", \"right\": false}, {\"start\": 31.0, \"end\": 72.9, \"annotated\": \"verse\", \"scored_as\": \"verse\", \"named\": \"outro\", \"right\": false}, {\"start\": 72.9, \"end\": 86.8, \"annotated\": \"chorus\", \"scored_as\": \"chorus\", \"named\": \"bridge\", \"right\": false}, {\"start\": 86.8, \"end\": 101.2, \"annotated\": \"chorus\", \"scored_as\": \"chorus\", \"named\": \"outro\", \"right\": false}, {\"start\": 101.2, \"end\": 142.6, \"annotated\": \"verse\", \"scored_as\": \"verse\", \"named\": \"verse\", \"right\": true}, {\"start\": 142.6, \"end\": 156.6, \"annotated\": \"chorus\", \"scored_as\": \"chorus\", \"named\": \"bridge\", \"right\": false}, {\"start\": 156.6, \"end\": 170.5, \"annotated\": \"chorus\", \"scored_as\": \"chorus\", \"named\": \"outro\", \"right\": false}, {\"start\": 170.5, \"end\": 198.5, \"annotated\": \"verse\", \"scored_as\": \"verse\", \"named\": \"verse\", \"right\": true}, {\"start\": 198.5, \"end\": 240.3, \"annotated\": \"bridge\", \"scored_as\": \"bridge\", \"named\": \"verse\", \"right\": false}, {\"start\": 240.3, \"end\": 254.3, \"annotated\": \"chorus\", \"scored_as\": \"chorus\", \"named\": \"outro\", \"right\": false}], \"grade\": {\"acc\": 0.1818}}"
+ }
+]

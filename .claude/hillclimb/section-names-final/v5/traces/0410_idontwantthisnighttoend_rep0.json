@@ -1,0 +1,15 @@
+[
+ {
+  "role": "user",
+  "content": "Name each section of this song: I Don't Want This Night to End \u2014 Luke Bryan (Country, 8 sections)\nsection edges (s): [0.3, 17.5, 42.7, 77.5, 102.7, 137.5, 154.1, 188.9, 210.3]\nsettings: {\"encoder\": \"clapbar_fold\", \"prompts\": {\"intro\": [\"the intro of a song\"], \"verse\": [\"the verse of a song\"], \"prechorus\": [\"the pre-chorus of a song\"], \"chorus\": [\"the chorus of a song\"], \"postchorus\": [\"the post-chorus of a song\"], \"bridge\": [\"the bridge of a song\"], \"outro\": [\"the outro of a song\"], \"instrumental\": [\"an instrumental section of a song\"]}, \"extra_models\": [\"matpacbar_fold\"], \"structure\": {\"model\": \"matpacbar_fold\", \"position\": true, \"repeat_tau\": 0.4, \"bridge\": true, \"prepost\": true, \"short_s\": 20, \"vocal_below\": -1.0}, \"extra_prompts\": {\"vocals\": [\"singing vocals\", \"a person singing or rapping\"], \"no_vocals\": [\"instrumental music with no vocals\", \"an instrumental solo\"]}}"
+ },
+ {
+  "role": "assistant",
+  "content": "{\"names\": [\"intro\", \"verse\", \"chorus\", \"verse\", \"chorus\", \"bridge\", \"chorus\", \"outro\"], \"top3_scores\": [[[\"chorus\", 0.248], [\"bridge\", 0.246], [\"postchorus\", 0.219]], [[\"bridge\", 0.261], [\"verse\", 0.246], [\"chorus\", 0.203]], [[\"bridge\", 0.284], [\"verse\", 0.262], [\"outro\", 0.211]], [[\"bridge\", 0.27], [\"verse\", 0.246], [\"chorus\", 0.2]], [[\"bridge\", 0.298], [\"verse\", 0.271], [\"outro\", 0.228]], [[\"bridge\", 0.183], [\"outro\", 0.161], [\"verse\", 0.14]], [[\"bridge\", 0.293], [\"verse\", 0.265], [\"outro\", 0.241]], [[\"outro\", 0.181], [\"postchorus\", 0.167], [\"bridge\", 0.156]]]}"
+ },
+ {
+  "role": "tool_result",
+  "name": "grader",
+  "content": "{\"sections\": [{\"start\": 0.3, \"end\": 17.5, \"annotated\": \"intro\", \"scored_as\": \"intro\", \"named\": \"intro\", \"right\": true}, {\"start\": 17.5, \"end\": 42.7, \"annotated\": \"verse\", \"scored_as\": \"verse\", \"named\": \"verse\", \"right\": true}, {\"start\": 42.7, \"end\": 77.5, \"annotated\": \"chorus\", \"scored_as\": \"chorus\", \"named\": \"chorus\", \"right\": true}, {\"start\": 77.5, \"end\": 102.7, \"annotated\": \"verse\", \"scored_as\": \"verse\", \"named\": \"verse\", \"right\": true}, {\"start\": 102.7, \"end\": 137.5, \"annotated\": \"chorus\", \"scored_as\": \"chorus\", \"named\": \"chorus\", \"right\": true}, {\"start\": 137.5, \"end\": 154.1, \"annotated\": \"solo\", \"scored_as\": \"instrumental\", \"named\": \"bridge\", \"right\": false}, {\"start\": 154.1, \"end\": 188.9, \"annotated\": \"chorus\", \"scored_as\": \"chorus\", \"named\": \"chorus\", \"right\": true}, {\"start\": 188.9, \"end\": 210.3, \"annotated\": \"outro\", \"scored_as\": \"outro\", \"named\": \"outro\", \"right\": true}], \"grade\": {\"acc\": 0.875}}"
+ }
+]

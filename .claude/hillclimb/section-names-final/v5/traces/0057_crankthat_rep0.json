@@ -1,0 +1,15 @@
+[
+ {
+  "role": "user",
+  "content": "Name each section of this song: Crank That (Soulja Boy) (clean) \u2014 Soulja Boy Tell \u2019Em (Hip-Hop, 9 sections)\nsection edges (s): [0.9, 15.4, 29.1, 56.6, 70.3, 84.0, 97.7, 111.4, 125.1, 132.0]\nsettings: {\"encoder\": \"clapbar_fold\", \"prompts\": {\"intro\": [\"the intro of a song\"], \"verse\": [\"the verse of a song\"], \"prechorus\": [\"the pre-chorus of a song\"], \"chorus\": [\"the chorus of a song\"], \"postchorus\": [\"the post-chorus of a song\"], \"bridge\": [\"the bridge of a song\"], \"outro\": [\"the outro of a song\"], \"instrumental\": [\"an instrumental section of a song\"]}, \"extra_models\": [\"matpacbar_fold\"], \"structure\": {\"model\": \"matpacbar_fold\", \"position\": true, \"repeat_tau\": 0.4, \"bridge\": true, \"prepost\": true, \"short_s\": 20, \"vocal_below\": -1.0}, \"extra_prompts\": {\"vocals\": [\"singing vocals\", \"a person singing or rapping\"], \"no_vocals\": [\"instrumental music with no vocals\", \"an instrumental solo\"]}}"
+ },
+ {
+  "role": "assistant",
+  "content": "{\"names\": [\"intro\", \"verse\", \"chorus\", \"chorus\", \"verse\", \"bridge\", \"chorus\", \"verse\", \"outro\"], \"top3_scores\": [[[\"verse\", 0.242], [\"outro\", 0.239], [\"bridge\", 0.19]], [[\"verse\", 0.214], [\"outro\", 0.202], [\"bridge\", 0.171]], [[\"outro\", 0.23], [\"verse\", 0.224], [\"intro\", 0.189]], [[\"verse\", 0.234], [\"outro\", 0.22], [\"bridge\", 0.181]], [[\"outro\", 0.219], [\"verse\", 0.214], [\"intro\", 0.204]], [[\"outro\", 0.24], [\"verse\", 0.225], [\"intro\", 0.211]], [[\"verse\", 0.213], [\"outro\", 0.209], [\"intro\", 0.167]], [[\"outro\", 0.231], [\"verse\", 0.209], [\"bridge\", 0.164]], [[\"outro\", 0.234], [\"intro\", 0.179], [\"verse\", 0.167]]]}"
+ },
+ {
+  "role": "tool_result",
+  "name": "grader",
+  "content": "{\"sections\": [{\"start\": 0.9, \"end\": 15.4, \"annotated\": \"intro\", \"scored_as\": \"intro\", \"named\": \"intro\", \"right\": true}, {\"start\": 15.4, \"end\": 29.1, \"annotated\": \"chorus\", \"scored_as\": \"chorus\", \"named\": \"verse\", \"right\": false}, {\"start\": 29.1, \"end\": 56.6, \"annotated\": \"verse\", \"scored_as\": \"verse\", \"named\": \"chorus\", \"right\": false}, {\"start\": 56.6, \"end\": 70.3, \"annotated\": \"chorus\", \"scored_as\": \"chorus\", \"named\": \"chorus\", \"right\": true}, {\"start\": 70.3, \"end\": 84.0, \"annotated\": \"chorus\", \"scored_as\": \"chorus\", \"named\": \"verse\", \"right\": false}, {\"start\": 84.0, \"end\": 97.7, \"annotated\": \"verse\", \"scored_as\": \"verse\", \"named\": \"bridge\", \"right\": false}, {\"start\": 97.7, \"end\": 111.4, \"annotated\": \"chorus\", \"scored_as\": \"chorus\", \"named\": \"chorus\", \"right\": true}, {\"start\": 111.4, \"end\": 125.1, \"annotated\": \"chorus\", \"scored_as\": \"chorus\", \"named\": \"verse\", \"right\": false}, {\"start\": 125.1, \"end\": 132.0, \"annotated\": \"outro\", \"scored_as\": \"outro\", \"named\": \"outro\", \"right\": true}], \"grade\": {\"acc\": 0.4444}}"
+ }
+]

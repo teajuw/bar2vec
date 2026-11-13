@@ -1,0 +1,15 @@
+[
+ {
+  "role": "user",
+  "content": "Name each section of this song: Look at Me Now \u2014 Chris Brown feat. Lil Wayne & Busta Rhymes (Hip-Hop, 9 sections)\nsection edges (s): [0.0, 12.8, 39.1, 52.2, 74.4, 100.7, 127.0, 140.2, 192.8, 219.1]\nsettings: {\"encoder\": \"clapbar_fold\", \"prompts\": {\"intro\": [\"the intro of a song\"], \"verse\": [\"the verse of a song\"], \"prechorus\": [\"the pre-chorus of a song\"], \"chorus\": [\"the chorus of a song\"], \"postchorus\": [\"the post-chorus of a song\"], \"bridge\": [\"the bridge of a song\"], \"outro\": [\"the outro of a song\"], \"instrumental\": [\"an instrumental section of a song\"]}, \"extra_models\": [\"matpacbar_fold\"], \"structure\": {\"model\": \"matpacbar_fold\", \"position\": true, \"repeat_tau\": 0.4, \"bridge\": true, \"prepost\": false, \"short_s\": 20}}"
+ },
+ {
+  "role": "assistant",
+  "content": "{\"names\": [\"intro\", \"verse\", \"chorus\", \"verse\", \"verse\", \"verse\", \"chorus\", \"verse\", \"chorus\"], \"top3_scores\": [[[\"verse\", 0.332], [\"postchorus\", 0.272], [\"outro\", 0.256]], [[\"verse\", 0.312], [\"bridge\", 0.242], [\"outro\", 0.228]], [[\"verse\", 0.301], [\"bridge\", 0.281], [\"chorus\", 0.213]], [[\"verse\", 0.427], [\"outro\", 0.326], [\"bridge\", 0.314]], [[\"verse\", 0.348], [\"outro\", 0.279], [\"bridge\", 0.24]], [[\"verse\", 0.329], [\"bridge\", 0.24], [\"outro\", 0.226]], [[\"verse\", 0.322], [\"bridge\", 0.299], [\"chorus\", 0.216]], [[\"verse\", 0.399], [\"bridge\", 0.295], [\"outro\", 0.233]], [[\"verse\", 0.383], [\"bridge\", 0.344], [\"outro\", 0.248]]]}"
+ },
+ {
+  "role": "tool_result",
+  "name": "grader",
+  "content": "{\"sections\": [{\"start\": 0.0, \"end\": 12.8, \"annotated\": \"intro\", \"scored_as\": \"intro\", \"named\": \"intro\", \"right\": true}, {\"start\": 12.8, \"end\": 39.1, \"annotated\": \"verse\", \"scored_as\": \"verse\", \"named\": \"verse\", \"right\": true}, {\"start\": 39.1, \"end\": 52.2, \"annotated\": \"chorus\", \"scored_as\": \"chorus\", \"named\": \"chorus\", \"right\": true}, {\"start\": 52.2, \"end\": 74.4, \"annotated\": \"verse\", \"scored_as\": \"verse\", \"named\": \"verse\", \"right\": true}, {\"start\": 74.4, \"end\": 100.7, \"annotated\": \"verse\", \"scored_as\": \"verse\", \"named\": \"verse\", \"right\": true}, {\"start\": 100.7, \"end\": 127.0, \"annotated\": \"verse\", \"scored_as\": \"verse\", \"named\": \"verse\", \"right\": true}, {\"start\": 127.0, \"end\": 140.2, \"annotated\": \"chorus\", \"scored_as\": \"chorus\", \"named\": \"chorus\", \"right\": true}, {\"start\": 140.2, \"end\": 192.8, \"annotated\": \"verse\", \"scored_as\": \"verse\", \"named\": \"verse\", \"right\": true}, {\"start\": 192.8, \"end\": 219.1, \"annotated\": \"chorus\", \"scored_as\": \"chorus\", \"named\": \"chorus\", \"right\": true}], \"grade\": {\"acc\": 1.0}}"
+ }
+]

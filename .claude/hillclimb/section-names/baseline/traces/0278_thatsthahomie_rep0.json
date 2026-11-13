@@ -1,0 +1,15 @@
+[
+ {
+  "role": "user",
+  "content": "Name each section of this song: That's tha Homie \u2014 Snoop Dogg (Hip-Hop, 10 sections)\nsection edges (s): [0.0, 5.0, 16.5, 43.0, 96.0, 122.5, 175.4, 201.9, 254.9, 307.9, 346.8]\nsettings: {\"encoder\": \"clapbar_fold\", \"prompts\": {\"intro\": [\"the intro of a song\"], \"verse\": [\"the verse of a song\"], \"prechorus\": [\"the pre-chorus of a song\"], \"chorus\": [\"the chorus of a song\"], \"postchorus\": [\"the post-chorus of a song\"], \"bridge\": [\"the bridge of a song\"], \"outro\": [\"the outro of a song\"], \"instrumental\": [\"an instrumental section of a song\"]}}"
+ },
+ {
+  "role": "assistant",
+  "content": "{\"names\": [\"postchorus\", \"outro\", \"verse\", \"verse\", \"verse\", \"verse\", \"verse\", \"verse\", \"verse\", \"verse\"], \"top3_scores\": [[[\"postchorus\", 0.263], [\"outro\", 0.246], [\"intro\", 0.22]], [[\"outro\", 0.317], [\"intro\", 0.263], [\"postchorus\", 0.212]], [[\"verse\", 0.292], [\"outro\", 0.249], [\"bridge\", 0.248]], [[\"verse\", 0.306], [\"bridge\", 0.271], [\"outro\", 0.27]], [[\"verse\", 0.292], [\"outro\", 0.252], [\"bridge\", 0.25]], [[\"verse\", 0.285], [\"bridge\", 0.25], [\"outro\", 0.235]], [[\"verse\", 0.28], [\"outro\", 0.263], [\"bridge\", 0.247]], [[\"verse\", 0.307], [\"outro\", 0.283], [\"bridge\", 0.267]], [[\"verse\", 0.284], [\"outro\", 0.267], [\"bridge\", 0.234]], [[\"verse\", 0.29], [\"outro\", 0.264], [\"bridge\", 0.259]]]}"
+ },
+ {
+  "role": "tool_result",
+  "name": "grader",
+  "content": "{\"sections\": [{\"start\": 0.0, \"end\": 5.0, \"annotated\": \"silence\", \"scored_as\": null, \"named\": \"postchorus\", \"right\": null}, {\"start\": 5.0, \"end\": 16.5, \"annotated\": \"intro\", \"scored_as\": \"intro\", \"named\": \"outro\", \"right\": false}, {\"start\": 16.5, \"end\": 43.0, \"annotated\": \"chorus\", \"scored_as\": \"chorus\", \"named\": \"verse\", \"right\": false}, {\"start\": 43.0, \"end\": 96.0, \"annotated\": \"verse\", \"scored_as\": \"verse\", \"named\": \"verse\", \"right\": true}, {\"start\": 96.0, \"end\": 122.5, \"annotated\": \"chorus\", \"scored_as\": \"chorus\", \"named\": \"verse\", \"right\": false}, {\"start\": 122.5, \"end\": 175.4, \"annotated\": \"verse\", \"scored_as\": \"verse\", \"named\": \"verse\", \"right\": true}, {\"start\": 175.4, \"end\": 201.9, \"annotated\": \"chorus\", \"scored_as\": \"chorus\", \"named\": \"verse\", \"right\": false}, {\"start\": 201.9, \"end\": 254.9, \"annotated\": \"verse\", \"scored_as\": \"verse\", \"named\": \"verse\", \"right\": true}, {\"start\": 254.9, \"end\": 307.9, \"annotated\": \"chorus\", \"scored_as\": \"chorus\", \"named\": \"verse\", \"right\": false}, {\"start\": 307.9, \"end\": 346.8, \"annotated\": \"outro\", \"scored_as\": \"outro\", \"named\": \"verse\", \"right\": false}], \"grade\": {\"acc\": 0.3333}}"
+ }
+]

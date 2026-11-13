@@ -1,0 +1,15 @@
+[
+ {
+  "role": "user",
+  "content": "Name each section of this song: The Lazy Song \u2014 Bruno Mars (Pop, 9 sections)\nsection edges (s): [0.2, 21.5, 49.6, 71.6, 82.5, 110.0, 130.5, 153.8, 175.8, 186.8]\nsettings: {\"encoder\": \"clapbar_fold\", \"prompts\": {\"intro\": [\"the intro of a song\"], \"verse\": [\"the verse of a song\"], \"prechorus\": [\"the pre-chorus of a song\"], \"chorus\": [\"the chorus of a song\"], \"postchorus\": [\"the post-chorus of a song\"], \"bridge\": [\"the bridge of a song\"], \"outro\": [\"the outro of a song\"], \"instrumental\": [\"an instrumental section of a song\"]}, \"extra_models\": [\"matpacbar_fold\"], \"structure\": {\"model\": \"matpacbar_fold\", \"position\": true, \"repeat_tau\": 0.4, \"bridge\": true, \"prepost\": false, \"short_s\": 20}}"
+ },
+ {
+  "role": "assistant",
+  "content": "{\"names\": [\"intro\", \"verse\", \"verse\", \"chorus\", \"verse\", \"verse\", \"bridge\", \"verse\", \"outro\"], \"top3_scores\": [[[\"verse\", 0.258], [\"bridge\", 0.178], [\"outro\", 0.162]], [[\"verse\", 0.218], [\"bridge\", 0.168], [\"outro\", 0.128]], [[\"verse\", 0.183], [\"bridge\", 0.121], [\"outro\", 0.086]], [[\"verse\", 0.185], [\"bridge\", 0.162], [\"outro\", 0.16]], [[\"verse\", 0.241], [\"bridge\", 0.168], [\"outro\", 0.151]], [[\"verse\", 0.172], [\"bridge\", 0.112], [\"outro\", 0.076]], [[\"verse\", 0.287], [\"bridge\", 0.235], [\"outro\", 0.18]], [[\"verse\", 0.232], [\"outro\", 0.166], [\"bridge\", 0.152]], [[\"verse\", 0.166], [\"instrumental\", 0.15], [\"bridge\", 0.136]]]}"
+ },
+ {
+  "role": "tool_result",
+  "name": "grader",
+  "content": "{\"sections\": [{\"start\": 0.2, \"end\": 21.5, \"annotated\": \"chorus\", \"scored_as\": \"chorus\", \"named\": \"intro\", \"right\": false}, {\"start\": 21.5, \"end\": 49.6, \"annotated\": \"verse\", \"scored_as\": \"verse\", \"named\": \"verse\", \"right\": true}, {\"start\": 49.6, \"end\": 71.6, \"annotated\": \"chorus\", \"scored_as\": \"chorus\", \"named\": \"verse\", \"right\": false}, {\"start\": 71.6, \"end\": 82.5, \"annotated\": \"postchorus\", \"scored_as\": \"postchorus\", \"named\": \"chorus\", \"right\": false}, {\"start\": 82.5, \"end\": 110.0, \"annotated\": \"verse\", \"scored_as\": \"verse\", \"named\": \"verse\", \"right\": true}, {\"start\": 110.0, \"end\": 130.5, \"annotated\": \"chorus\", \"scored_as\": \"chorus\", \"named\": \"verse\", \"right\": false}, {\"start\": 130.5, \"end\": 153.8, \"annotated\": \"bridge\", \"scored_as\": \"bridge\", \"named\": \"bridge\", \"right\": true}, {\"start\": 153.8, \"end\": 175.8, \"annotated\": \"chorus\", \"scored_as\": \"chorus\", \"named\": \"verse\", \"right\": false}, {\"start\": 175.8, \"end\": 186.8, \"annotated\": \"postchorus\", \"scored_as\": \"postchorus\", \"named\": \"outro\", \"right\": false}], \"grade\": {\"acc\": 0.3333}}"
+ }
+]

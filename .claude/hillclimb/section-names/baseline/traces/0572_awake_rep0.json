@@ -1,0 +1,15 @@
+[
+ {
+  "role": "user",
+  "content": "Name each section of this song: A Wake \u2014 Macklemore & Ryan Lewis (Hip-Hop, 8 sections)\nsection edges (s): [0.4, 28.9, 66.3, 85.9, 152.4, 171.5, 181.0, 200.0, 216.6]\nsettings: {\"encoder\": \"clapbar_fold\", \"prompts\": {\"intro\": [\"the intro of a song\"], \"verse\": [\"the verse of a song\"], \"prechorus\": [\"the pre-chorus of a song\"], \"chorus\": [\"the chorus of a song\"], \"postchorus\": [\"the post-chorus of a song\"], \"bridge\": [\"the bridge of a song\"], \"outro\": [\"the outro of a song\"], \"instrumental\": [\"an instrumental section of a song\"]}}"
+ },
+ {
+  "role": "assistant",
+  "content": "{\"names\": [\"verse\", \"verse\", \"verse\", \"verse\", \"bridge\", \"outro\", \"bridge\", \"outro\"], \"top3_scores\": [[[\"verse\", 0.233], [\"bridge\", 0.222], [\"outro\", 0.22]], [[\"verse\", 0.161], [\"outro\", 0.155], [\"bridge\", 0.148]], [[\"verse\", 0.211], [\"bridge\", 0.208], [\"outro\", 0.143]], [[\"verse\", 0.213], [\"outro\", 0.18], [\"bridge\", 0.175]], [[\"bridge\", 0.199], [\"verse\", 0.193], [\"outro\", 0.149]], [[\"outro\", 0.284], [\"verse\", 0.229], [\"intro\", 0.218]], [[\"bridge\", 0.19], [\"verse\", 0.175], [\"outro\", 0.12]], [[\"outro\", 0.168], [\"verse\", 0.138], [\"bridge\", 0.134]]]}"
+ },
+ {
+  "role": "tool_result",
+  "name": "grader",
+  "content": "{\"sections\": [{\"start\": 0.4, \"end\": 28.9, \"annotated\": \"intro\", \"scored_as\": \"intro\", \"named\": \"verse\", \"right\": false}, {\"start\": 28.9, \"end\": 66.3, \"annotated\": \"verse\", \"scored_as\": \"verse\", \"named\": \"verse\", \"right\": true}, {\"start\": 66.3, \"end\": 85.9, \"annotated\": \"chorus\", \"scored_as\": \"chorus\", \"named\": \"verse\", \"right\": false}, {\"start\": 85.9, \"end\": 152.4, \"annotated\": \"verse\", \"scored_as\": \"verse\", \"named\": \"verse\", \"right\": true}, {\"start\": 152.4, \"end\": 171.5, \"annotated\": \"chorus\", \"scored_as\": \"chorus\", \"named\": \"bridge\", \"right\": false}, {\"start\": 171.5, \"end\": 181.0, \"annotated\": \"bridge\", \"scored_as\": \"bridge\", \"named\": \"outro\", \"right\": false}, {\"start\": 181.0, \"end\": 200.0, \"annotated\": \"chorus\", \"scored_as\": \"chorus\", \"named\": \"bridge\", \"right\": false}, {\"start\": 200.0, \"end\": 216.6, \"annotated\": \"outro\", \"scored_as\": \"outro\", \"named\": \"outro\", \"right\": true}], \"grade\": {\"acc\": 0.375}}"
+ }
+]

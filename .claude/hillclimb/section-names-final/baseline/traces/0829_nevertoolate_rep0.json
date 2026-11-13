@@ -1,0 +1,15 @@
+[
+ {
+  "role": "user",
+  "content": "Name each section of this song: Never Too Late \u2014 Three Days Grace (Alternative, 10 sections)\nsection edges (s): [0.1, 12.9, 25.7, 38.5, 64.1, 89.7, 115.3, 140.9, 153.7, 192.1, 203.2]\nsettings: {\"encoder\": \"clapbar_fold\", \"prompts\": {\"intro\": [\"the intro of a song\"], \"verse\": [\"the verse of a song\"], \"prechorus\": [\"the pre-chorus of a song\"], \"chorus\": [\"the chorus of a song\"], \"postchorus\": [\"the post-chorus of a song\"], \"bridge\": [\"the bridge of a song\"], \"outro\": [\"the outro of a song\"], \"instrumental\": [\"an instrumental section of a song\"]}}"
+ },
+ {
+  "role": "assistant",
+  "content": "{\"names\": [\"bridge\", \"bridge\", \"bridge\", \"bridge\", \"bridge\", \"bridge\", \"bridge\", \"verse\", \"bridge\", \"bridge\"], \"top3_scores\": [[[\"bridge\", 0.25], [\"verse\", 0.238], [\"outro\", 0.231]], [[\"bridge\", 0.241], [\"verse\", 0.225], [\"outro\", 0.208]], [[\"bridge\", 0.242], [\"verse\", 0.203], [\"outro\", 0.156]], [[\"bridge\", 0.232], [\"verse\", 0.201], [\"outro\", 0.169]], [[\"bridge\", 0.252], [\"verse\", 0.2], [\"outro\", 0.166]], [[\"bridge\", 0.238], [\"verse\", 0.208], [\"outro\", 0.171]], [[\"bridge\", 0.205], [\"verse\", 0.173], [\"outro\", 0.169]], [[\"verse\", 0.342], [\"outro\", 0.339], [\"bridge\", 0.332]], [[\"bridge\", 0.243], [\"verse\", 0.221], [\"outro\", 0.198]], [[\"bridge\", 0.222], [\"verse\", 0.218], [\"outro\", 0.199]]]}"
+ },
+ {
+  "role": "tool_result",
+  "name": "grader",
+  "content": "{\"sections\": [{\"start\": 0.1, \"end\": 12.9, \"annotated\": \"intro\", \"scored_as\": \"intro\", \"named\": \"bridge\", \"right\": false}, {\"start\": 12.9, \"end\": 25.7, \"annotated\": \"verse\", \"scored_as\": \"verse\", \"named\": \"bridge\", \"right\": false}, {\"start\": 25.7, \"end\": 38.5, \"annotated\": \"prechorus\", \"scored_as\": \"prechorus\", \"named\": \"bridge\", \"right\": false}, {\"start\": 38.5, \"end\": 64.1, \"annotated\": \"chorus\", \"scored_as\": \"chorus\", \"named\": \"bridge\", \"right\": false}, {\"start\": 64.1, \"end\": 89.7, \"annotated\": \"verse\", \"scored_as\": \"verse\", \"named\": \"bridge\", \"right\": false}, {\"start\": 89.7, \"end\": 115.3, \"annotated\": \"chorus\", \"scored_as\": \"chorus\", \"named\": \"bridge\", \"right\": false}, {\"start\": 115.3, \"end\": 140.9, \"annotated\": \"bridge\", \"scored_as\": \"bridge\", \"named\": \"bridge\", \"right\": true}, {\"start\": 140.9, \"end\": 153.7, \"annotated\": \"verse\", \"scored_as\": \"verse\", \"named\": \"verse\", \"right\": true}, {\"start\": 153.7, \"end\": 192.1, \"annotated\": \"chorus\", \"scored_as\": \"chorus\", \"named\": \"bridge\", \"right\": false}, {\"start\": 192.1, \"end\": 203.2, \"annotated\": \"intro\", \"scored_as\": \"intro\", \"named\": \"bridge\", \"right\": false}], \"grade\": {\"acc\": 0.2}}"
+ }
+]

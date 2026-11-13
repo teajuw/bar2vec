@@ -1,0 +1,15 @@
+[
+ {
+  "role": "user",
+  "content": "Name each section of this song: Girls & Boys \u2014 Blur (Pop, 7 sections)\nsection edges (s): [0.0, 32.0, 64.0, 80.0, 96.0, 111.9, 127.9, 143.9]\nsettings: {\"encoder\": \"clapbar_fold\", \"prompts\": {\"intro\": [\"the intro of a song\"], \"verse\": [\"the verse of a song\"], \"prechorus\": [\"the pre-chorus of a song\"], \"chorus\": [\"the chorus of a song\"], \"postchorus\": [\"the post-chorus of a song\"], \"bridge\": [\"the bridge of a song\"], \"outro\": [\"the outro of a song\"], \"instrumental\": [\"an instrumental section of a song\"]}, \"extra_models\": [\"matpacbar_fold\", \"loudbar_fold\"], \"structure\": {\"model\": \"matpacbar_fold\", \"position\": true, \"repeat_tau\": 0.4, \"bridge\": true, \"prepost\": true, \"short_s\": 20, \"vocal_below\": -1.0}, \"extra_prompts\": {\"vocals\": [\"singing vocals\", \"a person singing or rapping\"], \"no_vocals\": [\"instrumental music with no vocals\", \"an instrumental solo\"]}, \"trained\": true}"
+ },
+ {
+  "role": "assistant",
+  "content": "{\"names\": [\"intro\", \"verse\", \"chorus\", \"verse\", \"prechorus\", \"chorus\", \"chorus\"], \"top3_scores\": [[[\"instrumental\", 0.27], [\"outro\", 0.263], [\"bridge\", 0.243]], [[\"outro\", 0.221], [\"bridge\", 0.219], [\"intro\", 0.186]], [[\"bridge\", 0.221], [\"verse\", 0.181], [\"outro\", 0.181]], [[\"outro\", 0.21], [\"bridge\", 0.203], [\"intro\", 0.188]], [[\"outro\", 0.215], [\"bridge\", 0.197], [\"intro\", 0.178]], [[\"bridge\", 0.238], [\"outro\", 0.212], [\"verse\", 0.202]], [[\"bridge\", 0.239], [\"outro\", 0.219], [\"verse\", 0.186]]]}"
+ },
+ {
+  "role": "tool_result",
+  "name": "grader",
+  "content": "{\"sections\": [{\"start\": 0.0, \"end\": 32.0, \"annotated\": \"intro\", \"scored_as\": \"intro\", \"named\": \"intro\", \"right\": true}, {\"start\": 32.0, \"end\": 64.0, \"annotated\": \"verse\", \"scored_as\": \"verse\", \"named\": \"verse\", \"right\": true}, {\"start\": 64.0, \"end\": 80.0, \"annotated\": \"chorus\", \"scored_as\": \"chorus\", \"named\": \"chorus\", \"right\": true}, {\"start\": 80.0, \"end\": 96.0, \"annotated\": \"chorus\", \"scored_as\": \"chorus\", \"named\": \"verse\", \"right\": false}, {\"start\": 96.0, \"end\": 111.9, \"annotated\": \"postchorus\", \"scored_as\": \"postchorus\", \"named\": \"prechorus\", \"right\": false}, {\"start\": 111.9, \"end\": 127.9, \"annotated\": \"chorus\", \"scored_as\": \"chorus\", \"named\": \"chorus\", \"right\": true}, {\"start\": 127.9, \"end\": 143.9, \"annotated\": \"postchorus\", \"scored_as\": \"postchorus\", \"named\": \"chorus\", \"right\": false}], \"grade\": {\"acc\": 0.5714}}"
+ }
+]

@@ -1,0 +1,15 @@
+[
+ {
+  "role": "user",
+  "content": "Name each section of this song: Rockstar \u2014 Nickelback (Country, 8 sections)\nsection edges (s): [0.4, 53.7, 61.2, 100.3, 127.8, 134.5, 181.2, 196.2, 246.2]\nsettings: {\"encoder\": \"clapbar_fold\", \"prompts\": {\"intro\": [\"the intro of a song\"], \"verse\": [\"the verse of a song\"], \"prechorus\": [\"the pre-chorus of a song\"], \"chorus\": [\"the chorus of a song\"], \"postchorus\": [\"the post-chorus of a song\"], \"bridge\": [\"the bridge of a song\"], \"outro\": [\"the outro of a song\"], \"instrumental\": [\"an instrumental section of a song\"]}, \"extra_models\": [\"matpacbar_fold\"], \"structure\": {\"model\": \"matpacbar_fold\", \"position\": true, \"repeat_tau\": null, \"bridge\": false, \"prepost\": false, \"short_s\": 20}}"
+ },
+ {
+  "role": "assistant",
+  "content": "{\"names\": [\"intro\", \"verse\", \"verse\", \"verse\", \"verse\", \"verse\", \"verse\", \"outro\"], \"top3_scores\": [[[\"bridge\", 0.229], [\"verse\", 0.215], [\"outro\", 0.192]], [[\"bridge\", 0.203], [\"verse\", 0.203], [\"outro\", 0.184]], [[\"bridge\", 0.216], [\"verse\", 0.19], [\"outro\", 0.157]], [[\"bridge\", 0.206], [\"verse\", 0.19], [\"outro\", 0.178]], [[\"verse\", 0.181], [\"bridge\", 0.174], [\"outro\", 0.161]], [[\"bridge\", 0.205], [\"verse\", 0.182], [\"outro\", 0.147]], [[\"bridge\", 0.207], [\"verse\", 0.204], [\"outro\", 0.171]], [[\"bridge\", 0.207], [\"verse\", 0.19], [\"outro\", 0.152]]]}"
+ },
+ {
+  "role": "tool_result",
+  "name": "grader",
+  "content": "{\"sections\": [{\"start\": 0.4, \"end\": 53.7, \"annotated\": \"verse\", \"scored_as\": \"verse\", \"named\": \"intro\", \"right\": false}, {\"start\": 53.7, \"end\": 61.2, \"annotated\": \"prechorus\", \"scored_as\": \"prechorus\", \"named\": \"verse\", \"right\": false}, {\"start\": 61.2, \"end\": 100.3, \"annotated\": \"chorus\", \"scored_as\": \"chorus\", \"named\": \"verse\", \"right\": false}, {\"start\": 100.3, \"end\": 127.8, \"annotated\": \"verse\", \"scored_as\": \"verse\", \"named\": \"verse\", \"right\": true}, {\"start\": 127.8, \"end\": 134.5, \"annotated\": \"prechorus\", \"scored_as\": \"prechorus\", \"named\": \"verse\", \"right\": false}, {\"start\": 134.5, \"end\": 181.2, \"annotated\": \"chorus\", \"scored_as\": \"chorus\", \"named\": \"verse\", \"right\": false}, {\"start\": 181.2, \"end\": 196.2, \"annotated\": \"bridge\", \"scored_as\": \"bridge\", \"named\": \"verse\", \"right\": false}, {\"start\": 196.2, \"end\": 246.2, \"annotated\": \"chorus\", \"scored_as\": \"chorus\", \"named\": \"outro\", \"right\": false}], \"grade\": {\"acc\": 0.125}}"
+ }
+]

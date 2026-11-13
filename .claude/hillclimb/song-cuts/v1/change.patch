@@ -1,0 +1,9 @@
+--- .claude/hillclimb/song-cuts/baseline/cuts.json	2026-11-11 20:31:55
++++ cuts.json	2026-11-11 20:32:06
+@@ -7,5 +7,5 @@
+   "side_s": 15,
+   "min_gap_s": 15,
+   "k": 0.0,
+-  "offset_s": 0.0
++  "offset_s": 2.5
+ }

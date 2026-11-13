@@ -1,0 +1,15 @@
+[
+ {
+  "role": "user",
+  "content": "Name each section of this song: Now That We Found Love \u2014 Heavy D. & The Boyz (Hip-Hop, 7 sections)\nsection edges (s): [0.0, 8.0, 24.0, 56.0, 72.0, 104.1, 120.1, 136.1]\nsettings: {\"encoder\": \"clapbar_fold\", \"prompts\": {\"intro\": [\"the intro of a song\"], \"verse\": [\"the verse of a song\"], \"prechorus\": [\"the pre-chorus of a song\"], \"chorus\": [\"the chorus of a song\"], \"postchorus\": [\"the post-chorus of a song\"], \"bridge\": [\"the bridge of a song\"], \"outro\": [\"the outro of a song\"], \"instrumental\": [\"an instrumental section of a song\"]}, \"extra_models\": [\"matpacbar_fold\"], \"structure\": {\"model\": \"matpacbar_fold\", \"position\": true, \"repeat_tau\": 0.4, \"bridge\": true, \"prepost\": false, \"short_s\": 20}}"
+ },
+ {
+  "role": "assistant",
+  "content": "{\"names\": [\"intro\", \"chorus\", \"verse\", \"chorus\", \"verse\", \"chorus\", \"outro\"], \"top3_scores\": [[[\"verse\", 0.345], [\"outro\", 0.337], [\"bridge\", 0.329]], [[\"outro\", 0.265], [\"bridge\", 0.225], [\"verse\", 0.218]], [[\"outro\", 0.289], [\"intro\", 0.261], [\"verse\", 0.217]], [[\"outro\", 0.251], [\"bridge\", 0.213], [\"intro\", 0.194]], [[\"outro\", 0.304], [\"intro\", 0.27], [\"verse\", 0.244]], [[\"outro\", 0.259], [\"intro\", 0.216], [\"bridge\", 0.209]], [[\"outro\", 0.248], [\"intro\", 0.226], [\"verse\", 0.18]]]}"
+ },
+ {
+  "role": "tool_result",
+  "name": "grader",
+  "content": "{\"sections\": [{\"start\": 0.0, \"end\": 8.0, \"annotated\": \"intro\", \"scored_as\": \"intro\", \"named\": \"intro\", \"right\": true}, {\"start\": 8.0, \"end\": 24.0, \"annotated\": \"chorus\", \"scored_as\": \"chorus\", \"named\": \"chorus\", \"right\": true}, {\"start\": 24.0, \"end\": 56.0, \"annotated\": \"verse\", \"scored_as\": \"verse\", \"named\": \"verse\", \"right\": true}, {\"start\": 56.0, \"end\": 72.0, \"annotated\": \"chorus\", \"scored_as\": \"chorus\", \"named\": \"chorus\", \"right\": true}, {\"start\": 72.0, \"end\": 104.1, \"annotated\": \"verse\", \"scored_as\": \"verse\", \"named\": \"verse\", \"right\": true}, {\"start\": 104.1, \"end\": 120.1, \"annotated\": \"chorus\", \"scored_as\": \"chorus\", \"named\": \"chorus\", \"right\": true}, {\"start\": 120.1, \"end\": 136.1, \"annotated\": \"verse\", \"scored_as\": \"verse\", \"named\": \"outro\", \"right\": false}], \"grade\": {\"acc\": 0.8571}}"
+ }
+]

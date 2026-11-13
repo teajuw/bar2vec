@@ -1,0 +1,15 @@
+[
+ {
+  "role": "user",
+  "content": "Name each section of this song: People Got a Lotta Nerve \u2014 Neko Case (Country, 10 sections)\nsection edges (s): [0.0, 3.4, 20.9, 45.5, 60.0, 71.7, 92.5, 106.5, 120.4, 133.1, 146.1]\nsettings: {\"encoder\": \"clapbar_fold\", \"prompts\": {\"intro\": [\"the intro of a song\"], \"verse\": [\"the verse of a song\"], \"prechorus\": [\"the pre-chorus of a song\"], \"chorus\": [\"the chorus of a song\"], \"postchorus\": [\"the post-chorus of a song\"], \"bridge\": [\"the bridge of a song\"], \"outro\": [\"the outro of a song\"], \"instrumental\": [\"an instrumental section of a song\"]}, \"extra_models\": [\"matpacbar_fold\"], \"structure\": {\"model\": \"matpacbar_fold\", \"position\": true, \"repeat_tau\": 0.4, \"bridge\": true, \"prepost\": true, \"short_s\": 20}}"
+ },
+ {
+  "role": "assistant",
+  "content": "{\"names\": [\"intro\", \"verse\", \"verse\", \"chorus\", \"verse\", \"verse\", \"chorus\", \"chorus\", \"bridge\", \"outro\"], \"top3_scores\": [[[\"postchorus\", 0.22], [\"outro\", 0.198], [\"verse\", 0.183]], [[\"bridge\", 0.221], [\"outro\", 0.19], [\"verse\", 0.172]], [[\"bridge\", 0.184], [\"verse\", 0.151], [\"outro\", 0.105]], [[\"bridge\", 0.162], [\"verse\", 0.139], [\"outro\", 0.134]], [[\"bridge\", 0.182], [\"instrumental\", 0.162], [\"outro\", 0.157]], [[\"bridge\", 0.193], [\"outro\", 0.164], [\"verse\", 0.157]], [[\"bridge\", 0.148], [\"outro\", 0.137], [\"prechorus\", 0.132]], [[\"bridge\", 0.163], [\"prechorus\", 0.153], [\"outro\", 0.15]], [[\"outro\", 0.19], [\"bridge\", 0.175], [\"instrumental\", 0.155]], [[\"instrumental\", 0.182], [\"outro\", 0.17], [\"bridge\", 0.165]]]}"
+ },
+ {
+  "role": "tool_result",
+  "name": "grader",
+  "content": "{\"sections\": [{\"start\": 0.0, \"end\": 3.4, \"annotated\": \"silence\", \"scored_as\": null, \"named\": \"intro\", \"right\": null}, {\"start\": 3.4, \"end\": 20.9, \"annotated\": \"intro\", \"scored_as\": \"intro\", \"named\": \"verse\", \"right\": false}, {\"start\": 20.9, \"end\": 45.5, \"annotated\": \"verse\", \"scored_as\": \"verse\", \"named\": \"verse\", \"right\": true}, {\"start\": 45.5, \"end\": 60.0, \"annotated\": \"chorus\", \"scored_as\": \"chorus\", \"named\": \"chorus\", \"right\": true}, {\"start\": 60.0, \"end\": 71.7, \"annotated\": \"postchorus\", \"scored_as\": \"postchorus\", \"named\": \"verse\", \"right\": false}, {\"start\": 71.7, \"end\": 92.5, \"annotated\": \"bridge\", \"scored_as\": \"bridge\", \"named\": \"verse\", \"right\": false}, {\"start\": 92.5, \"end\": 106.5, \"annotated\": \"chorus\", \"scored_as\": \"chorus\", \"named\": \"chorus\", \"right\": true}, {\"start\": 106.5, \"end\": 120.4, \"annotated\": \"chorus\", \"scored_as\": \"chorus\", \"named\": \"chorus\", \"right\": true}, {\"start\": 120.4, \"end\": 133.1, \"annotated\": \"postchorus\", \"scored_as\": \"postchorus\", \"named\": \"bridge\", \"right\": false}, {\"start\": 133.1, \"end\": 146.1, \"annotated\": \"outro\", \"scored_as\": \"outro\", \"named\": \"outro\", \"right\": true}], \"grade\": {\"acc\": 0.5556}}"
+ }
+]

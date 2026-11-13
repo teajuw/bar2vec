@@ -1,0 +1,15 @@
+[
+ {
+  "role": "user",
+  "content": "Name each section of this song: Beautiful Girls \u2014 Sean Kingston (Pop, 9 sections)\nsection edges (s): [0.1, 32.9, 62.4, 76.3, 106.7, 136.3, 150.1, 181.0, 209.2, 222.6]\nsettings: {\"encoder\": \"clapbar_fold\", \"prompts\": {\"intro\": [\"the intro of a song\"], \"verse\": [\"the verse of a song\"], \"prechorus\": [\"the pre-chorus of a song\"], \"chorus\": [\"the chorus of a song\"], \"postchorus\": [\"the post-chorus of a song\"], \"bridge\": [\"the bridge of a song\"], \"outro\": [\"the outro of a song\"], \"instrumental\": [\"an instrumental section of a song\"]}, \"extra_models\": [\"matpacbar_fold\"], \"structure\": {\"model\": \"matpacbar_fold\", \"position\": true, \"repeat_tau\": null, \"bridge\": false, \"prepost\": false, \"short_s\": 20}}"
+ },
+ {
+  "role": "assistant",
+  "content": "{\"names\": [\"intro\", \"verse\", \"verse\", \"verse\", \"verse\", \"verse\", \"verse\", \"verse\", \"outro\"], \"top3_scores\": [[[\"verse\", 0.301], [\"bridge\", 0.248], [\"outro\", 0.199]], [[\"verse\", 0.301], [\"bridge\", 0.23], [\"outro\", 0.202]], [[\"verse\", 0.326], [\"bridge\", 0.269], [\"outro\", 0.232]], [[\"verse\", 0.299], [\"bridge\", 0.255], [\"outro\", 0.192]], [[\"verse\", 0.352], [\"bridge\", 0.271], [\"outro\", 0.232]], [[\"verse\", 0.316], [\"bridge\", 0.257], [\"outro\", 0.222]], [[\"verse\", 0.315], [\"bridge\", 0.269], [\"outro\", 0.207]], [[\"verse\", 0.421], [\"bridge\", 0.351], [\"outro\", 0.308]], [[\"verse\", 0.329], [\"bridge\", 0.309], [\"outro\", 0.209]]]}"
+ },
+ {
+  "role": "tool_result",
+  "name": "grader",
+  "content": "{\"sections\": [{\"start\": 0.1, \"end\": 32.9, \"annotated\": \"chorus\", \"scored_as\": \"chorus\", \"named\": \"intro\", \"right\": false}, {\"start\": 32.9, \"end\": 62.4, \"annotated\": \"verse\", \"scored_as\": \"verse\", \"named\": \"verse\", \"right\": true}, {\"start\": 62.4, \"end\": 76.3, \"annotated\": \"prechorus\", \"scored_as\": \"prechorus\", \"named\": \"verse\", \"right\": false}, {\"start\": 76.3, \"end\": 106.7, \"annotated\": \"chorus\", \"scored_as\": \"chorus\", \"named\": \"verse\", \"right\": false}, {\"start\": 106.7, \"end\": 136.3, \"annotated\": \"verse\", \"scored_as\": \"verse\", \"named\": \"verse\", \"right\": true}, {\"start\": 136.3, \"end\": 150.1, \"annotated\": \"prechorus\", \"scored_as\": \"prechorus\", \"named\": \"verse\", \"right\": false}, {\"start\": 150.1, \"end\": 181.0, \"annotated\": \"chorus\", \"scored_as\": \"chorus\", \"named\": \"verse\", \"right\": false}, {\"start\": 181.0, \"end\": 209.2, \"annotated\": \"verse\", \"scored_as\": \"verse\", \"named\": \"verse\", \"right\": true}, {\"start\": 209.2, \"end\": 222.6, \"annotated\": \"chorus\", \"scored_as\": \"chorus\", \"named\": \"outro\", \"right\": false}], \"grade\": {\"acc\": 0.3333}}"
+ }
+]

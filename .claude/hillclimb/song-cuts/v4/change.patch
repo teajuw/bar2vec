@@ -1,0 +1,14 @@
+--- .claude/hillclimb/song-cuts/v3/cuts.json	2026-11-11 20:34:54
++++ cuts.json	2026-11-11 21:10:21
+@@ -3,9 +3,9 @@
+     "clap"
+   ],
+   "window": 10,
+-  "hop": 5,
++  "hop": 2,
+   "side_s": 15,
+   "min_gap_s": 15,
+   "k": 0.0,
+-  "offset_s": 2.5
++  "offset_s": 4.5
+ }

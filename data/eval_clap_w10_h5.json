@@ -1,0 +1,1431 @@
+[
+ {
+  "id": "edm-drop",
+  "query": "big EDM drop with soaring synths and a four-on-the-floor kick",
+  "expect": [
+   "Clarity",
+   "A Sky Full of Stars"
+  ],
+  "note": "the drop sections, not the verses",
+  "missing": [],
+  "rank": {
+   "moment": 1,
+   "mean": 1,
+   "one_crop_median": 2.0
+  },
+  "moments": [
+   {
+    "track": 74,
+    "start": 105.0,
+    "end": 160.0,
+    "peak": 145.0,
+    "score": 0.4682488441467285,
+    "title": "Clarity",
+    "artist": "Zedd, Foxes",
+    "file": "audio/76_zedd_clarity.m4a",
+    "expected": true
+   },
+   {
+    "track": 7,
+    "start": 85.0,
+    "end": 108.0,
+    "peak": 85.0,
+    "score": 0.45452189445495605,
+    "title": "Crash",
+    "artist": "Rdcworld, Toasty-Chan",
+    "file": "audio/08_rdcworld_crash.m4a",
+    "expected": false
+   },
+   {
+    "track": 7,
+    "start": 10.0,
+    "end": 35.0,
+    "peak": 15.0,
+    "score": 0.45200425386428833,
+    "title": "Crash",
+    "artist": "Rdcworld, Toasty-Chan",
+    "file": "audio/08_rdcworld_crash.m4a",
+    "expected": false
+   },
+   {
+    "track": 74,
+    "start": 60.0,
+    "end": 75.0,
+    "peak": 65.0,
+    "score": 0.4387816786766052,
+    "title": "Clarity",
+    "artist": "Zedd, Foxes",
+    "file": "audio/76_zedd_clarity.m4a",
+    "expected": true
+   },
+   {
+    "track": 5,
+    "start": 35.0,
+    "end": 55.0,
+    "peak": 40.0,
+    "score": 0.4355740547180176,
+    "title": "War With Heaven",
+    "artist": "keshi",
+    "file": "audio/06_keshi_war-with-heaven.m4a",
+    "expected": false
+   }
+  ],
+  "mean_top": [
+   "Clarity",
+   "Crash",
+   "Grand Escape (Movie Edit) [feat. Toko Miura]",
+   "War With Heaven",
+   "High Hopes"
+  ]
+ },
+ {
+  "id": "future-bass",
+  "query": "future bass drop with chopped vocal samples",
+  "expect": [
+   "It's Strange"
+  ],
+  "note": "",
+  "missing": [],
+  "rank": {
+   "moment": 13,
+   "mean": 13,
+   "one_crop_median": 20.0
+  },
+  "moments": [
+   {
+    "track": 68,
+    "start": 5.0,
+    "end": 15.0,
+    "peak": 5.0,
+    "score": 0.4507906436920166,
+    "title": "Nice For What",
+    "artist": "Drake",
+    "file": "audio/70_drake_nice-for-what.m4a",
+    "expected": false
+   },
+   {
+    "track": 7,
+    "start": 85.0,
+    "end": 100.0,
+    "peak": 85.0,
+    "score": 0.4151667654514313,
+    "title": "Crash",
+    "artist": "Rdcworld, Toasty-Chan",
+    "file": "audio/08_rdcworld_crash.m4a",
+    "expected": false
+   },
+   {
+    "track": 70,
+    "start": 60.0,
+    "end": 95.0,
+    "peak": 65.0,
+    "score": 0.4073866605758667,
+    "title": "Suzume (feat. Toaka)",
+    "artist": "RADWIMPS, Toaka",
+    "file": "audio/72_radwimps_suzume-feat-toaka.m4a",
+    "expected": false
+   },
+   {
+    "track": 5,
+    "start": 40.0,
+    "end": 55.0,
+    "peak": 40.0,
+    "score": 0.40068119764328003,
+    "title": "War With Heaven",
+    "artist": "keshi",
+    "file": "audio/06_keshi_war-with-heaven.m4a",
+    "expected": false
+   },
+   {
+    "track": 67,
+    "start": 130.0,
+    "end": 155.0,
+    "peak": 145.0,
+    "score": 0.39787596464157104,
+    "title": "BABY I'M BACK",
+    "artist": "The Kid LAROI",
+    "file": "audio/69_the-kid-laroi_baby-i-m-back.m4a",
+    "expected": false
+   }
+  ],
+  "mean_top": [
+   "Grand Escape (Movie Edit) [feat. Toko Miura]",
+   "Crash",
+   "After Party",
+   "Suzume (feat. Toaka)",
+   "Nice For What"
+  ]
+ },
+ {
+  "id": "piano-ballad",
+  "query": "slow solo piano ballad with a soft male voice",
+  "expect": [
+   "Glimpse of Us",
+   "Too Good At Goodbyes"
+  ],
+  "note": "",
+  "missing": [],
+  "rank": {
+   "moment": 2,
+   "mean": 1,
+   "one_crop_median": 2.0
+  },
+  "moments": [
+   {
+    "track": 20,
+    "start": 185.0,
+    "end": 216.990478515625,
+    "peak": 205.0,
+    "score": 0.3558477759361267,
+    "title": "bandaids",
+    "artist": "keshi",
+    "file": "audio/21_keshi_bandaids.m4a",
+    "expected": false
+   },
+   {
+    "track": 21,
+    "start": 215.0,
+    "end": 233.52310180664062,
+    "peak": 215.0,
+    "score": 0.33443042635917664,
+    "title": "Glimpse of Us",
+    "artist": "Joji",
+    "file": "audio/22_joji_glimpse-of-us.m4a",
+    "expected": true
+   },
+   {
+    "track": 21,
+    "start": 0.0,
+    "end": 35.0,
+    "peak": 5.0,
+    "score": 0.32078462839126587,
+    "title": "Glimpse of Us",
+    "artist": "Joji",
+    "file": "audio/22_joji_glimpse-of-us.m4a",
+    "expected": true
+   },
+   {
+    "track": 44,
+    "start": 0.0,
+    "end": 15.0,
+    "peak": 5.0,
+    "score": 0.30485063791275024,
+    "title": "Too Good At Goodbyes",
+    "artist": "Sam Smith",
+    "file": "audio/45_sam-smith_too-good-at-goodbyes.m4a",
+    "expected": true
+   },
+   {
+    "track": 33,
+    "start": 0.0,
+    "end": 45.0,
+    "peak": 5.0,
+    "score": 0.29064422845840454,
+    "title": "YUKON (INTERLUDE)",
+    "artist": "Joji",
+    "file": "audio/34_joji_yukon-interlude.m4a",
+    "expected": false
+   }
+  ],
+  "mean_top": [
+   "Glimpse of Us",
+   "bandaids",
+   "YUKON (INTERLUDE)",
+   "good days",
+   "LIMBO"
+  ]
+ },
+ {
+  "id": "quiet-piano-intro",
+  "query": "quiet piano introduction with no drums",
+  "expect": [
+   "A Sky Full of Stars",
+   "Grand Escape (Movie Edit) [feat. Toko Miura]",
+   "Glimpse of Us",
+   "Homecoming"
+  ],
+  "note": "should land at or near 0:00",
+  "missing": [],
+  "rank": {
+   "moment": 3,
+   "mean": 1,
+   "one_crop_median": 3.0
+  },
+  "moments": [
+   {
+    "track": 20,
+    "start": 200.0,
+    "end": 216.990478515625,
+    "peak": 205.0,
+    "score": 0.22739030420780182,
+    "title": "bandaids",
+    "artist": "keshi",
+    "file": "audio/21_keshi_bandaids.m4a",
+    "expected": false
+   },
+   {
+    "track": 46,
+    "start": 0.0,
+    "end": 10.0,
+    "peak": 0.0,
+    "score": 0.21110469102859497,
+    "title": "Santa Tell Me",
+    "artist": "Ariana Grande",
+    "file": "audio/47_ariana-grande_santa-tell-me.m4a",
+    "expected": false
+   },
+   {
+    "track": 43,
+    "start": 165.0,
+    "end": 210.0,
+    "peak": 165.0,
+    "score": 0.19504936039447784,
+    "title": "A Sky Full of Stars",
+    "artist": "Coldplay",
+    "file": "audio/44_coldplay_a-sky-full-of-stars.m4a",
+    "expected": true
+   },
+   {
+    "track": 43,
+    "start": 0.0,
+    "end": 15.0,
+    "peak": 0.0,
+    "score": 0.18089374899864197,
+    "title": "A Sky Full of Stars",
+    "artist": "Coldplay",
+    "file": "audio/44_coldplay_a-sky-full-of-stars.m4a",
+    "expected": true
+   },
+   {
+    "track": 9,
+    "start": 145.0,
+    "end": 165.0,
+    "peak": 145.0,
+    "score": 0.17319591343402863,
+    "title": "FLY HIGH!!",
+    "artist": "BURNOUT SYNDROMES",
+    "file": "audio/10_burnout-syndromes_fly-high.m4a",
+    "expected": false
+   }
+  ],
+  "mean_top": [
+   "Grand Escape (Movie Edit) [feat. Toko Miura]",
+   "bandaids",
+   "A Sky Full of Stars",
+   "Clarity",
+   "FLY HIGH!!"
+  ]
+ },
+ {
+  "id": "acoustic-folk",
+  "query": "acoustic guitar strumming folk song with male vocals",
+  "expect": [
+   "Stick Season",
+   "I'm Yours",
+   "Say You Won't Let Go"
+  ],
+  "note": "",
+  "missing": [],
+  "rank": {
+   "moment": 1,
+   "mean": 1,
+   "one_crop_median": 2.0
+  },
+  "moments": [
+   {
+    "track": 80,
+    "start": 45.0,
+    "end": 95.0,
+    "peak": 50.0,
+    "score": 0.3596610426902771,
+    "title": "Stick Season",
+    "artist": "Noah Kahan",
+    "file": "audio/82_noah-kahan_stick-season.m4a",
+    "expected": true
+   },
+   {
+    "track": 61,
+    "start": 90.0,
+    "end": 100.0,
+    "peak": 90.0,
+    "score": 0.3532272279262543,
+    "title": "Say You Won't Let Go",
+    "artist": "James Arthur",
+    "file": "audio/63_james-arthur_say-you-won-t-let-go.m4a",
+    "expected": true
+   },
+   {
+    "track": 20,
+    "start": 5.0,
+    "end": 60.0,
+    "peak": 30.0,
+    "score": 0.3515082001686096,
+    "title": "bandaids",
+    "artist": "keshi",
+    "file": "audio/21_keshi_bandaids.m4a",
+    "expected": false
+   },
+   {
+    "track": 20,
+    "start": 80.0,
+    "end": 105.0,
+    "peak": 95.0,
+    "score": 0.34026068449020386,
+    "title": "bandaids",
+    "artist": "keshi",
+    "file": "audio/21_keshi_bandaids.m4a",
+    "expected": false
+   },
+   {
+    "track": 61,
+    "start": 5.0,
+    "end": 30.0,
+    "peak": 20.0,
+    "score": 0.32483357191085815,
+    "title": "Say You Won't Let Go",
+    "artist": "James Arthur",
+    "file": "audio/63_james-arthur_say-you-won-t-let-go.m4a",
+    "expected": true
+   }
+  ],
+  "mean_top": [
+   "Stick Season",
+   "bandaids",
+   "Words Bubble Up Like Soda Pop (never young beach)",
+   "Chasin' You",
+   "I'm Yours"
+  ]
+ },
+ {
+  "id": "dreamy-outro",
+  "query": "slow dreamy psychedelic section with washed out synths",
+  "expect": [
+   "Self Care"
+  ],
+  "note": "the second half after the beat switch",
+  "missing": [],
+  "rank": {
+   "moment": 5,
+   "mean": 23,
+   "one_crop_median": 31.0
+  },
+  "moments": [
+   {
+    "track": 36,
+    "start": 195.0,
+    "end": 212.90377807617188,
+    "peak": 200.0,
+    "score": 0.3749302625656128,
+    "title": "LIMBO",
+    "artist": "keshi",
+    "file": "audio/37_keshi_limbo.m4a",
+    "expected": false
+   },
+   {
+    "track": 55,
+    "start": 175.0,
+    "end": 205.0,
+    "peak": 175.0,
+    "score": 0.3443135917186737,
+    "title": "Die For You",
+    "artist": "Joji",
+    "file": "audio/57_joji_die-for-you.m4a",
+    "expected": false
+   },
+   {
+    "track": 79,
+    "start": 150.0,
+    "end": 180.0,
+    "peak": 165.0,
+    "score": 0.3403893709182739,
+    "title": "Soft Spot",
+    "artist": "keshi",
+    "file": "audio/81_keshi_soft-spot.m4a",
+    "expected": false
+   },
+   {
+    "track": 11,
+    "start": 185.0,
+    "end": 195.0,
+    "peak": 185.0,
+    "score": 0.33238768577575684,
+    "title": "supercuts",
+    "artist": "Jeremy Zucker",
+    "file": "audio/12_jeremy-zucker_supercuts.m4a",
+    "expected": false
+   },
+   {
+    "track": 31,
+    "start": 330.0,
+    "end": 345.2110900878906,
+    "peak": 330.0,
+    "score": 0.3240431845188141,
+    "title": "Self Care",
+    "artist": "Mac Miller",
+    "file": "audio/32_mac-miller_self-care.m4a",
+    "expected": true
+   }
+  ],
+  "mean_top": [
+   "Anna Sun",
+   "Die For You",
+   "YEAH RIGHT",
+   "Tokyo Rose",
+   "Clarity"
+  ]
+ },
+ {
+  "id": "jrock",
+  "query": "fast energetic Japanese rock with driving electric guitars and drums",
+  "expect": [
+   "Zenzenzense - movie ver.",
+   "FLY HIGH!!",
+   "Kaikai Kitan"
+  ],
+  "note": "",
+  "missing": [],
+  "rank": {
+   "moment": 1,
+   "mean": 1,
+   "one_crop_median": 1.0
+  },
+  "moments": [
+   {
+    "track": 9,
+    "start": 70.0,
+    "end": 175.0,
+    "peak": 145.0,
+    "score": 0.5558980703353882,
+    "title": "FLY HIGH!!",
+    "artist": "BURNOUT SYNDROMES",
+    "file": "audio/10_burnout-syndromes_fly-high.m4a",
+    "expected": true
+   },
+   {
+    "track": 66,
+    "start": 0.0,
+    "end": 20.0,
+    "peak": 0.0,
+    "score": 0.5284013152122498,
+    "title": "Mimi's Delivery Service",
+    "artist": "Good Kid",
+    "file": "audio/68_good-kid_mimi-s-delivery-service.m4a",
+    "expected": false
+   },
+   {
+    "track": 9,
+    "start": 5.0,
+    "end": 65.0,
+    "peak": 50.0,
+    "score": 0.4850037097930908,
+    "title": "FLY HIGH!!",
+    "artist": "BURNOUT SYNDROMES",
+    "file": "audio/10_burnout-syndromes_fly-high.m4a",
+    "expected": true
+   },
+   {
+    "track": 66,
+    "start": 135.0,
+    "end": 150.0,
+    "peak": 135.0,
+    "score": 0.4622678756713867,
+    "title": "Mimi's Delivery Service",
+    "artist": "Good Kid",
+    "file": "audio/68_good-kid_mimi-s-delivery-service.m4a",
+    "expected": false
+   },
+   {
+    "track": 6,
+    "start": 15.0,
+    "end": 25.0,
+    "peak": 15.0,
+    "score": 0.43101900815963745,
+    "title": "Zenzenzense - movie ver.",
+    "artist": "RADWIMPS",
+    "file": "audio/07_radwimps_zenzenzense-movie-ver.m4a",
+    "expected": true
+   }
+  ],
+  "mean_top": [
+   "FLY HIGH!!",
+   "Mimi's Delivery Service",
+   "Zenzenzense - movie ver.",
+   "Kaikai Kitan",
+   "Celebration (Movie Edit) [feat. Toko Miura]"
+  ]
+ },
+ {
+  "id": "skit",
+  "query": "people talking, spoken comedy skit without music",
+  "expect": [
+   "Crash"
+  ],
+  "note": "negative-example track",
+  "missing": [],
+  "rank": {
+   "moment": 8,
+   "mean": 7,
+   "one_crop_median": 12.0
+  },
+  "moments": [
+   {
+    "track": 9,
+    "start": 125.0,
+    "end": 170.0,
+    "peak": 150.0,
+    "score": 0.23564936220645905,
+    "title": "FLY HIGH!!",
+    "artist": "BURNOUT SYNDROMES",
+    "file": "audio/10_burnout-syndromes_fly-high.m4a",
+    "expected": false
+   },
+   {
+    "track": 6,
+    "start": 0.0,
+    "end": 25.0,
+    "peak": 10.0,
+    "score": 0.1290283501148224,
+    "title": "Zenzenzense - movie ver.",
+    "artist": "RADWIMPS",
+    "file": "audio/07_radwimps_zenzenzense-movie-ver.m4a",
+    "expected": false
+   },
+   {
+    "track": 6,
+    "start": 250.0,
+    "end": 270.0,
+    "peak": 260.0,
+    "score": 0.1160406619310379,
+    "title": "Zenzenzense - movie ver.",
+    "artist": "RADWIMPS",
+    "file": "audio/07_radwimps_zenzenzense-movie-ver.m4a",
+    "expected": false
+   },
+   {
+    "track": 66,
+    "start": 130.0,
+    "end": 150.0,
+    "peak": 135.0,
+    "score": 0.11299259215593338,
+    "title": "Mimi's Delivery Service",
+    "artist": "Good Kid",
+    "file": "audio/68_good-kid_mimi-s-delivery-service.m4a",
+    "expected": false
+   },
+   {
+    "track": 25,
+    "start": 25.0,
+    "end": 40.0,
+    "peak": 25.0,
+    "score": 0.08580030500888824,
+    "title": "Kaikai Kitan",
+    "artist": "Eve",
+    "file": "audio/26_eve_kaikai-kitan.m4a",
+    "expected": false
+   }
+  ],
+  "mean_top": [
+   "FLY HIGH!!",
+   "Kaikai Kitan",
+   "Zenzenzense - movie ver.",
+   "Mimi's Delivery Service",
+   "After Party"
+  ]
+ },
+ {
+  "id": "christmas",
+  "query": "Christmas pop song with sleigh bells",
+  "expect": [
+   "Santa Tell Me",
+   "Snowman"
+  ],
+  "note": "",
+  "missing": [],
+  "rank": {
+   "moment": 1,
+   "mean": 2,
+   "one_crop_median": 3.0
+  },
+  "moments": [
+   {
+    "track": 46,
+    "start": 30.0,
+    "end": 40.0,
+    "peak": 30.0,
+    "score": 0.3797871172428131,
+    "title": "Santa Tell Me",
+    "artist": "Ariana Grande",
+    "file": "audio/47_ariana-grande_santa-tell-me.m4a",
+    "expected": true
+   },
+   {
+    "track": 13,
+    "start": 155.0,
+    "end": 175.0,
+    "peak": 160.0,
+    "score": 0.3539895713329315,
+    "title": "Grand Escape (Movie Edit) [feat. Toko Miura]",
+    "artist": "RADWIMPS, Toko Miura",
+    "file": "audio/14_radwimps_grand-escape-movie-edit-feat-toko-miura.m4a",
+    "expected": false
+   },
+   {
+    "track": 71,
+    "start": 5.0,
+    "end": 20.0,
+    "peak": 5.0,
+    "score": 0.3508315086364746,
+    "title": "Dancing in the Moonlight",
+    "artist": "Toploader",
+    "file": "audio/73_toploader_dancing-in-the-moonlight.m4a",
+    "expected": false
+   },
+   {
+    "track": 75,
+    "start": 55.0,
+    "end": 110.0,
+    "peak": 60.0,
+    "score": 0.34621939063072205,
+    "title": "I'm Yours",
+    "artist": "Jason Mraz",
+    "file": "audio/77_jason-mraz_i-m-yours.m4a",
+    "expected": false
+   },
+   {
+    "track": 75,
+    "start": 215.0,
+    "end": 235.0,
+    "peak": 220.0,
+    "score": 0.3429385721683502,
+    "title": "I'm Yours",
+    "artist": "Jason Mraz",
+    "file": "audio/77_jason-mraz_i-m-yours.m4a",
+    "expected": false
+   }
+  ],
+  "mean_top": [
+   "I'm Yours",
+   "Santa Tell Me",
+   "Stick Season",
+   "Chasin' You",
+   "Dancing in the Moonlight"
+  ]
+ },
+ {
+  "id": "brass",
+  "query": "triumphant brass horns pop anthem",
+  "expect": [
+   "High Hopes"
+  ],
+  "note": "",
+  "missing": [],
+  "rank": {
+   "moment": 1,
+   "mean": 1,
+   "one_crop_median": 2.0
+  },
+  "moments": [
+   {
+    "track": 48,
+    "start": 0.0,
+    "end": 25.0,
+    "peak": 5.0,
+    "score": 0.3686595559120178,
+    "title": "High Hopes",
+    "artist": "Panic! At The Disco",
+    "file": "audio/49_panic-at-the-disco_high-hopes.m4a",
+    "expected": true
+   },
+   {
+    "track": 41,
+    "start": 80.0,
+    "end": 100.0,
+    "peak": 90.0,
+    "score": 0.34331315755844116,
+    "title": "It's Strange",
+    "artist": "Louis The Child, K.Flay",
+    "file": "audio/42_louis-the-child_it-s-strange.m4a",
+    "expected": false
+   },
+   {
+    "track": 48,
+    "start": 30.0,
+    "end": 45.0,
+    "peak": 30.0,
+    "score": 0.32888394594192505,
+    "title": "High Hopes",
+    "artist": "Panic! At The Disco",
+    "file": "audio/49_panic-at-the-disco_high-hopes.m4a",
+    "expected": true
+   },
+   {
+    "track": 13,
+    "start": 155.0,
+    "end": 170.0,
+    "peak": 160.0,
+    "score": 0.3107999265193939,
+    "title": "Grand Escape (Movie Edit) [feat. Toko Miura]",
+    "artist": "RADWIMPS, Toko Miura",
+    "file": "audio/14_radwimps_grand-escape-movie-edit-feat-toko-miura.m4a",
+    "expected": false
+   },
+   {
+    "track": 25,
+    "start": 55.0,
+    "end": 75.0,
+    "peak": 60.0,
+    "score": 0.310774564743042,
+    "title": "Kaikai Kitan",
+    "artist": "Eve",
+    "file": "audio/26_eve_kaikai-kitan.m4a",
+    "expected": false
+   }
+  ],
+  "mean_top": [
+   "High Hopes",
+   "FLY HIGH!!",
+   "Mimi's Delivery Service",
+   "Kaikai Kitan",
+   "I'm Yours"
+  ]
+ },
+ {
+  "id": "trap",
+  "query": "trap beat with heavy 808 bass and rapping",
+  "expect": [
+   "After Party",
+   "iSpy (feat. Lil Yachty)",
+   "BABY I'M BACK",
+   "Nice For What"
+  ],
+  "note": "",
+  "missing": [],
+  "rank": {
+   "moment": 1,
+   "mean": 1,
+   "one_crop_median": 1.0
+  },
+  "moments": [
+   {
+    "track": 68,
+    "start": 140.0,
+    "end": 195.0,
+    "peak": 145.0,
+    "score": 0.5278683304786682,
+    "title": "Nice For What",
+    "artist": "Drake",
+    "file": "audio/70_drake_nice-for-what.m4a",
+    "expected": true
+   },
+   {
+    "track": 68,
+    "start": 55.0,
+    "end": 85.0,
+    "peak": 65.0,
+    "score": 0.5137088298797607,
+    "title": "Nice For What",
+    "artist": "Drake",
+    "file": "audio/70_drake_nice-for-what.m4a",
+    "expected": true
+   },
+   {
+    "track": 67,
+    "start": 130.0,
+    "end": 155.0,
+    "peak": 145.0,
+    "score": 0.49011367559432983,
+    "title": "BABY I'M BACK",
+    "artist": "The Kid LAROI",
+    "file": "audio/69_the-kid-laroi_baby-i-m-back.m4a",
+    "expected": true
+   },
+   {
+    "track": 51,
+    "start": 165.0,
+    "end": 185.0,
+    "peak": 170.0,
+    "score": 0.474855899810791,
+    "title": "Buff Baby",
+    "artist": "tobi lou",
+    "file": "audio/52_tobi-lou_buff-baby.m4a",
+    "expected": false
+   },
+   {
+    "track": 67,
+    "start": 75.0,
+    "end": 90.0,
+    "peak": 80.0,
+    "score": 0.47301098704338074,
+    "title": "BABY I'M BACK",
+    "artist": "The Kid LAROI",
+    "file": "audio/69_the-kid-laroi_baby-i-m-back.m4a",
+    "expected": true
+   }
+  ],
+  "mean_top": [
+   "Nice For What",
+   "iSpy (feat. Lil Yachty)",
+   "After Party",
+   "Buff Baby",
+   "Crash"
+  ]
+ },
+ {
+  "id": "cinematic",
+  "query": "swelling orchestral strings and piano, cinematic film score",
+  "expect": [
+   "Grand Escape (Movie Edit) [feat. Toko Miura]",
+   "Suzume (feat. Toaka)",
+   "Celebration (Movie Edit) [feat. Toko Miura]"
+  ],
+  "note": "",
+  "missing": [],
+  "rank": {
+   "moment": 6,
+   "mean": 2,
+   "one_crop_median": 4.0
+  },
+  "moments": [
+   {
+    "track": 20,
+    "start": 190.0,
+    "end": 216.990478515625,
+    "peak": 200.0,
+    "score": 0.31826701760292053,
+    "title": "bandaids",
+    "artist": "keshi",
+    "file": "audio/21_keshi_bandaids.m4a",
+    "expected": false
+   },
+   {
+    "track": 43,
+    "start": 0.0,
+    "end": 15.0,
+    "peak": 0.0,
+    "score": 0.29179465770721436,
+    "title": "A Sky Full of Stars",
+    "artist": "Coldplay",
+    "file": "audio/44_coldplay_a-sky-full-of-stars.m4a",
+    "expected": false
+   },
+   {
+    "track": 21,
+    "start": 0.0,
+    "end": 15.0,
+    "peak": 5.0,
+    "score": 0.2872985601425171,
+    "title": "Glimpse of Us",
+    "artist": "Joji",
+    "file": "audio/22_joji_glimpse-of-us.m4a",
+    "expected": false
+   },
+   {
+    "track": 21,
+    "start": 215.0,
+    "end": 233.52310180664062,
+    "peak": 223.52310180664062,
+    "score": 0.27475884556770325,
+    "title": "Glimpse of Us",
+    "artist": "Joji",
+    "file": "audio/22_joji_glimpse-of-us.m4a",
+    "expected": false
+   },
+   {
+    "track": 46,
+    "start": 0.0,
+    "end": 10.0,
+    "peak": 0.0,
+    "score": 0.266825795173645,
+    "title": "Santa Tell Me",
+    "artist": "Ariana Grande",
+    "file": "audio/47_ariana-grande_santa-tell-me.m4a",
+    "expected": false
+   }
+  ],
+  "mean_top": [
+   "Clarity",
+   "Grand Escape (Movie Edit) [feat. Toko Miura]",
+   "A Sky Full of Stars",
+   "Suzume (feat. Toaka)",
+   "Turning Out"
+  ]
+ },
+ {
+  "id": "piano-hiphop",
+  "query": "bright piano riff over hip hop drums",
+  "expect": [
+   "Homecoming"
+  ],
+  "note": "",
+  "missing": [],
+  "rank": {
+   "moment": 72,
+   "mean": 57,
+   "one_crop_median": 56.0
+  },
+  "moments": [
+   {
+    "track": 51,
+    "start": 165.0,
+    "end": 200.0,
+    "peak": 175.0,
+    "score": 0.4081944227218628,
+    "title": "Buff Baby",
+    "artist": "tobi lou",
+    "file": "audio/52_tobi-lou_buff-baby.m4a",
+    "expected": false
+   },
+   {
+    "track": 51,
+    "start": 75.0,
+    "end": 120.0,
+    "peak": 90.0,
+    "score": 0.3957151174545288,
+    "title": "Buff Baby",
+    "artist": "tobi lou",
+    "file": "audio/52_tobi-lou_buff-baby.m4a",
+    "expected": false
+   },
+   {
+    "track": 7,
+    "start": 75.0,
+    "end": 100.0,
+    "peak": 80.0,
+    "score": 0.36594775319099426,
+    "title": "Crash",
+    "artist": "Rdcworld, Toasty-Chan",
+    "file": "audio/08_rdcworld_crash.m4a",
+    "expected": false
+   },
+   {
+    "track": 33,
+    "start": 105.0,
+    "end": 115.0,
+    "peak": 105.0,
+    "score": 0.35827988386154175,
+    "title": "YUKON (INTERLUDE)",
+    "artist": "Joji",
+    "file": "audio/34_joji_yukon-interlude.m4a",
+    "expected": false
+   },
+   {
+    "track": 20,
+    "start": 205.0,
+    "end": 215.0,
+    "peak": 205.0,
+    "score": 0.35082828998565674,
+    "title": "bandaids",
+    "artist": "keshi",
+    "file": "audio/21_keshi_bandaids.m4a",
+    "expected": false
+   }
+  ],
+  "mean_top": [
+   "Buff Baby",
+   "Crash",
+   "Nice For What",
+   "iSpy (feat. Lil Yachty)",
+   "good days"
+  ]
+ },
+ {
+  "id": "country",
+  "query": "country song with twangy guitar",
+  "expect": [
+   "Chasin' You"
+  ],
+  "note": "",
+  "missing": [],
+  "rank": {
+   "moment": 1,
+   "mean": 1,
+   "one_crop_median": 1.0
+  },
+  "moments": [
+   {
+    "track": 78,
+    "start": 160.0,
+    "end": 200.0,
+    "peak": 185.0,
+    "score": 0.4074169397354126,
+    "title": "Chasin' You",
+    "artist": "Morgan Wallen",
+    "file": "audio/80_morgan-wallen_chasin-you.m4a",
+    "expected": true
+   },
+   {
+    "track": 26,
+    "start": 10.0,
+    "end": 35.0,
+    "peak": 10.0,
+    "score": 0.40324667096138,
+    "title": "Words Bubble Up Like Soda Pop (never young beach)",
+    "artist": "never young beach",
+    "file": "audio/27_never-young-beach_words-bubble-up-like-soda-pop-never-young-beach.m4a",
+    "expected": false
+   },
+   {
+    "track": 80,
+    "start": 150.0,
+    "end": 182.3927459716797,
+    "peak": 160.0,
+    "score": 0.3776949942111969,
+    "title": "Stick Season",
+    "artist": "Noah Kahan",
+    "file": "audio/82_noah-kahan_stick-season.m4a",
+    "expected": false
+   },
+   {
+    "track": 26,
+    "start": 100.0,
+    "end": 110.0,
+    "peak": 100.0,
+    "score": 0.37749406695365906,
+    "title": "Words Bubble Up Like Soda Pop (never young beach)",
+    "artist": "never young beach",
+    "file": "audio/27_never-young-beach_words-bubble-up-like-soda-pop-never-young-beach.m4a",
+    "expected": false
+   },
+   {
+    "track": 61,
+    "start": 85.0,
+    "end": 100.0,
+    "peak": 90.0,
+    "score": 0.37039709091186523,
+    "title": "Say You Won't Let Go",
+    "artist": "James Arthur",
+    "file": "audio/63_james-arthur_say-you-won-t-let-go.m4a",
+    "expected": false
+   }
+  ],
+  "mean_top": [
+   "Chasin' You",
+   "Words Bubble Up Like Soda Pop (never young beach)",
+   "Stick Season",
+   "I'm Yours",
+   "FLY HIGH!!"
+  ]
+ },
+ {
+  "id": "lofi-rnb",
+  "query": "mellow lo-fi R&B with clean electric guitar and falsetto vocals",
+  "expect": [
+   "2 soon",
+   "WESTSIDE",
+   "bandaids",
+   "alright",
+   "beside you",
+   "LIMBO",
+   "skeletons",
+   "good days"
+  ],
+  "note": "keshi tracks; any of them counts",
+  "missing": [],
+  "rank": {
+   "moment": 3,
+   "mean": 1,
+   "one_crop_median": 1.0
+  },
+  "moments": [
+   {
+    "track": 56,
+    "start": 0.0,
+    "end": 10.0,
+    "peak": 0.0,
+    "score": 0.4336276650428772,
+    "title": "HELL/HEAVEN",
+    "artist": "keshi",
+    "file": "audio/58_keshi_hell-heaven.m4a",
+    "expected": false
+   },
+   {
+    "track": 56,
+    "start": 15.0,
+    "end": 30.0,
+    "peak": 20.0,
+    "score": 0.4333794116973877,
+    "title": "HELL/HEAVEN",
+    "artist": "keshi",
+    "file": "audio/58_keshi_hell-heaven.m4a",
+    "expected": false
+   },
+   {
+    "track": 27,
+    "start": 155.0,
+    "end": 180.0,
+    "peak": 165.0,
+    "score": 0.43135198950767517,
+    "title": "Comedy",
+    "artist": "Gen Hoshino",
+    "file": "audio/28_gen-hoshino_comedy.m4a",
+    "expected": false
+   },
+   {
+    "track": 36,
+    "start": 60.0,
+    "end": 70.0,
+    "peak": 60.0,
+    "score": 0.43098294734954834,
+    "title": "LIMBO",
+    "artist": "keshi",
+    "file": "audio/37_keshi_limbo.m4a",
+    "expected": true
+   },
+   {
+    "track": 51,
+    "start": 15.0,
+    "end": 25.0,
+    "peak": 15.0,
+    "score": 0.4293379783630371,
+    "title": "Buff Baby",
+    "artist": "tobi lou",
+    "file": "audio/52_tobi-lou_buff-baby.m4a",
+    "expected": false
+   }
+  ],
+  "mean_top": [
+   "skeletons",
+   "good days",
+   "Buff Baby",
+   "Comedy",
+   "IT'S YOU (feat. keshi)"
+  ]
+ },
+ {
+  "id": "wordless-vocal",
+  "query": "wordless female vocal chant, ethereal and sparse",
+  "expect": [
+   "Suzume (feat. Toaka)"
+  ],
+  "note": "opening section",
+  "missing": [],
+  "rank": {
+   "moment": 1,
+   "mean": 1,
+   "one_crop_median": 1.0
+  },
+  "moments": [
+   {
+    "track": 70,
+    "start": 0.0,
+    "end": 30.0,
+    "peak": 15.0,
+    "score": 0.28901079297065735,
+    "title": "Suzume (feat. Toaka)",
+    "artist": "RADWIMPS, Toaka",
+    "file": "audio/72_radwimps_suzume-feat-toaka.m4a",
+    "expected": true
+   },
+   {
+    "track": 20,
+    "start": 120.0,
+    "end": 170.0,
+    "peak": 140.0,
+    "score": 0.2877935767173767,
+    "title": "bandaids",
+    "artist": "keshi",
+    "file": "audio/21_keshi_bandaids.m4a",
+    "expected": false
+   },
+   {
+    "track": 70,
+    "start": 210.0,
+    "end": 235.9147491455078,
+    "peak": 225.0,
+    "score": 0.28213924169540405,
+    "title": "Suzume (feat. Toaka)",
+    "artist": "RADWIMPS, Toaka",
+    "file": "audio/72_radwimps_suzume-feat-toaka.m4a",
+    "expected": true
+   },
+   {
+    "track": 13,
+    "start": 178.06666564941406,
+    "end": 188.06666564941406,
+    "peak": 178.06666564941406,
+    "score": 0.28136196732521057,
+    "title": "Grand Escape (Movie Edit) [feat. Toko Miura]",
+    "artist": "RADWIMPS, Toko Miura",
+    "file": "audio/14_radwimps_grand-escape-movie-edit-feat-toko-miura.m4a",
+    "expected": false
+   },
+   {
+    "track": 24,
+    "start": 0.0,
+    "end": 10.0,
+    "peak": 0.0,
+    "score": 0.23144373297691345,
+    "title": "My Play",
+    "artist": "AJR",
+    "file": "audio/25_ajr_my-play.m4a",
+    "expected": false
+   }
+  ],
+  "mean_top": [
+   "Suzume (feat. Toaka)",
+   "Clarity",
+   "Nobody Else",
+   "bandaids",
+   "Grand Escape (Movie Edit) [feat. Toko Miura]"
+  ]
+ },
+ {
+  "id": "indie-rock-chorus",
+  "query": "anthemic indie rock chorus with shouted group vocals",
+  "expect": [
+   "Anna Sun",
+   "Tokyo Rose",
+   "Roses"
+  ],
+  "note": "",
+  "missing": [],
+  "rank": {
+   "moment": 1,
+   "mean": 1,
+   "one_crop_median": 1.0
+  },
+  "moments": [
+   {
+    "track": 39,
+    "start": 95.0,
+    "end": 130.0,
+    "peak": 105.0,
+    "score": 0.4091554880142212,
+    "title": "Anna Sun",
+    "artist": "WALK THE MOON",
+    "file": "audio/40_walk-the-moon_anna-sun.m4a",
+    "expected": true
+   },
+   {
+    "track": 22,
+    "start": 140.0,
+    "end": 155.0,
+    "peak": 145.0,
+    "score": 0.4074583053588867,
+    "title": "Joe",
+    "artist": "AJR",
+    "file": "audio/23_ajr_joe.m4a",
+    "expected": false
+   },
+   {
+    "track": 63,
+    "start": 145.0,
+    "end": 161.61090087890625,
+    "peak": 150.0,
+    "score": 0.38076087832450867,
+    "title": "Tokyo Rose",
+    "artist": "Blame My Youth",
+    "file": "audio/65_blame-my-youth_tokyo-rose.m4a",
+    "expected": true
+   },
+   {
+    "track": 39,
+    "start": 210.0,
+    "end": 245.0,
+    "peak": 225.0,
+    "score": 0.3687922954559326,
+    "title": "Anna Sun",
+    "artist": "WALK THE MOON",
+    "file": "audio/40_walk-the-moon_anna-sun.m4a",
+    "expected": true
+   },
+   {
+    "track": 63,
+    "start": 0.0,
+    "end": 15.0,
+    "peak": 0.0,
+    "score": 0.36522266268730164,
+    "title": "Tokyo Rose",
+    "artist": "Blame My Youth",
+    "file": "audio/65_blame-my-youth_tokyo-rose.m4a",
+    "expected": true
+   }
+  ],
+  "mean_top": [
+   "Tokyo Rose",
+   "Anna Sun",
+   "FLY HIGH!!",
+   "Dancing in the Moonlight",
+   "High Hopes"
+  ]
+ },
+ {
+  "id": "pop-punk",
+  "query": "upbeat guitar-driven indie pop rock with fast drums",
+  "expect": [
+   "Mimi's Delivery Service",
+   "Tokyo Rose"
+  ],
+  "note": "",
+  "missing": [],
+  "rank": {
+   "moment": 1,
+   "mean": 1,
+   "one_crop_median": 1.0
+  },
+  "moments": [
+   {
+    "track": 66,
+    "start": 125.0,
+    "end": 155.0,
+    "peak": 135.0,
+    "score": 0.5162511467933655,
+    "title": "Mimi's Delivery Service",
+    "artist": "Good Kid",
+    "file": "audio/68_good-kid_mimi-s-delivery-service.m4a",
+    "expected": true
+   },
+   {
+    "track": 66,
+    "start": 0.0,
+    "end": 55.0,
+    "peak": 0.0,
+    "score": 0.5131851434707642,
+    "title": "Mimi's Delivery Service",
+    "artist": "Good Kid",
+    "file": "audio/68_good-kid_mimi-s-delivery-service.m4a",
+    "expected": true
+   },
+   {
+    "track": 39,
+    "start": 95.0,
+    "end": 145.0,
+    "peak": 100.0,
+    "score": 0.44599729776382446,
+    "title": "Anna Sun",
+    "artist": "WALK THE MOON",
+    "file": "audio/40_walk-the-moon_anna-sun.m4a",
+    "expected": false
+   },
+   {
+    "track": 9,
+    "start": 90.0,
+    "end": 100.0,
+    "peak": 90.0,
+    "score": 0.44457489252090454,
+    "title": "FLY HIGH!!",
+    "artist": "BURNOUT SYNDROMES",
+    "file": "audio/10_burnout-syndromes_fly-high.m4a",
+    "expected": false
+   },
+   {
+    "track": 39,
+    "start": 255.0,
+    "end": 285.0,
+    "peak": 275.0,
+    "score": 0.4443979859352112,
+    "title": "Anna Sun",
+    "artist": "WALK THE MOON",
+    "file": "audio/40_walk-the-moon_anna-sun.m4a",
+    "expected": false
+   }
+  ],
+  "mean_top": [
+   "Mimi's Delivery Service",
+   "FLY HIGH!!",
+   "Zenzenzense - movie ver.",
+   "Anna Sun",
+   "Tokyo Rose"
+  ]
+ }
+]

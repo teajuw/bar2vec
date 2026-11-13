@@ -1,0 +1,57 @@
+--- .claude/hillclimb/song-cuts/v10/cuts.json	2026-11-12 09:11:41
++++ cuts.json	2026-11-12 13:18:34
+@@ -1,6 +1,7 @@
+ {
+   "models": [
+-    "matpacbar_fold"
++    "matpacbar_fold",
++    "clapbar_fold"
+   ],
+   "window": 10,
+   "hop": 5,
+@@ -18,5 +19,6 @@
+   "cbm_similarity": "cosine",
+   "cbm_bands": 7,
+   "cbm_penalty": 0,
+-  "cbm_support": 0.5
+-}
++  "cbm_support": 0.5,
++  "cbm_merge_model": true
++}
+\ No newline at end of file
+--- .claude/hillclimb/song-cuts/v10/cuts.py	2026-11-12 09:11:41
++++ scripts/cuts.py	2026-11-12 13:18:04
+@@ -53,16 +53,30 @@
+     segments = cbm.compute_cbm(sim, min_size=1, max_size=cfg.get("cbm_max_bars", 32),
+                                penalty_weight=cfg.get("cbm_penalty", 0), penalty_func="modulo8",
+                                bands_number=cfg.get("cbm_bands"))[0]
+-    idx = sorted({int(a) for a, _ in segments if 0 < int(a) < len(starts)})
++    # cbm_shift_bars: when each bar's embedding also covers the following bars, a block starts early by part of that span.
++    shift = cfg.get("cbm_shift_bars", 0)
++    idx = sorted({int(a) + shift for a, _ in segments if 0 < int(a) + shift < len(starts)})
+     nov = np.zeros(len(starts))
+     if cfg.get("cbm_support") is not None:
+         # Keep a block-matching cut only where the change score also sees something: above the given
+         # quantile of the song's positive change scores (0.5 = the median).
+         hop = float(np.median(np.diff(starts))) if len(starts) > 1 else 2.0
+-        nov = novelty(centred(next(iter(emb_by_model.values()))), max(1, round(cfg["side_s"] / hop)))
++        # cbm_support_model: name of the model whose change score does the veto (default: the block-matching one).
++        veto = emb_by_model[cfg["cbm_support_model"]] if cfg.get("cbm_support_model") else next(iter(emb_by_model.values()))
++        nov = novelty(centred(veto), max(1, round(cfg["side_s"] / hop)))
+         pos = nov[nov > 0]
+         floor = np.quantile(pos, cfg["cbm_support"]) if len(pos) else 0.0
+-        idx = [i for i in idx if nov[i] > floor]
++        if cfg.get("cbm_merge_model"):
++            # Learned keep/drop on the raw proposals (scripts/merge_model.py, trained on the train songs' annotations),
++            # in place of the median veto. Needs CLAP bar embeddings as the model named "clapbar_fold".
++            import merge_model
++
++            global _MERGE
++            _MERGE = globals().get("_MERGE") or merge_model.load()
++            idx = list(merge_model.filter_cuts(_MERGE, next(iter(emb_by_model.values())), starts, idx, nov,
++                                               extra={"clap": emb_by_model["clapbar_fold"]}))
++        else:
++            idx = [i for i in idx if nov[i] > floor]
+     return np.array([starts[i] for i in idx], dtype=float), nov
+ 
+ 

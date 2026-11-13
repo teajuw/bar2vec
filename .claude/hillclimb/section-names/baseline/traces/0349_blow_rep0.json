@@ -1,0 +1,15 @@
+[
+ {
+  "role": "user",
+  "content": "Name each section of this song: Blow \u2014 Ke$ha (Dance/Electronic, 7 sections)\nsection edges (s): [0.5, 12.1, 43.1, 76.1, 107.1, 140.1, 179.1, 212.1]\nsettings: {\"encoder\": \"clapbar_fold\", \"prompts\": {\"intro\": [\"the intro of a song\"], \"verse\": [\"the verse of a song\"], \"prechorus\": [\"the pre-chorus of a song\"], \"chorus\": [\"the chorus of a song\"], \"postchorus\": [\"the post-chorus of a song\"], \"bridge\": [\"the bridge of a song\"], \"outro\": [\"the outro of a song\"], \"instrumental\": [\"an instrumental section of a song\"]}}"
+ },
+ {
+  "role": "assistant",
+  "content": "{\"names\": [\"outro\", \"verse\", \"outro\", \"verse\", \"bridge\", \"outro\", \"bridge\"], \"top3_scores\": [[[\"outro\", 0.342], [\"bridge\", 0.299], [\"intro\", 0.295]], [[\"verse\", 0.295], [\"bridge\", 0.286], [\"outro\", 0.268]], [[\"outro\", 0.226], [\"bridge\", 0.224], [\"verse\", 0.22]], [[\"verse\", 0.256], [\"bridge\", 0.233], [\"outro\", 0.207]], [[\"bridge\", 0.268], [\"verse\", 0.245], [\"outro\", 0.24]], [[\"outro\", 0.329], [\"verse\", 0.28], [\"intro\", 0.268]], [[\"bridge\", 0.272], [\"outro\", 0.255], [\"verse\", 0.242]]]}"
+ },
+ {
+  "role": "tool_result",
+  "name": "grader",
+  "content": "{\"sections\": [{\"start\": 0.5, \"end\": 12.1, \"annotated\": \"intro\", \"scored_as\": \"intro\", \"named\": \"outro\", \"right\": false}, {\"start\": 12.1, \"end\": 43.1, \"annotated\": \"verse\", \"scored_as\": \"verse\", \"named\": \"verse\", \"right\": true}, {\"start\": 43.1, \"end\": 76.1, \"annotated\": \"chorus\", \"scored_as\": \"chorus\", \"named\": \"outro\", \"right\": false}, {\"start\": 76.1, \"end\": 107.1, \"annotated\": \"verse\", \"scored_as\": \"verse\", \"named\": \"verse\", \"right\": true}, {\"start\": 107.1, \"end\": 140.1, \"annotated\": \"chorus\", \"scored_as\": \"chorus\", \"named\": \"bridge\", \"right\": false}, {\"start\": 140.1, \"end\": 179.1, \"annotated\": \"bridge\", \"scored_as\": \"bridge\", \"named\": \"outro\", \"right\": false}, {\"start\": 179.1, \"end\": 212.1, \"annotated\": \"chorus\", \"scored_as\": \"chorus\", \"named\": \"bridge\", \"right\": false}], \"grade\": {\"acc\": 0.2857}}"
+ }
+]

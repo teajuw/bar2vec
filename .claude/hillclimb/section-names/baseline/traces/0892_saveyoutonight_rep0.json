@@ -1,0 +1,15 @@
+[
+ {
+  "role": "user",
+  "content": "Name each section of this song: Save You Tonight \u2014 One Direction (Pop, 10 sections)\nsection edges (s): [0.5, 17.4, 32.4, 47.4, 79.3, 94.3, 109.3, 139.3, 154.3, 184.3, 199.3]\nsettings: {\"encoder\": \"clapbar_fold\", \"prompts\": {\"intro\": [\"the intro of a song\"], \"verse\": [\"the verse of a song\"], \"prechorus\": [\"the pre-chorus of a song\"], \"chorus\": [\"the chorus of a song\"], \"postchorus\": [\"the post-chorus of a song\"], \"bridge\": [\"the bridge of a song\"], \"outro\": [\"the outro of a song\"], \"instrumental\": [\"an instrumental section of a song\"]}}"
+ },
+ {
+  "role": "assistant",
+  "content": "{\"names\": [\"outro\", \"outro\", \"bridge\", \"outro\", \"outro\", \"bridge\", \"outro\", \"bridge\", \"outro\", \"outro\"], \"top3_scores\": [[[\"outro\", 0.281], [\"verse\", 0.27], [\"bridge\", 0.249]], [[\"outro\", 0.224], [\"bridge\", 0.207], [\"verse\", 0.197]], [[\"bridge\", 0.237], [\"outro\", 0.231], [\"verse\", 0.199]], [[\"outro\", 0.215], [\"bridge\", 0.189], [\"verse\", 0.171]], [[\"outro\", 0.217], [\"bridge\", 0.207], [\"verse\", 0.188]], [[\"bridge\", 0.228], [\"outro\", 0.215], [\"verse\", 0.184]], [[\"outro\", 0.215], [\"bridge\", 0.192], [\"verse\", 0.174]], [[\"bridge\", 0.271], [\"outro\", 0.251], [\"verse\", 0.248]], [[\"outro\", 0.22], [\"bridge\", 0.203], [\"verse\", 0.19]], [[\"outro\", 0.217], [\"bridge\", 0.204], [\"verse\", 0.166]]]}"
+ },
+ {
+  "role": "tool_result",
+  "name": "grader",
+  "content": "{\"sections\": [{\"start\": 0.5, \"end\": 17.4, \"annotated\": \"chorus\", \"scored_as\": \"chorus\", \"named\": \"outro\", \"right\": false}, {\"start\": 17.4, \"end\": 32.4, \"annotated\": \"verse\", \"scored_as\": \"verse\", \"named\": \"outro\", \"right\": false}, {\"start\": 32.4, \"end\": 47.4, \"annotated\": \"prechorus\", \"scored_as\": \"prechorus\", \"named\": \"bridge\", \"right\": false}, {\"start\": 47.4, \"end\": 79.3, \"annotated\": \"chorus\", \"scored_as\": \"chorus\", \"named\": \"outro\", \"right\": false}, {\"start\": 79.3, \"end\": 94.3, \"annotated\": \"verse\", \"scored_as\": \"verse\", \"named\": \"outro\", \"right\": false}, {\"start\": 94.3, \"end\": 109.3, \"annotated\": \"prechorus\", \"scored_as\": \"prechorus\", \"named\": \"bridge\", \"right\": false}, {\"start\": 109.3, \"end\": 139.3, \"annotated\": \"chorus\", \"scored_as\": \"chorus\", \"named\": \"outro\", \"right\": false}, {\"start\": 139.3, \"end\": 154.3, \"annotated\": \"bridge\", \"scored_as\": \"bridge\", \"named\": \"bridge\", \"right\": true}, {\"start\": 154.3, \"end\": 184.3, \"annotated\": \"chorus\", \"scored_as\": \"chorus\", \"named\": \"outro\", \"right\": false}, {\"start\": 184.3, \"end\": 199.3, \"annotated\": \"outro\", \"scored_as\": \"outro\", \"named\": \"outro\", \"right\": true}], \"grade\": {\"acc\": 0.2}}"
+ }
+]

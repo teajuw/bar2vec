@@ -1,0 +1,15 @@
+[
+ {
+  "role": "user",
+  "content": "Name each section of this song: Not Over You \u2014 Gavin DeGraw (Pop, 8 sections)\nsection edges (s): [0.1, 13.6, 43.1, 81.1, 114.0, 145.3, 168.1, 199.3, 212.8]\nsettings: {\"encoder\": \"clapbar_fold\", \"prompts\": {\"intro\": [\"the intro of a song\"], \"verse\": [\"the verse of a song\"], \"prechorus\": [\"the pre-chorus of a song\"], \"chorus\": [\"the chorus of a song\"], \"postchorus\": [\"the post-chorus of a song\"], \"bridge\": [\"the bridge of a song\"], \"outro\": [\"the outro of a song\"], \"instrumental\": [\"an instrumental section of a song\"]}, \"extra_models\": [\"matpacbar_fold\"], \"structure\": {\"model\": \"matpacbar_fold\", \"position\": true, \"repeat_tau\": 0.4, \"bridge\": true, \"prepost\": true, \"short_s\": 20, \"vocal_below\": -1.0}, \"extra_prompts\": {\"vocals\": [\"singing vocals\", \"a person singing or rapping\"], \"no_vocals\": [\"instrumental music with no vocals\", \"an instrumental solo\"]}}"
+ },
+ {
+  "role": "assistant",
+  "content": "{\"names\": [\"intro\", \"verse\", \"chorus\", \"verse\", \"chorus\", \"bridge\", \"bridge\", \"outro\"], \"top3_scores\": [[[\"bridge\", 0.291], [\"outro\", 0.276], [\"verse\", 0.27]], [[\"bridge\", 0.172], [\"verse\", 0.156], [\"outro\", 0.081]], [[\"bridge\", 0.234], [\"verse\", 0.196], [\"postchorus\", 0.144]], [[\"bridge\", 0.228], [\"verse\", 0.21], [\"outro\", 0.184]], [[\"bridge\", 0.211], [\"verse\", 0.174], [\"postchorus\", 0.129]], [[\"verse\", 0.266], [\"bridge\", 0.264], [\"postchorus\", 0.179]], [[\"bridge\", 0.263], [\"verse\", 0.245], [\"outro\", 0.166]], [[\"bridge\", 0.184], [\"verse\", 0.164], [\"outro\", 0.091]]]}"
+ },
+ {
+  "role": "tool_result",
+  "name": "grader",
+  "content": "{\"sections\": [{\"start\": 0.1, \"end\": 13.6, \"annotated\": \"intro\", \"scored_as\": \"intro\", \"named\": \"intro\", \"right\": true}, {\"start\": 13.6, \"end\": 43.1, \"annotated\": \"verse\", \"scored_as\": \"verse\", \"named\": \"verse\", \"right\": true}, {\"start\": 43.1, \"end\": 81.1, \"annotated\": \"chorus\", \"scored_as\": \"chorus\", \"named\": \"chorus\", \"right\": true}, {\"start\": 81.1, \"end\": 114.0, \"annotated\": \"verse\", \"scored_as\": \"verse\", \"named\": \"verse\", \"right\": true}, {\"start\": 114.0, \"end\": 145.3, \"annotated\": \"chorus\", \"scored_as\": \"chorus\", \"named\": \"chorus\", \"right\": true}, {\"start\": 145.3, \"end\": 168.1, \"annotated\": \"bridge\", \"scored_as\": \"bridge\", \"named\": \"bridge\", \"right\": true}, {\"start\": 168.1, \"end\": 199.3, \"annotated\": \"chorus\", \"scored_as\": \"chorus\", \"named\": \"bridge\", \"right\": false}, {\"start\": 199.3, \"end\": 212.8, \"annotated\": \"outro\", \"scored_as\": \"outro\", \"named\": \"outro\", \"right\": true}], \"grade\": {\"acc\": 0.875}}"
+ }
+]

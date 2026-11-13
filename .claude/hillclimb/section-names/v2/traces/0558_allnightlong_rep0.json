@@ -1,0 +1,15 @@
+[
+ {
+  "role": "user",
+  "content": "Name each section of this song: All Night Long \u2014 Demi Lovato feat. Missy Elliott & Timbaland (Pop, 7 sections)\nsection edges (s): [0.6, 14.3, 41.3, 69.2, 96.2, 124.0, 164.7, 192.6]\nsettings: {\"encoder\": \"clapbar_fold\", \"prompts\": {\"intro\": [\"the intro of a song\"], \"verse\": [\"the verse of a song\"], \"prechorus\": [\"the pre-chorus of a song\"], \"chorus\": [\"the chorus of a song\"], \"postchorus\": [\"the post-chorus of a song\"], \"bridge\": [\"the bridge of a song\"], \"outro\": [\"the outro of a song\"], \"instrumental\": [\"an instrumental section of a song\"]}, \"extra_models\": [\"matpacbar_fold\"], \"structure\": {\"model\": \"matpacbar_fold\", \"position\": true, \"repeat_tau\": 0.4, \"bridge\": false, \"prepost\": false, \"short_s\": 20}}"
+ },
+ {
+  "role": "assistant",
+  "content": "{\"names\": [\"intro\", \"verse\", \"chorus\", \"verse\", \"chorus\", \"verse\", \"chorus\"], \"top3_scores\": [[[\"outro\", 0.173], [\"instrumental\", 0.14], [\"intro\", 0.136]], [[\"verse\", 0.18], [\"outro\", 0.171], [\"bridge\", 0.137]], [[\"outro\", 0.199], [\"verse\", 0.164], [\"bridge\", 0.134]], [[\"verse\", 0.186], [\"outro\", 0.172], [\"bridge\", 0.135]], [[\"outro\", 0.162], [\"verse\", 0.141], [\"bridge\", 0.102]], [[\"verse\", 0.2], [\"outro\", 0.18], [\"bridge\", 0.135]], [[\"verse\", 0.148], [\"outro\", 0.146], [\"bridge\", 0.103]]]}"
+ },
+ {
+  "role": "tool_result",
+  "name": "grader",
+  "content": "{\"sections\": [{\"start\": 0.6, \"end\": 14.3, \"annotated\": \"intro\", \"scored_as\": \"intro\", \"named\": \"intro\", \"right\": true}, {\"start\": 14.3, \"end\": 41.3, \"annotated\": \"verse\", \"scored_as\": \"verse\", \"named\": \"verse\", \"right\": true}, {\"start\": 41.3, \"end\": 69.2, \"annotated\": \"chorus\", \"scored_as\": \"chorus\", \"named\": \"chorus\", \"right\": true}, {\"start\": 69.2, \"end\": 96.2, \"annotated\": \"verse\", \"scored_as\": \"verse\", \"named\": \"verse\", \"right\": true}, {\"start\": 96.2, \"end\": 124.0, \"annotated\": \"chorus\", \"scored_as\": \"chorus\", \"named\": \"chorus\", \"right\": true}, {\"start\": 124.0, \"end\": 164.7, \"annotated\": \"bridge\", \"scored_as\": \"bridge\", \"named\": \"verse\", \"right\": false}, {\"start\": 164.7, \"end\": 192.6, \"annotated\": \"chorus\", \"scored_as\": \"chorus\", \"named\": \"chorus\", \"right\": true}], \"grade\": {\"acc\": 0.8571}}"
+ }
+]

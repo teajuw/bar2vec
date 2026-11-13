@@ -1,0 +1,15 @@
+[
+ {
+  "role": "user",
+  "content": "Name each section of this song: Fallin' \u2014 Alicia Keys (R&B, 9 sections)\nsection edges (s): [0.3, 23.9, 38.3, 55.2, 83.3, 100.2, 128.4, 158.4, 175.2, 190.3]\nsettings: {\"encoder\": \"clapbar_fold\", \"prompts\": {\"intro\": [\"the intro of a song\"], \"verse\": [\"the verse of a song\"], \"prechorus\": [\"the pre-chorus of a song\"], \"chorus\": [\"the chorus of a song\"], \"postchorus\": [\"the post-chorus of a song\"], \"bridge\": [\"the bridge of a song\"], \"outro\": [\"the outro of a song\"], \"instrumental\": [\"an instrumental section of a song\"]}, \"extra_models\": [\"matpacbar_fold\"], \"structure\": {\"model\": \"matpacbar_fold\", \"position\": true, \"repeat_tau\": 0.4, \"bridge\": true, \"prepost\": true, \"short_s\": 20}}"
+ },
+ {
+  "role": "assistant",
+  "content": "{\"names\": [\"intro\", \"verse\", \"verse\", \"verse\", \"verse\", \"bridge\", \"chorus\", \"chorus\", \"outro\"], \"top3_scores\": [[[\"verse\", 0.262], [\"postchorus\", 0.246], [\"bridge\", 0.245]], [[\"verse\", 0.261], [\"bridge\", 0.253], [\"chorus\", 0.146]], [[\"verse\", 0.262], [\"bridge\", 0.241], [\"postchorus\", 0.167]], [[\"verse\", 0.314], [\"bridge\", 0.276], [\"chorus\", 0.169]], [[\"verse\", 0.247], [\"bridge\", 0.243], [\"postchorus\", 0.209]], [[\"verse\", 0.243], [\"bridge\", 0.238], [\"postchorus\", 0.232]], [[\"verse\", 0.222], [\"bridge\", 0.186], [\"postchorus\", 0.151]], [[\"verse\", 0.225], [\"bridge\", 0.195], [\"postchorus\", 0.17]], [[\"bridge\", 0.266], [\"verse\", 0.235], [\"chorus\", 0.221]]]}"
+ },
+ {
+  "role": "tool_result",
+  "name": "grader",
+  "content": "{\"sections\": [{\"start\": 0.3, \"end\": 23.9, \"annotated\": \"intro\", \"scored_as\": \"intro\", \"named\": \"intro\", \"right\": true}, {\"start\": 23.9, \"end\": 38.3, \"annotated\": \"verse\", \"scored_as\": \"verse\", \"named\": \"verse\", \"right\": true}, {\"start\": 38.3, \"end\": 55.2, \"annotated\": \"chorus\", \"scored_as\": \"chorus\", \"named\": \"verse\", \"right\": false}, {\"start\": 55.2, \"end\": 83.3, \"annotated\": \"verse\", \"scored_as\": \"verse\", \"named\": \"verse\", \"right\": true}, {\"start\": 83.3, \"end\": 100.2, \"annotated\": \"chorus\", \"scored_as\": \"chorus\", \"named\": \"verse\", \"right\": false}, {\"start\": 100.2, \"end\": 128.4, \"annotated\": \"bridge\", \"scored_as\": \"bridge\", \"named\": \"bridge\", \"right\": true}, {\"start\": 128.4, \"end\": 158.4, \"annotated\": \"chorus\", \"scored_as\": \"chorus\", \"named\": \"chorus\", \"right\": true}, {\"start\": 158.4, \"end\": 175.2, \"annotated\": \"chorus\", \"scored_as\": \"chorus\", \"named\": \"chorus\", \"right\": true}, {\"start\": 175.2, \"end\": 190.3, \"annotated\": \"outro\", \"scored_as\": \"outro\", \"named\": \"outro\", \"right\": true}], \"grade\": {\"acc\": 0.7778}}"
+ }
+]

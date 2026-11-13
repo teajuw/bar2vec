@@ -1,0 +1,15 @@
+[
+ {
+  "role": "user",
+  "content": "Name each section of this song: Run (I'm a Natural Disaster) \u2014 Gnarls Barkley (Pop, 9 sections)\nsection edges (s): [1.2, 6.4, 28.8, 48.0, 67.2, 86.4, 96.0, 115.2, 137.6, 153.6]\nsettings: {\"encoder\": \"clapbar_fold\", \"prompts\": {\"intro\": [\"the intro of a song\"], \"verse\": [\"the verse of a song\"], \"prechorus\": [\"the pre-chorus of a song\"], \"chorus\": [\"the chorus of a song\"], \"postchorus\": [\"the post-chorus of a song\"], \"bridge\": [\"the bridge of a song\"], \"outro\": [\"the outro of a song\"], \"instrumental\": [\"an instrumental section of a song\"]}, \"extra_models\": [\"matpacbar_fold\"], \"structure\": {\"model\": \"matpacbar_fold\", \"position\": true, \"repeat_tau\": 0.4, \"bridge\": true, \"prepost\": true, \"short_s\": 20, \"vocal_below\": -1.0}, \"extra_prompts\": {\"vocals\": [\"singing vocals\", \"a person singing or rapping\"], \"no_vocals\": [\"instrumental music with no vocals\", \"an instrumental solo\"]}}"
+ },
+ {
+  "role": "assistant",
+  "content": "{\"names\": [\"intro\", \"verse\", \"chorus\", \"verse\", \"chorus\", \"bridge\", \"instrumental\", \"instrumental\", \"chorus\"], \"top3_scores\": [[[\"instrumental\", 0.29], [\"outro\", 0.274], [\"intro\", 0.245]], [[\"outro\", 0.252], [\"postchorus\", 0.218], [\"verse\", 0.217]], [[\"postchorus\", 0.235], [\"outro\", 0.233], [\"instrumental\", 0.226]], [[\"outro\", 0.262], [\"verse\", 0.232], [\"postchorus\", 0.22]], [[\"postchorus\", 0.253], [\"outro\", 0.251], [\"instrumental\", 0.243]], [[\"outro\", 0.257], [\"postchorus\", 0.235], [\"intro\", 0.222]], [[\"outro\", 0.28], [\"instrumental\", 0.276], [\"postchorus\", 0.26]], [[\"instrumental\", 0.262], [\"postchorus\", 0.256], [\"outro\", 0.24]], [[\"outro\", 0.231], [\"postchorus\", 0.21], [\"instrumental\", 0.204]]]}"
+ },
+ {
+  "role": "tool_result",
+  "name": "grader",
+  "content": "{\"sections\": [{\"start\": 1.2, \"end\": 6.4, \"annotated\": \"intro\", \"scored_as\": \"intro\", \"named\": \"intro\", \"right\": true}, {\"start\": 6.4, \"end\": 28.8, \"annotated\": \"verse\", \"scored_as\": \"verse\", \"named\": \"verse\", \"right\": true}, {\"start\": 28.8, \"end\": 48.0, \"annotated\": \"chorus\", \"scored_as\": \"chorus\", \"named\": \"chorus\", \"right\": true}, {\"start\": 48.0, \"end\": 67.2, \"annotated\": \"verse\", \"scored_as\": \"verse\", \"named\": \"verse\", \"right\": true}, {\"start\": 67.2, \"end\": 86.4, \"annotated\": \"chorus\", \"scored_as\": \"chorus\", \"named\": \"chorus\", \"right\": true}, {\"start\": 86.4, \"end\": 96.0, \"annotated\": \"bridge\", \"scored_as\": \"bridge\", \"named\": \"bridge\", \"right\": true}, {\"start\": 96.0, \"end\": 115.2, \"annotated\": \"chorus2\", \"scored_as\": \"chorus\", \"named\": \"instrumental\", \"right\": false}, {\"start\": 115.2, \"end\": 137.6, \"annotated\": \"chorus2\", \"scored_as\": \"chorus\", \"named\": \"instrumental\", \"right\": false}, {\"start\": 137.6, \"end\": 153.6, \"annotated\": \"chorus\", \"scored_as\": \"chorus\", \"named\": \"chorus\", \"right\": true}], \"grade\": {\"acc\": 0.7778}}"
+ }
+]

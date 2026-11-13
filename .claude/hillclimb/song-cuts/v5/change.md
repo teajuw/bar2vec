@@ -1,0 +1,3 @@
+# v5: UPPER BOUND, not adoptable: one embedding per bar, bars from human downbeat annotations
+
+Diagnostic for the bar-alignment outer step. One CLAP embedding per bar (bar repeated to fill 10 s), bars taken from Harmonix's human downbeat annotations, same cutter with sub-grid placement and timing offset switched off (a cut sits on a bar start). Settings unchanged from v3 (side 15 s, min gap 15 s, k 0); train sweeps of side_s (8: 67.8, 12: 68.4, 16: 66.8, 24: 60.5) and k showed nothing beyond noise. This uses annotation-side information (downbeats), so it is a ceiling for bar alignment, never a candidate to keep.

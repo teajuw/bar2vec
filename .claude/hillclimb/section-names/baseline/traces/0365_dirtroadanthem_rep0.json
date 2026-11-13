@@ -1,0 +1,15 @@
+[
+ {
+  "role": "user",
+  "content": "Name each section of this song: Dirt Road Anthem \u2014 Jason Aldean (Country, 9 sections)\nsection edges (s): [1.3, 16.4, 46.6, 76.8, 107.1, 129.7, 160.0, 175.1, 205.3, 218.5]\nsettings: {\"encoder\": \"clapbar_fold\", \"prompts\": {\"intro\": [\"the intro of a song\"], \"verse\": [\"the verse of a song\"], \"prechorus\": [\"the pre-chorus of a song\"], \"chorus\": [\"the chorus of a song\"], \"postchorus\": [\"the post-chorus of a song\"], \"bridge\": [\"the bridge of a song\"], \"outro\": [\"the outro of a song\"], \"instrumental\": [\"an instrumental section of a song\"]}}"
+ },
+ {
+  "role": "assistant",
+  "content": "{\"names\": [\"bridge\", \"bridge\", \"outro\", \"bridge\", \"bridge\", \"bridge\", \"chorus\", \"bridge\", \"bridge\"], \"top3_scores\": [[[\"bridge\", 0.194], [\"verse\", 0.147], [\"chorus\", 0.135]], [[\"bridge\", 0.267], [\"verse\", 0.221], [\"chorus\", 0.181]], [[\"outro\", 0.226], [\"verse\", 0.222], [\"bridge\", 0.22]], [[\"bridge\", 0.339], [\"outro\", 0.314], [\"verse\", 0.298]], [[\"bridge\", 0.281], [\"verse\", 0.263], [\"chorus\", 0.252]], [[\"bridge\", 0.298], [\"verse\", 0.244], [\"outro\", 0.242]], [[\"chorus\", 0.34], [\"bridge\", 0.318], [\"outro\", 0.285]], [[\"bridge\", 0.342], [\"verse\", 0.304], [\"chorus\", 0.278]], [[\"bridge\", 0.288], [\"chorus\", 0.266], [\"prechorus\", 0.236]]]}"
+ },
+ {
+  "role": "tool_result",
+  "name": "grader",
+  "content": "{\"sections\": [{\"start\": 1.3, \"end\": 16.4, \"annotated\": \"intro\", \"scored_as\": \"intro\", \"named\": \"bridge\", \"right\": false}, {\"start\": 16.4, \"end\": 46.6, \"annotated\": \"chorus\", \"scored_as\": \"chorus\", \"named\": \"bridge\", \"right\": false}, {\"start\": 46.6, \"end\": 76.8, \"annotated\": \"verse\", \"scored_as\": \"verse\", \"named\": \"outro\", \"right\": false}, {\"start\": 76.8, \"end\": 107.1, \"annotated\": \"chorus\", \"scored_as\": \"chorus\", \"named\": \"bridge\", \"right\": false}, {\"start\": 107.1, \"end\": 129.7, \"annotated\": \"bridge\", \"scored_as\": \"bridge\", \"named\": \"bridge\", \"right\": true}, {\"start\": 129.7, \"end\": 160.0, \"annotated\": \"chorus\", \"scored_as\": \"chorus\", \"named\": \"bridge\", \"right\": false}, {\"start\": 160.0, \"end\": 175.1, \"annotated\": \"solo\", \"scored_as\": \"instrumental\", \"named\": \"chorus\", \"right\": false}, {\"start\": 175.1, \"end\": 205.3, \"annotated\": \"chorus\", \"scored_as\": \"chorus\", \"named\": \"bridge\", \"right\": false}, {\"start\": 205.3, \"end\": 218.5, \"annotated\": \"outro\", \"scored_as\": \"outro\", \"named\": \"bridge\", \"right\": false}], \"grade\": {\"acc\": 0.1111}}"
+ }
+]

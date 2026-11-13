@@ -1,0 +1,15 @@
+[
+ {
+  "role": "user",
+  "content": "Name each section of this song: If You Could Only See \u2014 Tonic (Alternative, 10 sections)\nsection edges (s): [0.0, 44.2, 64.1, 71.8, 114.8, 135.0, 152.8, 185.8, 206.3, 224.2, 254.4]\nsettings: {\"encoder\": \"clapbar_fold\", \"prompts\": {\"intro\": [\"the intro of a song\"], \"verse\": [\"the verse of a song\"], \"prechorus\": [\"the pre-chorus of a song\"], \"chorus\": [\"the chorus of a song\"], \"postchorus\": [\"the post-chorus of a song\"], \"bridge\": [\"the bridge of a song\"], \"outro\": [\"the outro of a song\"], \"instrumental\": [\"an instrumental section of a song\"]}}"
+ },
+ {
+  "role": "assistant",
+  "content": "{\"names\": [\"bridge\", \"outro\", \"outro\", \"bridge\", \"outro\", \"bridge\", \"bridge\", \"outro\", \"outro\", \"bridge\"], \"top3_scores\": [[[\"bridge\", 0.244], [\"outro\", 0.223], [\"verse\", 0.213]], [[\"outro\", 0.22], [\"bridge\", 0.213], [\"chorus\", 0.19]], [[\"outro\", 0.256], [\"bridge\", 0.246], [\"intro\", 0.192]], [[\"bridge\", 0.203], [\"outro\", 0.197], [\"instrumental\", 0.149]], [[\"outro\", 0.221], [\"bridge\", 0.204], [\"intro\", 0.18]], [[\"bridge\", 0.265], [\"outro\", 0.251], [\"postchorus\", 0.206]], [[\"bridge\", 0.201], [\"outro\", 0.159], [\"verse\", 0.134]], [[\"outro\", 0.218], [\"instrumental\", 0.217], [\"bridge\", 0.18]], [[\"outro\", 0.258], [\"bridge\", 0.254], [\"verse\", 0.189]], [[\"bridge\", 0.188], [\"outro\", 0.156], [\"verse\", 0.122]]]}"
+ },
+ {
+  "role": "tool_result",
+  "name": "grader",
+  "content": "{\"sections\": [{\"start\": 0.0, \"end\": 44.2, \"annotated\": \"chorus\", \"scored_as\": \"chorus\", \"named\": \"bridge\", \"right\": false}, {\"start\": 44.2, \"end\": 64.1, \"annotated\": \"verse\", \"scored_as\": \"verse\", \"named\": \"outro\", \"right\": false}, {\"start\": 64.1, \"end\": 71.8, \"annotated\": \"prechorus\", \"scored_as\": \"prechorus\", \"named\": \"outro\", \"right\": false}, {\"start\": 71.8, \"end\": 114.8, \"annotated\": \"chorus\", \"scored_as\": \"chorus\", \"named\": \"bridge\", \"right\": false}, {\"start\": 114.8, \"end\": 135.0, \"annotated\": \"verse\", \"scored_as\": \"verse\", \"named\": \"outro\", \"right\": false}, {\"start\": 135.0, \"end\": 152.8, \"annotated\": \"prechorus\", \"scored_as\": \"prechorus\", \"named\": \"bridge\", \"right\": false}, {\"start\": 152.8, \"end\": 185.8, \"annotated\": \"chorus\", \"scored_as\": \"chorus\", \"named\": \"bridge\", \"right\": false}, {\"start\": 185.8, \"end\": 206.3, \"annotated\": \"solo\", \"scored_as\": \"instrumental\", \"named\": \"outro\", \"right\": false}, {\"start\": 206.3, \"end\": 224.2, \"annotated\": \"prechorus\", \"scored_as\": \"prechorus\", \"named\": \"outro\", \"right\": false}, {\"start\": 224.2, \"end\": 254.4, \"annotated\": \"chorus\", \"scored_as\": \"chorus\", \"named\": \"bridge\", \"right\": false}], \"grade\": {\"acc\": 0.0}}"
+ }
+]

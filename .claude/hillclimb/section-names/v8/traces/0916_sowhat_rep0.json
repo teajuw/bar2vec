@@ -1,0 +1,15 @@
+[
+ {
+  "role": "user",
+  "content": "Name each section of this song: So What \u2014 P!nk (Pop, 8 sections)\nsection edges (s): [0.1, 11.5, 34.4, 68.7, 91.5, 125.8, 144.8, 175.3, 212.9]\nsettings: {\"encoder\": \"clapbar_fold\", \"prompts\": {\"intro\": [\"the intro of a song\"], \"verse\": [\"the verse of a song\"], \"prechorus\": [\"the pre-chorus of a song\"], \"chorus\": [\"the chorus of a song\"], \"postchorus\": [\"the post-chorus of a song\"], \"bridge\": [\"the bridge of a song\"], \"outro\": [\"the outro of a song\"], \"instrumental\": [\"an instrumental section of a song\"]}, \"extra_models\": [\"matpacbar_fold\", \"loudbar_fold\"], \"structure\": {\"model\": \"matpacbar_fold\", \"position\": true, \"repeat_tau\": 0.4, \"bridge\": true, \"prepost\": true, \"short_s\": 20, \"vocal_below\": -1.0}, \"extra_prompts\": {\"vocals\": [\"singing vocals\", \"a person singing or rapping\"], \"no_vocals\": [\"instrumental music with no vocals\", \"an instrumental solo\"]}, \"trained\": \"extra\"}"
+ },
+ {
+  "role": "assistant",
+  "content": "{\"names\": [\"intro\", \"verse\", \"chorus\", \"verse\", \"chorus\", \"bridge\", \"chorus\", \"outro\"], \"top3_scores\": [[[\"outro\", 0.25], [\"verse\", 0.25], [\"bridge\", 0.232]], [[\"verse\", 0.301], [\"bridge\", 0.276], [\"outro\", 0.214]], [[\"bridge\", 0.154], [\"verse\", 0.139], [\"outro\", 0.139]], [[\"verse\", 0.266], [\"bridge\", 0.228], [\"outro\", 0.204]], [[\"bridge\", 0.173], [\"outro\", 0.156], [\"verse\", 0.15]], [[\"outro\", 0.149], [\"bridge\", 0.134], [\"verse\", 0.117]], [[\"bridge\", 0.149], [\"verse\", 0.133], [\"outro\", 0.115]], [[\"bridge\", 0.207], [\"verse\", 0.178], [\"outro\", 0.152]]]}"
+ },
+ {
+  "role": "tool_result",
+  "name": "grader",
+  "content": "{\"sections\": [{\"start\": 0.1, \"end\": 11.5, \"annotated\": \"intro\", \"scored_as\": \"intro\", \"named\": \"intro\", \"right\": true}, {\"start\": 11.5, \"end\": 34.4, \"annotated\": \"verse\", \"scored_as\": \"verse\", \"named\": \"verse\", \"right\": true}, {\"start\": 34.4, \"end\": 68.7, \"annotated\": \"chorus\", \"scored_as\": \"chorus\", \"named\": \"chorus\", \"right\": true}, {\"start\": 68.7, \"end\": 91.5, \"annotated\": \"verse\", \"scored_as\": \"verse\", \"named\": \"verse\", \"right\": true}, {\"start\": 91.5, \"end\": 125.8, \"annotated\": \"chorus\", \"scored_as\": \"chorus\", \"named\": \"chorus\", \"right\": true}, {\"start\": 125.8, \"end\": 144.8, \"annotated\": \"bridge\", \"scored_as\": \"bridge\", \"named\": \"bridge\", \"right\": true}, {\"start\": 144.8, \"end\": 175.3, \"annotated\": \"chorus\", \"scored_as\": \"chorus\", \"named\": \"chorus\", \"right\": true}, {\"start\": 175.3, \"end\": 212.9, \"annotated\": \"outro\", \"scored_as\": \"outro\", \"named\": \"outro\", \"right\": true}], \"grade\": {\"acc\": 1.0}}"
+ }
+]

@@ -1,0 +1,15 @@
+[
+ {
+  "role": "user",
+  "content": "Name each section of this song: Tattoo \u2014 Jordin Sparks (Pop, 8 sections)\nsection edges (s): [0.1, 22.9, 57.2, 91.5, 114.4, 148.6, 174.3, 220.1, 227.1]\nsettings: {\"encoder\": \"clapbar_fold\", \"prompts\": {\"intro\": [\"the intro of a song\"], \"verse\": [\"the verse of a song\"], \"prechorus\": [\"the pre-chorus of a song\"], \"chorus\": [\"the chorus of a song\"], \"postchorus\": [\"the post-chorus of a song\"], \"bridge\": [\"the bridge of a song\"], \"outro\": [\"the outro of a song\"], \"instrumental\": [\"an instrumental section of a song\"]}, \"extra_models\": [\"matpacbar_fold\"], \"structure\": {\"model\": \"matpacbar_fold\", \"position\": true, \"repeat_tau\": 0.4, \"bridge\": true, \"prepost\": true, \"short_s\": 20, \"vocal_below\": -1.0}, \"extra_prompts\": {\"vocals\": [\"singing vocals\", \"a person singing or rapping\"], \"no_vocals\": [\"instrumental music with no vocals\", \"an instrumental solo\"]}}"
+ },
+ {
+  "role": "assistant",
+  "content": "{\"names\": [\"intro\", \"verse\", \"chorus\", \"verse\", \"chorus\", \"instrumental\", \"bridge\", \"outro\"], \"top3_scores\": [[[\"verse\", 0.288], [\"bridge\", 0.287], [\"outro\", 0.251]], [[\"verse\", 0.364], [\"bridge\", 0.339], [\"outro\", 0.257]], [[\"verse\", 0.354], [\"bridge\", 0.334], [\"outro\", 0.267]], [[\"verse\", 0.351], [\"bridge\", 0.32], [\"outro\", 0.241]], [[\"verse\", 0.359], [\"bridge\", 0.338], [\"outro\", 0.259]], [[\"verse\", 0.367], [\"bridge\", 0.348], [\"outro\", 0.259]], [[\"verse\", 0.313], [\"bridge\", 0.268], [\"outro\", 0.223]], [[\"bridge\", 0.287], [\"verse\", 0.279], [\"postchorus\", 0.218]]]}"
+ },
+ {
+  "role": "tool_result",
+  "name": "grader",
+  "content": "{\"sections\": [{\"start\": 0.1, \"end\": 22.9, \"annotated\": \"intro\", \"scored_as\": \"intro\", \"named\": \"intro\", \"right\": true}, {\"start\": 22.9, \"end\": 57.2, \"annotated\": \"verse\", \"scored_as\": \"verse\", \"named\": \"verse\", \"right\": true}, {\"start\": 57.2, \"end\": 91.5, \"annotated\": \"chorus\", \"scored_as\": \"chorus\", \"named\": \"chorus\", \"right\": true}, {\"start\": 91.5, \"end\": 114.4, \"annotated\": \"verse\", \"scored_as\": \"verse\", \"named\": \"verse\", \"right\": true}, {\"start\": 114.4, \"end\": 148.6, \"annotated\": \"chorus\", \"scored_as\": \"chorus\", \"named\": \"chorus\", \"right\": true}, {\"start\": 148.6, \"end\": 174.3, \"annotated\": \"bridge\", \"scored_as\": \"bridge\", \"named\": \"instrumental\", \"right\": false}, {\"start\": 174.3, \"end\": 220.1, \"annotated\": \"chorus\", \"scored_as\": \"chorus\", \"named\": \"bridge\", \"right\": false}, {\"start\": 220.1, \"end\": 227.1, \"annotated\": \"outro\", \"scored_as\": \"outro\", \"named\": \"outro\", \"right\": true}], \"grade\": {\"acc\": 0.75}}"
+ }
+]

@@ -1,0 +1,15 @@
+[
+ {
+  "role": "user",
+  "content": "Name each section of this song: Alone With You \u2014 Jake Owen (Country, 10 sections)\nsection edges (s): [0.5, 18.1, 46.7, 77.6, 86.4, 101.8, 132.6, 145.8, 176.6, 185.4, 198.7]\nsettings: {\"encoder\": \"clapbar_fold\", \"prompts\": {\"intro\": [\"the intro of a song\"], \"verse\": [\"the verse of a song\"], \"prechorus\": [\"the pre-chorus of a song\"], \"chorus\": [\"the chorus of a song\"], \"postchorus\": [\"the post-chorus of a song\"], \"bridge\": [\"the bridge of a song\"], \"outro\": [\"the outro of a song\"], \"instrumental\": [\"an instrumental section of a song\"]}}"
+ },
+ {
+  "role": "assistant",
+  "content": "{\"names\": [\"instrumental\", \"bridge\", \"bridge\", \"bridge\", \"bridge\", \"bridge\", \"bridge\", \"bridge\", \"bridge\", \"bridge\"], \"top3_scores\": [[[\"instrumental\", 0.26], [\"bridge\", 0.253], [\"postchorus\", 0.237]], [[\"bridge\", 0.315], [\"verse\", 0.244], [\"postchorus\", 0.243]], [[\"bridge\", 0.266], [\"verse\", 0.201], [\"outro\", 0.178]], [[\"bridge\", 0.247], [\"postchorus\", 0.205], [\"instrumental\", 0.202]], [[\"bridge\", 0.212], [\"postchorus\", 0.148], [\"verse\", 0.144]], [[\"bridge\", 0.265], [\"verse\", 0.196], [\"outro\", 0.171]], [[\"bridge\", 0.207], [\"instrumental\", 0.168], [\"outro\", 0.126]], [[\"bridge\", 0.274], [\"verse\", 0.212], [\"postchorus\", 0.19]], [[\"bridge\", 0.259], [\"postchorus\", 0.226], [\"instrumental\", 0.203]], [[\"bridge\", 0.324], [\"postchorus\", 0.272], [\"verse\", 0.268]]]}"
+ },
+ {
+  "role": "tool_result",
+  "name": "grader",
+  "content": "{\"sections\": [{\"start\": 0.5, \"end\": 18.1, \"annotated\": \"intro\", \"scored_as\": \"intro\", \"named\": \"instrumental\", \"right\": false}, {\"start\": 18.1, \"end\": 46.7, \"annotated\": \"verse\", \"scored_as\": \"verse\", \"named\": \"bridge\", \"right\": false}, {\"start\": 46.7, \"end\": 77.6, \"annotated\": \"chorus\", \"scored_as\": \"chorus\", \"named\": \"bridge\", \"right\": false}, {\"start\": 77.6, \"end\": 86.4, \"annotated\": \"intro\", \"scored_as\": \"intro\", \"named\": \"bridge\", \"right\": false}, {\"start\": 86.4, \"end\": 101.8, \"annotated\": \"verse\", \"scored_as\": \"verse\", \"named\": \"bridge\", \"right\": false}, {\"start\": 101.8, \"end\": 132.6, \"annotated\": \"chorus\", \"scored_as\": \"chorus\", \"named\": \"bridge\", \"right\": false}, {\"start\": 132.6, \"end\": 145.8, \"annotated\": \"solo\", \"scored_as\": \"instrumental\", \"named\": \"bridge\", \"right\": false}, {\"start\": 145.8, \"end\": 176.6, \"annotated\": \"chorus\", \"scored_as\": \"chorus\", \"named\": \"bridge\", \"right\": false}, {\"start\": 176.6, \"end\": 185.4, \"annotated\": \"intro\", \"scored_as\": \"intro\", \"named\": \"bridge\", \"right\": false}, {\"start\": 185.4, \"end\": 198.7, \"annotated\": \"verse\", \"scored_as\": \"verse\", \"named\": \"bridge\", \"right\": false}], \"grade\": {\"acc\": 0.0}}"
+ }
+]

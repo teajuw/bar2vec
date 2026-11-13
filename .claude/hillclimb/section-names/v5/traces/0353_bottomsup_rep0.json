@@ -1,0 +1,15 @@
+[
+ {
+  "role": "user",
+  "content": "Name each section of this song: Bottoms Up \u2014 Trey Songz feat. Nicki Minaj (Hip-Hop, 9 sections)\nsection edges (s): [0.1, 15.9, 42.3, 67.8, 94.2, 119.7, 145.7, 197.5, 223.5, 236.9]\nsettings: {\"encoder\": \"clapbar_fold\", \"prompts\": {\"intro\": [\"the intro of a song\"], \"verse\": [\"the verse of a song\"], \"prechorus\": [\"the pre-chorus of a song\"], \"chorus\": [\"the chorus of a song\"], \"postchorus\": [\"the post-chorus of a song\"], \"bridge\": [\"the bridge of a song\"], \"outro\": [\"the outro of a song\"], \"instrumental\": [\"an instrumental section of a song\"]}, \"extra_models\": [\"matpacbar_fold\"], \"structure\": {\"model\": \"matpacbar_fold\", \"position\": true, \"repeat_tau\": 0.4, \"bridge\": true, \"prepost\": true, \"short_s\": 20, \"vocal_below\": -1.0}, \"extra_prompts\": {\"vocals\": [\"singing vocals\", \"a person singing or rapping\"], \"no_vocals\": [\"instrumental music with no vocals\", \"an instrumental solo\"]}}"
+ },
+ {
+  "role": "assistant",
+  "content": "{\"names\": [\"intro\", \"chorus\", \"instrumental\", \"chorus\", \"instrumental\", \"chorus\", \"bridge\", \"bridge\", \"outro\"], \"top3_scores\": [[[\"outro\", 0.256], [\"verse\", 0.239], [\"intro\", 0.203]], [[\"verse\", 0.224], [\"bridge\", 0.192], [\"outro\", 0.178]], [[\"verse\", 0.251], [\"bridge\", 0.185], [\"outro\", 0.173]], [[\"verse\", 0.219], [\"bridge\", 0.182], [\"outro\", 0.176]], [[\"verse\", 0.253], [\"outro\", 0.198], [\"bridge\", 0.19]], [[\"verse\", 0.207], [\"outro\", 0.171], [\"bridge\", 0.169]], [[\"verse\", 0.309], [\"outro\", 0.218], [\"bridge\", 0.217]], [[\"verse\", 0.222], [\"bridge\", 0.165], [\"outro\", 0.163]], [[\"verse\", 0.23], [\"outro\", 0.186], [\"bridge\", 0.177]]]}"
+ },
+ {
+  "role": "tool_result",
+  "name": "grader",
+  "content": "{\"sections\": [{\"start\": 0.1, \"end\": 15.9, \"annotated\": \"intro\", \"scored_as\": \"intro\", \"named\": \"intro\", \"right\": true}, {\"start\": 15.9, \"end\": 42.3, \"annotated\": \"chorus\", \"scored_as\": \"chorus\", \"named\": \"chorus\", \"right\": true}, {\"start\": 42.3, \"end\": 67.8, \"annotated\": \"verse\", \"scored_as\": \"verse\", \"named\": \"instrumental\", \"right\": false}, {\"start\": 67.8, \"end\": 94.2, \"annotated\": \"chorus\", \"scored_as\": \"chorus\", \"named\": \"chorus\", \"right\": true}, {\"start\": 94.2, \"end\": 119.7, \"annotated\": \"verse\", \"scored_as\": \"verse\", \"named\": \"instrumental\", \"right\": false}, {\"start\": 119.7, \"end\": 145.7, \"annotated\": \"chorus\", \"scored_as\": \"chorus\", \"named\": \"chorus\", \"right\": true}, {\"start\": 145.7, \"end\": 197.5, \"annotated\": \"bridge\", \"scored_as\": \"bridge\", \"named\": \"bridge\", \"right\": true}, {\"start\": 197.5, \"end\": 223.5, \"annotated\": \"chorus\", \"scored_as\": \"chorus\", \"named\": \"bridge\", \"right\": false}, {\"start\": 223.5, \"end\": 236.9, \"annotated\": \"outro\", \"scored_as\": \"outro\", \"named\": \"outro\", \"right\": true}], \"grade\": {\"acc\": 0.6667}}"
+ }
+]

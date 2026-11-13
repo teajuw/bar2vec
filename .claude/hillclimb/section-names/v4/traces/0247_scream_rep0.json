@@ -1,0 +1,15 @@
+[
+ {
+  "role": "user",
+  "content": "Name each section of this song: Scream \u2014 Usher (Pop, 7 sections)\nsection edges (s): [0.0, 14.5, 29.1, 44.5, 58.6, 90.0, 118.6, 151.9]\nsettings: {\"encoder\": \"clapbar_fold\", \"prompts\": {\"intro\": [\"the intro of a song\"], \"verse\": [\"the verse of a song\"], \"prechorus\": [\"the pre-chorus of a song\"], \"chorus\": [\"the chorus of a song\"], \"postchorus\": [\"the post-chorus of a song\"], \"bridge\": [\"the bridge of a song\"], \"outro\": [\"the outro of a song\"], \"instrumental\": [\"an instrumental section of a song\"]}, \"extra_models\": [\"matpacbar_fold\"], \"structure\": {\"model\": \"matpacbar_fold\", \"position\": true, \"repeat_tau\": 0.4, \"bridge\": true, \"prepost\": true, \"short_s\": 20}}"
+ },
+ {
+  "role": "assistant",
+  "content": "{\"names\": [\"intro\", \"verse\", \"verse\", \"verse\", \"chorus\", \"bridge\", \"chorus\"], \"top3_scores\": [[[\"bridge\", 0.274], [\"outro\", 0.267], [\"verse\", 0.245]], [[\"verse\", 0.296], [\"bridge\", 0.294], [\"outro\", 0.259]], [[\"verse\", 0.271], [\"bridge\", 0.267], [\"outro\", 0.259]], [[\"bridge\", 0.269], [\"verse\", 0.265], [\"outro\", 0.259]], [[\"bridge\", 0.293], [\"outro\", 0.282], [\"verse\", 0.266]], [[\"outro\", 0.349], [\"bridge\", 0.342], [\"verse\", 0.326]], [[\"bridge\", 0.299], [\"outro\", 0.283], [\"verse\", 0.272]]]}"
+ },
+ {
+  "role": "tool_result",
+  "name": "grader",
+  "content": "{\"sections\": [{\"start\": 0.0, \"end\": 14.5, \"annotated\": \"intro\", \"scored_as\": \"intro\", \"named\": \"intro\", \"right\": true}, {\"start\": 14.5, \"end\": 29.1, \"annotated\": \"verse\", \"scored_as\": \"verse\", \"named\": \"verse\", \"right\": true}, {\"start\": 29.1, \"end\": 44.5, \"annotated\": \"verse\", \"scored_as\": \"verse\", \"named\": \"verse\", \"right\": true}, {\"start\": 44.5, \"end\": 58.6, \"annotated\": \"prechorus\", \"scored_as\": \"prechorus\", \"named\": \"verse\", \"right\": false}, {\"start\": 58.6, \"end\": 90.0, \"annotated\": \"chorus\", \"scored_as\": \"chorus\", \"named\": \"chorus\", \"right\": true}, {\"start\": 90.0, \"end\": 118.6, \"annotated\": \"bridge\", \"scored_as\": \"bridge\", \"named\": \"bridge\", \"right\": true}, {\"start\": 118.6, \"end\": 151.9, \"annotated\": \"chorus\", \"scored_as\": \"chorus\", \"named\": \"chorus\", \"right\": true}], \"grade\": {\"acc\": 0.8571}}"
+ }
+]

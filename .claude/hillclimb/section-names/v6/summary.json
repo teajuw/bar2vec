@@ -1,0 +1,4 @@
+{
+ "description": "chorus pick: repeat count plus 2 x the group's loudness relative to the rest of the song",
+ "target": "code"
+}

@@ -1,0 +1,15 @@
+[
+ {
+  "role": "user",
+  "content": "Name each section of this song: Dynamite \u2014 Taio Cruz (Pop, 10 sections)\nsection edges (s): [0.0, 7.5, 32.0, 47.5, 63.5, 88.0, 103.5, 120.0, 164.0, 179.5, 196.0]\nsettings: {\"encoder\": \"clapbar_fold\", \"prompts\": {\"intro\": [\"the intro of a song\"], \"verse\": [\"the verse of a song\"], \"prechorus\": [\"the pre-chorus of a song\"], \"chorus\": [\"the chorus of a song\"], \"postchorus\": [\"the post-chorus of a song\"], \"bridge\": [\"the bridge of a song\"], \"outro\": [\"the outro of a song\"], \"instrumental\": [\"an instrumental section of a song\"]}, \"extra_models\": [\"matpacbar_fold\"], \"structure\": {\"model\": \"matpacbar_fold\", \"position\": true, \"repeat_tau\": 0.4, \"bridge\": false, \"prepost\": false, \"short_s\": 20}}"
+ },
+ {
+  "role": "assistant",
+  "content": "{\"names\": [\"intro\", \"verse\", \"chorus\", \"verse\", \"verse\", \"chorus\", \"verse\", \"verse\", \"chorus\", \"outro\"], \"top3_scores\": [[[\"bridge\", 0.275], [\"verse\", 0.267], [\"outro\", 0.258]], [[\"verse\", 0.302], [\"outro\", 0.296], [\"bridge\", 0.293]], [[\"verse\", 0.274], [\"bridge\", 0.266], [\"outro\", 0.264]], [[\"outro\", 0.258], [\"verse\", 0.248], [\"bridge\", 0.235]], [[\"outro\", 0.326], [\"verse\", 0.319], [\"bridge\", 0.306]], [[\"verse\", 0.285], [\"bridge\", 0.276], [\"outro\", 0.272]], [[\"outro\", 0.26], [\"verse\", 0.241], [\"bridge\", 0.23]], [[\"outro\", 0.321], [\"bridge\", 0.321], [\"verse\", 0.312]], [[\"outro\", 0.283], [\"verse\", 0.268], [\"bridge\", 0.262]], [[\"outro\", 0.27], [\"verse\", 0.243], [\"bridge\", 0.234]]]}"
+ },
+ {
+  "role": "tool_result",
+  "name": "grader",
+  "content": "{\"sections\": [{\"start\": 0.0, \"end\": 7.5, \"annotated\": \"intro\", \"scored_as\": \"intro\", \"named\": \"intro\", \"right\": true}, {\"start\": 7.5, \"end\": 32.0, \"annotated\": \"verse\", \"scored_as\": \"verse\", \"named\": \"verse\", \"right\": true}, {\"start\": 32.0, \"end\": 47.5, \"annotated\": \"chorus\", \"scored_as\": \"chorus\", \"named\": \"chorus\", \"right\": true}, {\"start\": 47.5, \"end\": 63.5, \"annotated\": \"postchorus\", \"scored_as\": \"postchorus\", \"named\": \"verse\", \"right\": false}, {\"start\": 63.5, \"end\": 88.0, \"annotated\": \"verse\", \"scored_as\": \"verse\", \"named\": \"verse\", \"right\": true}, {\"start\": 88.0, \"end\": 103.5, \"annotated\": \"chorus\", \"scored_as\": \"chorus\", \"named\": \"chorus\", \"right\": true}, {\"start\": 103.5, \"end\": 120.0, \"annotated\": \"postchorus\", \"scored_as\": \"postchorus\", \"named\": \"verse\", \"right\": false}, {\"start\": 120.0, \"end\": 164.0, \"annotated\": \"bridge\", \"scored_as\": \"bridge\", \"named\": \"verse\", \"right\": false}, {\"start\": 164.0, \"end\": 179.5, \"annotated\": \"chorus\", \"scored_as\": \"chorus\", \"named\": \"chorus\", \"right\": true}, {\"start\": 179.5, \"end\": 196.0, \"annotated\": \"postchorus\", \"scored_as\": \"postchorus\", \"named\": \"outro\", \"right\": false}], \"grade\": {\"acc\": 0.6}}"
+ }
+]

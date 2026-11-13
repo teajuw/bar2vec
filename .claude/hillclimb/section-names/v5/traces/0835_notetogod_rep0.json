@@ -1,0 +1,15 @@
+[
+ {
+  "role": "user",
+  "content": "Name each section of this song: Note to God \u2014 Charice (Pop, 9 sections)\nsection edges (s): [0.1, 7.1, 39.1, 72.1, 91.1, 124.1, 156.1, 170.7, 202.7, 232.7]\nsettings: {\"encoder\": \"clapbar_fold\", \"prompts\": {\"intro\": [\"the intro of a song\"], \"verse\": [\"the verse of a song\"], \"prechorus\": [\"the pre-chorus of a song\"], \"chorus\": [\"the chorus of a song\"], \"postchorus\": [\"the post-chorus of a song\"], \"bridge\": [\"the bridge of a song\"], \"outro\": [\"the outro of a song\"], \"instrumental\": [\"an instrumental section of a song\"]}, \"extra_models\": [\"matpacbar_fold\"], \"structure\": {\"model\": \"matpacbar_fold\", \"position\": true, \"repeat_tau\": 0.4, \"bridge\": true, \"prepost\": true, \"short_s\": 20, \"vocal_below\": -1.0}, \"extra_prompts\": {\"vocals\": [\"singing vocals\", \"a person singing or rapping\"], \"no_vocals\": [\"instrumental music with no vocals\", \"an instrumental solo\"]}}"
+ },
+ {
+  "role": "assistant",
+  "content": "{\"names\": [\"intro\", \"verse\", \"verse\", \"instrumental\", \"verse\", \"bridge\", \"bridge\", \"chorus\", \"chorus\"], \"top3_scores\": [[[\"postchorus\", 0.381], [\"bridge\", 0.302], [\"chorus\", 0.302]], [[\"verse\", 0.317], [\"postchorus\", 0.314], [\"bridge\", 0.309]], [[\"postchorus\", 0.367], [\"bridge\", 0.355], [\"chorus\", 0.349]], [[\"postchorus\", 0.345], [\"bridge\", 0.345], [\"verse\", 0.34]], [[\"verse\", 0.279], [\"bridge\", 0.275], [\"postchorus\", 0.236]], [[\"outro\", 0.262], [\"verse\", 0.257], [\"bridge\", 0.251]], [[\"outro\", 0.309], [\"intro\", 0.281], [\"postchorus\", 0.272]], [[\"outro\", 0.32], [\"intro\", 0.288], [\"postchorus\", 0.28]], [[\"outro\", 0.402], [\"intro\", 0.377], [\"postchorus\", 0.351]]]}"
+ },
+ {
+  "role": "tool_result",
+  "name": "grader",
+  "content": "{\"sections\": [{\"start\": 0.1, \"end\": 7.1, \"annotated\": \"intro\", \"scored_as\": \"intro\", \"named\": \"intro\", \"right\": true}, {\"start\": 7.1, \"end\": 39.1, \"annotated\": \"verse\", \"scored_as\": \"verse\", \"named\": \"verse\", \"right\": true}, {\"start\": 39.1, \"end\": 72.1, \"annotated\": \"verse\", \"scored_as\": \"verse\", \"named\": \"verse\", \"right\": true}, {\"start\": 72.1, \"end\": 91.1, \"annotated\": \"chorus\", \"scored_as\": \"chorus\", \"named\": \"instrumental\", \"right\": false}, {\"start\": 91.1, \"end\": 124.1, \"annotated\": \"verse\", \"scored_as\": \"verse\", \"named\": \"verse\", \"right\": true}, {\"start\": 124.1, \"end\": 156.1, \"annotated\": \"chorus\", \"scored_as\": \"chorus\", \"named\": \"bridge\", \"right\": false}, {\"start\": 156.1, \"end\": 170.7, \"annotated\": \"bridge\", \"scored_as\": \"bridge\", \"named\": \"bridge\", \"right\": true}, {\"start\": 170.7, \"end\": 202.7, \"annotated\": \"chorus\", \"scored_as\": \"chorus\", \"named\": \"chorus\", \"right\": true}, {\"start\": 202.7, \"end\": 232.7, \"annotated\": \"bridge\", \"scored_as\": \"bridge\", \"named\": \"chorus\", \"right\": false}], \"grade\": {\"acc\": 0.6667}}"
+ }
+]

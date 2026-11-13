@@ -1,0 +1,15 @@
+[
+ {
+  "role": "user",
+  "content": "Name each section of this song: Wide Awake \u2014 Katy Perry (Pop, 10 sections)\nsection edges (s): [0.6, 12.6, 35.9, 48.6, 72.6, 95.9, 108.6, 132.6, 168.6, 192.6, 216.6]\nsettings: {\"encoder\": \"clapbar_fold\", \"prompts\": {\"intro\": [\"the intro of a song\"], \"verse\": [\"the verse of a song\"], \"prechorus\": [\"the pre-chorus of a song\"], \"chorus\": [\"the chorus of a song\"], \"postchorus\": [\"the post-chorus of a song\"], \"bridge\": [\"the bridge of a song\"], \"outro\": [\"the outro of a song\"], \"instrumental\": [\"an instrumental section of a song\"]}, \"extra_models\": [\"matpacbar_fold\"], \"structure\": {\"model\": \"matpacbar_fold\", \"position\": true, \"repeat_tau\": 0.4, \"bridge\": false, \"prepost\": false, \"short_s\": 20}}"
+ },
+ {
+  "role": "assistant",
+  "content": "{\"names\": [\"intro\", \"verse\", \"verse\", \"chorus\", \"verse\", \"verse\", \"chorus\", \"verse\", \"chorus\", \"outro\"], \"top3_scores\": [[[\"verse\", 0.389], [\"bridge\", 0.374], [\"outro\", 0.368]], [[\"verse\", 0.323], [\"bridge\", 0.305], [\"outro\", 0.218]], [[\"verse\", 0.206], [\"bridge\", 0.172], [\"outro\", 0.141]], [[\"verse\", 0.298], [\"bridge\", 0.284], [\"outro\", 0.201]], [[\"verse\", 0.308], [\"bridge\", 0.278], [\"outro\", 0.222]], [[\"verse\", 0.229], [\"bridge\", 0.188], [\"outro\", 0.141]], [[\"verse\", 0.266], [\"bridge\", 0.245], [\"outro\", 0.159]], [[\"bridge\", 0.312], [\"verse\", 0.307], [\"outro\", 0.223]], [[\"verse\", 0.246], [\"bridge\", 0.242], [\"postchorus\", 0.137]], [[\"bridge\", 0.265], [\"verse\", 0.198], [\"postchorus\", 0.18]]]}"
+ },
+ {
+  "role": "tool_result",
+  "name": "grader",
+  "content": "{\"sections\": [{\"start\": 0.6, \"end\": 12.6, \"annotated\": \"intro\", \"scored_as\": \"intro\", \"named\": \"intro\", \"right\": true}, {\"start\": 12.6, \"end\": 35.9, \"annotated\": \"verse\", \"scored_as\": \"verse\", \"named\": \"verse\", \"right\": true}, {\"start\": 35.9, \"end\": 48.6, \"annotated\": \"prechorus\", \"scored_as\": \"prechorus\", \"named\": \"verse\", \"right\": false}, {\"start\": 48.6, \"end\": 72.6, \"annotated\": \"chorus\", \"scored_as\": \"chorus\", \"named\": \"chorus\", \"right\": true}, {\"start\": 72.6, \"end\": 95.9, \"annotated\": \"verse\", \"scored_as\": \"verse\", \"named\": \"verse\", \"right\": true}, {\"start\": 95.9, \"end\": 108.6, \"annotated\": \"prechorus\", \"scored_as\": \"prechorus\", \"named\": \"verse\", \"right\": false}, {\"start\": 108.6, \"end\": 132.6, \"annotated\": \"chorus\", \"scored_as\": \"chorus\", \"named\": \"chorus\", \"right\": true}, {\"start\": 132.6, \"end\": 168.6, \"annotated\": \"bridge\", \"scored_as\": \"bridge\", \"named\": \"verse\", \"right\": false}, {\"start\": 168.6, \"end\": 192.6, \"annotated\": \"chorus\", \"scored_as\": \"chorus\", \"named\": \"chorus\", \"right\": true}, {\"start\": 192.6, \"end\": 216.6, \"annotated\": \"outro\", \"scored_as\": \"outro\", \"named\": \"outro\", \"right\": true}], \"grade\": {\"acc\": 0.7}}"
+ }
+]

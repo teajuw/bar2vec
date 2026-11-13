@@ -1,0 +1,15 @@
+[
+ {
+  "role": "user",
+  "content": "Name each section of this song: O.P.P. \u2014 Naughty by Nature (Hip-Hop, 6 sections)\nsection edges (s): [0.0, 2.4, 31.9, 80.4, 100.6, 149.1, 169.4]\nsettings: {\"encoder\": \"clapbar_fold\", \"prompts\": {\"intro\": [\"the intro of a song\"], \"verse\": [\"the verse of a song\"], \"prechorus\": [\"the pre-chorus of a song\"], \"chorus\": [\"the chorus of a song\"], \"postchorus\": [\"the post-chorus of a song\"], \"bridge\": [\"the bridge of a song\"], \"outro\": [\"the outro of a song\"], \"instrumental\": [\"an instrumental section of a song\"]}, \"extra_models\": [\"matpacbar_fold\", \"loudbar_fold\"], \"structure\": {\"model\": \"matpacbar_fold\", \"position\": true, \"repeat_tau\": 0.4, \"bridge\": true, \"prepost\": true, \"short_s\": 20, \"vocal_below\": -1.0}, \"extra_prompts\": {\"vocals\": [\"singing vocals\", \"a person singing or rapping\"], \"no_vocals\": [\"instrumental music with no vocals\", \"an instrumental solo\"]}, \"trained\": true}"
+ },
+ {
+  "role": "assistant",
+  "content": "{\"names\": [\"intro\", \"intro\", \"verse\", \"chorus\", \"verse\", \"chorus\"], \"top3_scores\": [[[\"instrumental\", 0.229], [\"outro\", 0.187], [\"intro\", 0.172]], [[\"instrumental\", 0.267], [\"outro\", 0.221], [\"intro\", 0.208]], [[\"outro\", 0.226], [\"intro\", 0.197], [\"verse\", 0.191]], [[\"outro\", 0.188], [\"intro\", 0.151], [\"verse\", 0.147]], [[\"outro\", 0.209], [\"verse\", 0.199], [\"intro\", 0.177]], [[\"outro\", 0.183], [\"verse\", 0.151], [\"intro\", 0.141]]]}"
+ },
+ {
+  "role": "tool_result",
+  "name": "grader",
+  "content": "{\"sections\": [{\"start\": 0.0, \"end\": 2.4, \"annotated\": \"silence\", \"scored_as\": null, \"named\": \"intro\", \"right\": null}, {\"start\": 2.4, \"end\": 31.9, \"annotated\": \"intro\", \"scored_as\": \"intro\", \"named\": \"intro\", \"right\": true}, {\"start\": 31.9, \"end\": 80.4, \"annotated\": \"verse\", \"scored_as\": \"verse\", \"named\": \"verse\", \"right\": true}, {\"start\": 80.4, \"end\": 100.6, \"annotated\": \"chorus\", \"scored_as\": \"chorus\", \"named\": \"chorus\", \"right\": true}, {\"start\": 100.6, \"end\": 149.1, \"annotated\": \"verse\", \"scored_as\": \"verse\", \"named\": \"verse\", \"right\": true}, {\"start\": 149.1, \"end\": 169.4, \"annotated\": \"chorus\", \"scored_as\": \"chorus\", \"named\": \"chorus\", \"right\": true}], \"grade\": {\"acc\": 1.0}}"
+ }
+]

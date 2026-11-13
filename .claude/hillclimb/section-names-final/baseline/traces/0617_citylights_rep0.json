@@ -1,0 +1,15 @@
+[
+ {
+  "role": "user",
+  "content": "Name each section of this song: City Lights \u2014 Bridgit Mendler (Pop, 9 sections)\nsection edges (s): [0.2, 6.0, 40.3, 74.5, 86.0, 120.3, 154.5, 178.8, 201.7, 235.3]\nsettings: {\"encoder\": \"clapbar_fold\", \"prompts\": {\"intro\": [\"the intro of a song\"], \"verse\": [\"the verse of a song\"], \"prechorus\": [\"the pre-chorus of a song\"], \"chorus\": [\"the chorus of a song\"], \"postchorus\": [\"the post-chorus of a song\"], \"bridge\": [\"the bridge of a song\"], \"outro\": [\"the outro of a song\"], \"instrumental\": [\"an instrumental section of a song\"]}}"
+ },
+ {
+  "role": "assistant",
+  "content": "{\"names\": [\"instrumental\", \"verse\", \"verse\", \"bridge\", \"verse\", \"verse\", \"verse\", \"verse\", \"verse\"], \"top3_scores\": [[[\"instrumental\", 0.339], [\"intro\", 0.336], [\"outro\", 0.317]], [[\"verse\", 0.261], [\"bridge\", 0.232], [\"outro\", 0.158]], [[\"verse\", 0.275], [\"bridge\", 0.248], [\"outro\", 0.139]], [[\"bridge\", 0.235], [\"outro\", 0.234], [\"intro\", 0.211]], [[\"verse\", 0.235], [\"bridge\", 0.203], [\"outro\", 0.121]], [[\"verse\", 0.263], [\"bridge\", 0.225], [\"outro\", 0.134]], [[\"verse\", 0.238], [\"bridge\", 0.2], [\"prechorus\", 0.18]], [[\"verse\", 0.238], [\"outro\", 0.229], [\"bridge\", 0.228]], [[\"verse\", 0.272], [\"bridge\", 0.242], [\"outro\", 0.216]]]}"
+ },
+ {
+  "role": "tool_result",
+  "name": "grader",
+  "content": "{\"sections\": [{\"start\": 0.2, \"end\": 6.0, \"annotated\": \"intro\", \"scored_as\": \"intro\", \"named\": \"instrumental\", \"right\": false}, {\"start\": 6.0, \"end\": 40.3, \"annotated\": \"verse\", \"scored_as\": \"verse\", \"named\": \"verse\", \"right\": true}, {\"start\": 40.3, \"end\": 74.5, \"annotated\": \"chorus\", \"scored_as\": \"chorus\", \"named\": \"verse\", \"right\": false}, {\"start\": 74.5, \"end\": 86.0, \"annotated\": \"inst\", \"scored_as\": \"instrumental\", \"named\": \"bridge\", \"right\": false}, {\"start\": 86.0, \"end\": 120.3, \"annotated\": \"verse\", \"scored_as\": \"verse\", \"named\": \"verse\", \"right\": true}, {\"start\": 120.3, \"end\": 154.5, \"annotated\": \"chorus\", \"scored_as\": \"chorus\", \"named\": \"verse\", \"right\": false}, {\"start\": 154.5, \"end\": 178.8, \"annotated\": \"bridge\", \"scored_as\": \"bridge\", \"named\": \"verse\", \"right\": false}, {\"start\": 178.8, \"end\": 201.7, \"annotated\": \"solo\", \"scored_as\": \"instrumental\", \"named\": \"verse\", \"right\": false}, {\"start\": 201.7, \"end\": 235.3, \"annotated\": \"chorus\", \"scored_as\": \"chorus\", \"named\": \"verse\", \"right\": false}], \"grade\": {\"acc\": 0.2222}}"
+ }
+]

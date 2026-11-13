@@ -1,0 +1,3 @@
+# v7: trained classifier over section features, fitted on 150 tuning songs' labels (supervised row)
+
+Outer step 2. Rules ran out of signal (analyzer: oracle group labels 73.8 on train against 56.4). Boosted trees over about 130 features per section: position, length, repeat count of its group, the rule-based name of the section and its two neighbours each side, sung and loudness scores, 12 principal components each of MATPAC++ and CLAP section vectors. One untuned configuration. 5-fold out-of-fold on train: 62.6 ±3.8 against 56.6 for the rules, +6.0 ±3.9. Three train songs with a repeat in held-out or final are left out of the fit. The train column for this round is resubstitution and not comparable. No longer training-free.

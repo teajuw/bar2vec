@@ -1,0 +1,15 @@
+[
+ {
+  "role": "user",
+  "content": "Name each section of this song: A Thing About You \u2014 Tom Petty & the Heartbreakers (Rock, 9 sections)\nsection edges (s): [0.0, 4.1, 10.8, 35.6, 56.4, 80.9, 97.8, 154.7, 178.7, 298.5]\nsettings: {\"encoder\": \"clapbar_fold\", \"prompts\": {\"intro\": [\"the intro of a song\"], \"verse\": [\"the verse of a song\"], \"prechorus\": [\"the pre-chorus of a song\"], \"chorus\": [\"the chorus of a song\"], \"postchorus\": [\"the post-chorus of a song\"], \"bridge\": [\"the bridge of a song\"], \"outro\": [\"the outro of a song\"], \"instrumental\": [\"an instrumental section of a song\"]}, \"extra_models\": [\"matpacbar_fold\", \"loudbar_fold\"], \"structure\": {\"model\": \"matpacbar_fold\", \"position\": true, \"repeat_tau\": 0.4, \"bridge\": true, \"prepost\": true, \"short_s\": 20, \"vocal_below\": -1.0, \"loud_model\": \"loudbar_fold\", \"loud_w\": 2.0}, \"extra_prompts\": {\"vocals\": [\"singing vocals\", \"a person singing or rapping\"], \"no_vocals\": [\"instrumental music with no vocals\", \"an instrumental solo\"]}}"
+ },
+ {
+  "role": "assistant",
+  "content": "{\"names\": [\"intro\", \"verse\", \"verse\", \"chorus\", \"verse\", \"chorus\", \"bridge\", \"chorus\", \"outro\"], \"top3_scores\": [[[\"postchorus\", 0.291], [\"outro\", 0.229], [\"intro\", 0.214]], [[\"instrumental\", 0.195], [\"bridge\", 0.192], [\"outro\", 0.17]], [[\"bridge\", 0.209], [\"instrumental\", 0.204], [\"outro\", 0.169]], [[\"instrumental\", 0.189], [\"bridge\", 0.186], [\"outro\", 0.168]], [[\"bridge\", 0.218], [\"instrumental\", 0.2], [\"outro\", 0.186]], [[\"bridge\", 0.189], [\"outro\", 0.183], [\"instrumental\", 0.175]], [[\"instrumental\", 0.219], [\"outro\", 0.204], [\"bridge\", 0.199]], [[\"bridge\", 0.186], [\"outro\", 0.18], [\"chorus\", 0.173]], [[\"outro\", 0.332], [\"chorus\", 0.302], [\"instrumental\", 0.295]]]}"
+ },
+ {
+  "role": "tool_result",
+  "name": "grader",
+  "content": "{\"sections\": [{\"start\": 0.0, \"end\": 4.1, \"annotated\": \"silence\", \"scored_as\": null, \"named\": \"intro\", \"right\": null}, {\"start\": 4.1, \"end\": 10.8, \"annotated\": \"intro\", \"scored_as\": \"intro\", \"named\": \"verse\", \"right\": false}, {\"start\": 10.8, \"end\": 35.6, \"annotated\": \"verse\", \"scored_as\": \"verse\", \"named\": \"verse\", \"right\": true}, {\"start\": 35.6, \"end\": 56.4, \"annotated\": \"chorus\", \"scored_as\": \"chorus\", \"named\": \"chorus\", \"right\": true}, {\"start\": 56.4, \"end\": 80.9, \"annotated\": \"verse\", \"scored_as\": \"verse\", \"named\": \"verse\", \"right\": true}, {\"start\": 80.9, \"end\": 97.8, \"annotated\": \"chorus\", \"scored_as\": \"chorus\", \"named\": \"chorus\", \"right\": true}, {\"start\": 97.8, \"end\": 154.7, \"annotated\": \"bridge\", \"scored_as\": \"bridge\", \"named\": \"bridge\", \"right\": true}, {\"start\": 154.7, \"end\": 178.7, \"annotated\": \"chorus\", \"scored_as\": \"chorus\", \"named\": \"chorus\", \"right\": true}, {\"start\": 178.7, \"end\": 298.5, \"annotated\": \"breakdown\", \"scored_as\": null, \"named\": \"outro\", \"right\": null}], \"grade\": {\"acc\": 0.8571}}"
+ }
+]

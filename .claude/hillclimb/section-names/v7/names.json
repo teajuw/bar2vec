@@ -1,0 +1,53 @@
+{
+  "encoder": "clapbar_fold",
+  "prompts": {
+    "intro": [
+      "the intro of a song"
+    ],
+    "verse": [
+      "the verse of a song"
+    ],
+    "prechorus": [
+      "the pre-chorus of a song"
+    ],
+    "chorus": [
+      "the chorus of a song"
+    ],
+    "postchorus": [
+      "the post-chorus of a song"
+    ],
+    "bridge": [
+      "the bridge of a song"
+    ],
+    "outro": [
+      "the outro of a song"
+    ],
+    "instrumental": [
+      "an instrumental section of a song"
+    ]
+  },
+  "extra_models": [
+    "matpacbar_fold",
+    "loudbar_fold"
+  ],
+  "structure": {
+    "model": "matpacbar_fold",
+    "position": true,
+    "repeat_tau": 0.4,
+    "bridge": true,
+    "prepost": true,
+    "short_s": 20,
+    "vocal_below": -1.0
+  },
+  "extra_prompts": {
+    "vocals": [
+      "singing vocals",
+      "a person singing or rapping"
+    ],
+    "no_vocals": [
+      "instrumental music with no vocals",
+      "an instrumental solo"
+    ]
+  },
+  "trained": true
+}

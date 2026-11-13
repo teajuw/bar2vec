@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 464" font-family="system-ui, -apple-system, 'Segoe UI', sans-serif">
+<title>Held-out macro-F1 for every round of the naming climb</title>
+<rect width="400" height="464" rx="10" fill="#fafaf8"/>
+<text x="20" y="28" font-size="14" font-weight="600" fill="#1c1c1a">Naming: macro-F1 on 154 held-out songs</text>
+<rect x="20" y="42" width="12" height="10" rx="2" fill="#3f6fc4"/><text x="38" y="51" font-size="12" fill="#55554f">kept</text>
+<rect x="78" y="42" width="12" height="10" rx="2" fill="#b5b5ae"/><text x="96" y="51" font-size="12" fill="#55554f">reverted or not adopted</text>
+<text x="20" y="80" font-size="13" fill="#1c1c1a">0 · Match each section to a text prompt</text>
+<rect x="20" y="86" width="39" height="12" rx="3" fill="#b9c6dc"/>
+<text x="67" y="97" font-size="13" fill="#55554f">9.0</text>
+<text x="20" y="122" font-size="13" fill="#1c1c1a">1 · First is intro, last is outro</text>
+<rect x="20" y="128" width="100" height="12" rx="3" fill="#3f6fc4"/>
+<text x="128" y="139" font-size="13" fill="#55554f">23.3</text>
+<text x="20" y="164" font-size="13" fill="#1c1c1a">2 · Most repeated group is the chorus</text>
+<rect x="20" y="170" width="149" height="12" rx="3" fill="#3f6fc4"/>
+<text x="177" y="181" font-size="13" fill="#55554f">34.6</text>
+<text x="20" y="206" font-size="13" fill="#1c1c1a">3 · One-off late section is the bridge</text>
+<rect x="20" y="212" width="182" height="12" rx="3" fill="#3f6fc4"/>
+<text x="210" y="223" font-size="13" fill="#55554f">42.4</text>
+<text x="20" y="248" font-size="13" fill="#1c1c1a">4 · Short repeats beside the chorus: pre/post</text>
+<rect x="20" y="254" width="228" height="12" rx="3" fill="#3f6fc4"/>
+<text x="256" y="265" font-size="13" fill="#55554f">53.0</text>
+<text x="20" y="290" font-size="13" fill="#1c1c1a">5 · Far less singing: instrumental</text>
+<rect x="20" y="296" width="241" height="12" rx="3" fill="#3f6fc4"/>
+<text x="269" y="307" font-size="13" fill="#55554f">56.0</text>
+<text x="20" y="332" font-size="13" fill="#6b6b65">6 · Loudness picks the chorus (reverted)</text>
+<rect x="20" y="338" width="240" height="12" rx="3" fill="#b5b5ae"/>
+<text x="268" y="349" font-size="13" fill="#55554f">55.7</text>
+<text x="20" y="374" font-size="13" fill="#1c1c1a">7 · Trained classifier (supervised)</text>
+<rect x="20" y="380" width="287" height="12" rx="3" fill="#3f6fc4"/>
+<text x="315" y="391" font-size="13" fill="#55554f">66.7</text>
+<text x="20" y="416" font-size="13" fill="#6b6b65">8 · Classifier with twice the labels (not adopted)</text>
+<rect x="20" y="422" width="288" height="12" rx="3" fill="#b5b5ae"/>
+<text x="316" y="433" font-size="13" fill="#55554f">67.0</text>
+</svg>

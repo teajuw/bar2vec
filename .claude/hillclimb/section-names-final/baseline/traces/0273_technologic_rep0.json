@@ -1,0 +1,15 @@
+[
+ {
+  "role": "user",
+  "content": "Name each section of this song: Technologic \u2014 Daft Punk (Dance/Electronic, 7 sections)\nsection edges (s): [0.0, 37.7, 45.2, 90.4, 105.5, 120.5, 135.6, 143.1]\nsettings: {\"encoder\": \"clapbar_fold\", \"prompts\": {\"intro\": [\"the intro of a song\"], \"verse\": [\"the verse of a song\"], \"prechorus\": [\"the pre-chorus of a song\"], \"chorus\": [\"the chorus of a song\"], \"postchorus\": [\"the post-chorus of a song\"], \"bridge\": [\"the bridge of a song\"], \"outro\": [\"the outro of a song\"], \"instrumental\": [\"an instrumental section of a song\"]}}"
+ },
+ {
+  "role": "assistant",
+  "content": "{\"names\": [\"outro\", \"verse\", \"outro\", \"outro\", \"outro\", \"outro\", \"outro\"], \"top3_scores\": [[[\"outro\", 0.298], [\"verse\", 0.268], [\"intro\", 0.225]], [[\"verse\", 0.225], [\"outro\", 0.209], [\"bridge\", 0.185]], [[\"outro\", 0.296], [\"verse\", 0.262], [\"bridge\", 0.241]], [[\"outro\", 0.353], [\"intro\", 0.306], [\"verse\", 0.251]], [[\"outro\", 0.355], [\"intro\", 0.294], [\"verse\", 0.278]], [[\"outro\", 0.397], [\"verse\", 0.343], [\"intro\", 0.332]], [[\"outro\", 0.33], [\"intro\", 0.277], [\"verse\", 0.252]]]}"
+ },
+ {
+  "role": "tool_result",
+  "name": "grader",
+  "content": "{\"sections\": [{\"start\": 0.0, \"end\": 37.7, \"annotated\": \"verse\", \"scored_as\": \"verse\", \"named\": \"outro\", \"right\": false}, {\"start\": 37.7, \"end\": 45.2, \"annotated\": \"chorus\", \"scored_as\": \"chorus\", \"named\": \"verse\", \"right\": false}, {\"start\": 45.2, \"end\": 90.4, \"annotated\": \"verse\", \"scored_as\": \"verse\", \"named\": \"outro\", \"right\": false}, {\"start\": 90.4, \"end\": 105.5, \"annotated\": \"bridge\", \"scored_as\": \"bridge\", \"named\": \"outro\", \"right\": false}, {\"start\": 105.5, \"end\": 120.5, \"annotated\": \"verse\", \"scored_as\": \"verse\", \"named\": \"outro\", \"right\": false}, {\"start\": 120.5, \"end\": 135.6, \"annotated\": \"outro\", \"scored_as\": \"outro\", \"named\": \"outro\", \"right\": true}, {\"start\": 135.6, \"end\": 143.1, \"annotated\": \"chorus\", \"scored_as\": \"chorus\", \"named\": \"outro\", \"right\": false}], \"grade\": {\"acc\": 0.1429}}"
+ }
+]

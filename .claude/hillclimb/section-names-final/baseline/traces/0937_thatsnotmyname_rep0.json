@@ -1,0 +1,15 @@
+[
+ {
+  "role": "user",
+  "content": "Name each section of this song: That's Not My Name \u2014 The Ting Tings (Pop, 10 sections)\nsection edges (s): [0.0, 0.8, 7.4, 20.6, 36.3, 62.8, 91.8, 118.3, 144.8, 171.2, 197.7]\nsettings: {\"encoder\": \"clapbar_fold\", \"prompts\": {\"intro\": [\"the intro of a song\"], \"verse\": [\"the verse of a song\"], \"prechorus\": [\"the pre-chorus of a song\"], \"chorus\": [\"the chorus of a song\"], \"postchorus\": [\"the post-chorus of a song\"], \"bridge\": [\"the bridge of a song\"], \"outro\": [\"the outro of a song\"], \"instrumental\": [\"an instrumental section of a song\"]}}"
+ },
+ {
+  "role": "assistant",
+  "content": "{\"names\": [\"instrumental\", \"outro\", \"verse\", \"verse\", \"verse\", \"verse\", \"verse\", \"outro\", \"outro\", \"outro\"], \"top3_scores\": [[[\"instrumental\", 0.153], [\"outro\", 0.142], [\"intro\", 0.129]], [[\"outro\", 0.197], [\"instrumental\", 0.189], [\"intro\", 0.182]], [[\"verse\", 0.235], [\"bridge\", 0.182], [\"outro\", 0.142]], [[\"verse\", 0.256], [\"bridge\", 0.186], [\"outro\", 0.169]], [[\"verse\", 0.22], [\"outro\", 0.219], [\"bridge\", 0.192]], [[\"verse\", 0.206], [\"bridge\", 0.15], [\"outro\", 0.148]], [[\"verse\", 0.184], [\"outro\", 0.162], [\"bridge\", 0.156]], [[\"outro\", 0.213], [\"bridge\", 0.201], [\"instrumental\", 0.179]], [[\"outro\", 0.271], [\"bridge\", 0.232], [\"verse\", 0.22]], [[\"outro\", 0.247], [\"bridge\", 0.189], [\"verse\", 0.166]]]}"
+ },
+ {
+  "role": "tool_result",
+  "name": "grader",
+  "content": "{\"sections\": [{\"start\": 0.0, \"end\": 0.8, \"annotated\": \"silence\", \"scored_as\": null, \"named\": \"instrumental\", \"right\": null}, {\"start\": 0.8, \"end\": 7.4, \"annotated\": \"intro\", \"scored_as\": \"intro\", \"named\": \"outro\", \"right\": false}, {\"start\": 7.4, \"end\": 20.6, \"annotated\": \"verse\", \"scored_as\": \"verse\", \"named\": \"verse\", \"right\": true}, {\"start\": 20.6, \"end\": 36.3, \"annotated\": \"verse\", \"scored_as\": \"verse\", \"named\": \"verse\", \"right\": true}, {\"start\": 36.3, \"end\": 62.8, \"annotated\": \"chorus\", \"scored_as\": \"chorus\", \"named\": \"verse\", \"right\": false}, {\"start\": 62.8, \"end\": 91.8, \"annotated\": \"verse\", \"scored_as\": \"verse\", \"named\": \"verse\", \"right\": true}, {\"start\": 91.8, \"end\": 118.3, \"annotated\": \"chorus\", \"scored_as\": \"chorus\", \"named\": \"verse\", \"right\": false}, {\"start\": 118.3, \"end\": 144.8, \"annotated\": \"bridge\", \"scored_as\": \"bridge\", \"named\": \"outro\", \"right\": false}, {\"start\": 144.8, \"end\": 171.2, \"annotated\": \"outro\", \"scored_as\": \"outro\", \"named\": \"outro\", \"right\": true}, {\"start\": 171.2, \"end\": 197.7, \"annotated\": \"outro\", \"scored_as\": \"outro\", \"named\": \"outro\", \"right\": true}], \"grade\": {\"acc\": 0.5556}}"
+ }
+]

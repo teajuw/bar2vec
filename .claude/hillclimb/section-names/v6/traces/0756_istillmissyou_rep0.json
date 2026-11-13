@@ -1,0 +1,15 @@
+[
+ {
+  "role": "user",
+  "content": "Name each section of this song: I Still Miss You \u2014 Keith Anderson (Country, 8 sections)\nsection edges (s): [0.1, 11.7, 38.6, 82.4, 110.9, 143.2, 154.0, 198.6, 229.4]\nsettings: {\"encoder\": \"clapbar_fold\", \"prompts\": {\"intro\": [\"the intro of a song\"], \"verse\": [\"the verse of a song\"], \"prechorus\": [\"the pre-chorus of a song\"], \"chorus\": [\"the chorus of a song\"], \"postchorus\": [\"the post-chorus of a song\"], \"bridge\": [\"the bridge of a song\"], \"outro\": [\"the outro of a song\"], \"instrumental\": [\"an instrumental section of a song\"]}, \"extra_models\": [\"matpacbar_fold\", \"loudbar_fold\"], \"structure\": {\"model\": \"matpacbar_fold\", \"position\": true, \"repeat_tau\": 0.4, \"bridge\": true, \"prepost\": true, \"short_s\": 20, \"vocal_below\": -1.0, \"loud_model\": \"loudbar_fold\", \"loud_w\": 2.0}, \"extra_prompts\": {\"vocals\": [\"singing vocals\", \"a person singing or rapping\"], \"no_vocals\": [\"instrumental music with no vocals\", \"an instrumental solo\"]}}"
+ },
+ {
+  "role": "assistant",
+  "content": "{\"names\": [\"intro\", \"verse\", \"chorus\", \"verse\", \"chorus\", \"verse\", \"chorus\", \"outro\"], \"top3_scores\": [[[\"bridge\", 0.241], [\"verse\", 0.221], [\"chorus\", 0.199]], [[\"bridge\", 0.257], [\"verse\", 0.241], [\"outro\", 0.173]], [[\"bridge\", 0.262], [\"verse\", 0.217], [\"outro\", 0.176]], [[\"bridge\", 0.301], [\"verse\", 0.262], [\"outro\", 0.219]], [[\"bridge\", 0.284], [\"verse\", 0.236], [\"outro\", 0.199]], [[\"bridge\", 0.222], [\"postchorus\", 0.162], [\"verse\", 0.156]], [[\"bridge\", 0.278], [\"verse\", 0.235], [\"postchorus\", 0.217]], [[\"bridge\", 0.255], [\"postchorus\", 0.226], [\"chorus\", 0.201]]]}"
+ },
+ {
+  "role": "tool_result",
+  "name": "grader",
+  "content": "{\"sections\": [{\"start\": 0.1, \"end\": 11.7, \"annotated\": \"intro\", \"scored_as\": \"intro\", \"named\": \"intro\", \"right\": true}, {\"start\": 11.7, \"end\": 38.6, \"annotated\": \"verse\", \"scored_as\": \"verse\", \"named\": \"verse\", \"right\": true}, {\"start\": 38.6, \"end\": 82.4, \"annotated\": \"chorus\", \"scored_as\": \"chorus\", \"named\": \"chorus\", \"right\": true}, {\"start\": 82.4, \"end\": 110.9, \"annotated\": \"verse\", \"scored_as\": \"verse\", \"named\": \"verse\", \"right\": true}, {\"start\": 110.9, \"end\": 143.2, \"annotated\": \"chorus\", \"scored_as\": \"chorus\", \"named\": \"chorus\", \"right\": true}, {\"start\": 143.2, \"end\": 154.0, \"annotated\": \"inst\", \"scored_as\": \"instrumental\", \"named\": \"verse\", \"right\": false}, {\"start\": 154.0, \"end\": 198.6, \"annotated\": \"chorus\", \"scored_as\": \"chorus\", \"named\": \"chorus\", \"right\": true}, {\"start\": 198.6, \"end\": 229.4, \"annotated\": \"outro\", \"scored_as\": \"outro\", \"named\": \"outro\", \"right\": true}], \"grade\": {\"acc\": 0.875}}"
+ }
+]

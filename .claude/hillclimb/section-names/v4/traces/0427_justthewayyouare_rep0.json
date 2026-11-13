@@ -1,0 +1,15 @@
+[
+ {
+  "role": "user",
+  "content": "Name each section of this song: Just the Way You Are \u2014 Bruno Mars (Pop, 8 sections)\nsection edges (s): [0.1, 17.7, 51.3, 88.2, 105.8, 121.7, 158.6, 176.2, 211.5]\nsettings: {\"encoder\": \"clapbar_fold\", \"prompts\": {\"intro\": [\"the intro of a song\"], \"verse\": [\"the verse of a song\"], \"prechorus\": [\"the pre-chorus of a song\"], \"chorus\": [\"the chorus of a song\"], \"postchorus\": [\"the post-chorus of a song\"], \"bridge\": [\"the bridge of a song\"], \"outro\": [\"the outro of a song\"], \"instrumental\": [\"an instrumental section of a song\"]}, \"extra_models\": [\"matpacbar_fold\"], \"structure\": {\"model\": \"matpacbar_fold\", \"position\": true, \"repeat_tau\": 0.4, \"bridge\": true, \"prepost\": true, \"short_s\": 20}}"
+ },
+ {
+  "role": "assistant",
+  "content": "{\"names\": [\"intro\", \"verse\", \"chorus\", \"verse\", \"verse\", \"chorus\", \"chorus\", \"outro\"], \"top3_scores\": [[[\"bridge\", 0.354], [\"verse\", 0.342], [\"outro\", 0.319]], [[\"verse\", 0.312], [\"bridge\", 0.295], [\"outro\", 0.285]], [[\"bridge\", 0.289], [\"verse\", 0.26], [\"outro\", 0.259]], [[\"verse\", 0.304], [\"bridge\", 0.282], [\"outro\", 0.272]], [[\"verse\", 0.3], [\"bridge\", 0.28], [\"outro\", 0.276]], [[\"bridge\", 0.304], [\"verse\", 0.277], [\"outro\", 0.272]], [[\"bridge\", 0.321], [\"verse\", 0.288], [\"outro\", 0.255]], [[\"verse\", 0.324], [\"bridge\", 0.317], [\"outro\", 0.268]]]}"
+ },
+ {
+  "role": "tool_result",
+  "name": "grader",
+  "content": "{\"sections\": [{\"start\": 0.1, \"end\": 17.7, \"annotated\": \"intro\", \"scored_as\": \"intro\", \"named\": \"intro\", \"right\": true}, {\"start\": 17.7, \"end\": 51.3, \"annotated\": \"verse\", \"scored_as\": \"verse\", \"named\": \"verse\", \"right\": true}, {\"start\": 51.3, \"end\": 88.2, \"annotated\": \"chorus\", \"scored_as\": \"chorus\", \"named\": \"chorus\", \"right\": true}, {\"start\": 88.2, \"end\": 105.8, \"annotated\": \"verse\", \"scored_as\": \"verse\", \"named\": \"verse\", \"right\": true}, {\"start\": 105.8, \"end\": 121.7, \"annotated\": \"prechorus\", \"scored_as\": \"prechorus\", \"named\": \"verse\", \"right\": false}, {\"start\": 121.7, \"end\": 158.6, \"annotated\": \"chorus\", \"scored_as\": \"chorus\", \"named\": \"chorus\", \"right\": true}, {\"start\": 158.6, \"end\": 176.2, \"annotated\": \"postchorus\", \"scored_as\": \"postchorus\", \"named\": \"chorus\", \"right\": false}, {\"start\": 176.2, \"end\": 211.5, \"annotated\": \"chorus\", \"scored_as\": \"chorus\", \"named\": \"outro\", \"right\": false}], \"grade\": {\"acc\": 0.625}}"
+ }
+]

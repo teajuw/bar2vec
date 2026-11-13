@@ -1,0 +1,15 @@
+[
+ {
+  "role": "user",
+  "content": "Name each section of this song: Love You Like a Love Song \u2014 Selena Gomez & The Scene (Pop, 7 sections)\nsection edges (s): [0.1, 3.6, 37.0, 69.3, 102.6, 135.4, 151.9, 182.6]\nsettings: {\"encoder\": \"clapbar_fold\", \"prompts\": {\"intro\": [\"the intro of a song\"], \"verse\": [\"the verse of a song\"], \"prechorus\": [\"the pre-chorus of a song\"], \"chorus\": [\"the chorus of a song\"], \"postchorus\": [\"the post-chorus of a song\"], \"bridge\": [\"the bridge of a song\"], \"outro\": [\"the outro of a song\"], \"instrumental\": [\"an instrumental section of a song\"]}, \"extra_models\": [\"matpacbar_fold\", \"loudbar_fold\"], \"structure\": {\"model\": \"matpacbar_fold\", \"position\": true, \"repeat_tau\": 0.4, \"bridge\": true, \"prepost\": true, \"short_s\": 20, \"vocal_below\": -1.0}, \"extra_prompts\": {\"vocals\": [\"singing vocals\", \"a person singing or rapping\"], \"no_vocals\": [\"instrumental music with no vocals\", \"an instrumental solo\"]}, \"trained\": \"extra\"}"
+ },
+ {
+  "role": "assistant",
+  "content": "{\"names\": [\"intro\", \"verse\", \"chorus\", \"verse\", \"chorus\", \"bridge\", \"chorus\"], \"top3_scores\": [[[\"bridge\", 0.347], [\"verse\", 0.325], [\"outro\", 0.276]], [[\"bridge\", 0.311], [\"verse\", 0.279], [\"outro\", 0.219]], [[\"bridge\", 0.257], [\"outro\", 0.252], [\"verse\", 0.248]], [[\"bridge\", 0.329], [\"verse\", 0.301], [\"outro\", 0.248]], [[\"bridge\", 0.256], [\"outro\", 0.256], [\"verse\", 0.249]], [[\"bridge\", 0.348], [\"verse\", 0.34], [\"outro\", 0.274]], [[\"bridge\", 0.268], [\"verse\", 0.265], [\"outro\", 0.243]]]}"
+ },
+ {
+  "role": "tool_result",
+  "name": "grader",
+  "content": "{\"sections\": [{\"start\": 0.1, \"end\": 3.6, \"annotated\": \"intro\", \"scored_as\": \"intro\", \"named\": \"intro\", \"right\": true}, {\"start\": 3.6, \"end\": 37.0, \"annotated\": \"verse\", \"scored_as\": \"verse\", \"named\": \"verse\", \"right\": true}, {\"start\": 37.0, \"end\": 69.3, \"annotated\": \"chorus\", \"scored_as\": \"chorus\", \"named\": \"chorus\", \"right\": true}, {\"start\": 69.3, \"end\": 102.6, \"annotated\": \"verse\", \"scored_as\": \"verse\", \"named\": \"verse\", \"right\": true}, {\"start\": 102.6, \"end\": 135.4, \"annotated\": \"chorus\", \"scored_as\": \"chorus\", \"named\": \"chorus\", \"right\": true}, {\"start\": 135.4, \"end\": 151.9, \"annotated\": \"bridge\", \"scored_as\": \"bridge\", \"named\": \"bridge\", \"right\": true}, {\"start\": 151.9, \"end\": 182.6, \"annotated\": \"chorus\", \"scored_as\": \"chorus\", \"named\": \"chorus\", \"right\": true}], \"grade\": {\"acc\": 1.0}}"
+ }
+]

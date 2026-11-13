@@ -1,0 +1,30 @@
+--- .claude/hillclimb/song-cuts/v10/cuts.json	2026-11-12 09:11:41
++++ cuts.json	2026-11-12 10:12:57
+@@ -1,6 +1,6 @@
+ {
+   "models": [
+-    "matpacbar_fold"
++    "matpacbar_fold_c3"
+   ],
+   "window": 10,
+   "hop": 5,
+@@ -19,4 +19,4 @@
+   "cbm_bands": 7,
+   "cbm_penalty": 0,
+   "cbm_support": 0.5
+-}
++}
+\ No newline at end of file
+--- .claude/hillclimb/song-cuts/v10/cuts.py	2026-11-12 09:11:41
++++ scripts/cuts.py	2026-11-12 09:50:10
+@@ -53,7 +53,9 @@
+     segments = cbm.compute_cbm(sim, min_size=1, max_size=cfg.get("cbm_max_bars", 32),
+                                penalty_weight=cfg.get("cbm_penalty", 0), penalty_func="modulo8",
+                                bands_number=cfg.get("cbm_bands"))[0]
+-    idx = sorted({int(a) for a, _ in segments if 0 < int(a) < len(starts)})
++    # cbm_shift_bars: when each bar's embedding also covers the following bars, a block starts early by part of that span.
++    shift = cfg.get("cbm_shift_bars", 0)
++    idx = sorted({int(a) + shift for a, _ in segments if 0 < int(a) + shift < len(starts)})
+     nov = np.zeros(len(starts))
+     if cfg.get("cbm_support") is not None:
+         # Keep a block-matching cut only where the change score also sees something: above the given

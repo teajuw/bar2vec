@@ -1,0 +1,15 @@
+[
+ {
+  "role": "user",
+  "content": "Name each section of this song: Tiny Little Bows \u2014 Carly Rae Jepsen (Pop, 7 sections)\nsection edges (s): [0.1, 16.1, 40.1, 76.1, 100.1, 132.1, 152.1, 196.2]\nsettings: {\"encoder\": \"clapbar_fold\", \"prompts\": {\"intro\": [\"the intro of a song\"], \"verse\": [\"the verse of a song\"], \"prechorus\": [\"the pre-chorus of a song\"], \"chorus\": [\"the chorus of a song\"], \"postchorus\": [\"the post-chorus of a song\"], \"bridge\": [\"the bridge of a song\"], \"outro\": [\"the outro of a song\"], \"instrumental\": [\"an instrumental section of a song\"]}, \"extra_models\": [\"matpacbar_fold\", \"loudbar_fold\"], \"structure\": {\"model\": \"matpacbar_fold\", \"position\": true, \"repeat_tau\": 0.4, \"bridge\": true, \"prepost\": true, \"short_s\": 20, \"vocal_below\": -1.0}, \"extra_prompts\": {\"vocals\": [\"singing vocals\", \"a person singing or rapping\"], \"no_vocals\": [\"instrumental music with no vocals\", \"an instrumental solo\"]}, \"trained\": true}"
+ },
+ {
+  "role": "assistant",
+  "content": "{\"names\": [\"intro\", \"verse\", \"chorus\", \"verse\", \"chorus\", \"bridge\", \"chorus\"], \"top3_scores\": [[[\"bridge\", 0.316], [\"outro\", 0.309], [\"verse\", 0.278]], [[\"bridge\", 0.27], [\"outro\", 0.251], [\"verse\", 0.243]], [[\"outro\", 0.243], [\"bridge\", 0.233], [\"verse\", 0.214]], [[\"bridge\", 0.258], [\"outro\", 0.254], [\"verse\", 0.235]], [[\"outro\", 0.237], [\"bridge\", 0.235], [\"verse\", 0.22]], [[\"outro\", 0.349], [\"intro\", 0.301], [\"instrumental\", 0.293]], [[\"outro\", 0.271], [\"bridge\", 0.263], [\"verse\", 0.252]]]}"
+ },
+ {
+  "role": "tool_result",
+  "name": "grader",
+  "content": "{\"sections\": [{\"start\": 0.1, \"end\": 16.1, \"annotated\": \"intro\", \"scored_as\": \"intro\", \"named\": \"intro\", \"right\": true}, {\"start\": 16.1, \"end\": 40.1, \"annotated\": \"verse\", \"scored_as\": \"verse\", \"named\": \"verse\", \"right\": true}, {\"start\": 40.1, \"end\": 76.1, \"annotated\": \"chorus\", \"scored_as\": \"chorus\", \"named\": \"chorus\", \"right\": true}, {\"start\": 76.1, \"end\": 100.1, \"annotated\": \"verse\", \"scored_as\": \"verse\", \"named\": \"verse\", \"right\": true}, {\"start\": 100.1, \"end\": 132.1, \"annotated\": \"chorus\", \"scored_as\": \"chorus\", \"named\": \"chorus\", \"right\": true}, {\"start\": 132.1, \"end\": 152.1, \"annotated\": \"transition\", \"scored_as\": \"instrumental\", \"named\": \"bridge\", \"right\": false}, {\"start\": 152.1, \"end\": 196.2, \"annotated\": \"chorus\", \"scored_as\": \"chorus\", \"named\": \"chorus\", \"right\": true}], \"grade\": {\"acc\": 0.8571}}"
+ }
+]

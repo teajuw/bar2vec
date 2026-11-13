@@ -1,0 +1,15 @@
+[
+ {
+  "role": "user",
+  "content": "Name each section of this song: Heartless \u2014 Kanye West (Hip-Hop, 8 sections)\nsection edges (s): [0.1, 22.6, 54.6, 77.1, 109.2, 131.7, 163.7, 186.2, 208.1]\nsettings: {\"encoder\": \"clapbar_fold\", \"prompts\": {\"intro\": [\"the intro of a song\"], \"verse\": [\"the verse of a song\"], \"prechorus\": [\"the pre-chorus of a song\"], \"chorus\": [\"the chorus of a song\"], \"postchorus\": [\"the post-chorus of a song\"], \"bridge\": [\"the bridge of a song\"], \"outro\": [\"the outro of a song\"], \"instrumental\": [\"an instrumental section of a song\"]}}"
+ },
+ {
+  "role": "assistant",
+  "content": "{\"names\": [\"verse\", \"verse\", \"verse\", \"verse\", \"verse\", \"verse\", \"verse\", \"verse\"], \"top3_scores\": [[[\"verse\", 0.403], [\"bridge\", 0.386], [\"outro\", 0.326]], [[\"verse\", 0.309], [\"bridge\", 0.252], [\"outro\", 0.195]], [[\"verse\", 0.355], [\"bridge\", 0.332], [\"outro\", 0.303]], [[\"verse\", 0.335], [\"bridge\", 0.286], [\"outro\", 0.228]], [[\"verse\", 0.344], [\"bridge\", 0.32], [\"outro\", 0.274]], [[\"verse\", 0.403], [\"bridge\", 0.362], [\"outro\", 0.324]], [[\"verse\", 0.334], [\"bridge\", 0.305], [\"outro\", 0.266]], [[\"verse\", 0.386], [\"bridge\", 0.355], [\"outro\", 0.309]]]}"
+ },
+ {
+  "role": "tool_result",
+  "name": "grader",
+  "content": "{\"sections\": [{\"start\": 0.1, \"end\": 22.6, \"annotated\": \"chorus\", \"scored_as\": \"chorus\", \"named\": \"verse\", \"right\": false}, {\"start\": 22.6, \"end\": 54.6, \"annotated\": \"verse\", \"scored_as\": \"verse\", \"named\": \"verse\", \"right\": true}, {\"start\": 54.6, \"end\": 77.1, \"annotated\": \"chorus\", \"scored_as\": \"chorus\", \"named\": \"verse\", \"right\": false}, {\"start\": 77.1, \"end\": 109.2, \"annotated\": \"verse\", \"scored_as\": \"verse\", \"named\": \"verse\", \"right\": true}, {\"start\": 109.2, \"end\": 131.7, \"annotated\": \"chorus\", \"scored_as\": \"chorus\", \"named\": \"verse\", \"right\": false}, {\"start\": 131.7, \"end\": 163.7, \"annotated\": \"bridge\", \"scored_as\": \"bridge\", \"named\": \"verse\", \"right\": false}, {\"start\": 163.7, \"end\": 186.2, \"annotated\": \"chorus\", \"scored_as\": \"chorus\", \"named\": \"verse\", \"right\": false}, {\"start\": 186.2, \"end\": 208.1, \"annotated\": \"outro\", \"scored_as\": \"outro\", \"named\": \"verse\", \"right\": false}], \"grade\": {\"acc\": 0.25}}"
+ }
+]

@@ -1,0 +1,15 @@
+[
+ {
+  "role": "user",
+  "content": "Name each section of this song: Sexy Chick \u2014 David Guetta feat. Akon (Dance/Electronic, 6 sections)\nsection edges (s): [0.0, 44.3, 73.9, 103.4, 133.0, 162.5, 192.1]\nsettings: {\"encoder\": \"clapbar_fold\", \"prompts\": {\"intro\": [\"the intro of a song\"], \"verse\": [\"the verse of a song\"], \"prechorus\": [\"the pre-chorus of a song\"], \"chorus\": [\"the chorus of a song\"], \"postchorus\": [\"the post-chorus of a song\"], \"bridge\": [\"the bridge of a song\"], \"outro\": [\"the outro of a song\"], \"instrumental\": [\"an instrumental section of a song\"]}, \"extra_models\": [\"matpacbar_fold\", \"loudbar_fold\"], \"structure\": {\"model\": \"matpacbar_fold\", \"position\": true, \"repeat_tau\": 0.4, \"bridge\": true, \"prepost\": true, \"short_s\": 20, \"vocal_below\": -1.0}, \"extra_prompts\": {\"vocals\": [\"singing vocals\", \"a person singing or rapping\"], \"no_vocals\": [\"instrumental music with no vocals\", \"an instrumental solo\"]}, \"trained\": \"extra\"}"
+ },
+ {
+  "role": "assistant",
+  "content": "{\"names\": [\"intro\", \"chorus\", \"instrumental\", \"verse\", \"chorus\", \"outro\"], \"top3_scores\": [[[\"verse\", 0.321], [\"bridge\", 0.317], [\"outro\", 0.298]], [[\"outro\", 0.403], [\"intro\", 0.365], [\"verse\", 0.351]], [[\"outro\", 0.409], [\"intro\", 0.386], [\"bridge\", 0.378]], [[\"verse\", 0.312], [\"bridge\", 0.312], [\"outro\", 0.31]], [[\"outro\", 0.39], [\"intro\", 0.351], [\"verse\", 0.343]], [[\"outro\", 0.375], [\"verse\", 0.34], [\"bridge\", 0.337]]]}"
+ },
+ {
+  "role": "tool_result",
+  "name": "grader",
+  "content": "{\"sections\": [{\"start\": 0.0, \"end\": 44.3, \"annotated\": \"intro\", \"scored_as\": \"intro\", \"named\": \"intro\", \"right\": true}, {\"start\": 44.3, \"end\": 73.9, \"annotated\": \"chorus\", \"scored_as\": \"chorus\", \"named\": \"chorus\", \"right\": true}, {\"start\": 73.9, \"end\": 103.4, \"annotated\": \"chorus2\", \"scored_as\": \"chorus\", \"named\": \"instrumental\", \"right\": false}, {\"start\": 103.4, \"end\": 133.0, \"annotated\": \"verse\", \"scored_as\": \"verse\", \"named\": \"verse\", \"right\": true}, {\"start\": 133.0, \"end\": 162.5, \"annotated\": \"chorus\", \"scored_as\": \"chorus\", \"named\": \"chorus\", \"right\": true}, {\"start\": 162.5, \"end\": 192.1, \"annotated\": \"chorus2\", \"scored_as\": \"chorus\", \"named\": \"outro\", \"right\": false}], \"grade\": {\"acc\": 0.6667}}"
+ }
+]

@@ -1,0 +1,15 @@
+[
+ {
+  "role": "user",
+  "content": "Name each section of this song: Cooler Than Me \u2014 Mike Posner (Pop, 8 sections)\nsection edges (s): [0.2, 32.1, 46.4, 75.9, 105.5, 135.5, 149.8, 179.8, 208.4]\nsettings: {\"encoder\": \"clapbar_fold\", \"prompts\": {\"intro\": [\"the intro of a song\"], \"verse\": [\"the verse of a song\"], \"prechorus\": [\"the pre-chorus of a song\"], \"chorus\": [\"the chorus of a song\"], \"postchorus\": [\"the post-chorus of a song\"], \"bridge\": [\"the bridge of a song\"], \"outro\": [\"the outro of a song\"], \"instrumental\": [\"an instrumental section of a song\"]}, \"extra_models\": [\"matpacbar_fold\"], \"structure\": {\"model\": \"matpacbar_fold\", \"position\": true, \"repeat_tau\": 0.4, \"bridge\": false, \"prepost\": false, \"short_s\": 20}}"
+ },
+ {
+  "role": "assistant",
+  "content": "{\"names\": [\"intro\", \"verse\", \"verse\", \"verse\", \"verse\", \"verse\", \"chorus\", \"outro\"], \"top3_scores\": [[[\"verse\", 0.378], [\"outro\", 0.335], [\"bridge\", 0.31]], [[\"outro\", 0.294], [\"intro\", 0.291], [\"instrumental\", 0.262]], [[\"outro\", 0.325], [\"verse\", 0.322], [\"bridge\", 0.317]], [[\"verse\", 0.26], [\"outro\", 0.255], [\"bridge\", 0.235]], [[\"bridge\", 0.309], [\"verse\", 0.302], [\"outro\", 0.299]], [[\"verse\", 0.315], [\"bridge\", 0.311], [\"outro\", 0.3]], [[\"verse\", 0.339], [\"outro\", 0.338], [\"bridge\", 0.291]], [[\"outro\", 0.355], [\"instrumental\", 0.34], [\"bridge\", 0.327]]]}"
+ },
+ {
+  "role": "tool_result",
+  "name": "grader",
+  "content": "{\"sections\": [{\"start\": 0.2, \"end\": 32.1, \"annotated\": \"chorus\", \"scored_as\": \"chorus\", \"named\": \"intro\", \"right\": false}, {\"start\": 32.1, \"end\": 46.4, \"annotated\": \"inst\", \"scored_as\": \"instrumental\", \"named\": \"verse\", \"right\": false}, {\"start\": 46.4, \"end\": 75.9, \"annotated\": \"verse\", \"scored_as\": \"verse\", \"named\": \"verse\", \"right\": true}, {\"start\": 75.9, \"end\": 105.5, \"annotated\": \"chorus\", \"scored_as\": \"chorus\", \"named\": \"verse\", \"right\": false}, {\"start\": 105.5, \"end\": 135.5, \"annotated\": \"verse\", \"scored_as\": \"verse\", \"named\": \"verse\", \"right\": true}, {\"start\": 135.5, \"end\": 149.8, \"annotated\": \"bridge\", \"scored_as\": \"bridge\", \"named\": \"verse\", \"right\": false}, {\"start\": 149.8, \"end\": 179.8, \"annotated\": \"chorus\", \"scored_as\": \"chorus\", \"named\": \"chorus\", \"right\": true}, {\"start\": 179.8, \"end\": 208.4, \"annotated\": \"solo\", \"scored_as\": \"instrumental\", \"named\": \"outro\", \"right\": false}], \"grade\": {\"acc\": 0.375}}"
+ }
+]

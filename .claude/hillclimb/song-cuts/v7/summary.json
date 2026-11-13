@@ -1,0 +1,4 @@
+{
+ "description": "one embedding per bar, bars from a beat tracker that never trained on the song",
+ "target": "code"
+}

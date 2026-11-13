@@ -1,0 +1,15 @@
+[
+ {
+  "role": "user",
+  "content": "Name each section of this song: Hey, Soul Sister \u2014 Train (Pop, 8 sections)\nsection edges (s): [0.6, 11.7, 51.3, 81.0, 120.6, 140.4, 160.2, 189.8, 209.6]\nsettings: {\"encoder\": \"clapbar_fold\", \"prompts\": {\"intro\": [\"the intro of a song\"], \"verse\": [\"the verse of a song\"], \"prechorus\": [\"the pre-chorus of a song\"], \"chorus\": [\"the chorus of a song\"], \"postchorus\": [\"the post-chorus of a song\"], \"bridge\": [\"the bridge of a song\"], \"outro\": [\"the outro of a song\"], \"instrumental\": [\"an instrumental section of a song\"]}, \"extra_models\": [\"matpacbar_fold\", \"loudbar_fold\"], \"structure\": {\"model\": \"matpacbar_fold\", \"position\": true, \"repeat_tau\": 0.4, \"bridge\": true, \"prepost\": true, \"short_s\": 20, \"vocal_below\": -1.0}, \"extra_prompts\": {\"vocals\": [\"singing vocals\", \"a person singing or rapping\"], \"no_vocals\": [\"instrumental music with no vocals\", \"an instrumental solo\"]}, \"trained\": \"extra\"}"
+ },
+ {
+  "role": "assistant",
+  "content": "{\"names\": [\"intro\", \"verse\", \"verse\", \"verse\", \"chorus\", \"bridge\", \"chorus\", \"outro\"], \"top3_scores\": [[[\"verse\", 0.298], [\"outro\", 0.27], [\"bridge\", 0.263]], [[\"verse\", 0.291], [\"bridge\", 0.287], [\"outro\", 0.257]], [[\"bridge\", 0.258], [\"verse\", 0.254], [\"outro\", 0.23]], [[\"verse\", 0.257], [\"bridge\", 0.255], [\"outro\", 0.238]], [[\"bridge\", 0.199], [\"verse\", 0.161], [\"outro\", 0.125]], [[\"bridge\", 0.186], [\"verse\", 0.168], [\"outro\", 0.129]], [[\"bridge\", 0.267], [\"verse\", 0.253], [\"outro\", 0.227]], [[\"bridge\", 0.165], [\"outro\", 0.152], [\"instrumental\", 0.135]]]}"
+ },
+ {
+  "role": "tool_result",
+  "name": "grader",
+  "content": "{\"sections\": [{\"start\": 0.6, \"end\": 11.7, \"annotated\": \"intro\", \"scored_as\": \"intro\", \"named\": \"intro\", \"right\": true}, {\"start\": 11.7, \"end\": 51.3, \"annotated\": \"verse\", \"scored_as\": \"verse\", \"named\": \"verse\", \"right\": true}, {\"start\": 51.3, \"end\": 81.0, \"annotated\": \"chorus\", \"scored_as\": \"chorus\", \"named\": \"verse\", \"right\": false}, {\"start\": 81.0, \"end\": 120.6, \"annotated\": \"verse\", \"scored_as\": \"verse\", \"named\": \"verse\", \"right\": true}, {\"start\": 120.6, \"end\": 140.4, \"annotated\": \"chorus\", \"scored_as\": \"chorus\", \"named\": \"chorus\", \"right\": true}, {\"start\": 140.4, \"end\": 160.2, \"annotated\": \"bridge\", \"scored_as\": \"bridge\", \"named\": \"bridge\", \"right\": true}, {\"start\": 160.2, \"end\": 189.8, \"annotated\": \"chorus\", \"scored_as\": \"chorus\", \"named\": \"chorus\", \"right\": true}, {\"start\": 189.8, \"end\": 209.6, \"annotated\": \"outro\", \"scored_as\": \"outro\", \"named\": \"outro\", \"right\": true}], \"grade\": {\"acc\": 0.875}}"
+ }
+]

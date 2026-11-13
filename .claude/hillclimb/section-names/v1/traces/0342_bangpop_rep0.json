@@ -1,0 +1,15 @@
+[
+ {
+  "role": "user",
+  "content": "Name each section of this song: Bang Pop \u2014 Free Energy (Rock, 10 sections)\nsection edges (s): [0.3, 21.8, 42.6, 63.4, 84.2, 105.0, 125.8, 146.6, 167.5, 188.3, 209.1]\nsettings: {\"encoder\": \"clapbar_fold\", \"prompts\": {\"intro\": [\"the intro of a song\"], \"verse\": [\"the verse of a song\"], \"prechorus\": [\"the pre-chorus of a song\"], \"chorus\": [\"the chorus of a song\"], \"postchorus\": [\"the post-chorus of a song\"], \"bridge\": [\"the bridge of a song\"], \"outro\": [\"the outro of a song\"], \"instrumental\": [\"an instrumental section of a song\"]}, \"extra_models\": [\"matpacbar_fold\"], \"structure\": {\"model\": \"matpacbar_fold\", \"position\": true, \"repeat_tau\": null, \"bridge\": false, \"prepost\": false, \"short_s\": 20}}"
+ },
+ {
+  "role": "assistant",
+  "content": "{\"names\": [\"intro\", \"verse\", \"verse\", \"verse\", \"verse\", \"verse\", \"verse\", \"verse\", \"verse\", \"outro\"], \"top3_scores\": [[[\"instrumental\", 0.247], [\"outro\", 0.193], [\"chorus\", 0.185]], [[\"outro\", 0.133], [\"bridge\", 0.122], [\"chorus\", 0.114]], [[\"instrumental\", 0.197], [\"outro\", 0.18], [\"chorus\", 0.166]], [[\"outro\", 0.129], [\"bridge\", 0.126], [\"chorus\", 0.119]], [[\"bridge\", 0.161], [\"outro\", 0.153], [\"chorus\", 0.138]], [[\"instrumental\", 0.17], [\"chorus\", 0.164], [\"outro\", 0.163]], [[\"instrumental\", 0.313], [\"chorus\", 0.259], [\"outro\", 0.236]], [[\"bridge\", 0.171], [\"outro\", 0.146], [\"instrumental\", 0.143]], [[\"postchorus\", 0.185], [\"chorus\", 0.167], [\"outro\", 0.157]], [[\"instrumental\", 0.198], [\"chorus\", 0.184], [\"outro\", 0.174]]]}"
+ },
+ {
+  "role": "tool_result",
+  "name": "grader",
+  "content": "{\"sections\": [{\"start\": 0.3, \"end\": 21.8, \"annotated\": \"intro\", \"scored_as\": \"intro\", \"named\": \"intro\", \"right\": true}, {\"start\": 21.8, \"end\": 42.6, \"annotated\": \"verse\", \"scored_as\": \"verse\", \"named\": \"verse\", \"right\": true}, {\"start\": 42.6, \"end\": 63.4, \"annotated\": \"chorus\", \"scored_as\": \"chorus\", \"named\": \"verse\", \"right\": false}, {\"start\": 63.4, \"end\": 84.2, \"annotated\": \"verse\", \"scored_as\": \"verse\", \"named\": \"verse\", \"right\": true}, {\"start\": 84.2, \"end\": 105.0, \"annotated\": \"prechorus\", \"scored_as\": \"prechorus\", \"named\": \"verse\", \"right\": false}, {\"start\": 105.0, \"end\": 125.8, \"annotated\": \"chorus\", \"scored_as\": \"chorus\", \"named\": \"verse\", \"right\": false}, {\"start\": 125.8, \"end\": 146.6, \"annotated\": \"solo\", \"scored_as\": \"instrumental\", \"named\": \"verse\", \"right\": false}, {\"start\": 146.6, \"end\": 167.5, \"annotated\": \"prechorus\", \"scored_as\": \"prechorus\", \"named\": \"verse\", \"right\": false}, {\"start\": 167.5, \"end\": 188.3, \"annotated\": \"chorus\", \"scored_as\": \"chorus\", \"named\": \"verse\", \"right\": false}, {\"start\": 188.3, \"end\": 209.1, \"annotated\": \"chorus\", \"scored_as\": \"chorus\", \"named\": \"outro\", \"right\": false}], \"grade\": {\"acc\": 0.3}}"
+ }
+]

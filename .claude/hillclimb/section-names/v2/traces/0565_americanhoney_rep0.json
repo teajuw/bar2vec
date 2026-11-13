@@ -1,0 +1,15 @@
+[
+ {
+  "role": "user",
+  "content": "Name each section of this song: American Honey \u2014 Lady Antebellum (Country, 10 sections)\nsection edges (s): [2.2, 13.5, 35.8, 58.1, 86.0, 108.3, 136.3, 150.9, 161.4, 192.8, 215.1]\nsettings: {\"encoder\": \"clapbar_fold\", \"prompts\": {\"intro\": [\"the intro of a song\"], \"verse\": [\"the verse of a song\"], \"prechorus\": [\"the pre-chorus of a song\"], \"chorus\": [\"the chorus of a song\"], \"postchorus\": [\"the post-chorus of a song\"], \"bridge\": [\"the bridge of a song\"], \"outro\": [\"the outro of a song\"], \"instrumental\": [\"an instrumental section of a song\"]}, \"extra_models\": [\"matpacbar_fold\"], \"structure\": {\"model\": \"matpacbar_fold\", \"position\": true, \"repeat_tau\": 0.4, \"bridge\": false, \"prepost\": false, \"short_s\": 20}}"
+ },
+ {
+  "role": "assistant",
+  "content": "{\"names\": [\"intro\", \"verse\", \"verse\", \"chorus\", \"verse\", \"chorus\", \"verse\", \"verse\", \"chorus\", \"outro\"], \"top3_scores\": [[[\"bridge\", 0.219], [\"verse\", 0.194], [\"outro\", 0.174]], [[\"bridge\", 0.216], [\"verse\", 0.215], [\"chorus\", 0.137]], [[\"verse\", 0.255], [\"bridge\", 0.229], [\"chorus\", 0.119]], [[\"verse\", 0.237], [\"bridge\", 0.214], [\"postchorus\", 0.125]], [[\"bridge\", 0.169], [\"verse\", 0.162], [\"chorus\", 0.092]], [[\"bridge\", 0.189], [\"verse\", 0.188], [\"chorus\", 0.126]], [[\"verse\", 0.191], [\"bridge\", 0.177], [\"postchorus\", 0.141]], [[\"bridge\", 0.191], [\"verse\", 0.145], [\"instrumental\", 0.108]], [[\"verse\", 0.193], [\"bridge\", 0.189], [\"chorus\", 0.149]], [[\"bridge\", 0.295], [\"instrumental\", 0.273], [\"outro\", 0.253]]]}"
+ },
+ {
+  "role": "tool_result",
+  "name": "grader",
+  "content": "{\"sections\": [{\"start\": 2.2, \"end\": 13.5, \"annotated\": \"intro\", \"scored_as\": \"intro\", \"named\": \"intro\", \"right\": true}, {\"start\": 13.5, \"end\": 35.8, \"annotated\": \"verse\", \"scored_as\": \"verse\", \"named\": \"verse\", \"right\": true}, {\"start\": 35.8, \"end\": 58.1, \"annotated\": \"verse\", \"scored_as\": \"verse\", \"named\": \"verse\", \"right\": true}, {\"start\": 58.1, \"end\": 86.0, \"annotated\": \"chorus\", \"scored_as\": \"chorus\", \"named\": \"chorus\", \"right\": true}, {\"start\": 86.0, \"end\": 108.3, \"annotated\": \"verse\", \"scored_as\": \"verse\", \"named\": \"verse\", \"right\": true}, {\"start\": 108.3, \"end\": 136.3, \"annotated\": \"chorus\", \"scored_as\": \"chorus\", \"named\": \"chorus\", \"right\": true}, {\"start\": 136.3, \"end\": 150.9, \"annotated\": \"bridge\", \"scored_as\": \"bridge\", \"named\": \"verse\", \"right\": false}, {\"start\": 150.9, \"end\": 161.4, \"annotated\": \"solo\", \"scored_as\": \"instrumental\", \"named\": \"verse\", \"right\": false}, {\"start\": 161.4, \"end\": 192.8, \"annotated\": \"chorus\", \"scored_as\": \"chorus\", \"named\": \"chorus\", \"right\": true}, {\"start\": 192.8, \"end\": 215.1, \"annotated\": \"outro\", \"scored_as\": \"outro\", \"named\": \"outro\", \"right\": true}], \"grade\": {\"acc\": 0.8}}"
+ }
+]

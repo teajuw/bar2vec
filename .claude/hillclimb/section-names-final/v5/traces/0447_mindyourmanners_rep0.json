@@ -1,0 +1,15 @@
+[
+ {
+  "role": "user",
+  "content": "Name each section of this song: Mind Your Manners \u2014 Chiddy Bang (Hip-Hop, 9 sections)\nsection edges (s): [0.1, 20.8, 51.8, 72.4, 82.8, 124.2, 144.8, 155.1, 165.3, 191.7]\nsettings: {\"encoder\": \"clapbar_fold\", \"prompts\": {\"intro\": [\"the intro of a song\"], \"verse\": [\"the verse of a song\"], \"prechorus\": [\"the pre-chorus of a song\"], \"chorus\": [\"the chorus of a song\"], \"postchorus\": [\"the post-chorus of a song\"], \"bridge\": [\"the bridge of a song\"], \"outro\": [\"the outro of a song\"], \"instrumental\": [\"an instrumental section of a song\"]}, \"extra_models\": [\"matpacbar_fold\"], \"structure\": {\"model\": \"matpacbar_fold\", \"position\": true, \"repeat_tau\": 0.4, \"bridge\": true, \"prepost\": true, \"short_s\": 20, \"vocal_below\": -1.0}, \"extra_prompts\": {\"vocals\": [\"singing vocals\", \"a person singing or rapping\"], \"no_vocals\": [\"instrumental music with no vocals\", \"an instrumental solo\"]}}"
+ },
+ {
+  "role": "assistant",
+  "content": "{\"names\": [\"intro\", \"verse\", \"chorus\", \"verse\", \"verse\", \"chorus\", \"bridge\", \"bridge\", \"chorus\"], \"top3_scores\": [[[\"outro\", 0.188], [\"verse\", 0.158], [\"intro\", 0.13]], [[\"verse\", 0.238], [\"outro\", 0.216], [\"bridge\", 0.186]], [[\"outro\", 0.211], [\"verse\", 0.198], [\"bridge\", 0.186]], [[\"outro\", 0.165], [\"intro\", 0.122], [\"verse\", 0.121]], [[\"verse\", 0.225], [\"outro\", 0.198], [\"bridge\", 0.164]], [[\"outro\", 0.189], [\"verse\", 0.168], [\"bridge\", 0.153]], [[\"outro\", 0.187], [\"verse\", 0.159], [\"intro\", 0.146]], [[\"verse\", 0.209], [\"bridge\", 0.165], [\"outro\", 0.15]], [[\"verse\", 0.224], [\"outro\", 0.22], [\"bridge\", 0.2]]]}"
+ },
+ {
+  "role": "tool_result",
+  "name": "grader",
+  "content": "{\"sections\": [{\"start\": 0.1, \"end\": 20.8, \"annotated\": \"chorus\", \"scored_as\": \"chorus\", \"named\": \"intro\", \"right\": false}, {\"start\": 20.8, \"end\": 51.8, \"annotated\": \"verse\", \"scored_as\": \"verse\", \"named\": \"verse\", \"right\": true}, {\"start\": 51.8, \"end\": 72.4, \"annotated\": \"chorus\", \"scored_as\": \"chorus\", \"named\": \"chorus\", \"right\": true}, {\"start\": 72.4, \"end\": 82.8, \"annotated\": \"postchorus\", \"scored_as\": \"postchorus\", \"named\": \"verse\", \"right\": false}, {\"start\": 82.8, \"end\": 124.2, \"annotated\": \"verse\", \"scored_as\": \"verse\", \"named\": \"verse\", \"right\": true}, {\"start\": 124.2, \"end\": 144.8, \"annotated\": \"chorus\", \"scored_as\": \"chorus\", \"named\": \"chorus\", \"right\": true}, {\"start\": 144.8, \"end\": 155.1, \"annotated\": \"postchorus\", \"scored_as\": \"postchorus\", \"named\": \"bridge\", \"right\": false}, {\"start\": 155.1, \"end\": 165.3, \"annotated\": \"bridge\", \"scored_as\": \"bridge\", \"named\": \"bridge\", \"right\": true}, {\"start\": 165.3, \"end\": 191.7, \"annotated\": \"chorus\", \"scored_as\": \"chorus\", \"named\": \"chorus\", \"right\": true}], \"grade\": {\"acc\": 0.6667}}"
+ }
+]

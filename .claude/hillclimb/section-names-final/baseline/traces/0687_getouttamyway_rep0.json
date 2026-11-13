@@ -1,0 +1,15 @@
+[
+ {
+  "role": "user",
+  "content": "Name each section of this song: Get Outta My Way (SDP extended mix) \u2014 Kylie Minogue (Pop, 11 sections)\nsection edges (s): [0.3, 30.8, 60.8, 90.8, 120.8, 150.8, 180.8, 203.3, 233.3, 248.3, 263.3, 338.3]\nsettings: {\"encoder\": \"clapbar_fold\", \"prompts\": {\"intro\": [\"the intro of a song\"], \"verse\": [\"the verse of a song\"], \"prechorus\": [\"the pre-chorus of a song\"], \"chorus\": [\"the chorus of a song\"], \"postchorus\": [\"the post-chorus of a song\"], \"bridge\": [\"the bridge of a song\"], \"outro\": [\"the outro of a song\"], \"instrumental\": [\"an instrumental section of a song\"]}}"
+ },
+ {
+  "role": "assistant",
+  "content": "{\"names\": [\"bridge\", \"bridge\", \"bridge\", \"bridge\", \"bridge\", \"bridge\", \"bridge\", \"outro\", \"bridge\", \"bridge\", \"bridge\"], \"top3_scores\": [[[\"bridge\", 0.276], [\"outro\", 0.254], [\"verse\", 0.23]], [[\"bridge\", 0.276], [\"outro\", 0.247], [\"verse\", 0.228]], [[\"bridge\", 0.315], [\"outro\", 0.3], [\"verse\", 0.278]], [[\"bridge\", 0.236], [\"outro\", 0.217], [\"verse\", 0.201]], [[\"bridge\", 0.269], [\"outro\", 0.269], [\"verse\", 0.249]], [[\"bridge\", 0.238], [\"outro\", 0.215], [\"verse\", 0.205]], [[\"bridge\", 0.32], [\"outro\", 0.288], [\"verse\", 0.279]], [[\"outro\", 0.263], [\"bridge\", 0.263], [\"verse\", 0.226]], [[\"bridge\", 0.228], [\"outro\", 0.208], [\"verse\", 0.186]], [[\"bridge\", 0.238], [\"outro\", 0.21], [\"verse\", 0.203]], [[\"bridge\", 0.293], [\"outro\", 0.26], [\"verse\", 0.24]]]}"
+ },
+ {
+  "role": "tool_result",
+  "name": "grader",
+  "content": "{\"sections\": [{\"start\": 0.3, \"end\": 30.8, \"annotated\": \"intro\", \"scored_as\": \"intro\", \"named\": \"bridge\", \"right\": false}, {\"start\": 30.8, \"end\": 60.8, \"annotated\": \"inst\", \"scored_as\": \"instrumental\", \"named\": \"bridge\", \"right\": false}, {\"start\": 60.8, \"end\": 90.8, \"annotated\": \"verse\", \"scored_as\": \"verse\", \"named\": \"bridge\", \"right\": false}, {\"start\": 90.8, \"end\": 120.8, \"annotated\": \"chorus\", \"scored_as\": \"chorus\", \"named\": \"bridge\", \"right\": false}, {\"start\": 120.8, \"end\": 150.8, \"annotated\": \"verse\", \"scored_as\": \"verse\", \"named\": \"bridge\", \"right\": false}, {\"start\": 150.8, \"end\": 180.8, \"annotated\": \"chorus\", \"scored_as\": \"chorus\", \"named\": \"bridge\", \"right\": false}, {\"start\": 180.8, \"end\": 203.3, \"annotated\": \"instbridge\", \"scored_as\": null, \"named\": \"bridge\", \"right\": null}, {\"start\": 203.3, \"end\": 233.3, \"annotated\": \"bridge\", \"scored_as\": \"bridge\", \"named\": \"outro\", \"right\": false}, {\"start\": 233.3, \"end\": 248.3, \"annotated\": \"chorus\", \"scored_as\": \"chorus\", \"named\": \"bridge\", \"right\": false}, {\"start\": 248.3, \"end\": 263.3, \"annotated\": \"chorus\", \"scored_as\": \"chorus\", \"named\": \"bridge\", \"right\": false}, {\"start\": 263.3, \"end\": 338.3, \"annotated\": \"outro\", \"scored_as\": \"outro\", \"named\": \"bridge\", \"right\": false}], \"grade\": {\"acc\": 0.0}}"
+ }
+]

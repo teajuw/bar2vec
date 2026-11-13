@@ -1,0 +1,15 @@
+[
+ {
+  "role": "user",
+  "content": "Cut this song into sections: Days Go By \u2014 Dirty Vegas (Dance/Electronic, 115 s)\nsettings: {\"models\": [\"clap\"], \"window\": 10, \"hop\": 5, \"side_s\": 15, \"min_gap_s\": 15, \"k\": 0.0, \"offset_s\": 0.0, \"refine\": false}"
+ },
+ {
+  "role": "assistant",
+  "content": "{\"cuts_s\": [25.0, 50.0, 105.0], \"change_score\": [[0.0, 0.0], [5.0, 0.0], [10.0, 0.117], [15.0, 0.246], [20.0, 0.529], [25.0, 0.734], [30.0, 0.728], [35.0, 0.501], [40.0, 0.352], [45.0, 0.515], [50.0, 0.548], [55.0, 0.395], [60.0, 0.281], [65.0, 0.219], [70.0, 0.306], [75.0, 0.302], [80.0, 0.232], [85.0, 0.253], [90.0, 0.365], [95.0, 0.379], [100.0, 0.593], [105.0, 0.886], [105.5, 0.0]]}"
+ },
+ {
+  "role": "tool_result",
+  "name": "grader",
+  "content": "{\"annotated\": [[0.0, \"intro\"], [17.0, \"chorus\"], [32.1, \"chorus\"], [47.2, \"verse\"], [62.4, \"chorus\"], [77.5, \"verse\"], [107.7, \"end\"]], \"cuts_with_nearest_annotation_gap_s\": [[25.0, 7.1], [50.0, 2.8], [105.0, 27.5]], \"annotations_with_no_cut_within_3s\": [17.0, 32.1, 62.4, 77.5], \"grade\": {\"f3_trim\": 0.25, \"f05_trim\": 0.0, \"f3\": 0.5, \"f05\": 0.3333}}"
+ }
+]

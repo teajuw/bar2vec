@@ -1,0 +1,15 @@
+[
+ {
+  "role": "user",
+  "content": "Name each section of this song: Hips Don't Lie \u2014 Shakira feat. Wyclef Jean (Pop, 10 sections)\nsection edges (s): [0.2, 9.8, 38.6, 57.8, 96.2, 125.0, 144.2, 165.8, 185.0, 204.2, 211.4]\nsettings: {\"encoder\": \"clapbar_fold\", \"prompts\": {\"intro\": [\"the intro of a song\"], \"verse\": [\"the verse of a song\"], \"prechorus\": [\"the pre-chorus of a song\"], \"chorus\": [\"the chorus of a song\"], \"postchorus\": [\"the post-chorus of a song\"], \"bridge\": [\"the bridge of a song\"], \"outro\": [\"the outro of a song\"], \"instrumental\": [\"an instrumental section of a song\"]}}"
+ },
+ {
+  "role": "assistant",
+  "content": "{\"names\": [\"verse\", \"outro\", \"outro\", \"verse\", \"outro\", \"verse\", \"outro\", \"outro\", \"outro\", \"outro\"], \"top3_scores\": [[[\"verse\", 0.287], [\"outro\", 0.25], [\"postchorus\", 0.234]], [[\"outro\", 0.267], [\"verse\", 0.265], [\"intro\", 0.235]], [[\"outro\", 0.264], [\"verse\", 0.243], [\"intro\", 0.228]], [[\"verse\", 0.256], [\"outro\", 0.255], [\"intro\", 0.209]], [[\"outro\", 0.258], [\"intro\", 0.25], [\"verse\", 0.249]], [[\"verse\", 0.221], [\"outro\", 0.221], [\"intro\", 0.176]], [[\"outro\", 0.294], [\"intro\", 0.272], [\"verse\", 0.242]], [[\"outro\", 0.288], [\"intro\", 0.275], [\"verse\", 0.234]], [[\"outro\", 0.247], [\"verse\", 0.22], [\"intro\", 0.196]], [[\"outro\", 0.321], [\"verse\", 0.32], [\"bridge\", 0.267]]]}"
+ },
+ {
+  "role": "tool_result",
+  "name": "grader",
+  "content": "{\"sections\": [{\"start\": 0.2, \"end\": 9.8, \"annotated\": \"intro\", \"scored_as\": \"intro\", \"named\": \"verse\", \"right\": false}, {\"start\": 9.8, \"end\": 38.6, \"annotated\": \"chorus\", \"scored_as\": \"chorus\", \"named\": \"outro\", \"right\": false}, {\"start\": 38.6, \"end\": 57.8, \"annotated\": \"verse\", \"scored_as\": \"verse\", \"named\": \"outro\", \"right\": false}, {\"start\": 57.8, \"end\": 96.2, \"annotated\": \"chorus\", \"scored_as\": \"chorus\", \"named\": \"verse\", \"right\": false}, {\"start\": 96.2, \"end\": 125.0, \"annotated\": \"verse\", \"scored_as\": \"verse\", \"named\": \"outro\", \"right\": false}, {\"start\": 125.0, \"end\": 144.2, \"annotated\": \"chorus\", \"scored_as\": \"chorus\", \"named\": \"verse\", \"right\": false}, {\"start\": 144.2, \"end\": 165.8, \"annotated\": \"bridge\", \"scored_as\": \"bridge\", \"named\": \"outro\", \"right\": false}, {\"start\": 165.8, \"end\": 185.0, \"annotated\": \"raps\", \"scored_as\": null, \"named\": \"outro\", \"right\": null}, {\"start\": 185.0, \"end\": 204.2, \"annotated\": \"chorus\", \"scored_as\": \"chorus\", \"named\": \"outro\", \"right\": false}, {\"start\": 204.2, \"end\": 211.4, \"annotated\": \"outro\", \"scored_as\": \"outro\", \"named\": \"outro\", \"right\": true}], \"grade\": {\"acc\": 0.1111}}"
+ }
+]

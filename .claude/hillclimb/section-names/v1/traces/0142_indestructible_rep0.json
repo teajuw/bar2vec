@@ -1,0 +1,15 @@
+[
+ {
+  "role": "user",
+  "content": "Name each section of this song: Indestructible \u2014 Disturbed (Metal, 10 sections)\nsection edges (s): [0.0, 35.0, 53.7, 80.4, 111.1, 137.7, 177.7, 199.1, 220.4, 246.4, 260.4]\nsettings: {\"encoder\": \"clapbar_fold\", \"prompts\": {\"intro\": [\"the intro of a song\"], \"verse\": [\"the verse of a song\"], \"prechorus\": [\"the pre-chorus of a song\"], \"chorus\": [\"the chorus of a song\"], \"postchorus\": [\"the post-chorus of a song\"], \"bridge\": [\"the bridge of a song\"], \"outro\": [\"the outro of a song\"], \"instrumental\": [\"an instrumental section of a song\"]}, \"extra_models\": [\"matpacbar_fold\"], \"structure\": {\"model\": \"matpacbar_fold\", \"position\": true, \"repeat_tau\": null, \"bridge\": false, \"prepost\": false, \"short_s\": 20}}"
+ },
+ {
+  "role": "assistant",
+  "content": "{\"names\": [\"intro\", \"verse\", \"verse\", \"verse\", \"verse\", \"verse\", \"verse\", \"verse\", \"verse\", \"outro\"], \"top3_scores\": [[[\"outro\", 0.222], [\"postchorus\", 0.21], [\"verse\", 0.186]], [[\"outro\", 0.206], [\"intro\", 0.177], [\"postchorus\", 0.169]], [[\"outro\", 0.214], [\"intro\", 0.189], [\"bridge\", 0.175]], [[\"outro\", 0.18], [\"intro\", 0.154], [\"postchorus\", 0.137]], [[\"outro\", 0.217], [\"intro\", 0.188], [\"bridge\", 0.164]], [[\"outro\", 0.185], [\"intro\", 0.156], [\"postchorus\", 0.152]], [[\"bridge\", 0.241], [\"chorus\", 0.228], [\"outro\", 0.222]], [[\"outro\", 0.204], [\"postchorus\", 0.17], [\"intro\", 0.168]], [[\"outro\", 0.2], [\"intro\", 0.168], [\"postchorus\", 0.155]], [[\"outro\", 0.186], [\"postchorus\", 0.166], [\"bridge\", 0.163]]]}"
+ },
+ {
+  "role": "tool_result",
+  "name": "grader",
+  "content": "{\"sections\": [{\"start\": 0.0, \"end\": 35.0, \"annotated\": \"intro\", \"scored_as\": \"intro\", \"named\": \"intro\", \"right\": true}, {\"start\": 35.0, \"end\": 53.7, \"annotated\": \"instrumental\", \"scored_as\": \"instrumental\", \"named\": \"verse\", \"right\": false}, {\"start\": 53.7, \"end\": 80.4, \"annotated\": \"verse\", \"scored_as\": \"verse\", \"named\": \"verse\", \"right\": true}, {\"start\": 80.4, \"end\": 111.1, \"annotated\": \"chorus\", \"scored_as\": \"chorus\", \"named\": \"verse\", \"right\": false}, {\"start\": 111.1, \"end\": 137.7, \"annotated\": \"verse\", \"scored_as\": \"verse\", \"named\": \"verse\", \"right\": true}, {\"start\": 137.7, \"end\": 177.7, \"annotated\": \"chorus\", \"scored_as\": \"chorus\", \"named\": \"verse\", \"right\": false}, {\"start\": 177.7, \"end\": 199.1, \"annotated\": \"solo\", \"scored_as\": \"instrumental\", \"named\": \"verse\", \"right\": false}, {\"start\": 199.1, \"end\": 220.4, \"annotated\": \"chorus\", \"scored_as\": \"chorus\", \"named\": \"verse\", \"right\": false}, {\"start\": 220.4, \"end\": 246.4, \"annotated\": \"chorus\", \"scored_as\": \"chorus\", \"named\": \"verse\", \"right\": false}, {\"start\": 246.4, \"end\": 260.4, \"annotated\": \"instrumental\", \"scored_as\": \"instrumental\", \"named\": \"outro\", \"right\": false}], \"grade\": {\"acc\": 0.3}}"
+ }
+]

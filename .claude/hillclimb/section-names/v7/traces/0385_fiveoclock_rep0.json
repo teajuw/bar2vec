@@ -1,0 +1,15 @@
+[
+ {
+  "role": "user",
+  "content": "Name each section of this song: 5 O' Clock \u2014 T-Pain feat. Lily Allen (Pop, 9 sections)\nsection edges (s): [0.1, 23.0, 45.9, 68.7, 93.0, 114.4, 137.3, 160.1, 183.0, 207.3]\nsettings: {\"encoder\": \"clapbar_fold\", \"prompts\": {\"intro\": [\"the intro of a song\"], \"verse\": [\"the verse of a song\"], \"prechorus\": [\"the pre-chorus of a song\"], \"chorus\": [\"the chorus of a song\"], \"postchorus\": [\"the post-chorus of a song\"], \"bridge\": [\"the bridge of a song\"], \"outro\": [\"the outro of a song\"], \"instrumental\": [\"an instrumental section of a song\"]}, \"extra_models\": [\"matpacbar_fold\", \"loudbar_fold\"], \"structure\": {\"model\": \"matpacbar_fold\", \"position\": true, \"repeat_tau\": 0.4, \"bridge\": true, \"prepost\": true, \"short_s\": 20, \"vocal_below\": -1.0}, \"extra_prompts\": {\"vocals\": [\"singing vocals\", \"a person singing or rapping\"], \"no_vocals\": [\"instrumental music with no vocals\", \"an instrumental solo\"]}, \"trained\": true}"
+ },
+ {
+  "role": "assistant",
+  "content": "{\"names\": [\"intro\", \"verse\", \"verse\", \"verse\", \"chorus\", \"verse\", \"chorus\", \"chorus\", \"chorus\"], \"top3_scores\": [[[\"outro\", 0.37], [\"verse\", 0.358], [\"bridge\", 0.337]], [[\"verse\", 0.441], [\"bridge\", 0.391], [\"outro\", 0.379]], [[\"verse\", 0.427], [\"bridge\", 0.382], [\"outro\", 0.348]], [[\"verse\", 0.404], [\"bridge\", 0.369], [\"outro\", 0.295]], [[\"verse\", 0.358], [\"bridge\", 0.337], [\"outro\", 0.301]], [[\"verse\", 0.419], [\"bridge\", 0.376], [\"outro\", 0.372]], [[\"verse\", 0.401], [\"outro\", 0.368], [\"bridge\", 0.356]], [[\"verse\", 0.425], [\"bridge\", 0.394], [\"outro\", 0.328]], [[\"verse\", 0.35], [\"bridge\", 0.335], [\"outro\", 0.296]]]}"
+ },
+ {
+  "role": "tool_result",
+  "name": "grader",
+  "content": "{\"sections\": [{\"start\": 0.1, \"end\": 23.0, \"annotated\": \"chorus\", \"scored_as\": \"chorus\", \"named\": \"intro\", \"right\": false}, {\"start\": 23.0, \"end\": 45.9, \"annotated\": \"verse\", \"scored_as\": \"verse\", \"named\": \"verse\", \"right\": true}, {\"start\": 45.9, \"end\": 68.7, \"annotated\": \"verse\", \"scored_as\": \"verse\", \"named\": \"verse\", \"right\": true}, {\"start\": 68.7, \"end\": 93.0, \"annotated\": \"chorus\", \"scored_as\": \"chorus\", \"named\": \"verse\", \"right\": false}, {\"start\": 93.0, \"end\": 114.4, \"annotated\": \"chorus\", \"scored_as\": \"chorus\", \"named\": \"chorus\", \"right\": true}, {\"start\": 114.4, \"end\": 137.3, \"annotated\": \"verse\", \"scored_as\": \"verse\", \"named\": \"verse\", \"right\": true}, {\"start\": 137.3, \"end\": 160.1, \"annotated\": \"verse\", \"scored_as\": \"verse\", \"named\": \"chorus\", \"right\": false}, {\"start\": 160.1, \"end\": 183.0, \"annotated\": \"chorus\", \"scored_as\": \"chorus\", \"named\": \"chorus\", \"right\": true}, {\"start\": 183.0, \"end\": 207.3, \"annotated\": \"chorus\", \"scored_as\": \"chorus\", \"named\": \"chorus\", \"right\": true}], \"grade\": {\"acc\": 0.6667}}"
+ }
+]

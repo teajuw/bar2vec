@@ -1,0 +1,8524 @@
+{
+ "0": [
+  {
+   "start": 0.0,
+   "end": 15.66,
+   "letter": "A",
+   "says": [
+    "hand claps and finger snaps",
+    "whispered vocals",
+    "piano chords"
+   ],
+   "name": "intro"
+  },
+  {
+   "start": 15.66,
+   "end": 37.64,
+   "letter": "B",
+   "says": [
+    "bells or glockenspiel",
+    "male singing",
+    "bright and sparkling"
+   ],
+   "name": "verse"
+  },
+  {
+   "start": 37.64,
+   "end": 59.6,
+   "letter": "B",
+   "says": [
+    "a beat switch",
+    "a clean polished pop production",
+    "fast tempo"
+   ],
+   "name": "verse"
+  },
+  {
+   "start": 59.6,
+   "end": 104.9,
+   "letter": "C",
+   "says": [
+    "male singing",
+    "happy and upbeat",
+    "bright and sparkling"
+   ],
+   "name": "chorus"
+  },
+  {
+   "start": 104.9,
+   "end": 126.86,
+   "letter": "C",
+   "says": [
+    "rapping",
+    "happy and upbeat",
+    "bright and sparkling"
+   ],
+   "name": "chorus"
+  },
+  {
+   "start": 126.86,
+   "end": 148.82,
+   "letter": "D",
+   "says": [
+    "banjo or mandolin",
+    "loud and energetic",
+    "a big singalong chorus"
+   ],
+   "name": "bridge"
+  },
+  {
+   "start": 148.82,
+   "end": 164.0,
+   "letter": "E",
+   "says": [
+    "an organ",
+    "the final climactic chorus",
+    "sparse minimal percussion"
+   ],
+   "name": "outro"
+  }
+ ],
+ "1": [
+  {
+   "start": 0.0,
+   "end": 16.56,
+   "letter": "A",
+   "says": [
+    "an organ",
+    "layered vocal harmonies",
+    "sparse minimal percussion"
+   ],
+   "name": "intro"
+  },
+  {
+   "start": 16.56,
+   "end": 32.56,
+   "letter": "B",
+   "says": [
+    "female singing",
+    "deep 808 sub bass",
+    "sparse minimal percussion"
+   ],
+   "name": "instrumental"
+  },
+  {
+   "start": 32.56,
+   "end": 48.56,
+   "letter": "C",
+   "says": [
+    "heavily autotuned vocals",
+    "a quiet verse with sparse backing",
+    "a slow half-time beat"
+   ],
+   "name": "instrumental"
+  },
+  {
+   "start": 48.56,
+   "end": 64.56,
+   "letter": "D",
+   "says": [
+    "a four-on-the-floor kick drum",
+    "piano chords",
+    "silence or near silence"
+   ],
+   "name": "verse"
+  },
+  {
+   "start": 64.56,
+   "end": 96.56,
+   "letter": "E",
+   "says": [
+    "rapping",
+    "happy and upbeat",
+    "loud and energetic"
+   ],
+   "name": "chorus"
+  },
+  {
+   "start": 96.56,
+   "end": 112.56,
+   "letter": "C",
+   "says": [
+    "vinyl crackle and tape hiss",
+    "hand claps and finger snaps",
+    "playful and silly"
+   ],
+   "name": "verse"
+  },
+  {
+   "start": 112.56,
+   "end": 128.56,
+   "letter": "F",
+   "says": [
+    "playful and silly",
+    "vinyl crackle and tape hiss",
+    "medium energy"
+   ],
+   "name": "bridge"
+  },
+  {
+   "start": 128.56,
+   "end": 160.56,
+   "letter": "E",
+   "says": [
+    "pounding heavy drums",
+    "male singing",
+    "loud and energetic"
+   ],
+   "name": "chorus"
+  },
+  {
+   "start": 160.56,
+   "end": 176.58,
+   "letter": "G",
+   "says": [
+    "sleigh bells",
+    "glitchy electronic effects",
+    "a bass drop"
+   ],
+   "name": "instrumental"
+  },
+  {
+   "start": 176.58,
+   "end": 192.56,
+   "letter": "E",
+   "says": [
+    "banjo or mandolin",
+    "fast rapping",
+    "loud and energetic"
+   ],
+   "name": "chorus"
+  },
+  {
+   "start": 192.56,
+   "end": 215.4,
+   "letter": "G",
+   "says": [
+    "falsetto vocals",
+    "bright synthesizer lead",
+    "a song intro"
+   ],
+   "name": "outro"
+  }
+ ],
+ "2": [
+  {
+   "start": 0.0,
+   "end": 12.66,
+   "letter": "A",
+   "says": [
+    "an instrumental interlude",
+    "brass and horns",
+    "a slow half-time beat"
+   ],
+   "name": "intro"
+  },
+  {
+   "start": 12.66,
+   "end": 37.94,
+   "letter": "B",
+   "says": [
+    "a distorted gritty sound",
+    "fast rapping",
+    "a shuffling swung rhythm"
+   ],
+   "name": "chorus"
+  },
+  {
+   "start": 37.94,
+   "end": 50.58,
+   "letter": "C",
+   "says": [
+    "bright and sparkling",
+    "clean electric guitar",
+    "hand claps and finger snaps"
+   ],
+   "name": "verse"
+  },
+  {
+   "start": 50.58,
+   "end": 75.82,
+   "letter": "B",
+   "says": [
+    "a big singalong chorus",
+    "male singing",
+    "loud and energetic"
+   ],
+   "name": "chorus"
+  },
+  {
+   "start": 75.82,
+   "end": 88.46,
+   "letter": "A",
+   "says": [
+    "sparse minimal percussion",
+    "falsetto vocals",
+    "an organ"
+   ],
+   "name": "instrumental"
+  },
+  {
+   "start": 88.46,
+   "end": 113.72,
+   "letter": "B",
+   "says": [
+    "glitchy electronic effects",
+    "spoken word, people talking",
+    "very quiet and sparse"
+   ],
+   "name": "chorus"
+  },
+  {
+   "start": 113.72,
+   "end": 126.36,
+   "letter": "C",
+   "says": [
+    "lo-fi, muffled and filtered",
+    "lonely and heartbroken",
+    "a soft breathy voice"
+   ],
+   "name": "verse"
+  },
+  {
+   "start": 126.36,
+   "end": 148.46,
+   "letter": "B",
+   "says": [
+    "loud and energetic",
+    "angry and aggressive",
+    "live rock drums"
+   ],
+   "name": "chorus"
+  },
+  {
+   "start": 148.46,
+   "end": 164.26,
+   "letter": "D",
+   "says": [
+    "male singing",
+    "lonely and heartbroken",
+    "a bass drop"
+   ],
+   "name": "bridge"
+  },
+  {
+   "start": 164.26,
+   "end": 189.5,
+   "letter": "B",
+   "says": [
+    "loud and energetic",
+    "dark and moody",
+    "male singing"
+   ],
+   "name": "chorus"
+  },
+  {
+   "start": 189.5,
+   "end": 206.5,
+   "letter": "A",
+   "says": [
+    "warm synth pads",
+    "sparse minimal percussion",
+    "falsetto vocals"
+   ],
+   "name": "outro"
+  }
+ ],
+ "3": [
+  {
+   "start": 0.0,
+   "end": 24.96,
+   "letter": "A",
+   "says": [
+    "fingerpicked acoustic guitar",
+    "an instrumental interlude",
+    "hand claps and finger snaps"
+   ],
+   "name": "intro"
+  },
+  {
+   "start": 24.96,
+   "end": 47.02,
+   "letter": "B",
+   "says": [
+    "humming or wordless vocals",
+    "wide atmospheric ambience",
+    "silence or near silence"
+   ],
+   "name": "chorus"
+  },
+  {
+   "start": 47.02,
+   "end": 69.08,
+   "letter": "C",
+   "says": [
+    "medium energy",
+    "lonely and heartbroken",
+    "a slow half-time beat"
+   ],
+   "name": "verse"
+  },
+  {
+   "start": 69.08,
+   "end": 91.16,
+   "letter": "C",
+   "says": [
+    "medium energy",
+    "bright and sparkling",
+    "male singing"
+   ],
+   "name": "verse"
+  },
+  {
+   "start": 91.16,
+   "end": 113.22,
+   "letter": "B",
+   "says": [
+    "dark and moody",
+    "a powerful belted vocal",
+    "a build-up before a drop"
+   ],
+   "name": "chorus"
+  },
+  {
+   "start": 113.22,
+   "end": 138.72,
+   "letter": "D",
+   "says": [
+    "violin",
+    "heavily autotuned vocals",
+    "a big singalong chorus"
+   ],
+   "name": "bridge"
+  },
+  {
+   "start": 138.72,
+   "end": 157.36,
+   "letter": "C",
+   "says": [
+    "a slow half-time beat",
+    "sad and melancholic",
+    "slow tempo"
+   ],
+   "name": "verse"
+  },
+  {
+   "start": 157.36,
+   "end": 207.1,
+   "letter": "B",
+   "says": [
+    "spoken word, people talking",
+    "glitchy electronic effects",
+    "a quiet breakdown"
+   ],
+   "name": "chorus"
+  }
+ ],
+ "4": [
+  {
+   "start": 0.0,
+   "end": 7.98,
+   "letter": "A",
+   "says": [
+    "an organ",
+    "nostalgic",
+    "a stripped-back arrangement"
+   ],
+   "name": "intro"
+  },
+  {
+   "start": 7.98,
+   "end": 23.62,
+   "letter": "B",
+   "says": [
+    "warm synth pads",
+    "lonely and heartbroken",
+    "calm and gentle"
+   ],
+   "name": "verse"
+  },
+  {
+   "start": 23.62,
+   "end": 39.2,
+   "letter": "C",
+   "says": [
+    "warm synth pads",
+    "lonely and heartbroken",
+    "a stripped-back arrangement"
+   ],
+   "name": "instrumental"
+  },
+  {
+   "start": 39.2,
+   "end": 54.82,
+   "letter": "D",
+   "says": [
+    "singing in Japanese",
+    "glitchy electronic effects",
+    "a shuffling swung rhythm"
+   ],
+   "name": "verse"
+  },
+  {
+   "start": 54.82,
+   "end": 70.42,
+   "letter": "E",
+   "says": [
+    "rapping",
+    "pounding heavy drums",
+    "loud and energetic"
+   ],
+   "name": "chorus"
+  },
+  {
+   "start": 70.42,
+   "end": 101.64,
+   "letter": "F",
+   "says": [
+    "deep 808 sub bass",
+    "calm and gentle",
+    "chill and relaxed"
+   ],
+   "name": "bridge"
+  },
+  {
+   "start": 101.64,
+   "end": 148.48,
+   "letter": "E",
+   "says": [
+    "a bouncy danceable groove",
+    "fast tempo",
+    "dense wall of sound"
+   ],
+   "name": "chorus"
+  },
+  {
+   "start": 148.48,
+   "end": 164.1,
+   "letter": "C",
+   "says": [
+    "warm synth pads",
+    "lonely and heartbroken",
+    "calm and gentle"
+   ],
+   "name": "instrumental"
+  },
+  {
+   "start": 164.1,
+   "end": 196.0,
+   "letter": "E",
+   "says": [
+    "a drum fill",
+    "fast tempo",
+    "a clean polished pop production"
+   ],
+   "name": "chorus"
+  }
+ ],
+ "5": [
+  {
+   "start": 0.0,
+   "end": 11.46,
+   "letter": "A",
+   "says": [
+    "an organ",
+    "a vocal chop sample",
+    "lo-fi, muffled and filtered"
+   ],
+   "name": "intro"
+  },
+  {
+   "start": 11.46,
+   "end": 34.04,
+   "letter": "B",
+   "says": [
+    "lo-fi, muffled and filtered",
+    "a soft breathy voice",
+    "lonely and heartbroken"
+   ],
+   "name": "verse"
+  },
+  {
+   "start": 34.04,
+   "end": 56.66,
+   "letter": "C",
+   "says": [
+    "no drums",
+    "glitchy electronic effects",
+    "medium energy"
+   ],
+   "name": "verse"
+  },
+  {
+   "start": 56.66,
+   "end": 79.24,
+   "letter": "D",
+   "says": [
+    "male singing",
+    "happy and upbeat",
+    "loud and energetic"
+   ],
+   "name": "chorus"
+  },
+  {
+   "start": 79.24,
+   "end": 101.82,
+   "letter": "B",
+   "says": [
+    "playful and silly",
+    "rapping",
+    "ukulele"
+   ],
+   "name": "verse"
+  },
+  {
+   "start": 101.82,
+   "end": 124.42,
+   "letter": "C",
+   "says": [
+    "medium energy",
+    "a beat switch",
+    "sleigh bells"
+   ],
+   "name": "verse"
+  },
+  {
+   "start": 124.42,
+   "end": 147.0,
+   "letter": "D",
+   "says": [
+    "male singing",
+    "triumphant and uplifting",
+    "an explosive, intense peak"
+   ],
+   "name": "chorus"
+  },
+  {
+   "start": 147.0,
+   "end": 193.4,
+   "letter": "E",
+   "says": [
+    "a four-on-the-floor kick drum",
+    "banjo or mandolin",
+    "a bass drop"
+   ],
+   "name": "outro"
+  }
+ ],
+ "6": [
+  {
+   "start": 0.0,
+   "end": 20.9,
+   "letter": "A",
+   "says": [
+    "steady and repetitive",
+    "a slow half-time beat",
+    "a distorted gritty sound"
+   ],
+   "name": "intro"
+  },
+  {
+   "start": 20.9,
+   "end": 91.62,
+   "letter": "B",
+   "says": [
+    "solo piano",
+    "fast tempo",
+    "bright and sparkling"
+   ],
+   "name": "chorus"
+  },
+  {
+   "start": 91.62,
+   "end": 104.24,
+   "letter": "C",
+   "says": [
+    "triumphant and uplifting",
+    "layered vocal harmonies",
+    "a string section"
+   ],
+   "name": "verse"
+  },
+  {
+   "start": 104.24,
+   "end": 177.52,
+   "letter": "B",
+   "says": [
+    "playful and silly",
+    "ukulele",
+    "bright and sparkling"
+   ],
+   "name": "chorus"
+  },
+  {
+   "start": 177.52,
+   "end": 197.74,
+   "letter": "D",
+   "says": [
+    "a four-on-the-floor kick drum",
+    "falsetto vocals",
+    "lo-fi, muffled and filtered"
+   ],
+   "name": "verse"
+  },
+  {
+   "start": 197.74,
+   "end": 217.94,
+   "letter": "E",
+   "says": [
+    "the final climactic chorus",
+    "a choir or group vocals",
+    "heavy reverb, spacious sound"
+   ],
+   "name": "instrumental"
+  },
+  {
+   "start": 217.94,
+   "end": 227.74,
+   "letter": "E",
+   "says": [
+    "a choir or group vocals",
+    "the final climactic chorus",
+    "banjo or mandolin"
+   ],
+   "name": "verse"
+  },
+  {
+   "start": 227.74,
+   "end": 233.72,
+   "letter": "F",
+   "says": [
+    "rapping",
+    "pounding heavy drums",
+    "vinyl crackle and tape hiss"
+   ],
+   "name": "bridge"
+  },
+  {
+   "start": 233.72,
+   "end": 261.5,
+   "letter": "B",
+   "says": [
+    "fast tempo",
+    "confident and swaggering",
+    "saxophone"
+   ],
+   "name": "chorus"
+  },
+  {
+   "start": 261.5,
+   "end": 285.0,
+   "letter": "A",
+   "says": [
+    "warm synth pads",
+    "heavy reverb, spacious sound",
+    "a bass drop"
+   ],
+   "name": "outro"
+  }
+ ],
+ "7": [
+  {
+   "start": 0.0,
+   "end": 11.62,
+   "letter": "A",
+   "says": [
+    "hand claps and finger snaps",
+    "warm synth pads",
+    "lo-fi, muffled and filtered"
+   ],
+   "name": "intro"
+  },
+  {
+   "start": 11.62,
+   "end": 34.92,
+   "letter": "B",
+   "says": [
+    "vinyl crackle and tape hiss",
+    "no vocals, instrumental",
+    "steady and repetitive"
+   ],
+   "name": "chorus"
+  },
+  {
+   "start": 34.92,
+   "end": 58.16,
+   "letter": "C",
+   "says": [
+    "confident and swaggering",
+    "male singing",
+    "banjo or mandolin"
+   ],
+   "name": "verse"
+  },
+  {
+   "start": 58.16,
+   "end": 81.46,
+   "letter": "D",
+   "says": [
+    "fast rapping",
+    "confident and swaggering",
+    "pounding heavy drums"
+   ],
+   "name": "bridge"
+  },
+  {
+   "start": 81.46,
+   "end": 108.0,
+   "letter": "B",
+   "says": [
+    "an explosive, intense peak",
+    "heavily autotuned vocals",
+    "vinyl crackle and tape hiss"
+   ],
+   "name": "chorus"
+  }
+ ],
+ "8": [
+  {
+   "start": 0.0,
+   "end": 5.88,
+   "letter": "A",
+   "says": [
+    "rapping",
+    "pounding heavy drums",
+    "banjo or mandolin"
+   ],
+   "name": "intro"
+  },
+  {
+   "start": 5.88,
+   "end": 27.2,
+   "letter": "B",
+   "says": [
+    "female singing",
+    "pounding heavy drums",
+    "psychedelic and hazy"
+   ],
+   "name": "verse"
+  },
+  {
+   "start": 27.2,
+   "end": 48.54,
+   "letter": "C",
+   "says": [
+    "lo-fi, muffled and filtered",
+    "a shuffling swung rhythm",
+    "spoken word, people talking"
+   ],
+   "name": "verse"
+  },
+  {
+   "start": 48.54,
+   "end": 59.22,
+   "letter": "C",
+   "says": [
+    "humming or wordless vocals",
+    "very quiet and sparse",
+    "a pitched-down slowed sound"
+   ],
+   "name": "verse"
+  },
+  {
+   "start": 59.22,
+   "end": 69.86,
+   "letter": "D",
+   "says": [
+    "clean electric guitar",
+    "bright and sparkling",
+    "a vocal chop sample"
+   ],
+   "name": "verse"
+  },
+  {
+   "start": 69.86,
+   "end": 86.54,
+   "letter": "E",
+   "says": [
+    "a full orchestra",
+    "epic and cinematic",
+    "spoken word, people talking"
+   ],
+   "name": "bridge"
+  },
+  {
+   "start": 86.54,
+   "end": 109.88,
+   "letter": "F",
+   "says": [
+    "medium energy",
+    "bright synthesizer lead",
+    "a clean polished pop production"
+   ],
+   "name": "chorus"
+  },
+  {
+   "start": 109.88,
+   "end": 145.86,
+   "letter": "F",
+   "says": [
+    "medium energy",
+    "male singing",
+    "a song intro"
+   ],
+   "name": "chorus"
+  },
+  {
+   "start": 145.86,
+   "end": 158.1,
+   "letter": "G",
+   "says": [
+    "bells or glockenspiel",
+    "sparse minimal percussion",
+    "the final climactic chorus"
+   ],
+   "name": "outro"
+  }
+ ],
+ "9": [
+  {
+   "start": 0.0,
+   "end": 13.18,
+   "letter": "A",
+   "says": [
+    "a vocal chop sample",
+    "vinyl crackle and tape hiss",
+    "trap hi-hats and 808s"
+   ],
+   "name": "intro"
+  },
+  {
+   "start": 13.18,
+   "end": 23.5,
+   "letter": "B",
+   "says": [
+    "saxophone",
+    "singing in Japanese",
+    "dense wall of sound"
+   ],
+   "name": "verse"
+  },
+  {
+   "start": 23.5,
+   "end": 38.72,
+   "letter": "C",
+   "says": [
+    "a quiet verse with sparse backing",
+    "a pitched-down slowed sound",
+    "pounding heavy drums"
+   ],
+   "name": "verse"
+  },
+  {
+   "start": 38.72,
+   "end": 56.48,
+   "letter": "D",
+   "says": [
+    "a string section",
+    "male singing",
+    "pounding heavy drums"
+   ],
+   "name": "verse"
+  },
+  {
+   "start": 56.48,
+   "end": 88.24,
+   "letter": "E",
+   "says": [
+    "anxious and tense",
+    "a quiet breakdown",
+    "wide atmospheric ambience"
+   ],
+   "name": "chorus"
+  },
+  {
+   "start": 88.24,
+   "end": 118.72,
+   "letter": "C",
+   "says": [
+    "a quiet verse with sparse backing",
+    "slowly building intensity",
+    "epic and cinematic"
+   ],
+   "name": "verse"
+  },
+  {
+   "start": 118.72,
+   "end": 142.02,
+   "letter": "E",
+   "says": [
+    "rapping",
+    "angry and aggressive",
+    "piano chords"
+   ],
+   "name": "chorus"
+  },
+  {
+   "start": 142.02,
+   "end": 149.68,
+   "letter": "F",
+   "says": [
+    "a shuffling swung rhythm",
+    "a powerful belted vocal",
+    "a bass guitar groove"
+   ],
+   "name": "verse"
+  },
+  {
+   "start": 149.68,
+   "end": 167.58,
+   "letter": "F",
+   "says": [
+    "a choir or group vocals",
+    "a shuffling swung rhythm",
+    "silence or near silence"
+   ],
+   "name": "instrumental"
+  },
+  {
+   "start": 167.58,
+   "end": 187.92,
+   "letter": "G",
+   "says": [
+    "sleigh bells",
+    "psychedelic and hazy",
+    "slow tempo"
+   ],
+   "name": "instrumental"
+  },
+  {
+   "start": 187.92,
+   "end": 203.14,
+   "letter": "A",
+   "says": [
+    "deep 808 sub bass",
+    "glitchy electronic effects",
+    "trap hi-hats and 808s"
+   ],
+   "name": "verse"
+  },
+  {
+   "start": 203.14,
+   "end": 210.64,
+   "letter": "H",
+   "says": [
+    "playful and silly",
+    "a four-on-the-floor kick drum",
+    "saxophone"
+   ],
+   "name": "bridge"
+  },
+  {
+   "start": 210.64,
+   "end": 229.68,
+   "letter": "E",
+   "says": [
+    "banjo or mandolin",
+    "lo-fi, muffled and filtered",
+    "singing in Japanese"
+   ],
+   "name": "chorus"
+  },
+  {
+   "start": 229.68,
+   "end": 243.5,
+   "letter": "B",
+   "says": [
+    "singing in Japanese",
+    "the final climactic chorus",
+    "a clean polished pop production"
+   ],
+   "name": "outro"
+  }
+ ],
+ "10": [
+  {
+   "start": 0.0,
+   "end": 13.06,
+   "letter": "A",
+   "says": [
+    "brass and horns",
+    "an outro fading out",
+    "a powerful belted vocal"
+   ],
+   "name": "intro"
+  },
+  {
+   "start": 13.06,
+   "end": 33.04,
+   "letter": "B",
+   "says": [
+    "ukulele",
+    "glitchy electronic effects",
+    "anxious and tense"
+   ],
+   "name": "prechorus"
+  },
+  {
+   "start": 33.04,
+   "end": 53.04,
+   "letter": "C",
+   "says": [
+    "female singing",
+    "deep 808 sub bass",
+    "lo-fi, muffled and filtered"
+   ],
+   "name": "chorus"
+  },
+  {
+   "start": 53.04,
+   "end": 63.04,
+   "letter": "D",
+   "says": [
+    "bells or glockenspiel",
+    "a beat switch",
+    "no vocals, instrumental"
+   ],
+   "name": "instrumental"
+  },
+  {
+   "start": 63.04,
+   "end": 83.04,
+   "letter": "B",
+   "says": [
+    "bells or glockenspiel",
+    "a quiet breakdown",
+    "anxious and tense"
+   ],
+   "name": "prechorus"
+  },
+  {
+   "start": 83.04,
+   "end": 100.54,
+   "letter": "C",
+   "says": [
+    "a four-on-the-floor kick drum",
+    "a choir or group vocals",
+    "a big singalong chorus"
+   ],
+   "name": "chorus"
+  },
+  {
+   "start": 100.54,
+   "end": 133.04,
+   "letter": "E",
+   "says": [
+    "fast tempo",
+    "a beat switch",
+    "piano chords"
+   ],
+   "name": "bridge"
+  },
+  {
+   "start": 133.04,
+   "end": 153.06,
+   "letter": "C",
+   "says": [
+    "a four-on-the-floor kick drum",
+    "dreamy and floating",
+    "heavily autotuned vocals"
+   ],
+   "name": "chorus"
+  },
+  {
+   "start": 153.06,
+   "end": 164.4,
+   "letter": "F",
+   "says": [
+    "hand claps and finger snaps",
+    "vinyl crackle and tape hiss",
+    "deep 808 sub bass"
+   ],
+   "name": "outro"
+  }
+ ],
+ "11": [
+  {
+   "start": 0.0,
+   "end": 4.02,
+   "letter": "A",
+   "says": [
+    "pounding heavy drums",
+    "a vocal chop sample",
+    "playful and silly"
+   ],
+   "name": "intro"
+  },
+  {
+   "start": 4.02,
+   "end": 64.02,
+   "letter": "B",
+   "says": [
+    "playful and silly",
+    "male singing",
+    "fast tempo"
+   ],
+   "name": "verse"
+  },
+  {
+   "start": 64.02,
+   "end": 79.02,
+   "letter": "C",
+   "says": [
+    "deep 808 sub bass",
+    "lo-fi, muffled and filtered",
+    "male singing"
+   ],
+   "name": "verse"
+  },
+  {
+   "start": 79.02,
+   "end": 94.02,
+   "letter": "D",
+   "says": [
+    "an explosive, intense peak",
+    "triumphant and uplifting",
+    "male singing"
+   ],
+   "name": "verse"
+  },
+  {
+   "start": 94.02,
+   "end": 124.02,
+   "letter": "E",
+   "says": [
+    "a quiet verse with sparse backing",
+    "happy and upbeat",
+    "a string section"
+   ],
+   "name": "chorus"
+  },
+  {
+   "start": 124.02,
+   "end": 139.0,
+   "letter": "F",
+   "says": [
+    "violin",
+    "female singing",
+    "pounding heavy drums"
+   ],
+   "name": "instrumental"
+  },
+  {
+   "start": 139.0,
+   "end": 154.02,
+   "letter": "G",
+   "says": [
+    "lo-fi, muffled and filtered",
+    "deep 808 sub bass",
+    "a bass drop"
+   ],
+   "name": "bridge"
+  },
+  {
+   "start": 154.02,
+   "end": 184.02,
+   "letter": "E",
+   "says": [
+    "psychedelic and hazy",
+    "a quiet breakdown",
+    "a string section"
+   ],
+   "name": "chorus"
+  },
+  {
+   "start": 184.02,
+   "end": 206.6,
+   "letter": "H",
+   "says": [
+    "sparse minimal percussion",
+    "bells or glockenspiel",
+    "nostalgic"
+   ],
+   "name": "outro"
+  }
+ ],
+ "12": [
+  {
+   "start": 0.0,
+   "end": 17.42,
+   "letter": "A",
+   "says": [
+    "piano chords",
+    "falsetto vocals",
+    "a bass drop"
+   ],
+   "name": "intro"
+  },
+  {
+   "start": 17.42,
+   "end": 57.42,
+   "letter": "B",
+   "says": [
+    "clean electric guitar",
+    "bright and sparkling",
+    "a bass drop"
+   ],
+   "name": "instrumental"
+  },
+  {
+   "start": 57.42,
+   "end": 84.08,
+   "letter": "C",
+   "says": [
+    "pounding heavy drums",
+    "banjo or mandolin",
+    "dark and moody"
+   ],
+   "name": "chorus"
+  },
+  {
+   "start": 84.08,
+   "end": 110.74,
+   "letter": "D",
+   "says": [
+    "lonely and heartbroken",
+    "calm and gentle",
+    "bright and sparkling"
+   ],
+   "name": "verse"
+  },
+  {
+   "start": 110.74,
+   "end": 124.08,
+   "letter": "E",
+   "says": [
+    "bells or glockenspiel",
+    "vinyl crackle and tape hiss",
+    "a drum fill"
+   ],
+   "name": "instrumental"
+  },
+  {
+   "start": 124.08,
+   "end": 150.72,
+   "letter": "C",
+   "says": [
+    "pounding heavy drums",
+    "fast rapping",
+    "banjo or mandolin"
+   ],
+   "name": "chorus"
+  },
+  {
+   "start": 150.72,
+   "end": 177.42,
+   "letter": "F",
+   "says": [
+    "silence or near silence",
+    "a pitched-down slowed sound",
+    "very quiet and sparse"
+   ],
+   "name": "bridge"
+  },
+  {
+   "start": 177.42,
+   "end": 204.1,
+   "letter": "C",
+   "says": [
+    "pounding heavy drums",
+    "banjo or mandolin",
+    "rapping"
+   ],
+   "name": "chorus"
+  },
+  {
+   "start": 204.1,
+   "end": 223.1,
+   "letter": "G",
+   "says": [
+    "psychedelic and hazy",
+    "lo-fi, muffled and filtered",
+    "banjo or mandolin"
+   ],
+   "name": "outro"
+  }
+ ],
+ "13": [
+  {
+   "start": 0.0,
+   "end": 6.96,
+   "letter": "A",
+   "says": [
+    "slow tempo",
+    "a song intro",
+    "fast rapping"
+   ],
+   "name": "intro"
+  },
+  {
+   "start": 6.96,
+   "end": 48.08,
+   "letter": "B",
+   "says": [
+    "bells or glockenspiel",
+    "an instrumental interlude",
+    "slow tempo"
+   ],
+   "name": "instrumental"
+  },
+  {
+   "start": 48.08,
+   "end": 76.02,
+   "letter": "C",
+   "says": [
+    "medium energy",
+    "glitchy electronic effects",
+    "romantic and tender"
+   ],
+   "name": "verse"
+  },
+  {
+   "start": 76.02,
+   "end": 100.68,
+   "letter": "C",
+   "says": [
+    "romantic and tender",
+    "medium energy",
+    "layered vocal harmonies"
+   ],
+   "name": "verse"
+  },
+  {
+   "start": 100.68,
+   "end": 105.58,
+   "letter": "D",
+   "says": [
+    "glitchy electronic effects",
+    "silence or near silence",
+    "very quiet and sparse"
+   ],
+   "name": "verse"
+  },
+  {
+   "start": 105.58,
+   "end": 131.88,
+   "letter": "E",
+   "says": [
+    "a soft breathy voice",
+    "a sudden drop in energy",
+    "a build-up before a drop"
+   ],
+   "name": "instrumental"
+  },
+  {
+   "start": 131.88,
+   "end": 135.18,
+   "letter": "B",
+   "says": [
+    "psychedelic and hazy",
+    "a stripped-back arrangement",
+    "heavily autotuned vocals"
+   ],
+   "name": "verse"
+  },
+  {
+   "start": 135.18,
+   "end": 148.32,
+   "letter": "F",
+   "says": [
+    "a string section",
+    "heavily autotuned vocals",
+    "the final climactic chorus"
+   ],
+   "name": "chorus"
+  },
+  {
+   "start": 148.32,
+   "end": 188.1,
+   "letter": "F",
+   "says": [
+    "a big singalong chorus",
+    "rapping",
+    "vinyl crackle and tape hiss"
+   ],
+   "name": "chorus"
+  }
+ ],
+ "14": [
+  {
+   "start": 0.0,
+   "end": 15.06,
+   "letter": "A",
+   "says": [
+    "slow tempo",
+    "falsetto vocals",
+    "sparse minimal percussion"
+   ],
+   "name": "intro"
+  },
+  {
+   "start": 15.06,
+   "end": 44.6,
+   "letter": "B",
+   "says": [
+    "very quiet and sparse",
+    "humming or wordless vocals",
+    "silence or near silence"
+   ],
+   "name": "verse"
+  },
+  {
+   "start": 44.6,
+   "end": 74.62,
+   "letter": "C",
+   "says": [
+    "banjo or mandolin",
+    "a build-up before a drop",
+    "rapping"
+   ],
+   "name": "chorus"
+  },
+  {
+   "start": 74.62,
+   "end": 107.84,
+   "letter": "D",
+   "says": [
+    "pounding heavy drums",
+    "a powerful belted vocal",
+    "a build-up before a drop"
+   ],
+   "name": "verse"
+  },
+  {
+   "start": 107.84,
+   "end": 137.38,
+   "letter": "C",
+   "says": [
+    "rapping",
+    "banjo or mandolin",
+    "pounding heavy drums"
+   ],
+   "name": "chorus"
+  },
+  {
+   "start": 137.38,
+   "end": 152.16,
+   "letter": "E",
+   "says": [
+    "electric piano",
+    "dreamy and floating",
+    "bright and sparkling"
+   ],
+   "name": "instrumental"
+  },
+  {
+   "start": 152.16,
+   "end": 166.92,
+   "letter": "F",
+   "says": [
+    "warm synth pads",
+    "bright and sparkling",
+    "a bass drop"
+   ],
+   "name": "bridge"
+  },
+  {
+   "start": 166.92,
+   "end": 196.46,
+   "letter": "G",
+   "says": [
+    "bright synthesizer lead",
+    "a big singalong chorus",
+    "heavily autotuned vocals"
+   ],
+   "name": "bridge"
+  },
+  {
+   "start": 196.46,
+   "end": 203.7,
+   "letter": "H",
+   "says": [
+    "fast rapping",
+    "a bass drop",
+    "bright synthesizer lead"
+   ],
+   "name": "outro"
+  }
+ ],
+ "15": [
+  {
+   "start": 0.0,
+   "end": 3.88,
+   "letter": "A",
+   "says": [
+    "falsetto vocals",
+    "glitchy electronic effects",
+    "bells or glockenspiel"
+   ],
+   "name": "intro"
+  },
+  {
+   "start": 3.88,
+   "end": 21.4,
+   "letter": "B",
+   "says": [
+    "falsetto vocals",
+    "glitchy electronic effects",
+    "an organ"
+   ],
+   "name": "verse"
+  },
+  {
+   "start": 21.4,
+   "end": 41.4,
+   "letter": "C",
+   "says": [
+    "a big singalong chorus",
+    "banjo or mandolin",
+    "a choir or group vocals"
+   ],
+   "name": "chorus"
+  },
+  {
+   "start": 41.4,
+   "end": 61.4,
+   "letter": "D",
+   "says": [
+    "a four-on-the-floor kick drum",
+    "medium energy",
+    "a bass guitar groove"
+   ],
+   "name": "instrumental"
+  },
+  {
+   "start": 61.4,
+   "end": 81.4,
+   "letter": "C",
+   "says": [
+    "a soft breathy voice",
+    "deep 808 sub bass",
+    "glitchy electronic effects"
+   ],
+   "name": "chorus"
+  },
+  {
+   "start": 81.4,
+   "end": 101.4,
+   "letter": "C",
+   "says": [
+    "a big singalong chorus",
+    "banjo or mandolin",
+    "a choir or group vocals"
+   ],
+   "name": "chorus"
+  },
+  {
+   "start": 101.4,
+   "end": 121.4,
+   "letter": "D",
+   "says": [
+    "a bass guitar groove",
+    "a slow half-time beat",
+    "confident and swaggering"
+   ],
+   "name": "verse"
+  },
+  {
+   "start": 121.4,
+   "end": 141.4,
+   "letter": "C",
+   "says": [
+    "bright and sparkling",
+    "a soft breathy voice",
+    "bells or glockenspiel"
+   ],
+   "name": "chorus"
+  },
+  {
+   "start": 141.4,
+   "end": 161.4,
+   "letter": "D",
+   "says": [
+    "a four-on-the-floor kick drum",
+    "a song intro",
+    "sleigh bells"
+   ],
+   "name": "instrumental"
+  },
+  {
+   "start": 161.4,
+   "end": 201.4,
+   "letter": "C",
+   "says": [
+    "ukulele",
+    "vinyl crackle and tape hiss",
+    "female singing"
+   ],
+   "name": "chorus"
+  },
+  {
+   "start": 201.4,
+   "end": 211.5,
+   "letter": "E",
+   "says": [
+    "hand claps and finger snaps",
+    "solo piano",
+    "confident and swaggering"
+   ],
+   "name": "outro"
+  }
+ ],
+ "16": [
+  {
+   "start": 0.0,
+   "end": 11.56,
+   "letter": "A",
+   "says": [
+    "an organ",
+    "fast rapping",
+    "an instrumental interlude"
+   ],
+   "name": "intro"
+  },
+  {
+   "start": 11.56,
+   "end": 36.98,
+   "letter": "B",
+   "says": [
+    "a four-on-the-floor kick drum",
+    "slow tempo",
+    "a quiet verse with sparse backing"
+   ],
+   "name": "instrumental"
+  },
+  {
+   "start": 36.98,
+   "end": 59.56,
+   "letter": "C",
+   "says": [
+    "loud and energetic",
+    "a drum fill",
+    "rapping"
+   ],
+   "name": "verse"
+  },
+  {
+   "start": 59.56,
+   "end": 82.16,
+   "letter": "D",
+   "says": [
+    "male singing",
+    "banjo or mandolin",
+    "lo-fi, muffled and filtered"
+   ],
+   "name": "chorus"
+  },
+  {
+   "start": 82.16,
+   "end": 104.74,
+   "letter": "B",
+   "says": [
+    "a slow half-time beat",
+    "playful and silly",
+    "bright and sparkling"
+   ],
+   "name": "instrumental"
+  },
+  {
+   "start": 104.74,
+   "end": 124.5,
+   "letter": "C",
+   "says": [
+    "fast tempo",
+    "a shuffling swung rhythm",
+    "glitchy electronic effects"
+   ],
+   "name": "verse"
+  },
+  {
+   "start": 124.5,
+   "end": 147.1,
+   "letter": "D",
+   "says": [
+    "male singing",
+    "banjo or mandolin",
+    "lo-fi, muffled and filtered"
+   ],
+   "name": "chorus"
+  },
+  {
+   "start": 147.1,
+   "end": 169.4,
+   "letter": "E",
+   "says": [
+    "the final climactic chorus",
+    "warm synth pads",
+    "lonely and heartbroken"
+   ],
+   "name": "outro"
+  }
+ ],
+ "17": [
+  {
+   "start": 0.0,
+   "end": 11.54,
+   "letter": "A",
+   "says": [
+    "slow tempo",
+    "chill and relaxed",
+    "lo-fi, muffled and filtered"
+   ],
+   "name": "intro"
+  },
+  {
+   "start": 11.54,
+   "end": 34.04,
+   "letter": "B",
+   "says": [
+    "confident and swaggering",
+    "a bass guitar groove",
+    "slow tempo"
+   ],
+   "name": "verse"
+  },
+  {
+   "start": 34.04,
+   "end": 56.56,
+   "letter": "C",
+   "says": [
+    "vinyl crackle and tape hiss",
+    "rapping",
+    "banjo or mandolin"
+   ],
+   "name": "chorus"
+  },
+  {
+   "start": 56.56,
+   "end": 66.56,
+   "letter": "A",
+   "says": [
+    "lo-fi, muffled and filtered",
+    "deep 808 sub bass",
+    "chill and relaxed"
+   ],
+   "name": "verse"
+  },
+  {
+   "start": 66.56,
+   "end": 86.54,
+   "letter": "B",
+   "says": [
+    "playful and silly",
+    "a bass guitar groove",
+    "fast tempo"
+   ],
+   "name": "verse"
+  },
+  {
+   "start": 86.54,
+   "end": 106.54,
+   "letter": "C",
+   "says": [
+    "an explosive, intense peak",
+    "rapping",
+    "sleigh bells"
+   ],
+   "name": "chorus"
+  },
+  {
+   "start": 106.54,
+   "end": 116.54,
+   "letter": "D",
+   "says": [
+    "heavily autotuned vocals",
+    "epic and cinematic",
+    "the final climactic chorus"
+   ],
+   "name": "instrumental"
+  },
+  {
+   "start": 116.54,
+   "end": 136.54,
+   "letter": "E",
+   "says": [
+    "warm synth pads",
+    "heavy reverb, spacious sound",
+    "lonely and heartbroken"
+   ],
+   "name": "bridge"
+  },
+  {
+   "start": 136.54,
+   "end": 176.54,
+   "letter": "C",
+   "says": [
+    "a choir or group vocals",
+    "loud and energetic",
+    "a big singalong chorus"
+   ],
+   "name": "chorus"
+  },
+  {
+   "start": 176.54,
+   "end": 181.8,
+   "letter": "F",
+   "says": [
+    "bright synthesizer lead",
+    "female singing",
+    "lo-fi, muffled and filtered"
+   ],
+   "name": "outro"
+  }
+ ],
+ "18": [
+  {
+   "start": 0.0,
+   "end": 12.72,
+   "letter": "A",
+   "says": [
+    "lo-fi, muffled and filtered",
+    "sparse minimal percussion",
+    "warm synth pads"
+   ],
+   "name": "intro"
+  },
+  {
+   "start": 12.72,
+   "end": 60.74,
+   "letter": "B",
+   "says": [
+    "happy and upbeat",
+    "rapping",
+    "bright and sparkling"
+   ],
+   "name": "verse"
+  },
+  {
+   "start": 60.74,
+   "end": 84.72,
+   "letter": "C",
+   "says": [
+    "spoken word, people talking",
+    "a distorted gritty sound",
+    "distorted electric guitar"
+   ],
+   "name": "chorus"
+  },
+  {
+   "start": 84.72,
+   "end": 108.74,
+   "letter": "B",
+   "says": [
+    "happy and upbeat",
+    "bright and sparkling",
+    "male singing"
+   ],
+   "name": "verse"
+  },
+  {
+   "start": 108.74,
+   "end": 120.74,
+   "letter": "D",
+   "says": [
+    "loud and energetic",
+    "a bouncy danceable groove",
+    "banjo or mandolin"
+   ],
+   "name": "verse"
+  },
+  {
+   "start": 120.74,
+   "end": 144.72,
+   "letter": "C",
+   "says": [
+    "distorted electric guitar",
+    "spoken word, people talking",
+    "a distorted gritty sound"
+   ],
+   "name": "chorus"
+  },
+  {
+   "start": 144.72,
+   "end": 168.74,
+   "letter": "E",
+   "says": [
+    "male singing",
+    "a big singalong chorus",
+    "loud and energetic"
+   ],
+   "name": "bridge"
+  },
+  {
+   "start": 168.74,
+   "end": 192.74,
+   "letter": "C",
+   "says": [
+    "spoken word, people talking",
+    "a build-up before a drop",
+    "an explosive, intense peak"
+   ],
+   "name": "chorus"
+  },
+  {
+   "start": 192.74,
+   "end": 222.0,
+   "letter": "A",
+   "says": [
+    "sparse minimal percussion",
+    "female singing",
+    "an organ"
+   ],
+   "name": "outro"
+  }
+ ],
+ "19": [
+  {
+   "start": 0.0,
+   "end": 12.46,
+   "letter": "A",
+   "says": [
+    "banjo or mandolin",
+    "a big singalong chorus",
+    "hand claps and finger snaps"
+   ],
+   "name": "intro"
+  },
+  {
+   "start": 12.46,
+   "end": 36.58,
+   "letter": "B",
+   "says": [
+    "hand claps and finger snaps",
+    "female singing",
+    "lo-fi, muffled and filtered"
+   ],
+   "name": "verse"
+  },
+  {
+   "start": 36.58,
+   "end": 60.74,
+   "letter": "C",
+   "says": [
+    "male singing",
+    "loud and energetic",
+    "happy and upbeat"
+   ],
+   "name": "verse"
+  },
+  {
+   "start": 60.74,
+   "end": 84.9,
+   "letter": "D",
+   "says": [
+    "warm synth pads",
+    "hand claps and finger snaps",
+    "lo-fi, muffled and filtered"
+   ],
+   "name": "chorus"
+  },
+  {
+   "start": 84.9,
+   "end": 109.04,
+   "letter": "E",
+   "says": [
+    "a build-up before a drop",
+    "spoken word, people talking",
+    "trap hi-hats and 808s"
+   ],
+   "name": "verse"
+  },
+  {
+   "start": 109.04,
+   "end": 133.18,
+   "letter": "C",
+   "says": [
+    "a slow half-time beat",
+    "confident and swaggering",
+    "male singing"
+   ],
+   "name": "verse"
+  },
+  {
+   "start": 133.18,
+   "end": 157.3,
+   "letter": "D",
+   "says": [
+    "warm synth pads",
+    "hand claps and finger snaps",
+    "falsetto vocals"
+   ],
+   "name": "chorus"
+  },
+  {
+   "start": 157.3,
+   "end": 184.2,
+   "letter": "F",
+   "says": [
+    "dreamy and floating",
+    "ukulele",
+    "a stripped-back arrangement"
+   ],
+   "name": "outro"
+  }
+ ],
+ "20": [
+  {
+   "start": 0.0,
+   "end": 41.68,
+   "letter": "A",
+   "says": [
+    "heavily autotuned vocals",
+    "medium energy",
+    "a four-on-the-floor kick drum"
+   ],
+   "name": "intro"
+  },
+  {
+   "start": 41.68,
+   "end": 60.88,
+   "letter": "B",
+   "says": [
+    "singing in Japanese",
+    "a four-on-the-floor kick drum",
+    "a sudden drop in energy"
+   ],
+   "name": "verse"
+  },
+  {
+   "start": 60.88,
+   "end": 82.48,
+   "letter": "C",
+   "says": [
+    "a four-on-the-floor kick drum",
+    "fingerpicked acoustic guitar",
+    "a clean polished pop production"
+   ],
+   "name": "instrumental"
+  },
+  {
+   "start": 82.48,
+   "end": 120.88,
+   "letter": "A",
+   "says": [
+    "ukulele",
+    "a four-on-the-floor kick drum",
+    "medium energy"
+   ],
+   "name": "verse"
+  },
+  {
+   "start": 120.88,
+   "end": 140.06,
+   "letter": "B",
+   "says": [
+    "heavily autotuned vocals",
+    "a distorted gritty sound",
+    "a build-up before a drop"
+   ],
+   "name": "verse"
+  },
+  {
+   "start": 140.06,
+   "end": 159.28,
+   "letter": "D",
+   "says": [
+    "female singing",
+    "brass and horns",
+    "anxious and tense"
+   ],
+   "name": "verse"
+  },
+  {
+   "start": 159.28,
+   "end": 178.46,
+   "letter": "D",
+   "says": [
+    "falsetto vocals",
+    "sleigh bells",
+    "dreamy and floating"
+   ],
+   "name": "verse"
+  },
+  {
+   "start": 178.46,
+   "end": 183.34,
+   "letter": "E",
+   "says": [
+    "warm synth pads",
+    "a bass drop",
+    "vinyl crackle and tape hiss"
+   ],
+   "name": "chorus"
+  },
+  {
+   "start": 183.34,
+   "end": 217.0,
+   "letter": "E",
+   "says": [
+    "piano chords",
+    "an instrumental interlude",
+    "pounding heavy drums"
+   ],
+   "name": "chorus"
+  }
+ ],
+ "21": [
+  {
+   "start": 0.0,
+   "end": 17.36,
+   "letter": "A",
+   "says": [
+    "an instrumental interlude",
+    "solo piano",
+    "sparse minimal percussion"
+   ],
+   "name": "intro"
+  },
+  {
+   "start": 17.36,
+   "end": 30.08,
+   "letter": "B",
+   "says": [
+    "ukulele",
+    "male singing",
+    "nostalgic"
+   ],
+   "name": "verse"
+  },
+  {
+   "start": 30.08,
+   "end": 59.7,
+   "letter": "C",
+   "says": [
+    "deep 808 sub bass",
+    "male singing",
+    "lo-fi, muffled and filtered"
+   ],
+   "name": "verse"
+  },
+  {
+   "start": 59.7,
+   "end": 74.52,
+   "letter": "D",
+   "says": [
+    "lo-fi, muffled and filtered",
+    "confident and swaggering",
+    "male singing"
+   ],
+   "name": "chorus"
+  },
+  {
+   "start": 74.52,
+   "end": 89.4,
+   "letter": "D",
+   "says": [
+    "bright synthesizer lead",
+    "a vocal chop sample",
+    "a build-up before a drop"
+   ],
+   "name": "chorus"
+  },
+  {
+   "start": 89.4,
+   "end": 135.94,
+   "letter": "E",
+   "says": [
+    "male singing",
+    "solo piano",
+    "happy and upbeat"
+   ],
+   "name": "verse"
+  },
+  {
+   "start": 135.94,
+   "end": 165.58,
+   "letter": "D",
+   "says": [
+    "a four-on-the-floor kick drum",
+    "psychedelic and hazy",
+    "sleigh bells"
+   ],
+   "name": "chorus"
+  },
+  {
+   "start": 165.58,
+   "end": 182.52,
+   "letter": "F",
+   "says": [
+    "a choir or group vocals",
+    "a four-on-the-floor kick drum",
+    "a distorted gritty sound"
+   ],
+   "name": "bridge"
+  },
+  {
+   "start": 182.52,
+   "end": 215.58,
+   "letter": "D",
+   "says": [
+    "bright synthesizer lead",
+    "hand claps and finger snaps",
+    "heavily autotuned vocals"
+   ],
+   "name": "chorus"
+  },
+  {
+   "start": 215.58,
+   "end": 233.5,
+   "letter": "A",
+   "says": [
+    "an instrumental interlude",
+    "sparse minimal percussion",
+    "electric piano"
+   ],
+   "name": "outro"
+  }
+ ],
+ "22": [
+  {
+   "start": 0.0,
+   "end": 12.6,
+   "letter": "A",
+   "says": [
+    "sparse minimal percussion",
+    "electric piano",
+    "glitchy electronic effects"
+   ],
+   "name": "intro"
+  },
+  {
+   "start": 12.6,
+   "end": 50.0,
+   "letter": "B",
+   "says": [
+    "deep 808 sub bass",
+    "confident and swaggering",
+    "a laid-back boom bap beat"
+   ],
+   "name": "verse"
+  },
+  {
+   "start": 50.0,
+   "end": 62.48,
+   "letter": "C",
+   "says": [
+    "calm and gentle",
+    "chill and relaxed",
+    "clean electric guitar"
+   ],
+   "name": "prechorus"
+  },
+  {
+   "start": 62.48,
+   "end": 74.94,
+   "letter": "D",
+   "says": [
+    "warm synth pads",
+    "heavy reverb, spacious sound",
+    "spoken word, people talking"
+   ],
+   "name": "chorus"
+  },
+  {
+   "start": 74.94,
+   "end": 86.64,
+   "letter": "E",
+   "says": [
+    "banjo or mandolin",
+    "a bouncy danceable groove",
+    "steady and repetitive"
+   ],
+   "name": "verse"
+  },
+  {
+   "start": 86.64,
+   "end": 88.98,
+   "letter": "F",
+   "says": [
+    "medium energy",
+    "bright and sparkling",
+    "trap hi-hats and 808s"
+   ],
+   "name": "verse"
+  },
+  {
+   "start": 88.98,
+   "end": 112.36,
+   "letter": "B",
+   "says": [
+    "confident and swaggering",
+    "a laid-back boom bap beat",
+    "bright and sparkling"
+   ],
+   "name": "verse"
+  },
+  {
+   "start": 112.36,
+   "end": 124.82,
+   "letter": "G",
+   "says": [
+    "psychedelic and hazy",
+    "medium energy",
+    "heavy reverb, spacious sound"
+   ],
+   "name": "instrumental"
+  },
+  {
+   "start": 124.82,
+   "end": 137.26,
+   "letter": "D",
+   "says": [
+    "warm synth pads",
+    "the final climactic chorus",
+    "heavy reverb, spacious sound"
+   ],
+   "name": "chorus"
+  },
+  {
+   "start": 137.26,
+   "end": 174.68,
+   "letter": "E",
+   "says": [
+    "a big singalong chorus",
+    "a choir or group vocals",
+    "banjo or mandolin"
+   ],
+   "name": "verse"
+  },
+  {
+   "start": 174.68,
+   "end": 187.18,
+   "letter": "C",
+   "says": [
+    "lo-fi, muffled and filtered",
+    "calm and gentle",
+    "lonely and heartbroken"
+   ],
+   "name": "prechorus"
+  },
+  {
+   "start": 187.18,
+   "end": 199.64,
+   "letter": "D",
+   "says": [
+    "violin",
+    "no vocals, instrumental",
+    "sad and melancholic"
+   ],
+   "name": "chorus"
+  },
+  {
+   "start": 199.64,
+   "end": 212.4,
+   "letter": "A",
+   "says": [
+    "solo piano",
+    "hand claps and finger snaps",
+    "an instrumental interlude"
+   ],
+   "name": "outro"
+  }
+ ],
+ "23": [
+  {
+   "start": 0.0,
+   "end": 21.0,
+   "letter": "A",
+   "says": [
+    "a vocal chop sample",
+    "ukulele",
+    "playful and silly"
+   ],
+   "name": "intro"
+  },
+  {
+   "start": 21.0,
+   "end": 30.88,
+   "letter": "B",
+   "says": [
+    "a powerful belted vocal",
+    "pounding heavy drums",
+    "silence or near silence"
+   ],
+   "name": "verse"
+  },
+  {
+   "start": 30.88,
+   "end": 43.24,
+   "letter": "C",
+   "says": [
+    "rapping",
+    "pounding heavy drums",
+    "fast tempo"
+   ],
+   "name": "verse"
+  },
+  {
+   "start": 43.24,
+   "end": 60.58,
+   "letter": "D",
+   "says": [
+    "triumphant and uplifting",
+    "deep 808 sub bass",
+    "shouted vocals"
+   ],
+   "name": "prechorus"
+  },
+  {
+   "start": 60.58,
+   "end": 70.46,
+   "letter": "E",
+   "says": [
+    "vinyl crackle and tape hiss",
+    "bells or glockenspiel",
+    "slowly building intensity"
+   ],
+   "name": "chorus"
+  },
+  {
+   "start": 70.46,
+   "end": 90.26,
+   "letter": "F",
+   "says": [
+    "fast rapping",
+    "happy and upbeat",
+    "a slow half-time beat"
+   ],
+   "name": "bridge"
+  },
+  {
+   "start": 90.26,
+   "end": 110.06,
+   "letter": "C",
+   "says": [
+    "confident and swaggering",
+    "an organ",
+    "a laid-back boom bap beat"
+   ],
+   "name": "verse"
+  },
+  {
+   "start": 110.06,
+   "end": 127.4,
+   "letter": "D",
+   "says": [
+    "a bass drop",
+    "glitchy electronic effects",
+    "falsetto vocals"
+   ],
+   "name": "prechorus"
+  },
+  {
+   "start": 127.4,
+   "end": 140.1,
+   "letter": "E",
+   "says": [
+    "violin",
+    "vinyl crackle and tape hiss",
+    "sparse minimal percussion"
+   ],
+   "name": "chorus"
+  }
+ ],
+ "24": [
+  {
+   "start": 0.0,
+   "end": 12.38,
+   "letter": "A",
+   "says": [
+    "layered vocal harmonies",
+    "an outro fading out",
+    "an organ"
+   ],
+   "name": "intro"
+  },
+  {
+   "start": 12.38,
+   "end": 24.54,
+   "letter": "B",
+   "says": [
+    "a plucked synth arpeggio",
+    "playful and silly",
+    "bright and sparkling"
+   ],
+   "name": "chorus"
+  },
+  {
+   "start": 24.54,
+   "end": 36.7,
+   "letter": "A",
+   "says": [
+    "chill and relaxed",
+    "lo-fi, muffled and filtered",
+    "slow tempo"
+   ],
+   "name": "verse"
+  },
+  {
+   "start": 36.7,
+   "end": 57.96,
+   "letter": "B",
+   "says": [
+    "solo piano",
+    "confident and swaggering",
+    "calm and gentle"
+   ],
+   "name": "chorus"
+  },
+  {
+   "start": 57.96,
+   "end": 76.18,
+   "letter": "C",
+   "says": [
+    "vinyl crackle and tape hiss",
+    "a build-up before a drop",
+    "a powerful belted vocal"
+   ],
+   "name": "verse"
+  },
+  {
+   "start": 76.18,
+   "end": 97.46,
+   "letter": "B",
+   "says": [
+    "bright and sparkling",
+    "bells or glockenspiel",
+    "humming or wordless vocals"
+   ],
+   "name": "chorus"
+  },
+  {
+   "start": 97.46,
+   "end": 118.72,
+   "letter": "D",
+   "says": [
+    "confident and swaggering",
+    "a bass guitar groove",
+    "hand claps and finger snaps"
+   ],
+   "name": "instrumental"
+  },
+  {
+   "start": 118.72,
+   "end": 167.32,
+   "letter": "C",
+   "says": [
+    "falsetto vocals",
+    "loud and energetic",
+    "triumphant and uplifting"
+   ],
+   "name": "verse"
+  },
+  {
+   "start": 167.32,
+   "end": 189.7,
+   "letter": "E",
+   "says": [
+    "playful and silly",
+    "piano chords",
+    "bright and sparkling"
+   ],
+   "name": "outro"
+  }
+ ],
+ "25": [
+  {
+   "start": 0.0,
+   "end": 5.44,
+   "letter": "A",
+   "says": [
+    "a soft breathy voice",
+    "a pitched-down slowed sound",
+    "very quiet and sparse"
+   ],
+   "name": "intro"
+  },
+  {
+   "start": 5.44,
+   "end": 15.84,
+   "letter": "B",
+   "says": [
+    "an instrumental interlude",
+    "lo-fi, muffled and filtered",
+    "sparse minimal percussion"
+   ],
+   "name": "verse"
+  },
+  {
+   "start": 15.84,
+   "end": 27.18,
+   "letter": "C",
+   "says": [
+    "banjo or mandolin",
+    "fast rapping",
+    "lo-fi, muffled and filtered"
+   ],
+   "name": "verse"
+  },
+  {
+   "start": 27.18,
+   "end": 37.4,
+   "letter": "D",
+   "says": [
+    "confident and swaggering",
+    "fast rapping",
+    "banjo or mandolin"
+   ],
+   "name": "verse"
+  },
+  {
+   "start": 37.4,
+   "end": 72.12,
+   "letter": "E",
+   "says": [
+    "fast tempo",
+    "saxophone",
+    "a drum fill"
+   ],
+   "name": "chorus"
+  },
+  {
+   "start": 72.12,
+   "end": 74.84,
+   "letter": "F",
+   "says": [
+    "triumphant and uplifting",
+    "dry, close and intimate sound",
+    "bells or glockenspiel"
+   ],
+   "name": "verse"
+  },
+  {
+   "start": 74.84,
+   "end": 79.92,
+   "letter": "G",
+   "says": [
+    "triumphant and uplifting",
+    "dry, close and intimate sound",
+    "bells or glockenspiel"
+   ],
+   "name": "verse"
+  },
+  {
+   "start": 79.92,
+   "end": 86.52,
+   "letter": "H",
+   "says": [
+    "dreamy and floating",
+    "a slow half-time beat",
+    "bright and sparkling"
+   ],
+   "name": "instrumental"
+  },
+  {
+   "start": 86.52,
+   "end": 104.06,
+   "letter": "I",
+   "says": [
+    "lo-fi, muffled and filtered",
+    "psychedelic and hazy",
+    "a laid-back boom bap beat"
+   ],
+   "name": "verse"
+  },
+  {
+   "start": 104.06,
+   "end": 117.8,
+   "letter": "J",
+   "says": [
+    "a vocal chop sample",
+    "a bass drop",
+    "playful and silly"
+   ],
+   "name": "bridge"
+  },
+  {
+   "start": 117.8,
+   "end": 139.74,
+   "letter": "E",
+   "says": [
+    "fast tempo",
+    "a vocal chop sample",
+    "pounding heavy drums"
+   ],
+   "name": "chorus"
+  },
+  {
+   "start": 139.74,
+   "end": 156.64,
+   "letter": "K",
+   "says": [
+    "a soft breathy voice",
+    "the final climactic chorus",
+    "heavy reverb, spacious sound"
+   ],
+   "name": "bridge"
+  },
+  {
+   "start": 156.64,
+   "end": 174.76,
+   "letter": "I",
+   "says": [
+    "confident and swaggering",
+    "calm and gentle",
+    "deep 808 sub bass"
+   ],
+   "name": "verse"
+  },
+  {
+   "start": 174.76,
+   "end": 207.34,
+   "letter": "E",
+   "says": [
+    "a clean polished pop production",
+    "fast tempo",
+    "singing in Japanese"
+   ],
+   "name": "chorus"
+  },
+  {
+   "start": 207.34,
+   "end": 221.8,
+   "letter": "B",
+   "says": [
+    "an organ",
+    "sparse minimal percussion",
+    "an instrumental interlude"
+   ],
+   "name": "outro"
+  }
+ ],
+ "26": [
+  {
+   "start": 0.0,
+   "end": 15.38,
+   "letter": "A",
+   "says": [
+    "layered vocal harmonies",
+    "a quiet verse with sparse backing",
+    "romantic and tender"
+   ],
+   "name": "intro"
+  },
+  {
+   "start": 15.38,
+   "end": 31.84,
+   "letter": "B",
+   "says": [
+    "confident and swaggering",
+    "glitchy electronic effects",
+    "a quiet verse with sparse backing"
+   ],
+   "name": "verse"
+  },
+  {
+   "start": 31.84,
+   "end": 50.66,
+   "letter": "C",
+   "says": [
+    "singing in Japanese",
+    "bright and sparkling",
+    "clean electric guitar"
+   ],
+   "name": "chorus"
+  },
+  {
+   "start": 50.66,
+   "end": 60.1,
+   "letter": "D",
+   "says": [
+    "sleigh bells",
+    "a slow half-time beat",
+    "psychedelic and hazy"
+   ],
+   "name": "instrumental"
+  },
+  {
+   "start": 60.1,
+   "end": 88.32,
+   "letter": "E",
+   "says": [
+    "pounding heavy drums",
+    "brass and horns",
+    "a powerful belted vocal"
+   ],
+   "name": "verse"
+  },
+  {
+   "start": 88.32,
+   "end": 107.14,
+   "letter": "C",
+   "says": [
+    "bright and sparkling",
+    "hand claps and finger snaps",
+    "piano chords"
+   ],
+   "name": "chorus"
+  },
+  {
+   "start": 107.14,
+   "end": 128.32,
+   "letter": "F",
+   "says": [
+    "hand claps and finger snaps",
+    "bright synthesizer lead",
+    "female singing"
+   ],
+   "name": "bridge"
+  },
+  {
+   "start": 128.32,
+   "end": 147.14,
+   "letter": "G",
+   "says": [
+    "a shuffling swung rhythm",
+    "a quiet breakdown",
+    "spoken word, people talking"
+   ],
+   "name": "bridge"
+  },
+  {
+   "start": 147.14,
+   "end": 177.4,
+   "letter": "C",
+   "says": [
+    "ukulele",
+    "male singing",
+    "an explosive, intense peak"
+   ],
+   "name": "chorus"
+  },
+  {
+   "start": 177.4,
+   "end": 184.8,
+   "letter": "H",
+   "says": [
+    "hand claps and finger snaps",
+    "singing in Japanese",
+    "piano chords"
+   ],
+   "name": "bridge"
+  },
+  {
+   "start": 184.8,
+   "end": 206.8,
+   "letter": "D",
+   "says": [
+    "warm synth pads",
+    "a choir or group vocals",
+    "heavy reverb, spacious sound"
+   ],
+   "name": "outro"
+  }
+ ],
+ "27": [
+  {
+   "start": 0.0,
+   "end": 59.16,
+   "letter": "A",
+   "says": [
+    "hand claps and finger snaps",
+    "male singing",
+    "saxophone"
+   ],
+   "name": "intro"
+  },
+  {
+   "start": 59.16,
+   "end": 80.98,
+   "letter": "B",
+   "says": [
+    "clean electric guitar",
+    "singing in Japanese",
+    "a big singalong chorus"
+   ],
+   "name": "chorus"
+  },
+  {
+   "start": 80.98,
+   "end": 102.8,
+   "letter": "C",
+   "says": [
+    "pounding heavy drums",
+    "a full rock band",
+    "the final climactic chorus"
+   ],
+   "name": "instrumental"
+  },
+  {
+   "start": 102.8,
+   "end": 125.98,
+   "letter": "A",
+   "says": [
+    "saxophone",
+    "lo-fi, muffled and filtered",
+    "chill and relaxed"
+   ],
+   "name": "verse"
+  },
+  {
+   "start": 125.98,
+   "end": 150.54,
+   "letter": "B",
+   "says": [
+    "bells or glockenspiel",
+    "a clean polished pop production",
+    "trap hi-hats and 808s"
+   ],
+   "name": "chorus"
+  },
+  {
+   "start": 150.54,
+   "end": 176.44,
+   "letter": "D",
+   "says": [
+    "a stripped-back arrangement",
+    "sad and melancholic",
+    "sparse minimal percussion"
+   ],
+   "name": "instrumental"
+  },
+  {
+   "start": 176.44,
+   "end": 220.08,
+   "letter": "B",
+   "says": [
+    "singing in Japanese",
+    "banjo or mandolin",
+    "a clean polished pop production"
+   ],
+   "name": "chorus"
+  },
+  {
+   "start": 220.08,
+   "end": 230.7,
+   "letter": "E",
+   "says": [
+    "solo piano",
+    "medium energy",
+    "bright and sparkling"
+   ],
+   "name": "outro"
+  }
+ ],
+ "28": [
+  {
+   "start": 0.0,
+   "end": 13.08,
+   "letter": "A",
+   "says": [
+    "hand claps and finger snaps",
+    "banjo or mandolin",
+    "vinyl crackle and tape hiss"
+   ],
+   "name": "intro"
+  },
+  {
+   "start": 13.08,
+   "end": 25.88,
+   "letter": "B",
+   "says": [
+    "medium energy",
+    "male singing",
+    "angry and aggressive"
+   ],
+   "name": "verse"
+  },
+  {
+   "start": 25.88,
+   "end": 51.5,
+   "letter": "C",
+   "says": [
+    "a quiet breakdown",
+    "confident and swaggering",
+    "medium energy"
+   ],
+   "name": "verse"
+  },
+  {
+   "start": 51.5,
+   "end": 102.68,
+   "letter": "B",
+   "says": [
+    "male singing",
+    "loud and energetic",
+    "a clean polished pop production"
+   ],
+   "name": "verse"
+  },
+  {
+   "start": 102.68,
+   "end": 128.3,
+   "letter": "D",
+   "says": [
+    "sleigh bells",
+    "singing in Japanese",
+    "dry, close and intimate sound"
+   ],
+   "name": "bridge"
+  },
+  {
+   "start": 128.3,
+   "end": 153.88,
+   "letter": "E",
+   "says": [
+    "warm synth pads",
+    "a bass drop",
+    "falsetto vocals"
+   ],
+   "name": "bridge"
+  },
+  {
+   "start": 153.88,
+   "end": 167.9,
+   "letter": "A",
+   "says": [
+    "hand claps and finger snaps",
+    "ukulele",
+    "chill and relaxed"
+   ],
+   "name": "chorus"
+  }
+ ],
+ "29": [
+  {
+   "start": 0.0,
+   "end": 9.62,
+   "letter": "A",
+   "says": [
+    "warm synth pads",
+    "a bass drop",
+    "sparse minimal percussion"
+   ],
+   "name": "intro"
+  },
+  {
+   "start": 9.62,
+   "end": 28.6,
+   "letter": "B",
+   "says": [
+    "male singing",
+    "fingerpicked acoustic guitar",
+    "bright and sparkling"
+   ],
+   "name": "verse"
+  },
+  {
+   "start": 28.6,
+   "end": 47.62,
+   "letter": "C",
+   "says": [
+    "male singing",
+    "violin",
+    "lonely and heartbroken"
+   ],
+   "name": "verse"
+  },
+  {
+   "start": 47.62,
+   "end": 66.64,
+   "letter": "D",
+   "says": [
+    "male singing",
+    "psychedelic and hazy",
+    "a quiet verse with sparse backing"
+   ],
+   "name": "verse"
+  },
+  {
+   "start": 66.64,
+   "end": 85.64,
+   "letter": "E",
+   "says": [
+    "male singing",
+    "sad and melancholic",
+    "bright and sparkling"
+   ],
+   "name": "chorus"
+  },
+  {
+   "start": 85.64,
+   "end": 97.52,
+   "letter": "F",
+   "says": [
+    "a pitched-down slowed sound",
+    "female singing",
+    "no drums"
+   ],
+   "name": "instrumental"
+  },
+  {
+   "start": 97.52,
+   "end": 133.18,
+   "letter": "G",
+   "says": [
+    "a pitched-down slowed sound",
+    "a shuffling swung rhythm",
+    "very quiet and sparse"
+   ],
+   "name": "bridge"
+  },
+  {
+   "start": 133.18,
+   "end": 171.18,
+   "letter": "E",
+   "says": [
+    "male singing",
+    "happy and upbeat",
+    "medium energy"
+   ],
+   "name": "chorus"
+  },
+  {
+   "start": 171.18,
+   "end": 193.0,
+   "letter": "H",
+   "says": [
+    "a shuffling swung rhythm",
+    "singing in Japanese",
+    "very quiet and sparse"
+   ],
+   "name": "outro"
+  }
+ ],
+ "30": [
+  {
+   "start": 0.0,
+   "end": 10.38,
+   "letter": "A",
+   "says": [
+    "solo piano",
+    "an instrumental interlude",
+    "chill and relaxed"
+   ],
+   "name": "intro"
+  },
+  {
+   "start": 10.38,
+   "end": 30.2,
+   "letter": "B",
+   "says": [
+    "lo-fi, muffled and filtered",
+    "calm and gentle",
+    "chill and relaxed"
+   ],
+   "name": "verse"
+  },
+  {
+   "start": 30.2,
+   "end": 49.98,
+   "letter": "C",
+   "says": [
+    "sleigh bells",
+    "slow tempo",
+    "a quiet verse with sparse backing"
+   ],
+   "name": "prechorus"
+  },
+  {
+   "start": 49.98,
+   "end": 69.8,
+   "letter": "D",
+   "says": [
+    "epic and cinematic",
+    "a full orchestra",
+    "a build-up before a drop"
+   ],
+   "name": "chorus"
+  },
+  {
+   "start": 69.8,
+   "end": 94.52,
+   "letter": "B",
+   "says": [
+    "lo-fi, muffled and filtered",
+    "calm and gentle",
+    "humming or wordless vocals"
+   ],
+   "name": "verse"
+  },
+  {
+   "start": 94.52,
+   "end": 114.3,
+   "letter": "C",
+   "says": [
+    "sleigh bells",
+    "fast rapping",
+    "slow tempo"
+   ],
+   "name": "prechorus"
+  },
+  {
+   "start": 114.3,
+   "end": 158.84,
+   "letter": "D",
+   "says": [
+    "the final climactic chorus",
+    "epic and cinematic",
+    "an explosive, intense peak"
+   ],
+   "name": "chorus"
+  },
+  {
+   "start": 158.84,
+   "end": 168.76,
+   "letter": "A",
+   "says": [
+    "piano chords",
+    "very quiet and sparse",
+    "singing in Japanese"
+   ],
+   "name": "instrumental"
+  },
+  {
+   "start": 168.76,
+   "end": 188.54,
+   "letter": "B",
+   "says": [
+    "playful and silly",
+    "solo piano",
+    "hand claps and finger snaps"
+   ],
+   "name": "verse"
+  },
+  {
+   "start": 188.54,
+   "end": 208.32,
+   "letter": "E",
+   "says": [
+    "confident and swaggering",
+    "banjo or mandolin",
+    "medium energy"
+   ],
+   "name": "bridge"
+  },
+  {
+   "start": 208.32,
+   "end": 247.92,
+   "letter": "D",
+   "says": [
+    "the final climactic chorus",
+    "epic and cinematic",
+    "pounding heavy drums"
+   ],
+   "name": "chorus"
+  },
+  {
+   "start": 247.92,
+   "end": 261.3,
+   "letter": "F",
+   "says": [
+    "solo piano",
+    "confident and swaggering",
+    "fast rapping"
+   ],
+   "name": "outro"
+  }
+ ],
+ "31": [
+  {
+   "start": 0.0,
+   "end": 27.16,
+   "letter": "A",
+   "says": [
+    "brass and horns",
+    "male singing",
+    "the final climactic chorus"
+   ],
+   "name": "intro"
+  },
+  {
+   "start": 27.16,
+   "end": 50.82,
+   "letter": "B",
+   "says": [
+    "a shuffling swung rhythm",
+    "a choir or group vocals",
+    "banjo or mandolin"
+   ],
+   "name": "chorus"
+  },
+  {
+   "start": 50.82,
+   "end": 67.72,
+   "letter": "C",
+   "says": [
+    "sleigh bells",
+    "fast rapping",
+    "happy and upbeat"
+   ],
+   "name": "verse"
+  },
+  {
+   "start": 67.72,
+   "end": 94.76,
+   "letter": "C",
+   "says": [
+    "playful and silly",
+    "fast rapping",
+    "a big singalong chorus"
+   ],
+   "name": "verse"
+  },
+  {
+   "start": 94.76,
+   "end": 121.8,
+   "letter": "B",
+   "says": [
+    "a choir or group vocals",
+    "a shuffling swung rhythm",
+    "a distorted gritty sound"
+   ],
+   "name": "chorus"
+  },
+  {
+   "start": 121.8,
+   "end": 135.32,
+   "letter": "A",
+   "says": [
+    "falsetto vocals",
+    "a stripped-back arrangement",
+    "violin"
+   ],
+   "name": "verse"
+  },
+  {
+   "start": 135.32,
+   "end": 162.36,
+   "letter": "C",
+   "says": [
+    "fast rapping",
+    "medium energy",
+    "confident and swaggering"
+   ],
+   "name": "verse"
+  },
+  {
+   "start": 162.36,
+   "end": 175.88,
+   "letter": "D",
+   "says": [
+    "heavily autotuned vocals",
+    "a quiet verse with sparse backing",
+    "sleigh bells"
+   ],
+   "name": "bridge"
+  },
+  {
+   "start": 175.88,
+   "end": 201.2,
+   "letter": "B",
+   "says": [
+    "vinyl crackle and tape hiss",
+    "hand claps and finger snaps",
+    "spoken word, people talking"
+   ],
+   "name": "chorus"
+  },
+  {
+   "start": 201.2,
+   "end": 297.2,
+   "letter": "E",
+   "says": [
+    "deep 808 sub bass",
+    "lonely and heartbroken",
+    "a bass drop"
+   ],
+   "name": "bridge"
+  },
+  {
+   "start": 297.2,
+   "end": 313.2,
+   "letter": "F",
+   "says": [
+    "warm synth pads",
+    "lonely and heartbroken",
+    "heavy reverb, spacious sound"
+   ],
+   "name": "verse"
+  },
+  {
+   "start": 313.2,
+   "end": 329.2,
+   "letter": "F",
+   "says": [
+    "glitchy electronic effects",
+    "a bass drop",
+    "bright synthesizer lead"
+   ],
+   "name": "verse"
+  },
+  {
+   "start": 329.2,
+   "end": 345.2,
+   "letter": "G",
+   "says": [
+    "an instrumental interlude",
+    "an organ",
+    "pounding heavy drums"
+   ],
+   "name": "outro"
+  }
+ ],
+ "32": [
+  {
+   "start": 0.0,
+   "end": 13.7,
+   "letter": "A",
+   "says": [
+    "a drum fill",
+    "a stripped-back arrangement",
+    "a big singalong chorus"
+   ],
+   "name": "intro"
+  },
+  {
+   "start": 13.7,
+   "end": 32.38,
+   "letter": "B",
+   "says": [
+    "ukulele",
+    "a big singalong chorus",
+    "playful and silly"
+   ],
+   "name": "instrumental"
+  },
+  {
+   "start": 32.38,
+   "end": 45.72,
+   "letter": "C",
+   "says": [
+    "a four-on-the-floor kick drum",
+    "a song intro",
+    "violin"
+   ],
+   "name": "instrumental"
+  },
+  {
+   "start": 45.72,
+   "end": 67.06,
+   "letter": "D",
+   "says": [
+    "male singing",
+    "medium energy",
+    "a song intro"
+   ],
+   "name": "verse"
+  },
+  {
+   "start": 67.06,
+   "end": 88.38,
+   "letter": "E",
+   "says": [
+    "lo-fi, muffled and filtered",
+    "pounding heavy drums",
+    "deep 808 sub bass"
+   ],
+   "name": "chorus"
+  },
+  {
+   "start": 88.38,
+   "end": 131.04,
+   "letter": "F",
+   "says": [
+    "wide atmospheric ambience",
+    "humming or wordless vocals",
+    "very quiet and sparse"
+   ],
+   "name": "bridge"
+  },
+  {
+   "start": 131.04,
+   "end": 152.38,
+   "letter": "E",
+   "says": [
+    "sleigh bells",
+    "bright and sparkling",
+    "heavily autotuned vocals"
+   ],
+   "name": "chorus"
+  },
+  {
+   "start": 152.38,
+   "end": 173.5,
+   "letter": "G",
+   "says": [
+    "ukulele",
+    "a stripped-back arrangement",
+    "layered vocal harmonies"
+   ],
+   "name": "outro"
+  }
+ ],
+ "33": [
+  {
+   "start": 0.0,
+   "end": 12.02,
+   "letter": "A",
+   "says": [
+    "solo piano",
+    "hand claps and finger snaps",
+    "an instrumental interlude"
+   ],
+   "name": "intro"
+  },
+  {
+   "start": 12.02,
+   "end": 35.3,
+   "letter": "A",
+   "says": [
+    "warm synth pads",
+    "the final climactic chorus",
+    "hand claps and finger snaps"
+   ],
+   "name": "verse"
+  },
+  {
+   "start": 35.3,
+   "end": 46.9,
+   "letter": "B",
+   "says": [
+    "solo piano",
+    "hand claps and finger snaps",
+    "vinyl crackle and tape hiss"
+   ],
+   "name": "verse"
+  },
+  {
+   "start": 46.9,
+   "end": 81.82,
+   "letter": "C",
+   "says": [
+    "a four-on-the-floor kick drum",
+    "male singing",
+    "distorted electric guitar"
+   ],
+   "name": "chorus"
+  },
+  {
+   "start": 81.82,
+   "end": 125.46,
+   "letter": "C",
+   "says": [
+    "a vocal chop sample",
+    "a laid-back boom bap beat",
+    "lo-fi, muffled and filtered"
+   ],
+   "name": "chorus"
+  },
+  {
+   "start": 125.46,
+   "end": 134.18,
+   "letter": "D",
+   "says": [
+    "a four-on-the-floor kick drum",
+    "bright synthesizer lead",
+    "singing in Japanese"
+   ],
+   "name": "bridge"
+  },
+  {
+   "start": 134.18,
+   "end": 141.1,
+   "letter": "E",
+   "says": [
+    "an instrumental interlude",
+    "festive and cheerful",
+    "sparse minimal percussion"
+   ],
+   "name": "outro"
+  }
+ ],
+ "34": [
+  {
+   "start": 0.0,
+   "end": 17.52,
+   "letter": "A",
+   "says": [
+    "electric piano",
+    "singing in Japanese",
+    "sparse minimal percussion"
+   ],
+   "name": "intro"
+  },
+  {
+   "start": 17.52,
+   "end": 60.2,
+   "letter": "B",
+   "says": [
+    "male singing",
+    "hand claps and finger snaps",
+    "lonely and heartbroken"
+   ],
+   "name": "verse"
+  },
+  {
+   "start": 60.2,
+   "end": 82.92,
+   "letter": "C",
+   "says": [
+    "a distorted gritty sound",
+    "a build-up before a drop",
+    "slowly building intensity"
+   ],
+   "name": "chorus"
+  },
+  {
+   "start": 82.92,
+   "end": 94.28,
+   "letter": "D",
+   "says": [
+    "male singing",
+    "a big singalong chorus",
+    "banjo or mandolin"
+   ],
+   "name": "verse"
+  },
+  {
+   "start": 94.28,
+   "end": 116.98,
+   "letter": "C",
+   "says": [
+    "male singing",
+    "a quiet verse with sparse backing",
+    "a distorted gritty sound"
+   ],
+   "name": "chorus"
+  },
+  {
+   "start": 116.98,
+   "end": 139.7,
+   "letter": "C",
+   "says": [
+    "a distorted gritty sound",
+    "slowly building intensity",
+    "a build-up before a drop"
+   ],
+   "name": "chorus"
+  },
+  {
+   "start": 139.7,
+   "end": 162.44,
+   "letter": "E",
+   "says": [
+    "sparse minimal percussion",
+    "an instrumental interlude",
+    "a bass guitar groove"
+   ],
+   "name": "instrumental"
+  },
+  {
+   "start": 162.44,
+   "end": 174.9,
+   "letter": "E",
+   "says": [
+    "sparse minimal percussion",
+    "electric piano",
+    "a clean polished pop production"
+   ],
+   "name": "outro"
+  }
+ ],
+ "35": [
+  {
+   "start": 0.0,
+   "end": 14.0,
+   "letter": "A",
+   "says": [
+    "hand claps and finger snaps",
+    "solo piano",
+    "female singing"
+   ],
+   "name": "intro"
+  },
+  {
+   "start": 14.0,
+   "end": 55.96,
+   "letter": "B",
+   "says": [
+    "a four-on-the-floor kick drum",
+    "spoken word, people talking",
+    "distorted electric guitar"
+   ],
+   "name": "chorus"
+  },
+  {
+   "start": 55.96,
+   "end": 96.0,
+   "letter": "C",
+   "says": [
+    "medium energy",
+    "falsetto vocals",
+    "bright and sparkling"
+   ],
+   "name": "verse"
+  },
+  {
+   "start": 96.0,
+   "end": 126.0,
+   "letter": "B",
+   "says": [
+    "a four-on-the-floor kick drum",
+    "spoken word, people talking",
+    "ukulele"
+   ],
+   "name": "chorus"
+  },
+  {
+   "start": 126.0,
+   "end": 156.0,
+   "letter": "D",
+   "says": [
+    "medium energy",
+    "a powerful belted vocal",
+    "a beat switch"
+   ],
+   "name": "verse"
+  },
+  {
+   "start": 156.0,
+   "end": 192.0,
+   "letter": "C",
+   "says": [
+    "heavily autotuned vocals",
+    "a bass drop",
+    "slowly building intensity"
+   ],
+   "name": "verse"
+  },
+  {
+   "start": 192.0,
+   "end": 208.0,
+   "letter": "B",
+   "says": [
+    "dark and moody",
+    "a fast driving beat",
+    "a quiet verse with sparse backing"
+   ],
+   "name": "chorus"
+  },
+  {
+   "start": 208.0,
+   "end": 228.8,
+   "letter": "A",
+   "says": [
+    "hand claps and finger snaps",
+    "an instrumental interlude",
+    "vinyl crackle and tape hiss"
+   ],
+   "name": "outro"
+  }
+ ],
+ "36": [
+  {
+   "start": 0.0,
+   "end": 15.44,
+   "letter": "A",
+   "says": [
+    "an instrumental interlude",
+    "ukulele",
+    "nostalgic"
+   ],
+   "name": "intro"
+  },
+  {
+   "start": 15.44,
+   "end": 30.2,
+   "letter": "A",
+   "says": [
+    "bells or glockenspiel",
+    "an instrumental interlude",
+    "sparse minimal percussion"
+   ],
+   "name": "instrumental"
+  },
+  {
+   "start": 30.2,
+   "end": 59.74,
+   "letter": "B",
+   "says": [
+    "nostalgic",
+    "sparse minimal percussion",
+    "warm synth pads"
+   ],
+   "name": "verse"
+  },
+  {
+   "start": 59.74,
+   "end": 89.26,
+   "letter": "C",
+   "says": [
+    "a quiet verse with sparse backing",
+    "male singing",
+    "confident and swaggering"
+   ],
+   "name": "verse"
+  },
+  {
+   "start": 89.26,
+   "end": 118.82,
+   "letter": "D",
+   "says": [
+    "male singing",
+    "medium energy",
+    "lonely and heartbroken"
+   ],
+   "name": "chorus"
+  },
+  {
+   "start": 118.82,
+   "end": 148.34,
+   "letter": "C",
+   "says": [
+    "spoken word, people talking",
+    "a quiet verse with sparse backing",
+    "wide atmospheric ambience"
+   ],
+   "name": "verse"
+  },
+  {
+   "start": 148.34,
+   "end": 164.96,
+   "letter": "E",
+   "says": [
+    "medium energy",
+    "a bass drop",
+    "male singing"
+   ],
+   "name": "bridge"
+  },
+  {
+   "start": 164.96,
+   "end": 194.5,
+   "letter": "D",
+   "says": [
+    "a build-up before a drop",
+    "a distorted gritty sound",
+    "a powerful belted vocal"
+   ],
+   "name": "chorus"
+  },
+  {
+   "start": 194.5,
+   "end": 212.9,
+   "letter": "F",
+   "says": [
+    "warm synth pads",
+    "an outro fading out",
+    "vinyl crackle and tape hiss"
+   ],
+   "name": "outro"
+  }
+ ],
+ "37": [
+  {
+   "start": 0.0,
+   "end": 11.4,
+   "letter": "A",
+   "says": [
+    "fingerpicked acoustic guitar",
+    "hand claps and finger snaps",
+    "very quiet and sparse"
+   ],
+   "name": "intro"
+  },
+  {
+   "start": 11.4,
+   "end": 56.6,
+   "letter": "B",
+   "says": [
+    "a quiet verse with sparse backing",
+    "a slow half-time beat",
+    "happy and upbeat"
+   ],
+   "name": "verse"
+  },
+  {
+   "start": 56.6,
+   "end": 79.16,
+   "letter": "C",
+   "says": [
+    "lo-fi, muffled and filtered",
+    "a powerful belted vocal",
+    "a bass drop"
+   ],
+   "name": "chorus"
+  },
+  {
+   "start": 79.16,
+   "end": 90.46,
+   "letter": "D",
+   "says": [
+    "a slow half-time beat",
+    "confident and swaggering",
+    "male singing"
+   ],
+   "name": "verse"
+  },
+  {
+   "start": 90.46,
+   "end": 113.04,
+   "letter": "B",
+   "says": [
+    "male singing",
+    "bright and sparkling",
+    "triumphant and uplifting"
+   ],
+   "name": "verse"
+  },
+  {
+   "start": 113.04,
+   "end": 124.36,
+   "letter": "E",
+   "says": [
+    "bells or glockenspiel",
+    "glitchy electronic effects",
+    "a bass drop"
+   ],
+   "name": "bridge"
+  },
+  {
+   "start": 124.36,
+   "end": 146.92,
+   "letter": "C",
+   "says": [
+    "lo-fi, muffled and filtered",
+    "falsetto vocals",
+    "a build-up before a drop"
+   ],
+   "name": "chorus"
+  },
+  {
+   "start": 146.92,
+   "end": 171.0,
+   "letter": "A",
+   "says": [
+    "fingerpicked acoustic guitar",
+    "hand claps and finger snaps",
+    "an instrumental interlude"
+   ],
+   "name": "outro"
+  }
+ ],
+ "38": [
+  {
+   "start": 0.0,
+   "end": 15.6,
+   "letter": "A",
+   "says": [
+    "lo-fi, muffled and filtered",
+    "solo piano",
+    "slow tempo"
+   ],
+   "name": "intro"
+  },
+  {
+   "start": 15.6,
+   "end": 43.8,
+   "letter": "B",
+   "says": [
+    "playful and silly",
+    "fingerpicked acoustic guitar",
+    "live rock drums"
+   ],
+   "name": "chorus"
+  },
+  {
+   "start": 43.8,
+   "end": 72.08,
+   "letter": "B",
+   "says": [
+    "a quiet verse with sparse backing",
+    "dark and moody",
+    "male singing"
+   ],
+   "name": "chorus"
+  },
+  {
+   "start": 72.08,
+   "end": 100.3,
+   "letter": "C",
+   "says": [
+    "triumphant and uplifting",
+    "sleigh bells",
+    "loud and energetic"
+   ],
+   "name": "verse"
+  },
+  {
+   "start": 100.3,
+   "end": 130.3,
+   "letter": "B",
+   "says": [
+    "layered vocal harmonies",
+    "ukulele",
+    "glitchy electronic effects"
+   ],
+   "name": "chorus"
+  },
+  {
+   "start": 130.3,
+   "end": 158.52,
+   "letter": "C",
+   "says": [
+    "brass and horns",
+    "a build-up before a drop",
+    "an explosive, intense peak"
+   ],
+   "name": "verse"
+  },
+  {
+   "start": 158.52,
+   "end": 166.6,
+   "letter": "D",
+   "says": [
+    "lo-fi, muffled and filtered",
+    "pounding heavy drums",
+    "fast rapping"
+   ],
+   "name": "outro"
+  }
+ ],
+ "39": [
+  {
+   "start": 0.0,
+   "end": 15.64,
+   "letter": "A",
+   "says": [
+    "warm synth pads",
+    "a bass drop",
+    "a clean polished pop production"
+   ],
+   "name": "intro"
+  },
+  {
+   "start": 15.64,
+   "end": 29.48,
+   "letter": "B",
+   "says": [
+    "sleigh bells",
+    "medium energy",
+    "a bass drop"
+   ],
+   "name": "verse"
+  },
+  {
+   "start": 29.48,
+   "end": 43.3,
+   "letter": "B",
+   "says": [
+    "hand claps and finger snaps",
+    "psychedelic and hazy",
+    "sleigh bells"
+   ],
+   "name": "verse"
+  },
+  {
+   "start": 43.3,
+   "end": 57.12,
+   "letter": "C",
+   "says": [
+    "pounding heavy drums",
+    "a full rock band",
+    "a quiet verse with sparse backing"
+   ],
+   "name": "verse"
+  },
+  {
+   "start": 57.12,
+   "end": 74.38,
+   "letter": "D",
+   "says": [
+    "ukulele",
+    "happy and upbeat",
+    "fast tempo"
+   ],
+   "name": "chorus"
+  },
+  {
+   "start": 74.38,
+   "end": 88.18,
+   "letter": "E",
+   "says": [
+    "violin",
+    "festive and cheerful",
+    "an instrumental interlude"
+   ],
+   "name": "postchorus"
+  },
+  {
+   "start": 88.18,
+   "end": 102.04,
+   "letter": "D",
+   "says": [
+    "a full rock band",
+    "a stripped-back arrangement",
+    "dreamy and floating"
+   ],
+   "name": "chorus"
+  },
+  {
+   "start": 102.04,
+   "end": 115.84,
+   "letter": "D",
+   "says": [
+    "dreamy and floating",
+    "a big singalong chorus",
+    "saxophone"
+   ],
+   "name": "chorus"
+  },
+  {
+   "start": 115.84,
+   "end": 146.96,
+   "letter": "D",
+   "says": [
+    "ukulele",
+    "happy and upbeat",
+    "rapping"
+   ],
+   "name": "chorus"
+  },
+  {
+   "start": 146.96,
+   "end": 160.76,
+   "letter": "E",
+   "says": [
+    "violin",
+    "singing in Japanese",
+    "glitchy electronic effects"
+   ],
+   "name": "postchorus"
+  },
+  {
+   "start": 160.76,
+   "end": 184.96,
+   "letter": "F",
+   "says": [
+    "a quiet verse with sparse backing",
+    "a pitched-down slowed sound",
+    "no drums"
+   ],
+   "name": "bridge"
+  },
+  {
+   "start": 184.96,
+   "end": 214.3,
+   "letter": "G",
+   "says": [
+    "the final climactic chorus",
+    "a pitched-down slowed sound",
+    "a powerful belted vocal"
+   ],
+   "name": "bridge"
+  },
+  {
+   "start": 214.3,
+   "end": 285.14,
+   "letter": "D",
+   "says": [
+    "rapping",
+    "loud and energetic",
+    "ukulele"
+   ],
+   "name": "chorus"
+  },
+  {
+   "start": 285.14,
+   "end": 298.96,
+   "letter": "E",
+   "says": [
+    "brass and horns",
+    "pounding heavy drums",
+    "vinyl crackle and tape hiss"
+   ],
+   "name": "postchorus"
+  },
+  {
+   "start": 298.96,
+   "end": 312.78,
+   "letter": "H",
+   "says": [
+    "humming or wordless vocals",
+    "a pitched-down slowed sound",
+    "very quiet and sparse"
+   ],
+   "name": "instrumental"
+  },
+  {
+   "start": 312.78,
+   "end": 322.1,
+   "letter": "A",
+   "says": [
+    "a bass guitar groove",
+    "a four-on-the-floor kick drum",
+    "a bass drop"
+   ],
+   "name": "outro"
+  }
+ ],
+ "40": [
+  {
+   "start": 0.0,
+   "end": 23.86,
+   "letter": "A",
+   "says": [
+    "vinyl crackle and tape hiss",
+    "fingerpicked acoustic guitar",
+    "epic and cinematic"
+   ],
+   "name": "intro"
+  },
+  {
+   "start": 23.86,
+   "end": 49.36,
+   "letter": "B",
+   "says": [
+    "male singing",
+    "saxophone",
+    "glitchy electronic effects"
+   ],
+   "name": "prechorus"
+  },
+  {
+   "start": 49.36,
+   "end": 73.36,
+   "letter": "C",
+   "says": [
+    "a laid-back boom bap beat",
+    "a powerful belted vocal",
+    "a clean polished pop production"
+   ],
+   "name": "chorus"
+  },
+  {
+   "start": 73.36,
+   "end": 97.36,
+   "letter": "D",
+   "says": [
+    "glitchy electronic effects",
+    "falsetto vocals",
+    "lonely and heartbroken"
+   ],
+   "name": "verse"
+  },
+  {
+   "start": 97.36,
+   "end": 109.36,
+   "letter": "B",
+   "says": [
+    "dense wall of sound",
+    "singing in Japanese",
+    "a build-up before a drop"
+   ],
+   "name": "prechorus"
+  },
+  {
+   "start": 109.36,
+   "end": 133.36,
+   "letter": "C",
+   "says": [
+    "confident and swaggering",
+    "a laid-back boom bap beat",
+    "a beat switch"
+   ],
+   "name": "chorus"
+  },
+  {
+   "start": 133.36,
+   "end": 153.9,
+   "letter": "A",
+   "says": [
+    "an instrumental interlude",
+    "fingerpicked acoustic guitar",
+    "sparse minimal percussion"
+   ],
+   "name": "outro"
+  }
+ ],
+ "41": [
+  {
+   "start": 0.0,
+   "end": 11.26,
+   "letter": "A",
+   "says": [
+    "bells or glockenspiel",
+    "a song intro",
+    "singing in Japanese"
+   ],
+   "name": "intro"
+  },
+  {
+   "start": 11.26,
+   "end": 33.58,
+   "letter": "B",
+   "says": [
+    "bells or glockenspiel",
+    "glitchy electronic effects",
+    "hand claps and finger snaps"
+   ],
+   "name": "verse"
+  },
+  {
+   "start": 33.58,
+   "end": 55.92,
+   "letter": "C",
+   "says": [
+    "lo-fi, muffled and filtered",
+    "a soft breathy voice",
+    "very quiet and sparse"
+   ],
+   "name": "verse"
+  },
+  {
+   "start": 55.92,
+   "end": 76.84,
+   "letter": "D",
+   "says": [
+    "psychedelic and hazy",
+    "dry, close and intimate sound",
+    "calm and gentle"
+   ],
+   "name": "verse"
+  },
+  {
+   "start": 76.84,
+   "end": 100.56,
+   "letter": "E",
+   "says": [
+    "violin",
+    "a slow half-time beat",
+    "vinyl crackle and tape hiss"
+   ],
+   "name": "chorus"
+  },
+  {
+   "start": 100.56,
+   "end": 111.72,
+   "letter": "F",
+   "says": [
+    "a vocal chop sample",
+    "a bass drop",
+    "no drums"
+   ],
+   "name": "verse"
+  },
+  {
+   "start": 111.72,
+   "end": 134.04,
+   "letter": "B",
+   "says": [
+    "bells or glockenspiel",
+    "glitchy electronic effects",
+    "singing in Japanese"
+   ],
+   "name": "verse"
+  },
+  {
+   "start": 134.04,
+   "end": 156.38,
+   "letter": "C",
+   "says": [
+    "a pitched-down slowed sound",
+    "whispered vocals",
+    "hand claps and finger snaps"
+   ],
+   "name": "verse"
+  },
+  {
+   "start": 156.38,
+   "end": 178.7,
+   "letter": "D",
+   "says": [
+    "a pitched-down slowed sound",
+    "anxious and tense",
+    "a quiet breakdown"
+   ],
+   "name": "verse"
+  },
+  {
+   "start": 178.7,
+   "end": 223.36,
+   "letter": "E",
+   "says": [
+    "violin",
+    "vinyl crackle and tape hiss",
+    "rapping"
+   ],
+   "name": "chorus"
+  },
+  {
+   "start": 223.36,
+   "end": 240.1,
+   "letter": "E",
+   "says": [
+    "an organ",
+    "a song intro",
+    "male singing"
+   ],
+   "name": "chorus"
+  },
+  {
+   "start": 240.1,
+   "end": 244.8,
+   "letter": "G",
+   "says": [
+    "deep 808 sub bass",
+    "hand claps and finger snaps",
+    "a song intro"
+   ],
+   "name": "outro"
+  }
+ ],
+ "42": [
+  {
+   "start": 0.0,
+   "end": 11.28,
+   "letter": "A",
+   "says": [
+    "fingerpicked acoustic guitar",
+    "angry and aggressive",
+    "a song intro"
+   ],
+   "name": "intro"
+  },
+  {
+   "start": 11.28,
+   "end": 33.4,
+   "letter": "B",
+   "says": [
+    "spoken word, people talking",
+    "a full rock band",
+    "dense wall of sound"
+   ],
+   "name": "chorus"
+  },
+  {
+   "start": 33.4,
+   "end": 88.72,
+   "letter": "C",
+   "says": [
+    "male singing",
+    "lonely and heartbroken",
+    "solo piano"
+   ],
+   "name": "verse"
+  },
+  {
+   "start": 88.72,
+   "end": 110.86,
+   "letter": "D",
+   "says": [
+    "hand claps and finger snaps",
+    "banjo or mandolin",
+    "lo-fi, muffled and filtered"
+   ],
+   "name": "verse"
+  },
+  {
+   "start": 110.86,
+   "end": 132.98,
+   "letter": "B",
+   "says": [
+    "a full rock band",
+    "spoken word, people talking",
+    "a shuffling swung rhythm"
+   ],
+   "name": "chorus"
+  },
+  {
+   "start": 132.98,
+   "end": 171.72,
+   "letter": "C",
+   "says": [
+    "happy and upbeat",
+    "male singing",
+    "a stripped-back arrangement"
+   ],
+   "name": "verse"
+  },
+  {
+   "start": 171.72,
+   "end": 193.82,
+   "letter": "D",
+   "says": [
+    "banjo or mandolin",
+    "rapping",
+    "lo-fi, muffled and filtered"
+   ],
+   "name": "verse"
+  },
+  {
+   "start": 193.82,
+   "end": 218.74,
+   "letter": "B",
+   "says": [
+    "dense wall of sound",
+    "silence or near silence",
+    "a shuffling swung rhythm"
+   ],
+   "name": "chorus"
+  },
+  {
+   "start": 218.74,
+   "end": 267.3,
+   "letter": "E",
+   "says": [
+    "layered vocal harmonies",
+    "the final climactic chorus",
+    "medium energy"
+   ],
+   "name": "outro"
+  }
+ ],
+ "43": [
+  {
+   "start": 0.0,
+   "end": 16.3,
+   "letter": "A",
+   "says": [
+    "piano chords",
+    "a song intro",
+    "a drum fill"
+   ],
+   "name": "intro"
+  },
+  {
+   "start": 16.3,
+   "end": 58.54,
+   "letter": "B",
+   "says": [
+    "male singing",
+    "psychedelic and hazy",
+    "deep 808 sub bass"
+   ],
+   "name": "chorus"
+  },
+  {
+   "start": 58.54,
+   "end": 73.92,
+   "letter": "C",
+   "says": [
+    "psychedelic and hazy",
+    "solo piano",
+    "rapping"
+   ],
+   "name": "postchorus"
+  },
+  {
+   "start": 73.92,
+   "end": 100.8,
+   "letter": "D",
+   "says": [
+    "a bouncy danceable groove",
+    "vinyl crackle and tape hiss",
+    "festive and cheerful"
+   ],
+   "name": "verse"
+  },
+  {
+   "start": 100.8,
+   "end": 131.5,
+   "letter": "B",
+   "says": [
+    "male singing",
+    "ukulele",
+    "medium energy"
+   ],
+   "name": "chorus"
+  },
+  {
+   "start": 131.5,
+   "end": 154.56,
+   "letter": "B",
+   "says": [
+    "ukulele",
+    "bright and sparkling",
+    "romantic and tender"
+   ],
+   "name": "chorus"
+  },
+  {
+   "start": 154.56,
+   "end": 169.92,
+   "letter": "C",
+   "says": [
+    "singing in Japanese",
+    "violin",
+    "live rock drums"
+   ],
+   "name": "postchorus"
+  },
+  {
+   "start": 169.92,
+   "end": 200.64,
+   "letter": "D",
+   "says": [
+    "dense wall of sound",
+    "epic and cinematic",
+    "an instrumental interlude"
+   ],
+   "name": "instrumental"
+  },
+  {
+   "start": 200.64,
+   "end": 216.0,
+   "letter": "E",
+   "says": [
+    "dense wall of sound",
+    "steady and repetitive",
+    "a choir or group vocals"
+   ],
+   "name": "verse"
+  },
+  {
+   "start": 216.0,
+   "end": 246.7,
+   "letter": "E",
+   "says": [
+    "dense wall of sound",
+    "spoken word, people talking",
+    "bright synthesizer lead"
+   ],
+   "name": "verse"
+  },
+  {
+   "start": 246.7,
+   "end": 262.08,
+   "letter": "F",
+   "says": [
+    "an organ",
+    "a vocal chop sample",
+    "the final climactic chorus"
+   ],
+   "name": "bridge"
+  },
+  {
+   "start": 262.08,
+   "end": 266.6,
+   "letter": "G",
+   "says": [
+    "a vocal chop sample",
+    "an organ",
+    "a bass drop"
+   ],
+   "name": "outro"
+  }
+ ],
+ "44": [
+  {
+   "start": 0.0,
+   "end": 22.04,
+   "letter": "A",
+   "says": [
+    "solo piano",
+    "an instrumental interlude",
+    "slow tempo"
+   ],
+   "name": "intro"
+  },
+  {
+   "start": 22.04,
+   "end": 42.92,
+   "letter": "A",
+   "says": [
+    "acoustic guitar strumming",
+    "romantic and tender",
+    "a quiet verse with sparse backing"
+   ],
+   "name": "verse"
+  },
+  {
+   "start": 42.92,
+   "end": 63.8,
+   "letter": "B",
+   "says": [
+    "whispered vocals",
+    "anxious and tense",
+    "a pitched-down slowed sound"
+   ],
+   "name": "chorus"
+  },
+  {
+   "start": 63.8,
+   "end": 74.22,
+   "letter": "C",
+   "says": [
+    "bells or glockenspiel",
+    "singing in Japanese",
+    "hand claps and finger snaps"
+   ],
+   "name": "verse"
+  },
+  {
+   "start": 74.22,
+   "end": 115.96,
+   "letter": "D",
+   "says": [
+    "a slow half-time beat",
+    "psychedelic and hazy",
+    "a quiet verse with sparse backing"
+   ],
+   "name": "verse"
+  },
+  {
+   "start": 115.96,
+   "end": 136.84,
+   "letter": "B",
+   "says": [
+    "spoken word, people talking",
+    "dense wall of sound",
+    "a build-up before a drop"
+   ],
+   "name": "chorus"
+  },
+  {
+   "start": 136.84,
+   "end": 178.6,
+   "letter": "C",
+   "says": [
+    "banjo or mandolin",
+    "a big singalong chorus",
+    "singing in Japanese"
+   ],
+   "name": "verse"
+  },
+  {
+   "start": 178.6,
+   "end": 204.0,
+   "letter": "B",
+   "says": [
+    "a vocal chop sample",
+    "bright synthesizer lead",
+    "playful and silly"
+   ],
+   "name": "chorus"
+  }
+ ],
+ "45": [
+  {
+   "start": 0.0,
+   "end": 35.86,
+   "letter": "A",
+   "says": [
+    "triumphant and uplifting",
+    "solo piano",
+    "a drum fill"
+   ],
+   "name": "intro"
+  },
+  {
+   "start": 35.86,
+   "end": 65.0,
+   "letter": "B",
+   "says": [
+    "lo-fi, muffled and filtered",
+    "banjo or mandolin",
+    "spoken word, people talking"
+   ],
+   "name": "verse"
+  },
+  {
+   "start": 65.0,
+   "end": 83.84,
+   "letter": "C",
+   "says": [
+    "heavily autotuned vocals",
+    "bells or glockenspiel",
+    "very quiet and sparse"
+   ],
+   "name": "chorus"
+  },
+  {
+   "start": 83.84,
+   "end": 111.28,
+   "letter": "A",
+   "says": [
+    "triumphant and uplifting",
+    "slowly building intensity",
+    "a quiet breakdown"
+   ],
+   "name": "verse"
+  },
+  {
+   "start": 111.28,
+   "end": 138.72,
+   "letter": "B",
+   "says": [
+    "banjo or mandolin",
+    "playful and silly",
+    "a big singalong chorus"
+   ],
+   "name": "verse"
+  },
+  {
+   "start": 138.72,
+   "end": 152.44,
+   "letter": "C",
+   "says": [
+    "vinyl crackle and tape hiss",
+    "a string section",
+    "fast rapping"
+   ],
+   "name": "chorus"
+  },
+  {
+   "start": 152.44,
+   "end": 165.0,
+   "letter": "D",
+   "says": [
+    "an instrumental interlude",
+    "warm synth pads",
+    "slow tempo"
+   ],
+   "name": "outro"
+  }
+ ],
+ "46": [
+  {
+   "start": 0.0,
+   "end": 10.4,
+   "letter": "A",
+   "says": [
+    "violin",
+    "an instrumental interlude",
+    "sparse minimal percussion"
+   ],
+   "name": "intro"
+  },
+  {
+   "start": 10.4,
+   "end": 30.4,
+   "letter": "B",
+   "says": [
+    "violin",
+    "playful and silly",
+    "hand claps and finger snaps"
+   ],
+   "name": "chorus"
+  },
+  {
+   "start": 30.4,
+   "end": 50.4,
+   "letter": "C",
+   "says": [
+    "confident and swaggering",
+    "a slow half-time beat",
+    "rapping"
+   ],
+   "name": "verse"
+  },
+  {
+   "start": 50.4,
+   "end": 60.4,
+   "letter": "C",
+   "says": [
+    "a slow half-time beat",
+    "dark and moody",
+    "a quiet breakdown"
+   ],
+   "name": "verse"
+  },
+  {
+   "start": 60.4,
+   "end": 80.4,
+   "letter": "B",
+   "says": [
+    "sleigh bells",
+    "rapping",
+    "pounding heavy drums"
+   ],
+   "name": "chorus"
+  },
+  {
+   "start": 80.4,
+   "end": 110.4,
+   "letter": "C",
+   "says": [
+    "vinyl crackle and tape hiss",
+    "happy and upbeat",
+    "a slow half-time beat"
+   ],
+   "name": "verse"
+  },
+  {
+   "start": 110.4,
+   "end": 130.42,
+   "letter": "B",
+   "says": [
+    "sleigh bells",
+    "fast rapping",
+    "trap hi-hats and 808s"
+   ],
+   "name": "chorus"
+  },
+  {
+   "start": 130.42,
+   "end": 150.42,
+   "letter": "D",
+   "says": [
+    "a bass drop",
+    "electric piano",
+    "an explosive, intense peak"
+   ],
+   "name": "bridge"
+  },
+  {
+   "start": 150.42,
+   "end": 182.92,
+   "letter": "E",
+   "says": [
+    "heavy reverb, spacious sound",
+    "an explosive, intense peak",
+    "spoken word, people talking"
+   ],
+   "name": "bridge"
+  },
+  {
+   "start": 182.92,
+   "end": 204.1,
+   "letter": "F",
+   "says": [
+    "bells or glockenspiel",
+    "hand claps and finger snaps",
+    "a big singalong chorus"
+   ],
+   "name": "outro"
+  }
+ ],
+ "47": [
+  {
+   "start": 0.0,
+   "end": 11.82,
+   "letter": "A",
+   "says": [
+    "warm synth pads",
+    "fast rapping",
+    "an outro fading out"
+   ],
+   "name": "intro"
+  },
+  {
+   "start": 11.82,
+   "end": 35.4,
+   "letter": "B",
+   "says": [
+    "bright and sparkling",
+    "clean electric guitar",
+    "silence or near silence"
+   ],
+   "name": "chorus"
+  },
+  {
+   "start": 35.4,
+   "end": 58.96,
+   "letter": "C",
+   "says": [
+    "bright and sparkling",
+    "confident and swaggering",
+    "bells or glockenspiel"
+   ],
+   "name": "verse"
+  },
+  {
+   "start": 58.96,
+   "end": 82.52,
+   "letter": "B",
+   "says": [
+    "rapping",
+    "a quiet verse with sparse backing",
+    "sleigh bells"
+   ],
+   "name": "chorus"
+  },
+  {
+   "start": 82.52,
+   "end": 106.06,
+   "letter": "C",
+   "says": [
+    "bright and sparkling",
+    "humming or wordless vocals",
+    "no drums"
+   ],
+   "name": "verse"
+  },
+  {
+   "start": 106.06,
+   "end": 129.64,
+   "letter": "B",
+   "says": [
+    "a choir or group vocals",
+    "a shuffling swung rhythm",
+    "a distorted gritty sound"
+   ],
+   "name": "chorus"
+  },
+  {
+   "start": 129.64,
+   "end": 148.92,
+   "letter": "D",
+   "says": [
+    "pounding heavy drums",
+    "vinyl crackle and tape hiss",
+    "epic and cinematic"
+   ],
+   "name": "bridge"
+  },
+  {
+   "start": 148.92,
+   "end": 162.18,
+   "letter": "E",
+   "says": [
+    "a four-on-the-floor kick drum",
+    "the final climactic chorus",
+    "epic and cinematic"
+   ],
+   "name": "instrumental"
+  },
+  {
+   "start": 162.18,
+   "end": 168.0,
+   "letter": "F",
+   "says": [
+    "a drum fill",
+    "electric piano",
+    "an explosive, intense peak"
+   ],
+   "name": "outro"
+  }
+ ],
+ "48": [
+  {
+   "start": 0.0,
+   "end": 11.82,
+   "letter": "A",
+   "says": [
+    "hand claps and finger snaps",
+    "ukulele",
+    "a big singalong chorus"
+   ],
+   "name": "intro"
+  },
+  {
+   "start": 11.82,
+   "end": 35.24,
+   "letter": "B",
+   "says": [
+    "violin",
+    "a bouncy danceable groove",
+    "a big singalong chorus"
+   ],
+   "name": "instrumental"
+  },
+  {
+   "start": 35.24,
+   "end": 58.64,
+   "letter": "C",
+   "says": [
+    "a slow half-time beat",
+    "psychedelic and hazy",
+    "a string section"
+   ],
+   "name": "verse"
+  },
+  {
+   "start": 58.64,
+   "end": 70.34,
+   "letter": "D",
+   "says": [
+    "warm synth pads",
+    "bright and sparkling",
+    "male singing"
+   ],
+   "name": "instrumental"
+  },
+  {
+   "start": 70.34,
+   "end": 93.78,
+   "letter": "E",
+   "says": [
+    "bells or glockenspiel",
+    "loud and energetic",
+    "vinyl crackle and tape hiss"
+   ],
+   "name": "chorus"
+  },
+  {
+   "start": 93.78,
+   "end": 117.18,
+   "letter": "C",
+   "says": [
+    "a slow half-time beat",
+    "an instrumental interlude",
+    "dreamy and floating"
+   ],
+   "name": "instrumental"
+  },
+  {
+   "start": 117.18,
+   "end": 140.6,
+   "letter": "D",
+   "says": [
+    "sleigh bells",
+    "sad and melancholic",
+    "calm and gentle"
+   ],
+   "name": "verse"
+  },
+  {
+   "start": 140.6,
+   "end": 151.2,
+   "letter": "F",
+   "says": [
+    "female singing",
+    "lo-fi, muffled and filtered",
+    "distorted electric guitar"
+   ],
+   "name": "bridge"
+  },
+  {
+   "start": 151.2,
+   "end": 164.02,
+   "letter": "G",
+   "says": [
+    "female singing",
+    "loud and energetic",
+    "pounding heavy drums"
+   ],
+   "name": "bridge"
+  },
+  {
+   "start": 164.02,
+   "end": 191.0,
+   "letter": "E",
+   "says": [
+    "female singing",
+    "bells or glockenspiel",
+    "glitchy electronic effects"
+   ],
+   "name": "chorus"
+  }
+ ],
+ "49": [
+  {
+   "start": 0.0,
+   "end": 37.38,
+   "letter": "A",
+   "says": [
+    "warm synth pads",
+    "lo-fi, muffled and filtered",
+    "the final climactic chorus"
+   ],
+   "name": "intro"
+  },
+  {
+   "start": 37.38,
+   "end": 59.76,
+   "letter": "B",
+   "says": [
+    "a big singalong chorus",
+    "a slow half-time beat",
+    "ukulele"
+   ],
+   "name": "verse"
+  },
+  {
+   "start": 59.76,
+   "end": 78.98,
+   "letter": "C",
+   "says": [
+    "rapping",
+    "banjo or mandolin",
+    "pounding heavy drums"
+   ],
+   "name": "verse"
+  },
+  {
+   "start": 78.98,
+   "end": 101.36,
+   "letter": "C",
+   "says": [
+    "fast rapping",
+    "sleigh bells",
+    "fast tempo"
+   ],
+   "name": "verse"
+  },
+  {
+   "start": 101.36,
+   "end": 139.78,
+   "letter": "D",
+   "says": [
+    "fast rapping",
+    "medium energy",
+    "hand claps and finger snaps"
+   ],
+   "name": "chorus"
+  },
+  {
+   "start": 139.78,
+   "end": 159.0,
+   "letter": "E",
+   "says": [
+    "a build-up before a drop",
+    "shouted vocals",
+    "a shuffling swung rhythm"
+   ],
+   "name": "verse"
+  },
+  {
+   "start": 159.0,
+   "end": 203.76,
+   "letter": "F",
+   "says": [
+    "a build-up before a drop",
+    "glitchy electronic effects",
+    "shouted vocals"
+   ],
+   "name": "instrumental"
+  },
+  {
+   "start": 203.76,
+   "end": 219.8,
+   "letter": "B",
+   "says": [
+    "bright and sparkling",
+    "playful and silly",
+    "male singing"
+   ],
+   "name": "verse"
+  },
+  {
+   "start": 219.8,
+   "end": 242.18,
+   "letter": "D",
+   "says": [
+    "fast rapping",
+    "psychedelic and hazy",
+    "vinyl crackle and tape hiss"
+   ],
+   "name": "chorus"
+  },
+  {
+   "start": 242.18,
+   "end": 252.3,
+   "letter": "A",
+   "says": [
+    "a bass guitar groove",
+    "a vocal chop sample",
+    "an instrumental interlude"
+   ],
+   "name": "outro"
+  }
+ ],
+ "50": [
+  {
+   "start": 0.0,
+   "end": 22.22,
+   "letter": "A",
+   "says": [
+    "confident and swaggering",
+    "sleigh bells",
+    "medium energy"
+   ],
+   "name": "intro"
+  },
+  {
+   "start": 22.22,
+   "end": 37.54,
+   "letter": "B",
+   "says": [
+    "a full rock band",
+    "dreamy and floating",
+    "heavily autotuned vocals"
+   ],
+   "name": "verse"
+  },
+  {
+   "start": 37.54,
+   "end": 57.98,
+   "letter": "C",
+   "says": [
+    "heavy reverb, spacious sound",
+    "silence or near silence",
+    "hand claps and finger snaps"
+   ],
+   "name": "verse"
+  },
+  {
+   "start": 57.98,
+   "end": 78.4,
+   "letter": "D",
+   "says": [
+    "female singing",
+    "pounding heavy drums",
+    "lo-fi, muffled and filtered"
+   ],
+   "name": "chorus"
+  },
+  {
+   "start": 78.4,
+   "end": 98.82,
+   "letter": "A",
+   "says": [
+    "confident and swaggering",
+    "medium energy",
+    "sleigh bells"
+   ],
+   "name": "verse"
+  },
+  {
+   "start": 98.82,
+   "end": 114.14,
+   "letter": "B",
+   "says": [
+    "violin",
+    "dreamy and floating",
+    "medium energy"
+   ],
+   "name": "verse"
+  },
+  {
+   "start": 114.14,
+   "end": 134.56,
+   "letter": "C",
+   "says": [
+    "hand claps and finger snaps",
+    "clean electric guitar",
+    "slowly building intensity"
+   ],
+   "name": "verse"
+  },
+  {
+   "start": 134.56,
+   "end": 155.0,
+   "letter": "D",
+   "says": [
+    "female singing",
+    "pounding heavy drums",
+    "lo-fi, muffled and filtered"
+   ],
+   "name": "chorus"
+  },
+  {
+   "start": 155.0,
+   "end": 175.76,
+   "letter": "E",
+   "says": [
+    "deep 808 sub bass",
+    "a powerful belted vocal",
+    "the final climactic chorus"
+   ],
+   "name": "bridge"
+  },
+  {
+   "start": 175.76,
+   "end": 181.1,
+   "letter": "F",
+   "says": [
+    "male singing",
+    "lo-fi, muffled and filtered",
+    "banjo or mandolin"
+   ],
+   "name": "outro"
+  }
+ ],
+ "51": [
+  {
+   "start": 0.0,
+   "end": 24.72,
+   "letter": "A",
+   "says": [
+    "a bass drop",
+    "an organ",
+    "falsetto vocals"
+   ],
+   "name": "intro"
+  },
+  {
+   "start": 24.72,
+   "end": 73.94,
+   "letter": "B",
+   "says": [
+    "a build-up before a drop",
+    "male singing",
+    "loud and energetic"
+   ],
+   "name": "verse"
+  },
+  {
+   "start": 73.94,
+   "end": 98.56,
+   "letter": "C",
+   "says": [
+    "a distorted gritty sound",
+    "a build-up before a drop",
+    "slowly building intensity"
+   ],
+   "name": "verse"
+  },
+  {
+   "start": 98.56,
+   "end": 147.78,
+   "letter": "B",
+   "says": [
+    "male singing",
+    "medium energy",
+    "happy and upbeat"
+   ],
+   "name": "verse"
+  },
+  {
+   "start": 147.78,
+   "end": 172.42,
+   "letter": "C",
+   "says": [
+    "a shuffling swung rhythm",
+    "a distorted gritty sound",
+    "slowly building intensity"
+   ],
+   "name": "verse"
+  },
+  {
+   "start": 172.42,
+   "end": 197.02,
+   "letter": "D",
+   "says": [
+    "pounding heavy drums",
+    "chill and relaxed",
+    "vinyl crackle and tape hiss"
+   ],
+   "name": "instrumental"
+  },
+  {
+   "start": 197.02,
+   "end": 215.6,
+   "letter": "A",
+   "says": [
+    "piano chords",
+    "falsetto vocals",
+    "a bass drop"
+   ],
+   "name": "chorus"
+  }
+ ],
+ "52": [
+  {
+   "start": 0.0,
+   "end": 7.0,
+   "letter": "A",
+   "says": [
+    "solo piano",
+    "a drum fill",
+    "confident and swaggering"
+   ],
+   "name": "intro"
+  },
+  {
+   "start": 7.0,
+   "end": 49.86,
+   "letter": "B",
+   "says": [
+    "fast rapping",
+    "confident and swaggering",
+    "a quiet verse with sparse backing"
+   ],
+   "name": "verse"
+  },
+  {
+   "start": 49.86,
+   "end": 58.44,
+   "letter": "C",
+   "says": [
+    "a song intro",
+    "a four-on-the-floor kick drum",
+    "medium energy"
+   ],
+   "name": "prechorus"
+  },
+  {
+   "start": 58.44,
+   "end": 89.28,
+   "letter": "D",
+   "says": [
+    "female singing",
+    "lo-fi, muffled and filtered",
+    "deep 808 sub bass"
+   ],
+   "name": "chorus"
+  },
+  {
+   "start": 89.28,
+   "end": 113.28,
+   "letter": "B",
+   "says": [
+    "confident and swaggering",
+    "medium energy",
+    "a song intro"
+   ],
+   "name": "verse"
+  },
+  {
+   "start": 113.28,
+   "end": 130.44,
+   "letter": "C",
+   "says": [
+    "a song intro",
+    "a powerful belted vocal",
+    "pounding heavy drums"
+   ],
+   "name": "prechorus"
+  },
+  {
+   "start": 130.44,
+   "end": 185.3,
+   "letter": "D",
+   "says": [
+    "female singing",
+    "vinyl crackle and tape hiss",
+    "brass and horns"
+   ],
+   "name": "chorus"
+  },
+  {
+   "start": 185.3,
+   "end": 212.74,
+   "letter": "D",
+   "says": [
+    "hand claps and finger snaps",
+    "warm synth pads",
+    "female singing"
+   ],
+   "name": "chorus"
+  },
+  {
+   "start": 212.74,
+   "end": 219.6,
+   "letter": "A",
+   "says": [
+    "solo piano",
+    "hand claps and finger snaps",
+    "female singing"
+   ],
+   "name": "outro"
+  }
+ ],
+ "53": [
+  {
+   "start": 0.0,
+   "end": 17.1,
+   "letter": "A",
+   "says": [
+    "slow tempo",
+    "the final climactic chorus",
+    "layered vocal harmonies"
+   ],
+   "name": "intro"
+  },
+  {
+   "start": 17.1,
+   "end": 46.84,
+   "letter": "B",
+   "says": [
+    "a bass guitar groove",
+    "playful and silly",
+    "pounding heavy drums"
+   ],
+   "name": "verse"
+  },
+  {
+   "start": 46.84,
+   "end": 61.74,
+   "letter": "C",
+   "says": [
+    "violin",
+    "fast rapping",
+    "playful and silly"
+   ],
+   "name": "verse"
+  },
+  {
+   "start": 61.74,
+   "end": 91.54,
+   "letter": "D",
+   "says": [
+    "a build-up before a drop",
+    "glitchy electronic effects",
+    "bright synthesizer lead"
+   ],
+   "name": "chorus"
+  },
+  {
+   "start": 91.54,
+   "end": 121.28,
+   "letter": "E",
+   "says": [
+    "vinyl crackle and tape hiss",
+    "slow tempo",
+    "psychedelic and hazy"
+   ],
+   "name": "verse"
+  },
+  {
+   "start": 121.28,
+   "end": 151.08,
+   "letter": "D",
+   "says": [
+    "a build-up before a drop",
+    "vinyl crackle and tape hiss",
+    "rapping"
+   ],
+   "name": "chorus"
+  },
+  {
+   "start": 151.08,
+   "end": 164.12,
+   "letter": "F",
+   "says": [
+    "a full orchestra",
+    "a quiet verse with sparse backing",
+    "heavily autotuned vocals"
+   ],
+   "name": "bridge"
+  },
+  {
+   "start": 164.12,
+   "end": 180.84,
+   "letter": "G",
+   "says": [
+    "a four-on-the-floor kick drum",
+    "female singing",
+    "loud and energetic"
+   ],
+   "name": "bridge"
+  },
+  {
+   "start": 180.84,
+   "end": 216.1,
+   "letter": "D",
+   "says": [
+    "triumphant and uplifting",
+    "warm synth pads",
+    "falsetto vocals"
+   ],
+   "name": "chorus"
+  }
+ ],
+ "54": [
+  {
+   "start": 0.0,
+   "end": 9.1,
+   "letter": "A",
+   "says": [
+    "bells or glockenspiel",
+    "layered vocal harmonies",
+    "an outro fading out"
+   ],
+   "name": "intro"
+  },
+  {
+   "start": 9.1,
+   "end": 27.22,
+   "letter": "B",
+   "says": [
+    "male singing",
+    "the final climactic chorus",
+    "solo piano"
+   ],
+   "name": "verse"
+  },
+  {
+   "start": 27.22,
+   "end": 45.32,
+   "letter": "C",
+   "says": [
+    "a quiet verse with sparse backing",
+    "acoustic guitar strumming",
+    "male singing"
+   ],
+   "name": "verse"
+  },
+  {
+   "start": 45.32,
+   "end": 63.44,
+   "letter": "D",
+   "says": [
+    "vinyl crackle and tape hiss",
+    "a build-up before a drop",
+    "a soft breathy voice"
+   ],
+   "name": "chorus"
+  },
+  {
+   "start": 63.44,
+   "end": 99.66,
+   "letter": "E",
+   "says": [
+    "spoken word, people talking",
+    "bright and sparkling",
+    "violin"
+   ],
+   "name": "verse"
+  },
+  {
+   "start": 99.66,
+   "end": 117.78,
+   "letter": "D",
+   "says": [
+    "a laid-back boom bap beat",
+    "deep 808 sub bass",
+    "dreamy and floating"
+   ],
+   "name": "chorus"
+  },
+  {
+   "start": 117.78,
+   "end": 135.88,
+   "letter": "D",
+   "says": [
+    "banjo or mandolin",
+    "vinyl crackle and tape hiss",
+    "a four-on-the-floor kick drum"
+   ],
+   "name": "chorus"
+  },
+  {
+   "start": 135.88,
+   "end": 156.26,
+   "letter": "F",
+   "says": [
+    "fast rapping",
+    "warm synth pads",
+    "slow tempo"
+   ],
+   "name": "verse"
+  },
+  {
+   "start": 156.26,
+   "end": 174.38,
+   "letter": "F",
+   "says": [
+    "fast rapping",
+    "a song intro",
+    "a stripped-back arrangement"
+   ],
+   "name": "instrumental"
+  },
+  {
+   "start": 174.38,
+   "end": 210.6,
+   "letter": "D",
+   "says": [
+    "vinyl crackle and tape hiss",
+    "female singing",
+    "bright synthesizer lead"
+   ],
+   "name": "chorus"
+  },
+  {
+   "start": 210.6,
+   "end": 215.8,
+   "letter": "A",
+   "says": [
+    "hand claps and finger snaps",
+    "warm synth pads",
+    "vinyl crackle and tape hiss"
+   ],
+   "name": "outro"
+  }
+ ],
+ "55": [
+  {
+   "start": 0.0,
+   "end": 14.98,
+   "letter": "A",
+   "says": [
+    "an instrumental interlude",
+    "sparse minimal percussion",
+    "electric piano"
+   ],
+   "name": "intro"
+  },
+  {
+   "start": 14.98,
+   "end": 40.94,
+   "letter": "B",
+   "says": [
+    "a song intro",
+    "confident and swaggering",
+    "a bass guitar groove"
+   ],
+   "name": "verse"
+  },
+  {
+   "start": 40.94,
+   "end": 60.42,
+   "letter": "C",
+   "says": [
+    "medium energy",
+    "a powerful belted vocal",
+    "a plucked synth arpeggio"
+   ],
+   "name": "verse"
+  },
+  {
+   "start": 60.42,
+   "end": 86.36,
+   "letter": "D",
+   "says": [
+    "psychedelic and hazy",
+    "male singing",
+    "a slow half-time beat"
+   ],
+   "name": "chorus"
+  },
+  {
+   "start": 86.36,
+   "end": 99.34,
+   "letter": "E",
+   "says": [
+    "female singing",
+    "lo-fi, muffled and filtered",
+    "deep 808 sub bass"
+   ],
+   "name": "verse"
+  },
+  {
+   "start": 99.34,
+   "end": 125.28,
+   "letter": "D",
+   "says": [
+    "male singing",
+    "happy and upbeat",
+    "deep 808 sub bass"
+   ],
+   "name": "chorus"
+  },
+  {
+   "start": 125.28,
+   "end": 170.68,
+   "letter": "F",
+   "says": [
+    "male singing",
+    "lo-fi, muffled and filtered",
+    "lonely and heartbroken"
+   ],
+   "name": "bridge"
+  },
+  {
+   "start": 170.68,
+   "end": 193.34,
+   "letter": "G",
+   "says": [
+    "a choir or group vocals",
+    "a pitched-down slowed sound",
+    "slowly building intensity"
+   ],
+   "name": "instrumental"
+  },
+  {
+   "start": 193.34,
+   "end": 211.9,
+   "letter": "H",
+   "says": [
+    "warm synth pads",
+    "a bass drop",
+    "glitchy electronic effects"
+   ],
+   "name": "outro"
+  }
+ ],
+ "56": [
+  {
+   "start": 0.0,
+   "end": 30.64,
+   "letter": "A",
+   "says": [
+    "dreamy and floating",
+    "a stripped-back arrangement",
+    "ukulele"
+   ],
+   "name": "intro"
+  },
+  {
+   "start": 30.64,
+   "end": 59.3,
+   "letter": "B",
+   "says": [
+    "a slow half-time beat",
+    "happy and upbeat",
+    "heavy reverb, spacious sound"
+   ],
+   "name": "verse"
+  },
+  {
+   "start": 59.3,
+   "end": 66.46,
+   "letter": "C",
+   "says": [
+    "a clean polished pop production",
+    "a beat switch",
+    "trap hi-hats and 808s"
+   ],
+   "name": "chorus"
+  },
+  {
+   "start": 66.46,
+   "end": 95.08,
+   "letter": "D",
+   "says": [
+    "sparse minimal percussion",
+    "a soft breathy voice",
+    "deep 808 sub bass"
+   ],
+   "name": "instrumental"
+  },
+  {
+   "start": 95.08,
+   "end": 123.76,
+   "letter": "E",
+   "says": [
+    "banjo or mandolin",
+    "male singing",
+    "medium energy"
+   ],
+   "name": "bridge"
+  },
+  {
+   "start": 123.76,
+   "end": 152.42,
+   "letter": "F",
+   "says": [
+    "spoken word, people talking",
+    "glitchy electronic effects",
+    "bells or glockenspiel"
+   ],
+   "name": "bridge"
+  },
+  {
+   "start": 152.42,
+   "end": 160.2,
+   "letter": "C",
+   "says": [
+    "lo-fi, muffled and filtered",
+    "confident and swaggering",
+    "a vocal chop sample"
+   ],
+   "name": "outro"
+  }
+ ],
+ "57": [
+  {
+   "start": 0.0,
+   "end": 8.88,
+   "letter": "A",
+   "says": [
+    "sparse minimal percussion",
+    "chill and relaxed",
+    "fingerpicked acoustic guitar"
+   ],
+   "name": "intro"
+  },
+  {
+   "start": 8.88,
+   "end": 14.52,
+   "letter": "A",
+   "says": [
+    "fingerpicked acoustic guitar",
+    "confident and swaggering",
+    "hand claps and finger snaps"
+   ],
+   "name": "instrumental"
+  },
+  {
+   "start": 14.52,
+   "end": 37.1,
+   "letter": "B",
+   "says": [
+    "romantic and tender",
+    "calm and gentle",
+    "hand claps and finger snaps"
+   ],
+   "name": "verse"
+  },
+  {
+   "start": 37.1,
+   "end": 49.82,
+   "letter": "C",
+   "says": [
+    "bells or glockenspiel",
+    "bright and sparkling",
+    "playful and silly"
+   ],
+   "name": "prechorus"
+  },
+  {
+   "start": 49.82,
+   "end": 75.22,
+   "letter": "D",
+   "says": [
+    "an explosive, intense peak",
+    "triumphant and uplifting",
+    "brass and horns"
+   ],
+   "name": "chorus"
+  },
+  {
+   "start": 75.22,
+   "end": 87.94,
+   "letter": "B",
+   "says": [
+    "deep 808 sub bass",
+    "a laid-back boom bap beat",
+    "heavy reverb, spacious sound"
+   ],
+   "name": "verse"
+  },
+  {
+   "start": 87.94,
+   "end": 99.22,
+   "letter": "E",
+   "says": [
+    "lo-fi, muffled and filtered",
+    "female singing",
+    "confident and swaggering"
+   ],
+   "name": "bridge"
+  },
+  {
+   "start": 99.22,
+   "end": 110.52,
+   "letter": "C",
+   "says": [
+    "sleigh bells",
+    "male singing",
+    "vinyl crackle and tape hiss"
+   ],
+   "name": "prechorus"
+  },
+  {
+   "start": 110.52,
+   "end": 144.4,
+   "letter": "D",
+   "says": [
+    "a distorted gritty sound",
+    "a fast driving beat",
+    "steady and repetitive"
+   ],
+   "name": "chorus"
+  },
+  {
+   "start": 144.4,
+   "end": 166.98,
+   "letter": "F",
+   "says": [
+    "a fast driving beat",
+    "a choir or group vocals",
+    "a distorted gritty sound"
+   ],
+   "name": "bridge"
+  },
+  {
+   "start": 166.98,
+   "end": 183.7,
+   "letter": "G",
+   "says": [
+    "clean electric guitar",
+    "singing in Japanese",
+    "bright and sparkling"
+   ],
+   "name": "outro"
+  }
+ ],
+ "58": [
+  {
+   "start": 0.0,
+   "end": 15.92,
+   "letter": "A",
+   "says": [
+    "bells or glockenspiel",
+    "hand claps and finger snaps",
+    "no vocals, instrumental"
+   ],
+   "name": "intro"
+  },
+  {
+   "start": 15.92,
+   "end": 65.94,
+   "letter": "B",
+   "says": [
+    "deep 808 sub bass",
+    "romantic and tender",
+    "a pitched-down slowed sound"
+   ],
+   "name": "verse"
+  },
+  {
+   "start": 65.94,
+   "end": 89.38,
+   "letter": "C",
+   "says": [
+    "a clean polished pop production",
+    "a bouncy danceable groove",
+    "a powerful belted vocal"
+   ],
+   "name": "verse"
+  },
+  {
+   "start": 89.38,
+   "end": 95.64,
+   "letter": "D",
+   "says": [
+    "female singing",
+    "a big singalong chorus",
+    "banjo or mandolin"
+   ],
+   "name": "verse"
+  },
+  {
+   "start": 95.64,
+   "end": 133.16,
+   "letter": "E",
+   "says": [
+    "female singing",
+    "warm synth pads",
+    "lo-fi, muffled and filtered"
+   ],
+   "name": "bridge"
+  },
+  {
+   "start": 133.16,
+   "end": 155.1,
+   "letter": "A",
+   "says": [
+    "a full rock band",
+    "an instrumental interlude",
+    "fast tempo"
+   ],
+   "name": "chorus"
+  }
+ ],
+ "59": [
+  {
+   "start": 0.0,
+   "end": 23.8,
+   "letter": "A",
+   "says": [
+    "electric piano",
+    "a quiet breakdown",
+    "glitchy electronic effects"
+   ],
+   "name": "intro"
+  },
+  {
+   "start": 23.8,
+   "end": 46.38,
+   "letter": "B",
+   "says": [
+    "heavy reverb, spacious sound",
+    "the final climactic chorus",
+    "warm synth pads"
+   ],
+   "name": "verse"
+  },
+  {
+   "start": 46.38,
+   "end": 68.98,
+   "letter": "C",
+   "says": [
+    "ukulele",
+    "psychedelic and hazy",
+    "fast rapping"
+   ],
+   "name": "chorus"
+  },
+  {
+   "start": 68.98,
+   "end": 91.56,
+   "letter": "D",
+   "says": [
+    "bells or glockenspiel",
+    "glitchy electronic effects",
+    "a shuffling swung rhythm"
+   ],
+   "name": "instrumental"
+  },
+  {
+   "start": 91.56,
+   "end": 136.74,
+   "letter": "C",
+   "says": [
+    "sleigh bells",
+    "psychedelic and hazy",
+    "singing in Japanese"
+   ],
+   "name": "chorus"
+  },
+  {
+   "start": 136.74,
+   "end": 148.04,
+   "letter": "E",
+   "says": [
+    "heavy reverb, spacious sound",
+    "the final climactic chorus",
+    "warm synth pads"
+   ],
+   "name": "bridge"
+  },
+  {
+   "start": 148.04,
+   "end": 172.5,
+   "letter": "C",
+   "says": [
+    "heavily autotuned vocals",
+    "dreamy and floating",
+    "a stripped-back arrangement"
+   ],
+   "name": "chorus"
+  }
+ ],
+ "60": [
+  {
+   "start": 0.0,
+   "end": 9.52,
+   "letter": "A",
+   "says": [
+    "bells or glockenspiel",
+    "an instrumental interlude",
+    "fast rapping"
+   ],
+   "name": "intro"
+  },
+  {
+   "start": 9.52,
+   "end": 28.4,
+   "letter": "B",
+   "says": [
+    "bells or glockenspiel",
+    "fast rapping",
+    "a song intro"
+   ],
+   "name": "verse"
+  },
+  {
+   "start": 28.4,
+   "end": 46.08,
+   "letter": "C",
+   "says": [
+    "a four-on-the-floor kick drum",
+    "rapping",
+    "happy and upbeat"
+   ],
+   "name": "verse"
+  },
+  {
+   "start": 46.08,
+   "end": 64.38,
+   "letter": "D",
+   "says": [
+    "playful and silly",
+    "saxophone",
+    "a four-on-the-floor kick drum"
+   ],
+   "name": "chorus"
+  },
+  {
+   "start": 64.38,
+   "end": 84.96,
+   "letter": "E",
+   "says": [
+    "the final climactic chorus",
+    "psychedelic and hazy",
+    "sleigh bells"
+   ],
+   "name": "verse"
+  },
+  {
+   "start": 84.96,
+   "end": 103.24,
+   "letter": "F",
+   "says": [
+    "an explosive, intense peak",
+    "deep 808 sub bass",
+    "lo-fi, muffled and filtered"
+   ],
+   "name": "bridge"
+  },
+  {
+   "start": 103.24,
+   "end": 119.24,
+   "letter": "D",
+   "says": [
+    "live rock drums",
+    "an electric guitar solo",
+    "loud and energetic"
+   ],
+   "name": "chorus"
+  },
+  {
+   "start": 119.24,
+   "end": 132.92,
+   "letter": "G",
+   "says": [
+    "deep 808 sub bass",
+    "a bass drop",
+    "heavily autotuned vocals"
+   ],
+   "name": "bridge"
+  },
+  {
+   "start": 132.92,
+   "end": 147.1,
+   "letter": "H",
+   "says": [
+    "electric piano",
+    "layered vocal harmonies",
+    "sparse minimal percussion"
+   ],
+   "name": "outro"
+  }
+ ],
+ "61": [
+  {
+   "start": 0.0,
+   "end": 10.98,
+   "letter": "A",
+   "says": [
+    "ukulele",
+    "vinyl crackle and tape hiss",
+    "an instrumental interlude"
+   ],
+   "name": "intro"
+  },
+  {
+   "start": 10.98,
+   "end": 31.22,
+   "letter": "B",
+   "says": [
+    "a full rock band",
+    "slowly building intensity",
+    "nostalgic"
+   ],
+   "name": "instrumental"
+  },
+  {
+   "start": 31.22,
+   "end": 51.42,
+   "letter": "C",
+   "says": [
+    "acoustic guitar strumming",
+    "a drum fill",
+    "rapping"
+   ],
+   "name": "verse"
+  },
+  {
+   "start": 51.42,
+   "end": 71.64,
+   "letter": "D",
+   "says": [
+    "happy and upbeat",
+    "heavily autotuned vocals",
+    "loud and energetic"
+   ],
+   "name": "chorus"
+  },
+  {
+   "start": 71.64,
+   "end": 81.74,
+   "letter": "E",
+   "says": [
+    "hand claps and finger snaps",
+    "clean electric guitar",
+    "singing in Japanese"
+   ],
+   "name": "postchorus"
+  },
+  {
+   "start": 81.74,
+   "end": 101.96,
+   "letter": "B",
+   "says": [
+    "psychedelic and hazy",
+    "a full rock band",
+    "a quiet verse with sparse backing"
+   ],
+   "name": "instrumental"
+  },
+  {
+   "start": 101.96,
+   "end": 122.16,
+   "letter": "C",
+   "says": [
+    "playful and silly",
+    "pounding heavy drums",
+    "saxophone"
+   ],
+   "name": "verse"
+  },
+  {
+   "start": 122.16,
+   "end": 142.38,
+   "letter": "D",
+   "says": [
+    "bright synthesizer lead",
+    "male singing",
+    "medium energy"
+   ],
+   "name": "chorus"
+  },
+  {
+   "start": 142.38,
+   "end": 162.58,
+   "letter": "F",
+   "says": [
+    "falsetto vocals",
+    "deep 808 sub bass",
+    "a bass drop"
+   ],
+   "name": "bridge"
+  },
+  {
+   "start": 162.58,
+   "end": 182.8,
+   "letter": "D",
+   "says": [
+    "a clean polished pop production",
+    "a powerful belted vocal",
+    "bright synthesizer lead"
+   ],
+   "name": "chorus"
+  },
+  {
+   "start": 182.8,
+   "end": 210.8,
+   "letter": "E",
+   "says": [
+    "singing in Japanese",
+    "bells or glockenspiel",
+    "a clean polished pop production"
+   ],
+   "name": "outro"
+  }
+ ],
+ "62": [
+  {
+   "start": 0.0,
+   "end": 3.36,
+   "letter": "A",
+   "says": [
+    "ukulele",
+    "fast rapping",
+    "a drum fill"
+   ],
+   "name": "intro"
+  },
+  {
+   "start": 3.36,
+   "end": 33.1,
+   "letter": "B",
+   "says": [
+    "violin",
+    "a song intro",
+    "triumphant and uplifting"
+   ],
+   "name": "verse"
+  },
+  {
+   "start": 33.1,
+   "end": 47.98,
+   "letter": "C",
+   "says": [
+    "a bass guitar groove",
+    "dreamy and floating",
+    "a stripped-back arrangement"
+   ],
+   "name": "verse"
+  },
+  {
+   "start": 47.98,
+   "end": 62.88,
+   "letter": "D",
+   "says": [
+    "layered vocal harmonies",
+    "brass and horns",
+    "a build-up before a drop"
+   ],
+   "name": "chorus"
+  },
+  {
+   "start": 62.88,
+   "end": 77.76,
+   "letter": "E",
+   "says": [
+    "medium energy",
+    "a laid-back boom bap beat",
+    "a quiet verse with sparse backing"
+   ],
+   "name": "postchorus"
+  },
+  {
+   "start": 77.76,
+   "end": 92.64,
+   "letter": "F",
+   "says": [
+    "a shuffling swung rhythm",
+    "sleigh bells",
+    "confident and swaggering"
+   ],
+   "name": "verse"
+  },
+  {
+   "start": 92.64,
+   "end": 107.52,
+   "letter": "G",
+   "says": [
+    "a four-on-the-floor kick drum",
+    "medium energy",
+    "singing in Japanese"
+   ],
+   "name": "verse"
+  },
+  {
+   "start": 107.52,
+   "end": 122.42,
+   "letter": "D",
+   "says": [
+    "hand claps and finger snaps",
+    "singing in Japanese",
+    "ukulele"
+   ],
+   "name": "chorus"
+  },
+  {
+   "start": 122.42,
+   "end": 137.3,
+   "letter": "E",
+   "says": [
+    "a four-on-the-floor kick drum",
+    "the final climactic chorus",
+    "epic and cinematic"
+   ],
+   "name": "postchorus"
+  },
+  {
+   "start": 137.3,
+   "end": 144.74,
+   "letter": "H",
+   "says": [
+    "lo-fi, muffled and filtered",
+    "warm synth pads",
+    "lonely and heartbroken"
+   ],
+   "name": "bridge"
+  },
+  {
+   "start": 144.74,
+   "end": 159.62,
+   "letter": "B",
+   "says": [
+    "solo piano",
+    "lonely and heartbroken",
+    "a vocal chop sample"
+   ],
+   "name": "verse"
+  },
+  {
+   "start": 159.62,
+   "end": 193.7,
+   "letter": "D",
+   "says": [
+    "a choir or group vocals",
+    "lo-fi, muffled and filtered",
+    "banjo or mandolin"
+   ],
+   "name": "chorus"
+  }
+ ],
+ "63": [
+  {
+   "start": 0.0,
+   "end": 14.22,
+   "letter": "A",
+   "says": [
+    "sleigh bells",
+    "fast rapping",
+    "trap hi-hats and 808s"
+   ],
+   "name": "intro"
+  },
+  {
+   "start": 14.22,
+   "end": 36.06,
+   "letter": "B",
+   "says": [
+    "confident and swaggering",
+    "bright and sparkling",
+    "medium energy"
+   ],
+   "name": "verse"
+  },
+  {
+   "start": 36.06,
+   "end": 46.98,
+   "letter": "C",
+   "says": [
+    "a four-on-the-floor kick drum",
+    "triumphant and uplifting",
+    "the final climactic chorus"
+   ],
+   "name": "verse"
+  },
+  {
+   "start": 46.98,
+   "end": 68.76,
+   "letter": "D",
+   "says": [
+    "hand claps and finger snaps",
+    "dense wall of sound",
+    "female singing"
+   ],
+   "name": "chorus"
+  },
+  {
+   "start": 68.76,
+   "end": 93.34,
+   "letter": "E",
+   "says": [
+    "a stripped-back arrangement",
+    "a string section",
+    "heavily autotuned vocals"
+   ],
+   "name": "instrumental"
+  },
+  {
+   "start": 93.34,
+   "end": 161.6,
+   "letter": "D",
+   "says": [
+    "female singing",
+    "fast tempo",
+    "brass and horns"
+   ],
+   "name": "chorus"
+  }
+ ],
+ "64": [
+  {
+   "start": 0.0,
+   "end": 16.76,
+   "letter": "A",
+   "says": [
+    "brass and horns",
+    "sparse minimal percussion",
+    "a powerful belted vocal"
+   ],
+   "name": "intro"
+  },
+  {
+   "start": 16.76,
+   "end": 31.1,
+   "letter": "B",
+   "says": [
+    "lo-fi, muffled and filtered",
+    "a build-up before a drop",
+    "deep 808 sub bass"
+   ],
+   "name": "verse"
+  },
+  {
+   "start": 31.1,
+   "end": 65.98,
+   "letter": "C",
+   "says": [
+    "a four-on-the-floor kick drum",
+    "playful and silly",
+    "fast tempo"
+   ],
+   "name": "chorus"
+  },
+  {
+   "start": 65.98,
+   "end": 82.4,
+   "letter": "C",
+   "says": [
+    "fast tempo",
+    "male singing",
+    "solo piano"
+   ],
+   "name": "chorus"
+  },
+  {
+   "start": 82.4,
+   "end": 98.82,
+   "letter": "C",
+   "says": [
+    "vinyl crackle and tape hiss",
+    "fast tempo",
+    "rapping"
+   ],
+   "name": "chorus"
+  },
+  {
+   "start": 98.82,
+   "end": 115.2,
+   "letter": "B",
+   "says": [
+    "lo-fi, muffled and filtered",
+    "a build-up before a drop",
+    "deep 808 sub bass"
+   ],
+   "name": "verse"
+  },
+  {
+   "start": 115.2,
+   "end": 131.64,
+   "letter": "D",
+   "says": [
+    "falsetto vocals",
+    "warm synth pads",
+    "the final climactic chorus"
+   ],
+   "name": "bridge"
+  },
+  {
+   "start": 131.64,
+   "end": 140.0,
+   "letter": "A",
+   "says": [
+    "bells or glockenspiel",
+    "sparse minimal percussion",
+    "bright and sparkling"
+   ],
+   "name": "outro"
+  }
+ ],
+ "65": [
+  {
+   "start": 0.0,
+   "end": 8.3,
+   "letter": "A",
+   "says": [
+    "violin",
+    "a powerful belted vocal",
+    "confident and swaggering"
+   ],
+   "name": "intro"
+  },
+  {
+   "start": 8.3,
+   "end": 40.2,
+   "letter": "B",
+   "says": [
+    "playful and silly",
+    "a bass guitar groove",
+    "male singing"
+   ],
+   "name": "verse"
+  },
+  {
+   "start": 40.2,
+   "end": 72.1,
+   "letter": "C",
+   "says": [
+    "female singing",
+    "hand claps and finger snaps",
+    "heavy reverb, spacious sound"
+   ],
+   "name": "chorus"
+  },
+  {
+   "start": 72.1,
+   "end": 96.02,
+   "letter": "B",
+   "says": [
+    "a bass guitar groove",
+    "playful and silly",
+    "fast rapping"
+   ],
+   "name": "verse"
+  },
+  {
+   "start": 96.02,
+   "end": 111.96,
+   "letter": "D",
+   "says": [
+    "distorted electric guitar",
+    "angry and aggressive",
+    "a sudden drop in energy"
+   ],
+   "name": "bridge"
+  },
+  {
+   "start": 111.96,
+   "end": 143.86,
+   "letter": "C",
+   "says": [
+    "female singing",
+    "a pitched-down slowed sound",
+    "very quiet and sparse"
+   ],
+   "name": "chorus"
+  },
+  {
+   "start": 143.86,
+   "end": 158.1,
+   "letter": "E",
+   "says": [
+    "sparse minimal percussion",
+    "a full orchestra",
+    "an outro fading out"
+   ],
+   "name": "outro"
+  }
+ ],
+ "66": [
+  {
+   "start": 0.0,
+   "end": 8.7,
+   "letter": "A",
+   "says": [
+    "vinyl crackle and tape hiss",
+    "pounding heavy drums",
+    "rapping"
+   ],
+   "name": "intro"
+  },
+  {
+   "start": 8.7,
+   "end": 12.4,
+   "letter": "B",
+   "says": [
+    "an electric guitar solo",
+    "a bridge that changes key or mood",
+    "steady and repetitive"
+   ],
+   "name": "instrumental"
+  },
+  {
+   "start": 12.4,
+   "end": 19.42,
+   "letter": "C",
+   "says": [
+    "heavily autotuned vocals",
+    "a bridge that changes key or mood",
+    "a pitched-down slowed sound"
+   ],
+   "name": "verse"
+  },
+  {
+   "start": 19.42,
+   "end": 26.3,
+   "letter": "D",
+   "says": [
+    "slow tempo",
+    "hand claps and finger snaps",
+    "a pitched-down slowed sound"
+   ],
+   "name": "verse"
+  },
+  {
+   "start": 26.3,
+   "end": 35.8,
+   "letter": "E",
+   "says": [
+    "fingerpicked acoustic guitar",
+    "bright and sparkling",
+    "happy and upbeat"
+   ],
+   "name": "chorus"
+  },
+  {
+   "start": 35.8,
+   "end": 54.52,
+   "letter": "D",
+   "says": [
+    "a quiet verse with sparse backing",
+    "sad and melancholic",
+    "a string section"
+   ],
+   "name": "verse"
+  },
+  {
+   "start": 54.52,
+   "end": 87.3,
+   "letter": "F",
+   "says": [
+    "male singing",
+    "glitchy electronic effects",
+    "medium energy"
+   ],
+   "name": "verse"
+  },
+  {
+   "start": 87.3,
+   "end": 94.34,
+   "letter": "E",
+   "says": [
+    "a bass guitar groove",
+    "fast tempo",
+    "festive and cheerful"
+   ],
+   "name": "chorus"
+  },
+  {
+   "start": 94.34,
+   "end": 112.92,
+   "letter": "D",
+   "says": [
+    "a soft breathy voice",
+    "slowly building intensity",
+    "sparse minimal percussion"
+   ],
+   "name": "verse"
+  },
+  {
+   "start": 112.92,
+   "end": 124.78,
+   "letter": "E",
+   "says": [
+    "medium energy",
+    "a clean polished pop production",
+    "playful and silly"
+   ],
+   "name": "chorus"
+  },
+  {
+   "start": 124.78,
+   "end": 131.8,
+   "letter": "F",
+   "says": [
+    "bright synthesizer lead",
+    "a clean polished pop production",
+    "singing in Japanese"
+   ],
+   "name": "verse"
+  },
+  {
+   "start": 131.8,
+   "end": 144.54,
+   "letter": "G",
+   "says": [
+    "a four-on-the-floor kick drum",
+    "spoken word, people talking",
+    "a build-up before a drop"
+   ],
+   "name": "instrumental"
+  },
+  {
+   "start": 144.54,
+   "end": 148.04,
+   "letter": "E",
+   "says": [
+    "a pitched-down slowed sound",
+    "violin",
+    "hand claps and finger snaps"
+   ],
+   "name": "chorus"
+  },
+  {
+   "start": 148.04,
+   "end": 163.26,
+   "letter": "H",
+   "says": [
+    "ukulele",
+    "a big singalong chorus",
+    "angry and aggressive"
+   ],
+   "name": "verse"
+  },
+  {
+   "start": 163.26,
+   "end": 178.9,
+   "letter": "H",
+   "says": [
+    "warm synth pads",
+    "fast rapping",
+    "playful and silly"
+   ],
+   "name": "outro"
+  }
+ ],
+ "67": [
+  {
+   "start": 0.0,
+   "end": 24.9,
+   "letter": "A",
+   "says": [
+    "sleigh bells",
+    "psychedelic and hazy",
+    "a big singalong chorus"
+   ],
+   "name": "intro"
+  },
+  {
+   "start": 24.9,
+   "end": 60.48,
+   "letter": "B",
+   "says": [
+    "bright and sparkling",
+    "saxophone",
+    "playful and silly"
+   ],
+   "name": "verse"
+  },
+  {
+   "start": 60.48,
+   "end": 84.2,
+   "letter": "C",
+   "says": [
+    "a build-up before a drop",
+    "a distorted gritty sound",
+    "shouted vocals"
+   ],
+   "name": "chorus"
+  },
+  {
+   "start": 84.2,
+   "end": 107.9,
+   "letter": "C",
+   "says": [
+    "silence or near silence",
+    "rapping",
+    "wide atmospheric ambience"
+   ],
+   "name": "chorus"
+  },
+  {
+   "start": 107.9,
+   "end": 131.64,
+   "letter": "D",
+   "says": [
+    "lonely and heartbroken",
+    "warm synth pads",
+    "bright and sparkling"
+   ],
+   "name": "bridge"
+  },
+  {
+   "start": 131.64,
+   "end": 155.34,
+   "letter": "E",
+   "says": [
+    "pounding heavy drums",
+    "dark and moody",
+    "shouted vocals"
+   ],
+   "name": "bridge"
+  },
+  {
+   "start": 155.34,
+   "end": 171.4,
+   "letter": "F",
+   "says": [
+    "an organ",
+    "sparse minimal percussion",
+    "the final climactic chorus"
+   ],
+   "name": "outro"
+  }
+ ],
+ "68": [
+  {
+   "start": 0.0,
+   "end": 14.88,
+   "letter": "A",
+   "says": [
+    "lo-fi, muffled and filtered",
+    "female singing",
+    "warm synth pads"
+   ],
+   "name": "intro"
+  },
+  {
+   "start": 14.88,
+   "end": 35.44,
+   "letter": "B",
+   "says": [
+    "bright synthesizer lead",
+    "calm and gentle",
+    "sad and melancholic"
+   ],
+   "name": "prechorus"
+  },
+  {
+   "start": 35.44,
+   "end": 76.5,
+   "letter": "C",
+   "says": [
+    "a slow half-time beat",
+    "a build-up before a drop",
+    "steady and repetitive"
+   ],
+   "name": "chorus"
+  },
+  {
+   "start": 76.5,
+   "end": 117.56,
+   "letter": "C",
+   "says": [
+    "a bass guitar groove",
+    "steady and repetitive",
+    "a shuffling swung rhythm"
+   ],
+   "name": "chorus"
+  },
+  {
+   "start": 117.56,
+   "end": 127.84,
+   "letter": "D",
+   "says": [
+    "glitchy electronic effects",
+    "humming or wordless vocals",
+    "a shuffling swung rhythm"
+   ],
+   "name": "verse"
+  },
+  {
+   "start": 127.84,
+   "end": 138.18,
+   "letter": "A",
+   "says": [
+    "female singing",
+    "vinyl crackle and tape hiss",
+    "pounding heavy drums"
+   ],
+   "name": "verse"
+  },
+  {
+   "start": 138.18,
+   "end": 148.46,
+   "letter": "B",
+   "says": [
+    "female singing",
+    "pounding heavy drums",
+    "very quiet and sparse"
+   ],
+   "name": "prechorus"
+  },
+  {
+   "start": 148.46,
+   "end": 189.52,
+   "letter": "C",
+   "says": [
+    "banjo or mandolin",
+    "loud and energetic",
+    "a bouncy danceable groove"
+   ],
+   "name": "chorus"
+  },
+  {
+   "start": 189.52,
+   "end": 210.3,
+   "letter": "E",
+   "says": [
+    "warm synth pads",
+    "falsetto vocals",
+    "a bass drop"
+   ],
+   "name": "outro"
+  }
+ ],
+ "69": [
+  {
+   "start": 0.0,
+   "end": 14.34,
+   "letter": "A",
+   "says": [
+    "hand claps and finger snaps",
+    "a quiet breakdown",
+    "psychedelic and hazy"
+   ],
+   "name": "intro"
+  },
+  {
+   "start": 14.34,
+   "end": 40.04,
+   "letter": "B",
+   "says": [
+    "female singing",
+    "lo-fi, muffled and filtered",
+    "deep 808 sub bass"
+   ],
+   "name": "chorus"
+  },
+  {
+   "start": 40.04,
+   "end": 57.22,
+   "letter": "C",
+   "says": [
+    "chill and relaxed",
+    "a laid-back boom bap beat",
+    "deep 808 sub bass"
+   ],
+   "name": "verse"
+  },
+  {
+   "start": 57.22,
+   "end": 69.2,
+   "letter": "A",
+   "says": [
+    "a quiet breakdown",
+    "a string section",
+    "sad and melancholic"
+   ],
+   "name": "prechorus"
+  },
+  {
+   "start": 69.2,
+   "end": 110.36,
+   "letter": "B",
+   "says": [
+    "female singing",
+    "very quiet and sparse",
+    "silence or near silence"
+   ],
+   "name": "chorus"
+  },
+  {
+   "start": 110.36,
+   "end": 126.1,
+   "letter": "D",
+   "says": [
+    "violin",
+    "a song intro",
+    "festive and cheerful"
+   ],
+   "name": "outro"
+  }
+ ],
+ "70": [
+  {
+   "start": 0.0,
+   "end": 25.68,
+   "letter": "A",
+   "says": [
+    "male singing",
+    "banjo or mandolin",
+    "a big singalong chorus"
+   ],
+   "name": "intro"
+  },
+  {
+   "start": 25.68,
+   "end": 37.98,
+   "letter": "B",
+   "says": [
+    "bells or glockenspiel",
+    "sparse minimal percussion",
+    "bright and sparkling"
+   ],
+   "name": "instrumental"
+  },
+  {
+   "start": 37.98,
+   "end": 56.46,
+   "letter": "C",
+   "says": [
+    "a sudden drop in energy",
+    "a bass guitar groove",
+    "a build-up before a drop"
+   ],
+   "name": "verse"
+  },
+  {
+   "start": 56.46,
+   "end": 130.26,
+   "letter": "D",
+   "says": [
+    "a bass drop",
+    "bright synthesizer lead",
+    "dark and moody"
+   ],
+   "name": "chorus"
+  },
+  {
+   "start": 130.26,
+   "end": 170.28,
+   "letter": "C",
+   "says": [
+    "ukulele",
+    "bright and sparkling",
+    "playful and silly"
+   ],
+   "name": "verse"
+  },
+  {
+   "start": 170.28,
+   "end": 184.14,
+   "letter": "E",
+   "says": [
+    "pounding heavy drums",
+    "bells or glockenspiel",
+    "fast tempo"
+   ],
+   "name": "instrumental"
+  },
+  {
+   "start": 184.14,
+   "end": 235.9,
+   "letter": "D",
+   "says": [
+    "bright synthesizer lead",
+    "a bass drop",
+    "epic and cinematic"
+   ],
+   "name": "chorus"
+  }
+ ],
+ "71": [
+  {
+   "start": 0.0,
+   "end": 15.2,
+   "letter": "A",
+   "says": [
+    "bells or glockenspiel",
+    "an instrumental interlude",
+    "sparse minimal percussion"
+   ],
+   "name": "intro"
+  },
+  {
+   "start": 15.2,
+   "end": 57.4,
+   "letter": "B",
+   "says": [
+    "hand claps and finger snaps",
+    "happy and upbeat",
+    "a quiet verse with sparse backing"
+   ],
+   "name": "verse"
+  },
+  {
+   "start": 57.4,
+   "end": 73.46,
+   "letter": "C",
+   "says": [
+    "psychedelic and hazy",
+    "a laid-back boom bap beat",
+    "saxophone"
+   ],
+   "name": "chorus"
+  },
+  {
+   "start": 73.46,
+   "end": 81.5,
+   "letter": "D",
+   "says": [
+    "sparse minimal percussion",
+    "bells or glockenspiel",
+    "anxious and tense"
+   ],
+   "name": "verse"
+  },
+  {
+   "start": 81.5,
+   "end": 97.58,
+   "letter": "B",
+   "says": [
+    "hand claps and finger snaps",
+    "a bass guitar groove",
+    "happy and upbeat"
+   ],
+   "name": "verse"
+  },
+  {
+   "start": 97.58,
+   "end": 113.64,
+   "letter": "C",
+   "says": [
+    "confident and swaggering",
+    "a laid-back boom bap beat",
+    "lo-fi, muffled and filtered"
+   ],
+   "name": "chorus"
+  },
+  {
+   "start": 113.64,
+   "end": 127.7,
+   "letter": "E",
+   "says": [
+    "a shuffling swung rhythm",
+    "an instrumental interlude",
+    "a pitched-down slowed sound"
+   ],
+   "name": "instrumental"
+  },
+  {
+   "start": 127.7,
+   "end": 145.78,
+   "letter": "B",
+   "says": [
+    "triumphant and uplifting",
+    "a big singalong chorus",
+    "loud and energetic"
+   ],
+   "name": "verse"
+  },
+  {
+   "start": 145.78,
+   "end": 161.86,
+   "letter": "C",
+   "says": [
+    "female singing",
+    "a big singalong chorus",
+    "loud and energetic"
+   ],
+   "name": "chorus"
+  },
+  {
+   "start": 161.86,
+   "end": 194.0,
+   "letter": "F",
+   "says": [
+    "sleigh bells",
+    "a big singalong chorus",
+    "a choir or group vocals"
+   ],
+   "name": "bridge"
+  },
+  {
+   "start": 194.0,
+   "end": 231.6,
+   "letter": "C",
+   "says": [
+    "bright synthesizer lead",
+    "falsetto vocals",
+    "a clean polished pop production"
+   ],
+   "name": "chorus"
+  }
+ ],
+ "72": [
+  {
+   "start": 0.0,
+   "end": 18.52,
+   "letter": "A",
+   "says": [
+    "bells or glockenspiel",
+    "dreamy and floating",
+    "bright and sparkling"
+   ],
+   "name": "intro"
+  },
+  {
+   "start": 18.52,
+   "end": 36.8,
+   "letter": "B",
+   "says": [
+    "happy and upbeat",
+    "solo piano",
+    "slow tempo"
+   ],
+   "name": "verse"
+  },
+  {
+   "start": 36.8,
+   "end": 73.38,
+   "letter": "C",
+   "says": [
+    "fast rapping",
+    "a song intro",
+    "medium energy"
+   ],
+   "name": "verse"
+  },
+  {
+   "start": 73.38,
+   "end": 91.66,
+   "letter": "B",
+   "says": [
+    "medium energy",
+    "sad and melancholic",
+    "bright and sparkling"
+   ],
+   "name": "verse"
+  },
+  {
+   "start": 91.66,
+   "end": 112.24,
+   "letter": "D",
+   "says": [
+    "a pitched-down slowed sound",
+    "layered vocal harmonies",
+    "very quiet and sparse"
+   ],
+   "name": "verse"
+  },
+  {
+   "start": 112.24,
+   "end": 146.52,
+   "letter": "C",
+   "says": [
+    "fast rapping",
+    "a song intro",
+    "pounding heavy drums"
+   ],
+   "name": "verse"
+  },
+  {
+   "start": 146.52,
+   "end": 164.8,
+   "letter": "B",
+   "says": [
+    "a bass drop",
+    "medium energy",
+    "falsetto vocals"
+   ],
+   "name": "verse"
+  },
+  {
+   "start": 164.8,
+   "end": 183.1,
+   "letter": "D",
+   "says": [
+    "layered vocal harmonies",
+    "a big singalong chorus",
+    "very quiet and sparse"
+   ],
+   "name": "verse"
+  },
+  {
+   "start": 183.1,
+   "end": 201.38,
+   "letter": "A",
+   "says": [
+    "brass and horns",
+    "silence or near silence",
+    "a slow half-time beat"
+   ],
+   "name": "chorus"
+  },
+  {
+   "start": 201.38,
+   "end": 213.1,
+   "letter": "A",
+   "says": [
+    "brass and horns",
+    "hand claps and finger snaps",
+    "vinyl crackle and tape hiss"
+   ],
+   "name": "outro"
+  }
+ ],
+ "73": [
+  {
+   "start": 0.0,
+   "end": 7.1,
+   "letter": "A",
+   "says": [
+    "a song intro",
+    "a powerful belted vocal",
+    "trap hi-hats and 808s"
+   ],
+   "name": "intro"
+  },
+  {
+   "start": 7.1,
+   "end": 21.22,
+   "letter": "B",
+   "says": [
+    "confident and swaggering",
+    "a slow half-time beat",
+    "a bass guitar groove"
+   ],
+   "name": "verse"
+  },
+  {
+   "start": 21.22,
+   "end": 35.34,
+   "letter": "C",
+   "says": [
+    "trap hi-hats and 808s",
+    "anxious and tense",
+    "a quiet verse with sparse backing"
+   ],
+   "name": "prechorus"
+  },
+  {
+   "start": 35.34,
+   "end": 63.58,
+   "letter": "D",
+   "says": [
+    "banjo or mandolin",
+    "rapping",
+    "fast tempo"
+   ],
+   "name": "chorus"
+  },
+  {
+   "start": 63.58,
+   "end": 67.1,
+   "letter": "A",
+   "says": [
+    "hand claps and finger snaps",
+    "warm synth pads",
+    "bright and sparkling"
+   ],
+   "name": "verse"
+  },
+  {
+   "start": 67.1,
+   "end": 81.22,
+   "letter": "B",
+   "says": [
+    "psychedelic and hazy",
+    "a slow half-time beat",
+    "solo piano"
+   ],
+   "name": "verse"
+  },
+  {
+   "start": 81.22,
+   "end": 95.34,
+   "letter": "C",
+   "says": [
+    "psychedelic and hazy",
+    "a stripped-back arrangement",
+    "heavily autotuned vocals"
+   ],
+   "name": "prechorus"
+  },
+  {
+   "start": 95.34,
+   "end": 123.58,
+   "letter": "D",
+   "says": [
+    "banjo or mandolin",
+    "hand claps and finger snaps",
+    "rapping"
+   ],
+   "name": "chorus"
+  },
+  {
+   "start": 123.58,
+   "end": 148.08,
+   "letter": "E",
+   "says": [
+    "warm synth pads",
+    "a powerful belted vocal",
+    "the final climactic chorus"
+   ],
+   "name": "bridge"
+  },
+  {
+   "start": 148.08,
+   "end": 153.0,
+   "letter": "F",
+   "says": [
+    "a vocal chop sample",
+    "a big singalong chorus",
+    "warm synth pads"
+   ],
+   "name": "outro"
+  }
+ ],
+ "74": [
+  {
+   "start": 0.0,
+   "end": 9.22,
+   "letter": "A",
+   "says": [
+    "warm synth pads",
+    "fast rapping",
+    "lo-fi, muffled and filtered"
+   ],
+   "name": "intro"
+  },
+  {
+   "start": 9.22,
+   "end": 43.22,
+   "letter": "B",
+   "says": [
+    "lo-fi, muffled and filtered",
+    "deep 808 sub bass",
+    "calm and gentle"
+   ],
+   "name": "verse"
+  },
+  {
+   "start": 43.22,
+   "end": 69.48,
+   "letter": "C",
+   "says": [
+    "romantic and tender",
+    "bright and sparkling",
+    "solo piano"
+   ],
+   "name": "instrumental"
+  },
+  {
+   "start": 69.48,
+   "end": 99.48,
+   "letter": "D",
+   "says": [
+    "a build-up before a drop",
+    "steady and repetitive",
+    "a choir or group vocals"
+   ],
+   "name": "chorus"
+  },
+  {
+   "start": 99.48,
+   "end": 114.46,
+   "letter": "D",
+   "says": [
+    "a choir or group vocals",
+    "dense wall of sound",
+    "a big singalong chorus"
+   ],
+   "name": "chorus"
+  },
+  {
+   "start": 114.46,
+   "end": 119.84,
+   "letter": "E",
+   "says": [
+    "fast rapping",
+    "glitchy electronic effects",
+    "banjo or mandolin"
+   ],
+   "name": "postchorus"
+  },
+  {
+   "start": 119.84,
+   "end": 125.72,
+   "letter": "B",
+   "says": [
+    "deep 808 sub bass",
+    "a bass drop",
+    "lo-fi, muffled and filtered"
+   ],
+   "name": "verse"
+  },
+  {
+   "start": 125.72,
+   "end": 168.62,
+   "letter": "B",
+   "says": [
+    "deep 808 sub bass",
+    "bright and sparkling",
+    "calm and gentle"
+   ],
+   "name": "verse"
+  },
+  {
+   "start": 168.62,
+   "end": 181.98,
+   "letter": "C",
+   "says": [
+    "violin",
+    "female singing",
+    "live rock drums"
+   ],
+   "name": "verse"
+  },
+  {
+   "start": 181.98,
+   "end": 196.98,
+   "letter": "F",
+   "says": [
+    "pounding heavy drums",
+    "fast tempo",
+    "a full rock band"
+   ],
+   "name": "instrumental"
+  },
+  {
+   "start": 196.98,
+   "end": 204.42,
+   "letter": "F",
+   "says": [
+    "pounding heavy drums",
+    "a distorted gritty sound",
+    "fast tempo"
+   ],
+   "name": "instrumental"
+  },
+  {
+   "start": 204.42,
+   "end": 210.1,
+   "letter": "G",
+   "says": [
+    "pounding heavy drums",
+    "glitchy electronic effects",
+    "brass and horns"
+   ],
+   "name": "bridge"
+  },
+  {
+   "start": 210.1,
+   "end": 237.76,
+   "letter": "D",
+   "says": [
+    "a choir or group vocals",
+    "a build-up before a drop",
+    "dense wall of sound"
+   ],
+   "name": "chorus"
+  },
+  {
+   "start": 237.76,
+   "end": 256.5,
+   "letter": "D",
+   "says": [
+    "a big singalong chorus",
+    "a choir or group vocals",
+    "an explosive, intense peak"
+   ],
+   "name": "chorus"
+  },
+  {
+   "start": 256.5,
+   "end": 260.24,
+   "letter": "E",
+   "says": [
+    "spoken word, people talking",
+    "a beat switch",
+    "very quiet and sparse"
+   ],
+   "name": "postchorus"
+  },
+  {
+   "start": 260.24,
+   "end": 271.7,
+   "letter": "A",
+   "says": [
+    "hand claps and finger snaps",
+    "deep 808 sub bass",
+    "slow tempo"
+   ],
+   "name": "outro"
+  }
+ ],
+ "75": [
+  {
+   "start": 0.0,
+   "end": 13.46,
+   "letter": "A",
+   "says": [
+    "banjo or mandolin",
+    "hand claps and finger snaps",
+    "an outro fading out"
+   ],
+   "name": "intro"
+  },
+  {
+   "start": 13.46,
+   "end": 38.92,
+   "letter": "B",
+   "says": [
+    "angry and aggressive",
+    "a vocal chop sample",
+    "a four-on-the-floor kick drum"
+   ],
+   "name": "verse"
+  },
+  {
+   "start": 38.92,
+   "end": 51.62,
+   "letter": "C",
+   "says": [
+    "an outro fading out",
+    "a vocal chop sample",
+    "slowly building intensity"
+   ],
+   "name": "verse"
+  },
+  {
+   "start": 51.62,
+   "end": 64.34,
+   "letter": "D",
+   "says": [
+    "banjo or mandolin",
+    "layered vocal harmonies",
+    "a stripped-back arrangement"
+   ],
+   "name": "verse"
+  },
+  {
+   "start": 64.34,
+   "end": 115.2,
+   "letter": "E",
+   "says": [
+    "bright and sparkling",
+    "happy and upbeat",
+    "solo piano"
+   ],
+   "name": "verse"
+  },
+  {
+   "start": 115.2,
+   "end": 143.8,
+   "letter": "F",
+   "says": [
+    "fast tempo",
+    "pounding heavy drums",
+    "sleigh bells"
+   ],
+   "name": "chorus"
+  },
+  {
+   "start": 143.8,
+   "end": 169.26,
+   "letter": "B",
+   "says": [
+    "banjo or mandolin",
+    "vinyl crackle and tape hiss",
+    "a big singalong chorus"
+   ],
+   "name": "verse"
+  },
+  {
+   "start": 169.26,
+   "end": 181.96,
+   "letter": "G",
+   "says": [
+    "warm synth pads",
+    "lonely and heartbroken",
+    "heavy reverb, spacious sound"
+   ],
+   "name": "bridge"
+  },
+  {
+   "start": 181.96,
+   "end": 205.82,
+   "letter": "E",
+   "says": [
+    "sleigh bells",
+    "fast rapping",
+    "a big singalong chorus"
+   ],
+   "name": "verse"
+  },
+  {
+   "start": 205.82,
+   "end": 213.76,
+   "letter": "H",
+   "says": [
+    "a big singalong chorus",
+    "a full rock band",
+    "a choir or group vocals"
+   ],
+   "name": "bridge"
+  },
+  {
+   "start": 213.76,
+   "end": 239.18,
+   "letter": "F",
+   "says": [
+    "psychedelic and hazy",
+    "hand claps and finger snaps",
+    "sleigh bells"
+   ],
+   "name": "chorus"
+  },
+  {
+   "start": 239.18,
+   "end": 243.0,
+   "letter": "I",
+   "says": [
+    "hand claps and finger snaps",
+    "deep 808 sub bass",
+    "fast rapping"
+   ],
+   "name": "outro"
+  }
+ ],
+ "76": [
+  {
+   "start": 0.0,
+   "end": 9.06,
+   "letter": "A",
+   "says": [
+    "banjo or mandolin",
+    "a vocal chop sample",
+    "a big singalong chorus"
+   ],
+   "name": "intro"
+  },
+  {
+   "start": 9.06,
+   "end": 44.96,
+   "letter": "B",
+   "says": [
+    "deep 808 sub bass",
+    "lo-fi, muffled and filtered",
+    "female singing"
+   ],
+   "name": "verse"
+  },
+  {
+   "start": 44.96,
+   "end": 62.9,
+   "letter": "C",
+   "says": [
+    "heavily autotuned vocals",
+    "sad and melancholic",
+    "a quiet verse with sparse backing"
+   ],
+   "name": "prechorus"
+  },
+  {
+   "start": 62.9,
+   "end": 80.84,
+   "letter": "D",
+   "says": [
+    "angry and aggressive",
+    "distorted electric guitar",
+    "medium energy"
+   ],
+   "name": "chorus"
+  },
+  {
+   "start": 80.84,
+   "end": 116.72,
+   "letter": "B",
+   "says": [
+    "deep 808 sub bass",
+    "lo-fi, muffled and filtered",
+    "hand claps and finger snaps"
+   ],
+   "name": "verse"
+  },
+  {
+   "start": 116.72,
+   "end": 134.68,
+   "letter": "C",
+   "says": [
+    "a quiet verse with sparse backing",
+    "heavily autotuned vocals",
+    "sad and melancholic"
+   ],
+   "name": "prechorus"
+  },
+  {
+   "start": 134.68,
+   "end": 152.62,
+   "letter": "D",
+   "says": [
+    "medium energy",
+    "angry and aggressive",
+    "distorted electric guitar"
+   ],
+   "name": "chorus"
+  },
+  {
+   "start": 152.62,
+   "end": 171.2,
+   "letter": "A",
+   "says": [
+    "banjo or mandolin",
+    "pounding heavy drums",
+    "a powerful belted vocal"
+   ],
+   "name": "outro"
+  }
+ ],
+ "77": [
+  {
+   "start": 0.0,
+   "end": 25.44,
+   "letter": "A",
+   "says": [
+    "a powerful belted vocal",
+    "trap hi-hats and 808s",
+    "vinyl crackle and tape hiss"
+   ],
+   "name": "intro"
+  },
+  {
+   "start": 25.44,
+   "end": 62.7,
+   "letter": "B",
+   "says": [
+    "fast rapping",
+    "epic and cinematic",
+    "slowly building intensity"
+   ],
+   "name": "verse"
+  },
+  {
+   "start": 62.7,
+   "end": 70.26,
+   "letter": "C",
+   "says": [
+    "fast rapping",
+    "festive and cheerful",
+    "an instrumental interlude"
+   ],
+   "name": "prechorus"
+  },
+  {
+   "start": 70.26,
+   "end": 88.24,
+   "letter": "D",
+   "says": [
+    "ukulele",
+    "psychedelic and hazy",
+    "layered vocal harmonies"
+   ],
+   "name": "chorus"
+  },
+  {
+   "start": 88.24,
+   "end": 96.48,
+   "letter": "E",
+   "says": [
+    "hand claps and finger snaps",
+    "a quiet verse with sparse backing",
+    "bells or glockenspiel"
+   ],
+   "name": "verse"
+  },
+  {
+   "start": 96.48,
+   "end": 118.58,
+   "letter": "B",
+   "says": [
+    "fast rapping",
+    "slowly building intensity",
+    "bells or glockenspiel"
+   ],
+   "name": "verse"
+  },
+  {
+   "start": 118.58,
+   "end": 136.48,
+   "letter": "C",
+   "says": [
+    "fast rapping",
+    "saxophone",
+    "fast tempo"
+   ],
+   "name": "prechorus"
+  },
+  {
+   "start": 136.48,
+   "end": 168.9,
+   "letter": "D",
+   "says": [
+    "ukulele",
+    "psychedelic and hazy",
+    "layered vocal harmonies"
+   ],
+   "name": "chorus"
+  },
+  {
+   "start": 168.9,
+   "end": 199.28,
+   "letter": "A",
+   "says": [
+    "spoken word, people talking",
+    "hand claps and finger snaps",
+    "a build-up before a drop"
+   ],
+   "name": "verse"
+  },
+  {
+   "start": 199.28,
+   "end": 203.6,
+   "letter": "F",
+   "says": [
+    "singing in Japanese",
+    "deep 808 sub bass",
+    "a bass drop"
+   ],
+   "name": "outro"
+  }
+ ],
+ "78": [
+  {
+   "start": 0.0,
+   "end": 6.48,
+   "letter": "A",
+   "says": [
+    "confident and swaggering",
+    "warm synth pads",
+    "fast rapping"
+   ],
+   "name": "intro"
+  },
+  {
+   "start": 6.48,
+   "end": 26.28,
+   "letter": "B",
+   "says": [
+    "vinyl crackle and tape hiss",
+    "a quiet verse with sparse backing",
+    "pounding heavy drums"
+   ],
+   "name": "prechorus"
+  },
+  {
+   "start": 26.28,
+   "end": 65.86,
+   "letter": "C",
+   "says": [
+    "male singing",
+    "happy and upbeat",
+    "a big singalong chorus"
+   ],
+   "name": "chorus"
+  },
+  {
+   "start": 65.86,
+   "end": 75.76,
+   "letter": "D",
+   "says": [
+    "hand claps and finger snaps",
+    "clean electric guitar",
+    "lo-fi, muffled and filtered"
+   ],
+   "name": "postchorus"
+  },
+  {
+   "start": 75.76,
+   "end": 95.56,
+   "letter": "B",
+   "says": [
+    "confident and swaggering",
+    "violin",
+    "a beat switch"
+   ],
+   "name": "prechorus"
+  },
+  {
+   "start": 95.56,
+   "end": 135.14,
+   "letter": "C",
+   "says": [
+    "shouted vocals",
+    "happy and upbeat",
+    "no drums"
+   ],
+   "name": "chorus"
+  },
+  {
+   "start": 135.14,
+   "end": 149.98,
+   "letter": "D",
+   "says": [
+    "banjo or mandolin",
+    "hand claps and finger snaps",
+    "psychedelic and hazy"
+   ],
+   "name": "postchorus"
+  },
+  {
+   "start": 149.98,
+   "end": 164.84,
+   "letter": "E",
+   "says": [
+    "a vocal chop sample",
+    "a build-up before a drop",
+    "ukulele"
+   ],
+   "name": "bridge"
+  },
+  {
+   "start": 164.84,
+   "end": 184.62,
+   "letter": "C",
+   "says": [
+    "banjo or mandolin",
+    "rapping",
+    "hand claps and finger snaps"
+   ],
+   "name": "chorus"
+  },
+  {
+   "start": 184.62,
+   "end": 205.5,
+   "letter": "F",
+   "says": [
+    "warm synth pads",
+    "an outro fading out",
+    "heavy reverb, spacious sound"
+   ],
+   "name": "outro"
+  }
+ ],
+ "79": [
+  {
+   "start": 0.0,
+   "end": 18.34,
+   "letter": "A",
+   "says": [
+    "chill and relaxed",
+    "a laid-back boom bap beat",
+    "an organ"
+   ],
+   "name": "intro"
+  },
+  {
+   "start": 18.34,
+   "end": 36.44,
+   "letter": "B",
+   "says": [
+    "silence or near silence",
+    "very quiet and sparse",
+    "humming or wordless vocals"
+   ],
+   "name": "verse"
+  },
+  {
+   "start": 36.44,
+   "end": 54.56,
+   "letter": "C",
+   "says": [
+    "male singing",
+    "playful and silly",
+    "a big singalong chorus"
+   ],
+   "name": "verse"
+  },
+  {
+   "start": 54.56,
+   "end": 90.78,
+   "letter": "D",
+   "says": [
+    "psychedelic and hazy",
+    "banjo or mandolin",
+    "hand claps and finger snaps"
+   ],
+   "name": "chorus"
+  },
+  {
+   "start": 90.78,
+   "end": 127.02,
+   "letter": "C",
+   "says": [
+    "an explosive, intense peak",
+    "piano chords",
+    "dry, close and intimate sound"
+   ],
+   "name": "verse"
+  },
+  {
+   "start": 127.02,
+   "end": 181.36,
+   "letter": "D",
+   "says": [
+    "a choir or group vocals",
+    "sparse minimal percussion",
+    "a string section"
+   ],
+   "name": "chorus"
+  },
+  {
+   "start": 181.36,
+   "end": 204.4,
+   "letter": "E",
+   "says": [
+    "a vocal chop sample",
+    "bells or glockenspiel",
+    "romantic and tender"
+   ],
+   "name": "outro"
+  }
+ ],
+ "80": [
+  {
+   "start": 0.0,
+   "end": 21.58,
+   "letter": "A",
+   "says": [
+    "female singing",
+    "heavy reverb, spacious sound",
+    "calm and gentle"
+   ],
+   "name": "intro"
+  },
+  {
+   "start": 21.58,
+   "end": 36.06,
+   "letter": "B",
+   "says": [
+    "female singing",
+    "a pitched-down slowed sound",
+    "a bass guitar groove"
+   ],
+   "name": "verse"
+  },
+  {
+   "start": 36.06,
+   "end": 52.28,
+   "letter": "C",
+   "says": [
+    "lo-fi, muffled and filtered",
+    "female singing",
+    "an organ"
+   ],
+   "name": "verse"
+  },
+  {
+   "start": 52.28,
+   "end": 58.42,
+   "letter": "D",
+   "says": [
+    "a vocal chop sample",
+    "violin",
+    "slowly building intensity"
+   ],
+   "name": "verse"
+  },
+  {
+   "start": 58.42,
+   "end": 74.94,
+   "letter": "E",
+   "says": [
+    "glitchy electronic effects",
+    "whispered vocals",
+    "slowly building intensity"
+   ],
+   "name": "verse"
+  },
+  {
+   "start": 74.94,
+   "end": 91.18,
+   "letter": "F",
+   "says": [
+    "a full orchestra",
+    "a shuffling swung rhythm",
+    "festive and cheerful"
+   ],
+   "name": "instrumental"
+  },
+  {
+   "start": 91.18,
+   "end": 123.72,
+   "letter": "G",
+   "says": [
+    "a four-on-the-floor kick drum",
+    "sleigh bells",
+    "a clean polished pop production"
+   ],
+   "name": "bridge"
+  },
+  {
+   "start": 123.72,
+   "end": 140.0,
+   "letter": "H",
+   "says": [
+    "banjo or mandolin",
+    "pounding heavy drums",
+    "triumphant and uplifting"
+   ],
+   "name": "chorus"
+  },
+  {
+   "start": 140.0,
+   "end": 156.28,
+   "letter": "C",
+   "says": [
+    "vinyl crackle and tape hiss",
+    "banjo or mandolin",
+    "fast rapping"
+   ],
+   "name": "verse"
+  },
+  {
+   "start": 156.28,
+   "end": 182.4,
+   "letter": "H",
+   "says": [
+    "banjo or mandolin",
+    "hand claps and finger snaps",
+    "dreamy and floating"
+   ],
+   "name": "chorus"
+  }
+ ]
+}

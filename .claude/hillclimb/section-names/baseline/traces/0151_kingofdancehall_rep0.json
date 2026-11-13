@@ -1,0 +1,15 @@
+[
+ {
+  "role": "user",
+  "content": "Name each section of this song: King of the Dancehall \u2014 Beenie Man (Reggaeton, 6 sections)\nsection edges (s): [0.0, 2.3, 13.7, 32.0, 68.6, 86.9, 105.1]\nsettings: {\"encoder\": \"clapbar_fold\", \"prompts\": {\"intro\": [\"the intro of a song\"], \"verse\": [\"the verse of a song\"], \"prechorus\": [\"the pre-chorus of a song\"], \"chorus\": [\"the chorus of a song\"], \"postchorus\": [\"the post-chorus of a song\"], \"bridge\": [\"the bridge of a song\"], \"outro\": [\"the outro of a song\"], \"instrumental\": [\"an instrumental section of a song\"]}}"
+ },
+ {
+  "role": "assistant",
+  "content": "{\"names\": [\"postchorus\", \"outro\", \"outro\", \"outro\", \"outro\", \"outro\"], \"top3_scores\": [[[\"postchorus\", 0.177], [\"intro\", 0.146], [\"chorus\", 0.119]], [[\"outro\", 0.206], [\"intro\", 0.168], [\"verse\", 0.164]], [[\"outro\", 0.153], [\"intro\", 0.137], [\"verse\", 0.103]], [[\"outro\", 0.187], [\"verse\", 0.177], [\"intro\", 0.157]], [[\"outro\", 0.151], [\"intro\", 0.132], [\"verse\", 0.119]], [[\"outro\", 0.231], [\"verse\", 0.23], [\"intro\", 0.186]]]}"
+ },
+ {
+  "role": "tool_result",
+  "name": "grader",
+  "content": "{\"sections\": [{\"start\": 0.0, \"end\": 2.3, \"annotated\": \"silence\", \"scored_as\": null, \"named\": \"postchorus\", \"right\": null}, {\"start\": 2.3, \"end\": 13.7, \"annotated\": \"intro\", \"scored_as\": \"intro\", \"named\": \"outro\", \"right\": false}, {\"start\": 13.7, \"end\": 32.0, \"annotated\": \"chorus\", \"scored_as\": \"chorus\", \"named\": \"outro\", \"right\": false}, {\"start\": 32.0, \"end\": 68.6, \"annotated\": \"verse\", \"scored_as\": \"verse\", \"named\": \"outro\", \"right\": false}, {\"start\": 68.6, \"end\": 86.9, \"annotated\": \"chorus\", \"scored_as\": \"chorus\", \"named\": \"outro\", \"right\": false}, {\"start\": 86.9, \"end\": 105.1, \"annotated\": \"chorus\", \"scored_as\": \"chorus\", \"named\": \"outro\", \"right\": false}], \"grade\": {\"acc\": 0.0}}"
+ }
+]

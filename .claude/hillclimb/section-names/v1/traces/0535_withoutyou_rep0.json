@@ -1,0 +1,15 @@
+[
+ {
+  "role": "user",
+  "content": "Name each section of this song: Without You \u2014 David Guetta feat. Usher (Pop, 8 sections)\nsection edges (s): [0.1, 15.1, 45.1, 75.1, 101.3, 131.3, 161.3, 187.6, 202.6]\nsettings: {\"encoder\": \"clapbar_fold\", \"prompts\": {\"intro\": [\"the intro of a song\"], \"verse\": [\"the verse of a song\"], \"prechorus\": [\"the pre-chorus of a song\"], \"chorus\": [\"the chorus of a song\"], \"postchorus\": [\"the post-chorus of a song\"], \"bridge\": [\"the bridge of a song\"], \"outro\": [\"the outro of a song\"], \"instrumental\": [\"an instrumental section of a song\"]}, \"extra_models\": [\"matpacbar_fold\"], \"structure\": {\"model\": \"matpacbar_fold\", \"position\": true, \"repeat_tau\": null, \"bridge\": false, \"prepost\": false, \"short_s\": 20}}"
+ },
+ {
+  "role": "assistant",
+  "content": "{\"names\": [\"intro\", \"verse\", \"verse\", \"verse\", \"verse\", \"verse\", \"verse\", \"outro\"], \"top3_scores\": [[[\"bridge\", 0.396], [\"verse\", 0.391], [\"outro\", 0.361]], [[\"verse\", 0.359], [\"bridge\", 0.34], [\"outro\", 0.309]], [[\"bridge\", 0.329], [\"verse\", 0.319], [\"outro\", 0.308]], [[\"bridge\", 0.304], [\"outro\", 0.286], [\"verse\", 0.26]], [[\"verse\", 0.357], [\"bridge\", 0.347], [\"outro\", 0.31]], [[\"outro\", 0.323], [\"verse\", 0.302], [\"bridge\", 0.301]], [[\"bridge\", 0.323], [\"outro\", 0.31], [\"verse\", 0.279]], [[\"bridge\", 0.351], [\"verse\", 0.327], [\"postchorus\", 0.268]]]}"
+ },
+ {
+  "role": "tool_result",
+  "name": "grader",
+  "content": "{\"sections\": [{\"start\": 0.1, \"end\": 15.1, \"annotated\": \"intro\", \"scored_as\": \"intro\", \"named\": \"intro\", \"right\": true}, {\"start\": 15.1, \"end\": 45.1, \"annotated\": \"verse\", \"scored_as\": \"verse\", \"named\": \"verse\", \"right\": true}, {\"start\": 45.1, \"end\": 75.1, \"annotated\": \"verse\", \"scored_as\": \"verse\", \"named\": \"verse\", \"right\": true}, {\"start\": 75.1, \"end\": 101.3, \"annotated\": \"chorus\", \"scored_as\": \"chorus\", \"named\": \"verse\", \"right\": false}, {\"start\": 101.3, \"end\": 131.3, \"annotated\": \"verse\", \"scored_as\": \"verse\", \"named\": \"verse\", \"right\": true}, {\"start\": 131.3, \"end\": 161.3, \"annotated\": \"verse\", \"scored_as\": \"verse\", \"named\": \"verse\", \"right\": true}, {\"start\": 161.3, \"end\": 187.6, \"annotated\": \"chorus\", \"scored_as\": \"chorus\", \"named\": \"verse\", \"right\": false}, {\"start\": 187.6, \"end\": 202.6, \"annotated\": \"verse\", \"scored_as\": \"verse\", \"named\": \"outro\", \"right\": false}], \"grade\": {\"acc\": 0.625}}"
+ }
+]

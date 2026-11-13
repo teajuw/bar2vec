@@ -1,0 +1,4 @@
+{
+ "description": "each bar embedded with its neighbours (3 bars centred) instead of alone (outer step)",
+ "target": "code"
+}

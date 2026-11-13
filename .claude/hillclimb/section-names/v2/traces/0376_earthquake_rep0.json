@@ -1,0 +1,15 @@
+[
+ {
+  "role": "user",
+  "content": "Name each section of this song: Earthquake \u2014 Labrinth feat. Busta Rhymes (Dance/Electronic, 10 sections)\nsection edges (s): [0.0, 1.7, 14.2, 45.6, 64.4, 89.5, 114.6, 139.7, 202.4, 227.5, 252.6]\nsettings: {\"encoder\": \"clapbar_fold\", \"prompts\": {\"intro\": [\"the intro of a song\"], \"verse\": [\"the verse of a song\"], \"prechorus\": [\"the pre-chorus of a song\"], \"chorus\": [\"the chorus of a song\"], \"postchorus\": [\"the post-chorus of a song\"], \"bridge\": [\"the bridge of a song\"], \"outro\": [\"the outro of a song\"], \"instrumental\": [\"an instrumental section of a song\"]}, \"extra_models\": [\"matpacbar_fold\"], \"structure\": {\"model\": \"matpacbar_fold\", \"position\": true, \"repeat_tau\": 0.4, \"bridge\": false, \"prepost\": false, \"short_s\": 20}}"
+ },
+ {
+  "role": "assistant",
+  "content": "{\"names\": [\"intro\", \"verse\", \"verse\", \"verse\", \"chorus\", \"verse\", \"chorus\", \"verse\", \"chorus\", \"outro\"], \"top3_scores\": [[[\"outro\", 0.355], [\"intro\", 0.323], [\"verse\", 0.309]], [[\"outro\", 0.374], [\"intro\", 0.333], [\"verse\", 0.315]], [[\"outro\", 0.315], [\"bridge\", 0.251], [\"verse\", 0.242]], [[\"outro\", 0.303], [\"verse\", 0.244], [\"intro\", 0.218]], [[\"outro\", 0.297], [\"verse\", 0.266], [\"bridge\", 0.24]], [[\"outro\", 0.34], [\"verse\", 0.282], [\"intro\", 0.263]], [[\"outro\", 0.285], [\"verse\", 0.259], [\"bridge\", 0.229]], [[\"outro\", 0.33], [\"verse\", 0.295], [\"postchorus\", 0.253]], [[\"outro\", 0.282], [\"verse\", 0.246], [\"intro\", 0.225]], [[\"outro\", 0.326], [\"intro\", 0.266], [\"bridge\", 0.258]]]}"
+ },
+ {
+  "role": "tool_result",
+  "name": "grader",
+  "content": "{\"sections\": [{\"start\": 0.0, \"end\": 1.7, \"annotated\": \"silence\", \"scored_as\": null, \"named\": \"intro\", \"right\": null}, {\"start\": 1.7, \"end\": 14.2, \"annotated\": \"intro\", \"scored_as\": \"intro\", \"named\": \"verse\", \"right\": false}, {\"start\": 14.2, \"end\": 45.6, \"annotated\": \"chorusinst\", \"scored_as\": null, \"named\": \"verse\", \"right\": null}, {\"start\": 45.6, \"end\": 64.4, \"annotated\": \"verse\", \"scored_as\": \"verse\", \"named\": \"verse\", \"right\": true}, {\"start\": 64.4, \"end\": 89.5, \"annotated\": \"chorus\", \"scored_as\": \"chorus\", \"named\": \"chorus\", \"right\": true}, {\"start\": 89.5, \"end\": 114.6, \"annotated\": \"verse\", \"scored_as\": \"verse\", \"named\": \"verse\", \"right\": true}, {\"start\": 114.6, \"end\": 139.7, \"annotated\": \"chorus\", \"scored_as\": \"chorus\", \"named\": \"chorus\", \"right\": true}, {\"start\": 139.7, \"end\": 202.4, \"annotated\": \"bridge\", \"scored_as\": \"bridge\", \"named\": \"verse\", \"right\": false}, {\"start\": 202.4, \"end\": 227.5, \"annotated\": \"chorus\", \"scored_as\": \"chorus\", \"named\": \"chorus\", \"right\": true}, {\"start\": 227.5, \"end\": 252.6, \"annotated\": \"outro\", \"scored_as\": \"outro\", \"named\": \"outro\", \"right\": true}], \"grade\": {\"acc\": 0.75}}"
+ }
+]

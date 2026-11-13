@@ -1,0 +1,4 @@
+{
+ "description": "trained classifier over section features, fitted on 150 tuning songs' labels (supervised row)",
+ "target": "code"
+}

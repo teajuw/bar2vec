@@ -1,0 +1,15 @@
+[
+ {
+  "role": "user",
+  "content": "Name each section of this song: Critical Acclaim \u2014 Avenged Sevenfold (Metal, 8 sections)\nsection edges (s): [0.7, 66.7, 94.6, 129.3, 157.1, 186.7, 265.0, 278.9, 311.9]\nsettings: {\"encoder\": \"clapbar_fold\", \"prompts\": {\"intro\": [\"the intro of a song\"], \"verse\": [\"the verse of a song\"], \"prechorus\": [\"the pre-chorus of a song\"], \"chorus\": [\"the chorus of a song\"], \"postchorus\": [\"the post-chorus of a song\"], \"bridge\": [\"the bridge of a song\"], \"outro\": [\"the outro of a song\"], \"instrumental\": [\"an instrumental section of a song\"]}}"
+ },
+ {
+  "role": "assistant",
+  "content": "{\"names\": [\"postchorus\", \"outro\", \"outro\", \"outro\", \"outro\", \"outro\", \"outro\", \"outro\"], \"top3_scores\": [[[\"postchorus\", 0.339], [\"outro\", 0.338], [\"intro\", 0.329]], [[\"outro\", 0.288], [\"intro\", 0.269], [\"bridge\", 0.231]], [[\"outro\", 0.281], [\"postchorus\", 0.25], [\"intro\", 0.244]], [[\"outro\", 0.279], [\"intro\", 0.256], [\"bridge\", 0.242]], [[\"outro\", 0.281], [\"intro\", 0.245], [\"postchorus\", 0.243]], [[\"outro\", 0.256], [\"intro\", 0.243], [\"chorus\", 0.234]], [[\"outro\", 0.206], [\"bridge\", 0.203], [\"intro\", 0.184]], [[\"outro\", 0.277], [\"postchorus\", 0.264], [\"intro\", 0.248]]]}"
+ },
+ {
+  "role": "tool_result",
+  "name": "grader",
+  "content": "{\"sections\": [{\"start\": 0.7, \"end\": 66.7, \"annotated\": \"intro\", \"scored_as\": \"intro\", \"named\": \"postchorus\", \"right\": false}, {\"start\": 66.7, \"end\": 94.6, \"annotated\": \"verse\", \"scored_as\": \"verse\", \"named\": \"outro\", \"right\": false}, {\"start\": 94.6, \"end\": 129.3, \"annotated\": \"chorus\", \"scored_as\": \"chorus\", \"named\": \"outro\", \"right\": false}, {\"start\": 129.3, \"end\": 157.1, \"annotated\": \"verse\", \"scored_as\": \"verse\", \"named\": \"outro\", \"right\": false}, {\"start\": 157.1, \"end\": 186.7, \"annotated\": \"chorus\", \"scored_as\": \"chorus\", \"named\": \"outro\", \"right\": false}, {\"start\": 186.7, \"end\": 265.0, \"annotated\": \"bridge\", \"scored_as\": \"bridge\", \"named\": \"outro\", \"right\": false}, {\"start\": 265.0, \"end\": 278.9, \"annotated\": \"verse\", \"scored_as\": \"verse\", \"named\": \"outro\", \"right\": false}, {\"start\": 278.9, \"end\": 311.9, \"annotated\": \"chorus\", \"scored_as\": \"chorus\", \"named\": \"outro\", \"right\": false}], \"grade\": {\"acc\": 0.0}}"
+ }
+]

@@ -1,0 +1,15 @@
+[
+ {
+  "role": "user",
+  "content": "Name each section of this song: Love Like This \u2014 Natasha Bedingfield feat. Sean Kingston (Pop, 10 sections)\nsection edges (s): [0.1, 6.3, 18.0, 43.7, 67.9, 93.6, 105.3, 117.7, 143.4, 168.4, 217.5]\nsettings: {\"encoder\": \"clapbar_fold\", \"prompts\": {\"intro\": [\"the intro of a song\"], \"verse\": [\"the verse of a song\"], \"prechorus\": [\"the pre-chorus of a song\"], \"chorus\": [\"the chorus of a song\"], \"postchorus\": [\"the post-chorus of a song\"], \"bridge\": [\"the bridge of a song\"], \"outro\": [\"the outro of a song\"], \"instrumental\": [\"an instrumental section of a song\"]}}"
+ },
+ {
+  "role": "assistant",
+  "content": "{\"names\": [\"verse\", \"verse\", \"verse\", \"verse\", \"verse\", \"verse\", \"verse\", \"verse\", \"verse\", \"verse\"], \"top3_scores\": [[[\"verse\", 0.286], [\"bridge\", 0.26], [\"outro\", 0.221]], [[\"verse\", 0.267], [\"bridge\", 0.219], [\"outro\", 0.108]], [[\"verse\", 0.254], [\"bridge\", 0.237], [\"chorus\", 0.129]], [[\"verse\", 0.229], [\"bridge\", 0.166], [\"outro\", 0.108]], [[\"verse\", 0.252], [\"bridge\", 0.219], [\"outro\", 0.121]], [[\"verse\", 0.227], [\"bridge\", 0.161], [\"outro\", 0.112]], [[\"verse\", 0.241], [\"bridge\", 0.187], [\"outro\", 0.114]], [[\"verse\", 0.301], [\"bridge\", 0.259], [\"outro\", 0.182]], [[\"verse\", 0.261], [\"bridge\", 0.204], [\"outro\", 0.127]], [[\"verse\", 0.284], [\"bridge\", 0.221], [\"outro\", 0.141]]]}"
+ },
+ {
+  "role": "tool_result",
+  "name": "grader",
+  "content": "{\"sections\": [{\"start\": 0.1, \"end\": 6.3, \"annotated\": \"intro\", \"scored_as\": \"intro\", \"named\": \"verse\", \"right\": false}, {\"start\": 6.3, \"end\": 18.0, \"annotated\": \"chorus\", \"scored_as\": \"chorus\", \"named\": \"verse\", \"right\": false}, {\"start\": 18.0, \"end\": 43.7, \"annotated\": \"verse\", \"scored_as\": \"verse\", \"named\": \"verse\", \"right\": true}, {\"start\": 43.7, \"end\": 67.9, \"annotated\": \"chorus\", \"scored_as\": \"chorus\", \"named\": \"verse\", \"right\": false}, {\"start\": 67.9, \"end\": 93.6, \"annotated\": \"verse\", \"scored_as\": \"verse\", \"named\": \"verse\", \"right\": true}, {\"start\": 93.6, \"end\": 105.3, \"annotated\": \"chorus\", \"scored_as\": \"chorus\", \"named\": \"verse\", \"right\": false}, {\"start\": 105.3, \"end\": 117.7, \"annotated\": \"verse\", \"scored_as\": \"verse\", \"named\": \"verse\", \"right\": true}, {\"start\": 117.7, \"end\": 143.4, \"annotated\": \"bridge\", \"scored_as\": \"bridge\", \"named\": \"verse\", \"right\": false}, {\"start\": 143.4, \"end\": 168.4, \"annotated\": \"chorus\", \"scored_as\": \"chorus\", \"named\": \"verse\", \"right\": false}, {\"start\": 168.4, \"end\": 217.5, \"annotated\": \"outro\", \"scored_as\": \"outro\", \"named\": \"verse\", \"right\": false}], \"grade\": {\"acc\": 0.3}}"
+ }
+]

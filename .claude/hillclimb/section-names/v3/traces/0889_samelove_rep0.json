@@ -1,0 +1,15 @@
+[
+ {
+  "role": "user",
+  "content": "Name each section of this song: Same Love \u2014 Macklemore & Ryan Lewis (Hip-Hop, 9 sections)\nsection edges (s): [0.5, 31.6, 42.9, 90.1, 124.7, 191.8, 215.1, 248.3, 282.9, 316.7]\nsettings: {\"encoder\": \"clapbar_fold\", \"prompts\": {\"intro\": [\"the intro of a song\"], \"verse\": [\"the verse of a song\"], \"prechorus\": [\"the pre-chorus of a song\"], \"chorus\": [\"the chorus of a song\"], \"postchorus\": [\"the post-chorus of a song\"], \"bridge\": [\"the bridge of a song\"], \"outro\": [\"the outro of a song\"], \"instrumental\": [\"an instrumental section of a song\"]}, \"extra_models\": [\"matpacbar_fold\"], \"structure\": {\"model\": \"matpacbar_fold\", \"position\": true, \"repeat_tau\": 0.4, \"bridge\": true, \"prepost\": false, \"short_s\": 20}}"
+ },
+ {
+  "role": "assistant",
+  "content": "{\"names\": [\"intro\", \"verse\", \"verse\", \"chorus\", \"verse\", \"chorus\", \"verse\", \"chorus\", \"outro\"], \"top3_scores\": [[[\"verse\", 0.355], [\"bridge\", 0.327], [\"outro\", 0.322]], [[\"verse\", 0.271], [\"chorus\", 0.241], [\"postchorus\", 0.238]], [[\"verse\", 0.457], [\"bridge\", 0.392], [\"outro\", 0.33]], [[\"verse\", 0.311], [\"bridge\", 0.311], [\"outro\", 0.239]], [[\"verse\", 0.446], [\"bridge\", 0.398], [\"outro\", 0.304]], [[\"verse\", 0.294], [\"bridge\", 0.293], [\"outro\", 0.225]], [[\"verse\", 0.419], [\"bridge\", 0.368], [\"outro\", 0.276]], [[\"verse\", 0.288], [\"bridge\", 0.277], [\"outro\", 0.233]], [[\"postchorus\", 0.34], [\"verse\", 0.334], [\"bridge\", 0.322]]]}"
+ },
+ {
+  "role": "tool_result",
+  "name": "grader",
+  "content": "{\"sections\": [{\"start\": 0.5, \"end\": 31.6, \"annotated\": \"rhythmlessintro\", \"scored_as\": null, \"named\": \"intro\", \"right\": null}, {\"start\": 31.6, \"end\": 42.9, \"annotated\": \"intro\", \"scored_as\": \"intro\", \"named\": \"verse\", \"right\": false}, {\"start\": 42.9, \"end\": 90.1, \"annotated\": \"verse\", \"scored_as\": \"verse\", \"named\": \"verse\", \"right\": true}, {\"start\": 90.1, \"end\": 124.7, \"annotated\": \"chorus\", \"scored_as\": \"chorus\", \"named\": \"chorus\", \"right\": true}, {\"start\": 124.7, \"end\": 191.8, \"annotated\": \"verse\", \"scored_as\": \"verse\", \"named\": \"verse\", \"right\": true}, {\"start\": 191.8, \"end\": 215.1, \"annotated\": \"chorus\", \"scored_as\": \"chorus\", \"named\": \"chorus\", \"right\": true}, {\"start\": 215.1, \"end\": 248.3, \"annotated\": \"verse\", \"scored_as\": \"verse\", \"named\": \"verse\", \"right\": true}, {\"start\": 248.3, \"end\": 282.9, \"annotated\": \"chorus\", \"scored_as\": \"chorus\", \"named\": \"chorus\", \"right\": true}, {\"start\": 282.9, \"end\": 316.7, \"annotated\": \"outro\", \"scored_as\": \"outro\", \"named\": \"outro\", \"right\": true}], \"grade\": {\"acc\": 0.875}}"
+ }
+]

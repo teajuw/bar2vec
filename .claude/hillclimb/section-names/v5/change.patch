@@ -1,0 +1,56 @@
+--- .claude/hillclimb/section-names/v4/names.json	2026-11-13 02:15:10
++++ names.json	2026-11-13 02:16:54
+@@ -35,6 +35,17 @@
+     "repeat_tau": 0.4,
+     "bridge": true,
+     "prepost": true,
+-    "short_s": 20
++    "short_s": 20,
++    "vocal_below": -1.0
++  },
++  "extra_prompts": {
++    "vocals": [
++      "singing vocals",
++      "a person singing or rapping"
++    ],
++    "no_vocals": [
++      "instrumental music with no vocals",
++      "an instrumental solo"
++    ]
+   }
+-}
++}
+\ No newline at end of file
+--- .claude/hillclimb/section-names/v4/names.py	2026-11-13 02:15:10
++++ scripts/names.py	2026-11-13 02:16:22
+@@ -39,7 +39,7 @@
+     return out
+ 
+ 
+-def by_structure(bounds: np.ndarray, vecs: np.ndarray, st: dict) -> list[str]:
++def by_structure(bounds: np.ndarray, vecs: np.ndarray, st: dict, vocal: np.ndarray | None = None) -> list[str]:
+     """Names from the song's shape alone: where a section sits and which sections repeat."""
+     n = len(vecs)
+     dur = np.diff(bounds)
+@@ -72,6 +72,11 @@
+                     elif follows >= 0.6 and leads_in < 0.5:
+                         for i in mem:
+                             out[i] = "postchorus"
++    if st.get("vocal_below") is not None and vocal is not None:
++        # A verse or bridge with far less singing than the rest of the song is an instrumental passage.
++        for i in range(1, n - 1):
++            if vocal[i] < st["vocal_below"] and out[i] in ("verse", "bridge"):
++                out[i] = "instrumental"
+     if st.get("position"):
+         out[0] = "intro"
+         if out[-1] != "chorus" or dur[-1] < 12:
+@@ -92,4 +97,8 @@
+     st = cfg.get("structure")
+     if not st:
+         return [LABELS[i] for i in scores.argmax(1)], scores
+-    return by_structure(bounds, section_vectors(bounds, bar_starts, emb_by_model[st["model"]]), st), scores
++    vocal = None
++    if "vocals" in text:  # how much each section sounds sung, relative to the song's median section
++        d = (vecs @ text["vocals"].T).max(1) - (vecs @ text["no_vocals"].T).max(1)
++        vocal = (d - np.median(d)) / (d.std() + 1e-9)
++    return by_structure(bounds, section_vectors(bounds, bar_starts, emb_by_model[st["model"]]), st, vocal), scores

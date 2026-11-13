@@ -1,0 +1,15 @@
+[
+ {
+  "role": "user",
+  "content": "Name each section of this song: Get Yourself Back Home \u2014 Gym Class Heroes feat. Neon Hitch (Hip-Hop, 8 sections)\nsection edges (s): [0.1, 8.8, 38.8, 67.9, 97.9, 127.0, 157.0, 186.1, 216.1]\nsettings: {\"encoder\": \"clapbar_fold\", \"prompts\": {\"intro\": [\"the intro of a song\"], \"verse\": [\"the verse of a song\"], \"prechorus\": [\"the pre-chorus of a song\"], \"chorus\": [\"the chorus of a song\"], \"postchorus\": [\"the post-chorus of a song\"], \"bridge\": [\"the bridge of a song\"], \"outro\": [\"the outro of a song\"], \"instrumental\": [\"an instrumental section of a song\"]}, \"extra_models\": [\"matpacbar_fold\"], \"structure\": {\"model\": \"matpacbar_fold\", \"position\": true, \"repeat_tau\": 0.4, \"bridge\": true, \"prepost\": true, \"short_s\": 20, \"vocal_below\": -1.0}, \"extra_prompts\": {\"vocals\": [\"singing vocals\", \"a person singing or rapping\"], \"no_vocals\": [\"instrumental music with no vocals\", \"an instrumental solo\"]}}"
+ },
+ {
+  "role": "assistant",
+  "content": "{\"names\": [\"intro\", \"chorus\", \"verse\", \"chorus\", \"verse\", \"chorus\", \"bridge\", \"chorus\"], \"top3_scores\": [[[\"verse\", 0.404], [\"outro\", 0.401], [\"intro\", 0.365]], [[\"bridge\", 0.309], [\"verse\", 0.307], [\"outro\", 0.264]], [[\"verse\", 0.271], [\"outro\", 0.249], [\"bridge\", 0.232]], [[\"verse\", 0.301], [\"bridge\", 0.297], [\"outro\", 0.275]], [[\"outro\", 0.276], [\"verse\", 0.27], [\"bridge\", 0.241]], [[\"bridge\", 0.309], [\"verse\", 0.3], [\"outro\", 0.28]], [[\"bridge\", 0.346], [\"verse\", 0.326], [\"outro\", 0.281]], [[\"bridge\", 0.244], [\"outro\", 0.237], [\"verse\", 0.225]]]}"
+ },
+ {
+  "role": "tool_result",
+  "name": "grader",
+  "content": "{\"sections\": [{\"start\": 0.1, \"end\": 8.8, \"annotated\": \"intro\", \"scored_as\": \"intro\", \"named\": \"intro\", \"right\": true}, {\"start\": 8.8, \"end\": 38.8, \"annotated\": \"chorus\", \"scored_as\": \"chorus\", \"named\": \"chorus\", \"right\": true}, {\"start\": 38.8, \"end\": 67.9, \"annotated\": \"verse\", \"scored_as\": \"verse\", \"named\": \"verse\", \"right\": true}, {\"start\": 67.9, \"end\": 97.9, \"annotated\": \"chorus\", \"scored_as\": \"chorus\", \"named\": \"chorus\", \"right\": true}, {\"start\": 97.9, \"end\": 127.0, \"annotated\": \"verse\", \"scored_as\": \"verse\", \"named\": \"verse\", \"right\": true}, {\"start\": 127.0, \"end\": 157.0, \"annotated\": \"chorus\", \"scored_as\": \"chorus\", \"named\": \"chorus\", \"right\": true}, {\"start\": 157.0, \"end\": 186.1, \"annotated\": \"bridge\", \"scored_as\": \"bridge\", \"named\": \"bridge\", \"right\": true}, {\"start\": 186.1, \"end\": 216.1, \"annotated\": \"chorus\", \"scored_as\": \"chorus\", \"named\": \"chorus\", \"right\": true}], \"grade\": {\"acc\": 1.0}}"
+ }
+]

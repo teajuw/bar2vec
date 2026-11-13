@@ -1,0 +1,24 @@
+[project]
+name = "bar2vec"
+version = "0.1.0"
+description = "Music structure from frozen audio embeddings: one vector per bar, section cuts, moment search"
+requires-python = ">=3.11,<3.12"
+dependencies = [
+    "torch>=2.2",
+    "torchaudio>=2.2",
+    "torchvision",
+    "laion-clap>=1.1.6",
+    "numpy<2",
+    "yt-dlp",
+    "tqdm",
+    "huggingface_hub",
+    "muq>=0.1.0",
+    "transformers<5",
+    "mir-eval>=0.8.2",
+    "beat-this",
+    "as-seg>=0.1.12",
+    "timm>=1.0.31",
+]
+
+[tool.uv.sources]
+beat-this = { git = "https://github.com/CPJKU/beat_this" }

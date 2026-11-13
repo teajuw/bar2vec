@@ -1,0 +1,4 @@
+{
+ "description": "baseline: CLAP bar embeddings averaged per section, nearest of 'the X of a song' prompts",
+ "target": "code"
+}

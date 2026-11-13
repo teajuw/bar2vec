@@ -1,0 +1,67 @@
+--- .claude/hillclimb/section-names/v5/names.json	2026-11-13 02:16:54
++++ names.json	2026-11-13 02:38:00
+@@ -27,7 +27,8 @@
+     ]
+   },
+   "extra_models": [
+-    "matpacbar_fold"
++    "matpacbar_fold",
++    "loudbar_fold"
+   ],
+   "structure": {
+     "model": "matpacbar_fold",
+@@ -36,7 +37,9 @@
+     "bridge": true,
+     "prepost": true,
+     "short_s": 20,
+-    "vocal_below": -1.0
++    "vocal_below": -1.0,
++    "loud_model": "loudbar_fold",
++    "loud_w": 2.0
+   },
+   "extra_prompts": {
+     "vocals": [
+@@ -48,4 +51,4 @@
+       "an instrumental solo"
+     ]
+   }
+-}
++}
+\ No newline at end of file
+--- .claude/hillclimb/section-names/v5/names.py	2026-11-13 02:16:54
++++ scripts/names.py	2026-11-13 02:32:59
+@@ -39,7 +39,8 @@
+     return out
+ 
+ 
+-def by_structure(bounds: np.ndarray, vecs: np.ndarray, st: dict, vocal: np.ndarray | None = None) -> list[str]:
++def by_structure(bounds: np.ndarray, vecs: np.ndarray, st: dict, vocal: np.ndarray | None = None,
++                 loud: np.ndarray | None = None) -> list[str]:
+     """Names from the song's shape alone: where a section sits and which sections repeat."""
+     n = len(vecs)
+     dur = np.diff(bounds)
+@@ -50,7 +51,10 @@
+         repeating = [k for k in range(len(count)) if count[k] >= 2]
+         if repeating:
+             # The chorus is the group that comes back most often; ties go to the one sitting later in the song.
+-            chorus = max(repeating, key=lambda k: (count[k], np.mean(np.flatnonzero(g == k))))
++            # With loud_w, a group's loudness relative to the song's other sections counts too.
++            w = st.get("loud_w", 0) if loud is not None else 0
++            chorus = max(repeating, key=lambda k: (count[k] + (w * loud[g == k].mean() if w else 0),
++                                                   np.mean(np.flatnonzero(g == k))))
+             for i in range(n):
+                 if g[i] == chorus:
+                     out[i] = "chorus"
+@@ -101,4 +105,11 @@
+     if "vocals" in text:  # how much each section sounds sung, relative to the song's median section
+         d = (vecs @ text["vocals"].T).max(1) - (vecs @ text["no_vocals"].T).max(1)
+         vocal = (d - np.median(d)) / (d.std() + 1e-9)
+-    return by_structure(bounds, section_vectors(bounds, bar_starts, emb_by_model[st["model"]]), st, vocal), scores
++    loud = None
++    if st.get("loud_model"):  # mean level of each section's bars in decibels, as a z-score across the song's sections
++        level = emb_by_model[st["loud_model"]][:, 0]
++        per = np.array([level[(bar_starts >= a - 0.05) & (bar_starts < b - 0.05)].mean()
++                        if ((bar_starts >= a - 0.05) & (bar_starts < b - 0.05)).any() else level.mean()
++                        for a, b in zip(bounds[:-1], bounds[1:])])
++        loud = (per - per.mean()) / (per.std() + 1e-9)
++    return by_structure(bounds, section_vectors(bounds, bar_starts, emb_by_model[st["model"]]), st, vocal, loud), scores

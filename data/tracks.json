@@ -1,0 +1,812 @@
+[
+ {
+  "id": 0,
+  "index": 1,
+  "title": "ROXANNE",
+  "artist": "Arizona Zervas",
+  "file": "audio/01_arizona-zervas_roxanne.m4a",
+  "duration_s": 164.0,
+  "n_windows": 32,
+  "flag": false
+ },
+ {
+  "id": 1,
+  "index": 2,
+  "title": "Circles",
+  "artist": "Post Malone",
+  "file": "audio/02_post-malone_circles.m4a",
+  "duration_s": 215.4,
+  "n_windows": 43,
+  "flag": false
+ },
+ {
+  "id": 2,
+  "index": 3,
+  "title": "Rich & Sad",
+  "artist": "Post Malone",
+  "file": "audio/03_post-malone_rich-sad.m4a",
+  "duration_s": 206.5,
+  "n_windows": 41,
+  "flag": false
+ },
+ {
+  "id": 3,
+  "index": 4,
+  "title": "2 soon",
+  "artist": "keshi",
+  "file": "audio/04_keshi_2-soon.m4a",
+  "duration_s": 207.1,
+  "n_windows": 41,
+  "flag": false
+ },
+ {
+  "id": 4,
+  "index": 5,
+  "title": "happiness",
+  "artist": "John K",
+  "file": "audio/05_john-k_happiness.m4a",
+  "duration_s": 196.0,
+  "n_windows": 39,
+  "flag": false
+ },
+ {
+  "id": 5,
+  "index": 6,
+  "title": "War With Heaven",
+  "artist": "keshi",
+  "file": "audio/06_keshi_war-with-heaven.m4a",
+  "duration_s": 193.4,
+  "n_windows": 38,
+  "flag": false
+ },
+ {
+  "id": 6,
+  "index": 7,
+  "title": "Zenzenzense - movie ver.",
+  "artist": "RADWIMPS",
+  "file": "audio/07_radwimps_zenzenzense-movie-ver.m4a",
+  "duration_s": 285.0,
+  "n_windows": 57,
+  "flag": false
+ },
+ {
+  "id": 7,
+  "index": 8,
+  "title": "Crash",
+  "artist": "Rdcworld, Toasty-Chan",
+  "file": "audio/08_rdcworld_crash.m4a",
+  "duration_s": 108.0,
+  "n_windows": 21,
+  "flag": false
+ },
+ {
+  "id": 8,
+  "index": 9,
+  "title": "Sunflower - Spider-Man: Into the Spider-Verse",
+  "artist": "Post Malone, Swae Lee",
+  "file": "audio/09_post-malone_sunflower-spider-man-into-the-spider-verse.m4a",
+  "duration_s": 158.1,
+  "n_windows": 31,
+  "flag": false
+ },
+ {
+  "id": 9,
+  "index": 10,
+  "title": "FLY HIGH!!",
+  "artist": "BURNOUT SYNDROMES",
+  "file": "audio/10_burnout-syndromes_fly-high.m4a",
+  "duration_s": 243.5,
+  "n_windows": 48,
+  "flag": false
+ },
+ {
+  "id": 10,
+  "index": 11,
+  "title": "Magic In The Hamptons (feat. Lil Yachty)",
+  "artist": "Social House, Lil Yachty",
+  "file": "audio/11_social-house_magic-in-the-hamptons-feat-lil-yachty.m4a",
+  "duration_s": 164.4,
+  "n_windows": 32,
+  "flag": false
+ },
+ {
+  "id": 11,
+  "index": 12,
+  "title": "supercuts",
+  "artist": "Jeremy Zucker",
+  "file": "audio/12_jeremy-zucker_supercuts.m4a",
+  "duration_s": 206.6,
+  "n_windows": 41,
+  "flag": false
+ },
+ {
+  "id": 12,
+  "index": 13,
+  "title": "I Fall Apart",
+  "artist": "Post Malone",
+  "file": "audio/13_post-malone_i-fall-apart.m4a",
+  "duration_s": 223.1,
+  "n_windows": 44,
+  "flag": false
+ },
+ {
+  "id": 13,
+  "index": 14,
+  "title": "Grand Escape (Movie Edit) [feat. Toko Miura]",
+  "artist": "RADWIMPS, Toko Miura",
+  "file": "audio/14_radwimps_grand-escape-movie-edit-feat-toko-miura.m4a",
+  "duration_s": 188.1,
+  "n_windows": 37,
+  "flag": false
+ },
+ {
+  "id": 14,
+  "index": 15,
+  "title": "Cold",
+  "artist": "Boy In Space, unheard",
+  "file": "audio/15_boy-in-space_cold.m4a",
+  "duration_s": 203.7,
+  "n_windows": 40,
+  "flag": false
+ },
+ {
+  "id": 15,
+  "index": 16,
+  "title": "Rocketeer",
+  "artist": "Far East Movement, Ryan Tedder",
+  "file": "audio/16_far-east-movement_rocketeer.m4a",
+  "duration_s": 211.5,
+  "n_windows": 42,
+  "flag": false
+ },
+ {
+  "id": 16,
+  "index": 17,
+  "title": "Numb Little Bug",
+  "artist": "Em Beihold",
+  "file": "audio/17_em-beihold_numb-little-bug.m4a",
+  "duration_s": 169.4,
+  "n_windows": 33,
+  "flag": false
+ },
+ {
+  "id": 17,
+  "index": 18,
+  "title": "Roses",
+  "artist": "The Band CAMINO",
+  "file": "audio/18_the-band-camino_roses.m4a",
+  "duration_s": 181.8,
+  "n_windows": 36,
+  "flag": false
+ },
+ {
+  "id": 18,
+  "index": 19,
+  "title": "Paranoid",
+  "artist": "Post Malone",
+  "file": "audio/19_post-malone_paranoid.m4a",
+  "duration_s": 222.0,
+  "n_windows": 44,
+  "flag": false
+ },
+ {
+  "id": 19,
+  "index": 20,
+  "title": "WESTSIDE",
+  "artist": "keshi",
+  "file": "audio/20_keshi_westside.m4a",
+  "duration_s": 184.2,
+  "n_windows": 36,
+  "flag": false
+ },
+ {
+  "id": 20,
+  "index": 21,
+  "title": "bandaids",
+  "artist": "keshi",
+  "file": "audio/21_keshi_bandaids.m4a",
+  "duration_s": 217.0,
+  "n_windows": 43,
+  "flag": false
+ },
+ {
+  "id": 21,
+  "index": 22,
+  "title": "Glimpse of Us",
+  "artist": "Joji",
+  "file": "audio/22_joji_glimpse-of-us.m4a",
+  "duration_s": 233.5,
+  "n_windows": 46,
+  "flag": false
+ },
+ {
+  "id": 22,
+  "index": 23,
+  "title": "Joe",
+  "artist": "AJR",
+  "file": "audio/23_ajr_joe.m4a",
+  "duration_s": 212.4,
+  "n_windows": 42,
+  "flag": false
+ },
+ {
+  "id": 23,
+  "index": 24,
+  "title": "Kingdom Come",
+  "artist": "Jon Bellion",
+  "file": "audio/24_jon-bellion_kingdom-come.m4a",
+  "duration_s": 140.1,
+  "n_windows": 28,
+  "flag": false
+ },
+ {
+  "id": 24,
+  "index": 25,
+  "title": "My Play",
+  "artist": "AJR",
+  "file": "audio/25_ajr_my-play.m4a",
+  "duration_s": 189.7,
+  "n_windows": 37,
+  "flag": false
+ },
+ {
+  "id": 25,
+  "index": 26,
+  "title": "Kaikai Kitan",
+  "artist": "Eve",
+  "file": "audio/26_eve_kaikai-kitan.m4a",
+  "duration_s": 221.8,
+  "n_windows": 44,
+  "flag": false
+ },
+ {
+  "id": 26,
+  "index": 27,
+  "title": "Words Bubble Up Like Soda Pop (never young beach)",
+  "artist": "never young beach",
+  "file": "audio/27_never-young-beach_words-bubble-up-like-soda-pop-never-young-beach.m4a",
+  "duration_s": 206.8,
+  "n_windows": 41,
+  "flag": true
+ },
+ {
+  "id": 27,
+  "index": 28,
+  "title": "Comedy",
+  "artist": "Gen Hoshino",
+  "file": "audio/28_gen-hoshino_comedy.m4a",
+  "duration_s": 230.7,
+  "n_windows": 46,
+  "flag": false
+ },
+ {
+  "id": 28,
+  "index": 29,
+  "title": "alright",
+  "artist": "keshi",
+  "file": "audio/29_keshi_alright.m4a",
+  "duration_s": 167.9,
+  "n_windows": 33,
+  "flag": false
+ },
+ {
+  "id": 29,
+  "index": 30,
+  "title": "I Like You (A Happier Song) (with Doja Cat)",
+  "artist": "Post Malone, Doja Cat",
+  "file": "audio/30_post-malone_i-like-you-a-happier-song-with-doja-cat.m4a",
+  "duration_s": 193.0,
+  "n_windows": 38,
+  "flag": false
+ },
+ {
+  "id": 30,
+  "index": 31,
+  "title": "Turning Out",
+  "artist": "AJR",
+  "file": "audio/31_ajr_turning-out.m4a",
+  "duration_s": 261.3,
+  "n_windows": 52,
+  "flag": false
+ },
+ {
+  "id": 31,
+  "index": 32,
+  "title": "Self Care",
+  "artist": "Mac Miller",
+  "file": "audio/32_mac-miller_self-care.m4a",
+  "duration_s": 345.2,
+  "n_windows": 69,
+  "flag": false
+ },
+ {
+  "id": 32,
+  "index": 33,
+  "title": "IT'S YOU (feat. keshi)",
+  "artist": "MAX, keshi",
+  "file": "audio/33_max_it-s-you-feat-keshi.m4a",
+  "duration_s": 173.5,
+  "n_windows": 34,
+  "flag": false
+ },
+ {
+  "id": 33,
+  "index": 34,
+  "title": "YUKON (INTERLUDE)",
+  "artist": "Joji",
+  "file": "audio/34_joji_yukon-interlude.m4a",
+  "duration_s": 141.1,
+  "n_windows": 28,
+  "flag": false
+ },
+ {
+  "id": 34,
+  "index": 35,
+  "title": "YEAH RIGHT",
+  "artist": "Joji",
+  "file": "audio/35_joji_yeah-right.m4a",
+  "duration_s": 174.9,
+  "n_windows": 34,
+  "flag": false
+ },
+ {
+  "id": 35,
+  "index": 36,
+  "title": "good days",
+  "artist": "keshi",
+  "file": "audio/36_keshi_good-days.m4a",
+  "duration_s": 228.8,
+  "n_windows": 45,
+  "flag": false
+ },
+ {
+  "id": 36,
+  "index": 37,
+  "title": "LIMBO",
+  "artist": "keshi",
+  "file": "audio/37_keshi_limbo.m4a",
+  "duration_s": 212.9,
+  "n_windows": 42,
+  "flag": false
+ },
+ {
+  "id": 37,
+  "index": 38,
+  "title": "ANGOSTURA",
+  "artist": "keshi",
+  "file": "audio/38_keshi_angostura.m4a",
+  "duration_s": 171.0,
+  "n_windows": 34,
+  "flag": false
+ },
+ {
+  "id": 38,
+  "index": 39,
+  "title": "beside you",
+  "artist": "keshi",
+  "file": "audio/39_keshi_beside-you.m4a",
+  "duration_s": 166.6,
+  "n_windows": 33,
+  "flag": false
+ },
+ {
+  "id": 39,
+  "index": 40,
+  "title": "Anna Sun",
+  "artist": "WALK THE MOON",
+  "file": "audio/40_walk-the-moon_anna-sun.m4a",
+  "duration_s": 322.1,
+  "n_windows": 64,
+  "flag": false
+ },
+ {
+  "id": 40,
+  "index": 41,
+  "title": "skeletons",
+  "artist": "keshi",
+  "file": "audio/41_keshi_skeletons.m4a",
+  "duration_s": 153.9,
+  "n_windows": 30,
+  "flag": false
+ },
+ {
+  "id": 41,
+  "index": 42,
+  "title": "It's Strange",
+  "artist": "Louis The Child, K.Flay",
+  "file": "audio/42_louis-the-child_it-s-strange.m4a",
+  "duration_s": 244.8,
+  "n_windows": 48,
+  "flag": false
+ },
+ {
+  "id": 42,
+  "index": 43,
+  "title": "Yellow",
+  "artist": "Coldplay",
+  "file": "audio/43_coldplay_yellow.m4a",
+  "duration_s": 267.3,
+  "n_windows": 53,
+  "flag": false
+ },
+ {
+  "id": 43,
+  "index": 44,
+  "title": "A Sky Full of Stars",
+  "artist": "Coldplay",
+  "file": "audio/44_coldplay_a-sky-full-of-stars.m4a",
+  "duration_s": 266.6,
+  "n_windows": 53,
+  "flag": false
+ },
+ {
+  "id": 44,
+  "index": 45,
+  "title": "Too Good At Goodbyes",
+  "artist": "Sam Smith",
+  "file": "audio/45_sam-smith_too-good-at-goodbyes.m4a",
+  "duration_s": 204.0,
+  "n_windows": 40,
+  "flag": false
+ },
+ {
+  "id": 45,
+  "index": 46,
+  "title": "Snowman",
+  "artist": "Sia",
+  "file": "audio/46_sia_snowman.m4a",
+  "duration_s": 165.0,
+  "n_windows": 32,
+  "flag": false
+ },
+ {
+  "id": 46,
+  "index": 47,
+  "title": "Santa Tell Me",
+  "artist": "Ariana Grande",
+  "file": "audio/47_ariana-grande_santa-tell-me.m4a",
+  "duration_s": 204.1,
+  "n_windows": 40,
+  "flag": false
+ },
+ {
+  "id": 47,
+  "index": 48,
+  "title": "After Party",
+  "artist": "Don Toliver",
+  "file": "audio/48_don-toliver_after-party.m4a",
+  "duration_s": 168.0,
+  "n_windows": 33,
+  "flag": false
+ },
+ {
+  "id": 48,
+  "index": 49,
+  "title": "High Hopes",
+  "artist": "Panic! At The Disco",
+  "file": "audio/49_panic-at-the-disco_high-hopes.m4a",
+  "duration_s": 191.0,
+  "n_windows": 38,
+  "flag": false
+ },
+ {
+  "id": 49,
+  "index": 50,
+  "title": "iSpy (feat. Lil Yachty)",
+  "artist": "KYLE, Lil Yachty",
+  "file": "audio/50_kyle_ispy-feat-lil-yachty.m4a",
+  "duration_s": 252.3,
+  "n_windows": 50,
+  "flag": false
+ },
+ {
+  "id": 50,
+  "index": 51,
+  "title": "comethru",
+  "artist": "Jeremy Zucker",
+  "file": "audio/51_jeremy-zucker_comethru.m4a",
+  "duration_s": 181.1,
+  "n_windows": 36,
+  "flag": false
+ },
+ {
+  "id": 51,
+  "index": 52,
+  "title": "Buff Baby",
+  "artist": "tobi lou",
+  "file": "audio/52_tobi-lou_buff-baby.m4a",
+  "duration_s": 215.6,
+  "n_windows": 43,
+  "flag": false
+ },
+ {
+  "id": 52,
+  "index": 53,
+  "title": "Glorious (feat. Skylar Grey)",
+  "artist": "Macklemore, Skylar Grey",
+  "file": "audio/53_macklemore_glorious-feat-skylar-grey.m4a",
+  "duration_s": 219.6,
+  "n_windows": 43,
+  "flag": false
+ },
+ {
+  "id": 53,
+  "index": 55,
+  "title": "Painkiller",
+  "artist": "Ruel",
+  "file": "audio/55_ruel_painkiller.m4a",
+  "duration_s": 216.1,
+  "n_windows": 43,
+  "flag": false
+ },
+ {
+  "id": 54,
+  "index": 56,
+  "title": "Phases",
+  "artist": "PRETTYMUCH",
+  "file": "audio/56_prettymuch_phases.m4a",
+  "duration_s": 215.8,
+  "n_windows": 43,
+  "flag": false
+ },
+ {
+  "id": 55,
+  "index": 57,
+  "title": "Die For You",
+  "artist": "Joji",
+  "file": "audio/57_joji_die-for-you.m4a",
+  "duration_s": 211.9,
+  "n_windows": 42,
+  "flag": false
+ },
+ {
+  "id": 56,
+  "index": 58,
+  "title": "HELL/HEAVEN",
+  "artist": "keshi",
+  "file": "audio/58_keshi_hell-heaven.m4a",
+  "duration_s": 160.2,
+  "n_windows": 32,
+  "flag": false
+ },
+ {
+  "id": 57,
+  "index": 59,
+  "title": "Chemical",
+  "artist": "Post Malone",
+  "file": "audio/59_post-malone_chemical.m4a",
+  "duration_s": 183.7,
+  "n_windows": 36,
+  "flag": false
+ },
+ {
+  "id": 58,
+  "index": 60,
+  "title": "Celebration (Movie Edit) [feat. Toko Miura]",
+  "artist": "RADWIMPS, Toko Miura",
+  "file": "audio/60_radwimps_celebration-movie-edit-feat-toko-miura.m4a",
+  "duration_s": 155.1,
+  "n_windows": 31,
+  "flag": false
+ },
+ {
+  "id": 59,
+  "index": 61,
+  "title": "Groundhog Day",
+  "artist": "Em Beihold",
+  "file": "audio/61_em-beihold_groundhog-day.m4a",
+  "duration_s": 172.5,
+  "n_windows": 34,
+  "flag": false
+ },
+ {
+  "id": 60,
+  "index": 62,
+  "title": "always, i'll care",
+  "artist": "Jeremy Zucker",
+  "file": "audio/62_jeremy-zucker_always-i-ll-care.m4a",
+  "duration_s": 147.1,
+  "n_windows": 29,
+  "flag": false
+ },
+ {
+  "id": 61,
+  "index": 63,
+  "title": "Say You Won't Let Go",
+  "artist": "James Arthur",
+  "file": "audio/63_james-arthur_say-you-won-t-let-go.m4a",
+  "duration_s": 210.8,
+  "n_windows": 42,
+  "flag": false
+ },
+ {
+  "id": 62,
+  "index": 64,
+  "title": "Nobody Else",
+  "artist": "Em Beihold",
+  "file": "audio/64_em-beihold_nobody-else.m4a",
+  "duration_s": 193.7,
+  "n_windows": 38,
+  "flag": false
+ },
+ {
+  "id": 63,
+  "index": 65,
+  "title": "Tokyo Rose",
+  "artist": "Blame My Youth",
+  "file": "audio/65_blame-my-youth_tokyo-rose.m4a",
+  "duration_s": 161.6,
+  "n_windows": 32,
+  "flag": false
+ },
+ {
+  "id": 64,
+  "index": 66,
+  "title": "Why",
+  "artist": "Dominic Fike",
+  "file": "audio/66_dominic-fike_why.m4a",
+  "duration_s": 140.0,
+  "n_windows": 28,
+  "flag": false
+ },
+ {
+  "id": 65,
+  "index": 67,
+  "title": "Feel It (From “Invincible”)",
+  "artist": "d4vd",
+  "file": "audio/67_d4vd_feel-it-from-invincible.m4a",
+  "duration_s": 158.1,
+  "n_windows": 31,
+  "flag": false
+ },
+ {
+  "id": 66,
+  "index": 68,
+  "title": "Mimi's Delivery Service",
+  "artist": "Good Kid",
+  "file": "audio/68_good-kid_mimi-s-delivery-service.m4a",
+  "duration_s": 178.9,
+  "n_windows": 35,
+  "flag": false
+ },
+ {
+  "id": 67,
+  "index": 69,
+  "title": "BABY I'M BACK",
+  "artist": "The Kid LAROI",
+  "file": "audio/69_the-kid-laroi_baby-i-m-back.m4a",
+  "duration_s": 171.4,
+  "n_windows": 34,
+  "flag": false
+ },
+ {
+  "id": 68,
+  "index": 70,
+  "title": "Nice For What",
+  "artist": "Drake",
+  "file": "audio/70_drake_nice-for-what.m4a",
+  "duration_s": 210.3,
+  "n_windows": 42,
+  "flag": false
+ },
+ {
+  "id": 69,
+  "index": 71,
+  "title": "Superstar Sh*t",
+  "artist": "Dominic Fike",
+  "file": "audio/71_dominic-fike_superstar-sh-t.m4a",
+  "duration_s": 126.1,
+  "n_windows": 25,
+  "flag": false
+ },
+ {
+  "id": 70,
+  "index": 72,
+  "title": "Suzume (feat. Toaka)",
+  "artist": "RADWIMPS, Toaka",
+  "file": "audio/72_radwimps_suzume-feat-toaka.m4a",
+  "duration_s": 235.9,
+  "n_windows": 47,
+  "flag": false
+ },
+ {
+  "id": 71,
+  "index": 73,
+  "title": "Dancing in the Moonlight",
+  "artist": "Toploader",
+  "file": "audio/73_toploader_dancing-in-the-moonlight.m4a",
+  "duration_s": 231.6,
+  "n_windows": 46,
+  "flag": false
+ },
+ {
+  "id": 72,
+  "index": 74,
+  "title": "Hell N Back",
+  "artist": "Bakar",
+  "file": "audio/74_bakar_hell-n-back.m4a",
+  "duration_s": 213.1,
+  "n_windows": 42,
+  "flag": false
+ },
+ {
+  "id": 73,
+  "index": 75,
+  "title": "rocket science",
+  "artist": "vaultboy",
+  "file": "audio/75_vaultboy_rocket-science.m4a",
+  "duration_s": 153.0,
+  "n_windows": 30,
+  "flag": false
+ },
+ {
+  "id": 74,
+  "index": 76,
+  "title": "Clarity",
+  "artist": "Zedd, Foxes",
+  "file": "audio/76_zedd_clarity.m4a",
+  "duration_s": 271.7,
+  "n_windows": 54,
+  "flag": false
+ },
+ {
+  "id": 75,
+  "index": 77,
+  "title": "I'm Yours",
+  "artist": "Jason Mraz",
+  "file": "audio/77_jason-mraz_i-m-yours.m4a",
+  "duration_s": 243.0,
+  "n_windows": 48,
+  "flag": false
+ },
+ {
+  "id": 76,
+  "index": 78,
+  "title": "two steps behind",
+  "artist": "Adriel Rivera",
+  "file": "audio/78_adriel-rivera_two-steps-behind.m4a",
+  "duration_s": 171.2,
+  "n_windows": 34,
+  "flag": false
+ },
+ {
+  "id": 77,
+  "index": 79,
+  "title": "Homecoming",
+  "artist": "Kanye West, Chris Martin",
+  "file": "audio/79_kanye-west_homecoming.m4a",
+  "duration_s": 203.6,
+  "n_windows": 40,
+  "flag": false
+ },
+ {
+  "id": 78,
+  "index": 80,
+  "title": "Chasin' You",
+  "artist": "Morgan Wallen",
+  "file": "audio/80_morgan-wallen_chasin-you.m4a",
+  "duration_s": 205.5,
+  "n_windows": 41,
+  "flag": false
+ },
+ {
+  "id": 79,
+  "index": 81,
+  "title": "Soft Spot",
+  "artist": "keshi",
+  "file": "audio/81_keshi_soft-spot.m4a",
+  "duration_s": 204.4,
+  "n_windows": 40,
+  "flag": false
+ },
+ {
+  "id": 80,
+  "index": 82,
+  "title": "Stick Season",
+  "artist": "Noah Kahan",
+  "file": "audio/82_noah-kahan_stick-season.m4a",
+  "duration_s": 182.4,
+  "n_windows": 36,
+  "flag": false
+ }
+]

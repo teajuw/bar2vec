@@ -1,0 +1,15 @@
+[
+ {
+  "role": "user",
+  "content": "Name each section of this song: Big Girls Don't Cry (Personal) \u2014 Fergie (Pop, 9 sections)\nsection edges (s): [0.4, 8.8, 44.9, 78.9, 87.4, 121.3, 155.3, 210.4, 244.4, 250.8]\nsettings: {\"encoder\": \"clapbar_fold\", \"prompts\": {\"intro\": [\"the intro of a song\"], \"verse\": [\"the verse of a song\"], \"prechorus\": [\"the pre-chorus of a song\"], \"chorus\": [\"the chorus of a song\"], \"postchorus\": [\"the post-chorus of a song\"], \"bridge\": [\"the bridge of a song\"], \"outro\": [\"the outro of a song\"], \"instrumental\": [\"an instrumental section of a song\"]}, \"extra_models\": [\"matpacbar_fold\", \"loudbar_fold\"], \"structure\": {\"model\": \"matpacbar_fold\", \"position\": true, \"repeat_tau\": 0.4, \"bridge\": true, \"prepost\": true, \"short_s\": 20, \"vocal_below\": -1.0, \"loud_model\": \"loudbar_fold\", \"loud_w\": 2.0}, \"extra_prompts\": {\"vocals\": [\"singing vocals\", \"a person singing or rapping\"], \"no_vocals\": [\"instrumental music with no vocals\", \"an instrumental solo\"]}}"
+ },
+ {
+  "role": "assistant",
+  "content": "{\"names\": [\"intro\", \"verse\", \"chorus\", \"postchorus\", \"verse\", \"chorus\", \"bridge\", \"chorus\", \"outro\"], \"top3_scores\": [[[\"bridge\", 0.347], [\"outro\", 0.344], [\"verse\", 0.337]], [[\"verse\", 0.314], [\"bridge\", 0.305], [\"outro\", 0.249]], [[\"verse\", 0.275], [\"bridge\", 0.254], [\"outro\", 0.161]], [[\"outro\", 0.296], [\"instrumental\", 0.27], [\"bridge\", 0.267]], [[\"verse\", 0.298], [\"bridge\", 0.296], [\"outro\", 0.252]], [[\"verse\", 0.274], [\"bridge\", 0.261], [\"outro\", 0.182]], [[\"bridge\", 0.338], [\"verse\", 0.337], [\"outro\", 0.243]], [[\"verse\", 0.285], [\"bridge\", 0.278], [\"outro\", 0.186]], [[\"instrumental\", 0.287], [\"outro\", 0.282], [\"bridge\", 0.242]]]}"
+ },
+ {
+  "role": "tool_result",
+  "name": "grader",
+  "content": "{\"sections\": [{\"start\": 0.4, \"end\": 8.8, \"annotated\": \"intro\", \"scored_as\": \"intro\", \"named\": \"intro\", \"right\": true}, {\"start\": 8.8, \"end\": 44.9, \"annotated\": \"verse\", \"scored_as\": \"verse\", \"named\": \"verse\", \"right\": true}, {\"start\": 44.9, \"end\": 78.9, \"annotated\": \"chorus\", \"scored_as\": \"chorus\", \"named\": \"chorus\", \"right\": true}, {\"start\": 78.9, \"end\": 87.4, \"annotated\": \"instrumental\", \"scored_as\": \"instrumental\", \"named\": \"postchorus\", \"right\": false}, {\"start\": 87.4, \"end\": 121.3, \"annotated\": \"verse\", \"scored_as\": \"verse\", \"named\": \"verse\", \"right\": true}, {\"start\": 121.3, \"end\": 155.3, \"annotated\": \"chorus\", \"scored_as\": \"chorus\", \"named\": \"chorus\", \"right\": true}, {\"start\": 155.3, \"end\": 210.4, \"annotated\": \"bridge\", \"scored_as\": \"bridge\", \"named\": \"bridge\", \"right\": true}, {\"start\": 210.4, \"end\": 244.4, \"annotated\": \"chorus\", \"scored_as\": \"chorus\", \"named\": \"chorus\", \"right\": true}, {\"start\": 244.4, \"end\": 250.8, \"annotated\": \"outro\", \"scored_as\": \"outro\", \"named\": \"outro\", \"right\": true}], \"grade\": {\"acc\": 0.8889}}"
+ }
+]

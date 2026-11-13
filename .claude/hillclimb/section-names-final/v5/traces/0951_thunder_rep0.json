@@ -1,0 +1,15 @@
+[
+ {
+  "role": "user",
+  "content": "Name each section of this song: Thunder \u2014 Boys Like Girls (Pop, 8 sections)\nsection edges (s): [0.4, 35.6, 70.8, 109.2, 141.2, 157.2, 170.0, 195.6, 221.2]\nsettings: {\"encoder\": \"clapbar_fold\", \"prompts\": {\"intro\": [\"the intro of a song\"], \"verse\": [\"the verse of a song\"], \"prechorus\": [\"the pre-chorus of a song\"], \"chorus\": [\"the chorus of a song\"], \"postchorus\": [\"the post-chorus of a song\"], \"bridge\": [\"the bridge of a song\"], \"outro\": [\"the outro of a song\"], \"instrumental\": [\"an instrumental section of a song\"]}, \"extra_models\": [\"matpacbar_fold\"], \"structure\": {\"model\": \"matpacbar_fold\", \"position\": true, \"repeat_tau\": 0.4, \"bridge\": true, \"prepost\": true, \"short_s\": 20, \"vocal_below\": -1.0}, \"extra_prompts\": {\"vocals\": [\"singing vocals\", \"a person singing or rapping\"], \"no_vocals\": [\"instrumental music with no vocals\", \"an instrumental solo\"]}}"
+ },
+ {
+  "role": "assistant",
+  "content": "{\"names\": [\"intro\", \"chorus\", \"verse\", \"chorus\", \"verse\", \"verse\", \"chorus\", \"outro\"], \"top3_scores\": [[[\"bridge\", 0.278], [\"verse\", 0.231], [\"outro\", 0.201]], [[\"bridge\", 0.247], [\"verse\", 0.207], [\"outro\", 0.169]], [[\"bridge\", 0.222], [\"verse\", 0.18], [\"outro\", 0.139]], [[\"bridge\", 0.192], [\"verse\", 0.148], [\"postchorus\", 0.112]], [[\"bridge\", 0.204], [\"outro\", 0.174], [\"verse\", 0.17]], [[\"bridge\", 0.261], [\"verse\", 0.213], [\"outro\", 0.182]], [[\"bridge\", 0.197], [\"verse\", 0.16], [\"postchorus\", 0.115]], [[\"bridge\", 0.215], [\"verse\", 0.178], [\"outro\", 0.133]]]}"
+ },
+ {
+  "role": "tool_result",
+  "name": "grader",
+  "content": "{\"sections\": [{\"start\": 0.4, \"end\": 35.6, \"annotated\": \"verse\", \"scored_as\": \"verse\", \"named\": \"intro\", \"right\": false}, {\"start\": 35.6, \"end\": 70.8, \"annotated\": \"chorus\", \"scored_as\": \"chorus\", \"named\": \"chorus\", \"right\": true}, {\"start\": 70.8, \"end\": 109.2, \"annotated\": \"verse\", \"scored_as\": \"verse\", \"named\": \"verse\", \"right\": true}, {\"start\": 109.2, \"end\": 141.2, \"annotated\": \"chorus\", \"scored_as\": \"chorus\", \"named\": \"chorus\", \"right\": true}, {\"start\": 141.2, \"end\": 157.2, \"annotated\": \"bridge\", \"scored_as\": \"bridge\", \"named\": \"verse\", \"right\": false}, {\"start\": 157.2, \"end\": 170.0, \"annotated\": \"verse\", \"scored_as\": \"verse\", \"named\": \"verse\", \"right\": true}, {\"start\": 170.0, \"end\": 195.6, \"annotated\": \"chorus\", \"scored_as\": \"chorus\", \"named\": \"chorus\", \"right\": true}, {\"start\": 195.6, \"end\": 221.2, \"annotated\": \"outro\", \"scored_as\": \"outro\", \"named\": \"outro\", \"right\": true}], \"grade\": {\"acc\": 0.75}}"
+ }
+]

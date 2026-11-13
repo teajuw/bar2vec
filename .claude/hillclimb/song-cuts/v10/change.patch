@@ -1,0 +1,17 @@
+--- .claude/hillclimb/song-cuts/v9/cuts.json	2026-11-12 00:31:18
++++ cuts.json	2026-11-12 09:11:40
+@@ -1,6 +1,6 @@
+ {
+   "models": [
+-    "clapbar_fold"
++    "matpacbar_fold"
+   ],
+   "window": 10,
+   "hop": 5,
+@@ -19,4 +19,4 @@
+   "cbm_bands": 7,
+   "cbm_penalty": 0,
+   "cbm_support": 0.5
+-}
++}
+\ No newline at end of file

@@ -1,0 +1,4 @@
+{
+ "description": "plain spectrogram features, round-3 cutter, 10 s windows every 5 s",
+ "target": "code"
+}

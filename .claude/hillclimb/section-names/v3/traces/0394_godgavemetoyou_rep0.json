@@ -1,0 +1,15 @@
+[
+ {
+  "role": "user",
+  "content": "Name each section of this song: God Gave Me You \u2014 Blake Shelton (Country, 9 sections)\nsection edges (s): [0.2, 12.8, 38.1, 76.0, 101.2, 126.5, 151.7, 201.5, 214.9, 224.4]\nsettings: {\"encoder\": \"clapbar_fold\", \"prompts\": {\"intro\": [\"the intro of a song\"], \"verse\": [\"the verse of a song\"], \"prechorus\": [\"the pre-chorus of a song\"], \"chorus\": [\"the chorus of a song\"], \"postchorus\": [\"the post-chorus of a song\"], \"bridge\": [\"the bridge of a song\"], \"outro\": [\"the outro of a song\"], \"instrumental\": [\"an instrumental section of a song\"]}, \"extra_models\": [\"matpacbar_fold\"], \"structure\": {\"model\": \"matpacbar_fold\", \"position\": true, \"repeat_tau\": 0.4, \"bridge\": true, \"prepost\": false, \"short_s\": 20}}"
+ },
+ {
+  "role": "assistant",
+  "content": "{\"names\": [\"intro\", \"verse\", \"chorus\", \"verse\", \"chorus\", \"chorus\", \"chorus\", \"bridge\", \"outro\"], \"top3_scores\": [[[\"outro\", 0.284], [\"bridge\", 0.283], [\"verse\", 0.257]], [[\"bridge\", 0.244], [\"verse\", 0.221], [\"postchorus\", 0.141]], [[\"bridge\", 0.228], [\"verse\", 0.172], [\"outro\", 0.147]], [[\"bridge\", 0.265], [\"verse\", 0.214], [\"postchorus\", 0.193]], [[\"bridge\", 0.23], [\"verse\", 0.174], [\"outro\", 0.152]], [[\"bridge\", 0.241], [\"verse\", 0.186], [\"outro\", 0.176]], [[\"bridge\", 0.255], [\"verse\", 0.207], [\"outro\", 0.18]], [[\"bridge\", 0.264], [\"outro\", 0.225], [\"postchorus\", 0.216]], [[\"outro\", 0.335], [\"instrumental\", 0.31], [\"bridge\", 0.29]]]}"
+ },
+ {
+  "role": "tool_result",
+  "name": "grader",
+  "content": "{\"sections\": [{\"start\": 0.2, \"end\": 12.8, \"annotated\": \"intro\", \"scored_as\": \"intro\", \"named\": \"intro\", \"right\": true}, {\"start\": 12.8, \"end\": 38.1, \"annotated\": \"verse\", \"scored_as\": \"verse\", \"named\": \"verse\", \"right\": true}, {\"start\": 38.1, \"end\": 76.0, \"annotated\": \"chorus\", \"scored_as\": \"chorus\", \"named\": \"chorus\", \"right\": true}, {\"start\": 76.0, \"end\": 101.2, \"annotated\": \"verse\", \"scored_as\": \"verse\", \"named\": \"verse\", \"right\": true}, {\"start\": 101.2, \"end\": 126.5, \"annotated\": \"chorus\", \"scored_as\": \"chorus\", \"named\": \"chorus\", \"right\": true}, {\"start\": 126.5, \"end\": 151.7, \"annotated\": \"bridge\", \"scored_as\": \"bridge\", \"named\": \"chorus\", \"right\": false}, {\"start\": 151.7, \"end\": 201.5, \"annotated\": \"chorus\", \"scored_as\": \"chorus\", \"named\": \"chorus\", \"right\": true}, {\"start\": 201.5, \"end\": 214.9, \"annotated\": \"postchorus\", \"scored_as\": \"postchorus\", \"named\": \"bridge\", \"right\": false}, {\"start\": 214.9, \"end\": 224.4, \"annotated\": \"outro\", \"scored_as\": \"outro\", \"named\": \"outro\", \"right\": true}], \"grade\": {\"acc\": 0.7778}}"
+ }
+]

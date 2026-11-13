@@ -1,0 +1,15 @@
+[
+ {
+  "role": "user",
+  "content": "Name each section of this song: Lighters \u2014 Bad Meets Evil feat. Bruno Mars (Pop, 6 sections)\nsection edges (s): [0.0, 34.6, 117.2, 151.9, 235.9, 261.2, 295.9]\nsettings: {\"encoder\": \"clapbar_fold\", \"prompts\": {\"intro\": [\"the intro of a song\"], \"verse\": [\"the verse of a song\"], \"prechorus\": [\"the pre-chorus of a song\"], \"chorus\": [\"the chorus of a song\"], \"postchorus\": [\"the post-chorus of a song\"], \"bridge\": [\"the bridge of a song\"], \"outro\": [\"the outro of a song\"], \"instrumental\": [\"an instrumental section of a song\"]}, \"extra_models\": [\"matpacbar_fold\"], \"structure\": {\"model\": \"matpacbar_fold\", \"position\": true, \"repeat_tau\": 0.4, \"bridge\": true, \"prepost\": true, \"short_s\": 20, \"vocal_below\": -1.0}, \"extra_prompts\": {\"vocals\": [\"singing vocals\", \"a person singing or rapping\"], \"no_vocals\": [\"instrumental music with no vocals\", \"an instrumental solo\"]}}"
+ },
+ {
+  "role": "assistant",
+  "content": "{\"names\": [\"intro\", \"verse\", \"chorus\", \"verse\", \"chorus\", \"outro\"], \"top3_scores\": [[[\"verse\", 0.355], [\"bridge\", 0.336], [\"outro\", 0.28]], [[\"verse\", 0.33], [\"bridge\", 0.279], [\"postchorus\", 0.261]], [[\"bridge\", 0.4], [\"verse\", 0.379], [\"postchorus\", 0.311]], [[\"verse\", 0.344], [\"bridge\", 0.318], [\"postchorus\", 0.26]], [[\"bridge\", 0.331], [\"verse\", 0.306], [\"outro\", 0.258]], [[\"verse\", 0.337], [\"bridge\", 0.321], [\"outro\", 0.265]]]}"
+ },
+ {
+  "role": "tool_result",
+  "name": "grader",
+  "content": "{\"sections\": [{\"start\": 0.0, \"end\": 34.6, \"annotated\": \"chorus\", \"scored_as\": \"chorus\", \"named\": \"intro\", \"right\": false}, {\"start\": 34.6, \"end\": 117.2, \"annotated\": \"verse\", \"scored_as\": \"verse\", \"named\": \"verse\", \"right\": true}, {\"start\": 117.2, \"end\": 151.9, \"annotated\": \"chorus\", \"scored_as\": \"chorus\", \"named\": \"chorus\", \"right\": true}, {\"start\": 151.9, \"end\": 235.9, \"annotated\": \"verse\", \"scored_as\": \"verse\", \"named\": \"verse\", \"right\": true}, {\"start\": 235.9, \"end\": 261.2, \"annotated\": \"bridge\", \"scored_as\": \"bridge\", \"named\": \"chorus\", \"right\": false}, {\"start\": 261.2, \"end\": 295.9, \"annotated\": \"chorus\", \"scored_as\": \"chorus\", \"named\": \"outro\", \"right\": false}], \"grade\": {\"acc\": 0.5}}"
+ }
+]

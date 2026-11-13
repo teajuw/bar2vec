@@ -1,0 +1,15 @@
+[
+ {
+  "role": "user",
+  "content": "Name each section of this song: I'm Yours \u2014 Jason Mraz (Pop, 9 sections)\nsection edges (s): [0.2, 12.9, 38.8, 64.2, 92.8, 118.2, 143.3, 169.1, 181.8, 207.3]\nsettings: {\"encoder\": \"clapbar_fold\", \"prompts\": {\"intro\": [\"the intro of a song\"], \"verse\": [\"the verse of a song\"], \"prechorus\": [\"the pre-chorus of a song\"], \"chorus\": [\"the chorus of a song\"], \"postchorus\": [\"the post-chorus of a song\"], \"bridge\": [\"the bridge of a song\"], \"outro\": [\"the outro of a song\"], \"instrumental\": [\"an instrumental section of a song\"]}, \"extra_models\": [\"matpacbar_fold\"], \"structure\": {\"model\": \"matpacbar_fold\", \"position\": true, \"repeat_tau\": null, \"bridge\": false, \"prepost\": false, \"short_s\": 20}}"
+ },
+ {
+  "role": "assistant",
+  "content": "{\"names\": [\"intro\", \"verse\", \"verse\", \"verse\", \"verse\", \"verse\", \"verse\", \"verse\", \"outro\"], \"top3_scores\": [[[\"instrumental\", 0.297], [\"verse\", 0.282], [\"bridge\", 0.269]], [[\"verse\", 0.332], [\"bridge\", 0.31], [\"outro\", 0.263]], [[\"verse\", 0.34], [\"bridge\", 0.312], [\"chorus\", 0.285]], [[\"verse\", 0.278], [\"bridge\", 0.255], [\"postchorus\", 0.182]], [[\"verse\", 0.24], [\"bridge\", 0.224], [\"instrumental\", 0.165]], [[\"verse\", 0.238], [\"bridge\", 0.231], [\"instrumental\", 0.217]], [[\"verse\", 0.337], [\"bridge\", 0.288], [\"outro\", 0.247]], [[\"verse\", 0.319], [\"bridge\", 0.281], [\"postchorus\", 0.266]], [[\"verse\", 0.196], [\"bridge\", 0.176], [\"postchorus\", 0.114]]]}"
+ },
+ {
+  "role": "tool_result",
+  "name": "grader",
+  "content": "{\"sections\": [{\"start\": 0.2, \"end\": 12.9, \"annotated\": \"intro\", \"scored_as\": \"intro\", \"named\": \"intro\", \"right\": true}, {\"start\": 12.9, \"end\": 38.8, \"annotated\": \"verse\", \"scored_as\": \"verse\", \"named\": \"verse\", \"right\": true}, {\"start\": 38.8, \"end\": 64.2, \"annotated\": \"chorus\", \"scored_as\": \"chorus\", \"named\": \"verse\", \"right\": false}, {\"start\": 64.2, \"end\": 92.8, \"annotated\": \"verse\", \"scored_as\": \"verse\", \"named\": \"verse\", \"right\": true}, {\"start\": 92.8, \"end\": 118.2, \"annotated\": \"chorus\", \"scored_as\": \"chorus\", \"named\": \"verse\", \"right\": false}, {\"start\": 118.2, \"end\": 143.3, \"annotated\": \"bridge\", \"scored_as\": \"bridge\", \"named\": \"verse\", \"right\": false}, {\"start\": 143.3, \"end\": 169.1, \"annotated\": \"verse\", \"scored_as\": \"verse\", \"named\": \"verse\", \"right\": true}, {\"start\": 169.1, \"end\": 181.8, \"annotated\": \"chorus\", \"scored_as\": \"chorus\", \"named\": \"verse\", \"right\": false}, {\"start\": 181.8, \"end\": 207.3, \"annotated\": \"postchorus\", \"scored_as\": \"postchorus\", \"named\": \"outro\", \"right\": false}], \"grade\": {\"acc\": 0.4444}}"
+ }
+]

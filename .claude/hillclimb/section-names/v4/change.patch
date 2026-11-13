@@ -1,0 +1,13 @@
+--- .claude/hillclimb/section-names/v3/names.json	2026-11-13 02:14:54
++++ names.json	2026-11-13 02:15:09
+@@ -34,7 +34,7 @@
+     "position": true,
+     "repeat_tau": 0.4,
+     "bridge": true,
+-    "prepost": false,
++    "prepost": true,
+     "short_s": 20
+   }
+-}
++}
+\ No newline at end of file

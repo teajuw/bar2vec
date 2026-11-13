@@ -1,0 +1,15 @@
+[
+ {
+  "role": "user",
+  "content": "Name each section of this song: If U Seek Amy \u2014 Britney Spears (Pop, 10 sections)\nsection edges (s): [0.1, 14.9, 44.4, 66.5, 96.1, 110.9, 125.6, 166.2, 181.0, 195.8, 210.5]\nsettings: {\"encoder\": \"clapbar_fold\", \"prompts\": {\"intro\": [\"the intro of a song\"], \"verse\": [\"the verse of a song\"], \"prechorus\": [\"the pre-chorus of a song\"], \"chorus\": [\"the chorus of a song\"], \"postchorus\": [\"the post-chorus of a song\"], \"bridge\": [\"the bridge of a song\"], \"outro\": [\"the outro of a song\"], \"instrumental\": [\"an instrumental section of a song\"]}, \"extra_models\": [\"matpacbar_fold\"], \"structure\": {\"model\": \"matpacbar_fold\", \"position\": true, \"repeat_tau\": null, \"bridge\": false, \"prepost\": false, \"short_s\": 20}}"
+ },
+ {
+  "role": "assistant",
+  "content": "{\"names\": [\"intro\", \"verse\", \"verse\", \"verse\", \"verse\", \"verse\", \"verse\", \"verse\", \"verse\", \"outro\"], \"top3_scores\": [[[\"outro\", 0.251], [\"verse\", 0.208], [\"postchorus\", 0.199]], [[\"verse\", 0.297], [\"bridge\", 0.283], [\"outro\", 0.268]], [[\"outro\", 0.257], [\"bridge\", 0.232], [\"verse\", 0.23]], [[\"verse\", 0.286], [\"bridge\", 0.257], [\"outro\", 0.25]], [[\"outro\", 0.228], [\"verse\", 0.211], [\"bridge\", 0.196]], [[\"bridge\", 0.278], [\"outro\", 0.273], [\"verse\", 0.265]], [[\"verse\", 0.417], [\"bridge\", 0.411], [\"outro\", 0.39]], [[\"outro\", 0.221], [\"verse\", 0.214], [\"bridge\", 0.194]], [[\"bridge\", 0.233], [\"verse\", 0.233], [\"outro\", 0.224]], [[\"outro\", 0.285], [\"bridge\", 0.267], [\"verse\", 0.257]]]}"
+ },
+ {
+  "role": "tool_result",
+  "name": "grader",
+  "content": "{\"sections\": [{\"start\": 0.1, \"end\": 14.9, \"annotated\": \"intro\", \"scored_as\": \"intro\", \"named\": \"intro\", \"right\": true}, {\"start\": 14.9, \"end\": 44.4, \"annotated\": \"verse\", \"scored_as\": \"verse\", \"named\": \"verse\", \"right\": true}, {\"start\": 44.4, \"end\": 66.5, \"annotated\": \"chorus\", \"scored_as\": \"chorus\", \"named\": \"verse\", \"right\": false}, {\"start\": 66.5, \"end\": 96.1, \"annotated\": \"verse\", \"scored_as\": \"verse\", \"named\": \"verse\", \"right\": true}, {\"start\": 96.1, \"end\": 110.9, \"annotated\": \"chorus\", \"scored_as\": \"chorus\", \"named\": \"verse\", \"right\": false}, {\"start\": 110.9, \"end\": 125.6, \"annotated\": \"inst\", \"scored_as\": \"instrumental\", \"named\": \"verse\", \"right\": false}, {\"start\": 125.6, \"end\": 166.2, \"annotated\": \"bridge\", \"scored_as\": \"bridge\", \"named\": \"verse\", \"right\": false}, {\"start\": 166.2, \"end\": 181.0, \"annotated\": \"chorus\", \"scored_as\": \"chorus\", \"named\": \"verse\", \"right\": false}, {\"start\": 181.0, \"end\": 195.8, \"annotated\": \"chorus\", \"scored_as\": \"chorus\", \"named\": \"verse\", \"right\": false}, {\"start\": 195.8, \"end\": 210.5, \"annotated\": \"outro\", \"scored_as\": \"outro\", \"named\": \"outro\", \"right\": true}], \"grade\": {\"acc\": 0.4}}"
+ }
+]

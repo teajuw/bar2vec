@@ -1,0 +1,15 @@
+[
+ {
+  "role": "user",
+  "content": "Name each section of this song: Better Off Alone \u2014 Alice DeeJay (Dance/Electronic, 9 sections)\nsection edges (s): [0.0, 29.8, 43.8, 71.8, 85.9, 99.9, 113.9, 127.9, 141.9, 155.9]\nsettings: {\"encoder\": \"clapbar_fold\", \"prompts\": {\"intro\": [\"the intro of a song\"], \"verse\": [\"the verse of a song\"], \"prechorus\": [\"the pre-chorus of a song\"], \"chorus\": [\"the chorus of a song\"], \"postchorus\": [\"the post-chorus of a song\"], \"bridge\": [\"the bridge of a song\"], \"outro\": [\"the outro of a song\"], \"instrumental\": [\"an instrumental section of a song\"]}, \"extra_models\": [\"matpacbar_fold\"], \"structure\": {\"model\": \"matpacbar_fold\", \"position\": true, \"repeat_tau\": 0.4, \"bridge\": true, \"prepost\": true, \"short_s\": 20}}"
+ },
+ {
+  "role": "assistant",
+  "content": "{\"names\": [\"intro\", \"prechorus\", \"chorus\", \"verse\", \"verse\", \"bridge\", \"prechorus\", \"chorus\", \"chorus\"], \"top3_scores\": [[[\"outro\", 0.364], [\"intro\", 0.347], [\"instrumental\", 0.318]], [[\"intro\", 0.366], [\"outro\", 0.364], [\"chorus\", 0.307]], [[\"outro\", 0.316], [\"intro\", 0.283], [\"chorus\", 0.267]], [[\"outro\", 0.314], [\"chorus\", 0.291], [\"intro\", 0.29]], [[\"outro\", 0.31], [\"intro\", 0.28], [\"bridge\", 0.254]], [[\"outro\", 0.423], [\"intro\", 0.418], [\"verse\", 0.346]], [[\"intro\", 0.377], [\"outro\", 0.375], [\"chorus\", 0.305]], [[\"outro\", 0.316], [\"intro\", 0.28], [\"chorus\", 0.271]], [[\"outro\", 0.321], [\"intro\", 0.286], [\"chorus\", 0.275]]]}"
+ },
+ {
+  "role": "tool_result",
+  "name": "grader",
+  "content": "{\"sections\": [{\"start\": 0.0, \"end\": 29.8, \"annotated\": \"intro\", \"scored_as\": \"intro\", \"named\": \"intro\", \"right\": true}, {\"start\": 29.8, \"end\": 43.8, \"annotated\": \"chorus_instrumental\", \"scored_as\": null, \"named\": \"prechorus\", \"right\": null}, {\"start\": 43.8, \"end\": 71.8, \"annotated\": \"chorus\", \"scored_as\": \"chorus\", \"named\": \"chorus\", \"right\": true}, {\"start\": 71.8, \"end\": 85.9, \"annotated\": \"instrumental\", \"scored_as\": \"instrumental\", \"named\": \"verse\", \"right\": false}, {\"start\": 85.9, \"end\": 99.9, \"annotated\": \"verse\", \"scored_as\": \"verse\", \"named\": \"verse\", \"right\": true}, {\"start\": 99.9, \"end\": 113.9, \"annotated\": \"chorus\", \"scored_as\": \"chorus\", \"named\": \"bridge\", \"right\": false}, {\"start\": 113.9, \"end\": 127.9, \"annotated\": \"chorus_instrumental\", \"scored_as\": null, \"named\": \"prechorus\", \"right\": null}, {\"start\": 127.9, \"end\": 141.9, \"annotated\": \"chorus\", \"scored_as\": \"chorus\", \"named\": \"chorus\", \"right\": true}, {\"start\": 141.9, \"end\": 155.9, \"annotated\": \"verse\", \"scored_as\": \"verse\", \"named\": \"chorus\", \"right\": false}], \"grade\": {\"acc\": 0.5714}}"
+ }
+]

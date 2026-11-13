@@ -1,0 +1,15 @@
+[
+ {
+  "role": "user",
+  "content": "Name each section of this song: I'm Too Sexy \u2014 Right Said Fred (Dance/Electronic, 9 sections)\nsection edges (s): [0.1, 23.7, 55.1, 70.9, 86.6, 102.3, 118.1, 133.8, 151.5, 169.2]\nsettings: {\"encoder\": \"clapbar_fold\", \"prompts\": {\"intro\": [\"the intro of a song\"], \"verse\": [\"the verse of a song\"], \"prechorus\": [\"the pre-chorus of a song\"], \"chorus\": [\"the chorus of a song\"], \"postchorus\": [\"the post-chorus of a song\"], \"bridge\": [\"the bridge of a song\"], \"outro\": [\"the outro of a song\"], \"instrumental\": [\"an instrumental section of a song\"]}, \"extra_models\": [\"matpacbar_fold\", \"loudbar_fold\"], \"structure\": {\"model\": \"matpacbar_fold\", \"position\": true, \"repeat_tau\": 0.4, \"bridge\": true, \"prepost\": true, \"short_s\": 20, \"vocal_below\": -1.0}, \"extra_prompts\": {\"vocals\": [\"singing vocals\", \"a person singing or rapping\"], \"no_vocals\": [\"instrumental music with no vocals\", \"an instrumental solo\"]}, \"trained\": true}"
+ },
+ {
+  "role": "assistant",
+  "content": "{\"names\": [\"intro\", \"verse\", \"chorus\", \"postchorus\", \"verse\", \"chorus\", \"instrumental\", \"chorus\", \"chorus\"], \"top3_scores\": [[[\"outro\", 0.252], [\"chorus\", 0.215], [\"instrumental\", 0.204]], [[\"outro\", 0.17], [\"bridge\", 0.131], [\"verse\", 0.11]], [[\"outro\", 0.185], [\"bridge\", 0.166], [\"verse\", 0.136]], [[\"outro\", 0.226], [\"bridge\", 0.213], [\"instrumental\", 0.2]], [[\"outro\", 0.164], [\"bridge\", 0.109], [\"intro\", 0.086]], [[\"outro\", 0.188], [\"bridge\", 0.165], [\"verse\", 0.133]], [[\"outro\", 0.208], [\"instrumental\", 0.154], [\"bridge\", 0.153]], [[\"outro\", 0.186], [\"bridge\", 0.141], [\"verse\", 0.118]], [[\"outro\", 0.172], [\"bridge\", 0.137], [\"verse\", 0.113]]]}"
+ },
+ {
+  "role": "tool_result",
+  "name": "grader",
+  "content": "{\"sections\": [{\"start\": 0.1, \"end\": 23.7, \"annotated\": \"intro\", \"scored_as\": \"intro\", \"named\": \"intro\", \"right\": true}, {\"start\": 23.7, \"end\": 55.1, \"annotated\": \"verse\", \"scored_as\": \"verse\", \"named\": \"verse\", \"right\": true}, {\"start\": 55.1, \"end\": 70.9, \"annotated\": \"chorus\", \"scored_as\": \"chorus\", \"named\": \"chorus\", \"right\": true}, {\"start\": 70.9, \"end\": 86.6, \"annotated\": \"postchorus\", \"scored_as\": \"postchorus\", \"named\": \"postchorus\", \"right\": true}, {\"start\": 86.6, \"end\": 102.3, \"annotated\": \"verse\", \"scored_as\": \"verse\", \"named\": \"verse\", \"right\": true}, {\"start\": 102.3, \"end\": 118.1, \"annotated\": \"chorus\", \"scored_as\": \"chorus\", \"named\": \"chorus\", \"right\": true}, {\"start\": 118.1, \"end\": 133.8, \"annotated\": \"postchorus\", \"scored_as\": \"postchorus\", \"named\": \"instrumental\", \"right\": false}, {\"start\": 133.8, \"end\": 151.5, \"annotated\": \"chorus\", \"scored_as\": \"chorus\", \"named\": \"chorus\", \"right\": true}, {\"start\": 151.5, \"end\": 169.2, \"annotated\": \"verse\", \"scored_as\": \"verse\", \"named\": \"chorus\", \"right\": false}], \"grade\": {\"acc\": 0.7778}}"
+ }
+]

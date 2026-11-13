@@ -1,0 +1,16 @@
+--- .claude/hillclimb/song-cuts/baseline/cuts.json	2026-11-11 19:58:08
++++ cuts.json	2026-11-11 19:58:44
+@@ -1,9 +1,11 @@
+ {
+-  "models": ["clap"],
++  "models": [
++    "clap"
++  ],
+   "window": 10,
+   "hop": 5,
+   "side_s": 15,
+   "min_gap_s": 15,
+   "k": 0.0,
+-  "offset_s": 0.0
++  "offset_s": 2.5
+ }

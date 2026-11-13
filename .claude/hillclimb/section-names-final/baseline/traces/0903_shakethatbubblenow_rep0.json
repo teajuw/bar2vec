@@ -1,0 +1,15 @@
+[
+ {
+  "role": "user",
+  "content": "Name each section of this song: Shake That Bubble \u2014 Young and Divine (Pop, 9 sections)\nsection edges (s): [0.3, 16.3, 27.8, 48.3, 68.9, 89.5, 107.8, 126.0, 144.3, 176.3]\nsettings: {\"encoder\": \"clapbar_fold\", \"prompts\": {\"intro\": [\"the intro of a song\"], \"verse\": [\"the verse of a song\"], \"prechorus\": [\"the pre-chorus of a song\"], \"chorus\": [\"the chorus of a song\"], \"postchorus\": [\"the post-chorus of a song\"], \"bridge\": [\"the bridge of a song\"], \"outro\": [\"the outro of a song\"], \"instrumental\": [\"an instrumental section of a song\"]}}"
+ },
+ {
+  "role": "assistant",
+  "content": "{\"names\": [\"outro\", \"outro\", \"outro\", \"outro\", \"outro\", \"outro\", \"outro\", \"outro\", \"outro\"], \"top3_scores\": [[[\"outro\", 0.454], [\"intro\", 0.422], [\"verse\", 0.39]], [[\"outro\", 0.352], [\"bridge\", 0.333], [\"verse\", 0.302]], [[\"outro\", 0.252], [\"intro\", 0.221], [\"bridge\", 0.218]], [[\"outro\", 0.238], [\"bridge\", 0.208], [\"verse\", 0.205]], [[\"outro\", 0.307], [\"bridge\", 0.268], [\"verse\", 0.266]], [[\"outro\", 0.228], [\"bridge\", 0.208], [\"verse\", 0.201]], [[\"outro\", 0.395], [\"verse\", 0.352], [\"bridge\", 0.346]], [[\"outro\", 0.243], [\"bridge\", 0.208], [\"verse\", 0.201]], [[\"outro\", 0.314], [\"bridge\", 0.306], [\"verse\", 0.273]]]}"
+ },
+ {
+  "role": "tool_result",
+  "name": "grader",
+  "content": "{\"sections\": [{\"start\": 0.3, \"end\": 16.3, \"annotated\": \"intro\", \"scored_as\": \"intro\", \"named\": \"outro\", \"right\": false}, {\"start\": 16.3, \"end\": 27.8, \"annotated\": \"intro2\", \"scored_as\": \"intro\", \"named\": \"outro\", \"right\": false}, {\"start\": 27.8, \"end\": 48.3, \"annotated\": \"verse\", \"scored_as\": \"verse\", \"named\": \"outro\", \"right\": false}, {\"start\": 48.3, \"end\": 68.9, \"annotated\": \"chorus\", \"scored_as\": \"chorus\", \"named\": \"outro\", \"right\": false}, {\"start\": 68.9, \"end\": 89.5, \"annotated\": \"verse\", \"scored_as\": \"verse\", \"named\": \"outro\", \"right\": false}, {\"start\": 89.5, \"end\": 107.8, \"annotated\": \"chorus\", \"scored_as\": \"chorus\", \"named\": \"outro\", \"right\": false}, {\"start\": 107.8, \"end\": 126.0, \"annotated\": \"verse\", \"scored_as\": \"verse\", \"named\": \"outro\", \"right\": false}, {\"start\": 126.0, \"end\": 144.3, \"annotated\": \"chorus\", \"scored_as\": \"chorus\", \"named\": \"outro\", \"right\": false}, {\"start\": 144.3, \"end\": 176.3, \"annotated\": \"outro\", \"scored_as\": \"outro\", \"named\": \"outro\", \"right\": true}], \"grade\": {\"acc\": 0.1111}}"
+ }
+]

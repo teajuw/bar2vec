@@ -1,0 +1,15 @@
+[
+ {
+  "role": "user",
+  "content": "Name each section of this song: Days Go By \u2014 Dirty Vegas (Dance/Electronic, 6 sections)\nsection edges (s): [0.0, 17.0, 32.1, 47.2, 62.4, 77.5, 107.7]\nsettings: {\"encoder\": \"clapbar_fold\", \"prompts\": {\"intro\": [\"the intro of a song\"], \"verse\": [\"the verse of a song\"], \"prechorus\": [\"the pre-chorus of a song\"], \"chorus\": [\"the chorus of a song\"], \"postchorus\": [\"the post-chorus of a song\"], \"bridge\": [\"the bridge of a song\"], \"outro\": [\"the outro of a song\"], \"instrumental\": [\"an instrumental section of a song\"]}}"
+ },
+ {
+  "role": "assistant",
+  "content": "{\"names\": [\"outro\", \"outro\", \"outro\", \"outro\", \"outro\", \"outro\"], \"top3_scores\": [[[\"outro\", 0.367], [\"instrumental\", 0.34], [\"intro\", 0.335]], [[\"outro\", 0.343], [\"bridge\", 0.309], [\"intro\", 0.307]], [[\"outro\", 0.264], [\"intro\", 0.225], [\"instrumental\", 0.219]], [[\"outro\", 0.31], [\"intro\", 0.284], [\"instrumental\", 0.246]], [[\"outro\", 0.335], [\"intro\", 0.318], [\"instrumental\", 0.282]], [[\"outro\", 0.333], [\"intro\", 0.305], [\"instrumental\", 0.271]]]}"
+ },
+ {
+  "role": "tool_result",
+  "name": "grader",
+  "content": "{\"sections\": [{\"start\": 0.0, \"end\": 17.0, \"annotated\": \"intro\", \"scored_as\": \"intro\", \"named\": \"outro\", \"right\": false}, {\"start\": 17.0, \"end\": 32.1, \"annotated\": \"chorus\", \"scored_as\": \"chorus\", \"named\": \"outro\", \"right\": false}, {\"start\": 32.1, \"end\": 47.2, \"annotated\": \"chorus\", \"scored_as\": \"chorus\", \"named\": \"outro\", \"right\": false}, {\"start\": 47.2, \"end\": 62.4, \"annotated\": \"verse\", \"scored_as\": \"verse\", \"named\": \"outro\", \"right\": false}, {\"start\": 62.4, \"end\": 77.5, \"annotated\": \"chorus\", \"scored_as\": \"chorus\", \"named\": \"outro\", \"right\": false}, {\"start\": 77.5, \"end\": 107.7, \"annotated\": \"verse\", \"scored_as\": \"verse\", \"named\": \"outro\", \"right\": false}], \"grade\": {\"acc\": 0.0}}"
+ }
+]

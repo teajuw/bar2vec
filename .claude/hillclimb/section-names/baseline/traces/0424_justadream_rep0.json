@@ -1,0 +1,15 @@
+[
+ {
+  "role": "user",
+  "content": "Name each section of this song: Just a Dream \u2014 Nelly (Hip-Hop, 11 sections)\nsection edges (s): [0.1, 20.7, 42.7, 64.1, 74.1, 96.1, 127.4, 149.4, 170.1, 191.4, 213.4, 234.7]\nsettings: {\"encoder\": \"clapbar_fold\", \"prompts\": {\"intro\": [\"the intro of a song\"], \"verse\": [\"the verse of a song\"], \"prechorus\": [\"the pre-chorus of a song\"], \"chorus\": [\"the chorus of a song\"], \"postchorus\": [\"the post-chorus of a song\"], \"bridge\": [\"the bridge of a song\"], \"outro\": [\"the outro of a song\"], \"instrumental\": [\"an instrumental section of a song\"]}}"
+ },
+ {
+  "role": "assistant",
+  "content": "{\"names\": [\"bridge\", \"verse\", \"verse\", \"verse\", \"verse\", \"verse\", \"verse\", \"outro\", \"verse\", \"verse\", \"instrumental\"], \"top3_scores\": [[[\"bridge\", 0.279], [\"verse\", 0.266], [\"outro\", 0.252]], [[\"verse\", 0.363], [\"bridge\", 0.353], [\"outro\", 0.318]], [[\"verse\", 0.445], [\"bridge\", 0.407], [\"outro\", 0.351]], [[\"verse\", 0.361], [\"bridge\", 0.359], [\"outro\", 0.299]], [[\"verse\", 0.374], [\"bridge\", 0.364], [\"outro\", 0.309]], [[\"verse\", 0.406], [\"bridge\", 0.367], [\"outro\", 0.344]], [[\"verse\", 0.33], [\"bridge\", 0.305], [\"outro\", 0.284]], [[\"outro\", 0.324], [\"verse\", 0.315], [\"bridge\", 0.297]], [[\"verse\", 0.368], [\"bridge\", 0.351], [\"outro\", 0.308]], [[\"verse\", 0.366], [\"bridge\", 0.354], [\"outro\", 0.31]], [[\"instrumental\", 0.364], [\"outro\", 0.352], [\"intro\", 0.328]]]}"
+ },
+ {
+  "role": "tool_result",
+  "name": "grader",
+  "content": "{\"sections\": [{\"start\": 0.1, \"end\": 20.7, \"annotated\": \"intro\", \"scored_as\": \"intro\", \"named\": \"bridge\", \"right\": false}, {\"start\": 20.7, \"end\": 42.7, \"annotated\": \"chorus\", \"scored_as\": \"chorus\", \"named\": \"verse\", \"right\": false}, {\"start\": 42.7, \"end\": 64.1, \"annotated\": \"verse\", \"scored_as\": \"verse\", \"named\": \"verse\", \"right\": true}, {\"start\": 64.1, \"end\": 74.1, \"annotated\": \"prechorus\", \"scored_as\": \"prechorus\", \"named\": \"verse\", \"right\": false}, {\"start\": 74.1, \"end\": 96.1, \"annotated\": \"chorus\", \"scored_as\": \"chorus\", \"named\": \"verse\", \"right\": false}, {\"start\": 96.1, \"end\": 127.4, \"annotated\": \"verse\", \"scored_as\": \"verse\", \"named\": \"verse\", \"right\": true}, {\"start\": 127.4, \"end\": 149.4, \"annotated\": \"chorus\", \"scored_as\": \"chorus\", \"named\": \"verse\", \"right\": false}, {\"start\": 149.4, \"end\": 170.1, \"annotated\": \"break\", \"scored_as\": \"instrumental\", \"named\": \"outro\", \"right\": false}, {\"start\": 170.1, \"end\": 191.4, \"annotated\": \"chorus\", \"scored_as\": \"chorus\", \"named\": \"verse\", \"right\": false}, {\"start\": 191.4, \"end\": 213.4, \"annotated\": \"chorus\", \"scored_as\": \"chorus\", \"named\": \"verse\", \"right\": false}, {\"start\": 213.4, \"end\": 234.7, \"annotated\": \"intro\", \"scored_as\": \"intro\", \"named\": \"instrumental\", \"right\": false}], \"grade\": {\"acc\": 0.1818}}"
+ }
+]

@@ -1,0 +1,15 @@
+[
+ {
+  "role": "user",
+  "content": "Name each section of this song: Dark Side \u2014 Kelly Clarkson (Dance/Electronic, 9 sections)\nsection edges (s): [0.6, 15.7, 40.9, 65.1, 88.3, 113.5, 137.7, 178.1, 202.3, 217.6]\nsettings: {\"encoder\": \"clapbar_fold\", \"prompts\": {\"intro\": [\"the intro of a song\"], \"verse\": [\"the verse of a song\"], \"prechorus\": [\"the pre-chorus of a song\"], \"chorus\": [\"the chorus of a song\"], \"postchorus\": [\"the post-chorus of a song\"], \"bridge\": [\"the bridge of a song\"], \"outro\": [\"the outro of a song\"], \"instrumental\": [\"an instrumental section of a song\"]}}"
+ },
+ {
+  "role": "assistant",
+  "content": "{\"names\": [\"bridge\", \"bridge\", \"bridge\", \"bridge\", \"bridge\", \"bridge\", \"bridge\", \"bridge\", \"verse\"], \"top3_scores\": [[[\"bridge\", 0.393], [\"verse\", 0.374], [\"outro\", 0.359]], [[\"bridge\", 0.363], [\"verse\", 0.316], [\"outro\", 0.306]], [[\"bridge\", 0.317], [\"verse\", 0.267], [\"outro\", 0.241]], [[\"bridge\", 0.297], [\"outro\", 0.263], [\"verse\", 0.259]], [[\"bridge\", 0.264], [\"outro\", 0.237], [\"verse\", 0.224]], [[\"bridge\", 0.292], [\"outro\", 0.275], [\"verse\", 0.255]], [[\"bridge\", 0.284], [\"outro\", 0.266], [\"verse\", 0.252]], [[\"bridge\", 0.314], [\"verse\", 0.286], [\"outro\", 0.284]], [[\"verse\", 0.325], [\"outro\", 0.298], [\"bridge\", 0.297]]]}"
+ },
+ {
+  "role": "tool_result",
+  "name": "grader",
+  "content": "{\"sections\": [{\"start\": 0.6, \"end\": 15.7, \"annotated\": \"intro\", \"scored_as\": \"intro\", \"named\": \"bridge\", \"right\": false}, {\"start\": 15.7, \"end\": 40.9, \"annotated\": \"verse\", \"scored_as\": \"verse\", \"named\": \"bridge\", \"right\": false}, {\"start\": 40.9, \"end\": 65.1, \"annotated\": \"verse\", \"scored_as\": \"verse\", \"named\": \"bridge\", \"right\": false}, {\"start\": 65.1, \"end\": 88.3, \"annotated\": \"chorus\", \"scored_as\": \"chorus\", \"named\": \"bridge\", \"right\": false}, {\"start\": 88.3, \"end\": 113.5, \"annotated\": \"verse\", \"scored_as\": \"verse\", \"named\": \"bridge\", \"right\": false}, {\"start\": 113.5, \"end\": 137.7, \"annotated\": \"chorus\", \"scored_as\": \"chorus\", \"named\": \"bridge\", \"right\": false}, {\"start\": 137.7, \"end\": 178.1, \"annotated\": \"bridge\", \"scored_as\": \"bridge\", \"named\": \"bridge\", \"right\": true}, {\"start\": 178.1, \"end\": 202.3, \"annotated\": \"chorus\", \"scored_as\": \"chorus\", \"named\": \"bridge\", \"right\": false}, {\"start\": 202.3, \"end\": 217.6, \"annotated\": \"outro\", \"scored_as\": \"outro\", \"named\": \"verse\", \"right\": false}], \"grade\": {\"acc\": 0.1111}}"
+ }
+]

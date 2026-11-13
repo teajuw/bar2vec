@@ -1,0 +1,15 @@
+[
+ {
+  "role": "user",
+  "content": "Name each section of this song: I Know You Care \u2014 Ellie Goulding (Pop, 8 sections)\nsection edges (s): [0.4, 9.1, 34.6, 52.4, 94.7, 113.2, 147.3, 181.5, 199.9]\nsettings: {\"encoder\": \"clapbar_fold\", \"prompts\": {\"intro\": [\"the intro of a song\"], \"verse\": [\"the verse of a song\"], \"prechorus\": [\"the pre-chorus of a song\"], \"chorus\": [\"the chorus of a song\"], \"postchorus\": [\"the post-chorus of a song\"], \"bridge\": [\"the bridge of a song\"], \"outro\": [\"the outro of a song\"], \"instrumental\": [\"an instrumental section of a song\"]}}"
+ },
+ {
+  "role": "assistant",
+  "content": "{\"names\": [\"postchorus\", \"postchorus\", \"verse\", \"verse\", \"verse\", \"verse\", \"verse\", \"verse\"], \"top3_scores\": [[[\"postchorus\", 0.28], [\"outro\", 0.207], [\"chorus\", 0.204]], [[\"postchorus\", 0.284], [\"outro\", 0.279], [\"verse\", 0.268]], [[\"verse\", 0.321], [\"bridge\", 0.307], [\"outro\", 0.279]], [[\"verse\", 0.314], [\"bridge\", 0.296], [\"outro\", 0.279]], [[\"verse\", 0.333], [\"bridge\", 0.319], [\"outro\", 0.311]], [[\"verse\", 0.303], [\"bridge\", 0.276], [\"outro\", 0.252]], [[\"verse\", 0.291], [\"bridge\", 0.27], [\"outro\", 0.227]], [[\"verse\", 0.273], [\"bridge\", 0.258], [\"postchorus\", 0.216]]]}"
+ },
+ {
+  "role": "tool_result",
+  "name": "grader",
+  "content": "{\"sections\": [{\"start\": 0.4, \"end\": 9.1, \"annotated\": \"intro\", \"scored_as\": \"intro\", \"named\": \"postchorus\", \"right\": false}, {\"start\": 9.1, \"end\": 34.6, \"annotated\": \"verse\", \"scored_as\": \"verse\", \"named\": \"postchorus\", \"right\": false}, {\"start\": 34.6, \"end\": 52.4, \"annotated\": \"verse\", \"scored_as\": \"verse\", \"named\": \"verse\", \"right\": true}, {\"start\": 52.4, \"end\": 94.7, \"annotated\": \"chorus\", \"scored_as\": \"chorus\", \"named\": \"verse\", \"right\": false}, {\"start\": 94.7, \"end\": 113.2, \"annotated\": \"verse\", \"scored_as\": \"verse\", \"named\": \"verse\", \"right\": true}, {\"start\": 113.2, \"end\": 147.3, \"annotated\": \"chorus\", \"scored_as\": \"chorus\", \"named\": \"verse\", \"right\": false}, {\"start\": 147.3, \"end\": 181.5, \"annotated\": \"bridge\", \"scored_as\": \"bridge\", \"named\": \"verse\", \"right\": false}, {\"start\": 181.5, \"end\": 199.9, \"annotated\": \"outro\", \"scored_as\": \"outro\", \"named\": \"verse\", \"right\": false}], \"grade\": {\"acc\": 0.25}}"
+ }
+]

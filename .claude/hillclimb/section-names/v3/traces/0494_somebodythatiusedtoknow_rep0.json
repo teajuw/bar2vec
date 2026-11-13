@@ -1,0 +1,15 @@
+[
+ {
+  "role": "user",
+  "content": "Name each section of this song: Somebody That I Used to Know \u2014 Gotye feat. Kimbra (Pop, 9 sections)\nsection edges (s): [0.1, 18.8, 48.5, 63.4, 93.2, 137.8, 152.7, 182.5, 227.1, 242.0]\nsettings: {\"encoder\": \"clapbar_fold\", \"prompts\": {\"intro\": [\"the intro of a song\"], \"verse\": [\"the verse of a song\"], \"prechorus\": [\"the pre-chorus of a song\"], \"chorus\": [\"the chorus of a song\"], \"postchorus\": [\"the post-chorus of a song\"], \"bridge\": [\"the bridge of a song\"], \"outro\": [\"the outro of a song\"], \"instrumental\": [\"an instrumental section of a song\"]}, \"extra_models\": [\"matpacbar_fold\"], \"structure\": {\"model\": \"matpacbar_fold\", \"position\": true, \"repeat_tau\": 0.4, \"bridge\": true, \"prepost\": false, \"short_s\": 20}}"
+ },
+ {
+  "role": "assistant",
+  "content": "{\"names\": [\"intro\", \"verse\", \"verse\", \"verse\", \"chorus\", \"verse\", \"bridge\", \"chorus\", \"outro\"], \"top3_scores\": [[[\"verse\", 0.353], [\"chorus\", 0.353], [\"instrumental\", 0.325]], [[\"bridge\", 0.293], [\"verse\", 0.29], [\"chorus\", 0.274]], [[\"instrumental\", 0.236], [\"verse\", 0.213], [\"chorus\", 0.196]], [[\"bridge\", 0.232], [\"chorus\", 0.229], [\"verse\", 0.226]], [[\"bridge\", 0.268], [\"chorus\", 0.263], [\"outro\", 0.262]], [[\"verse\", 0.326], [\"postchorus\", 0.279], [\"chorus\", 0.279]], [[\"verse\", 0.283], [\"bridge\", 0.273], [\"chorus\", 0.258]], [[\"bridge\", 0.196], [\"chorus\", 0.174], [\"verse\", 0.174]], [[\"bridge\", 0.269], [\"chorus\", 0.241], [\"verse\", 0.237]]]}"
+ },
+ {
+  "role": "tool_result",
+  "name": "grader",
+  "content": "{\"sections\": [{\"start\": 0.1, \"end\": 18.8, \"annotated\": \"intro\", \"scored_as\": \"intro\", \"named\": \"intro\", \"right\": true}, {\"start\": 18.8, \"end\": 48.5, \"annotated\": \"verse\", \"scored_as\": \"verse\", \"named\": \"verse\", \"right\": true}, {\"start\": 48.5, \"end\": 63.4, \"annotated\": \"inst\", \"scored_as\": \"instrumental\", \"named\": \"verse\", \"right\": false}, {\"start\": 63.4, \"end\": 93.2, \"annotated\": \"verse\", \"scored_as\": \"verse\", \"named\": \"verse\", \"right\": true}, {\"start\": 93.2, \"end\": 137.8, \"annotated\": \"chorus\", \"scored_as\": \"chorus\", \"named\": \"chorus\", \"right\": true}, {\"start\": 137.8, \"end\": 152.7, \"annotated\": \"inst\", \"scored_as\": \"instrumental\", \"named\": \"verse\", \"right\": false}, {\"start\": 152.7, \"end\": 182.5, \"annotated\": \"verse\", \"scored_as\": \"verse\", \"named\": \"bridge\", \"right\": false}, {\"start\": 182.5, \"end\": 227.1, \"annotated\": \"chorus\", \"scored_as\": \"chorus\", \"named\": \"chorus\", \"right\": true}, {\"start\": 227.1, \"end\": 242.0, \"annotated\": \"outro\", \"scored_as\": \"outro\", \"named\": \"outro\", \"right\": true}], \"grade\": {\"acc\": 0.6667}}"
+ }
+]

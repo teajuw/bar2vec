@@ -1,0 +1,15 @@
+[
+ {
+  "role": "user",
+  "content": "Name each section of this song: Feels Like Tonight \u2014 Daughtry (Pop, 8 sections)\nsection edges (s): [0.1, 7.4, 36.2, 73.3, 102.2, 132.0, 168.2, 197.5, 227.4]\nsettings: {\"encoder\": \"clapbar_fold\", \"prompts\": {\"intro\": [\"the intro of a song\"], \"verse\": [\"the verse of a song\"], \"prechorus\": [\"the pre-chorus of a song\"], \"chorus\": [\"the chorus of a song\"], \"postchorus\": [\"the post-chorus of a song\"], \"bridge\": [\"the bridge of a song\"], \"outro\": [\"the outro of a song\"], \"instrumental\": [\"an instrumental section of a song\"]}, \"extra_models\": [\"matpacbar_fold\"], \"structure\": {\"model\": \"matpacbar_fold\", \"position\": true, \"repeat_tau\": null, \"bridge\": false, \"prepost\": false, \"short_s\": 20}}"
+ },
+ {
+  "role": "assistant",
+  "content": "{\"names\": [\"intro\", \"verse\", \"verse\", \"verse\", \"verse\", \"verse\", \"verse\", \"outro\"], \"top3_scores\": [[[\"bridge\", 0.229], [\"outro\", 0.227], [\"verse\", 0.217]], [[\"bridge\", 0.296], [\"verse\", 0.246], [\"outro\", 0.218]], [[\"bridge\", 0.241], [\"outro\", 0.185], [\"verse\", 0.185]], [[\"bridge\", 0.277], [\"verse\", 0.23], [\"outro\", 0.195]], [[\"bridge\", 0.221], [\"verse\", 0.163], [\"outro\", 0.162]], [[\"bridge\", 0.265], [\"outro\", 0.246], [\"verse\", 0.226]], [[\"bridge\", 0.211], [\"verse\", 0.157], [\"outro\", 0.154]], [[\"bridge\", 0.24], [\"verse\", 0.193], [\"outro\", 0.192]]]}"
+ },
+ {
+  "role": "tool_result",
+  "name": "grader",
+  "content": "{\"sections\": [{\"start\": 0.1, \"end\": 7.4, \"annotated\": \"intro\", \"scored_as\": \"intro\", \"named\": \"intro\", \"right\": true}, {\"start\": 7.4, \"end\": 36.2, \"annotated\": \"verse\", \"scored_as\": \"verse\", \"named\": \"verse\", \"right\": true}, {\"start\": 36.2, \"end\": 73.3, \"annotated\": \"chorus\", \"scored_as\": \"chorus\", \"named\": \"verse\", \"right\": false}, {\"start\": 73.3, \"end\": 102.2, \"annotated\": \"verse\", \"scored_as\": \"verse\", \"named\": \"verse\", \"right\": true}, {\"start\": 102.2, \"end\": 132.0, \"annotated\": \"chorus\", \"scored_as\": \"chorus\", \"named\": \"verse\", \"right\": false}, {\"start\": 132.0, \"end\": 168.2, \"annotated\": \"bridge\", \"scored_as\": \"bridge\", \"named\": \"verse\", \"right\": false}, {\"start\": 168.2, \"end\": 197.5, \"annotated\": \"chorus\", \"scored_as\": \"chorus\", \"named\": \"verse\", \"right\": false}, {\"start\": 197.5, \"end\": 227.4, \"annotated\": \"chorus\", \"scored_as\": \"chorus\", \"named\": \"outro\", \"right\": false}], \"grade\": {\"acc\": 0.375}}"
+ }
+]

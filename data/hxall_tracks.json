@@ -1,0 +1,7298 @@
+[
+ {
+  "id": 0,
+  "name": "0001_12step",
+  "title": "1, 2 Step",
+  "artist": "Ciara",
+  "genre": "R&B",
+  "ref_duration": 142.47
+ },
+ {
+  "id": 1,
+  "name": "0003_6foot7foot",
+  "title": "6 Foot 7 Foot",
+  "artist": "Lil Wayne",
+  "genre": "Hip-Hop",
+  "ref_duration": 157.347
+ },
+ {
+  "id": 2,
+  "name": "0004_abc",
+  "title": "ABC",
+  "artist": "The Jackson 5",
+  "genre": "Pop-Rock",
+  "ref_duration": 180.955
+ },
+ {
+  "id": 3,
+  "name": "0005_again",
+  "title": "Again",
+  "artist": "Flyleaf",
+  "genre": "Alternative",
+  "ref_duration": 192.067
+ },
+ {
+  "id": 4,
+  "name": "0006_aint2proud2beg",
+  "title": "Ain’t 2 Proud 2 Beg",
+  "artist": "TLC",
+  "genre": "R&B",
+  "ref_duration": 181.034
+ },
+ {
+  "id": 5,
+  "name": "0008_america",
+  "title": "America",
+  "artist": "Spın̈al Tap",
+  "genre": "Metal",
+  "ref_duration": 222.683
+ },
+ {
+  "id": 6,
+  "name": "0009_americanmusic",
+  "title": "American Music",
+  "artist": "Violent Femmes",
+  "genre": "Alternative",
+  "ref_duration": 223.807
+ },
+ {
+  "id": 7,
+  "name": "0010_andjusticeforall",
+  "title": "...and Justice for All (LP version)",
+  "artist": "Metallica",
+  "genre": "Metal",
+  "ref_duration": 592.11
+ },
+ {
+  "id": 8,
+  "name": "0011_areyouexperienced",
+  "title": "Are You Experienced?",
+  "artist": "The Jimi Hendrix Experience",
+  "genre": "Classic Rock",
+  "ref_duration": 257.717
+ },
+ {
+  "id": 9,
+  "name": "0012_aroundtheworld",
+  "title": "Around The World",
+  "artist": "Daft Punk",
+  "genre": "Dance/Electronic",
+  "ref_duration": 154.601
+ },
+ {
+  "id": 10,
+  "name": "0013_athingaboutyou",
+  "title": "A Thing About You",
+  "artist": "Tom Petty & the Heartbreakers",
+  "genre": "Rock",
+  "ref_duration": 300.307
+ },
+ {
+  "id": 11,
+  "name": "0014_babaoriley",
+  "title": "Baba O'Riley",
+  "artist": "The Who",
+  "genre": "Classic Rock",
+  "ref_duration": 313.928
+ },
+ {
+  "id": 12,
+  "name": "0015_babygotback",
+  "title": "Baby Got Back",
+  "artist": "Sir Mix-a-Lot",
+  "genre": "Hip-Hop",
+  "ref_duration": 148.823
+ },
+ {
+  "id": 13,
+  "name": "0017_badromance",
+  "title": "Bad Romance",
+  "artist": "Lady Gaga",
+  "genre": "Pop",
+  "ref_duration": 165.582
+ },
+ {
+  "id": 14,
+  "name": "0018_bassdownlow",
+  "title": "Bass Down Low",
+  "artist": "DEV",
+  "genre": "Pop",
+  "ref_duration": 148.222
+ },
+ {
+  "id": 15,
+  "name": "0020_becauseofyou",
+  "title": "Because of You",
+  "artist": "Ne-Yo",
+  "genre": "R&B",
+  "ref_duration": 203.675
+ },
+ {
+  "id": 16,
+  "name": "0021_better",
+  "title": "Better",
+  "artist": "Guns N' Roses",
+  "genre": "Rock",
+  "ref_duration": 303.967
+ },
+ {
+  "id": 17,
+  "name": "0022_betteroffalone",
+  "title": "Better Off Alone",
+  "artist": "Alice DeeJay",
+  "genre": "Dance/Electronic",
+  "ref_duration": 161.373
+ },
+ {
+  "id": 18,
+  "name": "0023_bewareoftheboys",
+  "title": "Beware of the Boys (Mundian to Bach Ke)",
+  "artist": "Panjabi MC",
+  "genre": "World",
+  "ref_duration": 151.908
+ },
+ {
+  "id": 19,
+  "name": "0024_billionaire",
+  "title": "Billionaire",
+  "artist": "Travie McCoy",
+  "genre": "Hip-Hop",
+  "ref_duration": 216.382
+ },
+ {
+  "id": 20,
+  "name": "0026_blackandyellow",
+  "title": "Black and Yellow",
+  "artist": "Wiz Khalifa",
+  "genre": "Hip-Hop",
+  "ref_duration": 171.151
+ },
+ {
+  "id": 21,
+  "name": "0027_blackened",
+  "title": "Blackened",
+  "artist": "Metallica",
+  "genre": "Metal",
+  "ref_duration": 402.194
+ },
+ {
+  "id": 22,
+  "name": "0028_blackmagic",
+  "title": "Secret Room",
+  "artist": "Baboon",
+  "genre": "Metal",
+  "ref_duration": 244.984
+ },
+ {
+  "id": 23,
+  "name": "0030_bodymovin",
+  "title": "Body Movin’ (Fatboy Slim remix)",
+  "artist": "Beastie Boys",
+  "genre": "Hip-Hop",
+  "ref_duration": 168.458
+ },
+ {
+  "id": 24,
+  "name": "0032_boomboompow",
+  "title": "Fearless",
+  "artist": "The Bravery",
+  "genre": "Hip-Hop",
+  "ref_duration": 154.81
+ },
+ {
+  "id": 25,
+  "name": "0035_boyfriend",
+  "title": "Boyfriend",
+  "artist": "Justin Bieber",
+  "genre": "Pop",
+  "ref_duration": 173.4
+ },
+ {
+  "id": 26,
+  "name": "0036_breakingthegirl",
+  "title": "Breaking the Girl",
+  "artist": "Red Hot Chili Peppers",
+  "genre": "Alternative",
+  "ref_duration": 300.908
+ },
+ {
+  "id": 27,
+  "name": "0037_breakyourheart",
+  "title": "Break Your Heart",
+  "artist": "Taio Cruz",
+  "genre": "Pop",
+  "ref_duration": 134.444
+ },
+ {
+  "id": 28,
+  "name": "0038_bringmetolife",
+  "title": "Bring Me to Life",
+  "artist": "Evanescence",
+  "genre": "Rock",
+  "ref_duration": 236.409
+ },
+ {
+  "id": 29,
+  "name": "0039_bulletproof",
+  "title": "Bulletproof",
+  "artist": "La Roux",
+  "genre": "Pop",
+  "ref_duration": 126.992
+ },
+ {
+  "id": 30,
+  "name": "0040_bustamove",
+  "title": "Bust a Move",
+  "artist": "Young MC",
+  "genre": "Hip-Hop",
+  "ref_duration": 153.948
+ },
+ {
+  "id": 31,
+  "name": "0041_calabria",
+  "title": "Calabria 2008",
+  "artist": "Enur",
+  "genre": "Reggaeton",
+  "ref_duration": 155.543
+ },
+ {
+  "id": 32,
+  "name": "0042_callme",
+  "title": "The One That Counts",
+  "artist": "The Wolf Banes",
+  "genre": "Rock",
+  "ref_duration": 231.467
+ },
+ {
+  "id": 33,
+  "name": "0043_callmemaybe",
+  "title": "Call Me Maybe",
+  "artist": "Carly Rae Jepsen",
+  "genre": "Pop",
+  "ref_duration": 196.224
+ },
+ {
+  "id": 34,
+  "name": "0044_cameraeye",
+  "title": "The Camera Eye",
+  "artist": "Rush",
+  "genre": "Prog",
+  "ref_duration": 647.538
+ },
+ {
+  "id": 35,
+  "name": "0045_cantgetyou",
+  "title": "Can't Get You Out of My Head",
+  "artist": "Kylie Minogue",
+  "genre": "Pop",
+  "ref_duration": 137.372
+ },
+ {
+  "id": 36,
+  "name": "0046_castlesmadeofsand",
+  "title": "Castles Made of Sand",
+  "artist": "The Jimi Hendrix Experience",
+  "genre": "Classic Rock",
+  "ref_duration": 170.262
+ },
+ {
+  "id": 37,
+  "name": "0047_chinacatsunflower",
+  "title": "China Cat Sunflower",
+  "artist": "Grateful Dead",
+  "genre": "Classic Rock",
+  "ref_duration": 229.14
+ },
+ {
+  "id": 38,
+  "name": "0048_chingaling",
+  "title": "Ching-A-Ling",
+  "artist": "Missy Elliott",
+  "genre": "Hip-Hop",
+  "ref_duration": 174.288
+ },
+ {
+  "id": 39,
+  "name": "0049_closer",
+  "title": "Closer",
+  "artist": "Ne‐Yo",
+  "genre": "R&B",
+  "ref_duration": 144.954
+ },
+ {
+  "id": 40,
+  "name": "0050_clubcanthandleme",
+  "title": "Club Can’t Handle Me",
+  "artist": "Flo Rida",
+  "genre": "Pop",
+  "ref_duration": 157.686
+ },
+ {
+  "id": 41,
+  "name": "0052_collector",
+  "title": "The Collector",
+  "artist": "Nine Inch Nails",
+  "genre": "Rock",
+  "ref_duration": 191.126
+ },
+ {
+  "id": 42,
+  "name": "0053_commander",
+  "title": "Commander (radio edit)",
+  "artist": "Kelly Rowland",
+  "genre": "Pop",
+  "ref_duration": 138.888
+ },
+ {
+  "id": 43,
+  "name": "0054_conceited",
+  "title": "Conceited (There's Something About Remy)",
+  "artist": "Remy Ma",
+  "genre": "Hip-Hop",
+  "ref_duration": 162.419
+ },
+ {
+  "id": 44,
+  "name": "0055_constantmotion",
+  "title": "Constant Motion",
+  "artist": "Dream Theater",
+  "genre": "Prog",
+  "ref_duration": 422.09
+ },
+ {
+  "id": 45,
+  "name": "0056_control",
+  "title": "Control",
+  "artist": "Janet Jackson",
+  "genre": "Pop",
+  "ref_duration": 132.169
+ },
+ {
+  "id": 46,
+  "name": "0057_crankthat",
+  "title": "Crank That (Soulja Boy) (clean)",
+  "artist": "Soulja Boy Tell ’Em",
+  "genre": "Hip-Hop",
+  "ref_duration": 137.372
+ },
+ {
+  "id": 47,
+  "name": "0058_criticalacclaim",
+  "title": "Critical Acclaim",
+  "artist": "Avenged Sevenfold",
+  "genre": "Metal",
+  "ref_duration": 315.471
+ },
+ {
+  "id": 48,
+  "name": "0059_cupidshuffle",
+  "title": "Cupid Shuffle (radio version)",
+  "artist": "Cupid",
+  "genre": "Hip-Hop",
+  "ref_duration": 151.072
+ },
+ {
+  "id": 49,
+  "name": "0061_dabutt",
+  "title": "Da’Butt",
+  "artist": "E.U.",
+  "genre": "Hip-Hop",
+  "ref_duration": 170.602
+ },
+ {
+  "id": 50,
+  "name": "0062_dance",
+  "title": "D.A.N.C.E.",
+  "artist": "Justice",
+  "genre": "Dance/Electronic",
+  "ref_duration": 138.235
+ },
+ {
+  "id": 51,
+  "name": "0063_daysgoby",
+  "title": "Days Go By",
+  "artist": "Dirty Vegas",
+  "genre": "Dance/Electronic",
+  "ref_duration": 115.488
+ },
+ {
+  "id": 52,
+  "name": "0065_deadandbloated",
+  "title": "Dead & Bloated",
+  "artist": "Stone Temple Pilots",
+  "genre": "Alternative",
+  "ref_duration": 319.053
+ },
+ {
+  "id": 53,
+  "name": "0066_decentdaysandnights",
+  "title": "Decent Days and Nights",
+  "artist": "The Futureheads",
+  "genre": "Punk",
+  "ref_duration": 155.15
+ },
+ {
+  "id": 54,
+  "name": "0067_deep",
+  "title": "Deep",
+  "artist": "Pearl Jam",
+  "genre": "Grunge",
+  "ref_duration": 265.064
+ },
+ {
+  "id": 55,
+  "name": "0068_devilsisland",
+  "title": "Devil’s Island",
+  "artist": "Megadeth",
+  "genre": "Metal",
+  "ref_duration": 311.392
+ },
+ {
+  "id": 56,
+  "name": "0069_digginmedown",
+  "title": "Diggin' Me Down",
+  "artist": "Ozzy Osbourne",
+  "genre": "Metal",
+  "ref_duration": 365.721
+ },
+ {
+  "id": 57,
+  "name": "0070_dipitlow",
+  "title": "Dip It Low",
+  "artist": "Christina Milian",
+  "genre": "R&B",
+  "ref_duration": 159.307
+ },
+ {
+  "id": 58,
+  "name": "0071_dirtypool",
+  "title": "Dirty Pool",
+  "artist": "Stevie Ray Vaughan and Double Trouble",
+  "genre": "Blues",
+  "ref_duration": 304.464
+ },
+ {
+  "id": 59,
+  "name": "0072_discoinferno",
+  "title": "Disco Inferno",
+  "artist": "The Trammps",
+  "genre": "Funk/Disco",
+  "ref_duration": 141.607
+ },
+ {
+  "id": 60,
+  "name": "0073_disturbia",
+  "title": "Disturbia",
+  "artist": "Rihanna",
+  "genre": "Pop",
+  "ref_duration": 135.045
+ },
+ {
+  "id": 61,
+  "name": "0074_djgotusfallininlove",
+  "title": "DJ Got Us Falling in Love Again",
+  "artist": "Usher",
+  "genre": "Pop",
+  "ref_duration": 139.751
+ },
+ {
+  "id": 62,
+  "name": "0075_dontcha",
+  "title": "Don’t Cha",
+  "artist": "The Pussycat Dolls",
+  "genre": "R&B",
+  "ref_duration": 148.196
+ },
+ {
+  "id": 63,
+  "name": "0077_dontsweat",
+  "title": "Don't Sweat the Technique",
+  "artist": "Eric B. & Rakim",
+  "genre": "Hip-Hop",
+  "ref_duration": 161.713
+ },
+ {
+  "id": 64,
+  "name": "0078_donttouchme",
+  "title": "Don't Touch Me",
+  "artist": "The Game",
+  "genre": "Hip-Hop",
+  "ref_duration": 165.974
+ },
+ {
+  "id": 65,
+  "name": "0079_dontyouwantme",
+  "title": "Don't You Want Me",
+  "artist": "The Human League",
+  "genre": "Dance/Electronic",
+  "ref_duration": 223.258
+ },
+ {
+  "id": 66,
+  "name": "0080_down",
+  "title": "Down",
+  "artist": "Jay Sean",
+  "genre": "Pop",
+  "ref_duration": 144.196
+ },
+ {
+  "id": 67,
+  "name": "0081_downonme",
+  "title": "Down on Me",
+  "artist": "Jeremih",
+  "genre": "Hip-Hop",
+  "ref_duration": 162.209
+ },
+ {
+  "id": 68,
+  "name": "0082_dragosteadintei",
+  "title": "Dragostea din tei",
+  "artist": "O-Zone",
+  "genre": "Pop",
+  "ref_duration": 146.496
+ },
+ {
+  "id": 69,
+  "name": "0083_dragthewaters",
+  "title": "Drag the Waters",
+  "artist": "Pantera",
+  "genre": "Metal",
+  "ref_duration": 300.751
+ },
+ {
+  "id": 70,
+  "name": "0084_dropitlikeitshot",
+  "title": "Drop It Like It's Hot",
+  "artist": "Snoop Dogg",
+  "genre": "Hip-Hop",
+  "ref_duration": 167.125
+ },
+ {
+  "id": 71,
+  "name": "0085_electricboogie",
+  "title": "Electric Boogie",
+  "artist": "Marcia Griffiths",
+  "genre": "Reggaeton",
+  "ref_duration": 159.987
+ },
+ {
+  "id": 72,
+  "name": "0086_escapade",
+  "title": "Escapade",
+  "artist": "Janet Jackson",
+  "genre": "Pop",
+  "ref_duration": 167.151
+ },
+ {
+  "id": 73,
+  "name": "0087_evacuate",
+  "title": "Evacuate the Dance Floor",
+  "artist": "Cascada",
+  "genre": "Pop",
+  "ref_duration": 121.162
+ },
+ {
+  "id": 74,
+  "name": "0088_everybody",
+  "title": "Everybody (Backstreet’s Back)",
+  "artist": "Backstreet Boys",
+  "genre": "Pop",
+  "ref_duration": 170.236
+ },
+ {
+  "id": 75,
+  "name": "0090_fearofthedarklive",
+  "title": "Powerslave",
+  "artist": "Iron Maiden",
+  "genre": "Metal",
+  "ref_duration": 449.228
+ },
+ {
+  "id": 76,
+  "name": "0091_fellonblackdays",
+  "title": "Fell On Black Days",
+  "artist": "Soundgarden",
+  "genre": "Grunge",
+  "ref_duration": 280.986
+ },
+ {
+  "id": 77,
+  "name": "0092_fergalicious",
+  "title": "Fergalicious",
+  "artist": "Fergie",
+  "genre": "Pop",
+  "ref_duration": 149.032
+ },
+ {
+  "id": 78,
+  "name": "0093_fireburning",
+  "title": "Fire Burning",
+  "artist": "Sean Kingston",
+  "genre": "Reggaeton",
+  "ref_duration": 148.483
+ },
+ {
+  "id": 79,
+  "name": "0094_fireflies",
+  "title": "Fireflies",
+  "artist": "Owl City",
+  "genre": "Pop",
+  "ref_duration": 230.474
+ },
+ {
+  "id": 80,
+  "name": "0095_firework",
+  "title": "Firework",
+  "artist": "Katy Perry",
+  "genre": "Pop",
+  "ref_duration": 166.654
+ },
+ {
+  "id": 81,
+  "name": "0096_fivemagics",
+  "title": "Five Magics",
+  "artist": "Megadeth",
+  "genre": "Metal",
+  "ref_duration": 343.864
+ },
+ {
+  "id": 82,
+  "name": "0098_floods",
+  "title": "Floods",
+  "artist": "Pantera",
+  "genre": "Metal",
+  "ref_duration": 424.443
+ },
+ {
+  "id": 83,
+  "name": "0099_forgetyou",
+  "title": "Forget You",
+  "artist": "CeeLo Green",
+  "genre": "R&B",
+  "ref_duration": 165.19
+ },
+ {
+  "id": 84,
+  "name": "0100_futureperfecttense",
+  "title": "Future Perfect Tense",
+  "artist": "Sweet Billy Pilgrim",
+  "genre": "Indie Rock",
+  "ref_duration": 268.279
+ },
+ {
+  "id": 85,
+  "name": "0101_galang",
+  "title": "Galang '05",
+  "artist": "M.I.A.",
+  "genre": "Reggaeton",
+  "ref_duration": 160.066
+ },
+ {
+  "id": 86,
+  "name": "0102_gangstaluv",
+  "title": "Gangsta Luv",
+  "artist": "Snoop Dogg feat. The-Dream",
+  "genre": "Hip-Hop",
+  "ref_duration": 242.631
+ },
+ {
+  "id": 87,
+  "name": "0104_getbusy",
+  "title": "Get Busy",
+  "artist": "Sean Paul",
+  "genre": "Reggaeton",
+  "ref_duration": 173.007
+ },
+ {
+  "id": 88,
+  "name": "0105_getdownonit",
+  "title": "Get Down on It",
+  "artist": "Kool & The Gang",
+  "genre": "Funk/Disco",
+  "ref_duration": 169.609
+ },
+ {
+  "id": 89,
+  "name": "0106_getitshawty",
+  "title": "Get It Shawty",
+  "artist": "Lloyd",
+  "genre": "R&B",
+  "ref_duration": 146.444
+ },
+ {
+  "id": 90,
+  "name": "0107_getlow",
+  "title": "Get Low",
+  "artist": "Lil Jon & The East Side Boyz",
+  "genre": "Hip-Hop",
+  "ref_duration": 187.936
+ },
+ {
+  "id": 91,
+  "name": "0108_getup",
+  "title": "Get Up (I Feel Like Being a) Sex Machine",
+  "artist": "James Brown",
+  "genre": "Funk/Disco",
+  "ref_duration": 162.942
+ },
+ {
+  "id": 92,
+  "name": "0109_geturfreakon",
+  "title": "Get Ur Freak On",
+  "artist": "Missy Elliott",
+  "genre": "Hip-Hop",
+  "ref_duration": 168.066
+ },
+ {
+  "id": 93,
+  "name": "0110_girlsandboys",
+  "title": "Girls & Boys",
+  "artist": "Blur",
+  "genre": "Pop",
+  "ref_duration": 150.68
+ },
+ {
+  "id": 94,
+  "name": "0111_girlsonfilm",
+  "title": "Girls on Film",
+  "artist": "Duran Duran",
+  "genre": "Pop",
+  "ref_duration": 212.408
+ },
+ {
+  "id": 95,
+  "name": "0112_giveitup",
+  "title": "Give It Up",
+  "artist": "Datarock",
+  "genre": "Dance/Electronic",
+  "ref_duration": 173.007
+ },
+ {
+  "id": 96,
+  "name": "0113_giveituptome",
+  "title": "(When You Gonna) Give It Up to Me",
+  "artist": "Sean Paul",
+  "genre": "Reggaeton",
+  "ref_duration": 152.667
+ },
+ {
+  "id": 97,
+  "name": "0114_givemeeverything",
+  "title": "Give Me Everything",
+  "artist": "Pitbull",
+  "genre": "Pop",
+  "ref_duration": 163.909
+ },
+ {
+  "id": 98,
+  "name": "0115_gonnamakeyousweat",
+  "title": "Gonna Make You Sweat (Everybody dance Now)",
+  "artist": "C+C Music Factory",
+  "genre": "Pop",
+  "ref_duration": 162.0
+ },
+ {
+  "id": 99,
+  "name": "0116_goodies",
+  "title": "Goodies",
+  "artist": "Ciara",
+  "genre": "R&B",
+  "ref_duration": 130.208
+ },
+ {
+  "id": 100,
+  "name": "0117_goodmorningblackfriday",
+  "title": "Good Mourning / Black Friday",
+  "artist": "Megadeth",
+  "genre": "Metal",
+  "ref_duration": 405.409
+ },
+ {
+  "id": 101,
+  "name": "0118_grenade",
+  "title": "Grenade",
+  "artist": "Bruno Mars",
+  "genre": "Pop",
+  "ref_duration": 141.999
+ },
+ {
+  "id": 102,
+  "name": "0119_gunpowderandlead",
+  "title": "Gunpowder & Lead",
+  "artist": "Miranda Lambert",
+  "genre": "Country",
+  "ref_duration": 190.08
+ },
+ {
+  "id": 103,
+  "name": "0120_hallowedbethyname",
+  "title": "Hallowed Be Thy Name",
+  "artist": "Iron Maiden",
+  "genre": "Metal",
+  "ref_duration": 481.047
+ },
+ {
+  "id": 104,
+  "name": "0122_heardemall",
+  "title": "Heard ’em All",
+  "artist": "Amerie",
+  "genre": "Pop",
+  "ref_duration": 127.515
+ },
+ {
+  "id": 105,
+  "name": "0123_heavyduty",
+  "title": "Heavy Duty",
+  "artist": "Spın̈al Tap",
+  "genre": "Metal",
+  "ref_duration": 299.47
+ },
+ {
+  "id": 106,
+  "name": "0124_hello",
+  "title": "Hello",
+  "artist": "Martin Solveig",
+  "genre": "Dance/Electronic",
+  "ref_duration": 170.863
+ },
+ {
+  "id": 107,
+  "name": "0125_hellogoodmorning",
+  "title": "Hello Good Morning",
+  "artist": "Diddy - Dirty Money",
+  "genre": "Hip-Hop",
+  "ref_duration": 171.805
+ },
+ {
+  "id": 108,
+  "name": "0126_heymami",
+  "title": "Hey Mami",
+  "artist": "Fannypack",
+  "genre": "Hip-Hop",
+  "ref_duration": 116.142
+ },
+ {
+  "id": 109,
+  "name": "0127_hollabackgirl",
+  "title": "Hollaback Girl",
+  "artist": "Gwen Stefani",
+  "genre": "Pop",
+  "ref_duration": 150.732
+ },
+ {
+  "id": 110,
+  "name": "0128_homecoming",
+  "title": "Homecoming: I. The Death of St. Jimmy / II. East 12th St. / III. Nobody Likes You / IV. Rock and Roll Girlfriend / V. We're Coming Home Again",
+  "artist": "Green Day",
+  "genre": "Rock",
+  "ref_duration": 559.194
+ },
+ {
+  "id": 111,
+  "name": "0129_hotinherre",
+  "title": "Hot in Herre",
+  "artist": "Nelly",
+  "genre": "Hip-Hop",
+  "ref_duration": 151.046
+ },
+ {
+  "id": 112,
+  "name": "0130_hotstuff",
+  "title": "Hot Stuff",
+  "artist": "Donna Summer",
+  "genre": "Funk/Disco",
+  "ref_duration": 144.483
+ },
+ {
+  "id": 113,
+  "name": "0131_iamthebest",
+  "title": "I AM THE BEST (MUSIC CLIP)",
+  "artist": "2NE1",
+  "genre": "Pop",
+  "ref_duration": 148.3
+ },
+ {
+  "id": 114,
+  "name": "0132_iceicebaby",
+  "title": "Ice Ice Baby",
+  "artist": "Vanilla Ice",
+  "genre": "Hip-Hop",
+  "ref_duration": 153.686
+ },
+ {
+  "id": 115,
+  "name": "0133_ifeellove",
+  "title": "I Feel Love",
+  "artist": "Donna Summer",
+  "genre": "Funk/Disco",
+  "ref_duration": 157.007
+ },
+ {
+  "id": 116,
+  "name": "0134_igotmine",
+  "title": "I Got Mine",
+  "artist": "The Black Keys",
+  "genre": "Rock",
+  "ref_duration": 234.945
+ },
+ {
+  "id": 117,
+  "name": "0135_igottafeeling",
+  "title": "I Gotta Feeling",
+  "artist": "The Black Eyed Peas",
+  "genre": "Pop",
+  "ref_duration": 195.597
+ },
+ {
+  "id": 118,
+  "name": "0136_igotyoudancing",
+  "title": "I Got You Dancing",
+  "artist": "Lady Sovereign",
+  "genre": "Hip-Hop",
+  "ref_duration": 138.418
+ },
+ {
+  "id": 119,
+  "name": "0137_iknowyouwantme",
+  "title": "I Know You Want Me (Calle Ocho) (More English extended)",
+  "artist": "Pitbull",
+  "genre": "Reggaeton",
+  "ref_duration": 145.738
+ },
+ {
+  "id": 120,
+  "name": "0138_ilikeit",
+  "title": "I Like It",
+  "artist": "Enrique Iglesias",
+  "genre": "Pop",
+  "ref_duration": 158.34
+ },
+ {
+  "id": 121,
+  "name": "0139_imcomingout",
+  "title": "I’m Coming Out",
+  "artist": "Diana Ross",
+  "genre": "Funk/Disco",
+  "ref_duration": 159.177
+ },
+ {
+  "id": 122,
+  "name": "0140_impacto",
+  "title": "Impacto",
+  "artist": "Daddy Yankee",
+  "genre": "Reggaeton",
+  "ref_duration": 160.196
+ },
+ {
+  "id": 123,
+  "name": "0141_indaclub",
+  "title": "In da Club",
+  "artist": "50 Cent",
+  "genre": "Hip-Hop",
+  "ref_duration": 162.209
+ },
+ {
+  "id": 124,
+  "name": "0142_indestructible",
+  "title": "Indestructible",
+  "artist": "Disturbed",
+  "genre": "Metal",
+  "ref_duration": 278.319
+ },
+ {
+  "id": 125,
+  "name": "0143_informer",
+  "title": "Informer",
+  "artist": "Snow",
+  "genre": "Reggaeton",
+  "ref_duration": 144.666
+ },
+ {
+  "id": 126,
+  "name": "0144_ishotthesheriff",
+  "title": "I Shot the Sheriff",
+  "artist": "Bob Marley & The Wailers",
+  "genre": "Reggaeton",
+  "ref_duration": 237.768
+ },
+ {
+  "id": 127,
+  "name": "0145_iwantyouback",
+  "title": "I Want You Back",
+  "artist": "The Jackson 5",
+  "genre": "Pop",
+  "ref_duration": 204.956
+ },
+ {
+  "id": 128,
+  "name": "0148_jesusofsuburbia",
+  "title": "Jesus of Suburbia: I. Jesus of Suburbia / II. City of the Damned / III. I Don't Care / IV. Dearly Beloved / V. Tales of Another Broken Home",
+  "artist": "Green Day",
+  "genre": "Rock",
+  "ref_duration": 551.899
+ },
+ {
+  "id": 129,
+  "name": "0149_johnnyguitar",
+  "title": "Johnny Guitar",
+  "artist": "Pearl Jam",
+  "genre": "Grunge",
+  "ref_duration": 178.628
+ },
+ {
+  "id": 130,
+  "name": "0150_justdance",
+  "title": "Just Dance",
+  "artist": "Lady Gaga",
+  "genre": "Pop",
+  "ref_duration": 139.28
+ },
+ {
+  "id": 131,
+  "name": "0151_kingofdancehall",
+  "title": "King of the Dancehall",
+  "artist": "Beenie Man",
+  "genre": "Reggaeton",
+  "ref_duration": 109.554
+ },
+ {
+  "id": 132,
+  "name": "0152_kingofrock",
+  "title": "King of Rock",
+  "artist": "Run‐D.M.C.",
+  "genre": "Hip-Hop",
+  "ref_duration": 318.844
+ },
+ {
+  "id": 133,
+  "name": "0153_lalaland",
+  "title": "La La Land",
+  "artist": "Demi Lovato",
+  "genre": "Pop",
+  "ref_duration": 156.431
+ },
+ {
+  "id": 134,
+  "name": "0155_lapdance",
+  "title": "Lapdance",
+  "artist": "N*E*R*D",
+  "genre": "Hip-Hop",
+  "ref_duration": 151.359
+ },
+ {
+  "id": 135,
+  "name": "0156_lastnight",
+  "title": "Last Night",
+  "artist": "Diddy",
+  "genre": "R&B",
+  "ref_duration": 147.464
+ },
+ {
+  "id": 136,
+  "name": "0157_leanwitit",
+  "title": "Lean Wit It, Rock Wit It",
+  "artist": "Dem Franchize Boyz",
+  "genre": "Hip-Hop",
+  "ref_duration": 151.778
+ },
+ {
+  "id": 137,
+  "name": "0158_letitrock",
+  "title": "Let It Rock",
+  "artist": "Kevin Rudolf",
+  "genre": "Hip-Hop",
+  "ref_duration": 159.334
+ },
+ {
+  "id": 138,
+  "name": "0159_letthemusicplay",
+  "title": "Let the Music Play",
+  "artist": "Shannon",
+  "genre": "Pop",
+  "ref_duration": 179.439
+ },
+ {
+  "id": 139,
+  "name": "0160_likeag6",
+  "title": "Like a G6",
+  "artist": "Far East Movement",
+  "genre": "Pop",
+  "ref_duration": 165.791
+ },
+ {
+  "id": 140,
+  "name": "0161_limelight",
+  "title": "Limelight",
+  "artist": "Rush",
+  "genre": "Prog",
+  "ref_duration": 266.632
+ },
+ {
+  "id": 141,
+  "name": "0162_lobotomy",
+  "title": "Before the Lobotomy",
+  "artist": "Green Day",
+  "genre": "Rock",
+  "ref_duration": 283.417
+ },
+ {
+  "id": 142,
+  "name": "0164_low",
+  "title": "Low",
+  "artist": "Flo Rida",
+  "genre": "Hip-Hop",
+  "ref_duration": 165.19
+ },
+ {
+  "id": 143,
+  "name": "0165_lucretia",
+  "title": "Lucretia",
+  "artist": "Megadeth",
+  "genre": "Metal",
+  "ref_duration": 240.174
+ },
+ {
+  "id": 144,
+  "name": "0166_macarena",
+  "title": "Macarena",
+  "artist": "Los del Río",
+  "genre": "Pop",
+  "ref_duration": 153.712
+ },
+ {
+  "id": 145,
+  "name": "0167_makesomenoise",
+  "title": "Make Some Noise",
+  "artist": "Beastie Boys",
+  "genre": "Hip-Hop",
+  "ref_duration": 214.604
+ },
+ {
+  "id": 146,
+  "name": "0168_maneater",
+  "title": "Maneater",
+  "artist": "Nelly Furtado",
+  "genre": "Pop",
+  "ref_duration": 130.339
+ },
+ {
+  "id": 147,
+  "name": "0169_manicdepression",
+  "title": "Manic Depression",
+  "artist": "The Jimi Hendrix Experience",
+  "genre": "Classic Rock",
+  "ref_duration": 222.5
+ },
+ {
+  "id": 148,
+  "name": "0170_manyshadesofblack",
+  "title": "Many Shades of Black",
+  "artist": "The Raconteurs",
+  "genre": "Rock",
+  "ref_duration": 269.168
+ },
+ {
+  "id": 149,
+  "name": "0171_marchofthepigs",
+  "title": "March of the Pigs",
+  "artist": "Nine Inch Nails",
+  "genre": "Rock",
+  "ref_duration": 183.805
+ },
+ {
+  "id": 150,
+  "name": "0172_marrythenight",
+  "title": "Marry the Night",
+  "artist": "Lady Gaga",
+  "genre": "Pop",
+  "ref_duration": 165.085
+ },
+ {
+  "id": 151,
+  "name": "0173_massiveattack",
+  "title": "Massive Attack",
+  "artist": "Nicki Minaj",
+  "genre": "Hip-Hop",
+  "ref_duration": 142.81
+ },
+ {
+  "id": 152,
+  "name": "0174_maythisbelove",
+  "title": "May This Be Love",
+  "artist": "The Jimi Hendrix Experience",
+  "genre": "Classic Rock",
+  "ref_duration": 200.564
+ },
+ {
+  "id": 153,
+  "name": "0175_meddle",
+  "title": "Meddle",
+  "artist": "Little Boots",
+  "genre": "Pop",
+  "ref_duration": 151.072
+ },
+ {
+  "id": 154,
+  "name": "0176_megasus",
+  "title": "Megasus",
+  "artist": "Megasus",
+  "genre": "Metal",
+  "ref_duration": 226.552
+ },
+ {
+  "id": 155,
+  "name": "0177_milkshake",
+  "title": "Milkshake",
+  "artist": "Kelis",
+  "genre": "R&B",
+  "ref_duration": 163.778
+ },
+ {
+  "id": 156,
+  "name": "0178_mountainman",
+  "title": "Mountain Man",
+  "artist": "Crash Kings",
+  "genre": "Rock",
+  "ref_duration": 201.845
+ },
+ {
+  "id": 157,
+  "name": "0179_moveslikejagger",
+  "title": "Moves Like Jagger",
+  "artist": "Maroon 5 feat. Christina Aguilera",
+  "genre": "Pop",
+  "ref_duration": 185.792
+ },
+ {
+  "id": 158,
+  "name": "0181_mrsaxobeat",
+  "title": "Mr. Saxobeat",
+  "artist": "Alexandra Stan",
+  "genre": "Dance/Electronic",
+  "ref_duration": 174.079
+ },
+ {
+  "id": 159,
+  "name": "0182_mycurse",
+  "title": "My Curse",
+  "artist": "Killswitch Engage",
+  "genre": "Metal",
+  "ref_duration": 252.932
+ },
+ {
+  "id": 160,
+  "name": "0183_mynameisjonas",
+  "title": "My Name Is Jones",
+  "artist": "Weezer",
+  "genre": "Alternative",
+  "ref_duration": 206.839
+ },
+ {
+  "id": 161,
+  "name": "0184_myprerogative",
+  "title": "My Prerogative",
+  "artist": "Bobby Brown",
+  "genre": "R&B",
+  "ref_duration": 167.099
+ },
+ {
+  "id": 162,
+  "name": "0185_nasty",
+  "title": "Nasty",
+  "artist": "Janet Jackson",
+  "genre": "Pop",
+  "ref_duration": 169.687
+ },
+ {
+  "id": 163,
+  "name": "0186_nearlylostyou",
+  "title": "Nearly Lost You",
+  "artist": "Screaming Trees",
+  "genre": "Grunge",
+  "ref_duration": 250.736
+ },
+ {
+  "id": 164,
+  "name": "0189_neversaynever",
+  "title": "Never Say Never",
+  "artist": "Justin Bieber",
+  "genre": "Pop",
+  "ref_duration": 149.869
+ },
+ {
+  "id": 165,
+  "name": "0190_newfang",
+  "title": "New Fang",
+  "artist": "Them Crooked Vultures",
+  "genre": "Rock",
+  "ref_duration": 232.409
+ },
+ {
+  "id": 166,
+  "name": "0191_newslang",
+  "title": "New Slang",
+  "artist": "The Shins",
+  "genre": "Indie Rock",
+  "ref_duration": 236.487
+ },
+ {
+  "id": 167,
+  "name": "0194_nomoretears",
+  "title": "No More Tears",
+  "artist": "Ozzy Osbourne",
+  "genre": "Metal",
+  "ref_duration": 440.522
+ },
+ {
+  "id": 168,
+  "name": "0195_nookie",
+  "title": "Yellow Fellow",
+  "artist": "Jazz Pistols",
+  "genre": "Metal",
+  "ref_duration": 246.658
+ },
+ {
+  "id": 169,
+  "name": "0197_nothinonyou",
+  "title": "Nothin’ on You",
+  "artist": "B.o.B",
+  "genre": "R&B",
+  "ref_duration": 176.746
+ },
+ {
+  "id": 170,
+  "name": "0198_nowthatwefoundlove",
+  "title": "Now That We Found Love",
+  "artist": "Heavy D. & The Boyz",
+  "genre": "Hip-Hop",
+  "ref_duration": 140.692
+ },
+ {
+  "id": 171,
+  "name": "0199_numberofthebeast2",
+  "title": "The Number of the Beast",
+  "artist": "Iron Maiden",
+  "genre": "Metal",
+  "ref_duration": 290.267
+ },
+ {
+  "id": 172,
+  "name": "0200_oceansize",
+  "title": "Ocean Size",
+  "artist": "Jane's Addiction",
+  "genre": "Alternative",
+  "ref_duration": 263.338
+ },
+ {
+  "id": 173,
+  "name": "0201_oh",
+  "title": "Oh!",
+  "artist": "Girls’ Generation",
+  "genre": "Pop",
+  "ref_duration": 151.856
+ },
+ {
+  "id": 174,
+  "name": "0204_onlyamemory",
+  "title": "Philosophy",
+  "artist": "Tom Snare",
+  "genre": "Rock",
+  "ref_duration": 237.69
+ },
+ {
+  "id": 175,
+  "name": "0207_oopsohmy",
+  "title": "Oops (Oh My)",
+  "artist": "Tweet",
+  "genre": "R&B",
+  "ref_duration": 141.346
+ },
+ {
+  "id": 176,
+  "name": "0208_opp",
+  "title": "O.P.P.",
+  "artist": "Naughty by Nature",
+  "genre": "Hip-Hop",
+  "ref_duration": 172.249
+ },
+ {
+  "id": 177,
+  "name": "0209_paparazzi",
+  "title": "Paparazzi",
+  "artist": "Lady Gaga",
+  "genre": "Dance/Electronic",
+  "ref_duration": 213.637
+ },
+ {
+  "id": 178,
+  "name": "0212_peoplegotalotofnerve",
+  "title": "People Got a Lotta Nerve",
+  "artist": "Neko Case",
+  "genre": "Country",
+  "ref_duration": 156.301
+ },
+ {
+  "id": 179,
+  "name": "0214_planetrock",
+  "title": "Planet Rock",
+  "artist": "Afrika Bambaataa & Soulsonic Force",
+  "genre": "Hip-Hop",
+  "ref_duration": 149.477
+ },
+ {
+  "id": 180,
+  "name": "0215_pointofknowreturn",
+  "title": "Point of Know Return",
+  "artist": "Kansas",
+  "genre": "Prog",
+  "ref_duration": 187.91
+ },
+ {
+  "id": 181,
+  "name": "0216_poison",
+  "title": "Poison",
+  "artist": "Bell Biv DeVoe",
+  "genre": "R&B",
+  "ref_duration": 157.033
+ },
+ {
+  "id": 182,
+  "name": "0217_pokerface",
+  "title": "Poker Face",
+  "artist": "Lady Gaga",
+  "genre": "Dance/Electronic",
+  "ref_duration": 143.437
+ },
+ {
+  "id": 183,
+  "name": "0218_policyoftruth",
+  "title": "Policy of Truth",
+  "artist": "Depeche Mode",
+  "genre": "Dance/Electronic",
+  "ref_duration": 307.209
+ },
+ {
+  "id": 184,
+  "name": "0219_pondereplay",
+  "title": "Pon de Replay",
+  "artist": "Rihanna",
+  "genre": "Dance/Electronic",
+  "ref_duration": 143.254
+ },
+ {
+  "id": 185,
+  "name": "0220_promiscuous",
+  "title": "Promiscuous",
+  "artist": "Nelly Furtado",
+  "genre": "R&B",
+  "ref_duration": 161.87
+ },
+ {
+  "id": 186,
+  "name": "0222_realgoodlooking",
+  "title": "Real Good Looking Boy",
+  "artist": "The Who",
+  "genre": "Rock",
+  "ref_duration": 348.544
+ },
+ {
+  "id": 187,
+  "name": "0223_reallove",
+  "title": "Real Love",
+  "artist": "Mary J. Blige",
+  "genre": "Pop",
+  "ref_duration": 175.23
+ },
+ {
+  "id": 188,
+  "name": "0226_rendezvu",
+  "title": "Rendez-Vu",
+  "artist": "Basement Jaxx",
+  "genre": "Dance/Electronic",
+  "ref_duration": 132.378
+ },
+ {
+  "id": 189,
+  "name": "0227_replay",
+  "title": "Replay",
+  "artist": "Iyaz",
+  "genre": "Pop",
+  "ref_duration": 163.726
+ },
+ {
+  "id": 190,
+  "name": "0229_ridingonthewind",
+  "title": "Riding on the Wind",
+  "artist": "Judas Priest",
+  "genre": "Rock",
+  "ref_duration": 193.505
+ },
+ {
+  "id": 191,
+  "name": "0231_rightthurr",
+  "title": "Right Thurr",
+  "artist": "Chingy",
+  "genre": "Hip-Hop",
+  "ref_duration": 159.334
+ },
+ {
+  "id": 192,
+  "name": "0233_rocknrollnightmare",
+  "title": "Rock ’n’ Roll Nightmare",
+  "artist": "Spın̈al Tap",
+  "genre": "Metal",
+  "ref_duration": 197.427
+ },
+ {
+  "id": 193,
+  "name": "0234_roundandround",
+  "title": "Round & Round",
+  "artist": "Selena Gomez & The Scene",
+  "genre": "Pop",
+  "ref_duration": 165.19
+ },
+ {
+  "id": 194,
+  "name": "0235_rudeboy",
+  "title": "Rude Boy",
+  "artist": "Rihanna",
+  "genre": "Pop",
+  "ref_duration": 146.392
+ },
+ {
+  "id": 195,
+  "name": "0236_rumpshaker",
+  "title": "Rump Shaker",
+  "artist": "Wreckx‐N‐Effect",
+  "genre": "Hip-Hop",
+  "ref_duration": 152.091
+ },
+ {
+  "id": 196,
+  "name": "0237_run",
+  "title": "Run (I'm a Natural Disaster)",
+  "artist": "Gnarls Barkley",
+  "genre": "Pop",
+  "ref_duration": 158.601
+ },
+ {
+  "id": 197,
+  "name": "0238_sambadejaneiro",
+  "title": "Samba de Janeiro",
+  "artist": "Bellini",
+  "genre": "Dance/Electronic",
+  "ref_duration": 155.386
+ },
+ {
+  "id": 198,
+  "name": "0239_sandm",
+  "title": "S&M",
+  "artist": "Rihanna",
+  "genre": "Pop",
+  "ref_duration": 159.569
+ },
+ {
+  "id": 199,
+  "name": "0240_sandstorm",
+  "title": "Sandstorm (original mix)",
+  "artist": "Darude",
+  "genre": "Dance/Electronic",
+  "ref_duration": 138.156
+ },
+ {
+  "id": 200,
+  "name": "0241_satellite",
+  "title": "Satellite",
+  "artist": "Lena Meyer-Landrut",
+  "genre": "",
+  "ref_duration": 164.406
+ },
+ {
+  "id": 201,
+  "name": "0242_satisfaction",
+  "title": "Satisfaction",
+  "artist": "Benny Benassi",
+  "genre": "Dance/Electronic",
+  "ref_duration": 142.836
+ },
+ {
+  "id": 202,
+  "name": "0243_saucyjack",
+  "title": "Saucy Jack",
+  "artist": "Spın̈al Tap",
+  "genre": "Metal",
+  "ref_duration": 101.762
+ },
+ {
+  "id": 203,
+  "name": "0244_sayaah",
+  "title": "Say Aah",
+  "artist": "Trey Songz",
+  "genre": "Pop",
+  "ref_duration": 149.869
+ },
+ {
+  "id": 204,
+  "name": "0245_sayhey",
+  "title": "Say Hey (I Love You)",
+  "artist": "Michael Franti & Spearhead",
+  "genre": "Reggaeton",
+  "ref_duration": 173.347
+ },
+ {
+  "id": 205,
+  "name": "0246_scenario",
+  "title": "Scenario",
+  "artist": "A Tribe Called Quest",
+  "genre": "Hip-Hop",
+  "ref_duration": 255.024
+ },
+ {
+  "id": 206,
+  "name": "0247_scream",
+  "title": "Scream",
+  "artist": "Usher",
+  "genre": "Pop",
+  "ref_duration": 156.275
+ },
+ {
+  "id": 207,
+  "name": "0248_screamingfor",
+  "title": "Screaming for Vengeance",
+  "artist": "Judas Priest",
+  "genre": "Metal",
+  "ref_duration": 288.751
+ },
+ {
+  "id": 208,
+  "name": "0249_sensualseduction",
+  "title": "Sexual Eruption",
+  "artist": "Snoop Dogg",
+  "genre": "Hip-Hop",
+  "ref_duration": 236.984
+ },
+ {
+  "id": 209,
+  "name": "0250_sexyandiknowit",
+  "title": "Sexy and I Know It",
+  "artist": "LMFAO",
+  "genre": "Dance/Electronic",
+  "ref_duration": 162.654
+ },
+ {
+  "id": 210,
+  "name": "0251_sexychick",
+  "title": "Sexy Chick",
+  "artist": "David Guetta",
+  "genre": "Pop",
+  "ref_duration": 161.033
+ },
+ {
+  "id": 211,
+  "name": "0254_sixsixsix",
+  "title": "666",
+  "artist": "Anvil",
+  "genre": "Metal",
+  "ref_duration": 281.195
+ },
+ {
+  "id": 212,
+  "name": "0255_sleepwalker",
+  "title": "Sleepwalker",
+  "artist": "Megadeth",
+  "genre": "Metal",
+  "ref_duration": 362.61
+ },
+ {
+  "id": 213,
+  "name": "0257_somebodytolove",
+  "title": "Somebody to Love",
+  "artist": "Justin Bieber",
+  "genre": "Pop",
+  "ref_duration": 148.196
+ },
+ {
+  "id": 214,
+  "name": "0258_sorry",
+  "title": "Sorry",
+  "artist": "Guns N' Roses",
+  "genre": "Rock",
+  "ref_duration": 378.349
+ },
+ {
+  "id": 215,
+  "name": "0259_spiceupyourlife",
+  "title": "Spice Up Your Life",
+  "artist": "Spice Girls",
+  "genre": "Pop",
+  "ref_duration": 163.621
+ },
+ {
+  "id": 216,
+  "name": "0261_starships",
+  "title": "Starships",
+  "artist": "Nicki Minaj",
+  "genre": "Pop",
+  "ref_duration": 163.412
+ },
+ {
+  "id": 217,
+  "name": "0262_stash",
+  "title": "Stash",
+  "artist": "Phish",
+  "genre": "Rock",
+  "ref_duration": 436.104
+ },
+ {
+  "id": 218,
+  "name": "0264_stereolove",
+  "title": "Stereo Love",
+  "artist": "Edward Maya",
+  "genre": "Dance/Electronic",
+  "ref_duration": 151.15
+ },
+ {
+  "id": 219,
+  "name": "0265_straightlines",
+  "title": "Straight Lines",
+  "artist": "Silverchair",
+  "genre": "Rock",
+  "ref_duration": 258.71
+ },
+ {
+  "id": 220,
+  "name": "0266_straightup",
+  "title": "Straight Up (single version)",
+  "artist": "Paula Abdul",
+  "genre": "Pop",
+  "ref_duration": 165.19
+ },
+ {
+  "id": 221,
+  "name": "0267_superfreak",
+  "title": "Super Freak",
+  "artist": "Rick James",
+  "genre": "Funk/Disco",
+  "ref_duration": 139.568
+ },
+ {
+  "id": 222,
+  "name": "0268_supersonic",
+  "title": "Supersonic",
+  "artist": "J.J. Fad",
+  "genre": "Hip-Hop",
+  "ref_duration": 161.922
+ },
+ {
+  "id": 223,
+  "name": "0269_sweettalk",
+  "title": "Back tha Fuck Up Off Me",
+  "artist": "Haystak",
+  "genre": "Rock",
+  "ref_duration": 182.942
+ },
+ {
+  "id": 224,
+  "name": "0270_takeovercontrol",
+  "title": "Take Over Control",
+  "artist": "Afrojack",
+  "genre": "Dance/Electronic",
+  "ref_duration": 163.203
+ },
+ {
+  "id": 225,
+  "name": "0271_teachmehowtodougie",
+  "title": "Teach Me How to Dougie",
+  "artist": "Cali Swag District",
+  "genre": "Hip-Hop",
+  "ref_duration": 151.307
+ },
+ {
+  "id": 226,
+  "name": "0272_teachmehowtojerk",
+  "title": "Teach Me How to Jerk",
+  "artist": "Audio Push",
+  "genre": "Hip-Hop",
+  "ref_duration": 161.085
+ },
+ {
+  "id": 227,
+  "name": "0273_technologic",
+  "title": "Technologic",
+  "artist": "Daft Punk",
+  "genre": "Dance/Electronic",
+  "ref_duration": 145.137
+ },
+ {
+  "id": 228,
+  "name": "0274_temperature",
+  "title": "Temperature",
+  "artist": "Sean Paul",
+  "genre": "Reggaeton",
+  "ref_duration": 144.196
+ },
+ {
+  "id": 229,
+  "name": "0276_texasflood",
+  "title": "Texas Flood",
+  "artist": "Stevie Ray Vaughan and Double Trouble",
+  "genre": "Blues",
+  "ref_duration": 327.498
+ },
+ {
+  "id": 230,
+  "name": "0277_thashiznit",
+  "title": "Tha Shiznit",
+  "artist": "Snoop Dogg",
+  "genre": "Hip-Hop",
+  "ref_duration": 261.456
+ },
+ {
+  "id": 231,
+  "name": "0278_thatsthahomie",
+  "title": "That's tha Homie",
+  "artist": "Snoop Dogg",
+  "genre": "Hip-Hop",
+  "ref_duration": 348.335
+ },
+ {
+  "id": 232,
+  "name": "0279_thebreaks",
+  "title": "The Breaks",
+  "artist": "Kurtis Blow",
+  "genre": "Hip-Hop",
+  "ref_duration": 168.72
+ },
+ {
+  "id": 233,
+  "name": "0280_thedayitriedtolive",
+  "title": "The Day I Tried to Live",
+  "artist": "Soundgarden",
+  "genre": "Grunge",
+  "ref_duration": 323.785
+ },
+ {
+  "id": 234,
+  "name": "0281_theedgeofglory",
+  "title": "Feels Like I'm in Love",
+  "artist": "Kelly Marie",
+  "genre": "Pop",
+  "ref_duration": 161.451
+ },
+ {
+  "id": 235,
+  "name": "0282_thegreatsatan",
+  "title": "The Great Satan",
+  "artist": "Ministry",
+  "genre": "Metal",
+  "ref_duration": 197.976
+ },
+ {
+  "id": 236,
+  "name": "0283_thehumptydance",
+  "title": "The Humpty Dance",
+  "artist": "Digital Underground",
+  "genre": "Hip-Hop",
+  "ref_duration": 163.674
+ },
+ {
+  "id": 237,
+  "name": "0284_thehustle",
+  "title": "The Hustle",
+  "artist": "Van McCoy",
+  "genre": "Funk/Disco",
+  "ref_duration": 155.177
+ },
+ {
+  "id": 238,
+  "name": "0285_thekill",
+  "title": "The Kill",
+  "artist": "Thirty Seconds to Mars",
+  "genre": "Rock",
+  "ref_duration": 246.945
+ },
+ {
+  "id": 239,
+  "name": "0286_theragelive",
+  "title": "The Rage (live)",
+  "artist": "Judas Priest",
+  "genre": "Metal",
+  "ref_duration": 298.215
+ },
+ {
+  "id": 240,
+  "name": "0287_therewasatime",
+  "title": "There Was a Time",
+  "artist": "Guns N' Roses",
+  "genre": "Rock",
+  "ref_duration": 402.272
+ },
+ {
+  "id": 241,
+  "name": "0288_thewayiare",
+  "title": "The Way I Are",
+  "artist": "Timbaland",
+  "genre": "Pop",
+  "ref_duration": 140.352
+ },
+ {
+  "id": 242,
+  "name": "0289_thisisexile",
+  "title": "This Is Exile",
+  "artist": "Whitechapel",
+  "genre": "Metal",
+  "ref_duration": 229.376
+ },
+ {
+  "id": 243,
+  "name": "0290_thisishowwedoit",
+  "title": "This Is How We Do It",
+  "artist": "Montell Jordan",
+  "genre": "Hip-Hop",
+  "ref_duration": 142.026
+ },
+ {
+  "id": 244,
+  "name": "0291_thrasher",
+  "title": "Thrasher",
+  "artist": "Evile",
+  "genre": "Metal",
+  "ref_duration": 191.753
+ },
+ {
+  "id": 245,
+  "name": "0292_timeslikethese",
+  "title": "Times Like These",
+  "artist": "Foo Fighters",
+  "genre": "Alternative",
+  "ref_duration": 267.207
+ },
+ {
+  "id": 246,
+  "name": "0293_tomsawyer2",
+  "title": "Tom Sawyer",
+  "artist": "Rush",
+  "genre": "Prog",
+  "ref_duration": 293.143
+ },
+ {
+  "id": 247,
+  "name": "0294_tonighttonight",
+  "title": "Tonight Tonight",
+  "artist": "Hot Chelle Rae",
+  "genre": "Pop",
+  "ref_duration": 206.028
+ },
+ {
+  "id": 248,
+  "name": "0295_toxic",
+  "title": "Toxic",
+  "artist": "Britney Spears",
+  "genre": "Pop",
+  "ref_duration": 151.229
+ },
+ {
+  "id": 249,
+  "name": "0296_transmaniaconmc",
+  "title": "Transmaniacon MC",
+  "artist": "Blue Öyster Cult",
+  "genre": "Classic Rock",
+  "ref_duration": 205.322
+ },
+ {
+  "id": 250,
+  "name": "0297_troublecomesrunning",
+  "title": "Trouble Comes Running",
+  "artist": "Spoon",
+  "genre": "Rock",
+  "ref_duration": 188.433
+ },
+ {
+  "id": 251,
+  "name": "0298_turnmeon",
+  "title": "Turn Me On",
+  "artist": "Kevin Lyttle",
+  "genre": "Reggaeton",
+  "ref_duration": 148.196
+ },
+ {
+  "id": 252,
+  "name": "0299_turnthebeataround",
+  "title": "Turn the Beat Around",
+  "artist": "Vicki Sue Robinson",
+  "genre": "Funk/Disco",
+  "ref_duration": 166.497
+ },
+ {
+  "id": 253,
+  "name": "0301_unclejohnsband",
+  "title": "Uncle John's Band",
+  "artist": "Grateful Dead",
+  "genre": "Classic Rock",
+  "ref_duration": 292.019
+ },
+ {
+  "id": 254,
+  "name": "0302_venus",
+  "title": "Venus",
+  "artist": "Bananarama",
+  "genre": "Pop",
+  "ref_duration": 162.471
+ },
+ {
+  "id": 255,
+  "name": "0303_wakeupdead",
+  "title": "Wake Up Dead",
+  "artist": "Megadeth",
+  "genre": "Metal",
+  "ref_duration": 221.402
+ },
+ {
+  "id": 256,
+  "name": "0304_weaponofchoice",
+  "title": "Weapon of Choice",
+  "artist": "Fatboy Slim",
+  "genre": "Dance/Electronic",
+  "ref_duration": 172.85
+ },
+ {
+  "id": 257,
+  "name": "0305_wenospeakamericano",
+  "title": "We No Speak Americano",
+  "artist": "Yolanda Be Cool & DCUP",
+  "genre": "Dance/Electronic",
+  "ref_duration": 138.313
+ },
+ {
+  "id": 258,
+  "name": "0306_werunthis",
+  "title": "We Run This",
+  "artist": "Missy Elliott",
+  "genre": "Hip-Hop",
+  "ref_duration": 127.384
+ },
+ {
+  "id": 259,
+  "name": "0307_whatdoesntkillyou",
+  "title": "Stronger (What Doesn't Kill You)",
+  "artist": "Kelly Clarkson",
+  "genre": "Pop",
+  "ref_duration": 198.838
+ },
+ {
+  "id": 260,
+  "name": "0308_whatislove",
+  "title": "What Is Love",
+  "artist": "Haddaway",
+  "genre": "Dance/Electronic",
+  "ref_duration": 153.189
+ },
+ {
+  "id": 261,
+  "name": "0309_whatsmyname",
+  "title": "What’s My Name?",
+  "artist": "Rihanna",
+  "genre": "Pop",
+  "ref_duration": 156.797
+ },
+ {
+  "id": 262,
+  "name": "0310_whineup",
+  "title": "Whine Up",
+  "artist": "Kat DeLuna",
+  "genre": "Reggaeton",
+  "ref_duration": 173.007
+ },
+ {
+  "id": 263,
+  "name": "0311_whipmyhair",
+  "title": "Whip My Hair",
+  "artist": "Willow",
+  "genre": "Pop",
+  "ref_duration": 144.457
+ },
+ {
+  "id": 264,
+  "name": "0312_whitefalconfuzz",
+  "title": "White Falcon Fuzz",
+  "artist": "The Mother Hips",
+  "genre": "Rock",
+  "ref_duration": 256.174
+ },
+ {
+  "id": 265,
+  "name": "0314_whoomp",
+  "title": "Whoomp! There It Is",
+  "artist": "Tag Team",
+  "genre": "Hip-Hop",
+  "ref_duration": 135.699
+ },
+ {
+  "id": 266,
+  "name": "0315_whygo",
+  "title": "Why Go",
+  "artist": "Pearl Jam",
+  "genre": "Grunge",
+  "ref_duration": 205.898
+ },
+ {
+  "id": 267,
+  "name": "0316_wildones",
+  "title": "Wild Ones",
+  "artist": "Flo Rida",
+  "genre": "Hip-Hop",
+  "ref_duration": 174.053
+ },
+ {
+  "id": 268,
+  "name": "0318_windup",
+  "title": "Fly",
+  "artist": "Various Production",
+  "genre": "Alternative",
+  "ref_duration": 154.392
+ },
+ {
+  "id": 269,
+  "name": "0319_withoutyou",
+  "title": "Without You",
+  "artist": "Mötley Crüe",
+  "genre": "Metal",
+  "ref_duration": 274.973
+ },
+ {
+  "id": 270,
+  "name": "0320_wolflikeme",
+  "title": "Wolf Like Me",
+  "artist": "TV on the Radio",
+  "genre": "Rock",
+  "ref_duration": 291.339
+ },
+ {
+  "id": 271,
+  "name": "0321_wonderwall",
+  "title": "Wonderwall",
+  "artist": "Oasis",
+  "genre": "Rock",
+  "ref_duration": 268.123
+ },
+ {
+  "id": 272,
+  "name": "0322_wordup",
+  "title": "Word Up",
+  "artist": "Cameo",
+  "genre": "Funk/Disco",
+  "ref_duration": 148.902
+ },
+ {
+  "id": 273,
+  "name": "0323_yeah",
+  "title": "Yeah!",
+  "artist": "Lil Jon & The East Side Boyz",
+  "genre": "R&B",
+  "ref_duration": 135.045
+ },
+ {
+  "id": 274,
+  "name": "0324_yeah3x",
+  "title": "Yeah 3×",
+  "artist": "Chris Brown",
+  "genre": "Pop",
+  "ref_duration": 158.968
+ },
+ {
+  "id": 275,
+  "name": "0325_ymca",
+  "title": "Y.M.C.A.",
+  "artist": "Village People",
+  "genre": "Funk/Disco",
+  "ref_duration": 151.935
+ },
+ {
+  "id": 276,
+  "name": "0326_yougotittherightstuff",
+  "title": "You Got It (The Right Stuff)",
+  "artist": "New Kids on the Block",
+  "genre": "Pop",
+  "ref_duration": 174.602
+ },
+ {
+  "id": 277,
+  "name": "0327_youmakemefeel",
+  "title": "You Make Me Feel...",
+  "artist": "Cobra Starship feat. Sabi",
+  "genre": "Dance/Electronic",
+  "ref_duration": 214.787
+ },
+ {
+  "id": 278,
+  "name": "0328_youmakemefeeldc",
+  "title": "You Make Me Feel…",
+  "artist": "Cobra Starship",
+  "genre": "Dance/Electronic",
+  "ref_duration": 154.758
+ },
+ {
+  "id": 279,
+  "name": "0329_youreajerk",
+  "title": "You're a Jerk",
+  "artist": "New Boyz",
+  "genre": "Hip-Hop",
+  "ref_duration": 144.457
+ },
+ {
+  "id": 280,
+  "name": "0330_50waystosaygoodbye",
+  "title": "50 Ways to Say Goodbye",
+  "artist": "Train",
+  "genre": "Rock",
+  "ref_duration": 246.082
+ },
+ {
+  "id": 281,
+  "name": "0331_againstallodds",
+  "title": "Against All Odds (Take a Look at Me Now)",
+  "artist": "Phil Collins",
+  "genre": "Pop",
+  "ref_duration": 205.95
+ },
+ {
+  "id": 282,
+  "name": "0332_alejandro",
+  "title": "Alejandro",
+  "artist": "Lady Gaga",
+  "genre": "Dance/Electronic",
+  "ref_duration": 271.6
+ },
+ {
+  "id": 283,
+  "name": "0333_allday",
+  "title": "All Day",
+  "artist": "Cody Simpson",
+  "genre": "Pop",
+  "ref_duration": 187.152
+ },
+ {
+  "id": 284,
+  "name": "0334_alltherightplaces",
+  "title": "All the Right Places",
+  "artist": "Zach Heckendorf",
+  "genre": "Pop",
+  "ref_duration": 202.08
+ },
+ {
+  "id": 285,
+  "name": "0335_allyourlife",
+  "title": "All Your Life",
+  "artist": "The Band Perry",
+  "genre": "Country",
+  "ref_duration": 231.075
+ },
+ {
+  "id": 286,
+  "name": "0336_alonewithyou",
+  "title": "Alone With You",
+  "artist": "Jake Owen",
+  "genre": "Country",
+  "ref_duration": 211.257
+ },
+ {
+  "id": 287,
+  "name": "0337_alwayssomethingthere",
+  "title": "Always Something There to Remind Me",
+  "artist": "Naked Eyes",
+  "genre": "Pop",
+  "ref_duration": 221.846
+ },
+ {
+  "id": 288,
+  "name": "0338_animal",
+  "title": "Animal",
+  "artist": "Neon Trees",
+  "genre": "Pop",
+  "ref_duration": 210.761
+ },
+ {
+  "id": 289,
+  "name": "0339_aslongasyouloveme",
+  "title": "As Long as You Love Me",
+  "artist": "Justin Bieber feat. Big Sean",
+  "genre": "Pop",
+  "ref_duration": 226.944
+ },
+ {
+  "id": 290,
+  "name": "0340_backintime",
+  "title": "Back in Time",
+  "artist": "Pitbull",
+  "genre": "Hip-Hop",
+  "ref_duration": 204.904
+ },
+ {
+  "id": 291,
+  "name": "0341_baggageclaim",
+  "title": "Baggage Claim",
+  "artist": "Miranda Lambert",
+  "genre": "Country",
+  "ref_duration": 197.035
+ },
+ {
+  "id": 292,
+  "name": "0342_bangpop",
+  "title": "Bang Pop",
+  "artist": "Free Energy",
+  "genre": "Rock",
+  "ref_duration": 217.48
+ },
+ {
+  "id": 293,
+  "name": "0343_banjo",
+  "title": "Banjo",
+  "artist": "Rascal Flatts",
+  "genre": "Country",
+  "ref_duration": 224.748
+ },
+ {
+  "id": 294,
+  "name": "0344_beautifullife",
+  "title": "Beautiful Life",
+  "artist": "Ace of Base",
+  "genre": "Dance/Electronic",
+  "ref_duration": 217.061
+ },
+ {
+  "id": 295,
+  "name": "0345_beinlovetonight",
+  "title": "Be in Love Tonight",
+  "artist": "Toy Connor",
+  "genre": "Dance/Electronic",
+  "ref_duration": 186.838
+ },
+ {
+  "id": 296,
+  "name": "0346_birthdaydress",
+  "title": "Birthday Dress",
+  "artist": "Lil Playy feat. Matthew Koma",
+  "genre": "Hip-Hop",
+  "ref_duration": 203.309
+ },
+ {
+  "id": 297,
+  "name": "0347_bitch",
+  "title": "Bitch",
+  "artist": "Meredith Brooks",
+  "genre": "Alternative",
+  "ref_duration": 253.612
+ },
+ {
+  "id": 298,
+  "name": "0348_blackout",
+  "title": "Blackout",
+  "artist": "Breathe Carolina",
+  "genre": "Pop",
+  "ref_duration": 208.564
+ },
+ {
+  "id": 299,
+  "name": "0349_blow",
+  "title": "Blow",
+  "artist": "Ke$ha",
+  "genre": "Dance/Electronic",
+  "ref_duration": 219.101
+ },
+ {
+  "id": 300,
+  "name": "0350_blowme",
+  "title": "Blow Me (One Last Kiss)",
+  "artist": "P!nk",
+  "genre": "Pop",
+  "ref_duration": 229.637
+ },
+ {
+  "id": 301,
+  "name": "0351_blowup",
+  "title": "Blow Up",
+  "artist": "Sammy Adams",
+  "genre": "Hip-Hop",
+  "ref_duration": 176.38
+ },
+ {
+  "id": 302,
+  "name": "0352_boogiewonderland",
+  "title": "Boogie Wonderland",
+  "artist": "Earth, Wind & Fire",
+  "genre": "Funk/Disco",
+  "ref_duration": 286.999
+ },
+ {
+  "id": 303,
+  "name": "0353_bottomsup",
+  "title": "Bottoms Up",
+  "artist": "Trey Songz feat. Nicki Minaj",
+  "genre": "Hip-Hop",
+  "ref_duration": 239.938
+ },
+ {
+  "id": 304,
+  "name": "0354_brandnewday",
+  "title": "Brand New Day (NOW What's Next Bonus Track)",
+  "artist": "Trevor Hall",
+  "genre": "Pop",
+  "ref_duration": 210.447
+ },
+ {
+  "id": 305,
+  "name": "0355_brokenhearted",
+  "title": "Brokenhearted",
+  "artist": "Karmin",
+  "genre": "Pop",
+  "ref_duration": 226.264
+ },
+ {
+  "id": 306,
+  "name": "0356_californiagurls",
+  "title": "California Gurls",
+  "artist": "Katy Perry",
+  "genre": "Dance/Electronic",
+  "ref_duration": 232.827
+ },
+ {
+  "id": 307,
+  "name": "0357_cheers",
+  "title": "Cheers (Drink to That)",
+  "artist": "Rihanna",
+  "genre": "Hip-Hop",
+  "ref_duration": 238.866
+ },
+ {
+  "id": 308,
+  "name": "0358_children",
+  "title": "Children",
+  "artist": "VV Brown feat. Chiddy Bang",
+  "genre": "Hip-Hop",
+  "ref_duration": 193.819
+ },
+ {
+  "id": 309,
+  "name": "0359_cominghome",
+  "title": "Coming Home",
+  "artist": "Diddy - Dirty Money feat. Skylar Grey",
+  "genre": "Hip-Hop",
+  "ref_duration": 238.553
+ },
+ {
+  "id": 310,
+  "name": "0360_coolerthanme",
+  "title": "Cooler Than Me",
+  "artist": "Mike Posner",
+  "genre": "Pop",
+  "ref_duration": 212.512
+ },
+ {
+  "id": 311,
+  "name": "0361_countrymustbecountrywide",
+  "title": "Country Must Be Country Wide",
+  "artist": "Brantley Gilbert",
+  "genre": "Country",
+  "ref_duration": 214.891
+ },
+ {
+  "id": 312,
+  "name": "0362_crazygirl",
+  "title": "Crazy Girl",
+  "artist": "Eli Young Band",
+  "genre": "Country",
+  "ref_duration": 199.963
+ },
+ {
+  "id": 313,
+  "name": "0363_darkside",
+  "title": "Dark Side",
+  "artist": "Kelly Clarkson",
+  "genre": "Dance/Electronic",
+  "ref_duration": 222.29
+ },
+ {
+  "id": 314,
+  "name": "0364_deuces",
+  "title": "Deuces",
+  "artist": "Chris Brown feat. Tyga & Kevin McCall",
+  "genre": "Hip-Hop",
+  "ref_duration": 275.182
+ },
+ {
+  "id": 315,
+  "name": "0365_dirtroadanthem",
+  "title": "Dirt Road Anthem",
+  "artist": "Jason Aldean",
+  "genre": "Country",
+  "ref_duration": 225.977
+ },
+ {
+  "id": 316,
+  "name": "0366_domino",
+  "title": "Domino",
+  "artist": "Jessie J",
+  "genre": "Pop",
+  "ref_duration": 228.879
+ },
+ {
+  "id": 317,
+  "name": "0367_dontdreamitsover",
+  "title": "Don't Dream It's Over",
+  "artist": "Crowded House",
+  "genre": "Pop",
+  "ref_duration": 237.716
+ },
+ {
+  "id": 318,
+  "name": "0368_dontwakemeup",
+  "title": "Don't Wake Me Up",
+  "artist": "Chris Brown",
+  "genre": "Pop",
+  "ref_duration": 220.434
+ },
+ {
+  "id": 319,
+  "name": "0369_dontyouworrychild",
+  "title": "Don't You Worry Child",
+  "artist": "Swedish House Mafia feat. John Martin",
+  "genre": "Pop",
+  "ref_duration": 209.924
+ },
+ {
+  "id": 320,
+  "name": "0370_downonme",
+  "title": "Down on Me",
+  "artist": "Jeremih feat. 50 Cent",
+  "genre": "Hip-Hop",
+  "ref_duration": 227.389
+ },
+ {
+  "id": 321,
+  "name": "0371_downunder",
+  "title": "Down Under",
+  "artist": "Men at Work",
+  "genre": "Pop",
+  "ref_duration": 218.421
+ },
+ {
+  "id": 322,
+  "name": "0372_drinkinmyhand",
+  "title": "Drink in My Hand",
+  "artist": "Eric Church",
+  "genre": "Country",
+  "ref_duration": 191.596
+ },
+ {
+  "id": 323,
+  "name": "0373_driveby",
+  "title": "Drive By",
+  "artist": "Train",
+  "genre": "Pop",
+  "ref_duration": 191.073
+ },
+ {
+  "id": 324,
+  "name": "0374_drunkonyou",
+  "title": "Drunk on You",
+  "artist": "Luke Bryan",
+  "genre": "Country",
+  "ref_duration": 223.885
+ },
+ {
+  "id": 325,
+  "name": "0375_dynamite",
+  "title": "Dynamite (Promo Only clean edit)",
+  "artist": "Taio Cruz",
+  "genre": "Dance/Electronic",
+  "ref_duration": 217.166
+ },
+ {
+  "id": 326,
+  "name": "0376_earthquake",
+  "title": "Earthquake",
+  "artist": "Labrinth feat. Busta Rhymes",
+  "genre": "Dance/Electronic",
+  "ref_duration": 260.018
+ },
+ {
+  "id": 327,
+  "name": "0377_eatdirt",
+  "title": "Eat Dirt",
+  "artist": "Susan Justice",
+  "genre": "Pop",
+  "ref_duration": 219.388
+ },
+ {
+  "id": 328,
+  "name": "0378_effinperfect",
+  "title": "Fuckin' Perfect",
+  "artist": "P!nk",
+  "genre": "Pop",
+  "ref_duration": 210.499
+ },
+ {
+  "id": 329,
+  "name": "0379_et",
+  "title": "E.T.",
+  "artist": "Katy Perry feat. Kanye West",
+  "genre": "Hip-Hop",
+  "ref_duration": 229.114
+ },
+ {
+  "id": 330,
+  "name": "0380_everybodytalks",
+  "title": "Everybody Talks",
+  "artist": "Neon Trees",
+  "genre": "Rock",
+  "ref_duration": 177.687
+ },
+ {
+  "id": 331,
+  "name": "0381_everythingyouwant",
+  "title": "Everything You Want",
+  "artist": "Vertical Horizon",
+  "genre": "Alternative",
+  "ref_duration": 257.168
+ },
+ {
+  "id": 332,
+  "name": "0382_fatherofmine",
+  "title": "Father of Mine",
+  "artist": "Everclear",
+  "genre": "Rock",
+  "ref_duration": 233.847
+ },
+ {
+  "id": 333,
+  "name": "0383_feelsoclose",
+  "title": "Feel So Close (radio edit)",
+  "artist": "Calvin Harris",
+  "genre": "Pop",
+  "ref_duration": 202.263
+ },
+ {
+  "id": 334,
+  "name": "0384_finally",
+  "title": "Finally",
+  "artist": "CeCe Peniston",
+  "genre": "Dance/Electronic",
+  "ref_duration": 237.873
+ },
+ {
+  "id": 335,
+  "name": "0385_fiveoclock",
+  "title": "5 O' Clock",
+  "artist": "T-Pain feat. Lily Allen",
+  "genre": "Pop",
+  "ref_duration": 210.917
+ },
+ {
+  "id": 336,
+  "name": "0386_footloose",
+  "title": "Footloose (from the Paramount Film ''Footloose'')",
+  "artist": "Kenny Loggins",
+  "genre": "Pop",
+  "ref_duration": 222.473
+ },
+ {
+  "id": 337,
+  "name": "0387_free",
+  "title": "Free",
+  "artist": "Graffiti6",
+  "genre": "Pop",
+  "ref_duration": 227.729
+ },
+ {
+  "id": 338,
+  "name": "0388_gangnamstyle",
+  "title": "Gangnam Style",
+  "artist": "PSY",
+  "genre": "Dance/Electronic",
+  "ref_duration": 218.212
+ },
+ {
+  "id": 339,
+  "name": "0389_gettinoveryou",
+  "title": "Gettin' Over You",
+  "artist": "David Guetta & Chris Willis",
+  "genre": "Dance/Electronic",
+  "ref_duration": 185.086
+ },
+ {
+  "id": 340,
+  "name": "0390_getyourselfbackhome",
+  "title": "Get Yourself Back Home",
+  "artist": "Gym Class Heroes feat. Neon Hitch",
+  "genre": "Hip-Hop",
+  "ref_duration": 220.722
+ },
+ {
+  "id": 341,
+  "name": "0391_givemeallyourluvin",
+  "title": "Give Me All Your Luvin'",
+  "artist": "Madonna feat. Nicki Minaj & M.I.A.",
+  "genre": "Dance/Electronic",
+  "ref_duration": 201.375
+ },
+ {
+  "id": 342,
+  "name": "0392_givemeyourhand",
+  "title": "Give Me Your Hand (Best Song Ever)",
+  "artist": "The Ready Set",
+  "genre": "Dance/Electronic",
+  "ref_duration": 225.82
+ },
+ {
+  "id": 343,
+  "name": "0393_giveyourheartabreak",
+  "title": "Give Your Heart a Break",
+  "artist": "Demi Lovato",
+  "genre": "Pop",
+  "ref_duration": 204.643
+ },
+ {
+  "id": 344,
+  "name": "0394_godgavemetoyou",
+  "title": "God Gave Me You",
+  "artist": "Blake Shelton",
+  "genre": "Country",
+  "ref_duration": 229.899
+ },
+ {
+  "id": 345,
+  "name": "0395_gold",
+  "title": "Gold",
+  "artist": "Britt Nicole",
+  "genre": "Pop",
+  "ref_duration": 178.472
+ },
+ {
+  "id": 346,
+  "name": "0396_goodfeeling",
+  "title": "Good Feeling",
+  "artist": "Flo Rida",
+  "genre": "Hip-Hop",
+  "ref_duration": 246.03
+ },
+ {
+  "id": 347,
+  "name": "0397_goodlife",
+  "title": "Good Life",
+  "artist": "OneRepublic",
+  "genre": "Pop",
+  "ref_duration": 250.056
+ },
+ {
+  "id": 348,
+  "name": "0398_goodtime",
+  "title": "Good Time",
+  "artist": "Owl City feat. Carly Rae Jepsen",
+  "genre": "Pop",
+  "ref_duration": 201.845
+ },
+ {
+  "id": 349,
+  "name": "0399_gotmygirls",
+  "title": "Shut the Front Door (Got My Girls)",
+  "artist": "Tiffany Dunn",
+  "genre": "Dance/Electronic",
+  "ref_duration": 227.912
+ },
+ {
+  "id": 350,
+  "name": "0400_heatofthemoment",
+  "title": "Heat of the Moment",
+  "artist": "Asia",
+  "genre": "Pop",
+  "ref_duration": 230.186
+ },
+ {
+  "id": 351,
+  "name": "0401_hello",
+  "title": "Hello",
+  "artist": "Lionel Richie with Jennifer Nettles",
+  "genre": "Dance/Electronic",
+  "ref_duration": 269.482
+ },
+ {
+  "id": 352,
+  "name": "0402_herestous",
+  "title": "Here's to Us",
+  "artist": "Halestorm",
+  "genre": "Country",
+  "ref_duration": 176.066
+ },
+ {
+  "id": 353,
+  "name": "0403_heybaby",
+  "title": "Hey Baby (Drop It to the Floor)",
+  "artist": "Pitbull feat. T-Pain",
+  "genre": "Dance/Electronic",
+  "ref_duration": 204.59
+ },
+ {
+  "id": 354,
+  "name": "0404_holditagainstme",
+  "title": "Hold It Against Me",
+  "artist": "Britney Spears",
+  "genre": "Dance/Electronic",
+  "ref_duration": 226.997
+ },
+ {
+  "id": 355,
+  "name": "0405_home",
+  "title": "Home",
+  "artist": "Dierks Bentley",
+  "genre": "Country",
+  "ref_duration": 239.311
+ },
+ {
+  "id": 356,
+  "name": "0406_honeybee",
+  "title": "Honey Bee",
+  "artist": "Blake Shelton",
+  "genre": "Country",
+  "ref_duration": 220.669
+ },
+ {
+  "id": 357,
+  "name": "0407_humpinaround",
+  "title": "Humpin' Around",
+  "artist": "Bobby Brown",
+  "genre": "Hip-Hop",
+  "ref_duration": 260.854
+ },
+ {
+  "id": 358,
+  "name": "0408_icanonlyimagine",
+  "title": "I Can Only Imagine",
+  "artist": "David Guetta feat. Chris Brown & Lil Wayne",
+  "genre": "Dance/Electronic",
+  "ref_duration": 209.009
+ },
+ {
+  "id": 359,
+  "name": "0409_idontlikeyou",
+  "title": "I Don't Like You",
+  "artist": "Eva Simons",
+  "genre": "Pop",
+  "ref_duration": 251.782
+ },
+ {
+  "id": 360,
+  "name": "0410_idontwantthisnighttoend",
+  "title": "I Don't Want This Night to End",
+  "artist": "Luke Bryan",
+  "genre": "Country",
+  "ref_duration": 219.702
+ },
+ {
+  "id": 361,
+  "name": "0411_ifihadyou",
+  "title": "If I Had You",
+  "artist": "Adam Lambert",
+  "genre": "Pop",
+  "ref_duration": 225.036
+ },
+ {
+  "id": 362,
+  "name": "0412_ifitmakesyouhappy",
+  "title": "If It Makes You Happy",
+  "artist": "Sheryl Crow",
+  "genre": "Pop",
+  "ref_duration": 272.07
+ },
+ {
+  "id": 363,
+  "name": "0413_ifyoucouldonlysee",
+  "title": "If You Could Only See",
+  "artist": "Tonic",
+  "genre": "Alternative",
+  "ref_duration": 263.364
+ },
+ {
+  "id": 364,
+  "name": "0414_illbe",
+  "title": "I'll Be",
+  "artist": "Edwin McCain",
+  "genre": "Alternative",
+  "ref_duration": 268.175
+ },
+ {
+  "id": 365,
+  "name": "0415_illbewaiting",
+  "title": "I'll Be Waiting",
+  "artist": "Michael Franti & Spearhead",
+  "genre": "Dance/Electronic",
+  "ref_duration": 227.101
+ },
+ {
+  "id": 366,
+  "name": "0416_impossible",
+  "title": "Impossible (main)",
+  "artist": "Shontelle",
+  "genre": "Pop",
+  "ref_duration": 224.304
+ },
+ {
+  "id": 367,
+  "name": "0417_imtoosexy",
+  "title": "I'm Too Sexy",
+  "artist": "Right Said Fred",
+  "genre": "Dance/Electronic",
+  "ref_duration": 170.131
+ },
+ {
+  "id": 368,
+  "name": "0418_inthedark",
+  "title": "In the Dark",
+  "artist": "Dev",
+  "genre": "Hip-Hop",
+  "ref_duration": 225.402
+ },
+ {
+  "id": 369,
+  "name": "0419_itgirl",
+  "title": "It Girl",
+  "artist": "Jason Derulo",
+  "genre": "Pop",
+  "ref_duration": 187.962
+ },
+ {
+  "id": 370,
+  "name": "0420_itsrainingmen",
+  "title": "It's Raining Men",
+  "artist": "The Weather Girls",
+  "genre": "Pop",
+  "ref_duration": 211.597
+ },
+ {
+  "id": 371,
+  "name": "0421_ittakestwo",
+  "title": "It Takes Two",
+  "artist": "Rob Base & DJ E-Z Rock",
+  "genre": "Hip-Hop",
+  "ref_duration": 211.833
+ },
+ {
+  "id": 372,
+  "name": "0422_itwillrain",
+  "title": "It Will Rain",
+  "artist": "Bruno Mars",
+  "genre": "Pop",
+  "ref_duration": 254.057
+ },
+ {
+  "id": 373,
+  "name": "0423_iwannago",
+  "title": "I Wanna Go",
+  "artist": "Britney Spears",
+  "genre": "Dance/Electronic",
+  "ref_duration": 209.035
+ },
+ {
+  "id": 374,
+  "name": "0424_justadream",
+  "title": "Just a Dream",
+  "artist": "Nelly",
+  "genre": "Hip-Hop",
+  "ref_duration": 235.886
+ },
+ {
+  "id": 375,
+  "name": "0425_justakiss",
+  "title": "Just a Kiss",
+  "artist": "Lady Antebellum",
+  "genre": "Pop",
+  "ref_duration": 218.552
+ },
+ {
+  "id": 376,
+  "name": "0426_justcantgetenough",
+  "title": "Just Can't Get Enough",
+  "artist": "The Black Eyed Peas",
+  "genre": "Hip-Hop",
+  "ref_duration": 219.545
+ },
+ {
+  "id": 377,
+  "name": "0427_justthewayyouare",
+  "title": "Just the Way You Are",
+  "artist": "Bruno Mars",
+  "genre": "Pop",
+  "ref_duration": 216.12
+ },
+ {
+  "id": 378,
+  "name": "0428_kingofanything",
+  "title": "King of Anything",
+  "artist": "Sara Bareilles",
+  "genre": "Pop",
+  "ref_duration": 205.558
+ },
+ {
+  "id": 379,
+  "name": "0429_kissinu",
+  "title": "Kissin U",
+  "artist": "Miranda Cosgrove",
+  "genre": "Pop",
+  "ref_duration": 196.825
+ },
+ {
+  "id": 380,
+  "name": "0430_lastfridaynight",
+  "title": "Last Friday Night (T.G.I.F.)",
+  "artist": "Katy Perry",
+  "genre": "Pop",
+  "ref_duration": 230.474
+ },
+ {
+  "id": 381,
+  "name": "0431_letitrain",
+  "title": "Let It Rain",
+  "artist": "David Nail",
+  "genre": "Country",
+  "ref_duration": 222.578
+ },
+ {
+  "id": 382,
+  "name": "0432_letsgo",
+  "title": "Let's Go",
+  "artist": "Calvin Harris feat. Ne-Yo",
+  "genre": "Dance/Electronic",
+  "ref_duration": 225.114
+ },
+ {
+  "id": 383,
+  "name": "0433_lighters",
+  "title": "Lighters",
+  "artist": "Bad Meets Evil feat. Bruno Mars",
+  "genre": "Pop",
+  "ref_duration": 302.529
+ },
+ {
+  "id": 384,
+  "name": "0434_lights",
+  "title": "Lights",
+  "artist": "Ellie Goulding",
+  "genre": "Pop",
+  "ref_duration": 210.212
+ },
+ {
+  "id": 385,
+  "name": "0435_lookatmenow",
+  "title": "Look at Me Now",
+  "artist": "Chris Brown feat. Lil Wayne & Busta Rhymes",
+  "genre": "Hip-Hop",
+  "ref_duration": 222.578
+ },
+ {
+  "id": 386,
+  "name": "0436_loveactually",
+  "title": "Love Actually",
+  "artist": "Cady Groves",
+  "genre": "Pop",
+  "ref_duration": 228.356
+ },
+ {
+  "id": 387,
+  "name": "0437_lovelikewoe",
+  "title": "Love Like Woe",
+  "artist": "The Ready Set",
+  "genre": "Pop",
+  "ref_duration": 199.858
+ },
+ {
+  "id": 388,
+  "name": "0438_loverlover",
+  "title": "Lover, Lover",
+  "artist": "Jerrod Niemann",
+  "genre": "Country",
+  "ref_duration": 204.198
+ },
+ {
+  "id": 389,
+  "name": "0439_lovethewayyoulie",
+  "title": "Love the Way You Lie",
+  "artist": "Eminem feat. Rihanna",
+  "genre": "Hip-Hop",
+  "ref_duration": 262.397
+ },
+ {
+  "id": 390,
+  "name": "0440_loveyoulikealovesong",
+  "title": "Love You Like a Love Song",
+  "artist": "Selena Gomez & The Scene",
+  "genre": "Pop",
+  "ref_duration": 185.949
+ },
+ {
+  "id": 391,
+  "name": "0441_lovingyoutonight",
+  "title": "Loving You Tonight",
+  "artist": "Andrew Allen",
+  "genre": "Pop",
+  "ref_duration": 179.962
+ },
+ {
+  "id": 392,
+  "name": "0442_lullaby",
+  "title": "Lullaby",
+  "artist": "Shawn Mullins",
+  "genre": "Pop",
+  "ref_duration": 273.639
+ },
+ {
+  "id": 393,
+  "name": "0443_magic",
+  "title": "Magic",
+  "artist": "B.o.B feat. Rivers Cuomo",
+  "genre": "Pop",
+  "ref_duration": 193.976
+ },
+ {
+  "id": 394,
+  "name": "0444_maybe",
+  "title": "Maybe",
+  "artist": "Sick Puppies",
+  "genre": "Pop",
+  "ref_duration": 200.747
+ },
+ {
+  "id": 395,
+  "name": "0445_memories",
+  "title": "Memories",
+  "artist": "David Guetta feat. Kid Cudi",
+  "genre": "Dance/Electronic",
+  "ref_duration": 208.381
+ },
+ {
+  "id": 396,
+  "name": "0446_midnightcity",
+  "title": "Midnight City",
+  "artist": "M83",
+  "genre": "Pop",
+  "ref_duration": 240.566
+ },
+ {
+  "id": 397,
+  "name": "0447_mindyourmanners",
+  "title": "Mind Your Manners",
+  "artist": "Chiddy Bang",
+  "genre": "Hip-Hop",
+  "ref_duration": 194.629
+ },
+ {
+  "id": 398,
+  "name": "0448_mine",
+  "title": "Mine",
+  "artist": "Taylor Swift",
+  "genre": "Pop",
+  "ref_duration": 240.043
+ },
+ {
+  "id": 399,
+  "name": "0449_misery",
+  "title": "Misery",
+  "artist": "Maroon 5",
+  "genre": "Pop",
+  "ref_duration": 206.394
+ },
+ {
+  "id": 400,
+  "name": "0450_more",
+  "title": "More",
+  "artist": "Usher",
+  "genre": "Dance/Electronic",
+  "ref_duration": 227.781
+ },
+ {
+  "id": 401,
+  "name": "0451_mrknowitall",
+  "title": "Mr. Know It All",
+  "artist": "Kelly Clarkson",
+  "genre": "Pop",
+  "ref_duration": 229.82
+ },
+ {
+  "id": 402,
+  "name": "0452_myfirstkiss",
+  "title": "My First Kiss",
+  "artist": "3OH!3 feat. Ke$ha",
+  "genre": "Hip-Hop",
+  "ref_duration": 192.564
+ },
+ {
+  "id": 403,
+  "name": "0453_mygirl",
+  "title": "My Girl",
+  "artist": "Mindless Behavior",
+  "genre": "Hip-Hop",
+  "ref_duration": 240.043
+ },
+ {
+  "id": 404,
+  "name": "0454_myohmy",
+  "title": "My Oh My",
+  "artist": "Tristan Prettyman",
+  "genre": "Pop",
+  "ref_duration": 217.611
+ },
+ {
+  "id": 405,
+  "name": "0455_nevertearusapart",
+  "title": "Never Tear Us Apart",
+  "artist": "INXS",
+  "genre": "Pop",
+  "ref_duration": 184.119
+ },
+ {
+  "id": 406,
+  "name": "0456_nohands",
+  "title": "No Hands",
+  "artist": "Waka Flocka Flame feat. Roscoe Dash & Wale",
+  "genre": "Hip-Hop",
+  "ref_duration": 262.632
+ },
+ {
+  "id": 407,
+  "name": "0457_nothing",
+  "title": "Nøthing",
+  "artist": "The Script",
+  "genre": "Pop",
+  "ref_duration": 269.168
+ },
+ {
+  "id": 408,
+  "name": "0458_notorious",
+  "title": "Notorious",
+  "artist": "Duran Duran",
+  "genre": "Funk/Disco",
+  "ref_duration": 240.487
+ },
+ {
+  "id": 409,
+  "name": "0459_notoveryou",
+  "title": "Not Over You",
+  "artist": "Gavin DeGraw",
+  "genre": "Pop",
+  "ref_duration": 214.839
+ },
+ {
+  "id": 410,
+  "name": "0460_numb",
+  "title": "Numb",
+  "artist": "Usher",
+  "genre": "Dance/Electronic",
+  "ref_duration": 219.885
+ },
+ {
+  "id": 411,
+  "name": "0461_obsession",
+  "title": "Obsession",
+  "artist": "Sky Ferreira",
+  "genre": "Dance/Electronic",
+  "ref_duration": 221.898
+ },
+ {
+  "id": 412,
+  "name": "0462_oldalabama",
+  "title": "Old Alabama",
+  "artist": "Brad Paisley",
+  "genre": "Country",
+  "ref_duration": 252.958
+ },
+ {
+  "id": 413,
+  "name": "0463_onemorenight",
+  "title": "One More Night",
+  "artist": "Maroon 5",
+  "genre": "Pop",
+  "ref_duration": 219.467
+ },
+ {
+  "id": 414,
+  "name": "0464_oneofus",
+  "title": "One of Us",
+  "artist": "Joan Osborne",
+  "genre": "Pop",
+  "ref_duration": 257.089
+ },
+ {
+  "id": 415,
+  "name": "0465_onething",
+  "title": "One Thing",
+  "artist": "One Direction",
+  "genre": "Pop",
+  "ref_duration": 194.132
+ },
+ {
+  "id": 416,
+  "name": "0466_onthedarkside",
+  "title": "On the Dark Side",
+  "artist": "Beaver Brown",
+  "genre": "Pop",
+  "ref_duration": 163.517
+ },
+ {
+  "id": 417,
+  "name": "0467_onthefloor",
+  "title": "On the Floor",
+  "artist": "Jennifer Lopez",
+  "genre": "Dance/Electronic",
+  "ref_duration": 227.885
+ },
+ {
+  "id": 418,
+  "name": "0468_openarms",
+  "title": "Open Arms",
+  "artist": "Journey",
+  "genre": "Pop",
+  "ref_duration": 199.205
+ },
+ {
+  "id": 419,
+  "name": "0469_ordinaryworld",
+  "title": "Ordinary World",
+  "artist": "Duran Duran",
+  "genre": "Pop",
+  "ref_duration": 281.273
+ },
+ {
+  "id": 420,
+  "name": "0470_ours",
+  "title": "Ours",
+  "artist": "Taylor Swift",
+  "genre": "Pop",
+  "ref_duration": 248.252
+ },
+ {
+  "id": 421,
+  "name": "0471_paradise",
+  "title": "Paradise",
+  "artist": "Coldplay",
+  "genre": "Pop",
+  "ref_duration": 277.247
+ },
+ {
+  "id": 422,
+  "name": "0472_partofme",
+  "title": "Part of Me",
+  "artist": "Katy Perry",
+  "genre": "Pop",
+  "ref_duration": 212.669
+ },
+ {
+  "id": 423,
+  "name": "0473_payphone",
+  "title": "Payphone",
+  "artist": "Maroon 5",
+  "genre": "Pop",
+  "ref_duration": 221.977
+ },
+ {
+  "id": 424,
+  "name": "0474_pleasedontgo",
+  "title": "Please Don't Go",
+  "artist": "Mike Posner",
+  "genre": "Dance/Electronic",
+  "ref_duration": 196.119
+ },
+ {
+  "id": 425,
+  "name": "0475_poisonedwithlove",
+  "title": "Poisoned With Love",
+  "artist": "Neon Hitch",
+  "genre": "Pop",
+  "ref_duration": 224.199
+ },
+ {
+  "id": 426,
+  "name": "0476_pontoon",
+  "title": "Pontoon",
+  "artist": "Little Big Town",
+  "genre": "Country",
+  "ref_duration": 222.107
+ },
+ {
+  "id": 427,
+  "name": "0477_poundthealarm",
+  "title": "Pound the Alarm",
+  "artist": "Nicki Minaj",
+  "genre": "Hip-Hop",
+  "ref_duration": 203.179
+ },
+ {
+  "id": 428,
+  "name": "0478_prayforyou",
+  "title": "Pray for You",
+  "artist": "Jaron and the Long Road to Love",
+  "genre": "Pop",
+  "ref_duration": 186.001
+ },
+ {
+  "id": 429,
+  "name": "0479_pricetag",
+  "title": "Price Tag (clean edit)",
+  "artist": "Jessie J",
+  "genre": "Pop",
+  "ref_duration": 197.95
+ },
+ {
+  "id": 430,
+  "name": "0480_raiseyourglass",
+  "title": "Raise Your Glass",
+  "artist": "P!nk",
+  "genre": "Dance/Electronic",
+  "ref_duration": 200.93
+ },
+ {
+  "id": 431,
+  "name": "0481_reallove",
+  "title": "Real Love",
+  "artist": "Jody Watley",
+  "genre": "Pop",
+  "ref_duration": 258.057
+ },
+ {
+  "id": 432,
+  "name": "0482_redsolocup",
+  "title": "Red Solo Cup",
+  "artist": "Toby Keith",
+  "genre": "Country",
+  "ref_duration": 224.225
+ },
+ {
+  "id": 433,
+  "name": "0483_ridinsolo",
+  "title": "Ridin' Solo",
+  "artist": "Jason Derülo",
+  "genre": "Dance/Electronic",
+  "ref_duration": 204.172
+ },
+ {
+  "id": 434,
+  "name": "0484_rockthatbody",
+  "title": "Rock That Body",
+  "artist": "The Black Eyed Peas",
+  "genre": "Dance/Electronic",
+  "ref_duration": 238.448
+ },
+ {
+  "id": 435,
+  "name": "0485_rollinginthedeep",
+  "title": "Rolling in the Deep",
+  "artist": "Adele",
+  "genre": "Pop",
+  "ref_duration": 226.421
+ },
+ {
+  "id": 436,
+  "name": "0486_rundatback",
+  "title": "Run Dat Back",
+  "artist": "Jadagrace",
+  "genre": "Hip-Hop",
+  "ref_duration": 216.565
+ },
+ {
+  "id": 437,
+  "name": "0487_secrets",
+  "title": "Secrets",
+  "artist": "OneRepublic",
+  "genre": "Pop",
+  "ref_duration": 222.813
+ },
+ {
+  "id": 438,
+  "name": "0488_september",
+  "title": "September",
+  "artist": "Daughtry",
+  "genre": "Pop",
+  "ref_duration": 237.873
+ },
+ {
+  "id": 439,
+  "name": "0489_shakeyourbody",
+  "title": "Shake Your Body",
+  "artist": "The Jacksons",
+  "genre": "Funk/Disco",
+  "ref_duration": 224.121
+ },
+ {
+  "id": 440,
+  "name": "0490_showme",
+  "title": "Show Me",
+  "artist": "Jessica Sutta",
+  "genre": "Dance/Electronic",
+  "ref_duration": 222.761
+ },
+ {
+  "id": 441,
+  "name": "0491_skyscraper",
+  "title": "Skyscraper",
+  "artist": "Demi Lovato",
+  "genre": "Pop",
+  "ref_duration": 231.572
+ },
+ {
+  "id": 442,
+  "name": "0492_sm",
+  "title": "S&M (album version)",
+  "artist": "Rihanna",
+  "genre": "Dance/Electronic",
+  "ref_duration": 241.507
+ },
+ {
+  "id": 443,
+  "name": "0493_somebodysheartbreak",
+  "title": "Somebody's Heartbreak",
+  "artist": "Hunter Hayes",
+  "genre": "Pop",
+  "ref_duration": 226.866
+ },
+ {
+  "id": 444,
+  "name": "0494_somebodythatiusedtoknow",
+  "title": "Somebody That I Used to Know",
+  "artist": "Gotye feat. Kimbra",
+  "genre": "Pop",
+  "ref_duration": 244.069
+ },
+ {
+  "id": 445,
+  "name": "0495_someonelikeyou",
+  "title": "Someone Like You",
+  "artist": "Adele",
+  "genre": "Pop",
+  "ref_duration": 282.032
+ },
+ {
+  "id": 446,
+  "name": "0496_sparksfly",
+  "title": "Sparks Fly",
+  "artist": "Taylor Swift",
+  "genre": "Pop",
+  "ref_duration": 261.691
+ },
+ {
+  "id": 447,
+  "name": "0497_speakers",
+  "title": "Speakers",
+  "artist": "Days Difference",
+  "genre": "Pop",
+  "ref_duration": 256.253
+ },
+ {
+  "id": 448,
+  "name": "0498_springsteen",
+  "title": "Springsteen",
+  "artist": "Eric Church",
+  "genre": "Country",
+  "ref_duration": 261.011
+ },
+ {
+  "id": 449,
+  "name": "0499_starbuckssmile",
+  "title": "Starbucks Smile",
+  "artist": "Maria K.",
+  "genre": "Pop",
+  "ref_duration": 204.46
+ },
+ {
+  "id": 450,
+  "name": "0500_stay",
+  "title": "Stay (I Missed You)",
+  "artist": "Lisa Loeb",
+  "genre": "Alternative",
+  "ref_duration": 185.217
+ },
+ {
+  "id": 451,
+  "name": "0501_stayawhile",
+  "title": "Stay Awhile",
+  "artist": "Ryan Star",
+  "genre": "Pop",
+  "ref_duration": 216.382
+ },
+ {
+  "id": 452,
+  "name": "0502_stronger",
+  "title": "Stronger",
+  "artist": "Jennette McCurdy",
+  "genre": "Pop",
+  "ref_duration": 204.407
+ },
+ {
+  "id": 453,
+  "name": "0503_stucklikeglue",
+  "title": "Stuck Like Glue",
+  "artist": "Sugarland",
+  "genre": "Country",
+  "ref_duration": 256.723
+ },
+ {
+  "id": 454,
+  "name": "0504_suspiciousminds",
+  "title": "Suspicious Minds",
+  "artist": "Elvis Presley",
+  "genre": "Pop",
+  "ref_duration": 255.756
+ },
+ {
+  "id": 455,
+  "name": "0505_takeitoff",
+  "title": "Take It Off",
+  "artist": "Ke$ha",
+  "genre": "Dance/Electronic",
+  "ref_duration": 211.963
+ },
+ {
+  "id": 456,
+  "name": "0506_takemehometonight",
+  "title": "Take Me Home Tonight/Be My Baby",
+  "artist": "Eddie Money",
+  "genre": "Pop",
+  "ref_duration": 211.833
+ },
+ {
+  "id": 457,
+  "name": "0507_teenagedream",
+  "title": "Teenage Dream",
+  "artist": "Katy Perry",
+  "genre": "Dance/Electronic",
+  "ref_duration": 227.964
+ },
+ {
+  "id": 458,
+  "name": "0508_tennesseeme",
+  "title": "Tennessee Me",
+  "artist": "The Secret Sisters",
+  "genre": "Country",
+  "ref_duration": 140.823
+ },
+ {
+  "id": 459,
+  "name": "0509_thelazysong",
+  "title": "The Lazy Song",
+  "artist": "Bruno Mars",
+  "genre": "Pop",
+  "ref_duration": 187.831
+ },
+ {
+  "id": 460,
+  "name": "0510_theonethatgotaway",
+  "title": "The One That Got Away",
+  "artist": "Katy Perry",
+  "genre": "Pop",
+  "ref_duration": 226.735
+ },
+ {
+  "id": 461,
+  "name": "0511_theonlyexception",
+  "title": "The Only Exception",
+  "artist": "Paramore",
+  "genre": "Pop",
+  "ref_duration": 265.09
+ },
+ {
+  "id": 462,
+  "name": "0512_theshowgoeson",
+  "title": "The Show Goes On",
+  "artist": "Lupe Fiasco",
+  "genre": "Hip-Hop",
+  "ref_duration": 235.128
+ },
+ {
+  "id": 463,
+  "name": "0513_thetime",
+  "title": "The Time (Dirty Bit)",
+  "artist": "The Black Eyed Peas",
+  "genre": "Hip-Hop",
+  "ref_duration": 250.998
+ },
+ {
+  "id": 464,
+  "name": "0514_thetimeofmylife",
+  "title": "(I've Had) The Time of My Life",
+  "artist": "Bill Medley & Jennifer Warnes",
+  "genre": "Pop",
+  "ref_duration": 289.248
+ },
+ {
+  "id": 465,
+  "name": "0515_thisafternoon",
+  "title": "This Afternoon",
+  "artist": "Nickelback",
+  "genre": "Pop",
+  "ref_duration": 252.985
+ },
+ {
+  "id": 466,
+  "name": "0516_thisorthat",
+  "title": "This or That",
+  "artist": "Jacob Latimore",
+  "genre": "Hip-Hop",
+  "ref_duration": 198.263
+ },
+ {
+  "id": 467,
+  "name": "0517_tilltheworldends",
+  "title": "Till the World Ends",
+  "artist": "Britney Spears",
+  "genre": "Dance/Electronic",
+  "ref_duration": 234.814
+ },
+ {
+  "id": 468,
+  "name": "0518_timeaftertime",
+  "title": "Time After Time",
+  "artist": "Cyndi Lauper",
+  "genre": "Pop",
+  "ref_duration": 240.121
+ },
+ {
+  "id": 469,
+  "name": "0519_titanium",
+  "title": "Titanium",
+  "artist": "David Guetta feat. Sia",
+  "genre": "Pop",
+  "ref_duration": 211.022
+ },
+ {
+  "id": 470,
+  "name": "0520_tonight",
+  "title": "Tonight (I'm Lovin' You)",
+  "artist": "Enrique Iglesias feat. Ludacris & DJ Frank E",
+  "genre": "Pop",
+  "ref_duration": 229.794
+ },
+ {
+  "id": 471,
+  "name": "0521_tooclose",
+  "title": "Too Close",
+  "artist": "Alex Clare",
+  "genre": "Pop",
+  "ref_duration": 251.677
+ },
+ {
+  "id": 472,
+  "name": "0522_turnupthemusic",
+  "title": "Turn Up the Music",
+  "artist": "Chris Brown",
+  "genre": "Dance/Electronic",
+  "ref_duration": 224.513
+ },
+ {
+  "id": 473,
+  "name": "0523_ucanttouchthis",
+  "title": "U Can't Touch This",
+  "artist": "MC Hammer",
+  "genre": "Hip-Hop",
+  "ref_duration": 253.037
+ },
+ {
+  "id": 474,
+  "name": "0524_undoit",
+  "title": "Undo It",
+  "artist": "Carrie Underwood",
+  "genre": "Country",
+  "ref_duration": 176.38
+ },
+ {
+  "id": 475,
+  "name": "0525_venus",
+  "title": "Venus",
+  "artist": "Bananarama",
+  "genre": "Pop",
+  "ref_duration": 214.421
+ },
+ {
+  "id": 476,
+  "name": "0526_waitingoutsidethelines",
+  "title": "Waiting Outside the Lines",
+  "artist": "Greyson Chance",
+  "genre": "Pop",
+  "ref_duration": 231.363
+ },
+ {
+  "id": 477,
+  "name": "0527_wantuback",
+  "title": "Want You Back",
+  "artist": "Cher Lloyd",
+  "genre": "Hip-Hop",
+  "ref_duration": 212.695
+ },
+ {
+  "id": 478,
+  "name": "0528_werunthenight",
+  "title": "We Run the Night",
+  "artist": "Havana Brown feat. Pitbull",
+  "genre": "Dance/Electronic",
+  "ref_duration": 227.572
+ },
+ {
+  "id": 479,
+  "name": "0529_werwhower",
+  "title": "We R Who We R",
+  "artist": "Ke$ha",
+  "genre": "Dance/Electronic",
+  "ref_duration": 204.486
+ },
+ {
+  "id": 480,
+  "name": "0530_whatthehell",
+  "title": "What the Hell",
+  "artist": "Avril Lavigne",
+  "genre": "Dance/Electronic",
+  "ref_duration": 229.585
+ },
+ {
+  "id": 481,
+  "name": "0531_whenwestandtogether",
+  "title": "When We Stand Together",
+  "artist": "Nickelback",
+  "genre": "Pop",
+  "ref_duration": 188.198
+ },
+ {
+  "id": 482,
+  "name": "0532_whistle",
+  "title": "Whistle",
+  "artist": "Flo Rida",
+  "genre": "Hip-Hop",
+  "ref_duration": 223.598
+ },
+ {
+  "id": 483,
+  "name": "0533_whosays",
+  "title": "Who Says",
+  "artist": "Selena Gomez & The Scene",
+  "genre": "Pop",
+  "ref_duration": 190.185
+ },
+ {
+  "id": 484,
+  "name": "0534_wideawake",
+  "title": "Wide Awake",
+  "artist": "Katy Perry",
+  "genre": "Pop",
+  "ref_duration": 219.493
+ },
+ {
+  "id": 485,
+  "name": "0535_withoutyou",
+  "title": "Without You",
+  "artist": "David Guetta feat. Usher",
+  "genre": "Pop",
+  "ref_duration": 206.97
+ },
+ {
+  "id": 486,
+  "name": "0536_workout",
+  "title": "Work Out",
+  "artist": "J. Cole",
+  "genre": "Hip-Hop",
+  "ref_duration": 233.088
+ },
+ {
+  "id": 487,
+  "name": "0537_writteninthestars",
+  "title": "Written in the Stars (UK radio version)",
+  "artist": "Tinie Tempah feat. Eric Turner",
+  "genre": "Hip-Hop",
+  "ref_duration": 206.185
+ },
+ {
+  "id": 488,
+  "name": "0538_you",
+  "title": "You",
+  "artist": "Chris Young",
+  "genre": "Country",
+  "ref_duration": 164.144
+ },
+ {
+  "id": 489,
+  "name": "0539_youandi",
+  "title": "Yoü and I",
+  "artist": "Lady Gaga",
+  "genre": "Country",
+  "ref_duration": 246.004
+ },
+ {
+  "id": 490,
+  "name": "0540_youandme",
+  "title": "You And Me",
+  "artist": "Parachute",
+  "genre": "Pop",
+  "ref_duration": 213.924
+ },
+ {
+  "id": 491,
+  "name": "0541_youdroppedabombonme",
+  "title": "You Dropped a Bomb on Me",
+  "artist": "The Gap Band",
+  "genre": "Pop",
+  "ref_duration": 242.265
+ },
+ {
+  "id": 492,
+  "name": "0542_yougetwhatyougive",
+  "title": "You Get What You Give",
+  "artist": "New Radicals",
+  "genre": "Pop",
+  "ref_duration": 281.064
+ },
+ {
+  "id": 493,
+  "name": "0543_yougonnafly",
+  "title": "You Gonna Fly",
+  "artist": "Keith Urban",
+  "genre": "Country",
+  "ref_duration": 215.676
+ },
+ {
+  "id": 494,
+  "name": "0544_yougottabe",
+  "title": "You Gotta Be",
+  "artist": "Des'Ree",
+  "genre": "Pop",
+  "ref_duration": 246.893
+ },
+ {
+  "id": 495,
+  "name": "0545_youkeepmehangingon",
+  "title": "You Keep Me Hangin' On",
+  "artist": "Kim Wilde",
+  "genre": "Pop",
+  "ref_duration": 255.338
+ },
+ {
+  "id": 496,
+  "name": "0546_18days",
+  "title": "18 Days",
+  "artist": "Saving Abel",
+  "genre": "Rock",
+  "ref_duration": 229.297
+ },
+ {
+  "id": 497,
+  "name": "0547_1901boflexdpassionpitremix",
+  "title": "1901 Bo Flex'd (Passion Pit remix)",
+  "artist": "Phoenix",
+  "genre": "Dance/Electronic",
+  "ref_duration": 253.455
+ },
+ {
+  "id": 498,
+  "name": "0548_2getherextended",
+  "title": "2Gether (extended)",
+  "artist": "Far East Movement & Roger Sanchez feat. Kanobby",
+  "genre": "Hip-Hop",
+  "ref_duration": 242.919
+ },
+ {
+  "id": 499,
+  "name": "0549_515",
+  "title": "5:15",
+  "artist": "Bridgit Mendler",
+  "genre": "Pop",
+  "ref_duration": 236.409
+ },
+ {
+  "id": 500,
+  "name": "0550_aboutyounow",
+  "title": "About You Now",
+  "artist": "Miranda Cosgrove",
+  "genre": "Pop",
+  "ref_duration": 191.152
+ },
+ {
+  "id": 501,
+  "name": "0551_accordingtoyou",
+  "title": "According to You",
+  "artist": "Orianthi",
+  "genre": "Pop",
+  "ref_duration": 197.767
+ },
+ {
+  "id": 502,
+  "name": "0552_addicted",
+  "title": "Addicted",
+  "artist": "Saving Abel",
+  "genre": "Rock",
+  "ref_duration": 222.369
+ },
+ {
+  "id": 503,
+  "name": "0553_alivefeatthegoodnatured",
+  "title": "Alive (Basto remix)",
+  "artist": "Adrian Lux feat. The Good Natured",
+  "genre": "Dance/Electronic",
+  "ref_duration": 277.875
+ },
+ {
+  "id": 504,
+  "name": "0554_allalright",
+  "title": "All Alright",
+  "artist": "fun.",
+  "genre": "Pop",
+  "ref_duration": 237.794
+ },
+ {
+  "id": 505,
+  "name": "0555_allaroundme",
+  "title": "All Around Me",
+  "artist": "Flyleaf",
+  "genre": "Rock",
+  "ref_duration": 197.767
+ },
+ {
+  "id": 506,
+  "name": "0556_allaroundtheworld",
+  "title": "All Around the World",
+  "artist": "Justin Bieber feat. Ludacris",
+  "genre": "Pop",
+  "ref_duration": 244.906
+ },
+ {
+  "id": 507,
+  "name": "0557_alligator",
+  "title": "Alligator",
+  "artist": "Tegan and Sara",
+  "genre": "Pop",
+  "ref_duration": 161.634
+ },
+ {
+  "id": 508,
+  "name": "0558_allnightlong",
+  "title": "All Night Long",
+  "artist": "Demi Lovato feat. Missy Elliott & Timbaland",
+  "genre": "Pop",
+  "ref_duration": 194.995
+ },
+ {
+  "id": 509,
+  "name": "0559_alltherightmoves",
+  "title": "All the Right Moves",
+  "artist": "OneRepublic",
+  "genre": "Pop",
+  "ref_duration": 237.01
+ },
+ {
+  "id": 510,
+  "name": "0560_almostlovenow",
+  "title": "Almost Love",
+  "artist": "Jessica Jarrell",
+  "genre": "Pop",
+  "ref_duration": 199.963
+ },
+ {
+  "id": 511,
+  "name": "0561_alorsondanse",
+  "title": "Alors on Danse (remix edited)",
+  "artist": "Stromae feat. Kanye West & Gilbere Forté",
+  "genre": "Hip-Hop",
+  "ref_duration": 226.631
+ },
+ {
+  "id": 512,
+  "name": "0562_alreadygone",
+  "title": "Already Gone",
+  "artist": "Kelly Clarkson",
+  "genre": "Pop",
+  "ref_duration": 277.744
+ },
+ {
+  "id": 513,
+  "name": "0564_americanboybenny",
+  "title": "American Boy (Benny Benassi mix)",
+  "artist": "Estelle feat. Kanye West",
+  "genre": "Dance/Electronic",
+  "ref_duration": 253.377
+ },
+ {
+  "id": 514,
+  "name": "0565_americanhoney",
+  "title": "American Honey",
+  "artist": "Lady Antebellum",
+  "genre": "Country",
+  "ref_duration": 222.107
+ },
+ {
+  "id": 515,
+  "name": "0566_americanwoman",
+  "title": "American Woman",
+  "artist": "Lenny Kravitz",
+  "genre": "Rock",
+  "ref_duration": 229.637
+ },
+ {
+  "id": 516,
+  "name": "0567_anythingcouldhappen",
+  "title": "Anything Could Happen",
+  "artist": "Ellie Goulding",
+  "genre": "Pop",
+  "ref_duration": 286.712
+ },
+ {
+  "id": 517,
+  "name": "0568_apologize",
+  "title": "Apologize",
+  "artist": "Timbaland feat. OneRepublic",
+  "genre": "Pop",
+  "ref_duration": 184.642
+ },
+ {
+  "id": 518,
+  "name": "0569_arrow",
+  "title": "Arrow",
+  "artist": "Tegan and Sara",
+  "genre": "Pop",
+  "ref_duration": 186.969
+ },
+ {
+  "id": 519,
+  "name": "0570_aslongasyouloveme",
+  "title": "As Long as You Love Me",
+  "artist": "Justin Bieber feat. Big Sean",
+  "genre": "Pop",
+  "ref_duration": 229.794
+ },
+ {
+  "id": 520,
+  "name": "0571_atlantis",
+  "title": "Atlantis",
+  "artist": "Ellie Goulding",
+  "genre": "Pop",
+  "ref_duration": 232.853
+ },
+ {
+  "id": 521,
+  "name": "0572_awake",
+  "title": "A Wake",
+  "artist": "Macklemore & Ryan Lewis",
+  "genre": "Hip-Hop",
+  "ref_duration": 226.369
+ },
+ {
+  "id": 522,
+  "name": "0573_babyludacris",
+  "title": "Baby",
+  "artist": "Justin Bieber feat. Ludacris",
+  "genre": "Pop",
+  "ref_duration": 214.212
+ },
+ {
+  "id": 523,
+  "name": "0574_badromanceappboyz",
+  "title": "Bad Romance (App Boyz Ultra Club Sounds Edit)",
+  "artist": "Bad Romance",
+  "genre": "Dance/Electronic",
+  "ref_duration": 232.435
+ },
+ {
+  "id": 524,
+  "name": "0575_badromanceskrillexremix",
+  "title": "Bad Romance (Skrillex remix)",
+  "artist": "Lady Gaga",
+  "genre": "Dance/Electronic",
+  "ref_duration": 262.083
+ },
+ {
+  "id": 525,
+  "name": "0576_barbrastreisand",
+  "title": "Barbra Streisand",
+  "artist": "Duck Sauce",
+  "genre": "Dance/Electronic",
+  "ref_duration": 231.729
+ },
+ {
+  "id": 526,
+  "name": "0577_battlefieldmainversion",
+  "title": "Battlefield",
+  "artist": "Jordin Sparks",
+  "genre": "Pop",
+  "ref_duration": 238.631
+ },
+ {
+  "id": 527,
+  "name": "0578_bealright",
+  "title": "Be Alright",
+  "artist": "Justin Bieber",
+  "genre": "Pop",
+  "ref_duration": 189.949
+ },
+ {
+  "id": 528,
+  "name": "0579_beatitstudioversion",
+  "title": "Beat It",
+  "artist": "Fall Out Boy feat. John Mayer",
+  "genre": "Rock",
+  "ref_duration": 226.448
+ },
+ {
+  "id": 529,
+  "name": "0580_beautiful",
+  "title": "Beautiful",
+  "artist": "Christina Aguilera",
+  "genre": "Pop",
+  "ref_duration": 238.84
+ },
+ {
+  "id": 530,
+  "name": "0581_beautifulcarlyrae",
+  "title": "Beautiful",
+  "artist": "Carly Rae Jepsen with Justin Bieber",
+  "genre": "Pop",
+  "ref_duration": 198.289
+ },
+ {
+  "id": 531,
+  "name": "0582_beautifulday",
+  "title": "Beautiful Day",
+  "artist": "U2",
+  "genre": "Alternative",
+  "ref_duration": 245.795
+ },
+ {
+  "id": 532,
+  "name": "0583_beautifulgirls",
+  "title": "Beautiful Girls",
+  "artist": "Sean Kingston",
+  "genre": "Pop",
+  "ref_duration": 224.225
+ },
+ {
+  "id": 533,
+  "name": "0585_beautyandabeat",
+  "title": "Beauty and a Beat",
+  "artist": "Justin Bieber feat. Nicki Minaj",
+  "genre": "Pop",
+  "ref_duration": 228.33
+ },
+ {
+  "id": 534,
+  "name": "0586_bed",
+  "title": "Bed",
+  "artist": "J. Holiday",
+  "genre": "Hip-Hop",
+  "ref_duration": 228.931
+ },
+ {
+  "id": 535,
+  "name": "0587_bedrock",
+  "title": "Bedrock",
+  "artist": "Young Money feat. Lloyd",
+  "genre": "Hip-Hop",
+  "ref_duration": 289.091
+ },
+ {
+  "id": 536,
+  "name": "0588_believe",
+  "title": "Believe",
+  "artist": "Justin Bieber",
+  "genre": "Pop",
+  "ref_duration": 222.552
+ },
+ {
+  "id": 537,
+  "name": "0589_bestieverhad",
+  "title": "Best I Ever Had",
+  "artist": "Drake",
+  "genre": "Hip-Hop",
+  "ref_duration": 256.776
+ },
+ {
+  "id": 538,
+  "name": "0590_betterintime",
+  "title": "Better in Time",
+  "artist": "Leona Lewis",
+  "genre": "Pop",
+  "ref_duration": 233.794
+ },
+ {
+  "id": 539,
+  "name": "0591_biggirlsdontcry",
+  "title": "Big Girls Don't Cry (Personal)",
+  "artist": "Fergie",
+  "genre": "Pop",
+  "ref_duration": 254.553
+ },
+ {
+  "id": 540,
+  "name": "0592_blameit",
+  "title": "Blame It (The New Devices remix)",
+  "artist": "Jamie Foxx feat. T-Pain",
+  "genre": "Dance/Electronic",
+  "ref_duration": 255.076
+ },
+ {
+  "id": 541,
+  "name": "0593_blameitradioedit",
+  "title": "Blame It (radio edit)",
+  "artist": "Jamie Foxx",
+  "genre": "Hip-Hop",
+  "ref_duration": 261.403
+ },
+ {
+  "id": 542,
+  "name": "0594_bleedinglove",
+  "title": "Bleeding Love",
+  "artist": "Leona Lewis",
+  "genre": "Pop",
+  "ref_duration": 238.004
+ },
+ {
+  "id": 543,
+  "name": "0595_blonde",
+  "title": "Blonde",
+  "artist": "Bridgit Mendler",
+  "genre": "Pop",
+  "ref_duration": 189.217
+ },
+ {
+  "id": 544,
+  "name": "0596_bonbon",
+  "title": "Bon, Bon",
+  "artist": "Pitbull",
+  "genre": "Dance/Electronic",
+  "ref_duration": 186.838
+ },
+ {
+  "id": 545,
+  "name": "0597_boomboomguetta",
+  "title": "Boom Boom Guetta (David Guetta's electro hop remix)",
+  "artist": "The Black Eyed Peas",
+  "genre": "Hip-Hop",
+  "ref_duration": 239.703
+ },
+ {
+  "id": 546,
+  "name": "0598_boomboompow",
+  "title": "Boom Boom Pow (radio edit)",
+  "artist": "The Black Eyed Peas",
+  "genre": "Hip-Hop",
+  "ref_duration": 217.035
+ },
+ {
+  "id": 547,
+  "name": "0599_boyfriend",
+  "title": "Boyfriend",
+  "artist": "Justin Bieber",
+  "genre": "Pop",
+  "ref_duration": 171.622
+ },
+ {
+  "id": 548,
+  "name": "0600_breakeven",
+  "title": "Breakeven",
+  "artist": "The Script",
+  "genre": "Pop",
+  "ref_duration": 255.521
+ },
+ {
+  "id": 549,
+  "name": "0602_breaktheice",
+  "title": "Break the Ice",
+  "artist": "Britney Spears",
+  "genre": "Pop",
+  "ref_duration": 193.322
+ },
+ {
+  "id": 550,
+  "name": "0603_breaktheicejasonnevinsmix",
+  "title": "Break the Ice (Jason Nevins remix)",
+  "artist": "Britney Spears",
+  "genre": "Dance/Electronic",
+  "ref_duration": 248.148
+ },
+ {
+  "id": 551,
+  "name": "0604_bustitbabypart2",
+  "title": "Bust It Baby, Part 2",
+  "artist": "Plies feat. Ne-Yo",
+  "genre": "Hip-Hop",
+  "ref_duration": 231.127
+ },
+ {
+  "id": 552,
+  "name": "0607_cantholdus",
+  "title": "Can't Hold Us",
+  "artist": "Macklemore & Ryan Lewis",
+  "genre": "Hip-Hop",
+  "ref_duration": 258.789
+ },
+ {
+  "id": 553,
+  "name": "0608_canttellmenothing",
+  "title": "Can't Tell Me Nothing",
+  "artist": "Kanye West",
+  "genre": "Hip-Hop",
+  "ref_duration": 270.972
+ },
+ {
+  "id": 554,
+  "name": "0609_carryon",
+  "title": "Carry On",
+  "artist": "fun.",
+  "genre": "Alternative",
+  "ref_duration": 278.737
+ },
+ {
+  "id": 555,
+  "name": "0610_castle",
+  "title": "Castle",
+  "artist": "Macklemore & Ryan Lewis",
+  "genre": "Hip-Hop",
+  "ref_duration": 258.318
+ },
+ {
+  "id": 556,
+  "name": "0611_catchingfeelings",
+  "title": "Catching Feelings",
+  "artist": "Justin Bieber",
+  "genre": "Pop",
+  "ref_duration": 235.023
+ },
+ {
+  "id": 557,
+  "name": "0613_celebrationbennybenassi",
+  "title": "Celebration (Benny Benassi remix)",
+  "artist": "Madonna",
+  "genre": "Dance/Electronic",
+  "ref_duration": 313.301
+ },
+ {
+  "id": 558,
+  "name": "0614_cinema",
+  "title": "Cinema (Feat. Gary Go) [Extended Mix]",
+  "artist": "Benny Benassi",
+  "genre": "Dance/Electronic",
+  "ref_duration": 247.834
+ },
+ {
+  "id": 559,
+  "name": "0615_circus",
+  "title": "Circus",
+  "artist": "Britney Spears",
+  "genre": "Dance/Electronic",
+  "ref_duration": 186.629
+ },
+ {
+  "id": 560,
+  "name": "0616_citygirl",
+  "title": "City Girl",
+  "artist": "Tegan and Sara",
+  "genre": "Pop",
+  "ref_duration": 239.912
+ },
+ {
+  "id": 561,
+  "name": "0617_citylights",
+  "title": "City Lights",
+  "artist": "Bridgit Mendler",
+  "genre": "Pop",
+  "ref_duration": 240.749
+ },
+ {
+  "id": 562,
+  "name": "0618_clocks",
+  "title": "Clocks (edit)",
+  "artist": "Coldplay",
+  "genre": "Alternative",
+  "ref_duration": 249.481
+ },
+ {
+  "id": 563,
+  "name": "0619_closer",
+  "title": "Closer",
+  "artist": "Ne-Yo",
+  "genre": "R&B",
+  "ref_duration": 233.82
+ },
+ {
+  "id": 564,
+  "name": "0620_closertands",
+  "title": "Closer",
+  "artist": "Tegan and Sara",
+  "genre": "Pop",
+  "ref_duration": 212.565
+ },
+ {
+  "id": 565,
+  "name": "0621_clubcanthandleme",
+  "title": "Club Can't Handle Me (Sidney Samson remix)",
+  "artist": "Flo Rida feat. David Guetta",
+  "genre": "Pop",
+  "ref_duration": 362.375
+ },
+ {
+  "id": 566,
+  "name": "0622_clumsy",
+  "title": "Clumsy",
+  "artist": "Fergie",
+  "genre": "Pop",
+  "ref_duration": 199.806
+ },
+ {
+  "id": 567,
+  "name": "0623_comeongethigher",
+  "title": "Come On Get Higher",
+  "artist": "Matt Nathanson",
+  "genre": "Alternative",
+  "ref_duration": 212.748
+ },
+ {
+  "id": 568,
+  "name": "0625_complicated",
+  "title": "Complicated",
+  "artist": "Avril Lavigne",
+  "genre": "Alternative",
+  "ref_duration": 243.886
+ },
+ {
+  "id": 569,
+  "name": "0626_coolerthanme",
+  "title": "Cooler Than Me",
+  "artist": "Mike Posner",
+  "genre": "Pop",
+  "ref_duration": 213.427
+ },
+ {
+  "id": 570,
+  "name": "0627_cowboyboots",
+  "title": "Cowboy Boots",
+  "artist": "Macklemore & Ryan Lewis",
+  "genre": "Hip-Hop",
+  "ref_duration": 258.214
+ },
+ {
+  "id": 571,
+  "name": "0628_crankthatsouljaboy",
+  "title": "Crank That (Soulja Boy)",
+  "artist": "Soulja Boy Tell 'Em",
+  "genre": "Hip-Hop",
+  "ref_duration": 221.977
+ },
+ {
+  "id": 572,
+  "name": "0629_crush",
+  "title": "Crush",
+  "artist": "David Archuleta",
+  "genre": "Pop",
+  "ref_duration": 207.675
+ },
+ {
+  "id": 573,
+  "name": "0630_crushcrushcrush",
+  "title": "crushcrushcrush",
+  "artist": "Paramore",
+  "genre": "Rock",
+  "ref_duration": 179.622
+ },
+ {
+  "id": 574,
+  "name": "0631_curiosity",
+  "title": "Curiosity",
+  "artist": "Carly Rae Jepsen",
+  "genre": "Pop",
+  "ref_duration": 213.427
+ },
+ {
+  "id": 575,
+  "name": "0632_cyclone",
+  "title": "Cyclone",
+  "artist": "Baby Bash feat. T-Pain",
+  "genre": "Hip-Hop",
+  "ref_duration": 221.558
+ },
+ {
+  "id": 576,
+  "name": "0633_dancingmachine",
+  "title": "Dancing Machine (Polow remix)",
+  "artist": "The Jackson 5",
+  "genre": "Pop",
+  "ref_duration": 194.891
+ },
+ {
+  "id": 577,
+  "name": "0634_dangerous",
+  "title": "Dangerous",
+  "artist": "Kardinal Offishall feat. Akon",
+  "genre": "Hip-Hop",
+  "ref_duration": 231.598
+ },
+ {
+  "id": 578,
+  "name": "0635_daynnite",
+  "title": "Day N Nite (Nightmare)",
+  "artist": "Kid Cudi",
+  "genre": "Hip-Hop",
+  "ref_duration": 220.722
+ },
+ {
+  "id": 579,
+  "name": "0636_daynnitecrookersremix",
+  "title": "Day 'N' Nite",
+  "artist": "Kid Cudi vs. Crookers",
+  "genre": "Hip-Hop",
+  "ref_duration": 162.654
+ },
+ {
+  "id": 580,
+  "name": "0637_daynniteremix",
+  "title": "Day 'n' Night (remix)",
+  "artist": "Kid Cudi vs. Crookers",
+  "genre": "Hip-Hop",
+  "ref_duration": 253.351
+ },
+ {
+  "id": 581,
+  "name": "0638_deadandgone",
+  "title": "Dead and Gone (radio edit)",
+  "artist": "T.I. feat. Justin Timberlake",
+  "genre": "Hip-Hop",
+  "ref_duration": 232.931
+ },
+ {
+  "id": 582,
+  "name": "0639_dieinyourarms",
+  "title": "Die in Your Arms",
+  "artist": "Justin Bieber",
+  "genre": "Pop",
+  "ref_duration": 237.638
+ },
+ {
+  "id": 583,
+  "name": "0640_disturbia2",
+  "title": "Disturbia",
+  "artist": "Rihanna",
+  "genre": "Hip-Hop",
+  "ref_duration": 236.749
+ },
+ {
+  "id": 584,
+  "name": "0642_dontconfess",
+  "title": "Don't Confess",
+  "artist": "Tegan and Sara",
+  "genre": "Pop",
+  "ref_duration": 272.724
+ },
+ {
+  "id": 585,
+  "name": "0643_dontrush",
+  "title": "Don't Rush",
+  "artist": "Tegan and Sara",
+  "genre": "Pop",
+  "ref_duration": 162.288
+ },
+ {
+  "id": 586,
+  "name": "0644_dontsayaword",
+  "title": "Don't Say a Word",
+  "artist": "Ellie Goulding",
+  "genre": "Pop",
+  "ref_duration": 247.756
+ },
+ {
+  "id": 587,
+  "name": "0645_dontstopthemusic",
+  "title": "Don't Stop the Music",
+  "artist": "Rihanna",
+  "genre": "Pop",
+  "ref_duration": 265.43
+ },
+ {
+  "id": 588,
+  "name": "0647_dontthinkidontthinkaboutit",
+  "title": "Don't Think I Don't Think About It",
+  "artist": "Darius Rucker",
+  "genre": "Country",
+  "ref_duration": 181.923
+ },
+ {
+  "id": 589,
+  "name": "0648_donttrustme",
+  "title": "Don't Trust Me",
+  "artist": "3OH!3",
+  "genre": "Pop",
+  "ref_duration": 192.355
+ },
+ {
+  "id": 590,
+  "name": "0649_down",
+  "title": "Down",
+  "artist": "Jay Sean feat. Lil Wayne",
+  "genre": "R&B",
+  "ref_duration": 212.277
+ },
+ {
+  "id": 591,
+  "name": "0650_downlilwayne",
+  "title": "Down",
+  "artist": "Jay Sean feat. Lil Wayne",
+  "genre": "Pop",
+  "ref_duration": 207.571
+ },
+ {
+  "id": 592,
+  "name": "0651_doyouremember",
+  "title": "Do You Remember",
+  "artist": "Jay Sean feat. Sean Paul & Lil Jon",
+  "genre": "R&B",
+  "ref_duration": 208.12
+ },
+ {
+  "id": 593,
+  "name": "0652_drovemewild",
+  "title": "Drove Me Wild",
+  "artist": "Tegan and Sara",
+  "genre": "Pop",
+  "ref_duration": 229.585
+ },
+ {
+  "id": 594,
+  "name": "0653_dynamite",
+  "title": "Dynamite (Stonebridge Extended Remix)",
+  "artist": "Taio Cruz",
+  "genre": "Pop",
+  "ref_duration": 354.401
+ },
+ {
+  "id": 595,
+  "name": "0654_dynamitemixinmarc",
+  "title": "Dynamite",
+  "artist": "Taio Cruz",
+  "genre": "Pop",
+  "ref_duration": 198.289
+ },
+ {
+  "id": 596,
+  "name": "0655_earthquakey",
+  "title": "Earthquakey People (The Sequel)",
+  "artist": "Steve Aoki feat. Rivers Cuomo",
+  "genre": "Dance/Electronic",
+  "ref_duration": 262.841
+ },
+ {
+  "id": 597,
+  "name": "0657_enursbonfire",
+  "title": "Enur's Bonfire Remix (Lumidee remix)",
+  "artist": "Enur feat. Natasja",
+  "genre": "Hip-Hop",
+  "ref_duration": 171.569
+ },
+ {
+  "id": 598,
+  "name": "0658_evacuatethedancefloor",
+  "title": "Evacuate the Dancefloor (radio edit)",
+  "artist": "Cascada",
+  "genre": "Pop",
+  "ref_duration": 205.479
+ },
+ {
+  "id": 599,
+  "name": "0659_everybody",
+  "title": "Everybody (radio edit)",
+  "artist": "Keith Urban",
+  "genre": "Country",
+  "ref_duration": 235.311
+ },
+ {
+  "id": 600,
+  "name": "0660_everymorning",
+  "title": "Every Morning (extended mix)",
+  "artist": "Basshunter",
+  "genre": "Dance/Electronic",
+  "ref_duration": 255.573
+ },
+ {
+  "id": 601,
+  "name": "0661_everythingaboutyou",
+  "title": "Everything About You",
+  "artist": "One Direction",
+  "genre": "Pop",
+  "ref_duration": 216.068
+ },
+ {
+  "id": 602,
+  "name": "0662_everytimewetouch",
+  "title": "Everytime We Touch",
+  "artist": "David Guetta & Chris Willis feat. Steve Angello & Sebastian Ingrosso",
+  "genre": "Dance/Electronic",
+  "ref_duration": 290.241
+ },
+ {
+  "id": 603,
+  "name": "0663_explosions",
+  "title": "Explosions",
+  "artist": "Ellie Goulding",
+  "genre": "Pop",
+  "ref_duration": 244.226
+ },
+ {
+  "id": 604,
+  "name": "0664_eyesextendedmix",
+  "title": "Eyes (Extended Mix)",
+  "artist": "Kaskade",
+  "genre": "Dance/Electronic",
+  "ref_duration": 386.716
+ },
+ {
+  "id": 605,
+  "name": "0665_fall",
+  "title": "Fall",
+  "artist": "Justin Bieber",
+  "genre": "Pop",
+  "ref_duration": 248.749
+ },
+ {
+  "id": 606,
+  "name": "0666_fallin",
+  "title": "Fallin'",
+  "artist": "Alicia Keys",
+  "genre": "R&B",
+  "ref_duration": 195.047
+ },
+ {
+  "id": 607,
+  "name": "0668_fallinganthem",
+  "title": "Falling Anthem",
+  "artist": "Bad Boy Bill feat. Alyssa Palmer",
+  "genre": "Dance/Electronic",
+  "ref_duration": 262.841
+ },
+ {
+  "id": 608,
+  "name": "0669_fastforwardffwd",
+  "title": "Fast Forward",
+  "artist": "Jaicko",
+  "genre": "Pop",
+  "ref_duration": 208.538
+ },
+ {
+  "id": 609,
+  "name": "0670_fearless",
+  "title": "Fearless",
+  "artist": "Taylor Swift",
+  "genre": "Pop",
+  "ref_duration": 251.808
+ },
+ {
+  "id": 610,
+  "name": "0671_feedback",
+  "title": "Feedback",
+  "artist": "Janet Jackson",
+  "genre": "Pop",
+  "ref_duration": 235.284
+ },
+ {
+  "id": 611,
+  "name": "0672_feelitinmybones",
+  "title": "Feel It in My Bones (extended mix)",
+  "artist": "Tiësto ft. Tegan and Sara",
+  "genre": "Pop",
+  "ref_duration": 415.24
+ },
+ {
+  "id": 612,
+  "name": "0673_feelsliketonight",
+  "title": "Feels Like Tonight",
+  "artist": "Daughtry",
+  "genre": "Pop",
+  "ref_duration": 237.481
+ },
+ {
+  "id": 613,
+  "name": "0674_feelsocloseextendedmix",
+  "title": "Feel So Close (extended mix)",
+  "artist": "Calvin Harris",
+  "genre": "Pop",
+  "ref_duration": 270.345
+ },
+ {
+  "id": 614,
+  "name": "0676_figure8",
+  "title": "Figure 8",
+  "artist": "Ellie Goulding",
+  "genre": "Pop",
+  "ref_duration": 247.782
+ },
+ {
+  "id": 615,
+  "name": "0677_fireburning",
+  "title": "Fire Burning",
+  "artist": "Sean Kingston",
+  "genre": "Hip-Hop",
+  "ref_duration": 235.128
+ },
+ {
+  "id": 616,
+  "name": "0678_fireflies",
+  "title": "Fireflies",
+  "artist": "Owl City",
+  "genre": "Pop",
+  "ref_duration": 225.376
+ },
+ {
+  "id": 617,
+  "name": "0679_firsttime",
+  "title": "First Time",
+  "artist": "Lifehouse",
+  "genre": "Alternative",
+  "ref_duration": 201.793
+ },
+ {
+  "id": 618,
+  "name": "0680_fixaheart",
+  "title": "Fix a Heart",
+  "artist": "Demi Lovato",
+  "genre": "Pop",
+  "ref_duration": 193.348
+ },
+ {
+  "id": 619,
+  "name": "0681_flashinglights",
+  "title": "Flashing Lights",
+  "artist": "Kanye West",
+  "genre": "Hip-Hop",
+  "ref_duration": 237.847
+ },
+ {
+  "id": 620,
+  "name": "0682_forever",
+  "title": "Forever",
+  "artist": "Chris Brown",
+  "genre": "Pop",
+  "ref_duration": 276.437
+ },
+ {
+  "id": 621,
+  "name": "0683_foreverextendedmix",
+  "title": "Forever (extended mix)",
+  "artist": "Wolfgang Gartner feat. will.i.am",
+  "genre": "Dance/Electronic",
+  "ref_duration": 225.323
+ },
+ {
+  "id": 622,
+  "name": "0685_forgottolaugh",
+  "title": "Forgot to Laugh",
+  "artist": "Bridgit Mendler",
+  "genre": "Pop",
+  "ref_duration": 190.211
+ },
+ {
+  "id": 623,
+  "name": "0686_fortheloveofadaughter",
+  "title": "For the Love of a Daughter",
+  "artist": "Demi Lovato",
+  "genre": "Pop",
+  "ref_duration": 240.435
+ },
+ {
+  "id": 624,
+  "name": "0687_getouttamyway",
+  "title": "Get Outta My Way (SDP extended mix)",
+  "artist": "Kylie Minogue",
+  "genre": "Pop",
+  "ref_duration": 339.524
+ },
+ {
+  "id": 625,
+  "name": "0688_getthepartystarted",
+  "title": "Get the Party Started",
+  "artist": "P!nk",
+  "genre": "Pop",
+  "ref_duration": 191.387
+ },
+ {
+  "id": 626,
+  "name": "0689_gettinoveryou",
+  "title": "Gettin' Over You (Sidney Samson remix)",
+  "artist": "David Guetta & Chris Willis feat. Fergie & LMFAO",
+  "genre": "Dance/Electronic",
+  "ref_duration": 317.902
+ },
+ {
+  "id": 627,
+  "name": "0690_givemeeverything",
+  "title": "Give Me Everything",
+  "artist": "Pitbull feat. Ne-Yo, Afrojack & Nayer",
+  "genre": "Pop",
+  "ref_duration": 225.323
+ },
+ {
+  "id": 628,
+  "name": "0691_givesyouhell",
+  "title": "Gives You Hell",
+  "artist": "The All-American Rejects",
+  "genre": "Pop",
+  "ref_duration": 211.911
+ },
+ {
+  "id": 629,
+  "name": "0692_giveyourheartabreakdos",
+  "title": "Give Your Heart a Break",
+  "artist": "Demi Lovato",
+  "genre": "Pop",
+  "ref_duration": 205.662
+ },
+ {
+  "id": 630,
+  "name": "0693_gold",
+  "title": "Gold",
+  "artist": "Macklemore & Ryan Lewis",
+  "genre": "Hip-Hop",
+  "ref_duration": 251.86
+ },
+ {
+  "id": 631,
+  "name": "0695_goodbyegoodbye",
+  "title": "Goodbye, Goodbye",
+  "artist": "Tegan and Sara",
+  "genre": "Pop",
+  "ref_duration": 206.473
+ },
+ {
+  "id": 632,
+  "name": "0696_goodgirlsgobad",
+  "title": "Good Girls Go Bad",
+  "artist": "Cobra Starship",
+  "genre": "Pop",
+  "ref_duration": 195.414
+ },
+ {
+  "id": 633,
+  "name": "0697_goodlife",
+  "title": "Good Life (Demolition Crew remix)",
+  "artist": "OneRepublic",
+  "genre": "Pop",
+  "ref_duration": 219.676
+ },
+ {
+  "id": 634,
+  "name": "0698_goodtime",
+  "title": "Good Time",
+  "artist": "Carly Rae Jepsen with Owl City",
+  "genre": "Pop",
+  "ref_duration": 205.427
+ },
+ {
+  "id": 635,
+  "name": "0699_gotmoney",
+  "title": "Got Money",
+  "artist": "Lil Wayne feat. T-Pain",
+  "genre": "Hip-Hop",
+  "ref_duration": 244.958
+ },
+ {
+  "id": 636,
+  "name": "0700_gottabesomebody",
+  "title": "Gotta Be Somebody",
+  "artist": "Nickelback",
+  "genre": "Alternative",
+  "ref_duration": 250.396
+ },
+ {
+  "id": 637,
+  "name": "0701_gottabeyou",
+  "title": "Gotta Be You",
+  "artist": "One Direction",
+  "genre": "Pop",
+  "ref_duration": 242.082
+ },
+ {
+  "id": 638,
+  "name": "0702_greenlight",
+  "title": "Green Light",
+  "artist": "John Legend",
+  "genre": "Pop",
+  "ref_duration": 232.931
+ },
+ {
+  "id": 639,
+  "name": "0704_guitarstringweddingring",
+  "title": "Guitar String / Wedding Ring",
+  "artist": "Carly Rae Jepsen",
+  "genre": "Pop",
+  "ref_duration": 207.074
+ },
+ {
+  "id": 640,
+  "name": "0705_haditall",
+  "title": "Had It All",
+  "artist": "Katharine McPhee",
+  "genre": "Pop",
+  "ref_duration": 184.642
+ },
+ {
+  "id": 641,
+  "name": "0706_halcyon",
+  "title": "Halcyon",
+  "artist": "Ellie Goulding",
+  "genre": "Pop",
+  "ref_duration": 205.009
+ },
+ {
+  "id": 642,
+  "name": "0707_halfwaygone",
+  "title": "Halfway Gone",
+  "artist": "Lifehouse",
+  "genre": "Alternative",
+  "ref_duration": 193.505
+ },
+ {
+  "id": 643,
+  "name": "0708_haloradioedit",
+  "title": "Halo",
+  "artist": "Beyoncé",
+  "genre": "Pop",
+  "ref_duration": 223.938
+ },
+ {
+  "id": 644,
+  "name": "0709_hangingon",
+  "title": "Hanging On",
+  "artist": "Ellie Goulding",
+  "genre": "Pop",
+  "ref_duration": 202.107
+ },
+ {
+  "id": 645,
+  "name": "0710_hardjeezy",
+  "title": "Hard",
+  "artist": "Rihanna feat. Young Jeezy",
+  "genre": "Hip-Hop",
+  "ref_duration": 249.533
+ },
+ {
+  "id": 646,
+  "name": "0711_heartheartheartbreak",
+  "title": "Heart Heart Heartbreak",
+  "artist": "Boys Like Girls",
+  "genre": "Alternative",
+  "ref_duration": 203.963
+ },
+ {
+  "id": 647,
+  "name": "0712_heartless",
+  "title": "Heartless",
+  "artist": "Kanye West",
+  "genre": "Hip-Hop",
+  "ref_duration": 208.8
+ },
+ {
+  "id": 648,
+  "name": "0713_heartofgoldnow",
+  "title": "Heart Of Gold",
+  "artist": "Ashlyne Huff",
+  "genre": "Pop",
+  "ref_duration": 213.48
+ },
+ {
+  "id": 649,
+  "name": "0714_hell",
+  "title": "Hell",
+  "artist": "Tegan and Sara",
+  "genre": "Pop",
+  "ref_duration": 204.512
+ },
+ {
+  "id": 650,
+  "name": "0715_hellodadalife",
+  "title": "Hello (Dada Life remix)",
+  "artist": "Martin Solveig & Dragonette",
+  "genre": "Pop",
+  "ref_duration": 274.11
+ },
+ {
+  "id": 651,
+  "name": "0716_heroheroine",
+  "title": "Hero/Heroine",
+  "artist": "Boys Like Girls",
+  "genre": "Alternative",
+  "ref_duration": 223.99
+ },
+ {
+  "id": 652,
+  "name": "0717_heysoulsister",
+  "title": "Hey, Soul Sister",
+  "artist": "Train",
+  "genre": "Pop",
+  "ref_duration": 214.159
+ },
+ {
+  "id": 653,
+  "name": "0718_heytheredelilah",
+  "title": "Hey There Delilah",
+  "artist": "Plain White T's",
+  "genre": "Alternative",
+  "ref_duration": 231.154
+ },
+ {
+  "id": 654,
+  "name": "0719_hipsdontlie",
+  "title": "Hips Don't Lie",
+  "artist": "Shakira feat. Wyclef Jean",
+  "genre": "Pop",
+  "ref_duration": 216.408
+ },
+ {
+  "id": 655,
+  "name": "0721_holdup",
+  "title": "Hold Up",
+  "artist": "Demi Lovato",
+  "genre": "Pop",
+  "ref_duration": 171.569
+ },
+ {
+  "id": 656,
+  "name": "0723_hotelroomservice",
+  "title": "Hotel Room Service",
+  "artist": "Pitbull",
+  "genre": "Hip-Hop",
+  "ref_duration": 237.402
+ },
+ {
+  "id": 657,
+  "name": "0724_hotmessdj",
+  "title": "Hot Mess (DJ Cirkut remix)",
+  "artist": "Cobra Starship",
+  "genre": "Pop",
+  "ref_duration": 156.902
+ },
+ {
+  "id": 658,
+  "name": "0725_hotncold",
+  "title": "Hot N Cold",
+  "artist": "Katy Perry",
+  "genre": "Pop",
+  "ref_duration": 219.362
+ },
+ {
+  "id": 659,
+  "name": "0726_hotplay",
+  "title": "Hot (Play & Win club mix)",
+  "artist": "Inna",
+  "genre": "Dance/Electronic",
+  "ref_duration": 240.095
+ },
+ {
+  "id": 660,
+  "name": "0727_howcomeyoudontwantme",
+  "title": "How Come You Don't Want Me",
+  "artist": "Tegan and Sara",
+  "genre": "Pop",
+  "ref_duration": 172.066
+ },
+ {
+  "id": 661,
+  "name": "0728_howyouremindme",
+  "title": "How You Remind Me",
+  "artist": "Nickelback",
+  "genre": "Alternative",
+  "ref_duration": 222.5
+ },
+ {
+  "id": 662,
+  "name": "0729_hurricane",
+  "title": "Hurricane",
+  "artist": "Bridgit Mendler",
+  "genre": "Pop",
+  "ref_duration": 244.331
+ },
+ {
+  "id": 663,
+  "name": "0730_hurtssogood",
+  "title": "Hurt So Good",
+  "artist": "Carly Rae Jepsen",
+  "genre": "Dance/Electronic",
+  "ref_duration": 189.139
+ },
+ {
+  "id": 664,
+  "name": "0731_icouldntbeyourfriend",
+  "title": "I Couldn't Be Your Friend",
+  "artist": "Tegan and Sara",
+  "genre": "Pop",
+  "ref_duration": 259.678
+ },
+ {
+  "id": 665,
+  "name": "0732_idontwannabeinlove",
+  "title": "I Don't Wanna Be in Love (Dance Floor Anthem)",
+  "artist": "Good Charlotte",
+  "genre": "Pop",
+  "ref_duration": 228.068
+ },
+ {
+  "id": 666,
+  "name": "0733_ifihadyou",
+  "title": "If I Had You (Jason Nevins radio mix)",
+  "artist": "Adam Lambert",
+  "genre": "Pop",
+  "ref_duration": 221.009
+ },
+ {
+  "id": 667,
+  "name": "0734_iftodaywasyourlastday",
+  "title": "If Today Was Your Last Day",
+  "artist": "Nickelback",
+  "genre": "Alternative",
+  "ref_duration": 245.69
+ },
+ {
+  "id": 668,
+  "name": "0735_ifuseeamy",
+  "title": "If U Seek Amy",
+  "artist": "Britney Spears",
+  "genre": "Pop",
+  "ref_duration": 213.453
+ },
+ {
+  "id": 669,
+  "name": "0736_igotafeeling",
+  "title": "I Gotta Feeling",
+  "artist": "Black Eyed Peas",
+  "genre": "Pop",
+  "ref_duration": 243.991
+ },
+ {
+  "id": 670,
+  "name": "0737_ihatethispart",
+  "title": "I Hate This Part",
+  "artist": "Pussycat Dolls",
+  "genre": "Pop",
+  "ref_duration": 217.872
+ },
+ {
+  "id": 671,
+  "name": "0738_ihearnoises",
+  "title": "I Hear Noises",
+  "artist": "Tegan and Sara",
+  "genre": "Pop",
+  "ref_duration": 213.009
+ },
+ {
+  "id": 672,
+  "name": "0739_ikissedagirl",
+  "title": "I Kissed a Girl",
+  "artist": "Katy Perry",
+  "genre": "Pop",
+  "ref_duration": 178.995
+ },
+ {
+  "id": 673,
+  "name": "0740_ikissedagirljasonnevins",
+  "title": "I Kissed a Girl (Jason Nevins Funkrokr edit)",
+  "artist": "Katy Perry",
+  "genre": "Pop",
+  "ref_duration": 211.074
+ },
+ {
+  "id": 674,
+  "name": "0741_iknowyoucare",
+  "title": "I Know You Care",
+  "artist": "Ellie Goulding",
+  "genre": "Pop",
+  "ref_duration": 206.473
+ },
+ {
+  "id": 675,
+  "name": "0742_iknowyouwantme2",
+  "title": "I Know You Want Me (Calle Ocho)",
+  "artist": "Pitbull",
+  "genre": "Pop",
+  "ref_duration": 182.315
+ },
+ {
+  "id": 676,
+  "name": "0743_iminloveiwannadoit",
+  "title": "I'm in Love (I Wanna Do It) (vocal club mix)",
+  "artist": "Alex Gaudino",
+  "genre": "Pop",
+  "ref_duration": 414.325
+ },
+ {
+  "id": 677,
+  "name": "0744_immabe",
+  "title": "Imma Be",
+  "artist": "The Black Eyed Peas",
+  "genre": "Hip-Hop",
+  "ref_duration": 232.931
+ },
+ {
+  "id": 678,
+  "name": "0745_immabewolf",
+  "title": "Imma Be (Wolfgang Gartner remix)",
+  "artist": "The Black Eyed Peas",
+  "genre": "Dance/Electronic",
+  "ref_duration": 317.85
+ },
+ {
+  "id": 679,
+  "name": "0746_imnotyourhero",
+  "title": "I'm Not Your Hero",
+  "artist": "Tegan and Sara",
+  "genre": "Pop",
+  "ref_duration": 231.467
+ },
+ {
+  "id": 680,
+  "name": "0747_imreal",
+  "title": "I'm Real (Murder remix)",
+  "artist": "Ja Rule",
+  "genre": "Hip-Hop",
+  "ref_duration": 256.096
+ },
+ {
+  "id": 681,
+  "name": "0748_imyours",
+  "title": "I'm Yours",
+  "artist": "Jason Mraz",
+  "genre": "Pop",
+  "ref_duration": 212.172
+ },
+ {
+  "id": 682,
+  "name": "0749_indestructible2",
+  "title": "Indestructible",
+  "artist": "Robyn",
+  "genre": "Dance/Electronic",
+  "ref_duration": 186.707
+ },
+ {
+  "id": 683,
+  "name": "0750_ineedyourlove",
+  "title": "I Need Your Love",
+  "artist": "Calvin Harris feat. Ellie Goulding",
+  "genre": "Pop",
+  "ref_duration": 235.154
+ },
+ {
+  "id": 684,
+  "name": "0751_inlovewithagirl",
+  "title": "In Love With a Girl",
+  "artist": "Gavin DeGraw",
+  "genre": "Alternative",
+  "ref_duration": 205.375
+ },
+ {
+  "id": 685,
+  "name": "0752_inmyhead",
+  "title": "In My Head",
+  "artist": "Jason Derülo",
+  "genre": "Pop",
+  "ref_duration": 196.878
+ },
+ {
+  "id": 686,
+  "name": "0753_inreallife",
+  "title": "In Real Life",
+  "artist": "Demi Lovato",
+  "genre": "Pop",
+  "ref_duration": 177.74
+ },
+ {
+  "id": 687,
+  "name": "0755_intothenight",
+  "title": "Into the Night",
+  "artist": "The Raveonettes",
+  "genre": "Alternative",
+  "ref_duration": 220.774
+ },
+ {
+  "id": 688,
+  "name": "0756_istillmissyou",
+  "title": "I Still Miss You",
+  "artist": "Keith Anderson",
+  "genre": "Country",
+  "ref_duration": 236.069
+ },
+ {
+  "id": 689,
+  "name": "0758_itgetsbetter",
+  "title": "It Gets Better",
+  "artist": "fun.",
+  "genre": "Alternative",
+  "ref_duration": 216.46
+ },
+ {
+  "id": 690,
+  "name": "0759_itgirljasonnevins",
+  "title": "It Girl (Jason Nevins Club Mix)",
+  "artist": "Jason Derulo",
+  "genre": "Dance/Electronic",
+  "ref_duration": 360.44
+ },
+ {
+  "id": 691,
+  "name": "0760_iwannarock",
+  "title": "I Wanna Rock",
+  "artist": "Snoop Dogg",
+  "genre": "Hip-Hop",
+  "ref_duration": 236.304
+ },
+ {
+  "id": 692,
+  "name": "0761_iwant",
+  "title": "I Want",
+  "artist": "One Direction",
+  "genre": "Pop",
+  "ref_duration": 171.543
+ },
+ {
+  "id": 693,
+  "name": "0762_iwantitthatway",
+  "title": "I Want It That Way",
+  "artist": "Backstreet Boys",
+  "genre": "Pop",
+  "ref_duration": 212.382
+ },
+ {
+  "id": 694,
+  "name": "0763_iwasafool",
+  "title": "I Was a Fool",
+  "artist": "Tegan and Sara",
+  "genre": "Pop",
+  "ref_duration": 204.512
+ },
+ {
+  "id": 695,
+  "name": "0764_iwish",
+  "title": "I Wish",
+  "artist": "One Direction",
+  "genre": "Pop",
+  "ref_duration": 215.571
+ },
+ {
+  "id": 696,
+  "name": "0765_jimmyiovine",
+  "title": "Jimmy Iovine",
+  "artist": "Macklemore & Ryan Lewis",
+  "genre": "Pop",
+  "ref_duration": 233.533
+ },
+ {
+  "id": 697,
+  "name": "0766_justdance",
+  "title": "Just Dance",
+  "artist": "Lady Gaga",
+  "genre": "Pop",
+  "ref_duration": 240.278
+ },
+ {
+  "id": 698,
+  "name": "0767_justfine",
+  "title": "Just Fine",
+  "artist": "Mary J. Blige",
+  "genre": "Pop",
+  "ref_duration": 238.814
+ },
+ {
+  "id": 699,
+  "name": "0768_keepsgettinbetter",
+  "title": "Keeps Gettin' Better",
+  "artist": "Christina Aguilera",
+  "genre": "Pop",
+  "ref_duration": 181.008
+ },
+ {
+  "id": 700,
+  "name": "0769_killa",
+  "title": "Killa",
+  "artist": "Cherish featuring Yung Joc",
+  "genre": "Pop",
+  "ref_duration": 228.853
+ },
+ {
+  "id": 701,
+  "name": "0770_kingofmycastle",
+  "title": "King of My Castle (Ghettolectro edit)",
+  "artist": "La Boca",
+  "genre": "Dance/Electronic",
+  "ref_duration": 215.231
+ },
+ {
+  "id": 702,
+  "name": "0771_kisskissmainversion",
+  "title": "Kiss Kiss",
+  "artist": "Chris Brown feat. T-Pain",
+  "genre": "Hip-Hop",
+  "ref_duration": 250.919
+ },
+ {
+  "id": 703,
+  "name": "0772_kissmebackcrytonight",
+  "title": "Kiss Me Back (Cry Tonight) (extended mix)",
+  "artist": "Kim Sozzi",
+  "genre": "Dance/Electronic",
+  "ref_duration": 267.417
+ },
+ {
+  "id": 704,
+  "name": "0773_kissmethruthephone",
+  "title": "Kiss Me Thru the Phone",
+  "artist": "Soulja Boy Tell 'Em",
+  "genre": "Hip-Hop",
+  "ref_duration": 192.276
+ },
+ {
+  "id": 705,
+  "name": "0774_knockyoudown",
+  "title": "Knock You Down",
+  "artist": "Keri Hilson feat. Kanye West & Ne-Yo",
+  "genre": "Hip-Hop",
+  "ref_duration": 250.37
+ },
+ {
+  "id": 706,
+  "name": "0775_knockyoudownbimbojones",
+  "title": "Knock You Down (Bimbo Jones radio remix)",
+  "artist": "Keri Hilson feat. Kanye West & Ne-Yo",
+  "genre": "Dance/Electronic",
+  "ref_duration": 267.73
+ },
+ {
+  "id": 707,
+  "name": "0776_krazy",
+  "title": "Krazy",
+  "artist": "Pitbull feat. Lil' Jon",
+  "genre": "Hip-Hop",
+  "ref_duration": 223.545
+ },
+ {
+  "id": 708,
+  "name": "0777_lebump",
+  "title": "Le Bump",
+  "artist": "Yolanda Be Cool",
+  "genre": "Pop",
+  "ref_duration": 214.055
+ },
+ {
+  "id": 709,
+  "name": "0778_letitrock",
+  "title": "Let It Rock",
+  "artist": "Kevin Rudolf",
+  "genre": "Pop",
+  "ref_duration": 230.474
+ },
+ {
+  "id": 710,
+  "name": "0779_letitrockfilthy",
+  "title": "Let It Rock (Filthy Dukes radio)",
+  "artist": "Kevin Rudolf feat. Lil Wayne",
+  "genre": "Dance/Electronic",
+  "ref_duration": 228.879
+ },
+ {
+  "id": 711,
+  "name": "0780_letmebereal",
+  "title": "Let Me Be Real",
+  "artist": "Fedde Le Grand ft. Mitch Crown",
+  "genre": "Pop",
+  "ref_duration": 182.942
+ },
+ {
+  "id": 712,
+  "name": "0781_lettinggoduttylove",
+  "title": "Letting Go (Dutty Love)",
+  "artist": "Sean Kingston feat. Nicki Minaj",
+  "genre": "Pop",
+  "ref_duration": 227.18
+ },
+ {
+  "id": 713,
+  "name": "0782_lifeafteryou",
+  "title": "Life After You",
+  "artist": "Daughtry",
+  "genre": "Pop",
+  "ref_duration": 204.878
+ },
+ {
+  "id": 714,
+  "name": "0783_lighton",
+  "title": "Light On",
+  "artist": "David Cook",
+  "genre": "Alternative",
+  "ref_duration": 227.729
+ },
+ {
+  "id": 715,
+  "name": "0784_lightweight",
+  "title": "Lightweight",
+  "artist": "Demi Lovato",
+  "genre": "Pop",
+  "ref_duration": 241.978
+ },
+ {
+  "id": 716,
+  "name": "0785_littleliesnow",
+  "title": "Little Lies",
+  "artist": "Dave Barnes",
+  "genre": "Pop",
+  "ref_duration": 165.19
+ },
+ {
+  "id": 717,
+  "name": "0786_livelikeweredying",
+  "title": "Live Like We're Dying",
+  "artist": "Kris Allen",
+  "genre": "Pop",
+  "ref_duration": 208.957
+ },
+ {
+  "id": 718,
+  "name": "0787_liveyourlife",
+  "title": "Live Your Life",
+  "artist": "T.I. feat. Rihanna",
+  "genre": "Hip-Hop",
+  "ref_duration": 289.771
+ },
+ {
+  "id": 719,
+  "name": "0789_livingroom",
+  "title": "Living Room",
+  "artist": "Tegan and Sara",
+  "genre": "Pop",
+  "ref_duration": 168.144
+ },
+ {
+  "id": 720,
+  "name": "0790_locapeople",
+  "title": "Loca People",
+  "artist": "Sak Noel",
+  "genre": "Dance/Electronic",
+  "ref_duration": 306.007
+ },
+ {
+  "id": 721,
+  "name": "0791_lollipop",
+  "title": "Lollipop",
+  "artist": "Lil Wayne feat. Static Major",
+  "genre": "Hip-Hop",
+  "ref_duration": 247.363
+ },
+ {
+  "id": 722,
+  "name": "0792_lovedrunk",
+  "title": "Love Drunk",
+  "artist": "Boys Like Girls",
+  "genre": "Pop",
+  "ref_duration": 221.689
+ },
+ {
+  "id": 723,
+  "name": "0793_lovegame",
+  "title": "LoveGame",
+  "artist": "Lady Gaga",
+  "genre": "Pop",
+  "ref_duration": 215.571
+ },
+ {
+  "id": 724,
+  "name": "0794_lovegamedave",
+  "title": "LoveGame (Dave Audé radio edit)",
+  "artist": "Lady Gaga",
+  "genre": "Pop",
+  "ref_duration": 208.225
+ },
+ {
+  "id": 725,
+  "name": "0796_loveinthisclub",
+  "title": "Love in This Club (Jason Nevins extended mix)",
+  "artist": "Usher feat. Young Jeezy",
+  "genre": "Pop",
+  "ref_duration": 336.727
+ },
+ {
+  "id": 726,
+  "name": "0797_loveisgone",
+  "title": "Love Is Gone (Fred Rister & Joachim Garruad extended mix)",
+  "artist": "David Guetta & Chris Willis",
+  "genre": "Pop",
+  "ref_duration": 356.205
+ },
+ {
+  "id": 727,
+  "name": "0798_lovelikethis",
+  "title": "Love Like This",
+  "artist": "Natasha Bedingfield feat. Sean Kingston",
+  "genre": "Pop",
+  "ref_duration": 220.879
+ },
+ {
+  "id": 728,
+  "name": "0799_lovesexmagic",
+  "title": "Love Sex Magic",
+  "artist": "Ciara feat. Justin Timberlake",
+  "genre": "Pop",
+  "ref_duration": 219.441
+ },
+ {
+  "id": 729,
+  "name": "0800_lovesexmagicjason",
+  "title": "Love Sex Magic (Jason Nevins Sex Club radio mix)",
+  "artist": "Ciara feat. Justin Timberlake",
+  "genre": "Pop",
+  "ref_duration": 200.355
+ },
+ {
+  "id": 730,
+  "name": "0801_lovesong",
+  "title": "Love Song",
+  "artist": "Sara Bareilles",
+  "genre": "Pop",
+  "ref_duration": 257.272
+ },
+ {
+  "id": 731,
+  "name": "0802_lovestoned",
+  "title": "Lovestoned",
+  "artist": "Justin Timberlake",
+  "genre": "Pop",
+  "ref_duration": 259.155
+ },
+ {
+  "id": 732,
+  "name": "0803_lovestory",
+  "title": "Love Story (pop edit)",
+  "artist": "Taylor Swift",
+  "genre": "Pop",
+  "ref_duration": 233.82
+ },
+ {
+  "id": 733,
+  "name": "0805_lovetheysay",
+  "title": "Love They Say",
+  "artist": "Tegan and Sara",
+  "genre": "Pop",
+  "ref_duration": 214.447
+ },
+ {
+  "id": 734,
+  "name": "0806_mad",
+  "title": "Mad",
+  "artist": "Ne-Yo",
+  "genre": "Pop",
+  "ref_duration": 251.311
+ },
+ {
+  "id": 735,
+  "name": "0807_makemebetter",
+  "title": "Make Me Better",
+  "artist": "Fabolous feat. Ne-Yo",
+  "genre": "Hip-Hop",
+  "ref_duration": 254.109
+ },
+ {
+  "id": 736,
+  "name": "0808_makethemoney",
+  "title": "Make The Money",
+  "artist": "Macklemore & Ryan Lewis",
+  "genre": "Pop",
+  "ref_duration": 225.14
+ },
+ {
+  "id": 737,
+  "name": "0810_memoriesextended",
+  "title": "Memories (extended)",
+  "artist": "David Guetta feat. Kid Cudi",
+  "genre": "Dance/Electronic",
+  "ref_duration": 278.685
+ },
+ {
+  "id": 738,
+  "name": "0811_miami2ibiza",
+  "title": "Miami 2 Ibiza (extended vocal mix)",
+  "artist": "Swedish House Mafia vs Tinie Tempah",
+  "genre": "Dance/Electronic",
+  "ref_duration": 252.305
+ },
+ {
+  "id": 739,
+  "name": "0812_miserybimbo",
+  "title": "Misery (Bimbo Jones club mix)",
+  "artist": "Maroon 5",
+  "genre": "Dance/Electronic",
+  "ref_duration": 344.57
+ },
+ {
+  "id": 740,
+  "name": "0813_missindependent",
+  "title": "Miss Independent (album version)",
+  "artist": "Ne-Yo",
+  "genre": "R&B",
+  "ref_duration": 230.291
+ },
+ {
+  "id": 741,
+  "name": "0814_mistake",
+  "title": "Mistake",
+  "artist": "Demi Lovato",
+  "genre": "Pop",
+  "ref_duration": 213.689
+ },
+ {
+  "id": 742,
+  "name": "0815_mondaymondaymonday",
+  "title": "Monday Monday Monday",
+  "artist": "Tegan and Sara",
+  "genre": "Pop",
+  "ref_duration": 195.518
+ },
+ {
+  "id": 743,
+  "name": "0817_morethanthis",
+  "title": "More Than This",
+  "artist": "One Direction",
+  "genre": "Pop",
+  "ref_duration": 228.984
+ },
+ {
+  "id": 744,
+  "name": "0818_mrsaxobeatext",
+  "title": "Mr. Saxobeat (extended mix)",
+  "artist": "Alexandra Stan",
+  "genre": "Pop",
+  "ref_duration": 163.386
+ },
+ {
+  "id": 745,
+  "name": "0819_myblood",
+  "title": "My Blood",
+  "artist": "Ellie Goulding",
+  "genre": "Pop",
+  "ref_duration": 234.526
+ },
+ {
+  "id": 746,
+  "name": "0820_mychickbad",
+  "title": "My Chick Bad",
+  "artist": "Ludacris feat. Nicki Minaj",
+  "genre": "Hip-Hop",
+  "ref_duration": 216.931
+ },
+ {
+  "id": 747,
+  "name": "0821_myfeelingsforyou",
+  "title": "My Feelings for You",
+  "artist": "Avicii",
+  "genre": "Pop",
+  "ref_duration": 309.771
+ },
+ {
+  "id": 748,
+  "name": "0823_mylifewouldsuckwithoutyou",
+  "title": "My Life Would Suck Without You",
+  "artist": "Kelly Clarkson",
+  "genre": "Pop",
+  "ref_duration": 209.793
+ },
+ {
+  "id": 749,
+  "name": "0824_mylifewouldsuckwithoutyous",
+  "title": "My Life Would Suck Without You (Chriss Ortega radio mix)",
+  "artist": "Kelly Clarkson",
+  "genre": "Pop",
+  "ref_duration": 216.303
+ },
+ {
+  "id": 750,
+  "name": "0825_myloveislikeastar",
+  "title": "My Love Is Like a Star",
+  "artist": "Demi Lovato",
+  "genre": "Pop",
+  "ref_duration": 230.369
+ },
+ {
+  "id": 751,
+  "name": "0826_myohmy",
+  "title": "My Oh My",
+  "artist": "Macklemore & Ryan Lewis",
+  "genre": "Pop",
+  "ref_duration": 257.403
+ },
+ {
+  "id": 752,
+  "name": "0827_needyounow",
+  "title": "Need You Now",
+  "artist": "Lady Antebellum",
+  "genre": "Country",
+  "ref_duration": 232.409
+ },
+ {
+  "id": 753,
+  "name": "0828_neoncathedral",
+  "title": "Neon Cathedral",
+  "artist": "Macklemore & Ryan Lewis",
+  "genre": "Hip-Hop",
+  "ref_duration": 274.633
+ },
+ {
+  "id": 754,
+  "name": "0829_nevertoolate",
+  "title": "Never Too Late",
+  "artist": "Three Days Grace",
+  "genre": "Alternative",
+  "ref_duration": 207.545
+ },
+ {
+  "id": 755,
+  "name": "0830_nightwatch",
+  "title": "Night Watch",
+  "artist": "Tegan and Sara",
+  "genre": "Pop",
+  "ref_duration": 152.17
+ },
+ {
+  "id": 756,
+  "name": "0831_noair",
+  "title": "No Air",
+  "artist": "Jordin Sparks feat. Chris Brown",
+  "genre": "R&B",
+  "ref_duration": 261.586
+ },
+ {
+  "id": 757,
+  "name": "0832_noone",
+  "title": "No One",
+  "artist": "Alicia Keys",
+  "genre": "Pop",
+  "ref_duration": 253.455
+ },
+ {
+  "id": 758,
+  "name": "0833_northshore",
+  "title": "Northshore",
+  "artist": "Tegan and Sara",
+  "genre": "Pop",
+  "ref_duration": 124.325
+ },
+ {
+  "id": 759,
+  "name": "0834_nosurprise",
+  "title": "No Surprise",
+  "artist": "Daughtry",
+  "genre": "Alternative",
+  "ref_duration": 248.801
+ },
+ {
+  "id": 760,
+  "name": "0835_notetogod",
+  "title": "Note to God",
+  "artist": "Charice",
+  "genre": "Pop",
+  "ref_duration": 240.121
+ },
+ {
+  "id": 761,
+  "name": "0836_notmyselftonight",
+  "title": "Not Myself Tonight (Jody Den Broeder radio mix)",
+  "artist": "Christina Aguilera",
+  "genre": "Pop",
+  "ref_duration": 208.721
+ },
+ {
+  "id": 762,
+  "name": "0837_nottonight",
+  "title": "Not Tonight",
+  "artist": "Tegan and Sara",
+  "genre": "Pop",
+  "ref_duration": 154.758
+ },
+ {
+  "id": 763,
+  "name": "0838_nowimallmessedup",
+  "title": "Now I'm All Messed Up",
+  "artist": "Tegan and Sara",
+  "genre": "Pop",
+  "ref_duration": 248.226
+ },
+ {
+  "id": 764,
+  "name": "0839_nowyouseeit",
+  "title": "Now You See It",
+  "artist": "Pitbull & Jump Smokers",
+  "genre": "Hip-Hop",
+  "ref_duration": 203.152
+ },
+ {
+  "id": 765,
+  "name": "0840_obsessed",
+  "title": "Obsessed",
+  "artist": "Mariah Carey",
+  "genre": "Pop",
+  "ref_duration": 236.592
+ },
+ {
+  "id": 766,
+  "name": "0841_obsessedcahill",
+  "title": "Obsessed (Cahill club mix)",
+  "artist": "Mariah Carey",
+  "genre": "Dance/Electronic",
+  "ref_duration": 345.433
+ },
+ {
+  "id": 767,
+  "name": "0842_obsessionstatic",
+  "title": "Obsession (Static Revenger radio mix)",
+  "artist": "Sky Ferreira",
+  "genre": "Pop",
+  "ref_duration": 212.016
+ },
+ {
+  "id": 768,
+  "name": "0843_omgalmighty",
+  "title": "OMG (Almighty mix)",
+  "artist": "Usher feat. will.i.am",
+  "genre": "Dance/Electronic",
+  "ref_duration": 358.636
+ },
+ {
+  "id": 769,
+  "name": "0844_ondirecting",
+  "title": "On Directing",
+  "artist": "Tegan and Sara",
+  "genre": "Pop",
+  "ref_duration": 165.765
+ },
+ {
+  "id": 770,
+  "name": "0845_onefoot",
+  "title": "One Foot",
+  "artist": "fun.",
+  "genre": "Pop",
+  "ref_duration": 212.251
+ },
+ {
+  "id": 771,
+  "name": "0846_onelove",
+  "title": "One Love",
+  "artist": "Justin Bieber",
+  "genre": "Pop",
+  "ref_duration": 234.84
+ },
+ {
+  "id": 772,
+  "name": "0847_onestepatatime",
+  "title": "One Step at a Time",
+  "artist": "Jordin Sparks",
+  "genre": "Pop",
+  "ref_duration": 205.035
+ },
+ {
+  "id": 773,
+  "name": "0848_onething",
+  "title": "One Thing",
+  "artist": "One Direction",
+  "genre": "Pop",
+  "ref_duration": 197.453
+ },
+ {
+  "id": 774,
+  "name": "0849_onlyyou",
+  "title": "Only You",
+  "artist": "Ellie Goulding",
+  "genre": "Pop",
+  "ref_duration": 231.232
+ },
+ {
+  "id": 775,
+  "name": "0850_onlyyoucanlovemethisway",
+  "title": "Only You Can Love Me This Way",
+  "artist": "Keith Urban",
+  "genre": "Country",
+  "ref_duration": 246.814
+ },
+ {
+  "id": 776,
+  "name": "0851_openurmind",
+  "title": "Open Ur Mind",
+  "artist": "Jason Nevins",
+  "genre": "Dance/Electronic",
+  "ref_duration": 220.408
+ },
+ {
+  "id": 777,
+  "name": "0852_oursong",
+  "title": "Our Song",
+  "artist": "Taylor Swift",
+  "genre": "Country",
+  "ref_duration": 201.584
+ },
+ {
+  "id": 778,
+  "name": "0853_outonthetown",
+  "title": "Out on the Town",
+  "artist": "fun.",
+  "genre": "Pop",
+  "ref_duration": 261.769
+ },
+ {
+  "id": 779,
+  "name": "0854_overmyheadcablecar",
+  "title": "Over My Head (Cable Car)",
+  "artist": "The Fray",
+  "genre": "Pop",
+  "ref_duration": 235.703
+ },
+ {
+  "id": 780,
+  "name": "0855_overyou",
+  "title": "Over You",
+  "artist": "Daughtry",
+  "genre": "Pop",
+  "ref_duration": 204.747
+ },
+ {
+  "id": 781,
+  "name": "0856_paperbackhead",
+  "title": "Paperback Head",
+  "artist": "Tegan and Sara",
+  "genre": "Pop",
+  "ref_duration": 158.288
+ },
+ {
+  "id": 782,
+  "name": "0857_paralyzer",
+  "title": "Paralyzer",
+  "artist": "Finger Eleven",
+  "genre": "Alternative",
+  "ref_duration": 205.636
+ },
+ {
+  "id": 783,
+  "name": "0858_peoplearepeople",
+  "title": "People Are People",
+  "artist": "Depeche Mode",
+  "genre": "Pop",
+  "ref_duration": 210.473
+ },
+ {
+  "id": 784,
+  "name": "0859_picturesofyou",
+  "title": "Pictures Of You",
+  "artist": "The Last Goodnight",
+  "genre": "Pop",
+  "ref_duration": 189.348
+ },
+ {
+  "id": 785,
+  "name": "0860_pieceofme",
+  "title": "Piece of Me",
+  "artist": "Britney Spears",
+  "genre": "Pop",
+  "ref_duration": 210.787
+ },
+ {
+  "id": 786,
+  "name": "0861_pingmebaby",
+  "title": "PING!!! Me Baby",
+  "artist": "Riz",
+  "genre": "Pop",
+  "ref_duration": 200.146
+ },
+ {
+  "id": 787,
+  "name": "0862_pleasedontleaveme",
+  "title": "Please Don't Leave Me (Digital Dog club mix)",
+  "artist": "P!nk",
+  "genre": "Dance/Electronic",
+  "ref_duration": 362.532
+ },
+ {
+  "id": 788,
+  "name": "0863_pleasedontleavemedigi",
+  "title": "Please Don't Leave Me (Digital Dog radio edit)",
+  "artist": "P!nk",
+  "genre": "Dance/Electronic",
+  "ref_duration": 221.715
+ },
+ {
+  "id": 789,
+  "name": "0864_pleasedontleavememain",
+  "title": "Please Don't Leave Me",
+  "artist": "P!nk",
+  "genre": "Pop",
+  "ref_duration": 229.794
+ },
+ {
+  "id": 790,
+  "name": "0865_pocketfulofsunshine",
+  "title": "Pocketful of Sunshine",
+  "artist": "Natasha Bedingfield",
+  "genre": "Pop",
+  "ref_duration": 181.374
+ },
+ {
+  "id": 791,
+  "name": "0866_pokerfacedave",
+  "title": "Poker Face (Dave Audé mix)",
+  "artist": "Lady Gaga",
+  "genre": "Dance/Electronic",
+  "ref_duration": 439.241
+ },
+ {
+  "id": 792,
+  "name": "0867_pokerfacedos",
+  "title": "Poker Face",
+  "artist": "Lady Gaga",
+  "genre": "Pop",
+  "ref_duration": 236.356
+ },
+ {
+  "id": 793,
+  "name": "0868_puton",
+  "title": "Put On",
+  "artist": "Young Jeezy feat. Kanye West",
+  "genre": "Hip-Hop",
+  "ref_duration": 258.031
+ },
+ {
+  "id": 794,
+  "name": "0869_raiseyourweapon",
+  "title": "Raise Your Weapon",
+  "artist": "deadmau5",
+  "genre": "Pop",
+  "ref_duration": 473.02
+ },
+ {
+  "id": 795,
+  "name": "0870_ratedr",
+  "title": "Rated R",
+  "artist": "Kim Sozzi",
+  "genre": "Pop",
+  "ref_duration": 239.311
+ },
+ {
+  "id": 796,
+  "name": "0872_readyfortheweekend",
+  "title": "Ready for the Weekend",
+  "artist": "Calvin Harris",
+  "genre": "Pop",
+  "ref_duration": 222.604
+ },
+ {
+  "id": 797,
+  "name": "0873_readyornot",
+  "title": "Ready or Not",
+  "artist": "Bridgit Mendler",
+  "genre": "Pop",
+  "ref_duration": 201.244
+ },
+ {
+  "id": 798,
+  "name": "0874_realize",
+  "title": "Realize",
+  "artist": "Colbie Caillat",
+  "genre": "Country",
+  "ref_duration": 243.05
+ },
+ {
+  "id": 799,
+  "name": "0875_redbelt",
+  "title": "Red Belt",
+  "artist": "Tegan and Sara",
+  "genre": "Pop",
+  "ref_duration": 131.62
+ },
+ {
+  "id": 800,
+  "name": "0876_rehab",
+  "title": "Rehab",
+  "artist": "Rihanna",
+  "genre": "Pop",
+  "ref_duration": 294.163
+ },
+ {
+  "id": 801,
+  "name": "0877_releasemenow",
+  "title": "Whatchamacallit",
+  "artist": "Pussycat Dolls",
+  "genre": "Pop",
+  "ref_duration": 254.03
+ },
+ {
+  "id": 802,
+  "name": "0878_replay",
+  "title": "Replay",
+  "artist": "Iyaz",
+  "genre": "Pop",
+  "ref_duration": 181.034
+ },
+ {
+  "id": 803,
+  "name": "0879_ridinsoloian",
+  "title": "Ridin' Solo (Ian Nieman club mix)",
+  "artist": "Jason Derülo",
+  "genre": "Dance/Electronic",
+  "ref_duration": 412.312
+ },
+ {
+  "id": 804,
+  "name": "0880_righthere",
+  "title": "Right Here",
+  "artist": "Justin Bieber feat. Drake",
+  "genre": "R&B",
+  "ref_duration": 204.512
+ },
+ {
+  "id": 805,
+  "name": "0881_rightround",
+  "title": "Right Round",
+  "artist": "Flo Rida",
+  "genre": "Dance/Electronic",
+  "ref_duration": 204.904
+ },
+ {
+  "id": 806,
+  "name": "0882_rightroundbenny",
+  "title": "Right Round (Benny Benassi remix edit)",
+  "artist": "Flo Rida",
+  "genre": "Dance/Electronic",
+  "ref_duration": 202.263
+ },
+ {
+  "id": 807,
+  "name": "0883_rocksatmywindow",
+  "title": "Rocks at My Window",
+  "artist": "Bridgit Mendler",
+  "genre": "Pop",
+  "ref_duration": 192.982
+ },
+ {
+  "id": 808,
+  "name": "0884_rockstar",
+  "title": "Rockstar",
+  "artist": "Nickelback",
+  "genre": "Country",
+  "ref_duration": 252.958
+ },
+ {
+  "id": 809,
+  "name": "0886_rudeboy",
+  "title": "Rude Boy",
+  "artist": "Rihanna",
+  "genre": "Pop",
+  "ref_duration": 222.421
+ },
+ {
+  "id": 810,
+  "name": "0888_russianroulettejump",
+  "title": "Russian Roulette (Jump Smokers remix)",
+  "artist": "Rihanna",
+  "genre": "Dance/Electronic",
+  "ref_duration": 182.446
+ },
+ {
+  "id": 811,
+  "name": "0889_samelove",
+  "title": "Same Love",
+  "artist": "Macklemore & Ryan Lewis",
+  "genre": "Hip-Hop",
+  "ref_duration": 320.439
+ },
+ {
+  "id": 812,
+  "name": "0890_samemistakes",
+  "title": "Same Mistakes",
+  "artist": "One Direction",
+  "genre": "Pop",
+  "ref_duration": 217.323
+ },
+ {
+  "id": 813,
+  "name": "0891_savetheworld",
+  "title": "Save the World (radio remix)",
+  "artist": "Swedish House Mafia",
+  "genre": "Pop",
+  "ref_duration": 204.669
+ },
+ {
+  "id": 814,
+  "name": "0892_saveyoutonight",
+  "title": "Save You Tonight",
+  "artist": "One Direction",
+  "genre": "Pop",
+  "ref_duration": 204.538
+ },
+ {
+  "id": 815,
+  "name": "0893_say",
+  "title": "Say",
+  "artist": "John Mayer",
+  "genre": "Pop",
+  "ref_duration": 226.291
+ },
+ {
+  "id": 816,
+  "name": "0894_sayheyiloveyou",
+  "title": "Say Hey (I Love You)",
+  "artist": "Michael Franti & Spearhead",
+  "genre": "Pop",
+  "ref_duration": 218.029
+ },
+ {
+  "id": 817,
+  "name": "0895_scarymonsters",
+  "title": "Scary Monsters & Nice Sprites (Kaskade remix)",
+  "artist": "Skrillex",
+  "genre": "Dance/Electronic",
+  "ref_duration": 369.826
+ },
+ {
+  "id": 818,
+  "name": "0897_sentimentaltune",
+  "title": "Sentimental Tune",
+  "artist": "Tegan and Sara",
+  "genre": "Pop",
+  "ref_duration": 201.348
+ },
+ {
+  "id": 819,
+  "name": "0898_sexyback",
+  "title": "SexyBack",
+  "artist": "Justin Timberlake feat. Timbaland",
+  "genre": "Pop",
+  "ref_duration": 241.089
+ },
+ {
+  "id": 820,
+  "name": "0899_sexycani",
+  "title": "Sexy Can I?",
+  "artist": "Ray J feat. Yung Berg",
+  "genre": "Hip-Hop",
+  "ref_duration": 205.192
+ },
+ {
+  "id": 821,
+  "name": "0900_sexychickakon",
+  "title": "Sexy Chick",
+  "artist": "David Guetta feat. Akon",
+  "genre": "Dance/Electronic",
+  "ref_duration": 193.191
+ },
+ {
+  "id": 822,
+  "name": "0901_sexydj",
+  "title": "Sexy DJ",
+  "artist": "Gabry Ponte feat. Maya Days",
+  "genre": "Dance/Electronic",
+  "ref_duration": 251.468
+ },
+ {
+  "id": 823,
+  "name": "0902_shakeitradiomix",
+  "title": "Shake It",
+  "artist": "Metro Station",
+  "genre": "Pop",
+  "ref_duration": 177.818
+ },
+ {
+  "id": 824,
+  "name": "0903_shakethatbubblenow",
+  "title": "Shake That Bubble",
+  "artist": "Young and Divine",
+  "genre": "Pop",
+  "ref_duration": 185.426
+ },
+ {
+  "id": 825,
+  "name": "0904_shewolf",
+  "title": "She Wolf",
+  "artist": "Shakira",
+  "genre": "Pop",
+  "ref_duration": 186.184
+ },
+ {
+  "id": 826,
+  "name": "0905_shocktoyoursystem",
+  "title": "Shock to Your System",
+  "artist": "Tegan and Sara",
+  "genre": "Pop",
+  "ref_duration": 216.329
+ },
+ {
+  "id": 827,
+  "name": "0906_shutupanddrive",
+  "title": "Shut Up and Drive",
+  "artist": "Rihanna",
+  "genre": "Pop",
+  "ref_duration": 211.545
+ },
+ {
+  "id": 828,
+  "name": "0907_skyscraper",
+  "title": "Skyscraper",
+  "artist": "Demi Lovato",
+  "genre": "Pop",
+  "ref_duration": 221.611
+ },
+ {
+  "id": 829,
+  "name": "0908_sober",
+  "title": "Sober",
+  "artist": "P!nk",
+  "genre": "Pop",
+  "ref_duration": 249.507
+ },
+ {
+  "id": 830,
+  "name": "0909_sofineed",
+  "title": "Sofi Needs a Ladder",
+  "artist": "deadmau5",
+  "genre": "Dance/Electronic",
+  "ref_duration": 361.486
+ },
+ {
+  "id": 831,
+  "name": "0910_solo",
+  "title": "Solo",
+  "artist": "Iyaz",
+  "genre": "Pop",
+  "ref_duration": 200.512
+ },
+ {
+  "id": 832,
+  "name": "0911_someday",
+  "title": "Someday",
+  "artist": "Tegan and Sara",
+  "genre": "Pop",
+  "ref_duration": 177.896
+ },
+ {
+  "id": 833,
+  "name": "0912_somenights",
+  "title": "Some Nights",
+  "artist": "fun.",
+  "genre": "Pop",
+  "ref_duration": 277.404
+ },
+ {
+  "id": 834,
+  "name": "0913_somuchlove",
+  "title": "So Much Love",
+  "artist": "Fedde Le Grand",
+  "genre": "Dance/Electronic",
+  "ref_duration": 330.4
+ },
+ {
+  "id": 835,
+  "name": "0914_soobviousnow",
+  "title": "So Obvious",
+  "artist": "Runner Runner",
+  "genre": "Pop",
+  "ref_duration": 226.448
+ },
+ {
+  "id": 836,
+  "name": "0915_sosletthemusicplay",
+  "title": "S.O.S. (Let the Music Play)",
+  "artist": "Jordin Sparks",
+  "genre": "Pop",
+  "ref_duration": 213.087
+ },
+ {
+  "id": 837,
+  "name": "0916_sowhat",
+  "title": "So What",
+  "artist": "P!nk",
+  "genre": "Pop",
+  "ref_duration": 213.976
+ },
+ {
+  "id": 838,
+  "name": "0917_spacemanties",
+  "title": "Spaceman (Tiësto remix)",
+  "artist": "The Killers",
+  "genre": "Pop",
+  "ref_duration": 355.865
+ },
+ {
+  "id": 839,
+  "name": "0918_starstrukk",
+  "title": "Starstrukk",
+  "artist": "3OH!3",
+  "genre": "Pop",
+  "ref_duration": 171.779
+ },
+ {
+  "id": 840,
+  "name": "0919_stereolove",
+  "title": "Stereo Love",
+  "artist": "Edward Maya & Vika Jigulina",
+  "genre": "Pop",
+  "ref_duration": 238.187
+ },
+ {
+  "id": 841,
+  "name": "0920_stopandstare",
+  "title": "Stop and Stare",
+  "artist": "OneRepublic",
+  "genre": "Pop",
+  "ref_duration": 219.885
+ },
+ {
+  "id": 842,
+  "name": "0921_stronger",
+  "title": "Stronger",
+  "artist": "Kanye West",
+  "genre": "Hip-Hop",
+  "ref_duration": 246.448
+ },
+ {
+  "id": 843,
+  "name": "0922_suffocate",
+  "title": "Suffocate",
+  "artist": "J. Holiday",
+  "genre": "R&B",
+  "ref_duration": 214.735
+ },
+ {
+  "id": 844,
+  "name": "0923_sunandmoon",
+  "title": "Sun & Moon (club mix)",
+  "artist": "Above & Beyond feat. Richard Bedford",
+  "genre": "Pop",
+  "ref_duration": 379.212
+ },
+ {
+  "id": 845,
+  "name": "0924_sunisup",
+  "title": "Sun Is Up (Play & Win radio edit)",
+  "artist": "Inna",
+  "genre": "Dance/Electronic",
+  "ref_duration": 199.048
+ },
+ {
+  "id": 846,
+  "name": "0925_sweetdisposition",
+  "title": "Sweet Disposition",
+  "artist": "The Temper Trap",
+  "genre": "Pop",
+  "ref_duration": 230.788
+ },
+ {
+  "id": 847,
+  "name": "0926_sweetthing",
+  "title": "Sweet Thing",
+  "artist": "Keith Urban",
+  "genre": "Pop",
+  "ref_duration": 231.86
+ },
+ {
+  "id": 848,
+  "name": "0927_swing",
+  "title": "Swing (remix)",
+  "artist": "Savage feat. Soulja Boy Tell 'Em",
+  "genre": "Hip-Hop",
+  "ref_duration": 218.63
+ },
+ {
+  "id": 849,
+  "name": "0928_takeabow",
+  "title": "Take a Bow (Seamus Haji & Paul Emanuel club mix)",
+  "artist": "Rihanna",
+  "genre": "Dance/Electronic",
+  "ref_duration": 384.441
+ },
+ {
+  "id": 850,
+  "name": "0929_takeovercontrolext",
+  "title": "Take Over Control (extended)",
+  "artist": "Afrojack feat. Eva Simmons",
+  "genre": "Dance/Electronic",
+  "ref_duration": 372.415
+ },
+ {
+  "id": 851,
+  "name": "0930_takeyourtime",
+  "title": "Take Your Time",
+  "artist": "Lori Carson",
+  "genre": "Dance/Electronic",
+  "ref_duration": 229.193
+ },
+ {
+  "id": 852,
+  "name": "0931_takeyouthere",
+  "title": "Take You There",
+  "artist": "Sean Kingston",
+  "genre": "Pop",
+  "ref_duration": 236.644
+ },
+ {
+  "id": 853,
+  "name": "0932_tattoo",
+  "title": "Tattoo",
+  "artist": "Jordin Sparks",
+  "genre": "Pop",
+  "ref_duration": 231.232
+ },
+ {
+  "id": 854,
+  "name": "0933_teardropsonmyguitar",
+  "title": "Teardrops on My Guitar",
+  "artist": "Taylor Swift",
+  "genre": "Pop",
+  "ref_duration": 178.995
+ },
+ {
+  "id": 855,
+  "name": "0934_teenagedreamkaskade",
+  "title": "Teenage Dream (Kaskade club remix)",
+  "artist": "Katy Perry",
+  "genre": "Dance/Electronic",
+  "ref_duration": 300.778
+ },
+ {
+  "id": 856,
+  "name": "0936_tequieroacoustic",
+  "title": "Te Quiero",
+  "artist": "Flex feat. Belinda",
+  "genre": "Pop",
+  "ref_duration": 194.577
+ },
+ {
+  "id": 857,
+  "name": "0937_thatsnotmyname",
+  "title": "That's Not My Name",
+  "artist": "The Ting Tings",
+  "genre": "Pop",
+  "ref_duration": 208.669
+ },
+ {
+  "id": 858,
+  "name": "0938_thebusiness",
+  "title": "The Business",
+  "artist": "Yung Berg feat. Casha",
+  "genre": "Hip-Hop",
+  "ref_duration": 230.866
+ },
+ {
+  "id": 859,
+  "name": "0939_thecure",
+  "title": "The Cure",
+  "artist": "Tegan and Sara",
+  "genre": "Pop",
+  "ref_duration": 202.368
+ },
+ {
+  "id": 860,
+  "name": "0940_thehousethatbuiltme",
+  "title": "The House That Built Me",
+  "artist": "Miranda Lambert",
+  "genre": "Country",
+  "ref_duration": 246.475
+ },
+ {
+  "id": 861,
+  "name": "0941_theocean",
+  "title": "The Ocean",
+  "artist": "Tegan and Sara",
+  "genre": "Pop",
+  "ref_duration": 186.603
+ },
+ {
+  "id": 862,
+  "name": "0943_thetheayer",
+  "title": "In the Ayer (Jason Nevins remix)",
+  "artist": "Flo Rida feat. will.i.am",
+  "genre": "Hip-Hop",
+  "ref_duration": 268.253
+ },
+ {
+  "id": 863,
+  "name": "0945_thewayiareradio",
+  "title": "The Way I Are",
+  "artist": "Timbaland feat. Keri Hilson & D.O.E.",
+  "genre": "Pop",
+  "ref_duration": 196.355
+ },
+ {
+  "id": 864,
+  "name": "0946_thinkingofyou",
+  "title": "Thinking Of You",
+  "artist": "Katy Perry",
+  "genre": "Pop",
+  "ref_duration": 237.193
+ },
+ {
+  "id": 865,
+  "name": "0947_thiskiss",
+  "title": "This Kiss",
+  "artist": "Carly Rae Jepsen",
+  "genre": "Pop",
+  "ref_duration": 229.193
+ },
+ {
+  "id": 866,
+  "name": "0948_thislove",
+  "title": "This Love",
+  "artist": "Maroon 5",
+  "genre": "Pop",
+  "ref_duration": 204.8
+ },
+ {
+  "id": 867,
+  "name": "0949_throwitinthebag",
+  "title": "Throw It in the Bag",
+  "artist": "Fabolous feat. The-Dream",
+  "genre": "Hip-Hop",
+  "ref_duration": 230.552
+ },
+ {
+  "id": 868,
+  "name": "0950_throwyourhandsup",
+  "title": "Throw Your Hands Up (Dancar Kuduro)",
+  "artist": "Qwote feat. Pitbull & Lucenzo",
+  "genre": "Pop",
+  "ref_duration": 210.316
+ },
+ {
+  "id": 869,
+  "name": "0951_thunder",
+  "title": "Thunder",
+  "artist": "Boys Like Girls",
+  "genre": "Pop",
+  "ref_duration": 237.638
+ },
+ {
+  "id": 870,
+  "name": "0952_tiktok",
+  "title": "TiK ToK",
+  "artist": "Ke$ha",
+  "genre": "Pop",
+  "ref_duration": 198.734
+ },
+ {
+  "id": 871,
+  "name": "0953_tilltheworldends2",
+  "title": "Till the World Ends",
+  "artist": "Britney Spears",
+  "genre": "Pop",
+  "ref_duration": 236.566
+ },
+ {
+  "id": 872,
+  "name": "0954_timeaftertimevan",
+  "title": "Time After Time (Van Reef Dreamdance Mix)",
+  "artist": "Ayleen",
+  "genre": "Dance/Electronic",
+  "ref_duration": 202.185
+ },
+ {
+  "id": 873,
+  "name": "0955_tinylittlebows",
+  "title": "Tiny Little Bows",
+  "artist": "Carly Rae Jepsen",
+  "genre": "Pop",
+  "ref_duration": 201.871
+ },
+ {
+  "id": 874,
+  "name": "0956_tonightimgettingoveryou",
+  "title": "Tonight I'm Getting Over You",
+  "artist": "Carly Rae Jepsen",
+  "genre": "Pop",
+  "ref_duration": 219.545
+ },
+ {
+  "id": 875,
+  "name": "0958_turnmeup",
+  "title": "Turn Me Up",
+  "artist": "Carly Rae Jepsen",
+  "genre": "Pop",
+  "ref_duration": 224.46
+ },
+ {
+  "id": 876,
+  "name": "0959_turnthisclubaround",
+  "title": "Turn This Club Around (Feat. U-Jean) [Extended Mix]",
+  "artist": "R.I.O.",
+  "genre": "Pop",
+  "ref_duration": 270.345
+ },
+ {
+  "id": 877,
+  "name": "0960_umbrella",
+  "title": "Cinderella (Umbrella remix)",
+  "artist": "Rihanna feat. Chris Brown & Jay-Z",
+  "genre": "Hip-Hop",
+  "ref_duration": 252.096
+ },
+ {
+  "id": 878,
+  "name": "0961_unfaithfulfemme",
+  "title": "Unfaithful (Femme Fatale Electro Dub)",
+  "artist": "One Night Affair",
+  "genre": "Dance/Electronic",
+  "ref_duration": 213.323
+ },
+ {
+  "id": 879,
+  "name": "0962_usagainsttheworldjason",
+  "title": "Us Against the World (Jason Nevins remix)",
+  "artist": "Christina Milian",
+  "genre": "Dance/Electronic",
+  "ref_duration": 315.785
+ },
+ {
+  "id": 880,
+  "name": "0964_wakingupinvegas",
+  "title": "Waking Up in Vegas",
+  "artist": "Katy Perry",
+  "genre": "Pop",
+  "ref_duration": 197.191
+ },
+ {
+  "id": 881,
+  "name": "0965_wakingupinvegascalvin",
+  "title": "Waking Up in Vegas (Calvin Harris extended remix)",
+  "artist": "Katy Perry",
+  "genre": "Dance/Electronic",
+  "ref_duration": 271.704
+ },
+ {
+  "id": 882,
+  "name": "0966_wakingupinvegascalvinh",
+  "title": "Waking Up in Vegas (Calvin Harris remix edit)",
+  "artist": "Katy Perry",
+  "genre": "Dance/Electronic",
+  "ref_duration": 219.467
+ },
+ {
+  "id": 883,
+  "name": "0967_walkingonadream",
+  "title": "Walking on a Dream (Kaskade remix)",
+  "artist": "Empire of the Sun",
+  "genre": "Dance/Electronic",
+  "ref_duration": 407.998
+ },
+ {
+  "id": 884,
+  "name": "0968_walltowall",
+  "title": "Wall to Wall",
+  "artist": "Chris Brown",
+  "genre": "Hip-Hop",
+  "ref_duration": 220.8
+ },
+ {
+  "id": 885,
+  "name": "0969_webelongtogether",
+  "title": "We Belong Together",
+  "artist": "Mariah Carey",
+  "genre": "Pop",
+  "ref_duration": 197.845
+ },
+ {
+  "id": 886,
+  "name": "0970_whataboutnow",
+  "title": "What About Now",
+  "artist": "Daughtry",
+  "genre": "Pop",
+  "ref_duration": 249.69
+ },
+ {
+  "id": 887,
+  "name": "0971_whatayawantfromme",
+  "title": "Whataya Want From Me",
+  "artist": "Adam Lambert",
+  "genre": "Pop",
+  "ref_duration": 224.748
+ },
+ {
+  "id": 888,
+  "name": "0972_whatchasay",
+  "title": "Whatcha Say",
+  "artist": "Jason DeRulo",
+  "genre": "Hip-Hop",
+  "ref_duration": 220.068
+ },
+ {
+  "id": 889,
+  "name": "0973_whateverittakes",
+  "title": "Whatever It Takes",
+  "artist": "Lifehouse",
+  "genre": "Pop",
+  "ref_duration": 204.956
+ },
+ {
+  "id": 890,
+  "name": "0974_whateveryoulike",
+  "title": "Whatever You Like",
+  "artist": "T.I.",
+  "genre": "Hip-Hop",
+  "ref_duration": 220.094
+ },
+ {
+  "id": 891,
+  "name": "0975_whathappensinvegas",
+  "title": "What Happens in Vegas (radio edit)",
+  "artist": "Chuckie feat. Gregor Salto",
+  "genre": "Dance/Electronic",
+  "ref_duration": 180.276
+ },
+ {
+  "id": 892,
+  "name": "0977_wheelsnow",
+  "title": "Wheels",
+  "artist": "Jamie Cullum",
+  "genre": "Pop",
+  "ref_duration": 219.493
+ },
+ {
+  "id": 893,
+  "name": "0978_whenigrowup",
+  "title": "When I Grow Up",
+  "artist": "Pussycat Dolls",
+  "genre": "Pop",
+  "ref_duration": 234.186
+ },
+ {
+  "id": 894,
+  "name": "0979_whenlovetakesover",
+  "title": "When Love Takes Over",
+  "artist": "David Guetta feat. Kelly Rowland",
+  "genre": "Pop",
+  "ref_duration": 184.903
+ },
+ {
+  "id": 895,
+  "name": "0980_whenyouleave",
+  "title": "When You Leave (Numa Numa) (Basshunter remix)",
+  "artist": "Alina",
+  "genre": "Dance/Electronic",
+  "ref_duration": 323.968
+ },
+ {
+  "id": 896,
+  "name": "0981_whenyouregone",
+  "title": "When You're Gone",
+  "artist": "Avril Lavigne",
+  "genre": "Pop",
+  "ref_duration": 238.134
+ },
+ {
+  "id": 897,
+  "name": "0982_whoknewdos",
+  "title": "Who Knew",
+  "artist": "P!nk",
+  "genre": "Pop",
+  "ref_duration": 207.257
+ },
+ {
+  "id": 898,
+  "name": "0983_whyamitheone",
+  "title": "Why Am I the One",
+  "artist": "fun.",
+  "genre": "Pop",
+  "ref_duration": 287.078
+ },
+ {
+  "id": 899,
+  "name": "0986_winner",
+  "title": "Winner",
+  "artist": "Jamie Foxx feat. Justin Timberlake & T.I.",
+  "genre": "Hip-Hop",
+  "ref_duration": 242.893
+ },
+ {
+  "id": 900,
+  "name": "0987_withyou",
+  "title": "With You",
+  "artist": "Chris Brown",
+  "genre": "Pop",
+  "ref_duration": 252.043
+ },
+ {
+  "id": 901,
+  "name": "0988_withyoukovas",
+  "title": "With You (Kovas Ghetto Beat extended remix)",
+  "artist": "Chris Brown",
+  "genre": "Dance/Electronic",
+  "ref_duration": 311.497
+ },
+ {
+  "id": 902,
+  "name": "0989_womanizer",
+  "title": "Womanizer",
+  "artist": "Britney Spears",
+  "genre": "Pop",
+  "ref_duration": 222.343
+ },
+ {
+  "id": 903,
+  "name": "0991_worryaboutyounow",
+  "title": "Worry About You",
+  "artist": "2AM Club",
+  "genre": "Pop",
+  "ref_duration": 191.701
+ },
+ {
+  "id": 904,
+  "name": "0992_wrongthinwhiteduke",
+  "title": "Wrong (Thin White Duke remix)",
+  "artist": "Depeche Mode",
+  "genre": "Dance/Electronic",
+  "ref_duration": 301.065
+ },
+ {
+  "id": 905,
+  "name": "0993_youandidanny",
+  "title": "Yoü And I (Danny Verde Remix)",
+  "artist": "Lady Gaga",
+  "genre": "Dance/Electronic",
+  "ref_duration": 240.33
+ },
+ {
+  "id": 906,
+  "name": "0994_youbelongwithme",
+  "title": "You Belong With Me",
+  "artist": "Taylor Swift",
+  "genre": "Pop",
+  "ref_duration": 227.546
+ },
+ {
+  "id": 907,
+  "name": "0995_youfoundme",
+  "title": "You Found Me",
+  "artist": "The Fray",
+  "genre": "Pop",
+  "ref_duration": 240.853
+ },
+ {
+  "id": 908,
+  "name": "0998_youregonnamissthis",
+  "title": "You're Gonna Miss This",
+  "artist": "Trace Adkins",
+  "genre": "Country",
+  "ref_duration": 223.885
+ },
+ {
+  "id": 909,
+  "name": "0999_yourheartisamuscle",
+  "title": "Your Heart Is a Muscle",
+  "artist": "Carly Rae Jepsen",
+  "genre": "Pop",
+  "ref_duration": 229.977
+ },
+ {
+  "id": 910,
+  "name": "1000_yourloveismydrug",
+  "title": "Your Love Is My Drug",
+  "artist": "Ke$ha",
+  "genre": "Pop",
+  "ref_duration": 186.027
+ },
+ {
+  "id": 911,
+  "name": "1001_yourloveismydrugdave",
+  "title": "Your Love Is My Drug (Dave Audé radio mix)",
+  "artist": "Ke$ha",
+  "genre": "Dance/Electronic",
+  "ref_duration": 223.336
+ }
+]

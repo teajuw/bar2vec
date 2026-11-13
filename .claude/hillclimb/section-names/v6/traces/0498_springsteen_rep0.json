@@ -1,0 +1,15 @@
+[
+ {
+  "role": "user",
+  "content": "Name each section of this song: Springsteen \u2014 Eric Church (Country, 8 sections)\nsection edges (s): [0.1, 46.2, 78.6, 115.5, 147.8, 166.2, 198.6, 235.5, 251.6]\nsettings: {\"encoder\": \"clapbar_fold\", \"prompts\": {\"intro\": [\"the intro of a song\"], \"verse\": [\"the verse of a song\"], \"prechorus\": [\"the pre-chorus of a song\"], \"chorus\": [\"the chorus of a song\"], \"postchorus\": [\"the post-chorus of a song\"], \"bridge\": [\"the bridge of a song\"], \"outro\": [\"the outro of a song\"], \"instrumental\": [\"an instrumental section of a song\"]}, \"extra_models\": [\"matpacbar_fold\", \"loudbar_fold\"], \"structure\": {\"model\": \"matpacbar_fold\", \"position\": true, \"repeat_tau\": 0.4, \"bridge\": true, \"prepost\": true, \"short_s\": 20, \"vocal_below\": -1.0, \"loud_model\": \"loudbar_fold\", \"loud_w\": 2.0}, \"extra_prompts\": {\"vocals\": [\"singing vocals\", \"a person singing or rapping\"], \"no_vocals\": [\"instrumental music with no vocals\", \"an instrumental solo\"]}}"
+ },
+ {
+  "role": "assistant",
+  "content": "{\"names\": [\"intro\", \"chorus\", \"verse\", \"chorus\", \"instrumental\", \"bridge\", \"instrumental\", \"outro\"], \"top3_scores\": [[[\"bridge\", 0.259], [\"verse\", 0.237], [\"chorus\", 0.203]], [[\"bridge\", 0.195], [\"verse\", 0.148], [\"chorus\", 0.097]], [[\"bridge\", 0.245], [\"verse\", 0.207], [\"chorus\", 0.153]], [[\"bridge\", 0.209], [\"verse\", 0.165], [\"chorus\", 0.096]], [[\"chorus\", 0.271], [\"bridge\", 0.261], [\"postchorus\", 0.24]], [[\"bridge\", 0.251], [\"verse\", 0.194], [\"chorus\", 0.17]], [[\"bridge\", 0.278], [\"postchorus\", 0.256], [\"chorus\", 0.236]], [[\"bridge\", 0.181], [\"chorus\", 0.108], [\"postchorus\", 0.1]]]}"
+ },
+ {
+  "role": "tool_result",
+  "name": "grader",
+  "content": "{\"sections\": [{\"start\": 0.1, \"end\": 46.2, \"annotated\": \"intro\", \"scored_as\": \"intro\", \"named\": \"intro\", \"right\": true}, {\"start\": 46.2, \"end\": 78.6, \"annotated\": \"chorus\", \"scored_as\": \"chorus\", \"named\": \"chorus\", \"right\": true}, {\"start\": 78.6, \"end\": 115.5, \"annotated\": \"verse\", \"scored_as\": \"verse\", \"named\": \"verse\", \"right\": true}, {\"start\": 115.5, \"end\": 147.8, \"annotated\": \"chorus\", \"scored_as\": \"chorus\", \"named\": \"chorus\", \"right\": true}, {\"start\": 147.8, \"end\": 166.2, \"annotated\": \"bridge\", \"scored_as\": \"bridge\", \"named\": \"instrumental\", \"right\": false}, {\"start\": 166.2, \"end\": 198.6, \"annotated\": \"chorus\", \"scored_as\": \"chorus\", \"named\": \"bridge\", \"right\": false}, {\"start\": 198.6, \"end\": 235.5, \"annotated\": \"bridge\", \"scored_as\": \"bridge\", \"named\": \"instrumental\", \"right\": false}, {\"start\": 235.5, \"end\": 251.6, \"annotated\": \"outro\", \"scored_as\": \"outro\", \"named\": \"outro\", \"right\": true}], \"grade\": {\"acc\": 0.625}}"
+ }
+]

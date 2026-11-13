@@ -1,0 +1,4 @@
+{
+ "description": "learned keep/drop model on block-matching proposals, trained on the tuning songs' annotations (outer step)",
+ "target": "code"
+}

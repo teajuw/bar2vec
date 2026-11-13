@@ -1,0 +1,15 @@
+[
+ {
+  "role": "user",
+  "content": "Name each section of this song: I Want \u2014 One Direction (Pop, 9 sections)\nsection edges (s): [0.4, 7.9, 37.9, 52.9, 67.9, 82.9, 97.9, 116.7, 131.7, 169.2]\nsettings: {\"encoder\": \"clapbar_fold\", \"prompts\": {\"intro\": [\"the intro of a song\"], \"verse\": [\"the verse of a song\"], \"prechorus\": [\"the pre-chorus of a song\"], \"chorus\": [\"the chorus of a song\"], \"postchorus\": [\"the post-chorus of a song\"], \"bridge\": [\"the bridge of a song\"], \"outro\": [\"the outro of a song\"], \"instrumental\": [\"an instrumental section of a song\"]}, \"extra_models\": [\"matpacbar_fold\"], \"structure\": {\"model\": \"matpacbar_fold\", \"position\": true, \"repeat_tau\": 0.4, \"bridge\": true, \"prepost\": false, \"short_s\": 20}}"
+ },
+ {
+  "role": "assistant",
+  "content": "{\"names\": [\"intro\", \"verse\", \"chorus\", \"verse\", \"chorus\", \"chorus\", \"bridge\", \"bridge\", \"outro\"], \"top3_scores\": [[[\"verse\", 0.213], [\"outro\", 0.201], [\"bridge\", 0.197]], [[\"verse\", 0.286], [\"bridge\", 0.276], [\"outro\", 0.261]], [[\"outro\", 0.326], [\"intro\", 0.289], [\"bridge\", 0.273]], [[\"outro\", 0.268], [\"bridge\", 0.238], [\"verse\", 0.233]], [[\"outro\", 0.294], [\"intro\", 0.257], [\"bridge\", 0.253]], [[\"outro\", 0.34], [\"intro\", 0.301], [\"bridge\", 0.297]], [[\"outro\", 0.324], [\"bridge\", 0.289], [\"intro\", 0.28]], [[\"intro\", 0.364], [\"outro\", 0.363], [\"instrumental\", 0.325]], [[\"outro\", 0.334], [\"verse\", 0.318], [\"bridge\", 0.311]]]}"
+ },
+ {
+  "role": "tool_result",
+  "name": "grader",
+  "content": "{\"sections\": [{\"start\": 0.4, \"end\": 7.9, \"annotated\": \"intro\", \"scored_as\": \"intro\", \"named\": \"intro\", \"right\": true}, {\"start\": 7.9, \"end\": 37.9, \"annotated\": \"verse\", \"scored_as\": \"verse\", \"named\": \"verse\", \"right\": true}, {\"start\": 37.9, \"end\": 52.9, \"annotated\": \"chorus\", \"scored_as\": \"chorus\", \"named\": \"chorus\", \"right\": true}, {\"start\": 52.9, \"end\": 67.9, \"annotated\": \"verse\", \"scored_as\": \"verse\", \"named\": \"verse\", \"right\": true}, {\"start\": 67.9, \"end\": 82.9, \"annotated\": \"chorus\", \"scored_as\": \"chorus\", \"named\": \"chorus\", \"right\": true}, {\"start\": 82.9, \"end\": 97.9, \"annotated\": \"chorus\", \"scored_as\": \"chorus\", \"named\": \"chorus\", \"right\": true}, {\"start\": 97.9, \"end\": 116.7, \"annotated\": \"bridge\", \"scored_as\": \"bridge\", \"named\": \"bridge\", \"right\": true}, {\"start\": 116.7, \"end\": 131.7, \"annotated\": \"solo\", \"scored_as\": \"instrumental\", \"named\": \"bridge\", \"right\": false}, {\"start\": 131.7, \"end\": 169.2, \"annotated\": \"chorus\", \"scored_as\": \"chorus\", \"named\": \"outro\", \"right\": false}], \"grade\": {\"acc\": 0.7778}}"
+ }
+]

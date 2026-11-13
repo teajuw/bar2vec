@@ -1,0 +1,15 @@
+[
+ {
+  "role": "user",
+  "content": "Name each section of this song: No Surprise \u2014 Daughtry (Alternative, 9 sections)\nsection edges (s): [0.0, 15.1, 44.4, 70.1, 99.4, 140.1, 165.1, 184.4, 205.1, 225.1]\nsettings: {\"encoder\": \"clapbar_fold\", \"prompts\": {\"intro\": [\"the intro of a song\"], \"verse\": [\"the verse of a song\"], \"prechorus\": [\"the pre-chorus of a song\"], \"chorus\": [\"the chorus of a song\"], \"postchorus\": [\"the post-chorus of a song\"], \"bridge\": [\"the bridge of a song\"], \"outro\": [\"the outro of a song\"], \"instrumental\": [\"an instrumental section of a song\"]}}"
+ },
+ {
+  "role": "assistant",
+  "content": "{\"names\": [\"outro\", \"verse\", \"bridge\", \"bridge\", \"bridge\", \"bridge\", \"verse\", \"bridge\", \"bridge\"], \"top3_scores\": [[[\"outro\", 0.207], [\"bridge\", 0.203], [\"verse\", 0.199]], [[\"verse\", 0.236], [\"bridge\", 0.233], [\"outro\", 0.207]], [[\"bridge\", 0.283], [\"outro\", 0.263], [\"verse\", 0.246]], [[\"bridge\", 0.249], [\"outro\", 0.229], [\"verse\", 0.229]], [[\"bridge\", 0.245], [\"outro\", 0.224], [\"verse\", 0.214]], [[\"bridge\", 0.25], [\"outro\", 0.244], [\"verse\", 0.212]], [[\"verse\", 0.318], [\"bridge\", 0.3], [\"outro\", 0.274]], [[\"bridge\", 0.252], [\"outro\", 0.243], [\"verse\", 0.22]], [[\"bridge\", 0.237], [\"outro\", 0.213], [\"verse\", 0.195]]]}"
+ },
+ {
+  "role": "tool_result",
+  "name": "grader",
+  "content": "{\"sections\": [{\"start\": 0.0, \"end\": 15.1, \"annotated\": \"intro\", \"scored_as\": \"intro\", \"named\": \"outro\", \"right\": false}, {\"start\": 15.1, \"end\": 44.4, \"annotated\": \"verse\", \"scored_as\": \"verse\", \"named\": \"verse\", \"right\": true}, {\"start\": 44.4, \"end\": 70.1, \"annotated\": \"chorus\", \"scored_as\": \"chorus\", \"named\": \"bridge\", \"right\": false}, {\"start\": 70.1, \"end\": 99.4, \"annotated\": \"verse\", \"scored_as\": \"verse\", \"named\": \"bridge\", \"right\": false}, {\"start\": 99.4, \"end\": 140.1, \"annotated\": \"chorus\", \"scored_as\": \"chorus\", \"named\": \"bridge\", \"right\": false}, {\"start\": 140.1, \"end\": 165.1, \"annotated\": \"bridge\", \"scored_as\": \"bridge\", \"named\": \"bridge\", \"right\": true}, {\"start\": 165.1, \"end\": 184.4, \"annotated\": \"verse\", \"scored_as\": \"verse\", \"named\": \"verse\", \"right\": true}, {\"start\": 184.4, \"end\": 205.1, \"annotated\": \"chorus\", \"scored_as\": \"chorus\", \"named\": \"bridge\", \"right\": false}, {\"start\": 205.1, \"end\": 225.1, \"annotated\": \"bridge\", \"scored_as\": \"bridge\", \"named\": \"bridge\", \"right\": true}], \"grade\": {\"acc\": 0.4444}}"
+ }
+]

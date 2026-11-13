@@ -1,0 +1,15 @@
+[
+ {
+  "role": "user",
+  "content": "Name each section of this song: Stronger (What Doesn't Kill You) \u2014 Kelly Clarkson (Pop, 10 sections)\nsection edges (s): [0.0, 8.3, 24.8, 41.4, 76.6, 93.1, 99.3, 134.5, 157.2, 184.1, 192.4]\nsettings: {\"encoder\": \"clapbar_fold\", \"prompts\": {\"intro\": [\"the intro of a song\"], \"verse\": [\"the verse of a song\"], \"prechorus\": [\"the pre-chorus of a song\"], \"chorus\": [\"the chorus of a song\"], \"postchorus\": [\"the post-chorus of a song\"], \"bridge\": [\"the bridge of a song\"], \"outro\": [\"the outro of a song\"], \"instrumental\": [\"an instrumental section of a song\"]}, \"extra_models\": [\"matpacbar_fold\"], \"structure\": {\"model\": \"matpacbar_fold\", \"position\": true, \"repeat_tau\": 0.4, \"bridge\": false, \"prepost\": false, \"short_s\": 20}}"
+ },
+ {
+  "role": "assistant",
+  "content": "{\"names\": [\"intro\", \"verse\", \"verse\", \"chorus\", \"verse\", \"verse\", \"chorus\", \"verse\", \"chorus\", \"outro\"], \"top3_scores\": [[[\"outro\", 0.323], [\"verse\", 0.278], [\"intro\", 0.271]], [[\"bridge\", 0.318], [\"outro\", 0.291], [\"verse\", 0.281]], [[\"outro\", 0.242], [\"bridge\", 0.235], [\"verse\", 0.22]], [[\"bridge\", 0.205], [\"outro\", 0.2], [\"verse\", 0.194]], [[\"bridge\", 0.278], [\"verse\", 0.243], [\"outro\", 0.217]], [[\"outro\", 0.263], [\"bridge\", 0.237], [\"verse\", 0.228]], [[\"bridge\", 0.193], [\"outro\", 0.191], [\"verse\", 0.181]], [[\"verse\", 0.257], [\"outro\", 0.253], [\"bridge\", 0.24]], [[\"outro\", 0.199], [\"bridge\", 0.187], [\"verse\", 0.177]], [[\"bridge\", 0.155], [\"outro\", 0.147], [\"verse\", 0.142]]]}"
+ },
+ {
+  "role": "tool_result",
+  "name": "grader",
+  "content": "{\"sections\": [{\"start\": 0.0, \"end\": 8.3, \"annotated\": \"intro\", \"scored_as\": \"intro\", \"named\": \"intro\", \"right\": true}, {\"start\": 8.3, \"end\": 24.8, \"annotated\": \"verse\", \"scored_as\": \"verse\", \"named\": \"verse\", \"right\": true}, {\"start\": 24.8, \"end\": 41.4, \"annotated\": \"prechorus\", \"scored_as\": \"prechorus\", \"named\": \"verse\", \"right\": false}, {\"start\": 41.4, \"end\": 76.6, \"annotated\": \"chorus\", \"scored_as\": \"chorus\", \"named\": \"chorus\", \"right\": true}, {\"start\": 76.6, \"end\": 93.1, \"annotated\": \"verse\", \"scored_as\": \"verse\", \"named\": \"verse\", \"right\": true}, {\"start\": 93.1, \"end\": 99.3, \"annotated\": \"prechorus\", \"scored_as\": \"prechorus\", \"named\": \"verse\", \"right\": false}, {\"start\": 99.3, \"end\": 134.5, \"annotated\": \"chorus\", \"scored_as\": \"chorus\", \"named\": \"chorus\", \"right\": true}, {\"start\": 134.5, \"end\": 157.2, \"annotated\": \"bridge\", \"scored_as\": \"bridge\", \"named\": \"verse\", \"right\": false}, {\"start\": 157.2, \"end\": 184.1, \"annotated\": \"chorus\", \"scored_as\": \"chorus\", \"named\": \"chorus\", \"right\": true}, {\"start\": 184.1, \"end\": 192.4, \"annotated\": \"outro\", \"scored_as\": \"outro\", \"named\": \"outro\", \"right\": true}], \"grade\": {\"acc\": 0.7}}"
+ }
+]

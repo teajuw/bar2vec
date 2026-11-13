@@ -1,0 +1,15 @@
+[
+ {
+  "role": "user",
+  "content": "Name each section of this song: Cooler Than Me \u2014 Mike Posner (Pop, 8 sections)\nsection edges (s): [0.2, 32.1, 46.4, 75.9, 105.4, 135.4, 149.7, 179.7, 209.3]\nsettings: {\"encoder\": \"clapbar_fold\", \"prompts\": {\"intro\": [\"the intro of a song\"], \"verse\": [\"the verse of a song\"], \"prechorus\": [\"the pre-chorus of a song\"], \"chorus\": [\"the chorus of a song\"], \"postchorus\": [\"the post-chorus of a song\"], \"bridge\": [\"the bridge of a song\"], \"outro\": [\"the outro of a song\"], \"instrumental\": [\"an instrumental section of a song\"]}}"
+ },
+ {
+  "role": "assistant",
+  "content": "{\"names\": [\"verse\", \"outro\", \"outro\", \"verse\", \"bridge\", \"bridge\", \"verse\", \"outro\"], \"top3_scores\": [[[\"verse\", 0.377], [\"outro\", 0.334], [\"bridge\", 0.311]], [[\"outro\", 0.31], [\"intro\", 0.306], [\"instrumental\", 0.274]], [[\"outro\", 0.319], [\"verse\", 0.315], [\"bridge\", 0.314]], [[\"verse\", 0.266], [\"outro\", 0.258], [\"bridge\", 0.242]], [[\"bridge\", 0.305], [\"verse\", 0.297], [\"outro\", 0.294]], [[\"bridge\", 0.3], [\"verse\", 0.299], [\"outro\", 0.286]], [[\"verse\", 0.338], [\"outro\", 0.334], [\"bridge\", 0.293]], [[\"outro\", 0.366], [\"bridge\", 0.34], [\"instrumental\", 0.337]]]}"
+ },
+ {
+  "role": "tool_result",
+  "name": "grader",
+  "content": "{\"sections\": [{\"start\": 0.2, \"end\": 32.1, \"annotated\": \"chorus\", \"scored_as\": \"chorus\", \"named\": \"verse\", \"right\": false}, {\"start\": 32.1, \"end\": 46.4, \"annotated\": \"inst\", \"scored_as\": \"instrumental\", \"named\": \"outro\", \"right\": false}, {\"start\": 46.4, \"end\": 75.9, \"annotated\": \"verse\", \"scored_as\": \"verse\", \"named\": \"outro\", \"right\": false}, {\"start\": 75.9, \"end\": 105.4, \"annotated\": \"chorus\", \"scored_as\": \"chorus\", \"named\": \"verse\", \"right\": false}, {\"start\": 105.4, \"end\": 135.4, \"annotated\": \"verse\", \"scored_as\": \"verse\", \"named\": \"bridge\", \"right\": false}, {\"start\": 135.4, \"end\": 149.7, \"annotated\": \"bridge\", \"scored_as\": \"bridge\", \"named\": \"bridge\", \"right\": true}, {\"start\": 149.7, \"end\": 179.7, \"annotated\": \"chorus\", \"scored_as\": \"chorus\", \"named\": \"verse\", \"right\": false}, {\"start\": 179.7, \"end\": 209.3, \"annotated\": \"solo\", \"scored_as\": \"instrumental\", \"named\": \"outro\", \"right\": false}], \"grade\": {\"acc\": 0.125}}"
+ }
+]

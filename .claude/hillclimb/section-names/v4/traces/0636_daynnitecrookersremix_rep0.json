@@ -1,0 +1,15 @@
+[
+ {
+  "role": "user",
+  "content": "Name each section of this song: Day 'N' Nite \u2014 Kid Cudi vs. Crookers (Hip-Hop, 10 sections)\nsection edges (s): [0.1, 7.4, 37.0, 51.8, 66.5, 73.9, 103.4, 118.2, 133.0, 147.8, 161.6]\nsettings: {\"encoder\": \"clapbar_fold\", \"prompts\": {\"intro\": [\"the intro of a song\"], \"verse\": [\"the verse of a song\"], \"prechorus\": [\"the pre-chorus of a song\"], \"chorus\": [\"the chorus of a song\"], \"postchorus\": [\"the post-chorus of a song\"], \"bridge\": [\"the bridge of a song\"], \"outro\": [\"the outro of a song\"], \"instrumental\": [\"an instrumental section of a song\"]}, \"extra_models\": [\"matpacbar_fold\"], \"structure\": {\"model\": \"matpacbar_fold\", \"position\": true, \"repeat_tau\": 0.4, \"bridge\": true, \"prepost\": true, \"short_s\": 20}}"
+ },
+ {
+  "role": "assistant",
+  "content": "{\"names\": [\"intro\", \"verse\", \"chorus\", \"verse\", \"verse\", \"verse\", \"chorus\", \"chorus\", \"bridge\", \"outro\"], \"top3_scores\": [[[\"outro\", 0.256], [\"intro\", 0.247], [\"verse\", 0.246]], [[\"verse\", 0.317], [\"bridge\", 0.294], [\"outro\", 0.283]], [[\"outro\", 0.382], [\"bridge\", 0.309], [\"verse\", 0.307]], [[\"outro\", 0.391], [\"intro\", 0.383], [\"instrumental\", 0.36]], [[\"outro\", 0.319], [\"bridge\", 0.299], [\"verse\", 0.295]], [[\"outro\", 0.317], [\"verse\", 0.295], [\"bridge\", 0.29]], [[\"outro\", 0.341], [\"intro\", 0.268], [\"bridge\", 0.266]], [[\"outro\", 0.389], [\"verse\", 0.316], [\"bridge\", 0.31]], [[\"outro\", 0.367], [\"intro\", 0.346], [\"bridge\", 0.342]], [[\"outro\", 0.328], [\"bridge\", 0.313], [\"verse\", 0.308]]]}"
+ },
+ {
+  "role": "tool_result",
+  "name": "grader",
+  "content": "{\"sections\": [{\"start\": 0.1, \"end\": 7.4, \"annotated\": \"intro\", \"scored_as\": \"intro\", \"named\": \"intro\", \"right\": true}, {\"start\": 7.4, \"end\": 37.0, \"annotated\": \"verse\", \"scored_as\": \"verse\", \"named\": \"verse\", \"right\": true}, {\"start\": 37.0, \"end\": 51.8, \"annotated\": \"chorus\", \"scored_as\": \"chorus\", \"named\": \"chorus\", \"right\": true}, {\"start\": 51.8, \"end\": 66.5, \"annotated\": \"inst\", \"scored_as\": \"instrumental\", \"named\": \"verse\", \"right\": false}, {\"start\": 66.5, \"end\": 73.9, \"annotated\": \"bridge\", \"scored_as\": \"bridge\", \"named\": \"verse\", \"right\": false}, {\"start\": 73.9, \"end\": 103.4, \"annotated\": \"verse\", \"scored_as\": \"verse\", \"named\": \"verse\", \"right\": true}, {\"start\": 103.4, \"end\": 118.2, \"annotated\": \"chorus\", \"scored_as\": \"chorus\", \"named\": \"chorus\", \"right\": true}, {\"start\": 118.2, \"end\": 133.0, \"annotated\": \"chorus\", \"scored_as\": \"chorus\", \"named\": \"chorus\", \"right\": true}, {\"start\": 133.0, \"end\": 147.8, \"annotated\": \"chorus\", \"scored_as\": \"chorus\", \"named\": \"bridge\", \"right\": false}, {\"start\": 147.8, \"end\": 161.6, \"annotated\": \"bridge\", \"scored_as\": \"bridge\", \"named\": \"outro\", \"right\": false}], \"grade\": {\"acc\": 0.6}}"
+ }
+]

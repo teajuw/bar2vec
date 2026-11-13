@@ -1,0 +1,15 @@
+[
+ {
+  "role": "user",
+  "content": "Name each section of this song: Jimmy Iovine \u2014 Macklemore & Ryan Lewis (Pop, 5 sections)\nsection edges (s): [0.0, 6.6, 44.0, 106.3, 131.2, 230.2]\nsettings: {\"encoder\": \"clapbar_fold\", \"prompts\": {\"intro\": [\"the intro of a song\"], \"verse\": [\"the verse of a song\"], \"prechorus\": [\"the pre-chorus of a song\"], \"chorus\": [\"the chorus of a song\"], \"postchorus\": [\"the post-chorus of a song\"], \"bridge\": [\"the bridge of a song\"], \"outro\": [\"the outro of a song\"], \"instrumental\": [\"an instrumental section of a song\"]}}"
+ },
+ {
+  "role": "assistant",
+  "content": "{\"names\": [\"postchorus\", \"outro\", \"outro\", \"outro\", \"outro\"], \"top3_scores\": [[[\"postchorus\", 0.342], [\"verse\", 0.321], [\"outro\", 0.315]], [[\"outro\", 0.39], [\"intro\", 0.321], [\"verse\", 0.315]], [[\"outro\", 0.349], [\"verse\", 0.322], [\"intro\", 0.26]], [[\"outro\", 0.37], [\"verse\", 0.29], [\"intro\", 0.285]], [[\"outro\", 0.356], [\"verse\", 0.343], [\"bridge\", 0.274]]]}"
+ },
+ {
+  "role": "tool_result",
+  "name": "grader",
+  "content": "{\"sections\": [{\"start\": 0.0, \"end\": 6.6, \"annotated\": \"silence\", \"scored_as\": null, \"named\": \"postchorus\", \"right\": null}, {\"start\": 6.6, \"end\": 44.0, \"annotated\": \"chorus\", \"scored_as\": \"chorus\", \"named\": \"outro\", \"right\": false}, {\"start\": 44.0, \"end\": 106.3, \"annotated\": \"verse\", \"scored_as\": \"verse\", \"named\": \"outro\", \"right\": false}, {\"start\": 106.3, \"end\": 131.2, \"annotated\": \"chorus\", \"scored_as\": \"chorus\", \"named\": \"outro\", \"right\": false}, {\"start\": 131.2, \"end\": 230.2, \"annotated\": \"verse\", \"scored_as\": \"verse\", \"named\": \"outro\", \"right\": false}], \"grade\": {\"acc\": 0.0}}"
+ }
+]

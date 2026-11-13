@@ -1,0 +1,15 @@
+[
+ {
+  "role": "user",
+  "content": "Name each section of this song: Over You \u2014 Daughtry (Pop, 9 sections)\nsection edges (s): [0.3, 28.0, 58.7, 64.9, 92.6, 123.3, 135.7, 148.0, 172.6, 202.6]\nsettings: {\"encoder\": \"clapbar_fold\", \"prompts\": {\"intro\": [\"the intro of a song\"], \"verse\": [\"the verse of a song\"], \"prechorus\": [\"the pre-chorus of a song\"], \"chorus\": [\"the chorus of a song\"], \"postchorus\": [\"the post-chorus of a song\"], \"bridge\": [\"the bridge of a song\"], \"outro\": [\"the outro of a song\"], \"instrumental\": [\"an instrumental section of a song\"]}, \"extra_models\": [\"matpacbar_fold\"], \"structure\": {\"model\": \"matpacbar_fold\", \"position\": true, \"repeat_tau\": 0.4, \"bridge\": false, \"prepost\": false, \"short_s\": 20}}"
+ },
+ {
+  "role": "assistant",
+  "content": "{\"names\": [\"intro\", \"chorus\", \"verse\", \"verse\", \"chorus\", \"verse\", \"verse\", \"chorus\", \"outro\"], \"top3_scores\": [[[\"bridge\", 0.233], [\"verse\", 0.222], [\"outro\", 0.164]], [[\"bridge\", 0.201], [\"outro\", 0.192], [\"verse\", 0.176]], [[\"bridge\", 0.242], [\"postchorus\", 0.241], [\"verse\", 0.22]], [[\"bridge\", 0.235], [\"verse\", 0.207], [\"outro\", 0.17]], [[\"bridge\", 0.219], [\"outro\", 0.208], [\"verse\", 0.188]], [[\"postchorus\", 0.203], [\"bridge\", 0.198], [\"outro\", 0.194]], [[\"verse\", 0.242], [\"bridge\", 0.227], [\"outro\", 0.221]], [[\"bridge\", 0.203], [\"outro\", 0.198], [\"verse\", 0.182]], [[\"bridge\", 0.224], [\"outro\", 0.189], [\"verse\", 0.188]]]}"
+ },
+ {
+  "role": "tool_result",
+  "name": "grader",
+  "content": "{\"sections\": [{\"start\": 0.3, \"end\": 28.0, \"annotated\": \"verse\", \"scored_as\": \"verse\", \"named\": \"intro\", \"right\": false}, {\"start\": 28.0, \"end\": 58.7, \"annotated\": \"chorus\", \"scored_as\": \"chorus\", \"named\": \"chorus\", \"right\": true}, {\"start\": 58.7, \"end\": 64.9, \"annotated\": \"inst\", \"scored_as\": \"instrumental\", \"named\": \"verse\", \"right\": false}, {\"start\": 64.9, \"end\": 92.6, \"annotated\": \"verse\", \"scored_as\": \"verse\", \"named\": \"verse\", \"right\": true}, {\"start\": 92.6, \"end\": 123.3, \"annotated\": \"chorus\", \"scored_as\": \"chorus\", \"named\": \"chorus\", \"right\": true}, {\"start\": 123.3, \"end\": 135.7, \"annotated\": \"solo\", \"scored_as\": \"instrumental\", \"named\": \"verse\", \"right\": false}, {\"start\": 135.7, \"end\": 148.0, \"annotated\": \"quietchorus\", \"scored_as\": null, \"named\": \"verse\", \"right\": null}, {\"start\": 148.0, \"end\": 172.6, \"annotated\": \"chorus\", \"scored_as\": \"chorus\", \"named\": \"chorus\", \"right\": true}, {\"start\": 172.6, \"end\": 202.6, \"annotated\": \"postchorus\", \"scored_as\": \"postchorus\", \"named\": \"outro\", \"right\": false}], \"grade\": {\"acc\": 0.5}}"
+ }
+]

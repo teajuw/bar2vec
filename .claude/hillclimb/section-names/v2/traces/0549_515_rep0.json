@@ -1,0 +1,15 @@
+[
+ {
+  "role": "user",
+  "content": "Name each section of this song: 5:15 \u2014 Bridgit Mendler (Pop, 9 sections)\nsection edges (s): [1.7, 12.6, 36.8, 65.3, 89.5, 112.9, 147.3, 171.4, 194.8, 229.3]\nsettings: {\"encoder\": \"clapbar_fold\", \"prompts\": {\"intro\": [\"the intro of a song\"], \"verse\": [\"the verse of a song\"], \"prechorus\": [\"the pre-chorus of a song\"], \"chorus\": [\"the chorus of a song\"], \"postchorus\": [\"the post-chorus of a song\"], \"bridge\": [\"the bridge of a song\"], \"outro\": [\"the outro of a song\"], \"instrumental\": [\"an instrumental section of a song\"]}, \"extra_models\": [\"matpacbar_fold\"], \"structure\": {\"model\": \"matpacbar_fold\", \"position\": true, \"repeat_tau\": 0.4, \"bridge\": false, \"prepost\": false, \"short_s\": 20}}"
+ },
+ {
+  "role": "assistant",
+  "content": "{\"names\": [\"intro\", \"verse\", \"chorus\", \"verse\", \"chorus\", \"verse\", \"chorus\", \"chorus\", \"outro\"], \"top3_scores\": [[[\"bridge\", 0.22], [\"verse\", 0.197], [\"outro\", 0.187]], [[\"verse\", 0.299], [\"bridge\", 0.27], [\"outro\", 0.206]], [[\"verse\", 0.3], [\"bridge\", 0.292], [\"outro\", 0.221]], [[\"verse\", 0.31], [\"bridge\", 0.268], [\"outro\", 0.203]], [[\"verse\", 0.271], [\"bridge\", 0.255], [\"outro\", 0.192]], [[\"bridge\", 0.306], [\"verse\", 0.296], [\"outro\", 0.262]], [[\"verse\", 0.3], [\"bridge\", 0.282], [\"outro\", 0.196]], [[\"verse\", 0.299], [\"bridge\", 0.283], [\"outro\", 0.202]], [[\"bridge\", 0.337], [\"verse\", 0.334], [\"outro\", 0.261]]]}"
+ },
+ {
+  "role": "tool_result",
+  "name": "grader",
+  "content": "{\"sections\": [{\"start\": 1.7, \"end\": 12.6, \"annotated\": \"intro\", \"scored_as\": \"intro\", \"named\": \"intro\", \"right\": true}, {\"start\": 12.6, \"end\": 36.8, \"annotated\": \"verse\", \"scored_as\": \"verse\", \"named\": \"verse\", \"right\": true}, {\"start\": 36.8, \"end\": 65.3, \"annotated\": \"chorus\", \"scored_as\": \"chorus\", \"named\": \"chorus\", \"right\": true}, {\"start\": 65.3, \"end\": 89.5, \"annotated\": \"verse\", \"scored_as\": \"verse\", \"named\": \"verse\", \"right\": true}, {\"start\": 89.5, \"end\": 112.9, \"annotated\": \"chorus\", \"scored_as\": \"chorus\", \"named\": \"chorus\", \"right\": true}, {\"start\": 112.9, \"end\": 147.3, \"annotated\": \"bridge\", \"scored_as\": \"bridge\", \"named\": \"verse\", \"right\": false}, {\"start\": 147.3, \"end\": 171.4, \"annotated\": \"chorus\", \"scored_as\": \"chorus\", \"named\": \"chorus\", \"right\": true}, {\"start\": 171.4, \"end\": 194.8, \"annotated\": \"chorus\", \"scored_as\": \"chorus\", \"named\": \"chorus\", \"right\": true}, {\"start\": 194.8, \"end\": 229.3, \"annotated\": \"outro\", \"scored_as\": \"outro\", \"named\": \"outro\", \"right\": true}], \"grade\": {\"acc\": 0.8889}}"
+ }
+]

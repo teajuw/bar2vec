@@ -1,0 +1,15 @@
+[
+ {
+  "role": "user",
+  "content": "Name each section of this song: Swing (remix) \u2014 Savage feat. Soulja Boy Tell 'Em (Hip-Hop, 9 sections)\nsection edges (s): [0.1, 12.9, 35.3, 64.1, 89.8, 115.3, 140.9, 166.5, 192.1, 214.6]\nsettings: {\"encoder\": \"clapbar_fold\", \"prompts\": {\"intro\": [\"the intro of a song\"], \"verse\": [\"the verse of a song\"], \"prechorus\": [\"the pre-chorus of a song\"], \"chorus\": [\"the chorus of a song\"], \"postchorus\": [\"the post-chorus of a song\"], \"bridge\": [\"the bridge of a song\"], \"outro\": [\"the outro of a song\"], \"instrumental\": [\"an instrumental section of a song\"]}, \"extra_models\": [\"matpacbar_fold\"], \"structure\": {\"model\": \"matpacbar_fold\", \"position\": true, \"repeat_tau\": 0.4, \"bridge\": true, \"prepost\": true, \"short_s\": 20, \"vocal_below\": -1.0}, \"extra_prompts\": {\"vocals\": [\"singing vocals\", \"a person singing or rapping\"], \"no_vocals\": [\"instrumental music with no vocals\", \"an instrumental solo\"]}}"
+ },
+ {
+  "role": "assistant",
+  "content": "{\"names\": [\"intro\", \"chorus\", \"verse\", \"chorus\", \"verse\", \"chorus\", \"bridge\", \"chorus\", \"outro\"], \"top3_scores\": [[[\"outro\", 0.353], [\"verse\", 0.336], [\"intro\", 0.289]], [[\"outro\", 0.221], [\"verse\", 0.209], [\"intro\", 0.193]], [[\"outro\", 0.268], [\"verse\", 0.256], [\"intro\", 0.232]], [[\"outro\", 0.212], [\"verse\", 0.209], [\"bridge\", 0.18]], [[\"verse\", 0.23], [\"outro\", 0.224], [\"bridge\", 0.201]], [[\"outro\", 0.222], [\"verse\", 0.212], [\"bridge\", 0.191]], [[\"outro\", 0.193], [\"verse\", 0.172], [\"intro\", 0.148]], [[\"outro\", 0.234], [\"verse\", 0.225], [\"bridge\", 0.204]], [[\"outro\", 0.326], [\"intro\", 0.3], [\"bridge\", 0.297]]]}"
+ },
+ {
+  "role": "tool_result",
+  "name": "grader",
+  "content": "{\"sections\": [{\"start\": 0.1, \"end\": 12.9, \"annotated\": \"intro\", \"scored_as\": \"intro\", \"named\": \"intro\", \"right\": true}, {\"start\": 12.9, \"end\": 35.3, \"annotated\": \"verse\", \"scored_as\": \"verse\", \"named\": \"chorus\", \"right\": false}, {\"start\": 35.3, \"end\": 64.1, \"annotated\": \"verse\", \"scored_as\": \"verse\", \"named\": \"verse\", \"right\": true}, {\"start\": 64.1, \"end\": 89.8, \"annotated\": \"verse\", \"scored_as\": \"verse\", \"named\": \"chorus\", \"right\": false}, {\"start\": 89.8, \"end\": 115.3, \"annotated\": \"verse\", \"scored_as\": \"verse\", \"named\": \"verse\", \"right\": true}, {\"start\": 115.3, \"end\": 140.9, \"annotated\": \"verse\", \"scored_as\": \"verse\", \"named\": \"chorus\", \"right\": false}, {\"start\": 140.9, \"end\": 166.5, \"annotated\": \"verse\", \"scored_as\": \"verse\", \"named\": \"bridge\", \"right\": false}, {\"start\": 166.5, \"end\": 192.1, \"annotated\": \"verse\", \"scored_as\": \"verse\", \"named\": \"chorus\", \"right\": false}, {\"start\": 192.1, \"end\": 214.6, \"annotated\": \"outro\", \"scored_as\": \"outro\", \"named\": \"outro\", \"right\": true}], \"grade\": {\"acc\": 0.4444}}"
+ }
+]

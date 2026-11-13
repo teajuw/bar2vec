@@ -1,0 +1,22 @@
+--- .claude/hillclimb/section-names/v7/names.json	2026-11-13 02:42:30
++++ names.json	2026-11-13 05:38:30
+@@ -49,5 +49,5 @@
+       "an instrumental solo"
+     ]
+   },
+-  "trained": true
+-}
++  "trained": "extra"
++}
+\ No newline at end of file
+--- .claude/hillclimb/section-names/v7/names.py	2026-11-13 02:42:30
++++ scripts/names.py	2026-11-13 05:36:03
+@@ -102,7 +102,7 @@
+         import name_model
+ 
+         global _MODEL
+-        _MODEL = globals().get("_MODEL") or name_model.load()
++        _MODEL = globals().get("_MODEL") or name_model.load(cfg["trained"])
+         return name_model.predict(_MODEL, bounds, bar_starts, emb_by_model, text), scores
+     st = cfg.get("structure")
+     if not st:

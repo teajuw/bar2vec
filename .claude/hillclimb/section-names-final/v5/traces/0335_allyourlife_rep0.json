@@ -1,0 +1,15 @@
+[
+ {
+  "role": "user",
+  "content": "Name each section of this song: All Your Life \u2014 The Band Perry (Country, 8 sections)\nsection edges (s): [0.2, 14.8, 43.9, 80.2, 109.3, 145.7, 174.8, 213.0, 217.8]\nsettings: {\"encoder\": \"clapbar_fold\", \"prompts\": {\"intro\": [\"the intro of a song\"], \"verse\": [\"the verse of a song\"], \"prechorus\": [\"the pre-chorus of a song\"], \"chorus\": [\"the chorus of a song\"], \"postchorus\": [\"the post-chorus of a song\"], \"bridge\": [\"the bridge of a song\"], \"outro\": [\"the outro of a song\"], \"instrumental\": [\"an instrumental section of a song\"]}, \"extra_models\": [\"matpacbar_fold\"], \"structure\": {\"model\": \"matpacbar_fold\", \"position\": true, \"repeat_tau\": 0.4, \"bridge\": true, \"prepost\": true, \"short_s\": 20, \"vocal_below\": -1.0}, \"extra_prompts\": {\"vocals\": [\"singing vocals\", \"a person singing or rapping\"], \"no_vocals\": [\"instrumental music with no vocals\", \"an instrumental solo\"]}}"
+ },
+ {
+  "role": "assistant",
+  "content": "{\"names\": [\"intro\", \"verse\", \"chorus\", \"verse\", \"chorus\", \"bridge\", \"chorus\", \"outro\"], \"top3_scores\": [[[\"chorus\", 0.226], [\"bridge\", 0.225], [\"verse\", 0.218]], [[\"bridge\", 0.278], [\"verse\", 0.263], [\"chorus\", 0.215]], [[\"bridge\", 0.221], [\"verse\", 0.204], [\"chorus\", 0.129]], [[\"bridge\", 0.275], [\"verse\", 0.25], [\"chorus\", 0.177]], [[\"bridge\", 0.235], [\"verse\", 0.215], [\"chorus\", 0.152]], [[\"verse\", 0.256], [\"bridge\", 0.253], [\"chorus\", 0.172]], [[\"bridge\", 0.262], [\"verse\", 0.253], [\"chorus\", 0.188]], [[\"verse\", 0.206], [\"bridge\", 0.203], [\"chorus\", 0.114]]]}"
+ },
+ {
+  "role": "tool_result",
+  "name": "grader",
+  "content": "{\"sections\": [{\"start\": 0.2, \"end\": 14.8, \"annotated\": \"intro\", \"scored_as\": \"intro\", \"named\": \"intro\", \"right\": true}, {\"start\": 14.8, \"end\": 43.9, \"annotated\": \"verse\", \"scored_as\": \"verse\", \"named\": \"verse\", \"right\": true}, {\"start\": 43.9, \"end\": 80.2, \"annotated\": \"chorus\", \"scored_as\": \"chorus\", \"named\": \"chorus\", \"right\": true}, {\"start\": 80.2, \"end\": 109.3, \"annotated\": \"verse\", \"scored_as\": \"verse\", \"named\": \"verse\", \"right\": true}, {\"start\": 109.3, \"end\": 145.7, \"annotated\": \"chorus\", \"scored_as\": \"chorus\", \"named\": \"chorus\", \"right\": true}, {\"start\": 145.7, \"end\": 174.8, \"annotated\": \"bridge\", \"scored_as\": \"bridge\", \"named\": \"bridge\", \"right\": true}, {\"start\": 174.8, \"end\": 213.0, \"annotated\": \"chorus\", \"scored_as\": \"chorus\", \"named\": \"chorus\", \"right\": true}, {\"start\": 213.0, \"end\": 217.8, \"annotated\": \"outro\", \"scored_as\": \"outro\", \"named\": \"outro\", \"right\": true}], \"grade\": {\"acc\": 1.0}}"
+ }
+]

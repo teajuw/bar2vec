@@ -1,0 +1,15 @@
+[
+ {
+  "role": "user",
+  "content": "Name each section of this song: Waiting Outside the Lines \u2014 Greyson Chance (Pop, 10 sections)\nsection edges (s): [0.1, 26.6, 41.6, 70.7, 97.2, 126.3, 155.4, 168.6, 182.7, 211.9, 227.7]\nsettings: {\"encoder\": \"clapbar_fold\", \"prompts\": {\"intro\": [\"the intro of a song\"], \"verse\": [\"the verse of a song\"], \"prechorus\": [\"the pre-chorus of a song\"], \"chorus\": [\"the chorus of a song\"], \"postchorus\": [\"the post-chorus of a song\"], \"bridge\": [\"the bridge of a song\"], \"outro\": [\"the outro of a song\"], \"instrumental\": [\"an instrumental section of a song\"]}, \"extra_models\": [\"matpacbar_fold\"], \"structure\": {\"model\": \"matpacbar_fold\", \"position\": true, \"repeat_tau\": 0.4, \"bridge\": false, \"prepost\": false, \"short_s\": 20}}"
+ },
+ {
+  "role": "assistant",
+  "content": "{\"names\": [\"intro\", \"verse\", \"chorus\", \"verse\", \"verse\", \"chorus\", \"verse\", \"verse\", \"chorus\", \"outro\"], \"top3_scores\": [[[\"verse\", 0.268], [\"bridge\", 0.259], [\"outro\", 0.19]], [[\"bridge\", 0.242], [\"verse\", 0.201], [\"outro\", 0.143]], [[\"bridge\", 0.207], [\"outro\", 0.167], [\"verse\", 0.147]], [[\"bridge\", 0.269], [\"verse\", 0.242], [\"outro\", 0.186]], [[\"bridge\", 0.23], [\"verse\", 0.184], [\"outro\", 0.132]], [[\"bridge\", 0.225], [\"outro\", 0.175], [\"verse\", 0.162]], [[\"bridge\", 0.203], [\"verse\", 0.184], [\"postchorus\", 0.121]], [[\"outro\", 0.277], [\"verse\", 0.248], [\"bridge\", 0.237]], [[\"bridge\", 0.211], [\"outro\", 0.183], [\"verse\", 0.151]], [[\"verse\", 0.229], [\"bridge\", 0.228], [\"outro\", 0.208]]]}"
+ },
+ {
+  "role": "tool_result",
+  "name": "grader",
+  "content": "{\"sections\": [{\"start\": 0.1, \"end\": 26.6, \"annotated\": \"verse\", \"scored_as\": \"verse\", \"named\": \"intro\", \"right\": false}, {\"start\": 26.6, \"end\": 41.6, \"annotated\": \"prechorus\", \"scored_as\": \"prechorus\", \"named\": \"verse\", \"right\": false}, {\"start\": 41.6, \"end\": 70.7, \"annotated\": \"chorus\", \"scored_as\": \"chorus\", \"named\": \"chorus\", \"right\": true}, {\"start\": 70.7, \"end\": 97.2, \"annotated\": \"verse\", \"scored_as\": \"verse\", \"named\": \"verse\", \"right\": true}, {\"start\": 97.2, \"end\": 126.3, \"annotated\": \"prechorus\", \"scored_as\": \"prechorus\", \"named\": \"verse\", \"right\": false}, {\"start\": 126.3, \"end\": 155.4, \"annotated\": \"chorus\", \"scored_as\": \"chorus\", \"named\": \"chorus\", \"right\": true}, {\"start\": 155.4, \"end\": 168.6, \"annotated\": \"bridge\", \"scored_as\": \"bridge\", \"named\": \"verse\", \"right\": false}, {\"start\": 168.6, \"end\": 182.7, \"annotated\": \"quietchorus\", \"scored_as\": null, \"named\": \"verse\", \"right\": null}, {\"start\": 182.7, \"end\": 211.9, \"annotated\": \"chorus\", \"scored_as\": \"chorus\", \"named\": \"chorus\", \"right\": true}, {\"start\": 211.9, \"end\": 227.7, \"annotated\": \"verse\", \"scored_as\": \"verse\", \"named\": \"outro\", \"right\": false}], \"grade\": {\"acc\": 0.4444}}"
+ }
+]

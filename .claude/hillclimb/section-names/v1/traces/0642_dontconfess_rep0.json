@@ -1,0 +1,15 @@
+[
+ {
+  "role": "user",
+  "content": "Name each section of this song: Don't Confess \u2014 Tegan and Sara (Pop, 10 sections)\nsection edges (s): [0.5, 25.5, 50.5, 58.9, 100.6, 129.8, 154.8, 163.2, 204.9, 253.9, 267.5]\nsettings: {\"encoder\": \"clapbar_fold\", \"prompts\": {\"intro\": [\"the intro of a song\"], \"verse\": [\"the verse of a song\"], \"prechorus\": [\"the pre-chorus of a song\"], \"chorus\": [\"the chorus of a song\"], \"postchorus\": [\"the post-chorus of a song\"], \"bridge\": [\"the bridge of a song\"], \"outro\": [\"the outro of a song\"], \"instrumental\": [\"an instrumental section of a song\"]}, \"extra_models\": [\"matpacbar_fold\"], \"structure\": {\"model\": \"matpacbar_fold\", \"position\": true, \"repeat_tau\": null, \"bridge\": false, \"prepost\": false, \"short_s\": 20}}"
+ },
+ {
+  "role": "assistant",
+  "content": "{\"names\": [\"intro\", \"verse\", \"verse\", \"verse\", \"verse\", \"verse\", \"verse\", \"verse\", \"verse\", \"outro\"], \"top3_scores\": [[[\"instrumental\", 0.255], [\"bridge\", 0.23], [\"postchorus\", 0.184]], [[\"bridge\", 0.189], [\"verse\", 0.136], [\"instrumental\", 0.125]], [[\"bridge\", 0.158], [\"verse\", 0.113], [\"chorus\", 0.072]], [[\"bridge\", 0.165], [\"verse\", 0.116], [\"postchorus\", 0.072]], [[\"bridge\", 0.142], [\"instrumental\", 0.138], [\"outro\", 0.112]], [[\"bridge\", 0.167], [\"verse\", 0.119], [\"instrumental\", 0.11]], [[\"bridge\", 0.187], [\"verse\", 0.146], [\"prechorus\", 0.089]], [[\"bridge\", 0.16], [\"verse\", 0.117], [\"chorus\", 0.07]], [[\"bridge\", 0.179], [\"instrumental\", 0.152], [\"outro\", 0.131]], [[\"bridge\", 0.183], [\"verse\", 0.137], [\"chorus\", 0.094]]]}"
+ },
+ {
+  "role": "tool_result",
+  "name": "grader",
+  "content": "{\"sections\": [{\"start\": 0.5, \"end\": 25.5, \"annotated\": \"intro\", \"scored_as\": \"intro\", \"named\": \"intro\", \"right\": true}, {\"start\": 25.5, \"end\": 50.5, \"annotated\": \"verse\", \"scored_as\": \"verse\", \"named\": \"verse\", \"right\": true}, {\"start\": 50.5, \"end\": 58.9, \"annotated\": \"prechorus\", \"scored_as\": \"prechorus\", \"named\": \"verse\", \"right\": false}, {\"start\": 58.9, \"end\": 100.6, \"annotated\": \"chorus\", \"scored_as\": \"chorus\", \"named\": \"verse\", \"right\": false}, {\"start\": 100.6, \"end\": 129.8, \"annotated\": \"postchorus\", \"scored_as\": \"postchorus\", \"named\": \"verse\", \"right\": false}, {\"start\": 129.8, \"end\": 154.8, \"annotated\": \"verse\", \"scored_as\": \"verse\", \"named\": \"verse\", \"right\": true}, {\"start\": 154.8, \"end\": 163.2, \"annotated\": \"prechorus\", \"scored_as\": \"prechorus\", \"named\": \"verse\", \"right\": false}, {\"start\": 163.2, \"end\": 204.9, \"annotated\": \"chorus\", \"scored_as\": \"chorus\", \"named\": \"verse\", \"right\": false}, {\"start\": 204.9, \"end\": 253.9, \"annotated\": \"postchorus\", \"scored_as\": \"postchorus\", \"named\": \"verse\", \"right\": false}, {\"start\": 253.9, \"end\": 267.5, \"annotated\": \"prechorus\", \"scored_as\": \"prechorus\", \"named\": \"outro\", \"right\": false}], \"grade\": {\"acc\": 0.3}}"
+ }
+]

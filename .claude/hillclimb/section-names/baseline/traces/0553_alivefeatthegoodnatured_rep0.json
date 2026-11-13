@@ -1,0 +1,15 @@
+[
+ {
+  "role": "user",
+  "content": "Name each section of this song: Alive (Basto remix) \u2014 Adrian Lux feat. The Good Natured (Dance/Electronic, 6 sections)\nsection edges (s): [0.0, 30.1, 67.6, 120.1, 150.1, 187.6, 277.6]\nsettings: {\"encoder\": \"clapbar_fold\", \"prompts\": {\"intro\": [\"the intro of a song\"], \"verse\": [\"the verse of a song\"], \"prechorus\": [\"the pre-chorus of a song\"], \"chorus\": [\"the chorus of a song\"], \"postchorus\": [\"the post-chorus of a song\"], \"bridge\": [\"the bridge of a song\"], \"outro\": [\"the outro of a song\"], \"instrumental\": [\"an instrumental section of a song\"]}}"
+ },
+ {
+  "role": "assistant",
+  "content": "{\"names\": [\"outro\", \"outro\", \"outro\", \"outro\", \"outro\", \"outro\"], \"top3_scores\": [[[\"outro\", 0.281], [\"bridge\", 0.243], [\"verse\", 0.234]], [[\"outro\", 0.308], [\"bridge\", 0.277], [\"verse\", 0.251]], [[\"outro\", 0.303], [\"bridge\", 0.296], [\"intro\", 0.254]], [[\"outro\", 0.284], [\"bridge\", 0.268], [\"verse\", 0.255]], [[\"outro\", 0.28], [\"bridge\", 0.234], [\"verse\", 0.22]], [[\"outro\", 0.335], [\"bridge\", 0.318], [\"intro\", 0.29]]]}"
+ },
+ {
+  "role": "tool_result",
+  "name": "grader",
+  "content": "{\"sections\": [{\"start\": 0.0, \"end\": 30.1, \"annotated\": \"verse\", \"scored_as\": \"verse\", \"named\": \"outro\", \"right\": false}, {\"start\": 30.1, \"end\": 67.6, \"annotated\": \"chorus\", \"scored_as\": \"chorus\", \"named\": \"outro\", \"right\": false}, {\"start\": 67.6, \"end\": 120.1, \"annotated\": \"instrumental\", \"scored_as\": \"instrumental\", \"named\": \"outro\", \"right\": false}, {\"start\": 120.1, \"end\": 150.1, \"annotated\": \"verse\", \"scored_as\": \"verse\", \"named\": \"outro\", \"right\": false}, {\"start\": 150.1, \"end\": 187.6, \"annotated\": \"chorus\", \"scored_as\": \"chorus\", \"named\": \"outro\", \"right\": false}, {\"start\": 187.6, \"end\": 277.6, \"annotated\": \"instrumental\", \"scored_as\": \"instrumental\", \"named\": \"outro\", \"right\": false}], \"grade\": {\"acc\": 0.0}}"
+ }
+]

@@ -1,0 +1,15 @@
+[
+ {
+  "role": "user",
+  "content": "Name each section of this song: Monday Monday Monday \u2014 Tegan and Sara (Pop, 10 sections)\nsection edges (s): [0.4, 8.2, 29.9, 49.5, 71.2, 90.8, 110.5, 132.1, 151.8, 181.3, 189.2]\nsettings: {\"encoder\": \"clapbar_fold\", \"prompts\": {\"intro\": [\"the intro of a song\"], \"verse\": [\"the verse of a song\"], \"prechorus\": [\"the pre-chorus of a song\"], \"chorus\": [\"the chorus of a song\"], \"postchorus\": [\"the post-chorus of a song\"], \"bridge\": [\"the bridge of a song\"], \"outro\": [\"the outro of a song\"], \"instrumental\": [\"an instrumental section of a song\"]}, \"extra_models\": [\"matpacbar_fold\"], \"structure\": {\"model\": \"matpacbar_fold\", \"position\": true, \"repeat_tau\": null, \"bridge\": false, \"prepost\": false, \"short_s\": 20}}"
+ },
+ {
+  "role": "assistant",
+  "content": "{\"names\": [\"intro\", \"verse\", \"verse\", \"verse\", \"verse\", \"verse\", \"verse\", \"verse\", \"verse\", \"outro\"], \"top3_scores\": [[[\"bridge\", 0.115], [\"outro\", 0.103], [\"instrumental\", 0.092]], [[\"bridge\", 0.127], [\"verse\", 0.098], [\"outro\", 0.08]], [[\"bridge\", 0.144], [\"outro\", 0.121], [\"verse\", 0.096]], [[\"bridge\", 0.129], [\"verse\", 0.105], [\"outro\", 0.076]], [[\"bridge\", 0.132], [\"outro\", 0.117], [\"verse\", 0.08]], [[\"bridge\", 0.174], [\"outro\", 0.142], [\"verse\", 0.135]], [[\"bridge\", 0.141], [\"verse\", 0.109], [\"outro\", 0.098]], [[\"bridge\", 0.145], [\"outro\", 0.124], [\"verse\", 0.106]], [[\"bridge\", 0.146], [\"verse\", 0.117], [\"outro\", 0.114]], [[\"instrumental\", 0.162], [\"outro\", 0.161], [\"bridge\", 0.152]]]}"
+ },
+ {
+  "role": "tool_result",
+  "name": "grader",
+  "content": "{\"sections\": [{\"start\": 0.4, \"end\": 8.2, \"annotated\": \"intro\", \"scored_as\": \"intro\", \"named\": \"intro\", \"right\": true}, {\"start\": 8.2, \"end\": 29.9, \"annotated\": \"verse\", \"scored_as\": \"verse\", \"named\": \"verse\", \"right\": true}, {\"start\": 29.9, \"end\": 49.5, \"annotated\": \"chorus\", \"scored_as\": \"chorus\", \"named\": \"verse\", \"right\": false}, {\"start\": 49.5, \"end\": 71.2, \"annotated\": \"verse\", \"scored_as\": \"verse\", \"named\": \"verse\", \"right\": true}, {\"start\": 71.2, \"end\": 90.8, \"annotated\": \"chorus\", \"scored_as\": \"chorus\", \"named\": \"verse\", \"right\": false}, {\"start\": 90.8, \"end\": 110.5, \"annotated\": \"bridge\", \"scored_as\": \"bridge\", \"named\": \"verse\", \"right\": false}, {\"start\": 110.5, \"end\": 132.1, \"annotated\": \"verse\", \"scored_as\": \"verse\", \"named\": \"verse\", \"right\": true}, {\"start\": 132.1, \"end\": 151.8, \"annotated\": \"chorus\", \"scored_as\": \"chorus\", \"named\": \"verse\", \"right\": false}, {\"start\": 151.8, \"end\": 181.3, \"annotated\": \"bridge\", \"scored_as\": \"bridge\", \"named\": \"verse\", \"right\": false}, {\"start\": 181.3, \"end\": 189.2, \"annotated\": \"outro\", \"scored_as\": \"outro\", \"named\": \"outro\", \"right\": true}], \"grade\": {\"acc\": 0.5}}"
+ }
+]

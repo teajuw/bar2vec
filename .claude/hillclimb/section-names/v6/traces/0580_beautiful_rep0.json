@@ -1,0 +1,15 @@
+[
+ {
+  "role": "user",
+  "content": "Name each section of this song: Beautiful \u2014 Christina Aguilera (Pop, 9 sections)\nsection edges (s): [0.9, 26.1, 51.4, 79.7, 92.3, 117.5, 145.9, 171.1, 199.5, 231.1]\nsettings: {\"encoder\": \"clapbar_fold\", \"prompts\": {\"intro\": [\"the intro of a song\"], \"verse\": [\"the verse of a song\"], \"prechorus\": [\"the pre-chorus of a song\"], \"chorus\": [\"the chorus of a song\"], \"postchorus\": [\"the post-chorus of a song\"], \"bridge\": [\"the bridge of a song\"], \"outro\": [\"the outro of a song\"], \"instrumental\": [\"an instrumental section of a song\"]}, \"extra_models\": [\"matpacbar_fold\", \"loudbar_fold\"], \"structure\": {\"model\": \"matpacbar_fold\", \"position\": true, \"repeat_tau\": 0.4, \"bridge\": true, \"prepost\": true, \"short_s\": 20, \"vocal_below\": -1.0, \"loud_model\": \"loudbar_fold\", \"loud_w\": 2.0}, \"extra_prompts\": {\"vocals\": [\"singing vocals\", \"a person singing or rapping\"], \"no_vocals\": [\"instrumental music with no vocals\", \"an instrumental solo\"]}}"
+ },
+ {
+  "role": "assistant",
+  "content": "{\"names\": [\"intro\", \"verse\", \"verse\", \"verse\", \"verse\", \"chorus\", \"bridge\", \"chorus\", \"outro\"], \"top3_scores\": [[[\"bridge\", 0.253], [\"verse\", 0.253], [\"postchorus\", 0.173]], [[\"bridge\", 0.241], [\"verse\", 0.219], [\"postchorus\", 0.143]], [[\"bridge\", 0.275], [\"verse\", 0.269], [\"postchorus\", 0.176]], [[\"bridge\", 0.2], [\"verse\", 0.171], [\"postchorus\", 0.127]], [[\"bridge\", 0.231], [\"verse\", 0.224], [\"postchorus\", 0.115]], [[\"bridge\", 0.232], [\"verse\", 0.228], [\"postchorus\", 0.125]], [[\"verse\", 0.183], [\"bridge\", 0.169], [\"postchorus\", 0.097]], [[\"bridge\", 0.246], [\"verse\", 0.231], [\"chorus\", 0.142]], [[\"verse\", 0.284], [\"bridge\", 0.271], [\"outro\", 0.175]]]}"
+ },
+ {
+  "role": "tool_result",
+  "name": "grader",
+  "content": "{\"sections\": [{\"start\": 0.9, \"end\": 26.1, \"annotated\": \"intro\", \"scored_as\": \"intro\", \"named\": \"intro\", \"right\": true}, {\"start\": 26.1, \"end\": 51.4, \"annotated\": \"verse\", \"scored_as\": \"verse\", \"named\": \"verse\", \"right\": true}, {\"start\": 51.4, \"end\": 79.7, \"annotated\": \"chorus\", \"scored_as\": \"chorus\", \"named\": \"verse\", \"right\": false}, {\"start\": 79.7, \"end\": 92.3, \"annotated\": \"instrumental\", \"scored_as\": \"instrumental\", \"named\": \"verse\", \"right\": false}, {\"start\": 92.3, \"end\": 117.5, \"annotated\": \"verse\", \"scored_as\": \"verse\", \"named\": \"verse\", \"right\": true}, {\"start\": 117.5, \"end\": 145.9, \"annotated\": \"chorus\", \"scored_as\": \"chorus\", \"named\": \"chorus\", \"right\": true}, {\"start\": 145.9, \"end\": 171.1, \"annotated\": \"bridge\", \"scored_as\": \"bridge\", \"named\": \"bridge\", \"right\": true}, {\"start\": 171.1, \"end\": 199.5, \"annotated\": \"chorus\", \"scored_as\": \"chorus\", \"named\": \"chorus\", \"right\": true}, {\"start\": 199.5, \"end\": 231.1, \"annotated\": \"outro\", \"scored_as\": \"outro\", \"named\": \"outro\", \"right\": true}], \"grade\": {\"acc\": 0.7778}}"
+ }
+]

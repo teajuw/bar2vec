@@ -1,0 +1,16 @@
+audio/
+models/
+.venv/
+__pycache__/
+data/*.npy
+data/*.npz
+.DS_Store
+audio_hx/
+external/
+!data/merge_model.npz
+!data/beat_placer.npz
+
+# kept locally only
+papers/**/*.pdf
+papers/*.pdf
+data/downloads.json

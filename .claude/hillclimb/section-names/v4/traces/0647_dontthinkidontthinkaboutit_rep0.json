@@ -1,0 +1,15 @@
+[
+ {
+  "role": "user",
+  "content": "Name each section of this song: Don't Think I Don't Think About It \u2014 Darius Rucker (Country, 8 sections)\nsection edges (s): [0.7, 13.5, 37.6, 68.0, 92.0, 119.3, 130.5, 160.9, 168.9]\nsettings: {\"encoder\": \"clapbar_fold\", \"prompts\": {\"intro\": [\"the intro of a song\"], \"verse\": [\"the verse of a song\"], \"prechorus\": [\"the pre-chorus of a song\"], \"chorus\": [\"the chorus of a song\"], \"postchorus\": [\"the post-chorus of a song\"], \"bridge\": [\"the bridge of a song\"], \"outro\": [\"the outro of a song\"], \"instrumental\": [\"an instrumental section of a song\"]}, \"extra_models\": [\"matpacbar_fold\"], \"structure\": {\"model\": \"matpacbar_fold\", \"position\": true, \"repeat_tau\": 0.4, \"bridge\": true, \"prepost\": true, \"short_s\": 20}}"
+ },
+ {
+  "role": "assistant",
+  "content": "{\"names\": [\"intro\", \"verse\", \"chorus\", \"verse\", \"chorus\", \"bridge\", \"chorus\", \"outro\"], \"top3_scores\": [[[\"bridge\", 0.14], [\"chorus\", 0.125], [\"postchorus\", 0.103]], [[\"bridge\", 0.234], [\"verse\", 0.201], [\"chorus\", 0.135]], [[\"bridge\", 0.209], [\"verse\", 0.182], [\"outro\", 0.1]], [[\"bridge\", 0.241], [\"verse\", 0.2], [\"chorus\", 0.142]], [[\"bridge\", 0.202], [\"verse\", 0.181], [\"outro\", 0.097]], [[\"bridge\", 0.202], [\"verse\", 0.164], [\"postchorus\", 0.11]], [[\"bridge\", 0.222], [\"verse\", 0.197], [\"outro\", 0.133]], [[\"bridge\", 0.161], [\"verse\", 0.137], [\"chorus\", 0.079]]]}"
+ },
+ {
+  "role": "tool_result",
+  "name": "grader",
+  "content": "{\"sections\": [{\"start\": 0.7, \"end\": 13.5, \"annotated\": \"intro\", \"scored_as\": \"intro\", \"named\": \"intro\", \"right\": true}, {\"start\": 13.5, \"end\": 37.6, \"annotated\": \"verse\", \"scored_as\": \"verse\", \"named\": \"verse\", \"right\": true}, {\"start\": 37.6, \"end\": 68.0, \"annotated\": \"chorus\", \"scored_as\": \"chorus\", \"named\": \"chorus\", \"right\": true}, {\"start\": 68.0, \"end\": 92.0, \"annotated\": \"verse\", \"scored_as\": \"verse\", \"named\": \"verse\", \"right\": true}, {\"start\": 92.0, \"end\": 119.3, \"annotated\": \"chorus\", \"scored_as\": \"chorus\", \"named\": \"chorus\", \"right\": true}, {\"start\": 119.3, \"end\": 130.5, \"annotated\": \"bridge\", \"scored_as\": \"bridge\", \"named\": \"bridge\", \"right\": true}, {\"start\": 130.5, \"end\": 160.9, \"annotated\": \"chorus\", \"scored_as\": \"chorus\", \"named\": \"chorus\", \"right\": true}, {\"start\": 160.9, \"end\": 168.9, \"annotated\": \"outro\", \"scored_as\": \"outro\", \"named\": \"outro\", \"right\": true}], \"grade\": {\"acc\": 1.0}}"
+ }
+]

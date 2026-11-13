@@ -1,0 +1,15 @@
+[
+ {
+  "role": "user",
+  "content": "Name each section of this song: Fireflies \u2014 Owl City (Pop, 10 sections)\nsection edges (s): [0.0, 21.4, 42.7, 64.1, 85.4, 109.4, 130.7, 152.1, 173.4, 194.7, 213.4]\nsettings: {\"encoder\": \"clapbar_fold\", \"prompts\": {\"intro\": [\"the intro of a song\"], \"verse\": [\"the verse of a song\"], \"prechorus\": [\"the pre-chorus of a song\"], \"chorus\": [\"the chorus of a song\"], \"postchorus\": [\"the post-chorus of a song\"], \"bridge\": [\"the bridge of a song\"], \"outro\": [\"the outro of a song\"], \"instrumental\": [\"an instrumental section of a song\"]}}"
+ },
+ {
+  "role": "assistant",
+  "content": "{\"names\": [\"outro\", \"verse\", \"bridge\", \"verse\", \"bridge\", \"verse\", \"verse\", \"bridge\", \"bridge\", \"verse\"], \"top3_scores\": [[[\"outro\", 0.392], [\"intro\", 0.353], [\"verse\", 0.338]], [[\"verse\", 0.408], [\"bridge\", 0.392], [\"outro\", 0.323]], [[\"bridge\", 0.383], [\"outro\", 0.375], [\"verse\", 0.373]], [[\"verse\", 0.367], [\"bridge\", 0.34], [\"outro\", 0.32]], [[\"bridge\", 0.379], [\"outro\", 0.374], [\"verse\", 0.356]], [[\"verse\", 0.369], [\"bridge\", 0.336], [\"outro\", 0.306]], [[\"verse\", 0.382], [\"bridge\", 0.361], [\"outro\", 0.344]], [[\"bridge\", 0.365], [\"outro\", 0.352], [\"verse\", 0.339]], [[\"bridge\", 0.344], [\"outro\", 0.335], [\"verse\", 0.317]], [[\"verse\", 0.264], [\"bridge\", 0.256], [\"outro\", 0.236]]]}"
+ },
+ {
+  "role": "tool_result",
+  "name": "grader",
+  "content": "{\"sections\": [{\"start\": 0.0, \"end\": 21.4, \"annotated\": \"intro\", \"scored_as\": \"intro\", \"named\": \"outro\", \"right\": false}, {\"start\": 21.4, \"end\": 42.7, \"annotated\": \"verse\", \"scored_as\": \"verse\", \"named\": \"verse\", \"right\": true}, {\"start\": 42.7, \"end\": 64.1, \"annotated\": \"chorus\", \"scored_as\": \"chorus\", \"named\": \"bridge\", \"right\": false}, {\"start\": 64.1, \"end\": 85.4, \"annotated\": \"verse\", \"scored_as\": \"verse\", \"named\": \"verse\", \"right\": true}, {\"start\": 85.4, \"end\": 109.4, \"annotated\": \"chorus\", \"scored_as\": \"chorus\", \"named\": \"bridge\", \"right\": false}, {\"start\": 109.4, \"end\": 130.7, \"annotated\": \"bridge\", \"scored_as\": \"bridge\", \"named\": \"verse\", \"right\": false}, {\"start\": 130.7, \"end\": 152.1, \"annotated\": \"verse\", \"scored_as\": \"verse\", \"named\": \"verse\", \"right\": true}, {\"start\": 152.1, \"end\": 173.4, \"annotated\": \"chorus\", \"scored_as\": \"chorus\", \"named\": \"bridge\", \"right\": false}, {\"start\": 173.4, \"end\": 194.7, \"annotated\": \"chorus\", \"scored_as\": \"chorus\", \"named\": \"bridge\", \"right\": false}, {\"start\": 194.7, \"end\": 213.4, \"annotated\": \"chorus\", \"scored_as\": \"chorus\", \"named\": \"verse\", \"right\": false}], \"grade\": {\"acc\": 0.3}}"
+ }
+]

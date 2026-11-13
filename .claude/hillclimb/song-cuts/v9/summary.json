@@ -1,0 +1,4 @@
+{
+ "description": "block-matching cuts, kept only where the change score agrees",
+ "target": "code"
+}

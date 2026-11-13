@@ -1,0 +1,15 @@
+[
+ {
+  "role": "user",
+  "content": "Name each section of this song: Our Song \u2014 Taylor Swift (Country, 9 sections)\nsection edges (s): [0.4, 12.5, 35.4, 67.8, 89.4, 116.3, 141.9, 168.9, 185.1, 193.2]\nsettings: {\"encoder\": \"clapbar_fold\", \"prompts\": {\"intro\": [\"the intro of a song\"], \"verse\": [\"the verse of a song\"], \"prechorus\": [\"the pre-chorus of a song\"], \"chorus\": [\"the chorus of a song\"], \"postchorus\": [\"the post-chorus of a song\"], \"bridge\": [\"the bridge of a song\"], \"outro\": [\"the outro of a song\"], \"instrumental\": [\"an instrumental section of a song\"]}}"
+ },
+ {
+  "role": "assistant",
+  "content": "{\"names\": [\"bridge\", \"verse\", \"verse\", \"verse\", \"verse\", \"bridge\", \"verse\", \"bridge\", \"verse\"], \"top3_scores\": [[[\"bridge\", 0.18], [\"chorus\", 0.178], [\"verse\", 0.164]], [[\"verse\", 0.244], [\"bridge\", 0.233], [\"chorus\", 0.183]], [[\"verse\", 0.219], [\"bridge\", 0.208], [\"chorus\", 0.119]], [[\"verse\", 0.267], [\"bridge\", 0.242], [\"chorus\", 0.199]], [[\"verse\", 0.236], [\"bridge\", 0.208], [\"chorus\", 0.127]], [[\"bridge\", 0.251], [\"verse\", 0.225], [\"chorus\", 0.194]], [[\"verse\", 0.218], [\"bridge\", 0.197], [\"chorus\", 0.146]], [[\"bridge\", 0.246], [\"verse\", 0.239], [\"chorus\", 0.179]], [[\"verse\", 0.259], [\"bridge\", 0.238], [\"chorus\", 0.202]]]}"
+ },
+ {
+  "role": "tool_result",
+  "name": "grader",
+  "content": "{\"sections\": [{\"start\": 0.4, \"end\": 12.5, \"annotated\": \"intro\", \"scored_as\": \"intro\", \"named\": \"bridge\", \"right\": false}, {\"start\": 12.5, \"end\": 35.4, \"annotated\": \"verse\", \"scored_as\": \"verse\", \"named\": \"verse\", \"right\": true}, {\"start\": 35.4, \"end\": 67.8, \"annotated\": \"chorus\", \"scored_as\": \"chorus\", \"named\": \"verse\", \"right\": false}, {\"start\": 67.8, \"end\": 89.4, \"annotated\": \"verse\", \"scored_as\": \"verse\", \"named\": \"verse\", \"right\": true}, {\"start\": 89.4, \"end\": 116.3, \"annotated\": \"chorus\", \"scored_as\": \"chorus\", \"named\": \"verse\", \"right\": false}, {\"start\": 116.3, \"end\": 141.9, \"annotated\": \"solo\", \"scored_as\": \"instrumental\", \"named\": \"bridge\", \"right\": false}, {\"start\": 141.9, \"end\": 168.9, \"annotated\": \"chorus\", \"scored_as\": \"chorus\", \"named\": \"verse\", \"right\": false}, {\"start\": 168.9, \"end\": 185.1, \"annotated\": \"postchorus\", \"scored_as\": \"postchorus\", \"named\": \"bridge\", \"right\": false}, {\"start\": 185.1, \"end\": 193.2, \"annotated\": \"outro\", \"scored_as\": \"outro\", \"named\": \"verse\", \"right\": false}], \"grade\": {\"acc\": 0.2222}}"
+ }
+]

@@ -1,0 +1,15 @@
+[
+ {
+  "role": "user",
+  "content": "Name each section of this song: Had It All \u2014 Katharine McPhee (Pop, 8 sections)\nsection edges (s): [0.5, 26.1, 58.1, 77.3, 102.9, 118.9, 131.7, 157.3, 173.3]\nsettings: {\"encoder\": \"clapbar_fold\", \"prompts\": {\"intro\": [\"the intro of a song\"], \"verse\": [\"the verse of a song\"], \"prechorus\": [\"the pre-chorus of a song\"], \"chorus\": [\"the chorus of a song\"], \"postchorus\": [\"the post-chorus of a song\"], \"bridge\": [\"the bridge of a song\"], \"outro\": [\"the outro of a song\"], \"instrumental\": [\"an instrumental section of a song\"]}, \"extra_models\": [\"matpacbar_fold\"], \"structure\": {\"model\": \"matpacbar_fold\", \"position\": true, \"repeat_tau\": 0.4, \"bridge\": true, \"prepost\": true, \"short_s\": 20, \"vocal_below\": -1.0}, \"extra_prompts\": {\"vocals\": [\"singing vocals\", \"a person singing or rapping\"], \"no_vocals\": [\"instrumental music with no vocals\", \"an instrumental solo\"]}}"
+ },
+ {
+  "role": "assistant",
+  "content": "{\"names\": [\"intro\", \"chorus\", \"verse\", \"chorus\", \"verse\", \"instrumental\", \"chorus\", \"outro\"], \"top3_scores\": [[[\"bridge\", 0.282], [\"verse\", 0.28], [\"postchorus\", 0.21]], [[\"bridge\", 0.238], [\"verse\", 0.217], [\"outro\", 0.17]], [[\"bridge\", 0.244], [\"verse\", 0.24], [\"prechorus\", 0.168]], [[\"bridge\", 0.207], [\"verse\", 0.201], [\"outro\", 0.139]], [[\"bridge\", 0.154], [\"verse\", 0.15], [\"prechorus\", 0.14]], [[\"bridge\", 0.215], [\"instrumental\", 0.173], [\"outro\", 0.167]], [[\"bridge\", 0.203], [\"verse\", 0.182], [\"outro\", 0.138]], [[\"bridge\", 0.198], [\"verse\", 0.16], [\"outro\", 0.144]]]}"
+ },
+ {
+  "role": "tool_result",
+  "name": "grader",
+  "content": "{\"sections\": [{\"start\": 0.5, \"end\": 26.1, \"annotated\": \"verse\", \"scored_as\": \"verse\", \"named\": \"intro\", \"right\": false}, {\"start\": 26.1, \"end\": 58.1, \"annotated\": \"chorus\", \"scored_as\": \"chorus\", \"named\": \"chorus\", \"right\": true}, {\"start\": 58.1, \"end\": 77.3, \"annotated\": \"verse\", \"scored_as\": \"verse\", \"named\": \"verse\", \"right\": true}, {\"start\": 77.3, \"end\": 102.9, \"annotated\": \"chorus\", \"scored_as\": \"chorus\", \"named\": \"chorus\", \"right\": true}, {\"start\": 102.9, \"end\": 118.9, \"annotated\": \"bridge\", \"scored_as\": \"bridge\", \"named\": \"verse\", \"right\": false}, {\"start\": 118.9, \"end\": 131.7, \"annotated\": \"solo\", \"scored_as\": \"instrumental\", \"named\": \"instrumental\", \"right\": true}, {\"start\": 131.7, \"end\": 157.3, \"annotated\": \"chorus\", \"scored_as\": \"chorus\", \"named\": \"chorus\", \"right\": true}, {\"start\": 157.3, \"end\": 173.3, \"annotated\": \"outro\", \"scored_as\": \"outro\", \"named\": \"outro\", \"right\": true}], \"grade\": {\"acc\": 0.75}}"
+ }
+]

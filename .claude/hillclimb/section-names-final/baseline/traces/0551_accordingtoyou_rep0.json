@@ -1,0 +1,15 @@
+[
+ {
+  "role": "user",
+  "content": "Name each section of this song: According to You \u2014 Orianthi (Pop, 8 sections)\nsection edges (s): [0.0, 31.6, 61.4, 90.2, 117.2, 145.6, 152.5, 185.9, 192.7]\nsettings: {\"encoder\": \"clapbar_fold\", \"prompts\": {\"intro\": [\"the intro of a song\"], \"verse\": [\"the verse of a song\"], \"prechorus\": [\"the pre-chorus of a song\"], \"chorus\": [\"the chorus of a song\"], \"postchorus\": [\"the post-chorus of a song\"], \"bridge\": [\"the bridge of a song\"], \"outro\": [\"the outro of a song\"], \"instrumental\": [\"an instrumental section of a song\"]}}"
+ },
+ {
+  "role": "assistant",
+  "content": "{\"names\": [\"bridge\", \"outro\", \"bridge\", \"outro\", \"outro\", \"verse\", \"outro\", \"bridge\"], \"top3_scores\": [[[\"bridge\", 0.276], [\"verse\", 0.271], [\"outro\", 0.2]], [[\"outro\", 0.237], [\"bridge\", 0.224], [\"verse\", 0.219]], [[\"bridge\", 0.249], [\"verse\", 0.228], [\"outro\", 0.206]], [[\"outro\", 0.221], [\"bridge\", 0.208], [\"verse\", 0.2]], [[\"outro\", 0.295], [\"bridge\", 0.278], [\"chorus\", 0.27]], [[\"verse\", 0.334], [\"bridge\", 0.305], [\"outro\", 0.226]], [[\"outro\", 0.237], [\"bridge\", 0.221], [\"verse\", 0.208]], [[\"bridge\", 0.228], [\"verse\", 0.227], [\"outro\", 0.136]]]}"
+ },
+ {
+  "role": "tool_result",
+  "name": "grader",
+  "content": "{\"sections\": [{\"start\": 0.0, \"end\": 31.6, \"annotated\": \"verse\", \"scored_as\": \"verse\", \"named\": \"bridge\", \"right\": false}, {\"start\": 31.6, \"end\": 61.4, \"annotated\": \"chorus\", \"scored_as\": \"chorus\", \"named\": \"outro\", \"right\": false}, {\"start\": 61.4, \"end\": 90.2, \"annotated\": \"verse\", \"scored_as\": \"verse\", \"named\": \"bridge\", \"right\": false}, {\"start\": 90.2, \"end\": 117.2, \"annotated\": \"chorus\", \"scored_as\": \"chorus\", \"named\": \"outro\", \"right\": false}, {\"start\": 117.2, \"end\": 145.6, \"annotated\": \"bridge\", \"scored_as\": \"bridge\", \"named\": \"outro\", \"right\": false}, {\"start\": 145.6, \"end\": 152.5, \"annotated\": \"versepart\", \"scored_as\": null, \"named\": \"verse\", \"right\": null}, {\"start\": 152.5, \"end\": 185.9, \"annotated\": \"chorus\", \"scored_as\": \"chorus\", \"named\": \"outro\", \"right\": false}, {\"start\": 185.9, \"end\": 192.7, \"annotated\": \"versepart\", \"scored_as\": null, \"named\": \"bridge\", \"right\": null}], \"grade\": {\"acc\": 0.0}}"
+ }
+]

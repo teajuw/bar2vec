@@ -1,0 +1,15 @@
+[
+ {
+  "role": "user",
+  "content": "Name each section of this song: American Boy (Benny Benassi mix) \u2014 Estelle feat. Kanye West (Dance/Electronic, 10 sections)\nsection edges (s): [0.1, 29.8, 44.7, 74.5, 104.3, 126.6, 148.9, 163.8, 193.6, 223.3, 253.1]\nsettings: {\"encoder\": \"clapbar_fold\", \"prompts\": {\"intro\": [\"the intro of a song\"], \"verse\": [\"the verse of a song\"], \"prechorus\": [\"the pre-chorus of a song\"], \"chorus\": [\"the chorus of a song\"], \"postchorus\": [\"the post-chorus of a song\"], \"bridge\": [\"the bridge of a song\"], \"outro\": [\"the outro of a song\"], \"instrumental\": [\"an instrumental section of a song\"]}, \"extra_models\": [\"matpacbar_fold\"], \"structure\": {\"model\": \"matpacbar_fold\", \"position\": true, \"repeat_tau\": 0.4, \"bridge\": false, \"prepost\": false, \"short_s\": 20}}"
+ },
+ {
+  "role": "assistant",
+  "content": "{\"names\": [\"intro\", \"verse\", \"chorus\", \"verse\", \"chorus\", \"verse\", \"verse\", \"chorus\", \"chorus\", \"outro\"], \"top3_scores\": [[[\"outro\", 0.245], [\"intro\", 0.192], [\"bridge\", 0.147]], [[\"outro\", 0.229], [\"verse\", 0.19], [\"intro\", 0.176]], [[\"outro\", 0.197], [\"bridge\", 0.168], [\"intro\", 0.15]], [[\"outro\", 0.237], [\"verse\", 0.208], [\"bridge\", 0.176]], [[\"outro\", 0.202], [\"bridge\", 0.168], [\"intro\", 0.155]], [[\"outro\", 0.235], [\"verse\", 0.2], [\"intro\", 0.165]], [[\"outro\", 0.23], [\"verse\", 0.18], [\"intro\", 0.176]], [[\"outro\", 0.184], [\"intro\", 0.157], [\"bridge\", 0.154]], [[\"outro\", 0.234], [\"bridge\", 0.195], [\"intro\", 0.182]], [[\"outro\", 0.207], [\"intro\", 0.165], [\"bridge\", 0.15]]]}"
+ },
+ {
+  "role": "tool_result",
+  "name": "grader",
+  "content": "{\"sections\": [{\"start\": 0.1, \"end\": 29.8, \"annotated\": \"intro\", \"scored_as\": \"intro\", \"named\": \"intro\", \"right\": true}, {\"start\": 29.8, \"end\": 44.7, \"annotated\": \"chorus\", \"scored_as\": \"chorus\", \"named\": \"verse\", \"right\": false}, {\"start\": 44.7, \"end\": 74.5, \"annotated\": \"instrumental\", \"scored_as\": \"instrumental\", \"named\": \"chorus\", \"right\": false}, {\"start\": 74.5, \"end\": 104.3, \"annotated\": \"verse\", \"scored_as\": \"verse\", \"named\": \"verse\", \"right\": true}, {\"start\": 104.3, \"end\": 126.6, \"annotated\": \"instrumental\", \"scored_as\": \"instrumental\", \"named\": \"chorus\", \"right\": false}, {\"start\": 126.6, \"end\": 148.9, \"annotated\": \"bridge\", \"scored_as\": \"bridge\", \"named\": \"verse\", \"right\": false}, {\"start\": 148.9, \"end\": 163.8, \"annotated\": \"chorus\", \"scored_as\": \"chorus\", \"named\": \"verse\", \"right\": false}, {\"start\": 163.8, \"end\": 193.6, \"annotated\": \"instrumental\", \"scored_as\": \"instrumental\", \"named\": \"chorus\", \"right\": false}, {\"start\": 193.6, \"end\": 223.3, \"annotated\": \"instrumental\", \"scored_as\": \"instrumental\", \"named\": \"chorus\", \"right\": false}, {\"start\": 223.3, \"end\": 253.1, \"annotated\": \"instrumental\", \"scored_as\": \"instrumental\", \"named\": \"outro\", \"right\": false}], \"grade\": {\"acc\": 0.2}}"
+ }
+]

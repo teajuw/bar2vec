@@ -1,0 +1,15 @@
+[
+ {
+  "role": "user",
+  "content": "Name each section of this song: Skyscraper \u2014 Demi Lovato (Pop, 8 sections)\nsection edges (s): [0.2, 8.3, 36.0, 72.9, 100.6, 138.7, 160.6, 197.6, 216.0]\nsettings: {\"encoder\": \"clapbar_fold\", \"prompts\": {\"intro\": [\"the intro of a song\"], \"verse\": [\"the verse of a song\"], \"prechorus\": [\"the pre-chorus of a song\"], \"chorus\": [\"the chorus of a song\"], \"postchorus\": [\"the post-chorus of a song\"], \"bridge\": [\"the bridge of a song\"], \"outro\": [\"the outro of a song\"], \"instrumental\": [\"an instrumental section of a song\"]}, \"extra_models\": [\"matpacbar_fold\"], \"structure\": {\"model\": \"matpacbar_fold\", \"position\": true, \"repeat_tau\": 0.4, \"bridge\": true, \"prepost\": true, \"short_s\": 20}}"
+ },
+ {
+  "role": "assistant",
+  "content": "{\"names\": [\"intro\", \"verse\", \"verse\", \"verse\", \"chorus\", \"chorus\", \"chorus\", \"outro\"], \"top3_scores\": [[[\"bridge\", 0.347], [\"verse\", 0.318], [\"postchorus\", 0.314]], [[\"bridge\", 0.304], [\"verse\", 0.286], [\"postchorus\", 0.238]], [[\"verse\", 0.346], [\"bridge\", 0.34], [\"postchorus\", 0.248]], [[\"bridge\", 0.319], [\"verse\", 0.301], [\"postchorus\", 0.23]], [[\"bridge\", 0.3], [\"verse\", 0.28], [\"postchorus\", 0.23]], [[\"bridge\", 0.308], [\"verse\", 0.3], [\"postchorus\", 0.235]], [[\"verse\", 0.321], [\"bridge\", 0.314], [\"postchorus\", 0.259]], [[\"bridge\", 0.339], [\"verse\", 0.287], [\"postchorus\", 0.272]]]}"
+ },
+ {
+  "role": "tool_result",
+  "name": "grader",
+  "content": "{\"sections\": [{\"start\": 0.2, \"end\": 8.3, \"annotated\": \"intro\", \"scored_as\": \"intro\", \"named\": \"intro\", \"right\": true}, {\"start\": 8.3, \"end\": 36.0, \"annotated\": \"verse\", \"scored_as\": \"verse\", \"named\": \"verse\", \"right\": true}, {\"start\": 36.0, \"end\": 72.9, \"annotated\": \"chorus\", \"scored_as\": \"chorus\", \"named\": \"verse\", \"right\": false}, {\"start\": 72.9, \"end\": 100.6, \"annotated\": \"verse\", \"scored_as\": \"verse\", \"named\": \"verse\", \"right\": true}, {\"start\": 100.6, \"end\": 138.7, \"annotated\": \"chorus\", \"scored_as\": \"chorus\", \"named\": \"chorus\", \"right\": true}, {\"start\": 138.7, \"end\": 160.6, \"annotated\": \"bridge\", \"scored_as\": \"bridge\", \"named\": \"chorus\", \"right\": false}, {\"start\": 160.6, \"end\": 197.6, \"annotated\": \"chorus\", \"scored_as\": \"chorus\", \"named\": \"chorus\", \"right\": true}, {\"start\": 197.6, \"end\": 216.0, \"annotated\": \"outro\", \"scored_as\": \"outro\", \"named\": \"outro\", \"right\": true}], \"grade\": {\"acc\": 0.75}}"
+ }
+]

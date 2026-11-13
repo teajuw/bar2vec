@@ -1,0 +1,15 @@
+[
+ {
+  "role": "user",
+  "content": "Name each section of this song: Red Belt \u2014 Tegan and Sara (Pop, 8 sections)\nsection edges (s): [0.7, 15.5, 37.6, 56.1, 67.2, 85.6, 100.4, 115.2, 126.2]\nsettings: {\"encoder\": \"clapbar_fold\", \"prompts\": {\"intro\": [\"the intro of a song\"], \"verse\": [\"the verse of a song\"], \"prechorus\": [\"the pre-chorus of a song\"], \"chorus\": [\"the chorus of a song\"], \"postchorus\": [\"the post-chorus of a song\"], \"bridge\": [\"the bridge of a song\"], \"outro\": [\"the outro of a song\"], \"instrumental\": [\"an instrumental section of a song\"]}}"
+ },
+ {
+  "role": "assistant",
+  "content": "{\"names\": [\"chorus\", \"bridge\", \"bridge\", \"bridge\", \"bridge\", \"bridge\", \"bridge\", \"bridge\"], \"top3_scores\": [[[\"chorus\", 0.174], [\"bridge\", 0.17], [\"postchorus\", 0.149]], [[\"bridge\", 0.154], [\"chorus\", 0.126], [\"outro\", 0.114]], [[\"bridge\", 0.154], [\"chorus\", 0.111], [\"verse\", 0.104]], [[\"bridge\", 0.191], [\"verse\", 0.179], [\"outro\", 0.164]], [[\"bridge\", 0.146], [\"prechorus\", 0.124], [\"chorus\", 0.119]], [[\"bridge\", 0.148], [\"outro\", 0.124], [\"chorus\", 0.116]], [[\"bridge\", 0.152], [\"chorus\", 0.11], [\"verse\", 0.106]], [[\"bridge\", 0.152], [\"verse\", 0.115], [\"chorus\", 0.109]]]}"
+ },
+ {
+  "role": "tool_result",
+  "name": "grader",
+  "content": "{\"sections\": [{\"start\": 0.7, \"end\": 15.5, \"annotated\": \"inst\", \"scored_as\": \"instrumental\", \"named\": \"chorus\", \"right\": false}, {\"start\": 15.5, \"end\": 37.6, \"annotated\": \"chorus\", \"scored_as\": \"chorus\", \"named\": \"bridge\", \"right\": false}, {\"start\": 37.6, \"end\": 56.1, \"annotated\": \"chorus\", \"scored_as\": \"chorus\", \"named\": \"bridge\", \"right\": false}, {\"start\": 56.1, \"end\": 67.2, \"annotated\": \"break\", \"scored_as\": \"instrumental\", \"named\": \"bridge\", \"right\": false}, {\"start\": 67.2, \"end\": 85.6, \"annotated\": \"verse\", \"scored_as\": \"verse\", \"named\": \"bridge\", \"right\": false}, {\"start\": 85.6, \"end\": 100.4, \"annotated\": \"chorus\", \"scored_as\": \"chorus\", \"named\": \"bridge\", \"right\": false}, {\"start\": 100.4, \"end\": 115.2, \"annotated\": \"chorus\", \"scored_as\": \"chorus\", \"named\": \"bridge\", \"right\": false}, {\"start\": 115.2, \"end\": 126.2, \"annotated\": \"chorus\", \"scored_as\": \"chorus\", \"named\": \"bridge\", \"right\": false}], \"grade\": {\"acc\": 0.0}}"
+ }
+]

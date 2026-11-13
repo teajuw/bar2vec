@@ -1,0 +1,15 @@
+[
+ {
+  "role": "user",
+  "content": "Name each section of this song: Bed \u2014 J. Holiday (Hip-Hop, 9 sections)\nsection edges (s): [0.3, 18.1, 51.9, 66.0, 96.9, 130.6, 144.7, 175.2, 208.5, 222.5]\nsettings: {\"encoder\": \"clapbar_fold\", \"prompts\": {\"intro\": [\"the intro of a song\"], \"verse\": [\"the verse of a song\"], \"prechorus\": [\"the pre-chorus of a song\"], \"chorus\": [\"the chorus of a song\"], \"postchorus\": [\"the post-chorus of a song\"], \"bridge\": [\"the bridge of a song\"], \"outro\": [\"the outro of a song\"], \"instrumental\": [\"an instrumental section of a song\"]}}"
+ },
+ {
+  "role": "assistant",
+  "content": "{\"names\": [\"verse\", \"verse\", \"verse\", \"verse\", \"verse\", \"verse\", \"verse\", \"verse\", \"verse\"], \"top3_scores\": [[[\"verse\", 0.372], [\"bridge\", 0.35], [\"outro\", 0.344]], [[\"verse\", 0.34], [\"bridge\", 0.312], [\"outro\", 0.208]], [[\"verse\", 0.337], [\"bridge\", 0.32], [\"outro\", 0.222]], [[\"verse\", 0.349], [\"bridge\", 0.303], [\"outro\", 0.278]], [[\"verse\", 0.336], [\"bridge\", 0.303], [\"outro\", 0.214]], [[\"verse\", 0.335], [\"bridge\", 0.314], [\"outro\", 0.224]], [[\"verse\", 0.344], [\"bridge\", 0.302], [\"outro\", 0.273]], [[\"verse\", 0.338], [\"bridge\", 0.328], [\"outro\", 0.317]], [[\"verse\", 0.291], [\"bridge\", 0.246], [\"outro\", 0.235]]]}"
+ },
+ {
+  "role": "tool_result",
+  "name": "grader",
+  "content": "{\"sections\": [{\"start\": 0.3, \"end\": 18.1, \"annotated\": \"intro\", \"scored_as\": \"intro\", \"named\": \"verse\", \"right\": false}, {\"start\": 18.1, \"end\": 51.9, \"annotated\": \"verse\", \"scored_as\": \"verse\", \"named\": \"verse\", \"right\": true}, {\"start\": 51.9, \"end\": 66.0, \"annotated\": \"prechorus\", \"scored_as\": \"prechorus\", \"named\": \"verse\", \"right\": false}, {\"start\": 66.0, \"end\": 96.9, \"annotated\": \"chorus\", \"scored_as\": \"chorus\", \"named\": \"verse\", \"right\": false}, {\"start\": 96.9, \"end\": 130.6, \"annotated\": \"verse\", \"scored_as\": \"verse\", \"named\": \"verse\", \"right\": true}, {\"start\": 130.6, \"end\": 144.7, \"annotated\": \"prechorus\", \"scored_as\": \"prechorus\", \"named\": \"verse\", \"right\": false}, {\"start\": 144.7, \"end\": 175.2, \"annotated\": \"chorus\", \"scored_as\": \"chorus\", \"named\": \"verse\", \"right\": false}, {\"start\": 175.2, \"end\": 208.5, \"annotated\": \"bridge\", \"scored_as\": \"bridge\", \"named\": \"verse\", \"right\": false}, {\"start\": 208.5, \"end\": 222.5, \"annotated\": \"chorus\", \"scored_as\": \"chorus\", \"named\": \"verse\", \"right\": false}], \"grade\": {\"acc\": 0.2222}}"
+ }
+]

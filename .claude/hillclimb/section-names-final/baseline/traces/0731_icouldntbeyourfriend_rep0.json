@@ -1,0 +1,15 @@
+[
+ {
+  "role": "user",
+  "content": "Name each section of this song: I Couldn't Be Your Friend \u2014 Tegan and Sara (Pop, 11 sections)\nsection edges (s): [0.2, 14.4, 57.1, 71.3, 99.7, 128.2, 142.4, 170.8, 199.3, 220.6, 241.9, 256.2]\nsettings: {\"encoder\": \"clapbar_fold\", \"prompts\": {\"intro\": [\"the intro of a song\"], \"verse\": [\"the verse of a song\"], \"prechorus\": [\"the pre-chorus of a song\"], \"chorus\": [\"the chorus of a song\"], \"postchorus\": [\"the post-chorus of a song\"], \"bridge\": [\"the bridge of a song\"], \"outro\": [\"the outro of a song\"], \"instrumental\": [\"an instrumental section of a song\"]}}"
+ },
+ {
+  "role": "assistant",
+  "content": "{\"names\": [\"outro\", \"bridge\", \"bridge\", \"bridge\", \"bridge\", \"bridge\", \"bridge\", \"bridge\", \"outro\", \"bridge\", \"bridge\"], \"top3_scores\": [[[\"outro\", 0.278], [\"intro\", 0.197], [\"verse\", 0.194]], [[\"bridge\", 0.23], [\"verse\", 0.21], [\"outro\", 0.201]], [[\"bridge\", 0.217], [\"verse\", 0.168], [\"outro\", 0.158]], [[\"bridge\", 0.248], [\"outro\", 0.231], [\"verse\", 0.181]], [[\"bridge\", 0.241], [\"outro\", 0.209], [\"verse\", 0.198]], [[\"bridge\", 0.192], [\"outro\", 0.145], [\"verse\", 0.14]], [[\"bridge\", 0.26], [\"outro\", 0.246], [\"verse\", 0.194]], [[\"bridge\", 0.237], [\"verse\", 0.205], [\"outro\", 0.196]], [[\"outro\", 0.255], [\"bridge\", 0.255], [\"verse\", 0.19]], [[\"bridge\", 0.266], [\"outro\", 0.259], [\"verse\", 0.194]], [[\"bridge\", 0.216], [\"outro\", 0.212], [\"verse\", 0.177]]]}"
+ },
+ {
+  "role": "tool_result",
+  "name": "grader",
+  "content": "{\"sections\": [{\"start\": 0.2, \"end\": 14.4, \"annotated\": \"intro\", \"scored_as\": \"intro\", \"named\": \"outro\", \"right\": false}, {\"start\": 14.4, \"end\": 57.1, \"annotated\": \"verse\", \"scored_as\": \"verse\", \"named\": \"bridge\", \"right\": false}, {\"start\": 57.1, \"end\": 71.3, \"annotated\": \"prechorus\", \"scored_as\": \"prechorus\", \"named\": \"bridge\", \"right\": false}, {\"start\": 71.3, \"end\": 99.7, \"annotated\": \"chorus\", \"scored_as\": \"chorus\", \"named\": \"bridge\", \"right\": false}, {\"start\": 99.7, \"end\": 128.2, \"annotated\": \"verse\", \"scored_as\": \"verse\", \"named\": \"bridge\", \"right\": false}, {\"start\": 128.2, \"end\": 142.4, \"annotated\": \"prechorus\", \"scored_as\": \"prechorus\", \"named\": \"bridge\", \"right\": false}, {\"start\": 142.4, \"end\": 170.8, \"annotated\": \"chorus\", \"scored_as\": \"chorus\", \"named\": \"bridge\", \"right\": false}, {\"start\": 170.8, \"end\": 199.3, \"annotated\": \"bridge\", \"scored_as\": \"bridge\", \"named\": \"bridge\", \"right\": true}, {\"start\": 199.3, \"end\": 220.6, \"annotated\": \"chorus\", \"scored_as\": \"chorus\", \"named\": \"outro\", \"right\": false}, {\"start\": 220.6, \"end\": 241.9, \"annotated\": \"chorus\", \"scored_as\": \"chorus\", \"named\": \"bridge\", \"right\": false}, {\"start\": 241.9, \"end\": 256.2, \"annotated\": \"outro\", \"scored_as\": \"outro\", \"named\": \"bridge\", \"right\": false}], \"grade\": {\"acc\": 0.0909}}"
+ }
+]

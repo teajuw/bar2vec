@@ -1,0 +1,15 @@
+[
+ {
+  "role": "user",
+  "content": "Name each section of this song: Shut Up and Drive \u2014 Rihanna (Pop, 8 sections)\nsection edges (s): [0.1, 14.5, 43.4, 72.2, 101.1, 130.0, 166.1, 202.2, 209.4]\nsettings: {\"encoder\": \"clapbar_fold\", \"prompts\": {\"intro\": [\"the intro of a song\"], \"verse\": [\"the verse of a song\"], \"prechorus\": [\"the pre-chorus of a song\"], \"chorus\": [\"the chorus of a song\"], \"postchorus\": [\"the post-chorus of a song\"], \"bridge\": [\"the bridge of a song\"], \"outro\": [\"the outro of a song\"], \"instrumental\": [\"an instrumental section of a song\"]}}"
+ },
+ {
+  "role": "assistant",
+  "content": "{\"names\": [\"outro\", \"verse\", \"outro\", \"verse\", \"outro\", \"outro\", \"outro\", \"outro\"], \"top3_scores\": [[[\"outro\", 0.32], [\"intro\", 0.271], [\"bridge\", 0.258]], [[\"verse\", 0.216], [\"bridge\", 0.185], [\"outro\", 0.164]], [[\"outro\", 0.211], [\"verse\", 0.206], [\"bridge\", 0.204]], [[\"verse\", 0.241], [\"bridge\", 0.213], [\"outro\", 0.192]], [[\"outro\", 0.24], [\"bridge\", 0.228], [\"verse\", 0.221]], [[\"outro\", 0.262], [\"verse\", 0.209], [\"bridge\", 0.208]], [[\"outro\", 0.258], [\"verse\", 0.235], [\"bridge\", 0.228]], [[\"outro\", 0.293], [\"intro\", 0.253], [\"bridge\", 0.229]]]}"
+ },
+ {
+  "role": "tool_result",
+  "name": "grader",
+  "content": "{\"sections\": [{\"start\": 0.1, \"end\": 14.5, \"annotated\": \"intro\", \"scored_as\": \"intro\", \"named\": \"outro\", \"right\": false}, {\"start\": 14.5, \"end\": 43.4, \"annotated\": \"verse\", \"scored_as\": \"verse\", \"named\": \"verse\", \"right\": true}, {\"start\": 43.4, \"end\": 72.2, \"annotated\": \"chorus\", \"scored_as\": \"chorus\", \"named\": \"outro\", \"right\": false}, {\"start\": 72.2, \"end\": 101.1, \"annotated\": \"verse\", \"scored_as\": \"verse\", \"named\": \"verse\", \"right\": true}, {\"start\": 101.1, \"end\": 130.0, \"annotated\": \"chorus\", \"scored_as\": \"chorus\", \"named\": \"outro\", \"right\": false}, {\"start\": 130.0, \"end\": 166.1, \"annotated\": \"bridge\", \"scored_as\": \"bridge\", \"named\": \"outro\", \"right\": false}, {\"start\": 166.1, \"end\": 202.2, \"annotated\": \"chorus\", \"scored_as\": \"chorus\", \"named\": \"outro\", \"right\": false}, {\"start\": 202.2, \"end\": 209.4, \"annotated\": \"outro\", \"scored_as\": \"outro\", \"named\": \"outro\", \"right\": true}], \"grade\": {\"acc\": 0.375}}"
+ }
+]

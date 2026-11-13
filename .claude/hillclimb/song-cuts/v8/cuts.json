@@ -1,0 +1,21 @@
+{
+  "models": [
+    "clapbar_fold"
+  ],
+  "window": 10,
+  "hop": 5,
+  "side_s": 15,
+  "min_gap_s": 15,
+  "k": 0.0,
+  "offset_s": "auto",
+  "guard_s": 0,
+  "bars": true,
+  "refine": false,
+  "centre": false,
+  "taper": false,
+  "sides_s": null,
+  "method": "cbm",
+  "cbm_similarity": "cosine",
+  "cbm_bands": 7,
+  "cbm_penalty": 0
+}

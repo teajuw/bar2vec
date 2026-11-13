@@ -1,0 +1,15 @@
+[
+ {
+  "role": "user",
+  "content": "Name each section of this song: Open Arms \u2014 Journey (Pop, 9 sections)\nsection edges (s): [0.6, 15.1, 44.8, 60.8, 90.7, 104.9, 132.5, 148.0, 177.3, 188.2]\nsettings: {\"encoder\": \"clapbar_fold\", \"prompts\": {\"intro\": [\"the intro of a song\"], \"verse\": [\"the verse of a song\"], \"prechorus\": [\"the pre-chorus of a song\"], \"chorus\": [\"the chorus of a song\"], \"postchorus\": [\"the post-chorus of a song\"], \"bridge\": [\"the bridge of a song\"], \"outro\": [\"the outro of a song\"], \"instrumental\": [\"an instrumental section of a song\"]}}"
+ },
+ {
+  "role": "assistant",
+  "content": "{\"names\": [\"bridge\", \"verse\", \"verse\", \"bridge\", \"bridge\", \"bridge\", \"bridge\", \"bridge\", \"bridge\"], \"top3_scores\": [[[\"bridge\", 0.177], [\"verse\", 0.173], [\"outro\", 0.135]], [[\"verse\", 0.266], [\"bridge\", 0.26], [\"chorus\", 0.226]], [[\"verse\", 0.271], [\"bridge\", 0.265], [\"outro\", 0.228]], [[\"bridge\", 0.224], [\"verse\", 0.198], [\"postchorus\", 0.181]], [[\"bridge\", 0.24], [\"verse\", 0.231], [\"outro\", 0.189]], [[\"bridge\", 0.29], [\"verse\", 0.259], [\"chorus\", 0.208]], [[\"bridge\", 0.236], [\"chorus\", 0.192], [\"verse\", 0.192]], [[\"bridge\", 0.238], [\"verse\", 0.221], [\"postchorus\", 0.213]], [[\"bridge\", 0.243], [\"verse\", 0.224], [\"chorus\", 0.181]]]}"
+ },
+ {
+  "role": "tool_result",
+  "name": "grader",
+  "content": "{\"sections\": [{\"start\": 0.6, \"end\": 15.1, \"annotated\": \"intro\", \"scored_as\": \"intro\", \"named\": \"bridge\", \"right\": false}, {\"start\": 15.1, \"end\": 44.8, \"annotated\": \"verse\", \"scored_as\": \"verse\", \"named\": \"verse\", \"right\": true}, {\"start\": 44.8, \"end\": 60.8, \"annotated\": \"prechorus\", \"scored_as\": \"prechorus\", \"named\": \"verse\", \"right\": false}, {\"start\": 60.8, \"end\": 90.7, \"annotated\": \"chorus\", \"scored_as\": \"chorus\", \"named\": \"bridge\", \"right\": false}, {\"start\": 90.7, \"end\": 104.9, \"annotated\": \"inst\", \"scored_as\": \"instrumental\", \"named\": \"bridge\", \"right\": false}, {\"start\": 104.9, \"end\": 132.5, \"annotated\": \"verse\", \"scored_as\": \"verse\", \"named\": \"bridge\", \"right\": false}, {\"start\": 132.5, \"end\": 148.0, \"annotated\": \"prechorus\", \"scored_as\": \"prechorus\", \"named\": \"bridge\", \"right\": false}, {\"start\": 148.0, \"end\": 177.3, \"annotated\": \"chorus\", \"scored_as\": \"chorus\", \"named\": \"bridge\", \"right\": false}, {\"start\": 177.3, \"end\": 188.2, \"annotated\": \"inst\", \"scored_as\": \"instrumental\", \"named\": \"bridge\", \"right\": false}], \"grade\": {\"acc\": 0.1111}}"
+ }
+]

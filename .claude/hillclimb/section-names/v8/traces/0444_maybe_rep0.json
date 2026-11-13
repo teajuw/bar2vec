@@ -1,0 +1,15 @@
+[
+ {
+  "role": "user",
+  "content": "Name each section of this song: Maybe \u2014 Sick Puppies (Pop, 7 sections)\nsection edges (s): [0.2, 41.6, 71.6, 95.9, 125.9, 141.6, 185.9, 193.0]\nsettings: {\"encoder\": \"clapbar_fold\", \"prompts\": {\"intro\": [\"the intro of a song\"], \"verse\": [\"the verse of a song\"], \"prechorus\": [\"the pre-chorus of a song\"], \"chorus\": [\"the chorus of a song\"], \"postchorus\": [\"the post-chorus of a song\"], \"bridge\": [\"the bridge of a song\"], \"outro\": [\"the outro of a song\"], \"instrumental\": [\"an instrumental section of a song\"]}, \"extra_models\": [\"matpacbar_fold\", \"loudbar_fold\"], \"structure\": {\"model\": \"matpacbar_fold\", \"position\": true, \"repeat_tau\": 0.4, \"bridge\": true, \"prepost\": true, \"short_s\": 20, \"vocal_below\": -1.0}, \"extra_prompts\": {\"vocals\": [\"singing vocals\", \"a person singing or rapping\"], \"no_vocals\": [\"instrumental music with no vocals\", \"an instrumental solo\"]}, \"trained\": \"extra\"}"
+ },
+ {
+  "role": "assistant",
+  "content": "{\"names\": [\"intro\", \"chorus\", \"verse\", \"chorus\", \"instrumental\", \"chorus\", \"outro\"], \"top3_scores\": [[[\"bridge\", 0.193], [\"verse\", 0.153], [\"outro\", 0.149]], [[\"bridge\", 0.17], [\"verse\", 0.144], [\"postchorus\", 0.113]], [[\"bridge\", 0.146], [\"verse\", 0.117], [\"outro\", 0.1]], [[\"bridge\", 0.171], [\"verse\", 0.148], [\"outro\", 0.113]], [[\"bridge\", 0.2], [\"postchorus\", 0.165], [\"outro\", 0.163]], [[\"bridge\", 0.173], [\"verse\", 0.156], [\"outro\", 0.112]], [[\"bridge\", 0.185], [\"postchorus\", 0.145], [\"outro\", 0.144]]]}"
+ },
+ {
+  "role": "tool_result",
+  "name": "grader",
+  "content": "{\"sections\": [{\"start\": 0.2, \"end\": 41.6, \"annotated\": \"verse\", \"scored_as\": \"verse\", \"named\": \"intro\", \"right\": false}, {\"start\": 41.6, \"end\": 71.6, \"annotated\": \"chorus\", \"scored_as\": \"chorus\", \"named\": \"chorus\", \"right\": true}, {\"start\": 71.6, \"end\": 95.9, \"annotated\": \"verse\", \"scored_as\": \"verse\", \"named\": \"verse\", \"right\": true}, {\"start\": 95.9, \"end\": 125.9, \"annotated\": \"chorus\", \"scored_as\": \"chorus\", \"named\": \"chorus\", \"right\": true}, {\"start\": 125.9, \"end\": 141.6, \"annotated\": \"bridge\", \"scored_as\": \"bridge\", \"named\": \"instrumental\", \"right\": false}, {\"start\": 141.6, \"end\": 185.9, \"annotated\": \"chorus\", \"scored_as\": \"chorus\", \"named\": \"chorus\", \"right\": true}, {\"start\": 185.9, \"end\": 193.0, \"annotated\": \"outro\", \"scored_as\": \"outro\", \"named\": \"outro\", \"right\": true}], \"grade\": {\"acc\": 0.7143}}"
+ }
+]

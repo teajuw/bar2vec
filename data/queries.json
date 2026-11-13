@@ -1,0 +1,20 @@
+[
+ {"id": "edm-drop", "query": "big EDM drop with soaring synths and a four-on-the-floor kick", "expect": ["Clarity", "A Sky Full of Stars"], "note": "the drop sections, not the verses"},
+ {"id": "future-bass", "query": "future bass drop with chopped vocal samples", "expect": ["It's Strange"], "note": ""},
+ {"id": "piano-ballad", "query": "slow solo piano ballad with a soft male voice", "expect": ["Glimpse of Us", "Too Good At Goodbyes"], "note": ""},
+ {"id": "quiet-piano-intro", "query": "quiet piano introduction with no drums", "expect": ["A Sky Full of Stars", "Grand Escape (Movie Edit) [feat. Toko Miura]", "Glimpse of Us", "Homecoming"], "note": "should land at or near 0:00"},
+ {"id": "acoustic-folk", "query": "acoustic guitar strumming folk song with male vocals", "expect": ["Stick Season", "I'm Yours", "Say You Won't Let Go"], "note": ""},
+ {"id": "dreamy-outro", "query": "slow dreamy psychedelic section with washed out synths", "expect": ["Self Care"], "note": "the second half after the beat switch"},
+ {"id": "jrock", "query": "fast energetic Japanese rock with driving electric guitars and drums", "expect": ["Zenzenzense - movie ver.", "FLY HIGH!!", "Kaikai Kitan"], "note": ""},
+ {"id": "skit", "query": "people talking, spoken comedy skit without music", "expect": ["Crash"], "note": "negative-example track"},
+ {"id": "christmas", "query": "Christmas pop song with sleigh bells", "expect": ["Santa Tell Me", "Snowman"], "note": ""},
+ {"id": "brass", "query": "triumphant brass horns pop anthem", "expect": ["High Hopes"], "note": ""},
+ {"id": "trap", "query": "trap beat with heavy 808 bass and rapping", "expect": ["After Party", "iSpy (feat. Lil Yachty)", "BABY I'M BACK", "Nice For What"], "note": ""},
+ {"id": "cinematic", "query": "swelling orchestral strings and piano, cinematic film score", "expect": ["Grand Escape (Movie Edit) [feat. Toko Miura]", "Suzume (feat. Toaka)", "Celebration (Movie Edit) [feat. Toko Miura]"], "note": ""},
+ {"id": "piano-hiphop", "query": "bright piano riff over hip hop drums", "expect": ["Homecoming"], "note": ""},
+ {"id": "country", "query": "country song with twangy guitar", "expect": ["Chasin' You"], "note": ""},
+ {"id": "lofi-rnb", "query": "mellow lo-fi R&B with clean electric guitar and falsetto vocals", "expect": ["2 soon", "WESTSIDE", "bandaids", "alright", "beside you", "LIMBO", "skeletons", "good days"], "note": "keshi tracks; any of them counts"},
+ {"id": "wordless-vocal", "query": "wordless female vocal chant, ethereal and sparse", "expect": ["Suzume (feat. Toaka)"], "note": "opening section"},
+ {"id": "indie-rock-chorus", "query": "anthemic indie rock chorus with shouted group vocals", "expect": ["Anna Sun", "Tokyo Rose", "Roses"], "note": ""},
+ {"id": "pop-punk", "query": "upbeat guitar-driven indie pop rock with fast drums", "expect": ["Mimi's Delivery Service", "Tokyo Rose"], "note": ""}
+]

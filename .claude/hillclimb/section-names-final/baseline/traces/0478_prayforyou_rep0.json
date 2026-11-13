@@ -1,0 +1,15 @@
+[
+ {
+  "role": "user",
+  "content": "Name each section of this song: Pray for You \u2014 Jaron and the Long Road to Love (Pop, 5 sections)\nsection edges (s): [0.0, 40.7, 75.8, 104.1, 133.2, 179.6]\nsettings: {\"encoder\": \"clapbar_fold\", \"prompts\": {\"intro\": [\"the intro of a song\"], \"verse\": [\"the verse of a song\"], \"prechorus\": [\"the pre-chorus of a song\"], \"chorus\": [\"the chorus of a song\"], \"postchorus\": [\"the post-chorus of a song\"], \"bridge\": [\"the bridge of a song\"], \"outro\": [\"the outro of a song\"], \"instrumental\": [\"an instrumental section of a song\"]}}"
+ },
+ {
+  "role": "assistant",
+  "content": "{\"names\": [\"verse\", \"bridge\", \"bridge\", \"bridge\", \"bridge\"], \"top3_scores\": [[[\"verse\", 0.279], [\"postchorus\", 0.278], [\"outro\", 0.275]], [[\"bridge\", 0.242], [\"verse\", 0.222], [\"outro\", 0.137]], [[\"bridge\", 0.294], [\"verse\", 0.272], [\"outro\", 0.203]], [[\"bridge\", 0.287], [\"verse\", 0.237], [\"outro\", 0.216]], [[\"bridge\", 0.252], [\"verse\", 0.224], [\"postchorus\", 0.152]]]}"
+ },
+ {
+  "role": "tool_result",
+  "name": "grader",
+  "content": "{\"sections\": [{\"start\": 0.0, \"end\": 40.7, \"annotated\": \"intro\", \"scored_as\": \"intro\", \"named\": \"verse\", \"right\": false}, {\"start\": 40.7, \"end\": 75.8, \"annotated\": \"chorus\", \"scored_as\": \"chorus\", \"named\": \"bridge\", \"right\": false}, {\"start\": 75.8, \"end\": 104.1, \"annotated\": \"verse\", \"scored_as\": \"verse\", \"named\": \"bridge\", \"right\": false}, {\"start\": 104.1, \"end\": 133.2, \"annotated\": \"chorus\", \"scored_as\": \"chorus\", \"named\": \"bridge\", \"right\": false}, {\"start\": 133.2, \"end\": 179.6, \"annotated\": \"chorus\", \"scored_as\": \"chorus\", \"named\": \"bridge\", \"right\": false}], \"grade\": {\"acc\": 0.0}}"
+ }
+]

@@ -1,0 +1,29 @@
+{
+  "encoder": "clapbar_fold",
+  "prompts": {
+    "intro": [
+      "the intro of a song"
+    ],
+    "verse": [
+      "the verse of a song"
+    ],
+    "prechorus": [
+      "the pre-chorus of a song"
+    ],
+    "chorus": [
+      "the chorus of a song"
+    ],
+    "postchorus": [
+      "the post-chorus of a song"
+    ],
+    "bridge": [
+      "the bridge of a song"
+    ],
+    "outro": [
+      "the outro of a song"
+    ],
+    "instrumental": [
+      "an instrumental section of a song"
+    ]
+  }
+}

@@ -1,0 +1,15 @@
+[
+ {
+  "role": "user",
+  "content": "Name each section of this song: Te Quiero \u2014 Flex feat. Belinda (Pop, 11 sections)\nsection edges (s): [0.1, 22.9, 45.8, 68.8, 91.5, 114.4, 125.8, 148.7, 160.2, 171.6, 182.9, 194.5]\nsettings: {\"encoder\": \"clapbar_fold\", \"prompts\": {\"intro\": [\"the intro of a song\"], \"verse\": [\"the verse of a song\"], \"prechorus\": [\"the pre-chorus of a song\"], \"chorus\": [\"the chorus of a song\"], \"postchorus\": [\"the post-chorus of a song\"], \"bridge\": [\"the bridge of a song\"], \"outro\": [\"the outro of a song\"], \"instrumental\": [\"an instrumental section of a song\"]}}"
+ },
+ {
+  "role": "assistant",
+  "content": "{\"names\": [\"outro\", \"outro\", \"outro\", \"outro\", \"outro\", \"outro\", \"outro\", \"outro\", \"outro\", \"outro\", \"outro\"], \"top3_scores\": [[[\"outro\", 0.341], [\"verse\", 0.3], [\"bridge\", 0.299]], [[\"outro\", 0.266], [\"intro\", 0.254], [\"chorus\", 0.212]], [[\"outro\", 0.32], [\"intro\", 0.282], [\"verse\", 0.266]], [[\"outro\", 0.256], [\"intro\", 0.221], [\"verse\", 0.213]], [[\"outro\", 0.221], [\"verse\", 0.192], [\"bridge\", 0.187]], [[\"outro\", 0.304], [\"verse\", 0.268], [\"intro\", 0.247]], [[\"outro\", 0.274], [\"intro\", 0.254], [\"chorus\", 0.225]], [[\"outro\", 0.307], [\"bridge\", 0.271], [\"chorus\", 0.27]], [[\"outro\", 0.36], [\"verse\", 0.335], [\"bridge\", 0.329]], [[\"outro\", 0.32], [\"verse\", 0.27], [\"intro\", 0.265]], [[\"outro\", 0.283], [\"verse\", 0.272], [\"bridge\", 0.26]]]}"
+ },
+ {
+  "role": "tool_result",
+  "name": "grader",
+  "content": "{\"sections\": [{\"start\": 0.1, \"end\": 22.9, \"annotated\": \"intro\", \"scored_as\": \"intro\", \"named\": \"outro\", \"right\": false}, {\"start\": 22.9, \"end\": 45.8, \"annotated\": \"chorus\", \"scored_as\": \"chorus\", \"named\": \"outro\", \"right\": false}, {\"start\": 45.8, \"end\": 68.8, \"annotated\": \"verse\", \"scored_as\": \"verse\", \"named\": \"outro\", \"right\": false}, {\"start\": 68.8, \"end\": 91.5, \"annotated\": \"chorus\", \"scored_as\": \"chorus\", \"named\": \"outro\", \"right\": false}, {\"start\": 91.5, \"end\": 114.4, \"annotated\": \"verse\", \"scored_as\": \"verse\", \"named\": \"outro\", \"right\": false}, {\"start\": 114.4, \"end\": 125.8, \"annotated\": \"bridge\", \"scored_as\": \"bridge\", \"named\": \"outro\", \"right\": false}, {\"start\": 125.8, \"end\": 148.7, \"annotated\": \"chorus\", \"scored_as\": \"chorus\", \"named\": \"outro\", \"right\": false}, {\"start\": 148.7, \"end\": 160.2, \"annotated\": \"outro\", \"scored_as\": \"outro\", \"named\": \"outro\", \"right\": true}, {\"start\": 160.2, \"end\": 171.6, \"annotated\": \"chorus\", \"scored_as\": \"chorus\", \"named\": \"outro\", \"right\": false}, {\"start\": 171.6, \"end\": 182.9, \"annotated\": \"outro\", \"scored_as\": \"outro\", \"named\": \"outro\", \"right\": true}, {\"start\": 182.9, \"end\": 194.5, \"annotated\": \"outro\", \"scored_as\": \"outro\", \"named\": \"outro\", \"right\": true}], \"grade\": {\"acc\": 0.2727}}"
+ }
+]

@@ -1,0 +1,15 @@
+[
+ {
+  "role": "user",
+  "content": "Name each section of this song: Who Says \u2014 Selena Gomez & The Scene (Pop, 10 sections)\nsection edges (s): [0.1, 9.6, 28.6, 47.6, 71.4, 90.4, 109.4, 128.4, 149.8, 168.8, 187.8]\nsettings: {\"encoder\": \"clapbar_fold\", \"prompts\": {\"intro\": [\"the intro of a song\"], \"verse\": [\"the verse of a song\"], \"prechorus\": [\"the pre-chorus of a song\"], \"chorus\": [\"the chorus of a song\"], \"postchorus\": [\"the post-chorus of a song\"], \"bridge\": [\"the bridge of a song\"], \"outro\": [\"the outro of a song\"], \"instrumental\": [\"an instrumental section of a song\"]}, \"extra_models\": [\"matpacbar_fold\"], \"structure\": {\"model\": \"matpacbar_fold\", \"position\": true, \"repeat_tau\": null, \"bridge\": false, \"prepost\": false, \"short_s\": 20}}"
+ },
+ {
+  "role": "assistant",
+  "content": "{\"names\": [\"intro\", \"verse\", \"verse\", \"verse\", \"verse\", \"verse\", \"verse\", \"verse\", \"verse\", \"outro\"], \"top3_scores\": [[[\"outro\", 0.331], [\"verse\", 0.321], [\"bridge\", 0.288]], [[\"verse\", 0.347], [\"bridge\", 0.334], [\"outro\", 0.277]], [[\"verse\", 0.288], [\"bridge\", 0.275], [\"outro\", 0.218]], [[\"verse\", 0.266], [\"bridge\", 0.243], [\"outro\", 0.175]], [[\"verse\", 0.32], [\"bridge\", 0.311], [\"outro\", 0.233]], [[\"verse\", 0.288], [\"bridge\", 0.267], [\"outro\", 0.215]], [[\"verse\", 0.258], [\"bridge\", 0.229], [\"outro\", 0.153]], [[\"verse\", 0.334], [\"bridge\", 0.301], [\"outro\", 0.246]], [[\"verse\", 0.252], [\"bridge\", 0.213], [\"outro\", 0.153]], [[\"verse\", 0.256], [\"bridge\", 0.23], [\"outro\", 0.168]]]}"
+ },
+ {
+  "role": "tool_result",
+  "name": "grader",
+  "content": "{\"sections\": [{\"start\": 0.1, \"end\": 9.6, \"annotated\": \"intro\", \"scored_as\": \"intro\", \"named\": \"intro\", \"right\": true}, {\"start\": 9.6, \"end\": 28.6, \"annotated\": \"verse\", \"scored_as\": \"verse\", \"named\": \"verse\", \"right\": true}, {\"start\": 28.6, \"end\": 47.6, \"annotated\": \"prechorus\", \"scored_as\": \"prechorus\", \"named\": \"verse\", \"right\": false}, {\"start\": 47.6, \"end\": 71.4, \"annotated\": \"chorus\", \"scored_as\": \"chorus\", \"named\": \"verse\", \"right\": false}, {\"start\": 71.4, \"end\": 90.4, \"annotated\": \"verse\", \"scored_as\": \"verse\", \"named\": \"verse\", \"right\": true}, {\"start\": 90.4, \"end\": 109.4, \"annotated\": \"prechorus\", \"scored_as\": \"prechorus\", \"named\": \"verse\", \"right\": false}, {\"start\": 109.4, \"end\": 128.4, \"annotated\": \"chorus\", \"scored_as\": \"chorus\", \"named\": \"verse\", \"right\": false}, {\"start\": 128.4, \"end\": 149.8, \"annotated\": \"bridge\", \"scored_as\": \"bridge\", \"named\": \"verse\", \"right\": false}, {\"start\": 149.8, \"end\": 168.8, \"annotated\": \"chorus\", \"scored_as\": \"chorus\", \"named\": \"verse\", \"right\": false}, {\"start\": 168.8, \"end\": 187.8, \"annotated\": \"postchorus\", \"scored_as\": \"postchorus\", \"named\": \"outro\", \"right\": false}], \"grade\": {\"acc\": 0.3}}"
+ }
+]

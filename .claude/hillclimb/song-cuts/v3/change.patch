@@ -1,0 +1,21 @@
+--- .claude/hillclimb/song-cuts/v1/cuts.py	2026-11-11 20:32:07
++++ scripts/cuts.py	2026-11-11 20:34:53
+@@ -6,10 +6,17 @@
+ from breakdown import centred, novelty, pick_peaks
+ 
+ 
++def _vertex(nov: np.ndarray, i: int) -> float:
++    """Offset of the true peak from index i, in hops (-0.5..0.5), from a parabola through i-1, i, i+1."""
++    a, b, c = nov[i - 1], nov[i], nov[i + 1]
++    den = a - 2 * b + c
++    return float(np.clip(0.5 * (a - c) / den, -0.5, 0.5)) if den < 0 else 0.0
++
++
+ def find_cuts(emb_by_model: dict[str, np.ndarray], starts: np.ndarray, window: float, hop: float, cfg: dict):
+     """Return (cut times in seconds, change score per window)."""
+     side = max(1, round(cfg["side_s"] / hop))
+     gap = max(1, round(cfg["min_gap_s"] / hop))
+     nov = np.mean([novelty(centred(e), side) for e in emb_by_model.values()], axis=0)
+     peaks = pick_peaks(nov, gap, cfg["k"])
+-    return np.array([starts[i] for i in peaks], dtype=float) + cfg["offset_s"], nov
++    return np.array([starts[i] + hop * _vertex(nov, i) for i in peaks], dtype=float) + cfg["offset_s"], nov

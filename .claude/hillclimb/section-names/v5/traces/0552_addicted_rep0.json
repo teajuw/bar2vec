@@ -1,0 +1,15 @@
+[
+ {
+  "role": "user",
+  "content": "Name each section of this song: Addicted \u2014 Saving Abel (Rock, 7 sections)\nsection edges (s): [0.0, 22.1, 49.1, 77.8, 104.8, 133.5, 170.8, 211.3]\nsettings: {\"encoder\": \"clapbar_fold\", \"prompts\": {\"intro\": [\"the intro of a song\"], \"verse\": [\"the verse of a song\"], \"prechorus\": [\"the pre-chorus of a song\"], \"chorus\": [\"the chorus of a song\"], \"postchorus\": [\"the post-chorus of a song\"], \"bridge\": [\"the bridge of a song\"], \"outro\": [\"the outro of a song\"], \"instrumental\": [\"an instrumental section of a song\"]}, \"extra_models\": [\"matpacbar_fold\"], \"structure\": {\"model\": \"matpacbar_fold\", \"position\": true, \"repeat_tau\": 0.4, \"bridge\": true, \"prepost\": true, \"short_s\": 20, \"vocal_below\": -1.0}, \"extra_prompts\": {\"vocals\": [\"singing vocals\", \"a person singing or rapping\"], \"no_vocals\": [\"instrumental music with no vocals\", \"an instrumental solo\"]}}"
+ },
+ {
+  "role": "assistant",
+  "content": "{\"names\": [\"intro\", \"verse\", \"verse\", \"verse\", \"chorus\", \"instrumental\", \"chorus\"], \"top3_scores\": [[[\"bridge\", 0.201], [\"verse\", 0.186], [\"outro\", 0.15]], [[\"bridge\", 0.208], [\"verse\", 0.176], [\"outro\", 0.135]], [[\"bridge\", 0.182], [\"verse\", 0.153], [\"outro\", 0.129]], [[\"bridge\", 0.187], [\"verse\", 0.159], [\"outro\", 0.118]], [[\"bridge\", 0.152], [\"verse\", 0.131], [\"outro\", 0.092]], [[\"bridge\", 0.231], [\"verse\", 0.188], [\"outro\", 0.171]], [[\"bridge\", 0.181], [\"verse\", 0.151], [\"outro\", 0.121]]]}"
+ },
+ {
+  "role": "tool_result",
+  "name": "grader",
+  "content": "{\"sections\": [{\"start\": 0.0, \"end\": 22.1, \"annotated\": \"chorus\", \"scored_as\": \"chorus\", \"named\": \"intro\", \"right\": false}, {\"start\": 22.1, \"end\": 49.1, \"annotated\": \"verse\", \"scored_as\": \"verse\", \"named\": \"verse\", \"right\": true}, {\"start\": 49.1, \"end\": 77.8, \"annotated\": \"chorus\", \"scored_as\": \"chorus\", \"named\": \"verse\", \"right\": false}, {\"start\": 77.8, \"end\": 104.8, \"annotated\": \"verse\", \"scored_as\": \"verse\", \"named\": \"verse\", \"right\": true}, {\"start\": 104.8, \"end\": 133.5, \"annotated\": \"chorus\", \"scored_as\": \"chorus\", \"named\": \"chorus\", \"right\": true}, {\"start\": 133.5, \"end\": 170.8, \"annotated\": \"bridge\", \"scored_as\": \"bridge\", \"named\": \"instrumental\", \"right\": false}, {\"start\": 170.8, \"end\": 211.3, \"annotated\": \"chorus\", \"scored_as\": \"chorus\", \"named\": \"chorus\", \"right\": true}], \"grade\": {\"acc\": 0.5714}}"
+ }
+]

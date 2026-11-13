@@ -1,0 +1,15 @@
+[
+ {
+  "role": "user",
+  "content": "Name each section of this song: Somebody's Heartbreak \u2014 Hunter Hayes (Pop, 8 sections)\nsection edges (s): [0.3, 13.1, 38.7, 77.1, 102.7, 128.3, 141.1, 179.5, 217.9]\nsettings: {\"encoder\": \"clapbar_fold\", \"prompts\": {\"intro\": [\"the intro of a song\"], \"verse\": [\"the verse of a song\"], \"prechorus\": [\"the pre-chorus of a song\"], \"chorus\": [\"the chorus of a song\"], \"postchorus\": [\"the post-chorus of a song\"], \"bridge\": [\"the bridge of a song\"], \"outro\": [\"the outro of a song\"], \"instrumental\": [\"an instrumental section of a song\"]}, \"extra_models\": [\"matpacbar_fold\"], \"structure\": {\"model\": \"matpacbar_fold\", \"position\": true, \"repeat_tau\": null, \"bridge\": false, \"prepost\": false, \"short_s\": 20}}"
+ },
+ {
+  "role": "assistant",
+  "content": "{\"names\": [\"intro\", \"verse\", \"verse\", \"verse\", \"verse\", \"verse\", \"verse\", \"outro\"], \"top3_scores\": [[[\"instrumental\", 0.305], [\"bridge\", 0.255], [\"verse\", 0.244]], [[\"bridge\", 0.272], [\"verse\", 0.269], [\"outro\", 0.18]], [[\"bridge\", 0.219], [\"verse\", 0.204], [\"outro\", 0.152]], [[\"bridge\", 0.276], [\"verse\", 0.262], [\"outro\", 0.184]], [[\"bridge\", 0.21], [\"verse\", 0.193], [\"outro\", 0.144]], [[\"bridge\", 0.158], [\"verse\", 0.148], [\"instrumental\", 0.147]], [[\"bridge\", 0.23], [\"verse\", 0.219], [\"outro\", 0.16]], [[\"bridge\", 0.159], [\"verse\", 0.133], [\"instrumental\", 0.108]]]}"
+ },
+ {
+  "role": "tool_result",
+  "name": "grader",
+  "content": "{\"sections\": [{\"start\": 0.3, \"end\": 13.1, \"annotated\": \"intro\", \"scored_as\": \"intro\", \"named\": \"intro\", \"right\": true}, {\"start\": 13.1, \"end\": 38.7, \"annotated\": \"verse\", \"scored_as\": \"verse\", \"named\": \"verse\", \"right\": true}, {\"start\": 38.7, \"end\": 77.1, \"annotated\": \"chorus\", \"scored_as\": \"chorus\", \"named\": \"verse\", \"right\": false}, {\"start\": 77.1, \"end\": 102.7, \"annotated\": \"verse\", \"scored_as\": \"verse\", \"named\": \"verse\", \"right\": true}, {\"start\": 102.7, \"end\": 128.3, \"annotated\": \"chorus\", \"scored_as\": \"chorus\", \"named\": \"verse\", \"right\": false}, {\"start\": 128.3, \"end\": 141.1, \"annotated\": \"solo\", \"scored_as\": \"instrumental\", \"named\": \"verse\", \"right\": false}, {\"start\": 141.1, \"end\": 179.5, \"annotated\": \"chorus\", \"scored_as\": \"chorus\", \"named\": \"verse\", \"right\": false}, {\"start\": 179.5, \"end\": 217.9, \"annotated\": \"postchorus\", \"scored_as\": \"postchorus\", \"named\": \"outro\", \"right\": false}], \"grade\": {\"acc\": 0.375}}"
+ }
+]

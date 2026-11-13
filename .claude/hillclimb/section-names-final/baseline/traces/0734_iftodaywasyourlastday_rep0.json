@@ -1,0 +1,15 @@
+[
+ {
+  "role": "user",
+  "content": "Name each section of this song: If Today Was Your Last Day \u2014 Nickelback (Alternative, 10 sections)\nsection edges (s): [0.1, 5.5, 35.5, 58.8, 69.5, 99.5, 120.8, 144.1, 190.8, 211.5, 234.8]\nsettings: {\"encoder\": \"clapbar_fold\", \"prompts\": {\"intro\": [\"the intro of a song\"], \"verse\": [\"the verse of a song\"], \"prechorus\": [\"the pre-chorus of a song\"], \"chorus\": [\"the chorus of a song\"], \"postchorus\": [\"the post-chorus of a song\"], \"bridge\": [\"the bridge of a song\"], \"outro\": [\"the outro of a song\"], \"instrumental\": [\"an instrumental section of a song\"]}}"
+ },
+ {
+  "role": "assistant",
+  "content": "{\"names\": [\"outro\", \"bridge\", \"bridge\", \"bridge\", \"bridge\", \"bridge\", \"bridge\", \"bridge\", \"bridge\", \"bridge\"], \"top3_scores\": [[[\"outro\", 0.317], [\"bridge\", 0.309], [\"postchorus\", 0.289]], [[\"bridge\", 0.295], [\"verse\", 0.261], [\"outro\", 0.231]], [[\"bridge\", 0.284], [\"outro\", 0.266], [\"verse\", 0.231]], [[\"bridge\", 0.298], [\"outro\", 0.246], [\"verse\", 0.23]], [[\"bridge\", 0.295], [\"verse\", 0.252], [\"outro\", 0.246]], [[\"bridge\", 0.28], [\"outro\", 0.264], [\"verse\", 0.224]], [[\"bridge\", 0.287], [\"outro\", 0.25], [\"verse\", 0.233]], [[\"bridge\", 0.287], [\"outro\", 0.242], [\"verse\", 0.23]], [[\"bridge\", 0.269], [\"verse\", 0.254], [\"outro\", 0.243]], [[\"bridge\", 0.261], [\"outro\", 0.238], [\"verse\", 0.213]]]}"
+ },
+ {
+  "role": "tool_result",
+  "name": "grader",
+  "content": "{\"sections\": [{\"start\": 0.1, \"end\": 5.5, \"annotated\": \"intro\", \"scored_as\": \"intro\", \"named\": \"outro\", \"right\": false}, {\"start\": 5.5, \"end\": 35.5, \"annotated\": \"verse\", \"scored_as\": \"verse\", \"named\": \"bridge\", \"right\": false}, {\"start\": 35.5, \"end\": 58.8, \"annotated\": \"chorus\", \"scored_as\": \"chorus\", \"named\": \"bridge\", \"right\": false}, {\"start\": 58.8, \"end\": 69.5, \"annotated\": \"inst\", \"scored_as\": \"instrumental\", \"named\": \"bridge\", \"right\": false}, {\"start\": 69.5, \"end\": 99.5, \"annotated\": \"verse\", \"scored_as\": \"verse\", \"named\": \"bridge\", \"right\": false}, {\"start\": 99.5, \"end\": 120.8, \"annotated\": \"chorus\", \"scored_as\": \"chorus\", \"named\": \"bridge\", \"right\": false}, {\"start\": 120.8, \"end\": 144.1, \"annotated\": \"chorus\", \"scored_as\": \"chorus\", \"named\": \"bridge\", \"right\": false}, {\"start\": 144.1, \"end\": 190.8, \"annotated\": \"bridge\", \"scored_as\": \"bridge\", \"named\": \"bridge\", \"right\": true}, {\"start\": 190.8, \"end\": 211.5, \"annotated\": \"chorus\", \"scored_as\": \"chorus\", \"named\": \"bridge\", \"right\": false}, {\"start\": 211.5, \"end\": 234.8, \"annotated\": \"chorus\", \"scored_as\": \"chorus\", \"named\": \"bridge\", \"right\": false}], \"grade\": {\"acc\": 0.1}}"
+ }
+]

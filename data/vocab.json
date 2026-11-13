@@ -1,0 +1,47 @@
+{
+  "genre": [
+    "a hip hop track", "a trap beat", "a pop song", "an indie rock song", "a country song", "a folk song",
+    "electronic dance music", "an R&B slow jam", "Japanese rock", "a piano ballad", "lo-fi hip hop", "pop punk",
+    "a Christmas song", "an acoustic singer-songwriter song", "alternative rock", "synth pop", "emo rap",
+    "funk", "an orchestral film score", "a spoken comedy skit", "anime opening theme", "bedroom pop",
+    "stadium rock anthem", "soul music"
+  ],
+  "vocals": [
+    "male singing", "female singing", "rapping", "fast rapping", "falsetto vocals", "heavily autotuned vocals",
+    "whispered vocals", "a choir or group vocals", "layered vocal harmonies", "spoken word, people talking",
+    "no vocals, instrumental", "a vocal chop sample", "shouted vocals", "humming or wordless vocals",
+    "singing in Japanese", "a soft breathy voice", "a powerful belted vocal"
+  ],
+  "instruments": [
+    "acoustic guitar strumming", "fingerpicked acoustic guitar", "clean electric guitar", "distorted electric guitar",
+    "an electric guitar solo", "solo piano", "piano chords", "electric piano", "a string section", "violin",
+    "brass and horns", "saxophone", "bright synthesizer lead", "warm synth pads", "deep 808 sub bass",
+    "a bass guitar groove", "banjo or mandolin", "ukulele", "sleigh bells", "an organ", "a plucked synth arpeggio",
+    "bells or glockenspiel", "a full rock band", "a full orchestra"
+  ],
+  "rhythm": [
+    "no drums", "trap hi-hats and 808s", "a four-on-the-floor kick drum", "live rock drums", "a laid-back boom bap beat",
+    "hand claps and finger snaps", "a fast driving beat", "a slow half-time beat", "a drum fill", "a shuffling swung rhythm",
+    "sparse minimal percussion", "pounding heavy drums", "a bouncy danceable groove"
+  ],
+  "energy": [
+    "very quiet and sparse", "calm and gentle", "medium energy", "loud and energetic", "an explosive, intense peak",
+    "slowly building intensity", "a sudden drop in energy", "steady and repetitive", "fast tempo", "slow tempo"
+  ],
+  "mood": [
+    "sad and melancholic", "happy and upbeat", "dreamy and floating", "dark and moody", "angry and aggressive",
+    "romantic and tender", "nostalgic", "triumphant and uplifting", "anxious and tense", "playful and silly",
+    "chill and relaxed", "lonely and heartbroken", "confident and swaggering", "festive and cheerful",
+    "epic and cinematic", "psychedelic and hazy"
+  ],
+  "texture": [
+    "heavy reverb, spacious sound", "dry, close and intimate sound", "lo-fi, muffled and filtered", "dense wall of sound",
+    "a clean polished pop production", "a distorted gritty sound", "wide atmospheric ambience", "vinyl crackle and tape hiss",
+    "a stripped-back arrangement", "glitchy electronic effects", "a pitched-down slowed sound", "bright and sparkling"
+  ],
+  "section": [
+    "a song intro", "a quiet verse with sparse backing", "a build-up before a drop", "a big singalong chorus",
+    "a bass drop", "a quiet breakdown", "a bridge that changes key or mood", "an instrumental interlude",
+    "an outro fading out", "the final climactic chorus", "silence or near silence", "a beat switch"
+  ]
+}

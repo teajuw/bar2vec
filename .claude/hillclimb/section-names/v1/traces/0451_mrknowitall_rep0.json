@@ -1,0 +1,15 @@
+[
+ {
+  "role": "user",
+  "content": "Name each section of this song: Mr. Know It All \u2014 Kelly Clarkson (Pop, 8 sections)\nsection edges (s): [0.1, 10.1, 48.2, 90.1, 108.2, 150.1, 168.2, 210.1, 227.6]\nsettings: {\"encoder\": \"clapbar_fold\", \"prompts\": {\"intro\": [\"the intro of a song\"], \"verse\": [\"the verse of a song\"], \"prechorus\": [\"the pre-chorus of a song\"], \"chorus\": [\"the chorus of a song\"], \"postchorus\": [\"the post-chorus of a song\"], \"bridge\": [\"the bridge of a song\"], \"outro\": [\"the outro of a song\"], \"instrumental\": [\"an instrumental section of a song\"]}, \"extra_models\": [\"matpacbar_fold\"], \"structure\": {\"model\": \"matpacbar_fold\", \"position\": true, \"repeat_tau\": null, \"bridge\": false, \"prepost\": false, \"short_s\": 20}}"
+ },
+ {
+  "role": "assistant",
+  "content": "{\"names\": [\"intro\", \"verse\", \"verse\", \"verse\", \"verse\", \"verse\", \"verse\", \"outro\"], \"top3_scores\": [[[\"chorus\", 0.391], [\"bridge\", 0.369], [\"outro\", 0.352]], [[\"verse\", 0.318], [\"bridge\", 0.299], [\"outro\", 0.265]], [[\"bridge\", 0.341], [\"verse\", 0.323], [\"outro\", 0.277]], [[\"verse\", 0.302], [\"bridge\", 0.284], [\"outro\", 0.237]], [[\"bridge\", 0.35], [\"verse\", 0.327], [\"outro\", 0.3]], [[\"verse\", 0.338], [\"bridge\", 0.325], [\"outro\", 0.264]], [[\"verse\", 0.336], [\"bridge\", 0.324], [\"outro\", 0.289]], [[\"bridge\", 0.33], [\"verse\", 0.329], [\"outro\", 0.274]]]}"
+ },
+ {
+  "role": "tool_result",
+  "name": "grader",
+  "content": "{\"sections\": [{\"start\": 0.1, \"end\": 10.1, \"annotated\": \"intro\", \"scored_as\": \"intro\", \"named\": \"intro\", \"right\": true}, {\"start\": 10.1, \"end\": 48.2, \"annotated\": \"verse\", \"scored_as\": \"verse\", \"named\": \"verse\", \"right\": true}, {\"start\": 48.2, \"end\": 90.1, \"annotated\": \"chorus\", \"scored_as\": \"chorus\", \"named\": \"verse\", \"right\": false}, {\"start\": 90.1, \"end\": 108.2, \"annotated\": \"verse\", \"scored_as\": \"verse\", \"named\": \"verse\", \"right\": true}, {\"start\": 108.2, \"end\": 150.1, \"annotated\": \"chorus\", \"scored_as\": \"chorus\", \"named\": \"verse\", \"right\": false}, {\"start\": 150.1, \"end\": 168.2, \"annotated\": \"bridge\", \"scored_as\": \"bridge\", \"named\": \"verse\", \"right\": false}, {\"start\": 168.2, \"end\": 210.1, \"annotated\": \"chorus\", \"scored_as\": \"chorus\", \"named\": \"verse\", \"right\": false}, {\"start\": 210.1, \"end\": 227.6, \"annotated\": \"verse\", \"scored_as\": \"verse\", \"named\": \"outro\", \"right\": false}], \"grade\": {\"acc\": 0.375}}"
+ }
+]

@@ -1,0 +1,15 @@
+[
+ {
+  "role": "user",
+  "content": "Name each section of this song: Good Feeling \u2014 Flo Rida (Hip-Hop, 9 sections)\nsection edges (s): [0.1, 7.6, 37.6, 67.6, 103.2, 133.2, 168.8, 198.8, 228.8, 243.8]\nsettings: {\"encoder\": \"clapbar_fold\", \"prompts\": {\"intro\": [\"the intro of a song\"], \"verse\": [\"the verse of a song\"], \"prechorus\": [\"the pre-chorus of a song\"], \"chorus\": [\"the chorus of a song\"], \"postchorus\": [\"the post-chorus of a song\"], \"bridge\": [\"the bridge of a song\"], \"outro\": [\"the outro of a song\"], \"instrumental\": [\"an instrumental section of a song\"]}}"
+ },
+ {
+  "role": "assistant",
+  "content": "{\"names\": [\"outro\", \"outro\", \"outro\", \"outro\", \"outro\", \"outro\", \"outro\", \"outro\", \"outro\"], \"top3_scores\": [[[\"outro\", 0.302], [\"intro\", 0.274], [\"verse\", 0.253]], [[\"outro\", 0.287], [\"verse\", 0.249], [\"bridge\", 0.236]], [[\"outro\", 0.303], [\"verse\", 0.273], [\"bridge\", 0.256]], [[\"outro\", 0.245], [\"intro\", 0.187], [\"verse\", 0.182]], [[\"outro\", 0.304], [\"verse\", 0.268], [\"intro\", 0.263]], [[\"outro\", 0.339], [\"intro\", 0.284], [\"bridge\", 0.243]], [[\"outro\", 0.34], [\"intro\", 0.29], [\"bridge\", 0.268]], [[\"outro\", 0.243], [\"bridge\", 0.22], [\"verse\", 0.199]], [[\"outro\", 0.292], [\"bridge\", 0.271], [\"verse\", 0.244]]]}"
+ },
+ {
+  "role": "tool_result",
+  "name": "grader",
+  "content": "{\"sections\": [{\"start\": 0.1, \"end\": 7.6, \"annotated\": \"intro\", \"scored_as\": \"intro\", \"named\": \"outro\", \"right\": false}, {\"start\": 7.6, \"end\": 37.6, \"annotated\": \"chorus\", \"scored_as\": \"chorus\", \"named\": \"outro\", \"right\": false}, {\"start\": 37.6, \"end\": 67.6, \"annotated\": \"verse\", \"scored_as\": \"verse\", \"named\": \"outro\", \"right\": false}, {\"start\": 67.6, \"end\": 103.2, \"annotated\": \"chorus\", \"scored_as\": \"chorus\", \"named\": \"outro\", \"right\": false}, {\"start\": 103.2, \"end\": 133.2, \"annotated\": \"verse\", \"scored_as\": \"verse\", \"named\": \"outro\", \"right\": false}, {\"start\": 133.2, \"end\": 168.8, \"annotated\": \"chorus\", \"scored_as\": \"chorus\", \"named\": \"outro\", \"right\": false}, {\"start\": 168.8, \"end\": 198.8, \"annotated\": \"bridge\", \"scored_as\": \"bridge\", \"named\": \"outro\", \"right\": false}, {\"start\": 198.8, \"end\": 228.8, \"annotated\": \"chorus\", \"scored_as\": \"chorus\", \"named\": \"outro\", \"right\": false}, {\"start\": 228.8, \"end\": 243.8, \"annotated\": \"outro\", \"scored_as\": \"outro\", \"named\": \"outro\", \"right\": true}], \"grade\": {\"acc\": 0.1111}}"
+ }
+]

@@ -1,0 +1,15 @@
+[
+ {
+  "role": "user",
+  "content": "Name each section of this song: Kiss Me Thru the Phone \u2014 Soulja Boy Tell 'Em (Hip-Hop, 8 sections)\nsection edges (s): [0.1, 12.9, 38.5, 64.1, 89.7, 115.3, 140.9, 166.5, 188.9]\nsettings: {\"encoder\": \"clapbar_fold\", \"prompts\": {\"intro\": [\"the intro of a song\"], \"verse\": [\"the verse of a song\"], \"prechorus\": [\"the pre-chorus of a song\"], \"chorus\": [\"the chorus of a song\"], \"postchorus\": [\"the post-chorus of a song\"], \"bridge\": [\"the bridge of a song\"], \"outro\": [\"the outro of a song\"], \"instrumental\": [\"an instrumental section of a song\"]}, \"extra_models\": [\"matpacbar_fold\"], \"structure\": {\"model\": \"matpacbar_fold\", \"position\": true, \"repeat_tau\": 0.4, \"bridge\": false, \"prepost\": false, \"short_s\": 20}}"
+ },
+ {
+  "role": "assistant",
+  "content": "{\"names\": [\"intro\", \"chorus\", \"verse\", \"chorus\", \"verse\", \"chorus\", \"verse\", \"chorus\"], \"top3_scores\": [[[\"outro\", 0.362], [\"verse\", 0.358], [\"bridge\", 0.327]], [[\"verse\", 0.245], [\"outro\", 0.232], [\"bridge\", 0.213]], [[\"verse\", 0.259], [\"outro\", 0.241], [\"bridge\", 0.223]], [[\"verse\", 0.23], [\"outro\", 0.213], [\"bridge\", 0.194]], [[\"verse\", 0.313], [\"bridge\", 0.267], [\"outro\", 0.267]], [[\"verse\", 0.242], [\"outro\", 0.216], [\"bridge\", 0.204]], [[\"outro\", 0.275], [\"verse\", 0.264], [\"intro\", 0.214]], [[\"verse\", 0.238], [\"outro\", 0.212], [\"bridge\", 0.197]]]}"
+ },
+ {
+  "role": "tool_result",
+  "name": "grader",
+  "content": "{\"sections\": [{\"start\": 0.1, \"end\": 12.9, \"annotated\": \"intro\", \"scored_as\": \"intro\", \"named\": \"intro\", \"right\": true}, {\"start\": 12.9, \"end\": 38.5, \"annotated\": \"chorus\", \"scored_as\": \"chorus\", \"named\": \"chorus\", \"right\": true}, {\"start\": 38.5, \"end\": 64.1, \"annotated\": \"verse\", \"scored_as\": \"verse\", \"named\": \"verse\", \"right\": true}, {\"start\": 64.1, \"end\": 89.7, \"annotated\": \"chorus\", \"scored_as\": \"chorus\", \"named\": \"chorus\", \"right\": true}, {\"start\": 89.7, \"end\": 115.3, \"annotated\": \"verse\", \"scored_as\": \"verse\", \"named\": \"verse\", \"right\": true}, {\"start\": 115.3, \"end\": 140.9, \"annotated\": \"chorus\", \"scored_as\": \"chorus\", \"named\": \"chorus\", \"right\": true}, {\"start\": 140.9, \"end\": 166.5, \"annotated\": \"inst\", \"scored_as\": \"instrumental\", \"named\": \"verse\", \"right\": false}, {\"start\": 166.5, \"end\": 188.9, \"annotated\": \"chorus\", \"scored_as\": \"chorus\", \"named\": \"chorus\", \"right\": true}], \"grade\": {\"acc\": 0.875}}"
+ }
+]

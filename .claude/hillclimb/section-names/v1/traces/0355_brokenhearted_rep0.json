@@ -1,0 +1,15 @@
+[
+ {
+  "role": "user",
+  "content": "Name each section of this song: Brokenhearted \u2014 Karmin (Pop, 9 sections)\nsection edges (s): [0.1, 16.1, 48.1, 63.1, 96.1, 127.1, 160.1, 175.1, 208.1, 224.1]\nsettings: {\"encoder\": \"clapbar_fold\", \"prompts\": {\"intro\": [\"the intro of a song\"], \"verse\": [\"the verse of a song\"], \"prechorus\": [\"the pre-chorus of a song\"], \"chorus\": [\"the chorus of a song\"], \"postchorus\": [\"the post-chorus of a song\"], \"bridge\": [\"the bridge of a song\"], \"outro\": [\"the outro of a song\"], \"instrumental\": [\"an instrumental section of a song\"]}, \"extra_models\": [\"matpacbar_fold\"], \"structure\": {\"model\": \"matpacbar_fold\", \"position\": true, \"repeat_tau\": null, \"bridge\": false, \"prepost\": false, \"short_s\": 20}}"
+ },
+ {
+  "role": "assistant",
+  "content": "{\"names\": [\"intro\", \"verse\", \"verse\", \"verse\", \"verse\", \"verse\", \"verse\", \"verse\", \"outro\"], \"top3_scores\": [[[\"bridge\", 0.276], [\"outro\", 0.259], [\"verse\", 0.244]], [[\"bridge\", 0.246], [\"verse\", 0.234], [\"outro\", 0.227]], [[\"bridge\", 0.266], [\"verse\", 0.263], [\"outro\", 0.243]], [[\"bridge\", 0.213], [\"verse\", 0.212], [\"outro\", 0.198]], [[\"verse\", 0.242], [\"bridge\", 0.242], [\"outro\", 0.223]], [[\"verse\", 0.222], [\"bridge\", 0.222], [\"outro\", 0.203]], [[\"verse\", 0.307], [\"bridge\", 0.244], [\"outro\", 0.218]], [[\"verse\", 0.237], [\"outro\", 0.213], [\"bridge\", 0.211]], [[\"verse\", 0.253], [\"bridge\", 0.239], [\"outro\", 0.197]]]}"
+ },
+ {
+  "role": "tool_result",
+  "name": "grader",
+  "content": "{\"sections\": [{\"start\": 0.1, \"end\": 16.1, \"annotated\": \"intro\", \"scored_as\": \"intro\", \"named\": \"intro\", \"right\": true}, {\"start\": 16.1, \"end\": 48.1, \"annotated\": \"verse\", \"scored_as\": \"verse\", \"named\": \"verse\", \"right\": true}, {\"start\": 48.1, \"end\": 63.1, \"annotated\": \"prechorus\", \"scored_as\": \"prechorus\", \"named\": \"verse\", \"right\": false}, {\"start\": 63.1, \"end\": 96.1, \"annotated\": \"chorus\", \"scored_as\": \"chorus\", \"named\": \"verse\", \"right\": false}, {\"start\": 96.1, \"end\": 127.1, \"annotated\": \"verse\", \"scored_as\": \"verse\", \"named\": \"verse\", \"right\": true}, {\"start\": 127.1, \"end\": 160.1, \"annotated\": \"chorus\", \"scored_as\": \"chorus\", \"named\": \"verse\", \"right\": false}, {\"start\": 160.1, \"end\": 175.1, \"annotated\": \"bridge\", \"scored_as\": \"bridge\", \"named\": \"verse\", \"right\": false}, {\"start\": 175.1, \"end\": 208.1, \"annotated\": \"chorus\", \"scored_as\": \"chorus\", \"named\": \"verse\", \"right\": false}, {\"start\": 208.1, \"end\": 224.1, \"annotated\": \"postchorus\", \"scored_as\": \"postchorus\", \"named\": \"outro\", \"right\": false}], \"grade\": {\"acc\": 0.3333}}"
+ }
+]

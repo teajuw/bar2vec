@@ -1,0 +1,3 @@
+# v6: one embedding per bar, bars from a beat tracker (Beat This!)
+
+Outer step 2: bar alignment. Hypothesis: the remaining timing error comes from fixed 10 s windows that ignore the music's bar grid; embedding one bar at a time puts every candidate cut on a bar start. Bars are estimated from our audio by the Beat This! tracker (agreement with human downbeats: mean F 0.917). Each bar is repeated to fill CLAP's 10 s input. Cutter unchanged except that sub-grid placement and the timing offset are off (a cut sits on a bar start). Settings unchanged from v3; the train sweep of side_s is recorded in the narrative. Upper bound with human-annotated bars is v5.

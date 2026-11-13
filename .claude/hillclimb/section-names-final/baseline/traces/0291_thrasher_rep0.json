@@ -1,0 +1,15 @@
+[
+ {
+  "role": "user",
+  "content": "Name each section of this song: Thrasher \u2014 Evile (Metal, 11 sections)\nsection edges (s): [0.0, 4.6, 31.7, 42.9, 61.3, 80.3, 101.1, 110.6, 129.7, 148.1, 185.0, 189.7]\nsettings: {\"encoder\": \"clapbar_fold\", \"prompts\": {\"intro\": [\"the intro of a song\"], \"verse\": [\"the verse of a song\"], \"prechorus\": [\"the pre-chorus of a song\"], \"chorus\": [\"the chorus of a song\"], \"postchorus\": [\"the post-chorus of a song\"], \"bridge\": [\"the bridge of a song\"], \"outro\": [\"the outro of a song\"], \"instrumental\": [\"an instrumental section of a song\"]}}"
+ },
+ {
+  "role": "assistant",
+  "content": "{\"names\": [\"postchorus\", \"outro\", \"outro\", \"outro\", \"outro\", \"outro\", \"outro\", \"outro\", \"outro\", \"outro\", \"outro\"], \"top3_scores\": [[[\"postchorus\", 0.134], [\"chorus\", 0.056], [\"verse\", 0.027]], [[\"outro\", 0.312], [\"intro\", 0.305], [\"instrumental\", 0.244]], [[\"outro\", 0.31], [\"intro\", 0.298], [\"instrumental\", 0.245]], [[\"outro\", 0.322], [\"intro\", 0.305], [\"instrumental\", 0.251]], [[\"outro\", 0.29], [\"intro\", 0.256], [\"instrumental\", 0.183]], [[\"outro\", 0.322], [\"intro\", 0.289], [\"instrumental\", 0.208]], [[\"outro\", 0.312], [\"intro\", 0.282], [\"instrumental\", 0.239]], [[\"outro\", 0.31], [\"intro\", 0.267], [\"postchorus\", 0.196]], [[\"outro\", 0.304], [\"intro\", 0.264], [\"postchorus\", 0.202]], [[\"outro\", 0.296], [\"intro\", 0.269], [\"instrumental\", 0.249]], [[\"outro\", 0.335], [\"intro\", 0.307], [\"postchorus\", 0.241]]]}"
+ },
+ {
+  "role": "tool_result",
+  "name": "grader",
+  "content": "{\"sections\": [{\"start\": 0.0, \"end\": 4.6, \"annotated\": \"silence\", \"scored_as\": null, \"named\": \"postchorus\", \"right\": null}, {\"start\": 4.6, \"end\": 31.7, \"annotated\": \"intro\", \"scored_as\": \"intro\", \"named\": \"outro\", \"right\": false}, {\"start\": 31.7, \"end\": 42.9, \"annotated\": \"inst\", \"scored_as\": \"instrumental\", \"named\": \"outro\", \"right\": false}, {\"start\": 42.9, \"end\": 61.3, \"annotated\": \"break\", \"scored_as\": \"instrumental\", \"named\": \"outro\", \"right\": false}, {\"start\": 61.3, \"end\": 80.3, \"annotated\": \"verse\", \"scored_as\": \"verse\", \"named\": \"outro\", \"right\": false}, {\"start\": 80.3, \"end\": 101.1, \"annotated\": \"chorus\", \"scored_as\": \"chorus\", \"named\": \"outro\", \"right\": false}, {\"start\": 101.1, \"end\": 110.6, \"annotated\": \"solo\", \"scored_as\": \"instrumental\", \"named\": \"outro\", \"right\": false}, {\"start\": 110.6, \"end\": 129.7, \"annotated\": \"verse\", \"scored_as\": \"verse\", \"named\": \"outro\", \"right\": false}, {\"start\": 129.7, \"end\": 148.1, \"annotated\": \"chorus\", \"scored_as\": \"chorus\", \"named\": \"outro\", \"right\": false}, {\"start\": 148.1, \"end\": 185.0, \"annotated\": \"solo2\", \"scored_as\": \"instrumental\", \"named\": \"outro\", \"right\": false}, {\"start\": 185.0, \"end\": 189.7, \"annotated\": \"outro\", \"scored_as\": \"outro\", \"named\": \"outro\", \"right\": true}], \"grade\": {\"acc\": 0.1}}"
+ }
+]

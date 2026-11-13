@@ -1,0 +1,15 @@
+[
+ {
+  "role": "user",
+  "content": "Name each section of this song: Apologize \u2014 Timbaland feat. OneRepublic (Pop, 6 sections)\nsection edges (s): [0.1, 16.4, 48.9, 73.3, 105.9, 140.4, 176.5]\nsettings: {\"encoder\": \"clapbar_fold\", \"prompts\": {\"intro\": [\"the intro of a song\"], \"verse\": [\"the verse of a song\"], \"prechorus\": [\"the pre-chorus of a song\"], \"chorus\": [\"the chorus of a song\"], \"postchorus\": [\"the post-chorus of a song\"], \"bridge\": [\"the bridge of a song\"], \"outro\": [\"the outro of a song\"], \"instrumental\": [\"an instrumental section of a song\"]}, \"extra_models\": [\"matpacbar_fold\"], \"structure\": {\"model\": \"matpacbar_fold\", \"position\": true, \"repeat_tau\": 0.4, \"bridge\": true, \"prepost\": true, \"short_s\": 20}}"
+ },
+ {
+  "role": "assistant",
+  "content": "{\"names\": [\"intro\", \"verse\", \"chorus\", \"verse\", \"chorus\", \"outro\"], \"top3_scores\": [[[\"bridge\", 0.322], [\"verse\", 0.296], [\"postchorus\", 0.253]], [[\"bridge\", 0.367], [\"verse\", 0.352], [\"postchorus\", 0.301]], [[\"verse\", 0.263], [\"bridge\", 0.261], [\"outro\", 0.232]], [[\"bridge\", 0.29], [\"verse\", 0.288], [\"outro\", 0.238]], [[\"verse\", 0.287], [\"bridge\", 0.281], [\"outro\", 0.238]], [[\"verse\", 0.307], [\"bridge\", 0.303], [\"outro\", 0.255]]]}"
+ },
+ {
+  "role": "tool_result",
+  "name": "grader",
+  "content": "{\"sections\": [{\"start\": 0.1, \"end\": 16.4, \"annotated\": \"intro\", \"scored_as\": \"intro\", \"named\": \"intro\", \"right\": true}, {\"start\": 16.4, \"end\": 48.9, \"annotated\": \"verse\", \"scored_as\": \"verse\", \"named\": \"verse\", \"right\": true}, {\"start\": 48.9, \"end\": 73.3, \"annotated\": \"chorus\", \"scored_as\": \"chorus\", \"named\": \"chorus\", \"right\": true}, {\"start\": 73.3, \"end\": 105.9, \"annotated\": \"verse\", \"scored_as\": \"verse\", \"named\": \"verse\", \"right\": true}, {\"start\": 105.9, \"end\": 140.4, \"annotated\": \"chorus\", \"scored_as\": \"chorus\", \"named\": \"chorus\", \"right\": true}, {\"start\": 140.4, \"end\": 176.5, \"annotated\": \"chorus\", \"scored_as\": \"chorus\", \"named\": \"outro\", \"right\": false}], \"grade\": {\"acc\": 0.8333}}"
+ }
+]

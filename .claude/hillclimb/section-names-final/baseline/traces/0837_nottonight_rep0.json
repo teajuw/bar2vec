@@ -1,0 +1,15 @@
+[
+ {
+  "role": "user",
+  "content": "Name each section of this song: Not Tonight \u2014 Tegan and Sara (Pop, 7 sections)\nsection edges (s): [0.3, 11.4, 33.4, 54.1, 83.1, 105.2, 125.9, 151.4]\nsettings: {\"encoder\": \"clapbar_fold\", \"prompts\": {\"intro\": [\"the intro of a song\"], \"verse\": [\"the verse of a song\"], \"prechorus\": [\"the pre-chorus of a song\"], \"chorus\": [\"the chorus of a song\"], \"postchorus\": [\"the post-chorus of a song\"], \"bridge\": [\"the bridge of a song\"], \"outro\": [\"the outro of a song\"], \"instrumental\": [\"an instrumental section of a song\"]}}"
+ },
+ {
+  "role": "assistant",
+  "content": "{\"names\": [\"instrumental\", \"verse\", \"verse\", \"bridge\", \"verse\", \"verse\", \"verse\"], \"top3_scores\": [[[\"instrumental\", 0.155], [\"bridge\", 0.15], [\"verse\", 0.124]], [[\"verse\", 0.193], [\"bridge\", 0.189], [\"instrumental\", 0.137]], [[\"verse\", 0.146], [\"bridge\", 0.143], [\"chorus\", 0.088]], [[\"bridge\", 0.152], [\"verse\", 0.139], [\"instrumental\", 0.11]], [[\"verse\", 0.156], [\"chorus\", 0.136], [\"bridge\", 0.121]], [[\"verse\", 0.154], [\"bridge\", 0.153], [\"instrumental\", 0.073]], [[\"verse\", 0.267], [\"bridge\", 0.253], [\"outro\", 0.151]]]}"
+ },
+ {
+  "role": "tool_result",
+  "name": "grader",
+  "content": "{\"sections\": [{\"start\": 0.3, \"end\": 11.4, \"annotated\": \"intro\", \"scored_as\": \"intro\", \"named\": \"instrumental\", \"right\": false}, {\"start\": 11.4, \"end\": 33.4, \"annotated\": \"verse\", \"scored_as\": \"verse\", \"named\": \"verse\", \"right\": true}, {\"start\": 33.4, \"end\": 54.1, \"annotated\": \"prechorus\", \"scored_as\": \"prechorus\", \"named\": \"verse\", \"right\": false}, {\"start\": 54.1, \"end\": 83.1, \"annotated\": \"chorus\", \"scored_as\": \"chorus\", \"named\": \"bridge\", \"right\": false}, {\"start\": 83.1, \"end\": 105.2, \"annotated\": \"bridge\", \"scored_as\": \"bridge\", \"named\": \"verse\", \"right\": false}, {\"start\": 105.2, \"end\": 125.9, \"annotated\": \"prechorus\", \"scored_as\": \"prechorus\", \"named\": \"verse\", \"right\": false}, {\"start\": 125.9, \"end\": 151.4, \"annotated\": \"chorus\", \"scored_as\": \"chorus\", \"named\": \"verse\", \"right\": false}], \"grade\": {\"acc\": 0.1429}}"
+ }
+]

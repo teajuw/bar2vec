@@ -1,0 +1,15 @@
+[
+ {
+  "role": "user",
+  "content": "Name each section of this song: Undo It \u2014 Carrie Underwood (Country, 10 sections)\nsection edges (s): [0.1, 12.4, 37.0, 58.5, 70.8, 95.4, 117.0, 129.3, 141.6, 163.1, 174.7]\nsettings: {\"encoder\": \"clapbar_fold\", \"prompts\": {\"intro\": [\"the intro of a song\"], \"verse\": [\"the verse of a song\"], \"prechorus\": [\"the pre-chorus of a song\"], \"chorus\": [\"the chorus of a song\"], \"postchorus\": [\"the post-chorus of a song\"], \"bridge\": [\"the bridge of a song\"], \"outro\": [\"the outro of a song\"], \"instrumental\": [\"an instrumental section of a song\"]}, \"extra_models\": [\"matpacbar_fold\"], \"structure\": {\"model\": \"matpacbar_fold\", \"position\": true, \"repeat_tau\": 0.4, \"bridge\": true, \"prepost\": true, \"short_s\": 20}}"
+ },
+ {
+  "role": "assistant",
+  "content": "{\"names\": [\"intro\", \"verse\", \"chorus\", \"postchorus\", \"verse\", \"chorus\", \"postchorus\", \"bridge\", \"chorus\", \"outro\"], \"top3_scores\": [[[\"bridge\", 0.231], [\"outro\", 0.219], [\"verse\", 0.218]], [[\"verse\", 0.233], [\"bridge\", 0.224], [\"outro\", 0.162]], [[\"bridge\", 0.216], [\"verse\", 0.195], [\"prechorus\", 0.183]], [[\"bridge\", 0.205], [\"outro\", 0.175], [\"chorus\", 0.169]], [[\"bridge\", 0.226], [\"verse\", 0.222], [\"outro\", 0.164]], [[\"bridge\", 0.187], [\"verse\", 0.175], [\"prechorus\", 0.171]], [[\"bridge\", 0.194], [\"chorus\", 0.157], [\"outro\", 0.148]], [[\"bridge\", 0.281], [\"verse\", 0.245], [\"outro\", 0.222]], [[\"bridge\", 0.196], [\"verse\", 0.185], [\"outro\", 0.167]], [[\"bridge\", 0.204], [\"verse\", 0.192], [\"outro\", 0.182]]]}"
+ },
+ {
+  "role": "tool_result",
+  "name": "grader",
+  "content": "{\"sections\": [{\"start\": 0.1, \"end\": 12.4, \"annotated\": \"intro\", \"scored_as\": \"intro\", \"named\": \"intro\", \"right\": true}, {\"start\": 12.4, \"end\": 37.0, \"annotated\": \"verse\", \"scored_as\": \"verse\", \"named\": \"verse\", \"right\": true}, {\"start\": 37.0, \"end\": 58.5, \"annotated\": \"chorus\", \"scored_as\": \"chorus\", \"named\": \"chorus\", \"right\": true}, {\"start\": 58.5, \"end\": 70.8, \"annotated\": \"postchorus\", \"scored_as\": \"postchorus\", \"named\": \"postchorus\", \"right\": true}, {\"start\": 70.8, \"end\": 95.4, \"annotated\": \"verse\", \"scored_as\": \"verse\", \"named\": \"verse\", \"right\": true}, {\"start\": 95.4, \"end\": 117.0, \"annotated\": \"chorus\", \"scored_as\": \"chorus\", \"named\": \"chorus\", \"right\": true}, {\"start\": 117.0, \"end\": 129.3, \"annotated\": \"postchorus\", \"scored_as\": \"postchorus\", \"named\": \"postchorus\", \"right\": true}, {\"start\": 129.3, \"end\": 141.6, \"annotated\": \"bridge\", \"scored_as\": \"bridge\", \"named\": \"bridge\", \"right\": true}, {\"start\": 141.6, \"end\": 163.1, \"annotated\": \"chorus\", \"scored_as\": \"chorus\", \"named\": \"chorus\", \"right\": true}, {\"start\": 163.1, \"end\": 174.7, \"annotated\": \"chorus\", \"scored_as\": \"chorus\", \"named\": \"outro\", \"right\": false}], \"grade\": {\"acc\": 0.9}}"
+ }
+]

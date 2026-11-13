@@ -1,0 +1,15 @@
+[
+ {
+  "role": "user",
+  "content": "Name each section of this song: White Falcon Fuzz \u2014 The Mother Hips (Rock, 10 sections)\nsection edges (s): [0.0, 6.0, 30.0, 68.9, 105.7, 126.0, 151.4, 161.9, 195.7, 216.1, 243.1]\nsettings: {\"encoder\": \"clapbar_fold\", \"prompts\": {\"intro\": [\"the intro of a song\"], \"verse\": [\"the verse of a song\"], \"prechorus\": [\"the pre-chorus of a song\"], \"chorus\": [\"the chorus of a song\"], \"postchorus\": [\"the post-chorus of a song\"], \"bridge\": [\"the bridge of a song\"], \"outro\": [\"the outro of a song\"], \"instrumental\": [\"an instrumental section of a song\"]}, \"extra_models\": [\"matpacbar_fold\"], \"structure\": {\"model\": \"matpacbar_fold\", \"position\": true, \"repeat_tau\": 0.4, \"bridge\": true, \"prepost\": false, \"short_s\": 20}}"
+ },
+ {
+  "role": "assistant",
+  "content": "{\"names\": [\"intro\", \"verse\", \"chorus\", \"chorus\", \"verse\", \"verse\", \"verse\", \"chorus\", \"verse\", \"outro\"], \"top3_scores\": [[[\"outro\", 0.245], [\"intro\", 0.23], [\"postchorus\", 0.229]], [[\"instrumental\", 0.217], [\"outro\", 0.204], [\"bridge\", 0.188]], [[\"bridge\", 0.218], [\"outro\", 0.158], [\"instrumental\", 0.157]], [[\"bridge\", 0.209], [\"outro\", 0.153], [\"verse\", 0.151]], [[\"bridge\", 0.226], [\"verse\", 0.185], [\"postchorus\", 0.179]], [[\"instrumental\", 0.161], [\"bridge\", 0.157], [\"verse\", 0.119]], [[\"instrumental\", 0.173], [\"bridge\", 0.162], [\"outro\", 0.117]], [[\"bridge\", 0.199], [\"verse\", 0.148], [\"outro\", 0.138]], [[\"bridge\", 0.184], [\"verse\", 0.154], [\"postchorus\", 0.128]], [[\"bridge\", 0.131], [\"instrumental\", 0.118], [\"outro\", 0.11]]]}"
+ },
+ {
+  "role": "tool_result",
+  "name": "grader",
+  "content": "{\"sections\": [{\"start\": 0.0, \"end\": 6.0, \"annotated\": \"silence\", \"scored_as\": null, \"named\": \"intro\", \"right\": null}, {\"start\": 6.0, \"end\": 30.0, \"annotated\": \"intro\", \"scored_as\": \"intro\", \"named\": \"verse\", \"right\": false}, {\"start\": 30.0, \"end\": 68.9, \"annotated\": \"verse\", \"scored_as\": \"verse\", \"named\": \"chorus\", \"right\": false}, {\"start\": 68.9, \"end\": 105.7, \"annotated\": \"verse\", \"scored_as\": \"verse\", \"named\": \"chorus\", \"right\": false}, {\"start\": 105.7, \"end\": 126.0, \"annotated\": \"chorus\", \"scored_as\": \"chorus\", \"named\": \"verse\", \"right\": false}, {\"start\": 126.0, \"end\": 151.4, \"annotated\": \"bridge\", \"scored_as\": \"bridge\", \"named\": \"verse\", \"right\": false}, {\"start\": 151.4, \"end\": 161.9, \"annotated\": \"solo\", \"scored_as\": \"instrumental\", \"named\": \"verse\", \"right\": false}, {\"start\": 161.9, \"end\": 195.7, \"annotated\": \"verse\", \"scored_as\": \"verse\", \"named\": \"chorus\", \"right\": false}, {\"start\": 195.7, \"end\": 216.1, \"annotated\": \"chorus\", \"scored_as\": \"chorus\", \"named\": \"verse\", \"right\": false}, {\"start\": 216.1, \"end\": 243.1, \"annotated\": \"solo2\", \"scored_as\": \"instrumental\", \"named\": \"outro\", \"right\": false}], \"grade\": {\"acc\": 0.0}}"
+ }
+]

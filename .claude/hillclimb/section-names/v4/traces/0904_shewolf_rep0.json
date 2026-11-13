@@ -1,0 +1,15 @@
+[
+ {
+  "role": "user",
+  "content": "Name each section of this song: She Wolf \u2014 Shakira (Pop, 10 sections)\nsection edges (s): [0.1, 19.7, 35.5, 66.9, 82.7, 90.6, 122.0, 137.8, 153.5, 169.2, 184.0]\nsettings: {\"encoder\": \"clapbar_fold\", \"prompts\": {\"intro\": [\"the intro of a song\"], \"verse\": [\"the verse of a song\"], \"prechorus\": [\"the pre-chorus of a song\"], \"chorus\": [\"the chorus of a song\"], \"postchorus\": [\"the post-chorus of a song\"], \"bridge\": [\"the bridge of a song\"], \"outro\": [\"the outro of a song\"], \"instrumental\": [\"an instrumental section of a song\"]}, \"extra_models\": [\"matpacbar_fold\"], \"structure\": {\"model\": \"matpacbar_fold\", \"position\": true, \"repeat_tau\": 0.4, \"bridge\": true, \"prepost\": true, \"short_s\": 20}}"
+ },
+ {
+  "role": "assistant",
+  "content": "{\"names\": [\"intro\", \"chorus\", \"verse\", \"verse\", \"verse\", \"verse\", \"verse\", \"bridge\", \"chorus\", \"outro\"], \"top3_scores\": [[[\"outro\", 0.207], [\"bridge\", 0.207], [\"instrumental\", 0.18]], [[\"bridge\", 0.248], [\"outro\", 0.225], [\"instrumental\", 0.201]], [[\"bridge\", 0.284], [\"verse\", 0.279], [\"outro\", 0.24]], [[\"bridge\", 0.207], [\"outro\", 0.201], [\"verse\", 0.186]], [[\"bridge\", 0.195], [\"instrumental\", 0.177], [\"outro\", 0.167]], [[\"verse\", 0.288], [\"bridge\", 0.285], [\"outro\", 0.258]], [[\"outro\", 0.211], [\"bridge\", 0.21], [\"verse\", 0.181]], [[\"outro\", 0.267], [\"bridge\", 0.243], [\"verse\", 0.215]], [[\"outro\", 0.281], [\"bridge\", 0.258], [\"instrumental\", 0.234]], [[\"outro\", 0.277], [\"bridge\", 0.261], [\"instrumental\", 0.251]]]}"
+ },
+ {
+  "role": "tool_result",
+  "name": "grader",
+  "content": "{\"sections\": [{\"start\": 0.1, \"end\": 19.7, \"annotated\": \"intro\", \"scored_as\": \"intro\", \"named\": \"intro\", \"right\": true}, {\"start\": 19.7, \"end\": 35.5, \"annotated\": \"intro\", \"scored_as\": \"intro\", \"named\": \"chorus\", \"right\": false}, {\"start\": 35.5, \"end\": 66.9, \"annotated\": \"verse\", \"scored_as\": \"verse\", \"named\": \"verse\", \"right\": true}, {\"start\": 66.9, \"end\": 82.7, \"annotated\": \"chorus\", \"scored_as\": \"chorus\", \"named\": \"verse\", \"right\": false}, {\"start\": 82.7, \"end\": 90.6, \"annotated\": \"transition\", \"scored_as\": \"instrumental\", \"named\": \"verse\", \"right\": false}, {\"start\": 90.6, \"end\": 122.0, \"annotated\": \"verse\", \"scored_as\": \"verse\", \"named\": \"verse\", \"right\": true}, {\"start\": 122.0, \"end\": 137.8, \"annotated\": \"chorus\", \"scored_as\": \"chorus\", \"named\": \"verse\", \"right\": false}, {\"start\": 137.8, \"end\": 153.5, \"annotated\": \"bridge\", \"scored_as\": \"bridge\", \"named\": \"bridge\", \"right\": true}, {\"start\": 153.5, \"end\": 169.2, \"annotated\": \"outro\", \"scored_as\": \"outro\", \"named\": \"chorus\", \"right\": false}, {\"start\": 169.2, \"end\": 184.0, \"annotated\": \"outro\", \"scored_as\": \"outro\", \"named\": \"outro\", \"right\": true}], \"grade\": {\"acc\": 0.5}}"
+ }
+]

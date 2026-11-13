@@ -1,0 +1,15 @@
+[
+ {
+  "role": "user",
+  "content": "Name each section of this song: Cinderella (Umbrella remix) \u2014 Rihanna feat. Chris Brown & Jay-Z (Hip-Hop, 9 sections)\nsection edges (s): [0.1, 11.1, 33.2, 55.2, 99.5, 121.4, 165.6, 187.7, 231.9, 242.8]\nsettings: {\"encoder\": \"clapbar_fold\", \"prompts\": {\"intro\": [\"the intro of a song\"], \"verse\": [\"the verse of a song\"], \"prechorus\": [\"the pre-chorus of a song\"], \"chorus\": [\"the chorus of a song\"], \"postchorus\": [\"the post-chorus of a song\"], \"bridge\": [\"the bridge of a song\"], \"outro\": [\"the outro of a song\"], \"instrumental\": [\"an instrumental section of a song\"]}, \"extra_models\": [\"matpacbar_fold\", \"loudbar_fold\"], \"structure\": {\"model\": \"matpacbar_fold\", \"position\": true, \"repeat_tau\": 0.4, \"bridge\": true, \"prepost\": true, \"short_s\": 20, \"vocal_below\": -1.0}, \"extra_prompts\": {\"vocals\": [\"singing vocals\", \"a person singing or rapping\"], \"no_vocals\": [\"instrumental music with no vocals\", \"an instrumental solo\"]}, \"trained\": \"extra\"}"
+ },
+ {
+  "role": "assistant",
+  "content": "{\"names\": [\"intro\", \"verse\", \"verse\", \"chorus\", \"verse\", \"chorus\", \"bridge\", \"chorus\", \"outro\"], \"top3_scores\": [[[\"outro\", 0.154], [\"postchorus\", 0.108], [\"intro\", 0.106]], [[\"outro\", 0.152], [\"verse\", 0.149], [\"postchorus\", 0.11]], [[\"verse\", 0.151], [\"outro\", 0.109], [\"bridge\", 0.109]], [[\"verse\", 0.214], [\"bridge\", 0.179], [\"outro\", 0.165]], [[\"verse\", 0.204], [\"bridge\", 0.167], [\"outro\", 0.161]], [[\"verse\", 0.214], [\"bridge\", 0.188], [\"outro\", 0.151]], [[\"verse\", 0.228], [\"bridge\", 0.193], [\"outro\", 0.165]], [[\"verse\", 0.215], [\"bridge\", 0.195], [\"outro\", 0.162]], [[\"verse\", 0.192], [\"bridge\", 0.178], [\"outro\", 0.137]]]}"
+ },
+ {
+  "role": "tool_result",
+  "name": "grader",
+  "content": "{\"sections\": [{\"start\": 0.1, \"end\": 11.1, \"annotated\": \"intro\", \"scored_as\": \"intro\", \"named\": \"intro\", \"right\": true}, {\"start\": 11.1, \"end\": 33.2, \"annotated\": \"verse\", \"scored_as\": \"verse\", \"named\": \"verse\", \"right\": true}, {\"start\": 33.2, \"end\": 55.2, \"annotated\": \"verse\", \"scored_as\": \"verse\", \"named\": \"verse\", \"right\": true}, {\"start\": 55.2, \"end\": 99.5, \"annotated\": \"chorus\", \"scored_as\": \"chorus\", \"named\": \"chorus\", \"right\": true}, {\"start\": 99.5, \"end\": 121.4, \"annotated\": \"verse\", \"scored_as\": \"verse\", \"named\": \"verse\", \"right\": true}, {\"start\": 121.4, \"end\": 165.6, \"annotated\": \"chorus\", \"scored_as\": \"chorus\", \"named\": \"chorus\", \"right\": true}, {\"start\": 165.6, \"end\": 187.7, \"annotated\": \"bridge\", \"scored_as\": \"bridge\", \"named\": \"bridge\", \"right\": true}, {\"start\": 187.7, \"end\": 231.9, \"annotated\": \"chorus\", \"scored_as\": \"chorus\", \"named\": \"chorus\", \"right\": true}, {\"start\": 231.9, \"end\": 242.8, \"annotated\": \"outro\", \"scored_as\": \"outro\", \"named\": \"outro\", \"right\": true}], \"grade\": {\"acc\": 1.0}}"
+ }
+]

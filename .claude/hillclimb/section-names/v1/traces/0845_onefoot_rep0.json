@@ -1,0 +1,15 @@
+[
+ {
+  "role": "user",
+  "content": "Name each section of this song: One Foot \u2014 fun. (Pop, 8 sections)\nsection edges (s): [0.2, 12.5, 37.2, 64.8, 101.0, 126.4, 156.5, 174.2, 208.8]\nsettings: {\"encoder\": \"clapbar_fold\", \"prompts\": {\"intro\": [\"the intro of a song\"], \"verse\": [\"the verse of a song\"], \"prechorus\": [\"the pre-chorus of a song\"], \"chorus\": [\"the chorus of a song\"], \"postchorus\": [\"the post-chorus of a song\"], \"bridge\": [\"the bridge of a song\"], \"outro\": [\"the outro of a song\"], \"instrumental\": [\"an instrumental section of a song\"]}, \"extra_models\": [\"matpacbar_fold\"], \"structure\": {\"model\": \"matpacbar_fold\", \"position\": true, \"repeat_tau\": null, \"bridge\": false, \"prepost\": false, \"short_s\": 20}}"
+ },
+ {
+  "role": "assistant",
+  "content": "{\"names\": [\"intro\", \"verse\", \"verse\", \"verse\", \"verse\", \"verse\", \"verse\", \"outro\"], \"top3_scores\": [[[\"outro\", 0.299], [\"intro\", 0.29], [\"bridge\", 0.286]], [[\"verse\", 0.222], [\"bridge\", 0.211], [\"outro\", 0.166]], [[\"bridge\", 0.212], [\"outro\", 0.203], [\"verse\", 0.197]], [[\"verse\", 0.226], [\"bridge\", 0.221], [\"outro\", 0.184]], [[\"bridge\", 0.194], [\"outro\", 0.187], [\"verse\", 0.186]], [[\"verse\", 0.367], [\"bridge\", 0.349], [\"chorus\", 0.287]], [[\"verse\", 0.182], [\"bridge\", 0.169], [\"outro\", 0.15]], [[\"outro\", 0.21], [\"verse\", 0.198], [\"bridge\", 0.195]]]}"
+ },
+ {
+  "role": "tool_result",
+  "name": "grader",
+  "content": "{\"sections\": [{\"start\": 0.2, \"end\": 12.5, \"annotated\": \"intro\", \"scored_as\": \"intro\", \"named\": \"intro\", \"right\": true}, {\"start\": 12.5, \"end\": 37.2, \"annotated\": \"verse\", \"scored_as\": \"verse\", \"named\": \"verse\", \"right\": true}, {\"start\": 37.2, \"end\": 64.8, \"annotated\": \"chorus\", \"scored_as\": \"chorus\", \"named\": \"verse\", \"right\": false}, {\"start\": 64.8, \"end\": 101.0, \"annotated\": \"verse\", \"scored_as\": \"verse\", \"named\": \"verse\", \"right\": true}, {\"start\": 101.0, \"end\": 126.4, \"annotated\": \"chorus\", \"scored_as\": \"chorus\", \"named\": \"verse\", \"right\": false}, {\"start\": 126.4, \"end\": 156.5, \"annotated\": \"bridge\", \"scored_as\": \"bridge\", \"named\": \"verse\", \"right\": false}, {\"start\": 156.5, \"end\": 174.2, \"annotated\": \"intro\", \"scored_as\": \"intro\", \"named\": \"verse\", \"right\": false}, {\"start\": 174.2, \"end\": 208.8, \"annotated\": \"chorus\", \"scored_as\": \"chorus\", \"named\": \"outro\", \"right\": false}], \"grade\": {\"acc\": 0.375}}"
+ }
+]

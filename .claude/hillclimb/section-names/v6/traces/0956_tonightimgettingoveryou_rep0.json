@@ -1,0 +1,15 @@
+[
+ {
+  "role": "user",
+  "content": "Name each section of this song: Tonight I'm Getting Over You \u2014 Carly Rae Jepsen (Pop, 8 sections)\nsection edges (s): [0.3, 2.2, 32.7, 63.2, 93.6, 124.1, 154.6, 185.1, 215.3]\nsettings: {\"encoder\": \"clapbar_fold\", \"prompts\": {\"intro\": [\"the intro of a song\"], \"verse\": [\"the verse of a song\"], \"prechorus\": [\"the pre-chorus of a song\"], \"chorus\": [\"the chorus of a song\"], \"postchorus\": [\"the post-chorus of a song\"], \"bridge\": [\"the bridge of a song\"], \"outro\": [\"the outro of a song\"], \"instrumental\": [\"an instrumental section of a song\"]}, \"extra_models\": [\"matpacbar_fold\", \"loudbar_fold\"], \"structure\": {\"model\": \"matpacbar_fold\", \"position\": true, \"repeat_tau\": 0.4, \"bridge\": true, \"prepost\": true, \"short_s\": 20, \"vocal_below\": -1.0, \"loud_model\": \"loudbar_fold\", \"loud_w\": 2.0}, \"extra_prompts\": {\"vocals\": [\"singing vocals\", \"a person singing or rapping\"], \"no_vocals\": [\"instrumental music with no vocals\", \"an instrumental solo\"]}}"
+ },
+ {
+  "role": "assistant",
+  "content": "{\"names\": [\"intro\", \"verse\", \"verse\", \"chorus\", \"verse\", \"bridge\", \"chorus\", \"outro\"], \"top3_scores\": [[[\"verse\", 0.317], [\"bridge\", 0.308], [\"outro\", 0.306]], [[\"verse\", 0.318], [\"bridge\", 0.317], [\"outro\", 0.27]], [[\"verse\", 0.313], [\"bridge\", 0.307], [\"outro\", 0.301]], [[\"outro\", 0.279], [\"bridge\", 0.245], [\"intro\", 0.243]], [[\"outro\", 0.335], [\"bridge\", 0.335], [\"verse\", 0.32]], [[\"outro\", 0.318], [\"bridge\", 0.317], [\"verse\", 0.3]], [[\"outro\", 0.27], [\"bridge\", 0.254], [\"verse\", 0.236]], [[\"bridge\", 0.311], [\"outro\", 0.31], [\"verse\", 0.304]]]}"
+ },
+ {
+  "role": "tool_result",
+  "name": "grader",
+  "content": "{\"sections\": [{\"start\": 0.3, \"end\": 2.2, \"annotated\": \"intro\", \"scored_as\": \"intro\", \"named\": \"intro\", \"right\": true}, {\"start\": 2.2, \"end\": 32.7, \"annotated\": \"verse\", \"scored_as\": \"verse\", \"named\": \"verse\", \"right\": true}, {\"start\": 32.7, \"end\": 63.2, \"annotated\": \"verse\", \"scored_as\": \"verse\", \"named\": \"verse\", \"right\": true}, {\"start\": 63.2, \"end\": 93.6, \"annotated\": \"chorus\", \"scored_as\": \"chorus\", \"named\": \"chorus\", \"right\": true}, {\"start\": 93.6, \"end\": 124.1, \"annotated\": \"verse\", \"scored_as\": \"verse\", \"named\": \"verse\", \"right\": true}, {\"start\": 124.1, \"end\": 154.6, \"annotated\": \"verse\", \"scored_as\": \"verse\", \"named\": \"bridge\", \"right\": false}, {\"start\": 154.6, \"end\": 185.1, \"annotated\": \"chorus\", \"scored_as\": \"chorus\", \"named\": \"chorus\", \"right\": true}, {\"start\": 185.1, \"end\": 215.3, \"annotated\": \"chorus2\", \"scored_as\": \"chorus\", \"named\": \"outro\", \"right\": false}], \"grade\": {\"acc\": 0.75}}"
+ }
+]

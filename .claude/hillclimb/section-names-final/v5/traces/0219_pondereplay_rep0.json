@@ -1,0 +1,15 @@
+[
+ {
+  "role": "user",
+  "content": "Name each section of this song: Pon de Replay \u2014 Rihanna (Dance/Electronic, 9 sections)\nsection edges (s): [0.0, 2.4, 12.1, 31.5, 50.9, 70.3, 89.7, 109.1, 128.5, 138.2]\nsettings: {\"encoder\": \"clapbar_fold\", \"prompts\": {\"intro\": [\"the intro of a song\"], \"verse\": [\"the verse of a song\"], \"prechorus\": [\"the pre-chorus of a song\"], \"chorus\": [\"the chorus of a song\"], \"postchorus\": [\"the post-chorus of a song\"], \"bridge\": [\"the bridge of a song\"], \"outro\": [\"the outro of a song\"], \"instrumental\": [\"an instrumental section of a song\"]}, \"extra_models\": [\"matpacbar_fold\"], \"structure\": {\"model\": \"matpacbar_fold\", \"position\": true, \"repeat_tau\": 0.4, \"bridge\": true, \"prepost\": true, \"short_s\": 20, \"vocal_below\": -1.0}, \"extra_prompts\": {\"vocals\": [\"singing vocals\", \"a person singing or rapping\"], \"no_vocals\": [\"instrumental music with no vocals\", \"an instrumental solo\"]}}"
+ },
+ {
+  "role": "assistant",
+  "content": "{\"names\": [\"intro\", \"chorus\", \"verse\", \"verse\", \"prechorus\", \"chorus\", \"bridge\", \"bridge\", \"outro\"], \"top3_scores\": [[[\"verse\", 0.275], [\"outro\", 0.249], [\"bridge\", 0.246]], [[\"verse\", 0.281], [\"bridge\", 0.252], [\"outro\", 0.231]], [[\"verse\", 0.283], [\"bridge\", 0.252], [\"outro\", 0.243]], [[\"verse\", 0.327], [\"bridge\", 0.287], [\"outro\", 0.272]], [[\"verse\", 0.306], [\"bridge\", 0.277], [\"outro\", 0.266]], [[\"verse\", 0.289], [\"bridge\", 0.251], [\"outro\", 0.223]], [[\"verse\", 0.295], [\"bridge\", 0.261], [\"outro\", 0.237]], [[\"verse\", 0.293], [\"bridge\", 0.257], [\"outro\", 0.246]], [[\"outro\", 0.338], [\"bridge\", 0.314], [\"intro\", 0.297]]]}"
+ },
+ {
+  "role": "tool_result",
+  "name": "grader",
+  "content": "{\"sections\": [{\"start\": 0.0, \"end\": 2.4, \"annotated\": \"silence\", \"scored_as\": null, \"named\": \"intro\", \"right\": null}, {\"start\": 2.4, \"end\": 12.1, \"annotated\": \"intro\", \"scored_as\": \"intro\", \"named\": \"chorus\", \"right\": false}, {\"start\": 12.1, \"end\": 31.5, \"annotated\": \"chorus\", \"scored_as\": \"chorus\", \"named\": \"verse\", \"right\": false}, {\"start\": 31.5, \"end\": 50.9, \"annotated\": \"verse\", \"scored_as\": \"verse\", \"named\": \"verse\", \"right\": true}, {\"start\": 50.9, \"end\": 70.3, \"annotated\": \"chorus\", \"scored_as\": \"chorus\", \"named\": \"prechorus\", \"right\": false}, {\"start\": 70.3, \"end\": 89.7, \"annotated\": \"postchorus\", \"scored_as\": \"postchorus\", \"named\": \"chorus\", \"right\": false}, {\"start\": 89.7, \"end\": 109.1, \"annotated\": \"bridge\", \"scored_as\": \"bridge\", \"named\": \"bridge\", \"right\": true}, {\"start\": 109.1, \"end\": 128.5, \"annotated\": \"chorus\", \"scored_as\": \"chorus\", \"named\": \"bridge\", \"right\": false}, {\"start\": 128.5, \"end\": 138.2, \"annotated\": \"outro\", \"scored_as\": \"outro\", \"named\": \"outro\", \"right\": true}], \"grade\": {\"acc\": 0.375}}"
+ }
+]

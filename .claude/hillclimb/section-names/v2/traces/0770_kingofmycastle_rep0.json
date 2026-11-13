@@ -1,0 +1,15 @@
+[
+ {
+  "role": "user",
+  "content": "Name each section of this song: King of My Castle (Ghettolectro edit) \u2014 La Boca (Dance/Electronic, 10 sections)\nsection edges (s): [0.0, 31.0, 46.0, 61.0, 76.0, 106.0, 121.0, 166.0, 181.0, 196.0, 211.0]\nsettings: {\"encoder\": \"clapbar_fold\", \"prompts\": {\"intro\": [\"the intro of a song\"], \"verse\": [\"the verse of a song\"], \"prechorus\": [\"the pre-chorus of a song\"], \"chorus\": [\"the chorus of a song\"], \"postchorus\": [\"the post-chorus of a song\"], \"bridge\": [\"the bridge of a song\"], \"outro\": [\"the outro of a song\"], \"instrumental\": [\"an instrumental section of a song\"]}, \"extra_models\": [\"matpacbar_fold\"], \"structure\": {\"model\": \"matpacbar_fold\", \"position\": true, \"repeat_tau\": 0.4, \"bridge\": false, \"prepost\": false, \"short_s\": 20}}"
+ },
+ {
+  "role": "assistant",
+  "content": "{\"names\": [\"intro\", \"chorus\", \"verse\", \"chorus\", \"verse\", \"chorus\", \"verse\", \"chorus\", \"chorus\", \"outro\"], \"top3_scores\": [[[\"intro\", 0.332], [\"outro\", 0.323], [\"instrumental\", 0.264]], [[\"outro\", 0.306], [\"bridge\", 0.278], [\"intro\", 0.275]], [[\"outro\", 0.31], [\"intro\", 0.307], [\"bridge\", 0.278]], [[\"outro\", 0.274], [\"bridge\", 0.265], [\"verse\", 0.241]], [[\"outro\", 0.325], [\"intro\", 0.302], [\"bridge\", 0.278]], [[\"outro\", 0.268], [\"bridge\", 0.263], [\"verse\", 0.245]], [[\"outro\", 0.349], [\"intro\", 0.332], [\"bridge\", 0.273]], [[\"outro\", 0.274], [\"bridge\", 0.269], [\"verse\", 0.244]], [[\"bridge\", 0.304], [\"outro\", 0.298], [\"verse\", 0.28]], [[\"outro\", 0.37], [\"intro\", 0.357], [\"bridge\", 0.325]]]}"
+ },
+ {
+  "role": "tool_result",
+  "name": "grader",
+  "content": "{\"sections\": [{\"start\": 0.0, \"end\": 31.0, \"annotated\": \"intro\", \"scored_as\": \"intro\", \"named\": \"intro\", \"right\": true}, {\"start\": 31.0, \"end\": 46.0, \"annotated\": \"chorus\", \"scored_as\": \"chorus\", \"named\": \"chorus\", \"right\": true}, {\"start\": 46.0, \"end\": 61.0, \"annotated\": \"inst\", \"scored_as\": \"instrumental\", \"named\": \"verse\", \"right\": false}, {\"start\": 61.0, \"end\": 76.0, \"annotated\": \"chorus\", \"scored_as\": \"chorus\", \"named\": \"chorus\", \"right\": true}, {\"start\": 76.0, \"end\": 106.0, \"annotated\": \"inst\", \"scored_as\": \"instrumental\", \"named\": \"verse\", \"right\": false}, {\"start\": 106.0, \"end\": 121.0, \"annotated\": \"chorus\", \"scored_as\": \"chorus\", \"named\": \"chorus\", \"right\": true}, {\"start\": 121.0, \"end\": 166.0, \"annotated\": \"inst\", \"scored_as\": \"instrumental\", \"named\": \"verse\", \"right\": false}, {\"start\": 166.0, \"end\": 181.0, \"annotated\": \"chorus\", \"scored_as\": \"chorus\", \"named\": \"chorus\", \"right\": true}, {\"start\": 181.0, \"end\": 196.0, \"annotated\": \"chorus\", \"scored_as\": \"chorus\", \"named\": \"chorus\", \"right\": true}, {\"start\": 196.0, \"end\": 211.0, \"annotated\": \"inst\", \"scored_as\": \"instrumental\", \"named\": \"outro\", \"right\": false}], \"grade\": {\"acc\": 0.6}}"
+ }
+]

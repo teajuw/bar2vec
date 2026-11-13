@@ -1,0 +1,15 @@
+[
+ {
+  "role": "user",
+  "content": "Name each section of this song: Written in the Stars (UK radio version) \u2014 Tinie Tempah feat. Eric Turner (Hip-Hop, 7 sections)\nsection edges (s): [1.7, 22.6, 64.4, 95.8, 137.6, 168.9, 179.3, 200.2]\nsettings: {\"encoder\": \"clapbar_fold\", \"prompts\": {\"intro\": [\"the intro of a song\"], \"verse\": [\"the verse of a song\"], \"prechorus\": [\"the pre-chorus of a song\"], \"chorus\": [\"the chorus of a song\"], \"postchorus\": [\"the post-chorus of a song\"], \"bridge\": [\"the bridge of a song\"], \"outro\": [\"the outro of a song\"], \"instrumental\": [\"an instrumental section of a song\"]}}"
+ },
+ {
+  "role": "assistant",
+  "content": "{\"names\": [\"outro\", \"outro\", \"outro\", \"outro\", \"outro\", \"outro\", \"outro\"], \"top3_scores\": [[[\"outro\", 0.245], [\"intro\", 0.218], [\"chorus\", 0.192]], [[\"outro\", 0.253], [\"intro\", 0.217], [\"verse\", 0.19]], [[\"outro\", 0.296], [\"intro\", 0.265], [\"instrumental\", 0.229]], [[\"outro\", 0.243], [\"intro\", 0.206], [\"verse\", 0.188]], [[\"outro\", 0.293], [\"intro\", 0.27], [\"instrumental\", 0.22]], [[\"outro\", 0.355], [\"intro\", 0.294], [\"verse\", 0.244]], [[\"outro\", 0.289], [\"intro\", 0.27], [\"instrumental\", 0.256]]]}"
+ },
+ {
+  "role": "tool_result",
+  "name": "grader",
+  "content": "{\"sections\": [{\"start\": 1.7, \"end\": 22.6, \"annotated\": \"intro\", \"scored_as\": \"intro\", \"named\": \"outro\", \"right\": false}, {\"start\": 22.6, \"end\": 64.4, \"annotated\": \"verse\", \"scored_as\": \"verse\", \"named\": \"outro\", \"right\": false}, {\"start\": 64.4, \"end\": 95.8, \"annotated\": \"chorus\", \"scored_as\": \"chorus\", \"named\": \"outro\", \"right\": false}, {\"start\": 95.8, \"end\": 137.6, \"annotated\": \"verse\", \"scored_as\": \"verse\", \"named\": \"outro\", \"right\": false}, {\"start\": 137.6, \"end\": 168.9, \"annotated\": \"chorus\", \"scored_as\": \"chorus\", \"named\": \"outro\", \"right\": false}, {\"start\": 168.9, \"end\": 179.3, \"annotated\": \"postchorus\", \"scored_as\": \"postchorus\", \"named\": \"outro\", \"right\": false}, {\"start\": 179.3, \"end\": 200.2, \"annotated\": \"chorus\", \"scored_as\": \"chorus\", \"named\": \"outro\", \"right\": false}], \"grade\": {\"acc\": 0.0}}"
+ }
+]

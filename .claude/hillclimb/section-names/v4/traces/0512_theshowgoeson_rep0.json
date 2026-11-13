@@ -1,0 +1,15 @@
+[
+ {
+  "role": "user",
+  "content": "Name each section of this song: The Show Goes On \u2014 Lupe Fiasco (Hip-Hop, 8 sections)\nsection edges (s): [1.7, 14.7, 41.5, 82.2, 109.1, 149.4, 176.2, 203.1, 229.9]\nsettings: {\"encoder\": \"clapbar_fold\", \"prompts\": {\"intro\": [\"the intro of a song\"], \"verse\": [\"the verse of a song\"], \"prechorus\": [\"the pre-chorus of a song\"], \"chorus\": [\"the chorus of a song\"], \"postchorus\": [\"the post-chorus of a song\"], \"bridge\": [\"the bridge of a song\"], \"outro\": [\"the outro of a song\"], \"instrumental\": [\"an instrumental section of a song\"]}, \"extra_models\": [\"matpacbar_fold\"], \"structure\": {\"model\": \"matpacbar_fold\", \"position\": true, \"repeat_tau\": 0.4, \"bridge\": true, \"prepost\": true, \"short_s\": 20}}"
+ },
+ {
+  "role": "assistant",
+  "content": "{\"names\": [\"intro\", \"chorus\", \"verse\", \"chorus\", \"verse\", \"chorus\", \"verse\", \"chorus\"], \"top3_scores\": [[[\"outro\", 0.404], [\"intro\", 0.371], [\"verse\", 0.35]], [[\"verse\", 0.268], [\"bridge\", 0.26], [\"outro\", 0.243]], [[\"verse\", 0.331], [\"bridge\", 0.307], [\"outro\", 0.258]], [[\"bridge\", 0.242], [\"verse\", 0.236], [\"outro\", 0.211]], [[\"verse\", 0.354], [\"bridge\", 0.318], [\"outro\", 0.303]], [[\"bridge\", 0.243], [\"verse\", 0.24], [\"outro\", 0.211]], [[\"verse\", 0.312], [\"bridge\", 0.283], [\"outro\", 0.248]], [[\"bridge\", 0.241], [\"outro\", 0.24], [\"verse\", 0.24]]]}"
+ },
+ {
+  "role": "tool_result",
+  "name": "grader",
+  "content": "{\"sections\": [{\"start\": 1.7, \"end\": 14.7, \"annotated\": \"intro\", \"scored_as\": \"intro\", \"named\": \"intro\", \"right\": true}, {\"start\": 14.7, \"end\": 41.5, \"annotated\": \"chorus\", \"scored_as\": \"chorus\", \"named\": \"chorus\", \"right\": true}, {\"start\": 41.5, \"end\": 82.2, \"annotated\": \"verse\", \"scored_as\": \"verse\", \"named\": \"verse\", \"right\": true}, {\"start\": 82.2, \"end\": 109.1, \"annotated\": \"chorus\", \"scored_as\": \"chorus\", \"named\": \"chorus\", \"right\": true}, {\"start\": 109.1, \"end\": 149.4, \"annotated\": \"verse\", \"scored_as\": \"verse\", \"named\": \"verse\", \"right\": true}, {\"start\": 149.4, \"end\": 176.2, \"annotated\": \"chorus\", \"scored_as\": \"chorus\", \"named\": \"chorus\", \"right\": true}, {\"start\": 176.2, \"end\": 203.1, \"annotated\": \"verse\", \"scored_as\": \"verse\", \"named\": \"verse\", \"right\": true}, {\"start\": 203.1, \"end\": 229.9, \"annotated\": \"chorus\", \"scored_as\": \"chorus\", \"named\": \"chorus\", \"right\": true}], \"grade\": {\"acc\": 1.0}}"
+ }
+]

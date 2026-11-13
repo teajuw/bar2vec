@@ -1,0 +1,15 @@
+[
+ {
+  "role": "user",
+  "content": "Name each section of this song: Solo \u2014 Iyaz (Pop, 8 sections)\nsection edges (s): [0.1, 22.2, 51.7, 81.3, 110.8, 125.6, 155.1, 169.9, 199.4]\nsettings: {\"encoder\": \"clapbar_fold\", \"prompts\": {\"intro\": [\"the intro of a song\"], \"verse\": [\"the verse of a song\"], \"prechorus\": [\"the pre-chorus of a song\"], \"chorus\": [\"the chorus of a song\"], \"postchorus\": [\"the post-chorus of a song\"], \"bridge\": [\"the bridge of a song\"], \"outro\": [\"the outro of a song\"], \"instrumental\": [\"an instrumental section of a song\"]}, \"extra_models\": [\"matpacbar_fold\"], \"structure\": {\"model\": \"matpacbar_fold\", \"position\": true, \"repeat_tau\": 0.4, \"bridge\": true, \"prepost\": true, \"short_s\": 20, \"vocal_below\": -1.0}, \"extra_prompts\": {\"vocals\": [\"singing vocals\", \"a person singing or rapping\"], \"no_vocals\": [\"instrumental music with no vocals\", \"an instrumental solo\"]}}"
+ },
+ {
+  "role": "assistant",
+  "content": "{\"names\": [\"intro\", \"verse\", \"chorus\", \"verse\", \"verse\", \"chorus\", \"instrumental\", \"outro\"], \"top3_scores\": [[[\"verse\", 0.4], [\"outro\", 0.385], [\"bridge\", 0.367]], [[\"verse\", 0.368], [\"bridge\", 0.334], [\"outro\", 0.291]], [[\"verse\", 0.361], [\"bridge\", 0.338], [\"outro\", 0.295]], [[\"verse\", 0.369], [\"bridge\", 0.315], [\"outro\", 0.298]], [[\"verse\", 0.347], [\"bridge\", 0.324], [\"outro\", 0.273]], [[\"verse\", 0.369], [\"bridge\", 0.341], [\"outro\", 0.331]], [[\"verse\", 0.427], [\"bridge\", 0.387], [\"outro\", 0.353]], [[\"verse\", 0.394], [\"bridge\", 0.359], [\"outro\", 0.323]]]}"
+ },
+ {
+  "role": "tool_result",
+  "name": "grader",
+  "content": "{\"sections\": [{\"start\": 0.1, \"end\": 22.2, \"annotated\": \"intro\", \"scored_as\": \"intro\", \"named\": \"intro\", \"right\": true}, {\"start\": 22.2, \"end\": 51.7, \"annotated\": \"verse\", \"scored_as\": \"verse\", \"named\": \"verse\", \"right\": true}, {\"start\": 51.7, \"end\": 81.3, \"annotated\": \"chorus\", \"scored_as\": \"chorus\", \"named\": \"chorus\", \"right\": true}, {\"start\": 81.3, \"end\": 110.8, \"annotated\": \"verse\", \"scored_as\": \"verse\", \"named\": \"verse\", \"right\": true}, {\"start\": 110.8, \"end\": 125.6, \"annotated\": \"transition\", \"scored_as\": \"instrumental\", \"named\": \"verse\", \"right\": false}, {\"start\": 125.6, \"end\": 155.1, \"annotated\": \"chorus\", \"scored_as\": \"chorus\", \"named\": \"chorus\", \"right\": true}, {\"start\": 155.1, \"end\": 169.9, \"annotated\": \"transition\", \"scored_as\": \"instrumental\", \"named\": \"instrumental\", \"right\": true}, {\"start\": 169.9, \"end\": 199.4, \"annotated\": \"chorus\", \"scored_as\": \"chorus\", \"named\": \"outro\", \"right\": false}], \"grade\": {\"acc\": 0.75}}"
+ }
+]

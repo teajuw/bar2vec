@@ -1,0 +1,15 @@
+[
+ {
+  "role": "user",
+  "content": "Name each section of this song: The Only Exception \u2014 Paramore (Pop, 10 sections)\nsection edges (s): [0.2, 21.1, 62.8, 88.9, 133.2, 154.1, 175.0, 201.1, 221.9, 242.8, 258.5]\nsettings: {\"encoder\": \"clapbar_fold\", \"prompts\": {\"intro\": [\"the intro of a song\"], \"verse\": [\"the verse of a song\"], \"prechorus\": [\"the pre-chorus of a song\"], \"chorus\": [\"the chorus of a song\"], \"postchorus\": [\"the post-chorus of a song\"], \"bridge\": [\"the bridge of a song\"], \"outro\": [\"the outro of a song\"], \"instrumental\": [\"an instrumental section of a song\"]}}"
+ },
+ {
+  "role": "assistant",
+  "content": "{\"names\": [\"bridge\", \"bridge\", \"bridge\", \"bridge\", \"bridge\", \"bridge\", \"bridge\", \"bridge\", \"bridge\", \"bridge\"], \"top3_scores\": [[[\"bridge\", 0.265], [\"outro\", 0.261], [\"verse\", 0.243]], [[\"bridge\", 0.27], [\"verse\", 0.259], [\"outro\", 0.217]], [[\"bridge\", 0.277], [\"verse\", 0.247], [\"outro\", 0.215]], [[\"bridge\", 0.21], [\"verse\", 0.175], [\"postchorus\", 0.118]], [[\"bridge\", 0.214], [\"postchorus\", 0.164], [\"verse\", 0.145]], [[\"bridge\", 0.222], [\"postchorus\", 0.193], [\"outro\", 0.164]], [[\"bridge\", 0.202], [\"verse\", 0.165], [\"postchorus\", 0.15]], [[\"bridge\", 0.203], [\"verse\", 0.17], [\"postchorus\", 0.163]], [[\"bridge\", 0.223], [\"postchorus\", 0.179], [\"verse\", 0.154]], [[\"bridge\", 0.284], [\"postchorus\", 0.257], [\"verse\", 0.243]]]}"
+ },
+ {
+  "role": "tool_result",
+  "name": "grader",
+  "content": "{\"sections\": [{\"start\": 0.2, \"end\": 21.1, \"annotated\": \"intro\", \"scored_as\": \"intro\", \"named\": \"bridge\", \"right\": false}, {\"start\": 21.1, \"end\": 62.8, \"annotated\": \"verse\", \"scored_as\": \"verse\", \"named\": \"bridge\", \"right\": false}, {\"start\": 62.8, \"end\": 88.9, \"annotated\": \"chorus\", \"scored_as\": \"chorus\", \"named\": \"bridge\", \"right\": false}, {\"start\": 88.9, \"end\": 133.2, \"annotated\": \"verse\", \"scored_as\": \"verse\", \"named\": \"bridge\", \"right\": false}, {\"start\": 133.2, \"end\": 154.1, \"annotated\": \"chorus\", \"scored_as\": \"chorus\", \"named\": \"bridge\", \"right\": false}, {\"start\": 154.1, \"end\": 175.0, \"annotated\": \"solo\", \"scored_as\": \"instrumental\", \"named\": \"bridge\", \"right\": false}, {\"start\": 175.0, \"end\": 201.1, \"annotated\": \"bridge\", \"scored_as\": \"bridge\", \"named\": \"bridge\", \"right\": true}, {\"start\": 201.1, \"end\": 221.9, \"annotated\": \"chorus\", \"scored_as\": \"chorus\", \"named\": \"bridge\", \"right\": false}, {\"start\": 221.9, \"end\": 242.8, \"annotated\": \"chorus\", \"scored_as\": \"chorus\", \"named\": \"bridge\", \"right\": false}, {\"start\": 242.8, \"end\": 258.5, \"annotated\": \"outro\", \"scored_as\": \"outro\", \"named\": \"bridge\", \"right\": false}], \"grade\": {\"acc\": 0.1}}"
+ }
+]

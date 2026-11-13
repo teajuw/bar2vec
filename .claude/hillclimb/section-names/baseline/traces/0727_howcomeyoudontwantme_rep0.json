@@ -1,0 +1,15 @@
+[
+ {
+  "role": "user",
+  "content": "Name each section of this song: How Come You Don't Want Me \u2014 Tegan and Sara (Pop, 10 sections)\nsection edges (s): [0.5, 9.9, 28.7, 47.5, 66.4, 85.2, 104.0, 113.4, 132.2, 151.1, 169.9]\nsettings: {\"encoder\": \"clapbar_fold\", \"prompts\": {\"intro\": [\"the intro of a song\"], \"verse\": [\"the verse of a song\"], \"prechorus\": [\"the pre-chorus of a song\"], \"chorus\": [\"the chorus of a song\"], \"postchorus\": [\"the post-chorus of a song\"], \"bridge\": [\"the bridge of a song\"], \"outro\": [\"the outro of a song\"], \"instrumental\": [\"an instrumental section of a song\"]}}"
+ },
+ {
+  "role": "assistant",
+  "content": "{\"names\": [\"bridge\", \"verse\", \"verse\", \"bridge\", \"bridge\", \"bridge\", \"outro\", \"bridge\", \"verse\", \"bridge\"], \"top3_scores\": [[[\"bridge\", 0.312], [\"outro\", 0.31], [\"verse\", 0.265]], [[\"verse\", 0.249], [\"bridge\", 0.238], [\"outro\", 0.21]], [[\"verse\", 0.135], [\"bridge\", 0.132], [\"outro\", 0.111]], [[\"bridge\", 0.206], [\"outro\", 0.204], [\"verse\", 0.197]], [[\"bridge\", 0.186], [\"verse\", 0.173], [\"outro\", 0.157]], [[\"bridge\", 0.198], [\"outro\", 0.16], [\"verse\", 0.159]], [[\"outro\", 0.303], [\"bridge\", 0.281], [\"intro\", 0.245]], [[\"bridge\", 0.237], [\"verse\", 0.23], [\"outro\", 0.221]], [[\"verse\", 0.141], [\"bridge\", 0.134], [\"outro\", 0.126]], [[\"bridge\", 0.133], [\"verse\", 0.131], [\"outro\", 0.116]]]}"
+ },
+ {
+  "role": "tool_result",
+  "name": "grader",
+  "content": "{\"sections\": [{\"start\": 0.5, \"end\": 9.9, \"annotated\": \"intro\", \"scored_as\": \"intro\", \"named\": \"bridge\", \"right\": false}, {\"start\": 9.9, \"end\": 28.7, \"annotated\": \"verse\", \"scored_as\": \"verse\", \"named\": \"verse\", \"right\": true}, {\"start\": 28.7, \"end\": 47.5, \"annotated\": \"chorus\", \"scored_as\": \"chorus\", \"named\": \"verse\", \"right\": false}, {\"start\": 47.5, \"end\": 66.4, \"annotated\": \"verse\", \"scored_as\": \"verse\", \"named\": \"bridge\", \"right\": false}, {\"start\": 66.4, \"end\": 85.2, \"annotated\": \"chorus\", \"scored_as\": \"chorus\", \"named\": \"bridge\", \"right\": false}, {\"start\": 85.2, \"end\": 104.0, \"annotated\": \"bridge\", \"scored_as\": \"bridge\", \"named\": \"bridge\", \"right\": true}, {\"start\": 104.0, \"end\": 113.4, \"annotated\": \"intro\", \"scored_as\": \"intro\", \"named\": \"outro\", \"right\": false}, {\"start\": 113.4, \"end\": 132.2, \"annotated\": \"altchorus\", \"scored_as\": null, \"named\": \"bridge\", \"right\": null}, {\"start\": 132.2, \"end\": 151.1, \"annotated\": \"chorus\", \"scored_as\": \"chorus\", \"named\": \"verse\", \"right\": false}, {\"start\": 151.1, \"end\": 169.9, \"annotated\": \"chorus\", \"scored_as\": \"chorus\", \"named\": \"bridge\", \"right\": false}], \"grade\": {\"acc\": 0.2222}}"
+ }
+]

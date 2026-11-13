@@ -1,0 +1,15 @@
+[
+ {
+  "role": "user",
+  "content": "Name each section of this song: Give Me Everything \u2014 Pitbull (Pop, 9 sections)\nsection edges (s): [0.0, 5.6, 22.3, 44.7, 59.1, 87.4, 104.2, 126.0, 141.4, 156.3]\nsettings: {\"encoder\": \"clapbar_fold\", \"prompts\": {\"intro\": [\"the intro of a song\"], \"verse\": [\"the verse of a song\"], \"prechorus\": [\"the pre-chorus of a song\"], \"chorus\": [\"the chorus of a song\"], \"postchorus\": [\"the post-chorus of a song\"], \"bridge\": [\"the bridge of a song\"], \"outro\": [\"the outro of a song\"], \"instrumental\": [\"an instrumental section of a song\"]}, \"extra_models\": [\"matpacbar_fold\"], \"structure\": {\"model\": \"matpacbar_fold\", \"position\": true, \"repeat_tau\": 0.4, \"bridge\": true, \"prepost\": false, \"short_s\": 20}}"
+ },
+ {
+  "role": "assistant",
+  "content": "{\"names\": [\"intro\", \"verse\", \"verse\", \"verse\", \"chorus\", \"verse\", \"verse\", \"verse\", \"chorus\"], \"top3_scores\": [[[\"outro\", 0.319], [\"intro\", 0.266], [\"verse\", 0.23]], [[\"verse\", 0.336], [\"bridge\", 0.33], [\"outro\", 0.31]], [[\"outro\", 0.28], [\"verse\", 0.262], [\"intro\", 0.241]], [[\"outro\", 0.303], [\"bridge\", 0.3], [\"verse\", 0.291]], [[\"outro\", 0.293], [\"verse\", 0.293], [\"bridge\", 0.285]], [[\"bridge\", 0.336], [\"verse\", 0.332], [\"outro\", 0.304]], [[\"outro\", 0.307], [\"verse\", 0.3], [\"intro\", 0.278]], [[\"outro\", 0.295], [\"bridge\", 0.289], [\"verse\", 0.283]], [[\"verse\", 0.314], [\"bridge\", 0.299], [\"outro\", 0.287]]]}"
+ },
+ {
+  "role": "tool_result",
+  "name": "grader",
+  "content": "{\"sections\": [{\"start\": 0.0, \"end\": 5.6, \"annotated\": \"intro\", \"scored_as\": \"intro\", \"named\": \"intro\", \"right\": true}, {\"start\": 5.6, \"end\": 22.3, \"annotated\": \"chorus\", \"scored_as\": \"chorus\", \"named\": \"verse\", \"right\": false}, {\"start\": 22.3, \"end\": 44.7, \"annotated\": \"verse\", \"scored_as\": \"verse\", \"named\": \"verse\", \"right\": true}, {\"start\": 44.7, \"end\": 59.1, \"annotated\": \"bridge\", \"scored_as\": \"bridge\", \"named\": \"verse\", \"right\": false}, {\"start\": 59.1, \"end\": 87.4, \"annotated\": \"prechorus\", \"scored_as\": \"prechorus\", \"named\": \"chorus\", \"right\": false}, {\"start\": 87.4, \"end\": 104.2, \"annotated\": \"chorus\", \"scored_as\": \"chorus\", \"named\": \"verse\", \"right\": false}, {\"start\": 104.2, \"end\": 126.0, \"annotated\": \"verse\", \"scored_as\": \"verse\", \"named\": \"verse\", \"right\": true}, {\"start\": 126.0, \"end\": 141.4, \"annotated\": \"chorus\", \"scored_as\": \"chorus\", \"named\": \"verse\", \"right\": false}, {\"start\": 141.4, \"end\": 156.3, \"annotated\": \"bridge\", \"scored_as\": \"bridge\", \"named\": \"chorus\", \"right\": false}], \"grade\": {\"acc\": 0.3333}}"
+ }
+]

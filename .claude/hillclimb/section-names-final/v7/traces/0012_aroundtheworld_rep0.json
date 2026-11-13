@@ -1,0 +1,15 @@
+[
+ {
+  "role": "user",
+  "content": "Name each section of this song: Around The World \u2014 Daft Punk (Dance/Electronic, 8 sections)\nsection edges (s): [0.0, 15.8, 47.5, 55.4, 71.2, 87.1, 126.6, 134.6, 150.4]\nsettings: {\"encoder\": \"clapbar_fold\", \"prompts\": {\"intro\": [\"the intro of a song\"], \"verse\": [\"the verse of a song\"], \"prechorus\": [\"the pre-chorus of a song\"], \"chorus\": [\"the chorus of a song\"], \"postchorus\": [\"the post-chorus of a song\"], \"bridge\": [\"the bridge of a song\"], \"outro\": [\"the outro of a song\"], \"instrumental\": [\"an instrumental section of a song\"]}, \"extra_models\": [\"matpacbar_fold\", \"loudbar_fold\"], \"structure\": {\"model\": \"matpacbar_fold\", \"position\": true, \"repeat_tau\": 0.4, \"bridge\": true, \"prepost\": true, \"short_s\": 20, \"vocal_below\": -1.0}, \"extra_prompts\": {\"vocals\": [\"singing vocals\", \"a person singing or rapping\"], \"no_vocals\": [\"instrumental music with no vocals\", \"an instrumental solo\"]}, \"trained\": true}"
+ },
+ {
+  "role": "assistant",
+  "content": "{\"names\": [\"intro\", \"verse\", \"instrumental\", \"verse\", \"verse\", \"bridge\", \"prechorus\", \"chorus\"], \"top3_scores\": [[[\"outro\", 0.256], [\"bridge\", 0.252], [\"intro\", 0.249]], [[\"outro\", 0.295], [\"bridge\", 0.289], [\"intro\", 0.277]], [[\"outro\", 0.249], [\"intro\", 0.243], [\"bridge\", 0.229]], [[\"bridge\", 0.329], [\"intro\", 0.32], [\"outro\", 0.318]], [[\"outro\", 0.29], [\"intro\", 0.285], [\"bridge\", 0.279]], [[\"outro\", 0.288], [\"bridge\", 0.281], [\"intro\", 0.27]], [[\"verse\", 0.361], [\"outro\", 0.354], [\"bridge\", 0.337]], [[\"verse\", 0.395], [\"outro\", 0.392], [\"bridge\", 0.384]]]}"
+ },
+ {
+  "role": "tool_result",
+  "name": "grader",
+  "content": "{\"sections\": [{\"start\": 0.0, \"end\": 15.8, \"annotated\": \"intro\", \"scored_as\": \"intro\", \"named\": \"intro\", \"right\": true}, {\"start\": 15.8, \"end\": 47.5, \"annotated\": \"chorus\", \"scored_as\": \"chorus\", \"named\": \"verse\", \"right\": false}, {\"start\": 47.5, \"end\": 55.4, \"annotated\": \"instrumental\", \"scored_as\": \"instrumental\", \"named\": \"instrumental\", \"right\": true}, {\"start\": 55.4, \"end\": 71.2, \"annotated\": \"chorus\", \"scored_as\": \"chorus\", \"named\": \"verse\", \"right\": false}, {\"start\": 71.2, \"end\": 87.1, \"annotated\": \"instrumental\", \"scored_as\": \"instrumental\", \"named\": \"verse\", \"right\": false}, {\"start\": 87.1, \"end\": 126.6, \"annotated\": \"chorus\", \"scored_as\": \"chorus\", \"named\": \"bridge\", \"right\": false}, {\"start\": 126.6, \"end\": 134.6, \"annotated\": \"instrumental\", \"scored_as\": \"instrumental\", \"named\": \"prechorus\", \"right\": false}, {\"start\": 134.6, \"end\": 150.4, \"annotated\": \"chorus\", \"scored_as\": \"chorus\", \"named\": \"chorus\", \"right\": true}], \"grade\": {\"acc\": 0.375}}"
+ }
+]

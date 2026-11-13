@@ -1,0 +1,15 @@
+[
+ {
+  "role": "user",
+  "content": "Name each section of this song: Hey There Delilah \u2014 Plain White T's (Alternative, 8 sections)\nsection edges (s): [0.1, 9.4, 46.3, 67.1, 104.0, 122.5, 154.8, 184.8, 224.0]\nsettings: {\"encoder\": \"clapbar_fold\", \"prompts\": {\"intro\": [\"the intro of a song\"], \"verse\": [\"the verse of a song\"], \"prechorus\": [\"the pre-chorus of a song\"], \"chorus\": [\"the chorus of a song\"], \"postchorus\": [\"the post-chorus of a song\"], \"bridge\": [\"the bridge of a song\"], \"outro\": [\"the outro of a song\"], \"instrumental\": [\"an instrumental section of a song\"]}, \"extra_models\": [\"matpacbar_fold\"], \"structure\": {\"model\": \"matpacbar_fold\", \"position\": true, \"repeat_tau\": 0.4, \"bridge\": true, \"prepost\": true, \"short_s\": 20, \"vocal_below\": -1.0}, \"extra_prompts\": {\"vocals\": [\"singing vocals\", \"a person singing or rapping\"], \"no_vocals\": [\"instrumental music with no vocals\", \"an instrumental solo\"]}}"
+ },
+ {
+  "role": "assistant",
+  "content": "{\"names\": [\"intro\", \"verse\", \"chorus\", \"verse\", \"chorus\", \"bridge\", \"instrumental\", \"outro\"], \"top3_scores\": [[[\"bridge\", 0.254], [\"chorus\", 0.241], [\"outro\", 0.239]], [[\"bridge\", 0.254], [\"verse\", 0.242], [\"chorus\", 0.185]], [[\"bridge\", 0.333], [\"verse\", 0.301], [\"outro\", 0.246]], [[\"bridge\", 0.268], [\"verse\", 0.248], [\"outro\", 0.194]], [[\"bridge\", 0.278], [\"verse\", 0.24], [\"outro\", 0.203]], [[\"bridge\", 0.275], [\"verse\", 0.241], [\"postchorus\", 0.197]], [[\"bridge\", 0.295], [\"verse\", 0.265], [\"outro\", 0.236]], [[\"bridge\", 0.296], [\"verse\", 0.253], [\"postchorus\", 0.246]]]}"
+ },
+ {
+  "role": "tool_result",
+  "name": "grader",
+  "content": "{\"sections\": [{\"start\": 0.1, \"end\": 9.4, \"annotated\": \"intro\", \"scored_as\": \"intro\", \"named\": \"intro\", \"right\": true}, {\"start\": 9.4, \"end\": 46.3, \"annotated\": \"verse\", \"scored_as\": \"verse\", \"named\": \"verse\", \"right\": true}, {\"start\": 46.3, \"end\": 67.1, \"annotated\": \"chorus\", \"scored_as\": \"chorus\", \"named\": \"chorus\", \"right\": true}, {\"start\": 67.1, \"end\": 104.0, \"annotated\": \"verse\", \"scored_as\": \"verse\", \"named\": \"verse\", \"right\": true}, {\"start\": 104.0, \"end\": 122.5, \"annotated\": \"chorus\", \"scored_as\": \"chorus\", \"named\": \"chorus\", \"right\": true}, {\"start\": 122.5, \"end\": 154.8, \"annotated\": \"bridge\", \"scored_as\": \"bridge\", \"named\": \"bridge\", \"right\": true}, {\"start\": 154.8, \"end\": 184.8, \"annotated\": \"verse\", \"scored_as\": \"verse\", \"named\": \"instrumental\", \"right\": false}, {\"start\": 184.8, \"end\": 224.0, \"annotated\": \"chorus\", \"scored_as\": \"chorus\", \"named\": \"outro\", \"right\": false}], \"grade\": {\"acc\": 0.75}}"
+ }
+]

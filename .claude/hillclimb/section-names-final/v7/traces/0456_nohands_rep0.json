@@ -1,0 +1,15 @@
+[
+ {
+  "role": "user",
+  "content": "Name each section of this song: No Hands \u2014 Waka Flocka Flame feat. Roscoe Dash & Wale (Hip-Hop, 8 sections)\nsection edges (s): [1.9, 31.1, 74.9, 104.1, 147.9, 177.1, 220.9, 250.1, 260.2]\nsettings: {\"encoder\": \"clapbar_fold\", \"prompts\": {\"intro\": [\"the intro of a song\"], \"verse\": [\"the verse of a song\"], \"prechorus\": [\"the pre-chorus of a song\"], \"chorus\": [\"the chorus of a song\"], \"postchorus\": [\"the post-chorus of a song\"], \"bridge\": [\"the bridge of a song\"], \"outro\": [\"the outro of a song\"], \"instrumental\": [\"an instrumental section of a song\"]}, \"extra_models\": [\"matpacbar_fold\", \"loudbar_fold\"], \"structure\": {\"model\": \"matpacbar_fold\", \"position\": true, \"repeat_tau\": 0.4, \"bridge\": true, \"prepost\": true, \"short_s\": 20, \"vocal_below\": -1.0}, \"extra_prompts\": {\"vocals\": [\"singing vocals\", \"a person singing or rapping\"], \"no_vocals\": [\"instrumental music with no vocals\", \"an instrumental solo\"]}, \"trained\": true}"
+ },
+ {
+  "role": "assistant",
+  "content": "{\"names\": [\"chorus\", \"verse\", \"chorus\", \"verse\", \"chorus\", \"verse\", \"chorus\", \"outro\"], \"top3_scores\": [[[\"outro\", 0.347], [\"verse\", 0.337], [\"bridge\", 0.314]], [[\"verse\", 0.306], [\"bridge\", 0.273], [\"outro\", 0.273]], [[\"verse\", 0.316], [\"bridge\", 0.307], [\"outro\", 0.306]], [[\"verse\", 0.344], [\"bridge\", 0.295], [\"outro\", 0.257]], [[\"verse\", 0.315], [\"outro\", 0.306], [\"bridge\", 0.302]], [[\"verse\", 0.318], [\"bridge\", 0.273], [\"outro\", 0.23]], [[\"verse\", 0.32], [\"bridge\", 0.31], [\"outro\", 0.31]], [[\"verse\", 0.342], [\"bridge\", 0.322], [\"outro\", 0.271]]]}"
+ },
+ {
+  "role": "tool_result",
+  "name": "grader",
+  "content": "{\"sections\": [{\"start\": 1.9, \"end\": 31.1, \"annotated\": \"chorus\", \"scored_as\": \"chorus\", \"named\": \"chorus\", \"right\": true}, {\"start\": 31.1, \"end\": 74.9, \"annotated\": \"verse\", \"scored_as\": \"verse\", \"named\": \"verse\", \"right\": true}, {\"start\": 74.9, \"end\": 104.1, \"annotated\": \"chorus\", \"scored_as\": \"chorus\", \"named\": \"chorus\", \"right\": true}, {\"start\": 104.1, \"end\": 147.9, \"annotated\": \"verse\", \"scored_as\": \"verse\", \"named\": \"verse\", \"right\": true}, {\"start\": 147.9, \"end\": 177.1, \"annotated\": \"chorus\", \"scored_as\": \"chorus\", \"named\": \"chorus\", \"right\": true}, {\"start\": 177.1, \"end\": 220.9, \"annotated\": \"verse\", \"scored_as\": \"verse\", \"named\": \"verse\", \"right\": true}, {\"start\": 220.9, \"end\": 250.1, \"annotated\": \"chorus\", \"scored_as\": \"chorus\", \"named\": \"chorus\", \"right\": true}, {\"start\": 250.1, \"end\": 260.2, \"annotated\": \"outro\", \"scored_as\": \"outro\", \"named\": \"outro\", \"right\": true}], \"grade\": {\"acc\": 1.0}}"
+ }
+]

@@ -1,0 +1,15 @@
+[
+ {
+  "role": "user",
+  "content": "Name each section of this song: Sweet Disposition \u2014 The Temper Trap (Pop, 7 sections)\nsection edges (s): [0.1, 7.6, 37.3, 67.1, 117.2, 148.8, 220.8, 228.2]\nsettings: {\"encoder\": \"clapbar_fold\", \"prompts\": {\"intro\": [\"the intro of a song\"], \"verse\": [\"the verse of a song\"], \"prechorus\": [\"the pre-chorus of a song\"], \"chorus\": [\"the chorus of a song\"], \"postchorus\": [\"the post-chorus of a song\"], \"bridge\": [\"the bridge of a song\"], \"outro\": [\"the outro of a song\"], \"instrumental\": [\"an instrumental section of a song\"]}, \"extra_models\": [\"matpacbar_fold\", \"loudbar_fold\"], \"structure\": {\"model\": \"matpacbar_fold\", \"position\": true, \"repeat_tau\": 0.4, \"bridge\": true, \"prepost\": true, \"short_s\": 20, \"vocal_below\": -1.0}, \"extra_prompts\": {\"vocals\": [\"singing vocals\", \"a person singing or rapping\"], \"no_vocals\": [\"instrumental music with no vocals\", \"an instrumental solo\"]}, \"trained\": true}"
+ },
+ {
+  "role": "assistant",
+  "content": "{\"names\": [\"intro\", \"verse\", \"prechorus\", \"chorus\", \"bridge\", \"chorus\", \"outro\"], \"top3_scores\": [[[\"outro\", 0.306], [\"intro\", 0.27], [\"chorus\", 0.266]], [[\"outro\", 0.241], [\"bridge\", 0.24], [\"chorus\", 0.226]], [[\"bridge\", 0.205], [\"postchorus\", 0.181], [\"chorus\", 0.159]], [[\"bridge\", 0.253], [\"outro\", 0.197], [\"postchorus\", 0.197]], [[\"bridge\", 0.239], [\"outro\", 0.22], [\"instrumental\", 0.202]], [[\"bridge\", 0.221], [\"outro\", 0.171], [\"postchorus\", 0.165]], [[\"bridge\", 0.247], [\"outro\", 0.236], [\"instrumental\", 0.224]]]}"
+ },
+ {
+  "role": "tool_result",
+  "name": "grader",
+  "content": "{\"sections\": [{\"start\": 0.1, \"end\": 7.6, \"annotated\": \"intro\", \"scored_as\": \"intro\", \"named\": \"intro\", \"right\": true}, {\"start\": 7.6, \"end\": 37.3, \"annotated\": \"verse\", \"scored_as\": \"verse\", \"named\": \"verse\", \"right\": true}, {\"start\": 37.3, \"end\": 67.1, \"annotated\": \"verse\", \"scored_as\": \"verse\", \"named\": \"prechorus\", \"right\": false}, {\"start\": 67.1, \"end\": 117.2, \"annotated\": \"chorus\", \"scored_as\": \"chorus\", \"named\": \"chorus\", \"right\": true}, {\"start\": 117.2, \"end\": 148.8, \"annotated\": \"verse\", \"scored_as\": \"verse\", \"named\": \"bridge\", \"right\": false}, {\"start\": 148.8, \"end\": 220.8, \"annotated\": \"chorus\", \"scored_as\": \"chorus\", \"named\": \"chorus\", \"right\": true}, {\"start\": 220.8, \"end\": 228.2, \"annotated\": \"outro\", \"scored_as\": \"outro\", \"named\": \"outro\", \"right\": true}], \"grade\": {\"acc\": 0.7143}}"
+ }
+]
