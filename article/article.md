@@ -4,6 +4,10 @@ One vector per bar of music, used to cut a song into sections and name them.
 
 Nobody tells bar2vec where the chorus is: an audio model that has never seen a labelled song section turns each bar into a list of numbers, and the sections fall out of asking which bars sound like which other bars. On 180 songs that played no part in tuning, its cuts score 72.7 against human annotations (boundary F-measure within three seconds), up from 35.2 for the fixed-window version it started as.
 
+![The 104 bars of the song good 4 u drawn as a strip of cells, each coloured by its embedding alone, above the ten sections bar2vec found. The first two verses are pink and lavender, the first two choruses are the same teal, the post-chorus is blue and the last chorus is a nearby green. The colour changes line up with the cuts.](./bars.svg)
+
+Each cell above is one bar, coloured by nothing except what the audio model returned for it. The song's structure is already visible before any cut or name is drawn: the first two verses share one colour, the first two choruses another, and the last chorus is a near match. bar2vec's job is to read that pattern off.
+
 ## Terms
 
 This article uses the following definitions:
