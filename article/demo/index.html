@@ -1,0 +1,138 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>bar2vec demo</title>
+<!-- On trevorju.dev this picks up the site's colours and fonts; opened on its own, the fallbacks below apply. -->
+<link rel="stylesheet" href="/assets/tokens.css">
+<style>
+*{box-sizing:border-box}
+html,body{margin:0;background:var(--bg,#faf9f5);color:var(--ink,#141413);font-family:var(--ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif);font-size:15px;line-height:1.45}
+#demo{padding:1px 0 2px}
+.songs{display:flex;flex-wrap:wrap;gap:6px;margin:0 0 12px}
+.songs button{font:inherit;font-size:14px;text-align:left;padding:6px 10px;border:1px solid var(--rule,#e4e1d7);background:var(--raised,#fff);color:var(--ink,#141413);border-radius:var(--box-radius,3px);cursor:pointer}
+.songs button small{display:block;color:var(--ink-2,#5c5b56);font-size:12px}
+.songs button[aria-pressed="true"]{border-color:var(--ink,#141413);box-shadow:inset 0 0 0 1px var(--ink,#141413)}
+.songs button:focus-visible,.bar button:focus-visible{outline:2px solid var(--accent,#c2613f);outline-offset:2px}
+.video{position:relative;aspect-ratio:16/9;background:#000;border-radius:var(--box-radius,3px);overflow:hidden}
+.video iframe,.video #player{position:absolute;inset:0;width:100%;height:100%;border:0}
+.bar{position:relative;display:flex;gap:2px;height:46px;margin:12px 0 0;touch-action:manipulation}
+.bar button{font:inherit;font-size:13px;font-weight:500;min-width:0;padding:0 2px;border:0;border-radius:var(--box-radius,3px);color:#141413;cursor:pointer;overflow:hidden;white-space:nowrap;text-overflow:clip}
+.bar button.unsure{background-image:repeating-linear-gradient(135deg,rgba(255,255,255,.55) 0 4px,transparent 4px 8px)}
+.bar button.on{box-shadow:inset 0 0 0 2px #141413}
+.head{position:absolute;top:-4px;bottom:-4px;width:2px;margin-left:-1px;background:#141413;pointer-events:none;left:0}
+.now{display:flex;justify-content:space-between;gap:12px;margin:8px 0 0;font-family:var(--mono,ui-monospace,Menlo,monospace);font-size:13px;color:var(--ink-2,#5c5b56);min-height:19px}
+.now b{color:var(--ink,#141413);font-weight:500}
+.key{display:flex;flex-wrap:wrap;gap:4px 12px;margin:8px 0 0;font-size:12px;color:var(--ink-2,#5c5b56)}
+.key i{display:inline-block;width:10px;height:10px;border-radius:2px;margin-right:5px;vertical-align:-1px}
+.note{margin:10px 0 0;font-size:13px;color:var(--ink-2,#5c5b56)}
+.sr{position:absolute;width:1px;height:1px;overflow:hidden;clip-path:inset(50%)}
+</style>
+</head>
+<body>
+<div id="demo">
+  <div class="songs" id="songs" role="group" aria-label="Song"></div>
+  <div class="video"><div id="player"></div></div>
+  <div class="bar" id="bar" aria-label="Sections of the song, in order"><i class="head" id="head"></i></div>
+  <div class="now"><span id="now">Loading…</span><span id="clock"></span></div>
+  <div class="key" id="key" aria-hidden="true"></div>
+  <p class="note">Press play, or pick a section to jump to it. bar2vec made these cuts and names from the audio alone. The cutter uses no training; the names come from a classifier trained on 150 annotated songs, which names 68% of a song's seconds right on songs it has not seen. A striped section ending in ? is a name it is unsure of. The six songs were chosen before looking at the output, and the audio plays from YouTube.</p>
+</div>
+<script>
+// One fill per name, the same in every song. The name is always written on the section, so colour is never the only cue.
+const FILL = {intro:"#dbd8cd", verse:"#8fc7e8", prechorus:"#b9a6ea", chorus:"#f2a65a", postchorus:"#f3c98b", bridge:"#7fcfa8", outro:"#b4b1a5", instrumental:"#e79ab0"};
+const SHORT = {prechorus:"pre", postchorus:"post", instrumental:"inst"};
+const LONG = {prechorus:"pre-chorus", postchorus:"post-chorus"};
+const $ = id => document.getElementById(id);
+const clock = t => Math.floor(t / 60) + ":" + String(Math.floor(t % 60)).padStart(2, "0");
+let songs = [], song = null, player = null, ready = false, current = -1;
+
+function tellHeight() {  // the article page sizes the frame to fit
+  parent.postMessage({type: "demo-height", height: Math.ceil($("demo").getBoundingClientRect().height)}, "*");
+}
+
+function draw() {
+  const bar = $("bar");
+  bar.querySelectorAll("button").forEach(b => b.remove());
+  song.sections.forEach((s, i) => {
+    const b = document.createElement("button");
+    b.type = "button";
+    b.style.flex = (s.end - s.start) + " 0 0";
+    b.style.backgroundColor = FILL[s.name];
+    if (s.unsure) b.className = "unsure";
+    b.dataset.text = b.textContent = (SHORT[s.name] || s.name) + (s.unsure ? "?" : "");
+    const label = (LONG[s.name] || s.name) + (s.unsure ? " (unsure)" : "") + ", " + clock(s.start) + " to " + clock(s.end);
+    b.title = label;
+    b.setAttribute("aria-label", label);
+    b.onclick = () => { if (ready) { player.seekTo(s.start, true); player.playVideo(); } };
+    bar.insertBefore(b, $("head"));
+  });
+  $("key").innerHTML = Object.keys(FILL).filter(n => song.sections.some(s => s.name === n))
+    .map(n => '<span><i style="background:' + FILL[n] + '"></i>' + (LONG[n] || n) + "</span>").join("");
+  current = -1;
+  tick(0);
+  fit();
+}
+
+function fit() {  // a section too narrow for its name shows no text; the name stays in its tooltip and in the line below
+  $("bar").querySelectorAll("button").forEach(b => {
+    b.textContent = b.dataset.text;
+    if (b.scrollWidth > b.clientWidth + 1) b.textContent = "";
+  });
+}
+
+function tick(t) {
+  $("head").style.left = (100 * Math.min(t / song.duration, 1)) + "%";
+  const i = song.sections.findIndex(s => t >= s.start && t < s.end);
+  $("clock").textContent = clock(t) + " / " + clock(song.duration);
+  if (i === current) return;
+  current = i;
+  $("bar").querySelectorAll("button").forEach((b, k) => b.classList.toggle("on", k === i));
+  const s = song.sections[i];
+  $("now").innerHTML = s ? "<b>" + (LONG[s.name] || s.name) + (s.unsure ? "?" : "") + "</b> " + clock(s.start) + "–" + clock(s.end) : "";
+}
+
+function pick(i) {
+  song = songs[i];
+  $("songs").querySelectorAll("button").forEach((b, k) => b.setAttribute("aria-pressed", k === i));
+  draw();
+  if (ready) player.cueVideoById(song.video);
+  tellHeight();
+}
+
+window.onYouTubeIframeAPIReady = () => {
+  player = new YT.Player("player", {
+    host: "https://www.youtube-nocookie.com", videoId: song.video,
+    playerVars: {playsinline: 1, rel: 0},
+    events: {
+      onReady: () => { ready = true; },
+      // YouTube refuses some embeds (the owner's setting, or the viewer's region). Say so and link out.
+      onError: () => { $("now").innerHTML = 'This video will not play here. <a target="_blank" rel="noopener" href="https://www.youtube.com/watch?v=' + song.video + '">Watch it on YouTube</a>'; current = -2; },
+    },
+  });
+};
+
+fetch("sections.json").then(r => r.json()).then(data => {
+  songs = data;
+  songs.forEach((s, i) => {
+    const b = document.createElement("button");
+    b.type = "button";
+    b.innerHTML = "";
+    b.append(s.title);
+    const small = document.createElement("small");
+    small.textContent = s.artist;
+    b.append(small);
+    b.onclick = () => pick(i);
+    $("songs").append(b);
+  });
+  pick(0);
+  const api = document.createElement("script");
+  api.src = "https://www.youtube.com/iframe_api";
+  document.head.append(api);
+  setInterval(() => { if (ready && player.getCurrentTime) tick(player.getCurrentTime() || 0); }, 150);
+  new ResizeObserver(() => { fit(); tellHeight(); }).observe($("demo"));
+}).catch(() => { $("now").textContent = "The demo data did not load."; });
+</script>
+</body>
+</html>

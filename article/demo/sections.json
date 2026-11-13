@@ -1,0 +1,430 @@
+[
+ {
+  "video": "fHI8X4OXluQ",
+  "title": "Blinding Lights",
+  "artist": "The Weeknd",
+  "duration": 203.27,
+  "bars": 140,
+  "sections": [
+   {
+    "start": 0.0,
+    "end": 11.88,
+    "name": "intro",
+    "group": 0
+   },
+   {
+    "start": 11.88,
+    "end": 17.48,
+    "name": "intro",
+    "group": 1
+   },
+   {
+    "start": 17.48,
+    "end": 28.72,
+    "name": "chorus",
+    "group": 2,
+    "unsure": true
+   },
+   {
+    "start": 28.72,
+    "end": 51.16,
+    "name": "verse",
+    "group": 3
+   },
+   {
+    "start": 51.16,
+    "end": 84.86,
+    "name": "verse",
+    "group": 4,
+    "unsure": true
+   },
+   {
+    "start": 84.86,
+    "end": 94.68,
+    "name": "instrumental",
+    "group": 2
+   },
+   {
+    "start": 94.68,
+    "end": 105.92,
+    "name": "verse",
+    "group": 3
+   },
+   {
+    "start": 105.92,
+    "end": 163.46,
+    "name": "chorus",
+    "group": 4
+   },
+   {
+    "start": 163.46,
+    "end": 185.92,
+    "name": "postchorus",
+    "group": 2,
+    "unsure": true
+   },
+   {
+    "start": 185.92,
+    "end": 203.27,
+    "name": "outro",
+    "group": 5,
+    "unsure": true
+   }
+  ]
+ },
+ {
+  "video": "KRntP-q_R9s",
+  "title": "bad guy",
+  "artist": "Billie Eilish",
+  "duration": 192.63,
+  "bars": 112,
+  "sections": [
+   {
+    "start": 0.0,
+    "end": 14.26,
+    "name": "intro",
+    "group": 0
+   },
+   {
+    "start": 14.26,
+    "end": 40.92,
+    "name": "chorus",
+    "group": 1
+   },
+   {
+    "start": 40.92,
+    "end": 55.14,
+    "name": "verse",
+    "group": 1,
+    "unsure": true
+   },
+   {
+    "start": 55.14,
+    "end": 60.46,
+    "name": "prechorus",
+    "group": 2,
+    "unsure": true
+   },
+   {
+    "start": 60.46,
+    "end": 74.68,
+    "name": "instrumental",
+    "group": 3
+   },
+   {
+    "start": 74.68,
+    "end": 88.88,
+    "name": "chorus",
+    "group": 4,
+    "unsure": true
+   },
+   {
+    "start": 88.88,
+    "end": 115.58,
+    "name": "chorus",
+    "group": 1,
+    "unsure": true
+   },
+   {
+    "start": 115.58,
+    "end": 120.9,
+    "name": "prechorus",
+    "group": 2,
+    "unsure": true
+   },
+   {
+    "start": 120.9,
+    "end": 147.58,
+    "name": "chorus",
+    "group": 3,
+    "unsure": true
+   },
+   {
+    "start": 147.58,
+    "end": 175.16,
+    "name": "bridge",
+    "group": 5,
+    "unsure": true
+   },
+   {
+    "start": 175.16,
+    "end": 192.63,
+    "name": "outro",
+    "group": 5
+   }
+  ]
+ },
+ {
+  "video": "aeDdS9aIpck",
+  "title": "good 4 u",
+  "artist": "Olivia Rodrigo",
+  "duration": 178.15,
+  "bars": 104,
+  "sections": [
+   {
+    "start": 0.0,
+    "end": 5.9,
+    "name": "intro",
+    "group": 0
+   },
+   {
+    "start": 5.9,
+    "end": 28.98,
+    "name": "verse",
+    "group": 1
+   },
+   {
+    "start": 28.98,
+    "end": 52.12,
+    "name": "chorus",
+    "group": 2
+   },
+   {
+    "start": 52.12,
+    "end": 57.88,
+    "name": "instrumental",
+    "group": 3,
+    "unsure": true
+   },
+   {
+    "start": 57.88,
+    "end": 77.78,
+    "name": "verse",
+    "group": 1
+   },
+   {
+    "start": 77.78,
+    "end": 103.74,
+    "name": "chorus",
+    "group": 2
+   },
+   {
+    "start": 103.74,
+    "end": 121.08,
+    "name": "postchorus",
+    "group": 3
+   },
+   {
+    "start": 121.08,
+    "end": 144.24,
+    "name": "verse",
+    "group": 4,
+    "unsure": true
+   },
+   {
+    "start": 144.24,
+    "end": 167.36,
+    "name": "chorus",
+    "group": 2
+   },
+   {
+    "start": 167.36,
+    "end": 178.15,
+    "name": "outro",
+    "group": 3
+   }
+  ]
+ },
+ {
+  "video": "ov4WobPqoSA",
+  "title": "HUMBLE.",
+  "artist": "Kendrick Lamar",
+  "duration": 177.0,
+  "bars": 76,
+  "sections": [
+   {
+    "start": 0.0,
+    "end": 7.62,
+    "name": "intro",
+    "group": 0
+   },
+   {
+    "start": 7.62,
+    "end": 58.8,
+    "name": "verse",
+    "group": 1
+   },
+   {
+    "start": 58.8,
+    "end": 84.42,
+    "name": "chorus",
+    "group": 2
+   },
+   {
+    "start": 84.42,
+    "end": 122.8,
+    "name": "verse",
+    "group": 1
+   },
+   {
+    "start": 122.8,
+    "end": 135.62,
+    "name": "prechorus",
+    "group": 3,
+    "unsure": true
+   },
+   {
+    "start": 135.62,
+    "end": 161.22,
+    "name": "chorus",
+    "group": 2
+   },
+   {
+    "start": 161.22,
+    "end": 177.0,
+    "name": "outro",
+    "group": 4
+   }
+  ]
+ },
+ {
+  "video": "GwXVMhVjjCI",
+  "title": "Last Night",
+  "artist": "Morgan Wallen",
+  "duration": 163.85,
+  "bars": 71,
+  "sections": [
+   {
+    "start": 0.0,
+    "end": 9.66,
+    "name": "intro",
+    "group": 0
+   },
+   {
+    "start": 9.66,
+    "end": 47.32,
+    "name": "verse",
+    "group": 1
+   },
+   {
+    "start": 47.32,
+    "end": 66.14,
+    "name": "chorus",
+    "group": 2,
+    "unsure": true
+   },
+   {
+    "start": 66.14,
+    "end": 75.54,
+    "name": "postchorus",
+    "group": 3,
+    "unsure": true
+   },
+   {
+    "start": 75.54,
+    "end": 94.38,
+    "name": "verse",
+    "group": 1
+   },
+   {
+    "start": 94.38,
+    "end": 129.68,
+    "name": "chorus",
+    "group": 2,
+    "unsure": true
+   },
+   {
+    "start": 129.68,
+    "end": 148.5,
+    "name": "chorus",
+    "group": 3
+   },
+   {
+    "start": 148.5,
+    "end": 163.85,
+    "name": "outro",
+    "group": 4
+   }
+  ]
+ },
+ {
+  "video": "N000qglmmY0",
+  "title": "Levitating",
+  "artist": "Dua Lipa",
+  "duration": 209.82,
+  "bars": 106,
+  "sections": [
+   {
+    "start": 0.0,
+    "end": 9.62,
+    "name": "intro",
+    "group": 0
+   },
+   {
+    "start": 9.62,
+    "end": 28.28,
+    "name": "verse",
+    "group": 1
+   },
+   {
+    "start": 28.28,
+    "end": 37.6,
+    "name": "prechorus",
+    "group": 2
+   },
+   {
+    "start": 37.6,
+    "end": 56.24,
+    "name": "chorus",
+    "group": 3
+   },
+   {
+    "start": 56.24,
+    "end": 60.9,
+    "name": "intro",
+    "group": 0
+   },
+   {
+    "start": 60.9,
+    "end": 79.54,
+    "name": "verse",
+    "group": 1
+   },
+   {
+    "start": 79.54,
+    "end": 88.86,
+    "name": "prechorus",
+    "group": 2
+   },
+   {
+    "start": 88.86,
+    "end": 124.98,
+    "name": "chorus",
+    "group": 4
+   },
+   {
+    "start": 124.98,
+    "end": 143.62,
+    "name": "bridge",
+    "group": 5
+   },
+   {
+    "start": 143.62,
+    "end": 154.08,
+    "name": "instrumental",
+    "group": 6,
+    "unsure": true
+   },
+   {
+    "start": 154.08,
+    "end": 163.42,
+    "name": "bridge",
+    "group": 7,
+    "unsure": true
+   },
+   {
+    "start": 163.42,
+    "end": 180.9,
+    "name": "chorus",
+    "group": 4
+   },
+   {
+    "start": 180.9,
+    "end": 209.82,
+    "name": "chorus",
+    "group": 3,
+    "unsure": true
+   }
+  ]
+ }
+]

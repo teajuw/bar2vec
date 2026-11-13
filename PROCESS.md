@@ -177,6 +177,16 @@ A measurement, not a round: nothing was tuned, and the 180 final songs were not 
 
 Acted on the same day: the playlist page now uses the trained namer (`scripts/playlist_bars_extra.py` adds per-bar CLAP and loudness for the playlist; `scripts/breakdown_bars.py --namer rules` gives the old names). 250 of 760 section names changed, and unlike neighbours both called "verse" fell from 77 to 51. A name is marked "?" when the classifier gives it less than 0.8 probability (252 of 760). On held-out songs with annotated edges, names below 0.8 are right 46% of the time and the rest 87%; the 0.8 line was picked after seeing those held-out bins, so treat the two rates as a description, not a test. The new names have not been listened to.
 
+### 10e. A live demo on six well-known songs (2026-11-13)
+
+The user asked for a demo on the portfolio page with well-known songs and no licensing problem. The page hosts no audio: it embeds each song's official YouTube upload and draws bar2vec's sections under the player, synced to its clock (`article/demo/index.html`, data in `article/demo/sections.json`, made by `scripts/demo_songs.py`).
+
+- **Songs:** Blinding Lights, bad guy, good 4 u, HUMBLE., Last Night, Levitating. The assistant chose them before running anything, for genre spread and for an official upload that is the plain track and allows embedding. None is in Harmonix. All six are shown, including the ones where the names are weak (Blinding Lights, bad guy).
+- **Audio:** each video's audio is fetched into `audio_demo/` (git-ignored) for analysis only, so the times match the video.
+- **Pipeline:** the playlist one: Beat This! bars, v10 cutter, trained namer, "?" below 0.8 probability.
+- **Not measured:** these six have no annotations, so the demo is something to listen to, not a score.
+- YouTube refuses these embeds from a bare IP address (error 150) but plays them from `localhost` and from a real domain; test the demo on `localhost`.
+
 ### 11. Duplicate songs in Harmonix (found 2026-11-13)
 
 Harmonix contains repeats and remixes of the same song. Among the 487 songs used there are 17 title-and-artist groups (36 songs); 9 groups span splits, two pairs across train and held-out, and seven final songs have a sibling among the climb songs. This applies to the cutter results as well. For rule-based methods it can leak little, since nothing is memorised; it matters more for the trained rows (the cutter's merge model was fitted without excluding these; the trained namer excluded the three affected train songs).
