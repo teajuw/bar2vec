@@ -2,7 +2,21 @@
 
 One vector per bar of music, used to cut a song into sections and name them.
 
-bar2vec finds where a song's sections begin and labels each one (verse, chorus, bridge) using frozen audio embeddings and no training. On 180 songs that played no part in tuning, its cuts score 72.7 against human annotations (boundary F-measure within three seconds), up from 35.2 for the fixed-window version it started as.
+Nobody tells bar2vec where the chorus is: an audio model that has never seen a labelled song section turns each bar into a list of numbers, and the sections fall out of asking which bars sound like which other bars. On 180 songs that played no part in tuning, its cuts score 72.7 against human annotations (boundary F-measure within three seconds), up from 35.2 for the fixed-window version it started as.
+
+## Terms
+
+This article uses the following definitions:
+
+- A **bar** is one measure of music, about two seconds long. A beat tracker finds the bar lines, and each bar is one chunk of the song. The first version of the project chunked by fixed 10-second **windows** instead.
+- An **embedding** (also called a vector) is the list of 3,840 numbers the audio model returns for one bar. Two bars that sound alike get similar lists.
+- The **audio model** (MATPAC++) is pretrained and frozen: it was never trained on song structure, and nothing in it is changed here.
+- The **similarity grid** compares every bar with every other bar. A dark square on the diagonal is a stretch of bars that sound the same throughout. A dark square off the diagonal is a stretch that comes back later.
+- A **section** is one of those stretches, and a **cut** is where bar2vec ends one section and starts the next. An **annotated boundary** is where a human annotator did.
+- The **cutter** picks the split whose squares hold together best in the similarity grid, then drops any cut where the bars on either side do not change.
+- A **name** is the role a section plays: intro, verse, pre-chorus, chorus, post-chorus, bridge, outro or instrumental.
+- The **namer** gives each section a name. The **rules** use the song's shape alone: the most repeated block is the chorus, a one-off late in the song is the bridge, and so on. The **classifier** uses the same structural features and is trained on 150 annotated songs. It is the one part that was told what a chorus is, and it is what the live demo uses.
+- The **tuning songs** (153) are the ones settings were chosen on. The **held-out songs** (154) were drawn at random and only scored. The **locked songs** (180) were scored once, at the end.
 
 ## Results
 
@@ -12,17 +26,17 @@ Cutting, on the 180 locked songs. The score is boundary F-measure: how many cuts
 
 | Cutter | Within 3 s | Within 0.5 s |
 |---|---|---|
-| Starting point: text-audio embeddings on 10 s windows | 35.2 ±2.2 | 7.0 ±1.4 |
+| Starting point: a text-audio model on 10 s windows | 35.2 ±2.2 | 7.0 ±1.4 |
 | bar2vec, no training | 72.7 ±2.6 | 53.9 ±3.4 |
 | bar2vec plus a learned filter on its cuts | 75.4 ±2.4 | 55.3 ±3.3 |
 
-Naming, on the same 180 songs, given the annotated boundaries. The score is macro-F1 over eight labels, so a rare label such as bridge counts as much as verse.
+Naming, on the same 180 locked songs, given the annotated boundaries. The score is macro-F1 over eight labels, so a rare label such as bridge counts as much as verse.
 
 | Namer | Macro-F1 | Sections named right |
 |---|---|---|
 | Starting point: match each section to a text prompt | 9.3 ±2.0 | 14.0% |
-| Structural rules, no training | 55.9 ±3.9 | 63.8% |
-| Classifier trained on 150 annotated songs | 65.9 ±3.7 | 74.7% |
+| Rules, no training | 55.9 ±3.9 | 63.8% |
+| Classifier, trained on 150 annotated songs | 65.9 ±3.7 | 74.7% |
 
 The scores on the locked songs match the held-out scores from tuning to within a point and a half, so the rounds of tuning did not inflate them.
 
@@ -31,12 +45,12 @@ End to end, on the 154 held-out songs: bar2vec cuts the song and then names its 
 | Names from | On | Macro-F1 by time | Seconds named right |
 |---|---|---|---|
 | The annotation (best possible) | bar2vec's cuts | 89.5 ±1.6 | 91.0% |
-| Structural rules | annotated boundaries | 54.9 ±4.3 | 65.7% |
-| Structural rules | bar2vec's cuts | 44.2 ±3.4 | 54.9% |
-| Trained classifier | annotated boundaries | 66.4 ±4.2 | 79.0% |
-| Trained classifier | bar2vec's cuts | 53.1 ±2.9 | 67.9% |
+| Rules | annotated boundaries | 54.9 ±4.3 | 65.7% |
+| Rules | bar2vec's cuts | 44.2 ±3.4 | 54.9% |
+| Classifier | annotated boundaries | 66.4 ±4.2 | 79.0% |
+| Classifier | bar2vec's cuts | 53.1 ±2.9 | 67.9% |
 
-The cuts cost the rules 10.7 points. Misplaced boundaries alone account for 4.6 of them; the rest is the rules choosing different names when given the cuts. Naming is the weaker half: perfect names on the same cuts would score 89.5.
+The cuts cost the rules 10.7 points. Misplaced cuts alone account for 4.6 of them; the rest is the rules choosing different names when given the cuts. Naming is the weaker half: perfect names on the same cuts would score 89.5.
 
 ## How it started
 
@@ -46,16 +60,17 @@ That raised a question the prototype could not answer: were the cuts any good? P
 
 ## The cutter
 
-A March 2026 paper (Marmoret et al.) had already shown that frozen audio embeddings can find section boundaries without training. Its settings were chosen on the same songs it reports. This project adds a random held-out split and a locked final test, and takes two ideas from the paper: embed bars instead of fixed windows, and its block-matching method for proposing cuts.
+A March 2026 paper (Marmoret et al.) had already shown that a frozen audio model can find section boundaries without training. Its settings were chosen on the same songs it reports. This project adds a random held-out split and a locked final test, and takes two ideas from the paper: embed bars instead of fixed windows, and its block-matching method for proposing cuts.
 
 The cutter that came out of the climb works like this:
 
 1. A beat tracker finds the bar lines.
-2. An audio encoder (MATPAC++) turns each bar into one vector.
-3. Block matching proposes the segmentation whose sections hold together best in the bar-by-bar similarity matrix.
-4. A change score, which compares the bars before and after each proposed cut, drops the cuts where nothing changes.
+2. The audio model turns each bar into one embedding.
+3. Every bar is compared with every other bar, which gives the similarity grid.
+4. Block matching proposes the split whose squares hold together best in the grid.
+5. A change score, which compares the bars before and after each proposed cut, drops the cuts where nothing changes.
 
-Most of the gain came from where a cut is allowed to fall. Moving from fixed windows to one embedding per bar added 17 points at three seconds and took the half-second score from 9.8 to 43.7. Swapping in a better encoder added about 2.
+Most of the gain came from where a cut is allowed to fall. Moving from fixed windows to one embedding per bar added 17 points at three seconds and took the half-second score from 9.8 to 43.7. Swapping in a better audio model added about 2.
 
 The beat tracker was trained on Harmonix, which would leak. Each song was therefore tracked by the cross-validation model that never saw it. Bars from human annotators, from the leaky tracker and from the fair tracker all gave the same score, so the gain is from bar alignment and not from the leak.
 
@@ -68,7 +83,7 @@ Twelve rounds were run, one change each. A change was kept only if both the tuni
 
 | Round | Change | Held-out | Decision |
 |---|---|---|---|
-| 0 | Text-audio embeddings (CLAP), 10 s windows every 5 s | 34.5 | starting point |
+| 0 | A text-audio model (CLAP), 10 s windows every 5 s | 34.5 | starting point |
 | 1 | Report each cut 2.5 s later, to the middle of the window overlap | 42.6 | kept |
 | 2 | Lower the cut threshold | 43.4 | reverted, within noise |
 | 3 | Place cuts between grid points | 50.8 | kept |
@@ -78,7 +93,7 @@ Twelve rounds were run, one change each. A change was kept only if both the tuni
 | 7 | Bars from tracker models that never saw the song | 67.9 | kept |
 | 8 | Block matching alone | 67.8 | reverted |
 | 9 | Block matching proposes, the change score vetoes | 70.0 | kept |
-| 10 | MATPAC++ encoder in place of CLAP | 72.2 | kept |
+| 10 | MATPAC++ as the audio model in place of CLAP | 72.2 | kept |
 | 11 | Three bars of context per embedding | 68.9 | reverted |
 | 12 | A learned keep-or-drop filter on the proposed cuts | 75.4 | passes; supervised, reported separately |
 
@@ -121,7 +136,7 @@ The largest remaining loss for the rules is picking the wrong group as the choru
 ## What did not work
 
 - **A bar-level transformer.** Each bar is a token and every bar attends to every other bar in the song. Cross-validated on 150 songs it reached 45 macro-F1, against 57 for the rules and 63 for boosted trees on the same songs. Attention did help: with it removed, sections named right fell from 65.5% to 57.2%. The model learned the common labels and missed the rare ones.
-- **More labels.** 213 partly aligned Harmonix songs doubled the training data. The trained classifier gained in cross-validation and not on held-out songs (67.0 against 66.7, +0.3 ±2.4).
+- **More labels.** 213 partly aligned Harmonix songs doubled the training data. The classifier gained in cross-validation and not on held-out songs (67.0 against 66.7, +0.3 ±2.4).
 - **Loudness** as a hint for which group is the chorus gained on tuning songs and failed on held-out songs.
 - **Beat-level placement.** 98% of annotated boundaries sit on a tracked beat but only 78% on a bar start, so moving cuts to the right beat should help. About 100 rule settings and a learned placer all failed to beat noise.
 
@@ -129,7 +144,7 @@ The largest remaining loss for the rules is picking the wrong group as the choru
 
 - Only Harmonix has been measured. The naming rules encode Western pop song form.
 - The end-to-end scores are on the 154 held-out songs. The 180 locked songs were scored with annotated boundaries only.
-- The trained classifier was fitted on annotated boundaries and loses 13 points on bar2vec's cuts.
+- The classifier was fitted on annotated boundaries and loses 13 points on bar2vec's cuts.
 - The scores are not comparable with the paper's: the song subsets and audio differ.
 - 487 of Harmonix's 912 songs could be matched to audio and aligned. The ones that aligned may differ from the ones that did not.
 - Harmonix contains repeats and remixes. Nine groups of duplicates span the splits, which matters most for the two trained rows.
@@ -138,7 +153,10 @@ The largest remaining loss for the rules is picking the wrong group as the choru
 
 ## Next
 
-- Fit the trained classifier on bar2vec's own cuts instead of annotated boundaries.
+- Fit the classifier on bar2vec's own cuts instead of annotated boundaries.
+- Try other ways of grouping bars that sound alike (k-means, spectral clustering) for picking the chorus, the rules' largest remaining loss.
+- Test whether a section's name can be read off its nearest neighbours in other songs.
+- Return to learned attention between sections once there are more labelled songs.
 - Compare songs section by section instead of averaging a whole song into one vector.
 - Re-cut inside a long section at a finer scale.
 - Test on music outside Harmonix.

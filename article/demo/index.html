@@ -17,10 +17,11 @@ html,body{margin:0;background:var(--bg,#faf9f5);color:var(--ink,#141413);font-fa
 .songs button:focus-visible,.bar button:focus-visible{outline:2px solid var(--accent,#c2613f);outline-offset:2px}
 .video{position:relative;aspect-ratio:16/9;background:#000;border-radius:var(--box-radius,3px);overflow:hidden}
 .video iframe,.video #player{position:absolute;inset:0;width:100%;height:100%;border:0}
-.bar{position:relative;display:flex;gap:2px;height:46px;margin:12px 0 0;touch-action:manipulation}
-.bar button{font:inherit;font-size:13px;font-weight:500;min-width:0;padding:0 2px;border:0;border-radius:var(--box-radius,3px);color:#141413;cursor:pointer;overflow:hidden;white-space:nowrap;text-overflow:clip}
+.bar{position:relative;height:46px;margin:12px 0 0;touch-action:manipulation}
+.bar button{position:absolute;top:0;height:100%;font:inherit;font-size:13px;font-weight:500;min-width:0;padding:0;border:0;border-right:2px solid var(--bg,#faf9f5);background-clip:padding-box;border-radius:var(--box-radius,3px);color:#141413;cursor:pointer;overflow:hidden;white-space:nowrap;text-overflow:clip}
 .bar button.unsure{background-image:repeating-linear-gradient(135deg,rgba(255,255,255,.55) 0 4px,transparent 4px 8px)}
 .bar button.on{box-shadow:inset 0 0 0 2px #141413}
+.bar button:last-of-type{border-right:0}
 .head{position:absolute;top:-4px;bottom:-4px;width:2px;margin-left:-1px;background:#141413;pointer-events:none;left:0}
 .now{display:flex;justify-content:space-between;gap:12px;margin:8px 0 0;font-family:var(--mono,ui-monospace,Menlo,monospace);font-size:13px;color:var(--ink-2,#5c5b56);min-height:19px}
 .now b{color:var(--ink,#141413);font-weight:500}
@@ -58,7 +59,9 @@ function draw() {
   song.sections.forEach((s, i) => {
     const b = document.createElement("button");
     b.type = "button";
-    b.style.flex = (s.end - s.start) + " 0 0";
+    // Placed by time, not by flex shares: gaps and padding would otherwise push later sections right of the playhead.
+    b.style.left = (100 * s.start / song.duration) + "%";
+    b.style.width = (100 * (s.end - s.start) / song.duration) + "%";
     b.style.backgroundColor = FILL[s.name];
     if (s.unsure) b.className = "unsure";
     b.dataset.text = b.textContent = (SHORT[s.name] || s.name) + (s.unsure ? "?" : "");
