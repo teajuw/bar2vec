@@ -187,6 +187,10 @@ The user asked for a demo on the portfolio page with well-known songs and no lic
 - **Not measured:** these six have no annotations, so the demo is something to listen to, not a score.
 - YouTube refuses these embeds from a bare IP address (error 150) but plays them from `localhost` and from a real domain; test the demo on `localhost`.
 
+### 10f. The demo's second tab: follow one bar (2026-11-14)
+
+The demo frame has two tabs: the song player, and an animation that follows bar 11 of good 4 u (the first bar of the first chorus) from sound to spectrogram, through the audio model to its 3,840 numbers, to its colour, and into place beside the other 103 bars. Its data is `article/demo/bar.json`, made by `scripts/bar_story_data.py`; the drawing is `article/demo/onebar.js`. The eight bars nearest to bar 11 by cosine similarity on the full, mean-removed embeddings are bars 15, 19, 23, 40, 45, 49, 90 and 94, and all eight fall inside the three sections bar2vec named chorus. This is one bar of one song, picked as the first chorus bar before looking at its neighbours; it is an illustration, not a measurement.
+
 ### 11. Duplicate songs in Harmonix (found 2026-11-13)
 
 Harmonix contains repeats and remixes of the same song. Among the 487 songs used there are 17 title-and-artist groups (36 songs); 9 groups span splits, two pairs across train and held-out, and seven final songs have a sibling among the climb songs. This applies to the cutter results as well. For rule-based methods it can leak little, since nothing is memorised; it matters more for the trained rows (the cutter's merge model was fitted without excluding these; the trained namer excluded the three affected train songs).

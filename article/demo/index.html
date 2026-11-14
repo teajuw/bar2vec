@@ -28,18 +28,49 @@ html,body{margin:0;background:var(--bg,#faf9f5);color:var(--ink,#141413);font-fa
 .key{display:flex;flex-wrap:wrap;gap:4px 12px;margin:8px 0 0;font-size:12px;color:var(--ink-2,#5c5b56)}
 .key i{display:inline-block;width:10px;height:10px;border-radius:2px;margin-right:5px;vertical-align:-1px}
 .note{margin:10px 0 0;font-size:13px;color:var(--ink-2,#5c5b56)}
+:focus-visible{outline:2px solid var(--accent,#c2613f);outline-offset:2px}
+.tabs{display:flex;gap:6px;margin:0 0 14px;border-bottom:1px solid var(--rule,#e4e1d7)}
+.tabs button{font:inherit;font-size:15px;font-weight:500;padding:8px 2px;margin:0 14px -1px 0;border:0;border-bottom:2px solid transparent;background:none;color:var(--ink-2,#5c5b56);cursor:pointer}
+.tabs button[aria-selected="true"]{color:var(--ink,#141413);border-bottom-color:var(--ink,#141413)}
+#obStage{display:block;width:100%}
+.ob-cap{display:grid;grid-template-columns:auto minmax(0,1fr);column-gap:12px;margin:10px 0 0;min-height:4.4em}
+.ob-cap b{font-family:var(--mono,ui-monospace,Menlo,monospace);font-size:13px;font-weight:500;color:var(--accent,#c2613f);padding-top:2px;white-space:nowrap}
+.ob-cap p{margin:0;max-width:62ch}
+.ob-ctl{display:flex;align-items:center;gap:12px;margin:10px 0 0}
+#obPlay{flex:none;min-width:78px;font:inherit;font-size:14px;font-weight:500;padding:7px 12px;border:1px solid var(--ink,#141413);border-radius:var(--box-radius,3px);background:var(--ink,#141413);color:var(--bg,#faf9f5);cursor:pointer}
+#obSeek{flex:1;min-width:0;accent-color:var(--accent,#c2613f)}
+.ob-steps{display:flex;flex-wrap:wrap;gap:6px;margin:12px 0 0;padding:0;list-style:none}
+.ob-steps button{font:inherit;font-size:13px;padding:4px 9px;border:1px solid var(--rule,#e4e1d7);background:var(--raised,#fff);color:var(--ink-2,#5c5b56);border-radius:var(--box-radius,3px);cursor:pointer}
+.ob-steps button[aria-current="step"]{border-color:var(--ink,#141413);color:var(--ink,#141413)}
 .sr{position:absolute;width:1px;height:1px;overflow:hidden;clip-path:inset(50%)}
 </style>
 </head>
 <body>
 <div id="demo">
+  <div class="tabs" role="tablist" aria-label="Demo">
+    <button type="button" role="tab" id="tabListen" aria-controls="listen" aria-selected="true">Listen to the result</button>
+    <button type="button" role="tab" id="tabHow" aria-controls="how" aria-selected="false">See how it works</button>
+  </div>
+  <div id="listen" role="tabpanel" aria-labelledby="tabListen">
   <div class="songs" id="songs" role="group" aria-label="Song"></div>
   <div class="video"><div id="player"></div></div>
   <div class="bar" id="bar" aria-label="Sections of the song, in order"><i class="head" id="head"></i></div>
   <div class="now"><span id="now">Loading…</span><span id="clock"></span></div>
   <div class="key" id="key" aria-hidden="true"></div>
   <p class="note">Press play, or pick a section to jump to it. bar2vec made these cuts and names from the audio alone. The cutter uses no training; the names come from a classifier trained on 150 annotated songs, which names 68% of a song's seconds right on songs it has not seen. A striped section ending in ? is a name it is unsure of. The six songs were chosen before looking at the output, and the audio plays from YouTube.</p>
+  </div>
+  <div id="how" role="tabpanel" aria-labelledby="tabHow" hidden>
+    <canvas id="obStage" role="img" aria-label="Animation: one bar of the song becomes a spectrogram, passes through a frozen audio model, comes out as 3,840 numbers, and is shown as one colour beside every other bar."></canvas>
+    <div class="ob-cap" aria-live="polite"><b id="obN"></b><p id="obText"></p></div>
+    <div class="ob-ctl">
+      <button id="obPlay" type="button">Pause</button>
+      <input id="obSeek" type="range" min="0" max="1000" value="0" aria-label="Position in the animation">
+    </div>
+    <ol class="ob-steps" id="obSteps"></ol>
+    <p class="note" id="obNote"></p>
+  </div>
 </div>
+<script src="onebar.js"></script>
 <script>
 // One fill per name, the same in every song. The name is always written on the section, so colour is never the only cue.
 const FILL = {intro:"#dbd8cd", verse:"#8fc7e8", prechorus:"#b9a6ea", chorus:"#f2a65a", postchorus:"#f3c98b", bridge:"#7fcfa8", outro:"#b4b1a5", instrumental:"#e79ab0"};
@@ -115,6 +146,24 @@ window.onYouTubeIframeAPIReady = () => {
     },
   });
 };
+
+// The second tab follows one bar through the method. Its data loads the first time the tab is opened.
+let how = null;
+function show(which) {
+  const isHow = which === "how";
+  $("listen").hidden = isHow;
+  $("how").hidden = !isHow;
+  $("tabListen").setAttribute("aria-selected", !isHow);
+  $("tabHow").setAttribute("aria-selected", isHow);
+  if (isHow && ready && player.pauseVideo) player.pauseVideo();
+  if (!isHow) { if (how) how.stop(); fit(); }
+  else if (how) how.start();
+  else fetch("bar.json").then(r => r.json()).then(d => { how = oneBar(d); how.start(); tellHeight(); })
+    .catch(() => { $("obText").textContent = "The animation data did not load."; });
+  tellHeight();
+}
+$("tabListen").onclick = () => show("listen");
+$("tabHow").onclick = () => show("how");
 
 fetch("sections.json").then(r => r.json()).then(data => {
   songs = data;
