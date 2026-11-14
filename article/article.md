@@ -4,9 +4,16 @@ One vector per bar of music, used to cut a song into sections and name them.
 
 Nobody tells bar2vec where the chorus is: an audio model that has never seen a labelled song section turns each bar into a list of numbers, and the sections fall out of asking which bars sound like which other bars. On 180 songs that played no part in tuning, its cuts score 72.7 against human annotations (boundary F-measure within three seconds), up from 35.2 for the fixed-window version it started as.
 
-![The 104 bars of the song good 4 u drawn as a strip of cells, each coloured by its embedding alone, above the ten sections bar2vec found. The first two verses are pink and lavender, the first two choruses are the same teal, the post-chorus is blue and the last chorus is a nearby green. The colour changes line up with the cuts.](./bars.svg)
+![The song good 4 u in six steps, each drawn from its audio. One: the sound as a loudness outline. Two: its spectrogram. Three: 104 bar lines. Between three and four, a box for the frozen audio model, which takes one bar at a time. Four: the bars as a strip of colours, pink and lavender for the first two verses, teal for the first two choruses, blue for the post-chorus and green for the last chorus. Five: a square grid comparing every bar with every other, with dark squares along the diagonal and dark squares away from it where a section repeats, and bar2vec's cuts drawn on the edges of the squares. Six: the ten sections with their names.](./process.svg)
 
-Each cell above is one bar, coloured by nothing except what the audio model returned for it. The song's structure is already visible before any cut or name is drawn: the first two verses share one colour, the first two choruses another, and the last chorus is a near match. bar2vec's job is to read that pattern off.
+The figure follows one song through every step, and everything in it is computed from the audio.
+
+1. **Sound.** The song as it arrives.
+2. **Spectrogram.** The same sound split by pitch, low notes at the bottom. The audio model makes its own from each bar.
+3. **Bars.** A beat tracker finds the bar lines. Each bar is one chunk.
+4. **Embeddings.** The frozen audio model takes one bar at a time and returns 3,840 numbers, drawn here as one colour. The structure is already visible: the first two verses share one colour, the first two choruses another, and the last chorus is a near match.
+5. **Compare.** Every bar against every other bar. Dark squares on the diagonal are stretches that sound the same throughout. Dark squares off the diagonal are stretches that come back.
+6. **Cut and name.** The cuts fall on the edges of the squares, and the names come from what repeats.
 
 How a bar becomes a colour:
 
