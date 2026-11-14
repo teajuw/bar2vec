@@ -3,8 +3,8 @@
 Usage: uv run scripts/bar_story_data.py OUT.json [--video aeDdS9aIpck] [--bar N]
 
 Follows one bar (default: the first bar of the first chorus) through the same steps as
-scripts/make_process_figure.py: its sound, its log-mel spectrogram (80 bands, as the audio model
-uses), its MATPAC++ embedding (all 3,840 numbers), the three principal-component values that become
+scripts/make_process_figure.py: its sound, the log-mel spectrogram the audio model makes of it (80 bands), every patch's 768 numbers at each layer,
+its MATPAC++ embedding (all 3,840 numbers), the three principal-component values that become
 its colour, and its similarity to every other bar. Also writes every bar's colour and the sections.
 """
 import argparse
@@ -15,7 +15,6 @@ from pathlib import Path
 
 import numpy as np
 import torch
-import torchaudio
 
 from embed_clap import decode
 from hx_embed_matpac import SR, load_model
@@ -67,9 +66,22 @@ def main() -> None:
     a, b = int(edges[k] * SR), int(edges[k + 1] * SR)
     clip = audio[a:b]
     wave = np.array([np.abs(c).max() for c in np.array_split(clip, 160)])
-    mel = torch.log(torchaudio.transforms.MelSpectrogram(SR, n_fft=1024, hop_length=160, n_mels=80)(torch.from_numpy(clip.copy())) + 1e-5).numpy()
-    cols = 16 * round(mel.shape[1] / 16)  # a whole number of 16-wide patches
-    spec = mel[:, np.linspace(0, mel.shape[1] - 1, cols).round().astype(int)][::-1]  # nearest frame for each column
+    # Inside the audio model, for this bar: its own spectrogram, then every patch's 768 numbers after the
+    # patch embedding (layer 0) and after each of the 12 layers. Mirrors matpac_wrapper.forward_precise.
+    with torch.no_grad():
+        x = model.preprocess(torch.from_numpy(clip.copy())[None].to(dev))  # (1, 80, frames), normalised log-mel
+        x = torch.nn.functional.pad(x, (0, (16 - x.shape[-1] % 16) % 16))
+        own = x[0].float().cpu().numpy()
+        tok = model.patch_embed(x[:, None])
+        fb, tt, d = 5, tok.shape[1] // 5, tok.shape[2]
+        tok = tok + model.pos_embed[:, 1:, :].reshape(1, fb, -1, d)[:, :, :tt, :].reshape(1, fb * tt, d)
+        _, layers = model.extract_features(x[:, None])  # (1, 12, 1 + patches, 768); the last one is normalised
+        stack = torch.cat([tok[:, None], layers[:, :, 1:, :]], 1)[0].float().cpu().numpy()  # (13, patches, 768), patches in (pitch, time) order
+    stack = stack.reshape(13, fb, tt, d)
+    joined = stack[-1].transpose(1, 0, 2).reshape(tt, fb * d)  # per moment: the 5 pitch patches end to end
+    assert np.allclose(joined.mean(0), raw[k], atol=1e-3), "the bar's embedding is not the mean of the joined patches"
+    scale = np.percentile(np.abs(stack), 99, axis=(1, 2, 3))[:, None, None, None]
+    spec = own[::-1]
     spec = (spec - np.percentile(spec, 5)) / (np.percentile(spec, 99.5) - np.percentile(spec, 5))
     peaks = np.array([np.abs(c).max() for c in np.array_split(audio, 240)])
     v = raw[k]
@@ -86,6 +98,8 @@ def main() -> None:
             "wave": b64(wave / wave.max()),
             "spec": b64(spec), "specRows": int(spec.shape[0]), "specCols": int(spec.shape[1]),
             "emb": b64(0.5 + 0.5 * v / span),  # 0.5 is zero; the ends are the 99th-percentile size
+            # 13 x 5 x moments x 768 bytes: layer, pitch row (low first), moment, number; each layer scaled on its own
+            "layers": b64(0.5 + 0.5 * stack / scale), "pitchRows": fb, "moments": int(tt), "patchDims": int(d),
             "first": [round(float(x), 3) for x in v[:8]],
             "pc": [round(float(x), 3) for x in pc[k]], "scaled": [round(float(x), 3) for x in scaled[k]],
             "sim": [round(float(x), 3) for x in unit @ unit[k]],
