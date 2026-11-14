@@ -30,7 +30,7 @@ This article uses the following definitions:
 
 - A **bar** is one measure of music, about two seconds long. A beat tracker finds the bar lines, and each bar is one chunk of the song. The first version of the project chunked by fixed 10-second **windows** instead.
 - An **embedding** (also called a vector) is the list of 3,840 numbers the audio model returns for one bar. Two bars that sound alike get similar lists.
-- The **audio model** (MATPAC++) is pretrained and frozen: it was never trained on song structure, and nothing in it is changed here.
+- The **audio model** (MATPAC++ [1]) is pretrained and frozen: it was never trained on song structure, and nothing in it is changed here.
 - The **similarity grid** compares every bar with every other bar. A dark square on the diagonal is a stretch of bars that sound the same throughout. A dark square off the diagonal is a stretch that comes back later.
 - A **section** is one of those stretches, and a **cut** is where bar2vec ends one section and starts the next. An **annotated boundary** is where a human annotator did.
 - The **cutter** picks the split whose squares hold together best in the similarity grid, then drops any cut where the bars on either side do not change.
@@ -40,7 +40,7 @@ This article uses the following definitions:
 
 ## Results
 
-Everything is measured on the Harmonix Set, a collection of pop, hip-hop, dance and country songs with human-annotated sections. Settings were chosen on 153 songs, checked on 154 held-out songs drawn at random, and confirmed once on 180 further songs that were locked away until the end.
+Everything is measured on the Harmonix Set [2], a collection of pop, hip-hop, dance and country songs with human-annotated sections. Settings were chosen on 153 songs, checked on 154 held-out songs drawn at random, and confirmed once on 180 further songs that were locked away until the end.
 
 Cutting, on the 180 locked songs. The score is boundary F-measure: how many cuts land within the tolerance of an annotated boundary, balanced against false cuts.
 
@@ -74,13 +74,13 @@ The cuts cost the rules 10.7 points. Misplaced cuts alone account for 4.6 of the
 
 ## How it started
 
-The project began as moment search: cut every song in a playlist into overlapping 10-second windows, embed each window with a text-audio model, and let a text query return timestamps instead of whole songs. A side product was a song breakdown that cut each song where neighbouring windows changed the most.
+The project began as moment search: cut every song in a playlist into overlapping 10-second windows, embed each window with a text-audio model (CLAP [3]), and let a text query return timestamps instead of whole songs. A side product was a song breakdown that cut each song where neighbouring windows changed the most.
 
 That raised a question the prototype could not answer: were the cuts any good? Published section annotations exist, so the cutter could be scored against them and tuned.
 
 ## The cutter
 
-A March 2026 paper (Marmoret et al.) had already shown that a frozen audio model can find section boundaries without training. Its settings were chosen on the same songs it reports. This project adds a random held-out split and a locked final test, and takes two ideas from the paper: embed bars instead of fixed windows, and its block-matching method for proposing cuts.
+A March 2026 paper (Marmoret) had already shown that a frozen audio model can find section boundaries without training [4]. Its settings were chosen on the same songs it reports. This project adds a random held-out split and a locked final test, and takes two ideas from the paper: embed bars instead of fixed windows, and its block-matching method for proposing cuts.
 
 The cutter that came out of the climb works like this:
 
@@ -92,7 +92,7 @@ The cutter that came out of the climb works like this:
 
 Most of the gain came from where a cut is allowed to fall. Moving from fixed windows to one embedding per bar added 17 points at three seconds and took the half-second score from 9.8 to 43.7. Swapping in a better audio model added about 2.
 
-The beat tracker was trained on Harmonix, which would leak. Each song was therefore tracked by the cross-validation model that never saw it. Bars from human annotators, from the leaky tracker and from the fair tracker all gave the same score, so the gain is from bar alignment and not from the leak.
+The beat tracker (Beat This! [5]) was trained on Harmonix, which would leak. Each song was therefore tracked by the cross-validation model that never saw it. Bars from human annotators, from the leaky tracker and from the fair tracker all gave the same score, so the gain is from bar alignment and not from the leak.
 
 
 ## The cutter climb
@@ -180,3 +180,11 @@ The largest remaining loss for the rules is picking the wrong group as the choru
 - Compare songs section by section instead of averaging a whole song into one vector.
 - Re-cut inside a long section at a finer scale.
 - Test on music outside Harmonix.
+
+## Sources
+
+1. [MATPAC++: Enhanced Masked Latent Prediction for Self-Supervised Audio Representation Learning](https://arxiv.org/abs/2508.12709), Quelennec et al., arXiv, August 2025. The audio model.
+2. [The Harmonix Set](https://github.com/urinieto/harmonixset), Nieto et al., ISMIR 2019. The songs and their human-annotated sections.
+3. [Large-scale Contrastive Language-Audio Pretraining with Feature Fusion and Keyword-to-Caption Augmentation](https://arxiv.org/abs/2211.06687), Wu et al., arXiv, November 2022. CLAP, the text-audio model the project started with.
+4. [Unsupervised Evaluation of Deep Audio Embeddings for Music Structure Analysis](https://arxiv.org/abs/2603.27218), Marmoret, arXiv, March 2026. The paper the bar embeddings and block matching come from.
+5. [Beat This! Accurate beat tracking without DBN postprocessing](https://arxiv.org/abs/2407.21658), Foscarin et al., arXiv, July 2024. The beat tracker.
