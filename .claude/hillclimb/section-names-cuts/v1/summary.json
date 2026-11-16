@@ -1,0 +1,39 @@
+{
+ "description": "Round 1: classifier fitted on annotated sections plus the cutter's sections (each labelled by the annotated name covering most of it)",
+ "target": "code",
+ "regime": "both",
+ "train": {
+  "songs": 150,
+  "macro_f1_time": 52.8,
+  "macro_f1_ci": 3.1,
+  "seconds_right": 70.4,
+  "seconds_right_ci": 2.9,
+  "f1_per_label": {
+   "intro": 76.2,
+   "verse": 77.7,
+   "prechorus": 40.1,
+   "chorus": 78.7,
+   "postchorus": 3.7,
+   "bridge": 59.7,
+   "outro": 63.1,
+   "instrumental": 23.2
+  }
+ },
+ "test": {
+  "songs": 154,
+  "macro_f1_time": 53.2,
+  "macro_f1_ci": 3.1,
+  "seconds_right": 68.4,
+  "seconds_right_ci": 2.7,
+  "f1_per_label": {
+   "intro": 80.0,
+   "verse": 77.2,
+   "prechorus": 36.3,
+   "chorus": 75.7,
+   "postchorus": 8.6,
+   "bridge": 54.6,
+   "outro": 56.8,
+   "instrumental": 36.6
+  }
+ }
+}

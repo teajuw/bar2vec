@@ -1,0 +1,39 @@
+{
+ "description": "Classifier fitted on annotated sections (v7), naming the cutter's sections",
+ "target": "code",
+ "regime": "annotated",
+ "train": {
+  "songs": 150,
+  "macro_f1_time": 50.1,
+  "macro_f1_ci": 3.0,
+  "seconds_right": 68.4,
+  "seconds_right_ci": 3.3,
+  "f1_per_label": {
+   "intro": 74.6,
+   "verse": 77.4,
+   "prechorus": 36.7,
+   "chorus": 78.5,
+   "postchorus": 2.8,
+   "bridge": 51.2,
+   "outro": 56.6,
+   "instrumental": 23.4
+  }
+ },
+ "test": {
+  "songs": 154,
+  "macro_f1_time": 53.1,
+  "macro_f1_ci": 2.9,
+  "seconds_right": 67.9,
+  "seconds_right_ci": 2.8,
+  "f1_per_label": {
+   "intro": 79.0,
+   "verse": 75.5,
+   "prechorus": 37.6,
+   "chorus": 76.6,
+   "postchorus": 10.2,
+   "bridge": 53.5,
+   "outro": 55.3,
+   "instrumental": 37.4
+  }
+ }
+}

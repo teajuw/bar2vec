@@ -1,0 +1,305 @@
+id	split	baseline	v1	v2
+0013_athingaboutyou	train	0.546	0.713	
+0027_blackened	train	0.244	0.476	
+0074_djgotusfallininlove	train	0.873	0.873	
+0080_down	train	0.690	0.690	
+0083_dragthewaters	train	0.615	0.473	
+0106_getitshawty	train	0.537	0.370	
+0114_givemeeverything	train	0.544	0.544	
+0116_goodies	train	0.740	0.740	
+0118_grenade	train	0.983	0.983	
+0151_kingofdancehall	train	0.842	0.842	
+0208_opp	train	0.878	0.765	
+0209_paparazzi	train	0.998	0.998	
+0239_sandm	train	0.604	0.519	
+0250_sexyandiknowit	train	0.568	0.607	
+0265_straightlines	train	0.816	0.717	
+0278_thatsthahomie	train	0.885	0.960	
+0282_thegreatsatan	train	0.209	0.268	
+0307_whatdoesntkillyou	train	0.890	0.902	
+0330_50waystosaygoodbye	train	0.699	0.699	
+0340_backintime	train	0.592	0.701	
+0343_banjo	train	0.570	0.573	
+0349_blow	train	0.800	0.848	
+0351_blowup	train	0.950	0.950	
+0352_boogiewonderland	train	0.391	0.391	
+0354_brandnewday	train	0.716	0.797	
+0355_brokenhearted	train	0.775	0.846	
+0356_californiagurls	train	0.998	0.962	
+0361_countrymustbecountrywide	train	0.757	0.757	
+0362_crazygirl	train	0.671	0.877	
+0363_darkside	train	0.813	0.693	
+0366_domino	train	0.898	0.965	
+0373_driveby	train	0.791	0.749	
+0394_godgavemetoyou	train	0.757	0.757	
+0398_goodtime	train	0.883	0.960	
+0399_gotmygirls	train	0.818	0.773	
+0412_ifitmakesyouhappy	train	0.743	0.779	
+0418_inthedark	train	0.564	0.606	
+0422_itwillrain	train	0.723	0.631	
+0424_justadream	train	0.633	0.670	
+0427_justthewayyouare	train	0.658	0.825	
+0432_letsgo	train	0.643	0.574	
+0439_lovethewayyoulie	train	0.804	0.804	
+0440_loveyoulikealovesong	train	0.977	0.977	
+0443_magic	train	0.806	0.788	
+0445_memories	train	0.143	0.214	
+0451_mrknowitall	train	0.810	0.722	
+0460_numb	train	0.888	0.961	
+0463_onemorenight	train	0.416	0.428	
+0465_onething	train	0.708	0.831	
+0467_onthefloor	train	0.480	0.448	
+0468_openarms	train	0.617	0.617	
+0472_partofme	train	0.858	0.920	
+0482_redsolocup	train	0.935	0.935	
+0487_secrets	train	0.870	0.870	
+0490_showme	train	0.795	0.830	
+0492_sm	train	0.428	0.526	
+0494_somebodythatiusedtoknow	train	0.815	0.876	
+0501_stayawhile	train	0.900	0.851	
+0509_thelazysong	train	0.673	0.673	
+0512_theshowgoeson	train	0.995	0.995	
+0517_tilltheworldends	train	0.460	0.587	
+0521_tooclose	train	0.810	0.870	
+0522_turnupthemusic	train	0.520	0.765	
+0527_wantuback	train	0.611	0.540	
+0533_whosays	train	0.860	0.885	
+0535_withoutyou	train	0.852	0.723	
+0536_workout	train	0.448	0.534	
+0538_you	train	0.691	0.756	
+0546_18days	train	0.756	0.637	
+0549_515	train	0.701	0.700	
+0550_aboutyounow	train	0.749	0.903	
+0552_addicted	train	0.621	0.704	
+0559_alltherightmoves	train	0.612	0.675	
+0562_alreadygone	train	0.619	0.619	
+0568_apologize	train	0.472	0.565	
+0570_aslongasyouloveme	train	0.656	0.656	
+0573_babyludacris	train	0.853	0.853	
+0578_bealright	train	0.747	0.355	
+0582_beautifulday	train	0.559	0.584	
+0590_betterintime	train	0.896	0.896	
+0598_boomboompow	train	0.576	0.543	
+0600_breakeven	train	0.616	0.757	
+0604_bustitbabypart2	train	0.676	0.676	
+0609_carryon	train	0.356	0.485	
+0610_castle	train	0.774	0.645	
+0618_clocks	train	0.570	0.449	
+0619_closer	train	0.901	0.839	
+0621_clubcanthandleme	train	0.233	0.497	
+0622_clumsy	train	0.465	0.465	
+0625_complicated	train	0.842	0.842	
+0632_cyclone	train	0.967	0.967	
+0635_daynnite	train	0.806	0.806	
+0642_dontconfess	train	0.469	0.344	
+0643_dontrush	train	0.713	0.775	
+0644_dontsayaword	train	0.483	0.483	
+0649_down	train	0.635	0.695	
+0650_downlilwayne	train	0.624	0.619	
+0655_earthquakey	train	0.373	0.410	
+0693_gold	train	0.752	0.752	
+0695_goodbyegoodbye	train	0.499	0.560	
+0700_gottabesomebody	train	0.745	0.745	
+0711_heartheartheartbreak	train	0.835	0.835	
+0712_heartless	train	0.849	0.957	
+0718_heytheredelilah	train	0.691	0.691	
+0719_hipsdontlie	train	0.587	0.686	
+0726_hotplay	train	0.561	0.499	
+0727_howcomeyoudontwantme	train	0.937	0.937	
+0730_hurtssogood	train	0.712	0.732	
+0732_idontwannabeinlove	train	0.948	0.948	
+0735_ifuseeamy	train	0.710	0.754	
+0738_ihearnoises	train	0.745	0.920	
+0746_imnotyourhero	train	0.771	0.771	
+0752_inmyhead	train	0.749	0.669	
+0753_inreallife	train	0.510	0.510	
+0760_iwannarock	train	0.909	0.954	
+0761_iwant	train	0.789	0.789	
+0767_justfine	train	0.786	0.656	
+0769_killa	train	0.804	0.731	
+0774_knockyoudown	train	0.160	0.191	
+0789_livingroom	train	0.714	0.714	
+0805_lovetheysay	train	0.450	0.453	
+0820_mychickbad	train	0.369	0.528	
+0826_myohmy	train	0.536	0.508	
+0827_needyounow	train	0.701	0.631	
+0830_nightwatch	train	0.631	0.631	
+0835_notetogod	train	0.793	0.724	
+0844_ondirecting	train	0.830	0.830	
+0845_onefoot	train	0.541	0.620	
+0847_onestepatatime	train	0.876	0.876	
+0848_onething	train	0.712	0.774	
+0849_onlyyou	train	0.367	0.664	
+0856_paperbackhead	train	0.104	0.238	
+0874_realize	train	0.642	0.775	
+0878_replay	train	0.470	0.470	
+0883_rocksatmywindow	train	0.816	0.816	
+0893_say	train	0.710	0.752	
+0902_shakeitradiomix	train	0.690	0.845	
+0904_shewolf	train	0.535	0.620	
+0916_sowhat	train	0.758	0.758	
+0922_suffocate	train	0.890	0.908	
+0947_thiskiss	train	0.962	0.993	
+0956_tonightimgettingoveryou	train	0.477	0.479	
+0959_turnthisclubaround	train	0.666	0.722	
+0960_umbrella	train	0.999	0.817	
+0974_whateveryoulike	train	0.750	0.867	
+0982_whoknewdos	train	0.931	0.931	
+0983_whyamitheone	train	0.936	0.843	
+0987_withyou	train	0.334	0.411	
+0991_worryaboutyounow	train	0.762	0.770	
+0999_yourheartisamuscle	train	0.671	0.725	
+0022_betteroffalone	test	0.561	0.452	0.780
+0035_boyfriend	test	0.852	0.852	0.852
+0066_decentdaysandnights	test	0.325	0.363	0.323
+0068_devilsisland	test	0.502	0.571	0.756
+0094_fireflies	test	0.709	0.709	0.515
+0113_giveituptome	test	0.749	0.816	0.683
+0131_iamthebest	test	0.359	0.359	0.214
+0142_indestructible	test	0.669	0.585	0.759
+0164_low	test	0.806	0.714	0.806
+0168_maneater	test	0.580	0.580	0.580
+0177_milkshake	test	0.466	0.367	0.673
+0191_newslang	test	0.591	0.580	0.635
+0198_nowthatwefoundlove	test	0.866	0.866	0.866
+0212_peoplegotalotofnerve	test	0.327	0.489	0.397
+0246_scenario	test	0.791	0.782	0.864
+0247_scream	test	0.865	0.865	0.865
+0261_starships	test	0.744	0.744	0.744
+0286_theragelive	test	0.399	0.353	0.399
+0287_therewasatime	test	0.429	0.500	0.492
+0312_whitefalconfuzz	test	0.722	0.684	0.722
+0323_yeah	test	0.605	0.605	0.525
+0333_allday	test	0.703	0.642	0.772
+0334_alltherightplaces	test	0.609	0.746	0.652
+0338_animal	test	0.834	0.916	0.760
+0342_bangpop	test	0.700	0.700	0.700
+0345_beinlovetonight	test	0.663	0.580	0.746
+0353_bottomsup	test	0.934	0.717	0.952
+0360_coolerthanme	test	0.361	0.505	0.706
+0364_deuces	test	0.951	0.999	0.904
+0365_dirtroadanthem	test	0.643	0.643	0.643
+0370_downonme	test	0.858	0.888	0.858
+0376_earthquake	test	0.771	0.885	0.771
+0379_et	test	0.753	0.753	0.753
+0384_finally	test	0.553	0.550	0.489
+0385_fiveoclock	test	0.751	0.751	0.641
+0388_gangnamstyle	test	0.461	0.453	0.381
+0409_idontlikeyou	test	0.593	0.650	0.597
+0411_ifihadyou	test	0.885	0.916	0.885
+0413_ifyoucouldonlysee	test	0.580	0.580	0.580
+0416_impossible	test	0.829	0.814	0.759
+0428_kingofanything	test	0.726	0.747	0.726
+0433_lighters	test	0.842	0.752	0.644
+0435_lookatmenow	test	0.879	0.879	0.939
+0436_loveactually	test	0.818	0.844	0.879
+0441_lovingyoutonight	test	0.825	0.825	0.825
+0442_lullaby	test	0.729	0.832	0.729
+0444_maybe	test	0.718	0.785	0.644
+0449_misery	test	0.605	0.605	0.605
+0454_myohmy	test	0.659	0.829	0.750
+0457_nothing	test	0.734	0.734	0.734
+0459_notoveryou	test	0.825	0.825	0.825
+0483_ridinsolo	test	0.723	0.670	0.723
+0491_skyscraper	test	0.720	0.757	0.720
+0493_somebodysheartbreak	test	0.603	0.603	0.779
+0498_springsteen	test	0.670	0.670	0.596
+0510_theonethatgotaway	test	0.900	0.852	0.835
+0515_thisafternoon	test	0.538	0.625	0.598
+0524_undoit	test	0.815	0.745	0.700
+0525_venus	test	0.400	0.291	0.400
+0526_waitingoutsidethelines	test	0.644	0.706	0.768
+0534_wideawake	test	0.763	0.763	0.708
+0542_yougetwhatyougive	test	0.359	0.298	0.359
+0553_alivefeatthegoodnatured	test	0.344	0.344	0.757
+0557_alligator	test	0.496	0.497	0.526
+0558_allnightlong	test	0.837	0.915	0.837
+0560_almostlovenow	test	0.679	0.679	0.679
+0564_americanboybenny	test	0.235	0.353	0.412
+0565_americanhoney	test	0.757	0.829	0.829
+0569_arrow	test	0.889	0.684	0.889
+0572_awake	test	0.475	0.739	0.558
+0574_badromanceappboyz	test	0.639	0.639	0.575
+0575_badromanceskrillexremix	test	0.711	0.800	0.688
+0580_beautiful	test	0.780	0.726	0.643
+0583_beautifulgirls	test	0.586	0.643	0.573
+0587_bedrock	test	0.768	0.768	0.768
+0591_biggirlsdontcry	test	0.940	0.864	0.754
+0597_boomboomguetta	test	0.504	0.567	0.504
+0602_breaktheice	test	0.444	0.614	0.504
+0607_cantholdus	test	0.886	0.532	0.605
+0615_circus	test	0.822	0.731	0.730
+0623_comeongethigher	test	0.628	0.628	0.628
+0626_coolerthanme	test	0.364	0.509	0.646
+0627_cowboyboots	test	0.753	0.830	0.648
+0628_crankthatsouljaboy	test	0.875	0.875	0.875
+0633_dancingmachine	test	0.695	0.825	0.782
+0634_dangerous	test	0.680	0.752	0.680
+0636_daynnitecrookersremix	test	0.674	0.765	0.674
+0647_dontthinkidontthinkaboutit	test	0.839	0.839	0.839
+0651_doyouremember	test	0.722	0.722	0.791
+0654_dynamitemixinmarc	test	0.604	0.663	0.602
+0660_everymorning	test	0.492	0.609	0.609
+0665_fall	test	0.982	0.982	0.982
+0666_fallin	test	0.689	0.443	0.689
+0673_feelsliketonight	test	0.737	0.802	0.866
+0677_fireburning	test	0.883	0.850	0.819
+0678_fireflies	test	0.712	0.812	0.712
+0698_goodtime	test	0.959	0.959	0.959
+0704_guitarstringweddingring	test	0.836	0.836	0.905
+0707_halfwaygone	test	0.822	0.822	0.819
+0716_heroheroine	test	0.732	0.788	0.873
+0717_heysoulsister	test	0.869	0.869	0.952
+0724_hotmessdj	test	0.986	0.986	0.986
+0725_hotncold	test	0.669	0.738	0.746
+0728_howyouremindme	test	0.586	0.586	0.586
+0733_ifihadyou	test	0.783	0.783	0.850
+0737_ihatethispart	test	0.455	0.535	0.535
+0741_iknowyoucare	test	0.294	0.407	0.294
+0744_immabe	test	0.466	0.481	0.494
+0745_immabewolf	test	0.577	0.524	0.904
+0748_imyours	test	0.674	0.750	0.551
+0756_istillmissyou	test	0.859	0.725	0.859
+0758_itgetsbetter	test	0.293	0.400	0.566
+0762_iwantitthatway	test	0.620	0.620	0.711
+0763_iwasafool	test	0.668	0.668	0.765
+0770_kingofmycastle	test	0.715	0.715	0.786
+0773_kissmethruthephone	test	0.830	0.830	0.830
+0780_letmebereal	test	0.662	0.412	0.579
+0782_lifeafteryou	test	0.728	0.827	0.827
+0792_lovedrunk	test	0.880	0.911	0.880
+0799_lovesexmagic	test	0.777	0.736	0.777
+0803_lovestory	test	0.824	0.754	0.829
+0806_mad	test	0.715	0.754	0.785
+0813_missindependent	test	0.504	0.504	0.498
+0815_mondaymondaymonday	test	0.291	0.364	0.323
+0817_morethanthis	test	0.575	0.633	0.575
+0823_mylifewouldsuckwithoutyou	test	0.919	0.919	0.847
+0833_northshore	test	0.541	0.513	0.504
+0836_notmyselftonight	test	0.685	0.646	0.685
+0839_nowyouseeit	test	0.729	0.810	0.866
+0841_obsessedcahill	test	0.771	0.453	0.453
+0854_overmyheadcablecar	test	0.954	0.954	0.869
+0855_overyou	test	0.713	0.858	0.842
+0857_paralyzer	test	0.727	0.816	0.727
+0862_pleasedontleaveme	test	0.586	0.585	0.704
+0880_righthere	test	0.611	0.611	0.611
+0881_rightround	test	0.883	0.806	0.960
+0884_rockstar	test	0.661	0.661	0.708
+0889_samelove	test	0.869	0.871	0.908
+0892_saveyoutonight	test	0.905	0.679	0.754
+0897_sentimentaltune	test	0.250	0.191	0.485
+0900_sexychickakon	test	0.692	0.692	0.538
+0905_shocktoyoursystem	test	0.572	0.572	0.572
+0908_sober	test	0.787	0.872	0.872
+0920_stopandstare	test	0.842	0.842	0.793
+0925_sweetdisposition	test	0.536	0.601	0.601
+0946_thinkingofyou	test	0.691	0.691	0.656
+0948_thislove	test	0.871	0.820	0.871
+0955_tinylittlebows	test	0.805	0.877	0.805
+0958_turnmeup	test	0.674	0.525	0.578
+0964_wakingupinvegas	test	0.635	0.640	0.635
+0970_whataboutnow	test	0.591	0.591	0.591
+0977_wheelsnow	test	0.564	0.564	0.564
+0979_whenlovetakesover	test	0.440	0.440	0.440
+0981_whenyouregone	test	0.526	0.526	0.703

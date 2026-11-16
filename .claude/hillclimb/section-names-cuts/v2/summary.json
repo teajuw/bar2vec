@@ -1,0 +1,30 @@
+{
+ "description": "Round 2: section classifier (fitted on annotated sections) with per-bar votes added as inputs; the bar model uses no section edges",
+ "target": "code",
+ "regime": "stack",
+ "test": {
+  "songs": 154,
+  "macro_f1_time": 55.8,
+  "macro_f1_ci": 3.2,
+  "seconds_right": 69.7,
+  "seconds_right_ci": 2.5,
+  "f1_per_label": {
+   "intro": 77.1,
+   "verse": 77.9,
+   "prechorus": 37.4,
+   "chorus": 77.8,
+   "postchorus": 16.1,
+   "bridge": 55.3,
+   "outro": 54.6,
+   "instrumental": 50.5
+  }
+ },
+ "train_out_of_fold": {
+  "songs": 150,
+  "macro_f1_time": 53.8,
+  "macro_f1_ci": 3.4,
+  "seconds_right": 70.5,
+  "vs_baseline": "+3.7 \u00b12.4 macro-F1, +2.1 \u00b11.6 seconds",
+  "note": "from the --cv run of 2026-11-16; per-song rows not written"
+ }
+}

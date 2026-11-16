@@ -8,13 +8,16 @@ was looked at: six well-known songs across genres, none in the Harmonix Set, eac
 that allows embedding. The audio of each video is fetched into audio_demo/ (not in the repo) for analysis
 only, so the section times line up with the video the demo page plays; the page never hosts audio.
 The pipeline is the playlist one: Beat This! bars, MATPAC++ per bar, the cutter in cuts.json, and the
-trained namer (name_model.py) with per-bar CLAP and loudness. A name below 0.8 probability is unsure.
+trained namer with per-bar CLAP and loudness: the section classifier of name_model.py with per-bar votes added
+to its inputs (nm_cuts_fit.py, regime "stack", saved as data/name_model_cuts.joblib). A name below 0.8
+probability is unsure. --namer v7 gives the earlier classifier without the votes.
 Writes article/demo/sections.json.
 
 With --catalogue it reads data/catalogue_songs.json instead (the chart songs matched to official uploads by
 catalogue_list.py and catalogue_match.py), skips the six featured songs, and writes article/demo/catalogue.json.
-Each song's result is kept in data/catalogue_cache/ so a rerun continues where it stopped, and the fetched
-audio is deleted as soon as the song is done. A song whose audio cannot be fetched is left out and listed.
+Each song's bars and per-bar embeddings are kept in data/catalogue_cache/<video>.npz (not in the repo), so a
+rerun continues where it stopped and a change of namer needs no audio. The fetched audio is deleted as soon as
+the song is done. A song whose audio cannot be fetched is left out and listed.
 """
 import argparse
 import contextlib
@@ -60,6 +63,7 @@ def main() -> None:
     ap = argparse.ArgumentParser()
     ap.add_argument("--catalogue", action="store_true")
     ap.add_argument("--limit", type=int, default=0)
+    ap.add_argument("--namer", default="stack", choices=["stack", "v7"])
     args = ap.parse_args()
     featured = json.loads((DEMO / "songs.json").read_text())
     songs = featured
@@ -81,12 +85,44 @@ def main() -> None:
     ccfg = json.loads((ROOT / "cuts.json").read_text())
     ncfg = json.loads((ROOT / "names.json").read_text())
     text = nm_run.text_vectors(ncfg["encoder"], ncfg["extra_prompts"])
-    model = name_model.load(True)
+    import joblib
+
+    import nm_cuts_fit
+
+    model = joblib.load(ROOT / "data" / "name_model_cuts.joblib") if args.namer == "stack" else name_model.load(True)
     out, failed, last3 = [], [], []
+
+    def named(song, db, end, m, c, loud):
+        """Cut and name one song from its bars and per-bar embeddings."""
+        end, m, c = float(end), np.asarray(m, dtype=np.float32), np.asarray(c, dtype=np.float32)
+        starts = db.astype(np.float32)
+        cuts, _ = find_cuts({ccfg["models"][0]: m}, starts, *geometry(ccfg, starts), ccfg)
+        cuts = np.sort(cuts[(cuts > 0) & (cuts < end)])
+        bounds = np.concatenate([[0.0], cuts, [end]])
+        by_model = {"matpacbar_fold": m, "clapbar_fold": c, "loudbar_fold": loud}
+        feats = name_model.raw_features(bounds, starts, by_model, text)
+        if args.namer == "stack":
+            bars = {"starts": starts, "f_bar": nm_cuts_fit.bar_features(starts, end, by_model, text)}
+            feats = nm_cuts_fit.with_votes(feats, nm_cuts_fit.bar_votes(model, bars, bounds))
+        proba = model["clf"].predict_proba(name_model.design(*feats, model))
+        roles = [N.LABELS[int(model["clf"].classes_[i])] for i in proba.argmax(1)]
+        groups = N.repeat_groups(N.section_vectors(bounds, starts, m), ncfg["structure"]["repeat_tau"])
+        order: dict[int, int] = {}
+        for g in groups:
+            order.setdefault(int(g), len(order))
+        result = {"duration": round(end, 2), "bars": int(len(db)), "sections": [
+            {"start": round(float(a), 2), "end": round(float(b), 2), "name": r, "group": order[int(g)], **({"unsure": True} if p < 0.8 else {})}
+            for a, b, r, g, p in zip(bounds[:-1], bounds[1:], roles, groups, proba.max(1))]}
+        out.append({**song, **result})
+        print(f"{song['artist']} - {song['title']}: {end:.0f} s, {len(db)} bars, median bar {np.median(np.diff(db)):.2f} s", flush=True)
+        if not args.catalogue:
+            for s in out[-1]["sections"]:
+                print(f"   {int(s['start']) // 60}:{int(s['start']) % 60:02d}  {s['name']}{'?' if s.get('unsure') else ''}  (group {s['group']})")
+
     for song in songs:
-        kept = cache / f"{song['video']}.json"
-        if args.catalogue and kept.exists():
-            out.append({**song, **json.loads(kept.read_text())})
+        kept = (cache if args.catalogue else ROOT / "audio_demo") / f"{song['video']}.npz"
+        if kept.exists():
+            named(song, **np.load(kept))
             continue
         if args.catalogue and len(failed) >= 3 and failed[-3:] == last3:
             print("YouTube is refusing requests; stopping here. Run again later to continue.")
@@ -123,28 +159,10 @@ def main() -> None:
         loud = np.array([frames[int(s * LSR / HOP) : max(int(e * LSR / HOP), int(s * LSR / HOP) + 1)].mean() for s, e in zip(edges[:-1], edges[1:])],
                         dtype=np.float32)[:, None]
 
-        starts = db.astype(np.float32)
-        cuts, _ = find_cuts({ccfg["models"][0]: m}, starts, *geometry(ccfg, starts), ccfg)
-        cuts = np.sort(cuts[(cuts > 0) & (cuts < end)])
-        bounds = np.concatenate([[0.0], cuts, [end]])
-        by_model = {"matpacbar_fold": m, "clapbar_fold": c, "loudbar_fold": loud}
-        proba = model["clf"].predict_proba(name_model.design(*name_model.raw_features(bounds, starts, by_model, text), model))
-        roles = [N.LABELS[int(model["clf"].classes_[i])] for i in proba.argmax(1)]
-        groups = N.repeat_groups(N.section_vectors(bounds, starts, m), ncfg["structure"]["repeat_tau"])
-        order: dict[int, int] = {}
-        for g in groups:
-            order.setdefault(int(g), len(order))
-        result = {"duration": round(end, 2), "bars": int(len(db)), "sections": [
-            {"start": round(float(a), 2), "end": round(float(b), 2), "name": r, "group": order[int(g)], **({"unsure": True} if p < 0.8 else {})}
-            for a, b, r, g, p in zip(bounds[:-1], bounds[1:], roles, groups, proba.max(1))]}
-        out.append({**song, **result})
-        print(f"{song['artist']} - {song['title']}: {end:.0f} s, {len(db)} bars, median bar {np.median(np.diff(db)):.2f} s", flush=True)
+        np.savez_compressed(kept, db=db, end=end, m=m.astype(np.float16), c=c.astype(np.float16), loud=loud)
         if args.catalogue:
-            kept.write_text(json.dumps(result))
             path.unlink()  # the audio was only needed for the analysis
-            continue
-        for s in out[-1]["sections"]:
-            print(f"   {int(s['start']) // 60}:{int(s['start']) % 60:02d}  {s['name']}{'?' if s.get('unsure') else ''}  (group {s['group']})")
+        named(song, **np.load(kept))  # from the saved copy, so a rerun gives the same result
     if args.catalogue:
         out.sort(key=lambda s: (s["artist"].lower(), s["title"].lower()))
         slim = [{k: v for k, v in s.items() if k != "kind"} for s in out]

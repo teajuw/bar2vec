@@ -13,7 +13,7 @@ This article uses the following definitions:
 - The **audio model** (MATPAC++ [1]) is pretrained and frozen. It was never trained on song structure.
 - A **section** is a stretch of bars that sound alike, and a **cut** is where one section ends and the next starts.
 - The **cutter** compares every bar with every other bar and cuts where the song changes. It uses no training.
-- The **namer** gives each section a name: intro, verse, pre-chorus, chorus, post-chorus, bridge, outro or instrumental. The **rules** use the song's shape alone. The **classifier** is trained on 150 annotated songs; it is the one part that was told what a chorus is, and it is what the demo uses.
+- The **namer** gives each section a name: intro, verse, pre-chorus, chorus, post-chorus, bridge, outro or instrumental. The **rules** use the song's shape alone. The **classifier** is trained on 150 annotated songs; it is the one part that was told what a chorus is. The demo uses it with one addition: every bar is also named on its own and a section's bars vote.
 - A bar's **colour** in the demo is its embedding squeezed to three numbers, the three directions that vary most across the song, shown as red, green and blue. It keeps about 35% of the variation and is only for looking: the cutter uses all 3,840 numbers.
 
 ## Results
@@ -35,7 +35,7 @@ Naming, on the same songs, given the annotated boundaries. The score is macro-F1
 | Rules, no training | 55.9 ±3.9 | 63.8% |
 | Classifier | 65.9 ±3.7 | 74.7% |
 
-End to end, bar2vec cuts a song and then names its own sections. Scored by time on the held-out songs, the classifier reaches 53.1 ±2.9, and perfect names on the same cuts would reach 89.5. Naming is the weaker half.
+End to end, bar2vec cuts a song and then names its own sections. Scored by time on the held-out songs, the classifier reaches 53.1 ±2.9, and 55.8 ±3.2 with the bar votes added (+2.7 ±2.3). Perfect names on the same cuts would reach 89.5. Naming is the weaker half.
 
 ## How it works
 
@@ -67,19 +67,20 @@ Naming was climbed the same way, one rule a round. Every round of both climbs is
 
 - **A bar-level transformer** for names reached 45 macro-F1 against 57 for the rules on the same songs. It learned the common names and missed the rare ones.
 - **Twice the labelled songs** did not help the classifier on held-out songs (+0.3 ±2.4).
+- **Fitting the classifier on bar2vec's own cuts** did not raise the end-to-end score on held-out songs (+0.1 ±2.2).
 - **Moving cuts to the nearest beat.** About 100 rule settings and a learned placer all failed to beat noise.
 - **A learned filter on the cuts** does score higher (75.4) but is trained on one pop-heavy dataset, so the training-free cutter is the one reported.
 
 ## Limits
 
 - Only Harmonix has been measured, and the naming rules encode Western pop song form.
-- The classifier was fitted on annotated boundaries and loses 13 points on bar2vec's own cuts.
+- The classifier loses 13 points when it names bar2vec's own cuts instead of annotated sections. Bar votes win back under 3.
 - 487 of Harmonix's 912 songs could be matched to audio. The ones that matched may differ from the ones that did not.
-- Nobody has listened to the demo's songs in full. About a third of their section names are marked unsure.
+- Nobody has listened to the demo's songs in full. 29% of their section names are marked unsure.
 
 ## Next
 
-- Fit the classifier on bar2vec's own cuts.
+- Confirm the bar-vote gain on the 180 locked songs, which have never been scored end to end.
 - Try other ways of grouping bars for picking the chorus, the rules' largest remaining loss.
 - Test whether a section's name can be read off its nearest neighbours in other songs.
 - Test on music outside Harmonix.

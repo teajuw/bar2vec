@@ -21,7 +21,7 @@
    {
     "start": 17.48,
     "end": 28.72,
-    "name": "chorus",
+    "name": "instrumental",
     "group": 2,
     "unsure": true
    },
@@ -34,9 +34,8 @@
    {
     "start": 51.16,
     "end": 84.86,
-    "name": "verse",
-    "group": 4,
-    "unsure": true
+    "name": "chorus",
+    "group": 4
    },
    {
     "start": 84.86,
@@ -54,21 +53,20 @@
     "start": 105.92,
     "end": 163.46,
     "name": "chorus",
-    "group": 4
+    "group": 4,
+    "unsure": true
    },
    {
     "start": 163.46,
     "end": 185.92,
-    "name": "postchorus",
-    "group": 2,
-    "unsure": true
+    "name": "instrumental",
+    "group": 2
    },
    {
     "start": 185.92,
     "end": 203.27,
     "name": "outro",
-    "group": 5,
-    "unsure": true
+    "group": 5
    }
   ]
  },
@@ -88,7 +86,7 @@
    {
     "start": 14.26,
     "end": 40.92,
-    "name": "chorus",
+    "name": "verse",
     "group": 1
    },
    {
@@ -114,35 +112,34 @@
    {
     "start": 74.68,
     "end": 88.88,
-    "name": "chorus",
+    "name": "verse",
     "group": 4,
     "unsure": true
    },
    {
     "start": 88.88,
     "end": 115.58,
-    "name": "chorus",
+    "name": "verse",
     "group": 1,
     "unsure": true
    },
    {
     "start": 115.58,
     "end": 120.9,
-    "name": "prechorus",
+    "name": "postchorus",
     "group": 2,
     "unsure": true
    },
    {
     "start": 120.9,
     "end": 147.58,
-    "name": "chorus",
-    "group": 3,
-    "unsure": true
+    "name": "instrumental",
+    "group": 3
    },
    {
     "start": 147.58,
     "end": 175.16,
-    "name": "bridge",
+    "name": "chorus",
     "group": 5,
     "unsure": true
    },
@@ -183,8 +180,7 @@
     "start": 52.12,
     "end": 57.88,
     "name": "instrumental",
-    "group": 3,
-    "unsure": true
+    "group": 3
    },
    {
     "start": 57.88,
@@ -201,8 +197,9 @@
    {
     "start": 103.74,
     "end": 121.08,
-    "name": "postchorus",
-    "group": 3
+    "name": "instrumental",
+    "group": 3,
+    "unsure": true
    },
    {
     "start": 121.08,
@@ -299,7 +296,7 @@
    {
     "start": 47.32,
     "end": 66.14,
-    "name": "chorus",
+    "name": "prechorus",
     "group": 2,
     "unsure": true
    },
@@ -320,8 +317,7 @@
     "start": 94.38,
     "end": 129.68,
     "name": "chorus",
-    "group": 2,
-    "unsure": true
+    "group": 2
    },
    {
     "start": 129.68,
@@ -401,14 +397,14 @@
    {
     "start": 143.62,
     "end": 154.08,
-    "name": "instrumental",
+    "name": "bridge",
     "group": 6,
     "unsure": true
    },
    {
     "start": 154.08,
     "end": 163.42,
-    "name": "bridge",
+    "name": "verse",
     "group": 7,
     "unsure": true
    },
@@ -421,7 +417,7 @@
    {
     "start": 180.9,
     "end": 209.82,
-    "name": "chorus",
+    "name": "outro",
     "group": 3,
     "unsure": true
    }
