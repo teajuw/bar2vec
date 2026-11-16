@@ -17,3 +17,7 @@ data/downloads.json
 
 # demo audio, used for analysis only
 audio_demo/
+
+# per-song results of the catalogue run, rebuilt by scripts/demo_songs.py --catalogue
+data/catalogue_cache/
+data/catalogue_match_cache.json

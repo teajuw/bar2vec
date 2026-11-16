@@ -15,6 +15,14 @@ html,body{margin:0;background:var(--bg,#faf9f5);color:var(--ink,#141413);font-fa
 .songs button small{display:block;color:var(--ink-2,#5c5b56);font-size:12px}
 .songs button[aria-pressed="true"]{border-color:var(--ink,#141413);box-shadow:inset 0 0 0 1px var(--ink,#141413)}
 .songs button:focus-visible,.bar button:focus-visible{outline:2px solid var(--accent,#c2613f);outline-offset:2px}
+.find{position:relative;margin:0 0 12px}
+.find input{width:100%;font:inherit;font-size:15px;padding:8px 10px;border:1px solid var(--rule,#e4e1d7);border-radius:var(--box-radius,3px);background:var(--raised,#fff);color:var(--ink,#141413)}
+.hits{list-style:none;margin:4px 0 0;padding:0;border:1px solid var(--rule,#e4e1d7);border-radius:var(--box-radius,3px);background:var(--raised,#fff);max-height:264px;overflow-y:auto}
+.hits li+li{border-top:1px solid var(--rule,#e4e1d7)}
+.hits button{display:block;width:100%;font:inherit;font-size:14px;text-align:left;padding:7px 10px;border:0;background:none;color:var(--ink,#141413);cursor:pointer}
+.hits button:hover,.hits button:focus-visible{background:var(--surface,#f1efe7)}
+.hits small{color:var(--ink-2,#5c5b56);margin-left:8px}
+.hits .none{padding:8px 10px;font-size:14px;color:var(--ink-2,#5c5b56)}
 .video{position:relative;aspect-ratio:16/9;background:#000;border-radius:var(--box-radius,3px);overflow:hidden}
 .video iframe,.video #player{position:absolute;inset:0;width:100%;height:100%;border:0}
 .bar{position:relative;height:46px;margin:12px 0 0;touch-action:manipulation}
@@ -53,11 +61,15 @@ html,body{margin:0;background:var(--bg,#faf9f5);color:var(--ink,#141413);font-fa
   </div>
   <div id="listen" role="tabpanel" aria-labelledby="tabListen">
   <div class="songs" id="songs" role="group" aria-label="Song"></div>
+  <div class="find" id="find" hidden>
+    <input id="q" type="search" autocomplete="off" placeholder="Search more songs" aria-label="Search the song catalogue" aria-controls="hits">
+    <ul class="hits" id="hits" hidden></ul>
+  </div>
   <div class="video"><div id="player"></div></div>
   <div class="bar" id="bar" aria-label="Sections of the song, in order"><i class="head" id="head"></i></div>
   <div class="now"><span id="now">Loading…</span><span id="clock"></span></div>
   <div class="key" id="key" aria-hidden="true"></div>
-  <p class="note">Press play, or pick a section to jump to it. bar2vec made these cuts and names from the audio alone. The cutter uses no training; the names come from a classifier trained on 150 annotated songs, which names 68% of a song's seconds right on songs it has not seen. A striped section ending in ? is a name it is unsure of. The six songs were chosen before looking at the output, and the audio plays from YouTube.</p>
+  <p class="note">Press play, or pick a section to jump to it. bar2vec made these cuts and names from the audio alone. The cutter uses no training; the names come from a classifier trained on 150 annotated songs, which names 68% of a song's seconds right on songs it has not seen. A striped section ending in ? is a name it is unsure of. The six songs were chosen before looking at the output, and the audio plays from YouTube. <span id="catNote"></span></p>
   </div>
   <div id="how" role="tabpanel" aria-labelledby="tabHow" hidden>
     <canvas id="obStage" role="img" aria-label="Animation: one bar of the song becomes a spectrogram, passes through a frozen audio model, comes out as 3,840 numbers, and is shown as one colour beside every other bar."></canvas>
@@ -127,9 +139,13 @@ function tick(t) {
   $("now").innerHTML = s ? "<b>" + (LONG[s.name] || s.name) + (s.unsure ? "?" : "") + "</b> " + clock(s.start) + "–" + clock(s.end) : "";
 }
 
-function pick(i) {
-  song = songs[i];
-  $("songs").querySelectorAll("button").forEach((b, k) => b.setAttribute("aria-pressed", k === i));
+function pick(i, found) {  // one of the six featured songs, or a song found by search
+  song = found || songs[i];
+  $("songs").querySelectorAll("button").forEach((b, k) => b.setAttribute("aria-pressed", !found && k === i));
+  const old = $("picked"); if (old) old.remove();
+  if (found) {  // the found song joins the row of buttons, so it is clear what is playing
+    const b = songButton(found); b.id = "picked"; b.setAttribute("aria-pressed", true); $("songs").append(b);
+  }
   draw();
   if (ready) player.cueVideoById(song.video);
   tellHeight();
@@ -146,6 +162,48 @@ window.onYouTubeIframeAPIReady = () => {
     },
   });
 };
+
+function songButton(s) {
+  const b = document.createElement("button");
+  b.type = "button";
+  b.append(s.title);
+  const small = document.createElement("small");
+  small.textContent = s.artist;
+  b.append(small);
+  return b;
+}
+
+// The catalogue: more songs, found by search. It is optional; without the file the six songs still work.
+let catalogue = [];
+const norm = s => s.toLowerCase().normalize("NFD").replace(/[^a-z0-9 ]/g, "");
+function loadCatalogue() {
+  fetch("catalogue.json").then(r => r.ok ? r.json() : []).then(data => {
+    if (!data.length) return;
+    catalogue = data.map(s => ({...s, key: norm(s.title + " " + s.artist)}));
+    const years = catalogue.map(s => s.year);
+    $("q").placeholder = "Search " + catalogue.length + " more songs by title or artist";
+    $("catNote").textContent = "The search covers " + catalogue.length + " more: the top 40 songs of each Billboard year-end chart from " + Math.min(...years) + " to " + Math.max(...years) + " that have an official upload allowing embedding. None was added or removed for how its sections came out.";
+    $("find").hidden = false;
+    tellHeight();
+  }).catch(() => {});
+}
+function search() {
+  const words = norm($("q").value).split(" ").filter(Boolean), list = $("hits");
+  list.replaceChildren();
+  list.hidden = !words.length;
+  if (words.length) {
+    const found = catalogue.filter(s => words.every(w => s.key.includes(w))).slice(0, 30);
+    found.forEach(s => {
+      const li = document.createElement("li"), b = document.createElement("button"), small = document.createElement("small");
+      b.type = "button"; b.append(s.title); small.textContent = s.artist; b.append(small);
+      b.onclick = () => { $("q").value = ""; search(); pick(-1, s); };
+      li.append(b); list.append(li);
+    });
+    if (!found.length) { const li = document.createElement("li"); li.className = "none"; li.textContent = "Not in the catalogue. It holds chart songs from " + Math.min(...catalogue.map(s => s.year)) + " on."; list.append(li); }
+  }
+  tellHeight();
+}
+$("q").oninput = search;
 
 // The second tab follows one bar through the method. Its data loads the first time the tab is opened.
 let how = null;
@@ -168,17 +226,12 @@ $("tabHow").onclick = () => show("how");
 fetch("sections.json").then(r => r.json()).then(data => {
   songs = data;
   songs.forEach((s, i) => {
-    const b = document.createElement("button");
-    b.type = "button";
-    b.innerHTML = "";
-    b.append(s.title);
-    const small = document.createElement("small");
-    small.textContent = s.artist;
-    b.append(small);
+    const b = songButton(s);
     b.onclick = () => pick(i);
     $("songs").append(b);
   });
   pick(0);
+  loadCatalogue();
   const api = document.createElement("script");
   api.src = "https://www.youtube.com/iframe_api";
   document.head.append(api);

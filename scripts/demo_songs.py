@@ -1,6 +1,7 @@
 """Run bar2vec on the demo songs: cut each one into sections and name them, for the demo on the article page.
 
-Usage: uv run scripts/demo_songs.py
+Usage: uv run scripts/demo_songs.py                 the six featured songs -> article/demo/sections.json
+       uv run scripts/demo_songs.py --catalogue     the searchable catalogue -> article/demo/catalogue.json
 
 Reads article/demo/songs.json (YouTube video id, title, artist). The songs were chosen before any output
 was looked at: six well-known songs across genres, none in the Harmonix Set, each an official upload
@@ -9,11 +10,18 @@ only, so the section times line up with the video the demo page plays; the page 
 The pipeline is the playlist one: Beat This! bars, MATPAC++ per bar, the cutter in cuts.json, and the
 trained namer (name_model.py) with per-bar CLAP and loudness. A name below 0.8 probability is unsure.
 Writes article/demo/sections.json.
+
+With --catalogue it reads data/catalogue_songs.json instead (the chart songs matched to official uploads by
+catalogue_list.py and catalogue_match.py), skips the six featured songs, and writes article/demo/catalogue.json.
+Each song's result is kept in data/catalogue_cache/ so a rerun continues where it stopped, and the fetched
+audio is deleted as soon as the song is done. A song whose audio cannot be fetched is left out and listed.
 """
+import argparse
 import contextlib
 import io
 import json
 import os
+import time
 from pathlib import Path
 
 os.environ.setdefault("PYTORCH_ENABLE_MPS_FALLBACK", "1")
@@ -43,12 +51,23 @@ def fetch(video: str) -> Path:
     import yt_dlp
 
     AUDIO.mkdir(exist_ok=True)
-    opts = {"quiet": True, "no_warnings": True, "format": "bestaudio[ext=m4a]/bestaudio", "outtmpl": str(AUDIO / "%(id)s.%(ext)s"), "noplaylist": True}
+    opts = {"quiet": True, "no_warnings": True, "noprogress": True, "format": "bestaudio[ext=m4a]/bestaudio", "outtmpl": str(AUDIO / "%(id)s.%(ext)s"), "noplaylist": True}
     with yt_dlp.YoutubeDL(opts) as ydl:
         return Path(ydl.prepare_filename(ydl.extract_info(f"https://www.youtube.com/watch?v={video}", download=True)))
 
 
 def main() -> None:
+    ap = argparse.ArgumentParser()
+    ap.add_argument("--catalogue", action="store_true")
+    ap.add_argument("--limit", type=int, default=0)
+    args = ap.parse_args()
+    featured = json.loads((DEMO / "songs.json").read_text())
+    songs = featured
+    cache = ROOT / "data" / "catalogue_cache"
+    if args.catalogue:
+        skip = {s["video"] for s in featured}
+        songs = [s for s in json.loads((ROOT / "data" / "catalogue_songs.json").read_text()) if s["video"] not in skip][: args.limit or None]
+        cache.mkdir(exist_ok=True)
     import laion_clap
     from beat_this.inference import Audio2Beats
 
@@ -63,9 +82,26 @@ def main() -> None:
     ncfg = json.loads((ROOT / "names.json").read_text())
     text = nm_run.text_vectors(ncfg["encoder"], ncfg["extra_prompts"])
     model = name_model.load(True)
-    out = []
-    for song in json.loads((DEMO / "songs.json").read_text()):
-        path = fetch(song["video"])
+    out, failed, last3 = [], [], []
+    for song in songs:
+        kept = cache / f"{song['video']}.json"
+        if args.catalogue and kept.exists():
+            out.append({**song, **json.loads(kept.read_text())})
+            continue
+        if args.catalogue and len(failed) >= 3 and failed[-3:] == last3:
+            print("YouTube is refusing requests; stopping here. Run again later to continue.")
+            break
+        try:
+            if args.catalogue:
+                time.sleep(1.5)  # space the requests out
+            path = fetch(song["video"])
+            last3 = []
+        except Exception as e:
+            if not args.catalogue:
+                raise
+            failed.append(f"{song['artist']} - {song['title']}: {str(e)[:100]}")
+            last3 = failed[-3:] if len(last3) >= 2 else last3 + [failed[-1]]
+            continue
         audio = decode(path, SR)
         end = len(audio) / SR
         _, downbeats = tracker(audio, SR)
@@ -98,12 +134,23 @@ def main() -> None:
         order: dict[int, int] = {}
         for g in groups:
             order.setdefault(int(g), len(order))
-        out.append({**song, "duration": round(end, 2), "bars": int(len(db)), "sections": [
+        result = {"duration": round(end, 2), "bars": int(len(db)), "sections": [
             {"start": round(float(a), 2), "end": round(float(b), 2), "name": r, "group": order[int(g)], **({"unsure": True} if p < 0.8 else {})}
-            for a, b, r, g, p in zip(bounds[:-1], bounds[1:], roles, groups, proba.max(1))]})
-        print(f"{song['artist']} - {song['title']}: {end:.0f} s, {len(db)} bars, median bar {np.median(np.diff(db)):.2f} s")
+            for a, b, r, g, p in zip(bounds[:-1], bounds[1:], roles, groups, proba.max(1))]}
+        out.append({**song, **result})
+        print(f"{song['artist']} - {song['title']}: {end:.0f} s, {len(db)} bars, median bar {np.median(np.diff(db)):.2f} s", flush=True)
+        if args.catalogue:
+            kept.write_text(json.dumps(result))
+            path.unlink()  # the audio was only needed for the analysis
+            continue
         for s in out[-1]["sections"]:
             print(f"   {int(s['start']) // 60}:{int(s['start']) % 60:02d}  {s['name']}{'?' if s.get('unsure') else ''}  (group {s['group']})")
+    if args.catalogue:
+        out.sort(key=lambda s: (s["artist"].lower(), s["title"].lower()))
+        slim = [{k: v for k, v in s.items() if k != "kind"} for s in out]
+        (DEMO / "catalogue.json").write_text(json.dumps(slim, separators=(",", ":"), ensure_ascii=False) + "\n")
+        print(f"{len(out)} songs in the catalogue; {len(failed)} could not be fetched: {failed}")
+        return
     (DEMO / "sections.json").write_text(json.dumps(out, indent=1, ensure_ascii=False) + "\n")
 
 
