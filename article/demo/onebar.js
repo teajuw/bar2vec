@@ -39,7 +39,7 @@ const STEPS = [
 const END = 56;
 const LAYER0 = 20.5, LAYER_S = 0.5;  // when the layers start, and how long each one shows
 
-document.getElementById("obNote").textContent = "Everything drawn is computed from the song's audio. The spectrogram and the tiles are the audio model's own values for this bar. Until the last layer, each tile shows a patch's numbers minus the average patch at that layer. In the layers step the lines show which patches a patch reads (all of them), not how strongly. The colour is only for looking: bar2vec compares bars on the full list of numbers.";
+document.getElementById("obNote").textContent = "Everything drawn is computed from the song's audio, and the tiles are the audio model's own values for this bar (until the last layer, minus the average patch). The lines show which patches a patch reads, not how strongly. The colour is only for looking: bar2vec compares bars on the full list of numbers.";
 
 const cv = document.getElementById("obStage"), cx = cv.getContext("2d");
 let W = 0, H = 0, wide = true, C = {}, specCv = null, embCv = null, atlas = [], rawLast = null, built = "";

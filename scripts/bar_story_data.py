@@ -2,8 +2,7 @@
 
 Usage: uv run scripts/bar_story_data.py OUT.json [--video aeDdS9aIpck] [--bar N]
 
-Follows one bar (default: the first bar of the first chorus) through the same steps as
-scripts/make_process_figure.py: its sound, the log-mel spectrogram the audio model makes of it (80 bands), every patch's 768 numbers at each layer,
+Follows one bar (default: the first bar of the first chorus) through the method: its sound, the log-mel spectrogram the audio model makes of it (80 bands), every patch's 768 numbers at each layer,
 its MATPAC++ embedding (all 3,840 numbers), the three principal-component values that become
 its colour, and its similarity to every other bar. Also writes every bar's colour and the sections.
 """

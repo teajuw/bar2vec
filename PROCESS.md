@@ -203,6 +203,10 @@ The user asked whether visitors could look up any song. They cannot: the YouTube
 - **Processing** (`scripts/demo_songs.py --catalogue`): the same pipeline as the six featured songs; each song's audio is deleted when it is done. 265 songs (270 less the five that are already featured) are in `article/demo/catalogue.json`.
 - **What the output looks like:** a median of 9 sections a song, 34% of sections marked unsure, and 13 songs with no section named chorus. No song was added or removed for how it came out, and nobody has listened to them. Each video was accepted on YouTube's embedding flag; they were not all played in a browser.
 
+### 10h. The page made shorter (2026-11-16)
+
+The user asked for the demo's two tabs to go, with listening first and the animation second, and for the rest of the page to be kept short. The demo frame is now two stacked parts, "Listen to the result" then "See how it works"; the animation starts the first time it scrolls into view. The article went from about 1,900 words to about 1,250. Removed from the article, not from this log: the static step-by-step figure (`article/process.svg` and `scripts/make_process_figure.py` are deleted, since the animation shows the same steps with real data), the round-by-round tables of both climbs, the naming chart (`article/names.svg` stays in the repo, unused), and the end-to-end table, now two sentences. No number changed.
+
 ### 11. Duplicate songs in Harmonix (found 2026-11-13)
 
 Harmonix contains repeats and remixes of the same song. Among the 487 songs used there are 17 title-and-artist groups (36 songs); 9 groups span splits, two pairs across train and held-out, and seven final songs have a sibling among the climb songs. This applies to the cutter results as well. For rule-based methods it can leak little, since nothing is memorised; it matters more for the trained rows (the cutter's merge model was fitted without excluding these; the trained namer excluded the three affected train songs).

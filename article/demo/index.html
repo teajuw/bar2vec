@@ -37,9 +37,9 @@ html,body{margin:0;background:var(--bg,#faf9f5);color:var(--ink,#141413);font-fa
 .key i{display:inline-block;width:10px;height:10px;border-radius:2px;margin-right:5px;vertical-align:-1px}
 .note{margin:10px 0 0;font-size:13px;color:var(--ink-2,#5c5b56)}
 :focus-visible{outline:2px solid var(--accent,#c2613f);outline-offset:2px}
-.tabs{display:flex;gap:6px;margin:0 0 14px;border-bottom:1px solid var(--rule,#e4e1d7)}
-.tabs button{font:inherit;font-size:15px;font-weight:500;padding:8px 2px;margin:0 14px -1px 0;border:0;border-bottom:2px solid transparent;background:none;color:var(--ink-2,#5c5b56);cursor:pointer}
-.tabs button[aria-selected="true"]{color:var(--ink,#141413);border-bottom-color:var(--ink,#141413)}
+.part{font-size:17px;font-weight:600;line-height:1.3;margin:0 0 12px}
+.part+*{margin-top:0}
+#how{margin-top:36px}
 #obStage{display:block;width:100%}
 .ob-cap{display:grid;grid-template-columns:auto minmax(0,1fr);column-gap:12px;margin:10px 0 0;min-height:4.4em}
 .ob-cap b{font-family:var(--mono,ui-monospace,Menlo,monospace);font-size:13px;font-weight:500;color:var(--accent,#c2613f);padding-top:2px;white-space:nowrap}
@@ -55,11 +55,8 @@ html,body{margin:0;background:var(--bg,#faf9f5);color:var(--ink,#141413);font-fa
 </head>
 <body>
 <div id="demo">
-  <div class="tabs" role="tablist" aria-label="Demo">
-    <button type="button" role="tab" id="tabListen" aria-controls="listen" aria-selected="true">Listen to the result</button>
-    <button type="button" role="tab" id="tabHow" aria-controls="how" aria-selected="false">See how it works</button>
-  </div>
-  <div id="listen" role="tabpanel" aria-labelledby="tabListen">
+  <div id="listen">
+  <h2 class="part">Listen to the result</h2>
   <div class="songs" id="songs" role="group" aria-label="Song"></div>
   <div class="find" id="find" hidden>
     <input id="q" type="search" autocomplete="off" placeholder="Search more songs" aria-label="Search the song catalogue" aria-controls="hits">
@@ -69,9 +66,10 @@ html,body{margin:0;background:var(--bg,#faf9f5);color:var(--ink,#141413);font-fa
   <div class="bar" id="bar" aria-label="Sections of the song, in order"><i class="head" id="head"></i></div>
   <div class="now"><span id="now">Loading…</span><span id="clock"></span></div>
   <div class="key" id="key" aria-hidden="true"></div>
-  <p class="note">Press play, or pick a section to jump to it. bar2vec made these cuts and names from the audio alone. The cutter uses no training; the names come from a classifier trained on 150 annotated songs, which names 68% of a song's seconds right on songs it has not seen. A striped section ending in ? is a name it is unsure of. The six songs were chosen before looking at the output, and the audio plays from YouTube. <span id="catNote"></span></p>
+  <p class="note">Press play, or pick a section to jump to it. bar2vec made the cuts and the names from the audio alone; a striped section ending in ? is a name it is unsure of. The names come from a classifier that gets 68% of a song's seconds right on songs it has not seen. <span id="catNote"></span></p>
   </div>
-  <div id="how" role="tabpanel" aria-labelledby="tabHow" hidden>
+  <div id="how">
+    <h2 class="part">See how it works</h2>
     <canvas id="obStage" role="img" aria-label="Animation: one bar of the song becomes a spectrogram, passes through a frozen audio model, comes out as 3,840 numbers, and is shown as one colour beside every other bar."></canvas>
     <div class="ob-cap" aria-live="polite"><b id="obN"></b><p id="obText"></p></div>
     <div class="ob-ctl">
@@ -182,7 +180,7 @@ function loadCatalogue() {
     catalogue = data.map(s => ({...s, key: norm(s.title + " " + s.artist)}));
     const years = catalogue.map(s => s.year);
     $("q").placeholder = "Search " + catalogue.length + " more songs by title or artist";
-    $("catNote").textContent = "The search covers " + catalogue.length + " more: the top 40 songs of each Billboard year-end chart from " + Math.min(...years) + " to " + Math.max(...years) + " that have an official upload allowing embedding. None was added or removed for how its sections came out.";
+    $("catNote").textContent = "The search covers " + catalogue.length + " chart hits from " + Math.min(...years) + " to " + Math.max(...years) + ", picked by a rule and not by how their sections came out.";
     $("find").hidden = false;
     tellHeight();
   }).catch(() => {});
@@ -205,23 +203,20 @@ function search() {
 }
 $("q").oninput = search;
 
-// The second tab follows one bar through the method. Its data loads the first time the tab is opened.
-let how = null;
-function show(which) {
-  const isHow = which === "how";
-  $("listen").hidden = isHow;
-  $("how").hidden = !isHow;
-  $("tabListen").setAttribute("aria-selected", !isHow);
-  $("tabHow").setAttribute("aria-selected", isHow);
-  if (isHow && ready && player.pauseVideo) player.pauseVideo();
-  if (!isHow) { if (how) how.stop(); fit(); }
-  else if (how) how.start();
-  else fetch("bar.json").then(r => r.json()).then(d => { how = oneBar(d); how.start(); tellHeight(); })
-    .catch(() => { $("obText").textContent = "The animation data did not load."; });
-  tellHeight();
+// The second part follows one bar through the method. It starts the first time it scrolls into view.
+function startWhenSeen(how) {
+  let page = window, frame = null;
+  try { frame = window.frameElement; if (frame) page = parent; } catch (e) {}  // inside the article, the page that scrolls is the parent
+  const seen = () => {
+    const r = $("obStage").getBoundingClientRect(), top = r.top + (frame ? frame.getBoundingClientRect().top : 0);
+    return top + r.height * 0.6 < page.innerHeight && top + r.height * 0.4 > 0;
+  };
+  const check = () => { if (seen()) { page.removeEventListener("scroll", check); how.start(); } };
+  page.addEventListener("scroll", check, {passive: true});
+  check();
 }
-$("tabListen").onclick = () => show("listen");
-$("tabHow").onclick = () => show("how");
+fetch("bar.json").then(r => r.json()).then(d => { startWhenSeen(oneBar(d)); tellHeight(); })
+  .catch(() => { $("obText").textContent = "The animation data did not load."; });
 
 fetch("sections.json").then(r => r.json()).then(data => {
   songs = data;
